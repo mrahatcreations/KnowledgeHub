@@ -126,10 +126,13 @@ export default function SagaLevelPath({
   }
 
   return (
-    <div className="w-full max-w-md mx-auto flex flex-col items-center select-none pt-[148px] pb-28 sm:pb-32">
+    <div className="w-full max-w-md mx-auto flex flex-col items-center select-none pt-[calc(145px+env(safe-area-inset-top,0px))] pb-28 sm:pb-32">
       {/* 1. PERMANENTLY FIXED TOP DASHBOARD (Status + Progress + Filter Pills) */}
-      <div className="fixed top-0 left-0 right-0 z-40 bg-slate-950/95 backdrop-blur-md border-b border-slate-800 shadow-md">
-        <div className="max-w-md mx-auto px-3 pt-2.5 pb-2.5">
+      <div 
+        className="fixed top-0 left-0 right-0 z-40 bg-[#0b0f19] border-b border-slate-800 shadow-md safe-top"
+        style={{ paddingTop: 'max(env(safe-area-inset-top, 0px), 8px)' }}
+      >
+        <div className="max-w-md w-full mx-auto px-3.5 pb-2.5">
           {/* Top Status & Controls Row */}
           <div className="flex items-center justify-between gap-2 mb-2">
             <div className="flex items-center space-x-2 min-w-0">
@@ -188,7 +191,7 @@ export default function SagaLevelPath({
           {/* Level Progress Bar */}
           <div className="w-full h-1.5 bg-slate-900 rounded-full border border-slate-800 overflow-hidden mb-2">
             <div 
-              className="h-full bg-blue-500 rounded-full transition-all duration-500"
+              className="h-full bg-blue-500 rounded-full transition-all duration-300"
               style={{ width: `${Math.max(3, progressPercent)}%` }}
             />
           </div>
@@ -230,6 +233,7 @@ export default function SagaLevelPath({
           viewBox={`0 0 320 ${totalSvgHeight}`}
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
+          style={{ transform: 'translate3d(0, 0, 0)', willChange: 'transform' }}
         >
           {/* Base Road Track */}
           <path
@@ -273,15 +277,17 @@ export default function SagaLevelPath({
 
           return (
             <React.Fragment key={lvl.level_id}>
-              {/* Node Container */}
+              {/* Node Container with Virtualized Content Visibility for 60FPS Performance */}
               <div
                 ref={isCurrent ? currentNodeRef : null}
                 style={{
                   position: 'absolute',
                   top: `${pos.y}px`,
                   left: `${pos.x}px`,
-                  transform: 'translate(-50%, -50%)',
-                  zIndex: isCurrent ? 25 : 10
+                  transform: 'translate3d(-50%, -50%, 0)',
+                  zIndex: isCurrent ? 25 : 10,
+                  contentVisibility: isCurrent ? 'visible' : 'auto',
+                  containIntrinsicSize: '80px 105px'
                 }}
                 className="flex flex-col items-center"
               >

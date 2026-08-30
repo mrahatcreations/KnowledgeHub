@@ -33,9 +33,12 @@ export default function MobileHUD({
   const totalMasteredLevels = Object.values(levelStars || {}).filter(s => Number(s) >= 5 || Number(s) === 10).length;
 
   return (
-    <header className="sticky top-0 z-40 bg-slate-950/95 backdrop-blur-md border-b border-slate-800 text-white px-3 sm:px-4 py-2.5 shadow-sm select-none safe-top">
+    <header 
+      className="sticky top-0 z-40 bg-[#0b0f19] border-b border-slate-800 text-white px-3.5 pb-2.5 shadow-sm select-none safe-top"
+      style={{ paddingTop: 'max(env(safe-area-inset-top, 0px), 8px)' }}
+    >
       {/* Top Mobile Status Mini-Bar */}
-      <div className="max-w-md mx-auto flex items-center justify-between gap-2">
+      <div className="max-w-md w-full mx-auto flex items-center justify-between gap-2">
         {/* Left Side: Back Arrow (In-Game) or Brand Badge (In-Map) */}
         {currentLevel ? (
           <button

@@ -9,8 +9,8 @@ export default function BottomNav({ activeTab, setActiveTab }) {
   ];
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 z-40 bg-slate-950/95 backdrop-blur-md border-t border-slate-800 px-3 sm:px-6 pt-2 pb-[max(0.5rem,env(safe-area-inset-bottom))] shadow-lg safe-bottom select-none">
-      <div className="max-w-md mx-auto flex items-center justify-around gap-2.5">
+    <nav className="fixed bottom-0 left-0 right-0 z-40 bg-[#0b0f19] border-t border-slate-800 px-3.5 pt-2 pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-lg safe-bottom select-none">
+      <div className="max-w-md w-full mx-auto flex items-center justify-around gap-2.5">
         {tabs.map((tab) => {
           const Icon = tab.icon;
           const isActive = activeTab === tab.id;
