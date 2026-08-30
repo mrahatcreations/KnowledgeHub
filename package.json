@@ -1,7 +1,7 @@
 {
-  "name": "vocab-master",
+  "name": "knowledge-hub",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.7",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -17,6 +17,7 @@
     "canvas-confetti": "^1.9.4",
     "clsx": "^2.1.1",
     "lucide-react": "^1.16.0",
+    "msedge-tts": "^2.0.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

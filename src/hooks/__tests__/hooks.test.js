@@ -363,3 +363,223 @@ test('Multi-level compilation produces full spectrum of matching modes, flashcar
   assert.ok(recordedTrueFalseStatements.has('antonym'), 'True/False must generate antonym statements');
   assert.ok(recordedTrueFalseStatements.has('pos'), 'True/False must generate Part of Speech statements');
 });
+
+test('DragDropStage Generator, Sentence Masking & Distractor Selection', () => {
+  const sampleItem = {
+    id: 1,
+    word: 'Incorporate',
+    pos: 'v',
+    meaning: 'অন্তর্ভুক্ত করা',
+    raw_synonyms: 'Integrate, Include',
+    raw_antonyms: 'Exclude, Remove',
+    sentence: 'We must incorporate user feedback into the workflow.'
+  };
+
+  const allItems = [
+    sampleItem,
+    { id: 2, word: 'Automate', pos: 'v', meaning: 'স্বয়ংক্রিয় করা' },
+    { id: 3, word: 'Repetitive', pos: 'adj', meaning: 'পুনরাবৃত্তিমূলক' },
+    { id: 4, word: 'Enhance', pos: 'v', meaning: 'উন্নত করা' },
+    { id: 5, word: 'Clarify', pos: 'v', meaning: 'স্পষ্ট করা' }
+  ];
+
+  // Test full stage payload generation
+  const stage = generateDragDropStage(sampleItem, allItems, { distractorCount: 3 });
+  assert.equal(stage.type, 'drag_drop', 'Stage type must be drag_drop');
+  assert.equal(stage.targetWord, 'Incorporate');
+  assert.equal(stage.correctAnswer, 'Incorporate');
+  assert.equal(stage.options.length, 4, 'Options must have target word + 3 distractors');
+  assert.ok(stage.options.includes('Incorporate'), 'Options must include target word');
+  assert.ok(stage.sentenceText.includes('_______'), 'Masked sentence must contain placeholder');
+  assert.ok(!stage.sentenceText.toLowerCase().includes('incorporate'), 'Target word must be masked in sentence');
+
+  // Test Sentence Splitting Logic
+  const placeholderRegex = /\[?_{2,}\]?|\[blank\]/i;
+  const parts = stage.sentenceText.split(placeholderRegex);
+  assert.ok(parts.length >= 2, 'Sentence must split into prefix and suffix around placeholder');
+});
+
+test('DragDropStage JSX Component Hard Corners & Editorial Structure Verification', async () => {
+  const fs = await import('node:fs/promises');
+  const path = await import('node:path');
+
+  const componentPath = path.resolve('src/components/stages/DragDropStage.jsx');
+  const fileContent = await fs.readFile(componentPath, 'utf8');
+
+  // Verify file exists and is populated
+  assert.ok(fileContent.length > 500, 'DragDropStage.jsx must contain code');
+
+  // 1. Verify Hard Corners (rounded-none)
+  assert.ok(fileContent.includes('rounded-none'), 'DragDropStage must use rounded-none for hard corners');
+  
+  // Verify NO rounded-xl, rounded-2xl, rounded-lg, rounded-full in className strings
+  const forbiddenClasses = ['rounded-2xl', 'rounded-xl', 'rounded-lg', 'rounded-full', 'rounded-md'];
+  forbiddenClasses.forEach(cls => {
+    const regex = new RegExp(`className=.*${cls}.*`, 'g');
+    const matches = fileContent.match(regex);
+    assert.equal(matches, null, `DragDropStage.jsx must NOT contain ${cls}. Found: ${matches}`);
+  });
+
+  // 2. Verify Editorial Layout Features
+  assert.ok(fileContent.includes('Sentence Completion'), 'Must contain stage header tag');
+  assert.ok(fileContent.includes('Volume2') && fileContent.includes('Listen'), 'Must have audio Listen button');
+  assert.ok(fileContent.includes('&ldquo;') && fileContent.includes('&rdquo;'), 'Must render editorial quotation marks');
+  assert.ok(fileContent.includes('Definition:'), 'Must render editorial definition footer');
+  assert.ok(fileContent.includes('[ Blank Slot ]'), 'Must render blank slot placeholder');
+  assert.ok(fileContent.includes('Check Answer'), 'Must render check answer button');
+  assert.ok(fileContent.includes('RotateCcw') || fileContent.includes('Clear'), 'Must render clear button');
+  assert.ok(fileContent.includes('Undo2'), 'Must render in-slot undo/remove indicator');
+});
+
+
+test('TrueFalseSwipeStage and OddOneOutStage Contract and Evaluation Logic', () => {
+  const sampleItem = {
+    id: 1,
+    word: 'Meticulous',
+    pos: 'adj',
+    meaning: 'খুঁতখুঁতে বা অত্যন্ত যত্নশীল',
+    synonyms: ['Thorough', 'Diligent'],
+    antonyms: ['Careless', 'Sloppy'],
+    sentence: 'He was meticulous about his research.'
+  };
+
+  const allItems = [
+    sampleItem,
+    { id: 2, word: 'Lucid', pos: 'adj', meaning: 'সহজে বোধগম্য বা স্পষ্ট', synonyms: ['Clear'], antonyms: ['Confusing'] },
+    { id: 3, word: 'Venerate', pos: 'v', meaning: 'শ্রদ্ধা করা', synonyms: ['Revere'], antonyms: ['Disdain'] },
+    { id: 4, word: 'Obsolete', pos: 'adj', meaning: 'অপ্রচলিত', synonyms: ['Outdated'], antonyms: ['Modern'] }
+  ];
+
+  // Test True/False Stage generation & properties
+  const tfStage = generateTrueFalseStage(sampleItem, allItems, { stageNumber: 4, iteration: 1 });
+  assert.equal(tfStage.type, STAGE_TYPES.TRUE_FALSE);
+  assert.ok(tfStage.item && tfStage.item.word === 'Meticulous');
+  assert.ok(typeof tfStage.isTrue === 'boolean');
+  assert.ok(['TRUE', 'FALSE'].includes(tfStage.correctAnswer));
+  assert.ok(tfStage.statement && tfStage.statement.length > 0);
+  assert.ok(tfStage.explanation && tfStage.explanation.length > 0);
+
+  // Test True/False evaluation logic
+  const isChoiceCorrectTrue = ('TRUE'.trim().toUpperCase() === tfStage.correctAnswer);
+  const isChoiceCorrectFalse = ('FALSE'.trim().toUpperCase() === tfStage.correctAnswer);
+  assert.equal(isChoiceCorrectTrue || isChoiceCorrectFalse, true);
+
+  // Test Odd One Out Stage generation & properties
+  const oooStage = generateOddOneOutStage(sampleItem, allItems, { stageNumber: 5, iteration: 1 });
+  assert.equal(oooStage.type, STAGE_TYPES.ODD_ONE_OUT);
+  assert.ok(oooStage.item && oooStage.item.word === 'Meticulous');
+  assert.equal(oooStage.options.length, 4);
+  assert.ok(oooStage.options.includes(oooStage.correctAnswer));
+  assert.ok(oooStage.categoryTitle && oooStage.categoryTitle.length > 0);
+  assert.ok(oooStage.explanation && oooStage.explanation.length > 0);
+
+  // Test Odd One Out selection logic
+  const selectedCorrect = oooStage.correctAnswer;
+  const isOOOCorrect = String(selectedCorrect).trim().toLowerCase() === String(oooStage.correctAnswer).trim().toLowerCase();
+  assert.equal(isOOOCorrect, true);
+
+  const selectedWrong = oooStage.options.find(opt => opt !== oooStage.correctAnswer);
+  const isOOOWrong = String(selectedWrong).trim().toLowerCase() === String(oooStage.correctAnswer).trim().toLowerCase();
+  assert.equal(isOOOWrong, false);
+});
+
+test('MobileHUD, AnswerRevealModal, CompletionModal, and SagaLevelPath Hard Corners & Editorial Verification', async () => {
+  const fs = await import('node:fs/promises');
+  const path = await import('node:path');
+
+  const files = [
+    'src/components/MobileHUD.jsx',
+    'src/components/modals/AnswerRevealModal.jsx',
+    'src/components/modals/CompletionModal.jsx',
+    'src/components/SagaLevelPath.jsx'
+  ];
+
+  const forbiddenClasses = ['rounded-2xl', 'rounded-xl', 'rounded-lg', 'rounded-full', 'rounded-md', 'rounded-3xl'];
+
+  for (const relPath of files) {
+    const fullPath = path.resolve(relPath);
+    const content = await fs.readFile(fullPath, 'utf8');
+
+    assert.ok(content.length > 200, `${relPath} must be non-empty`);
+    assert.ok(content.includes('rounded-none'), `${relPath} must use rounded-none for hard corners`);
+
+    // Verify no forbidden rounded classes
+    forbiddenClasses.forEach(cls => {
+      // Regex to find className containing the forbidden rounded class
+      const regex = new RegExp(`className=['"\`][^'"\`]*\\b${cls}\\b[^'"\`]*['"\`]`, 'g');
+      const matches = content.match(regex);
+      assert.equal(matches, null, `${relPath} must NOT contain ${cls}. Found: ${matches}`);
+    });
+  }
+
+  // Verify MobileHUD specific rules: 5-star scale with 0.5 per stage, sticky top-0, safe-top
+  const hudContent = await fs.readFile(path.resolve('src/components/MobileHUD.jsx'), 'utf8');
+  assert.ok(hudContent.includes('0.5'), 'MobileHUD must calculate 0.5 stars per stage');
+  assert.ok(hudContent.includes('sticky top-0'), 'MobileHUD must be sticky');
+  assert.ok(hudContent.includes('safe-top') || hudContent.includes('safe-area-inset-top'), 'MobileHUD must handle safe areas');
+
+  // Verify AnswerRevealModal: dark styling, solution & explanation
+  const revealContent = await fs.readFile(path.resolve('src/components/modals/AnswerRevealModal.jsx'), 'utf8');
+  assert.ok(revealContent.includes('Solution & Explanation') || revealContent.includes('Solution'), 'AnswerRevealModal must have solution title');
+  assert.ok(revealContent.includes('Correct Answer'), 'AnswerRevealModal must show correct answer');
+
+  // Verify CompletionModal: 5.0 stars mastery, mistakes tab, review breakdown
+  const completionContent = await fs.readFile(path.resolve('src/components/modals/CompletionModal.jsx'), 'utf8');
+  assert.ok(completionContent.includes('5.0 Star') || completionContent.includes('Stars Earned'), 'CompletionModal must display 5-star system');
+  assert.ok(completionContent.includes('mistakes'), 'CompletionModal must handle mistakes');
+  assert.ok(completionContent.includes('confetti'), 'CompletionModal must trigger celebration');
+
+  // Verify SagaLevelPath: ultra-compact fixed top header under 80px, saga nodes with hard corners
+  const sagaContent = await fs.readFile(path.resolve('src/components/SagaLevelPath.jsx'), 'utf8');
+  assert.ok(sagaContent.includes('fixed top-0'), 'SagaLevelPath header must be fixed');
+  assert.ok(sagaContent.includes('saga-node-base'), 'SagaLevelPath must use saga-node-base');
+  assert.ok(sagaContent.includes('START'), 'SagaLevelPath must have START indicator');
+});
+
+test('TrueFalseSwipeStage and OddOneOutStage JSX Component Hard Corners & Editorial Luxury Standards', async () => {
+  const fs = await import('node:fs/promises');
+  const path = await import('node:path');
+
+  const files = [
+    'src/components/stages/TrueFalseSwipeStage.jsx',
+    'src/components/stages/OddOneOutStage.jsx'
+  ];
+
+  const forbiddenClasses = ['rounded-2xl', 'rounded-xl', 'rounded-lg', 'rounded-full', 'rounded-md', 'rounded-3xl'];
+
+  for (const relPath of files) {
+    const fullPath = path.resolve(relPath);
+    const content = await fs.readFile(fullPath, 'utf8');
+
+    assert.ok(content.length > 200, `${relPath} must be non-empty`);
+    assert.ok(content.includes('rounded-none'), `${relPath} must use rounded-none for hard corners`);
+
+    // Verify no forbidden rounded classes
+    forbiddenClasses.forEach(cls => {
+      const regex = new RegExp(`className=['"\`][^'"\`]*\\b${cls}\\b[^'"\`]*['"\`]`, 'g');
+      const matches = content.match(regex);
+      assert.equal(matches, null, `${relPath} must NOT contain ${cls}. Found: ${matches}`);
+    });
+  }
+
+  // 1. TrueFalseSwipeStage specific checks
+  const tfContent = await fs.readFile(path.resolve('src/components/stages/TrueFalseSwipeStage.jsx'), 'utf8');
+  assert.ok(tfContent.includes('font-luxury-serif'), 'TrueFalseSwipeStage must use font-luxury-serif');
+  assert.ok(tfContent.includes('TRUE'), 'TrueFalseSwipeStage must include TRUE decision');
+  assert.ok(tfContent.includes('FALSE'), 'TrueFalseSwipeStage must include FALSE decision');
+  assert.ok(tfContent.includes('sound.playSwipe'), 'TrueFalseSwipeStage must play swipe sound');
+  assert.ok(tfContent.includes('Statement Verification'), 'TrueFalseSwipeStage must have Statement Verification block');
+  assert.ok(tfContent.includes('isSecondChance'), 'TrueFalseSwipeStage must support second chance');
+
+  // 2. OddOneOutStage specific checks
+  const oooContent = await fs.readFile(path.resolve('src/components/stages/OddOneOutStage.jsx'), 'utf8');
+  assert.ok(oooContent.includes('font-luxury-serif'), 'OddOneOutStage must use font-luxury-serif');
+  assert.ok(oooContent.includes('ODD ONE OUT'), 'OddOneOutStage must include ODD ONE OUT badge');
+  assert.ok(oooContent.includes('Explanation & Analysis'), 'OddOneOutStage must include Explanation block');
+  assert.ok(oooContent.includes('sound.playClick'), 'OddOneOutStage must play click sound');
+  assert.ok(oooContent.includes('sound.speak'), 'OddOneOutStage must support audio pronunciation');
+  assert.ok(oooContent.includes('effectiveSecondChance'), 'OddOneOutStage must handle second chance');
+});
+
+
+

@@ -13,6 +13,7 @@ import OddOneOutStage from './components/stages/OddOneOutStage';
 
 import AnswerRevealModal from './components/modals/AnswerRevealModal';
 import CompletionModal from './components/modals/CompletionModal';
+import AudioPackSettingsModal from './components/modals/AudioPackSettingsModal';
 
 import { STAGE_TYPES } from './engine/GameEngine';
 import { useGameState } from './hooks/useGameState';
@@ -27,6 +28,19 @@ export default function App() {
   } = soundController;
 
   const [selectedSubject, setSelectedSubject] = useState(null);
+  const [vocabFilter, setVocabFilter] = useState('ALL');
+  const [hubMode, setHubMode] = useState('practice');
+  const [isAudioSettingsOpen, setIsAudioSettingsOpen] = useState(false);
+
+  const handleSelectSubject = (subj, filter = 'ALL') => {
+    if (subj === 'learning') {
+      setHubMode('learning');
+    } else if (subj === 'english') {
+      setHubMode('practice');
+    }
+    setVocabFilter(filter);
+    setSelectedSubject(subj);
+  };
 
   const {
     // Levels & Loading
@@ -112,7 +126,7 @@ export default function App() {
           />
         )}
 
-        <main className={`flex-1 flex flex-col justify-start max-w-md w-full mx-auto ${currentLevel ? 'py-3 px-3 sm:px-4 pb-8' : selectedSubject === 'learning' ? 'py-3 px-3 sm:px-4 pb-8' : 'px-3 pb-8'}`}>
+        <main className={`flex-1 flex flex-col justify-start max-w-md w-full mx-auto ${currentLevel ? 'py-3 px-3 sm:px-4 pb-8' : selectedSubject === 'learning' ? 'pt-0 px-0 pb-8' : 'px-3 pb-8'}`}>
           {!currentLevel ? (
             <>
               {!selectedSubject && (
@@ -125,7 +139,10 @@ export default function App() {
                   lives={lives}
                   isAudioMuted={isAudioMuted}
                   setIsAudioMuted={setIsAudioMuted}
-                  onSelectSubject={(subj) => setSelectedSubject(subj)}
+                  activeMode={hubMode}
+                  onModeChange={setHubMode}
+                  onSelectSubject={handleSelectSubject}
+                  onOpenAudioSettings={() => setIsAudioSettingsOpen(true)}
                 />
               )}
               {selectedSubject === 'english' && (
@@ -139,14 +156,23 @@ export default function App() {
                   isAudioMuted={isAudioMuted}
                   setIsAudioMuted={setIsAudioMuted}
                   onSelectLevel={(lvl) => handleStartLevel(lvl, true)}
-                  onBackToHub={() => setSelectedSubject(null)}
+                  onBackToHub={() => {
+                    setSelectedSubject(null);
+                    setHubMode('practice');
+                  }}
+                  onOpenAudioSettings={() => setIsAudioSettingsOpen(true)}
                 />
               )}
               {selectedSubject === 'learning' && (
                 <VocabBookView
                   levels={levels}
                   levelStars={levelStars}
-                  onBackToHub={() => setSelectedSubject(null)}
+                  initialFilter={vocabFilter}
+                  onBackToHub={() => {
+                    setSelectedSubject(null);
+                    setHubMode('learning');
+                  }}
+                  onOpenAudioSettings={() => setIsAudioSettingsOpen(true)}
                 />
               )}
             </>
@@ -175,10 +201,16 @@ export default function App() {
           )}
         </main>
 
+        {/* Audio Pack & Storage Settings Modal */}
+        <AudioPackSettingsModal
+          isOpen={isAudioSettingsOpen}
+          onClose={() => setIsAudioSettingsOpen(false)}
+        />
+
         {/* First-Attempt Perfect Stage Micro-Celebration Overlay */}
         {stageCelebration && (
           <div className="fixed inset-0 pointer-events-none z-50 flex items-center justify-center animate-pop px-4 select-none">
-            <div className="bg-slate-900/95 border border-amber-400/60 shadow-[0_0_35px_rgba(251,191,36,0.5)] rounded-2xl px-6 py-4 flex flex-col items-center space-y-1.5 text-center transform scale-105 sm:scale-110">
+            <div className="bg-slate-900/95 border border-amber-400/60 shadow-[0_0_35px_rgba(251,191,36,0.5)] rounded-none px-6 py-4 flex flex-col items-center space-y-1.5 text-center transform scale-105 sm:scale-110">
               <div className="flex items-center space-x-2">
                 <Sparkles className="w-5 h-5 text-amber-400 animate-spin" />
                 <Star className="w-8 h-8 text-amber-400 fill-amber-400 drop-shadow-[0_0_12px_rgba(251,191,36,0.9)] animate-bounce" />
@@ -196,7 +228,7 @@ export default function App() {
         )}
 
         {toastMessage && !stageCelebration && (
-          <div className={`fixed bottom-20 left-1/2 -translate-x-1/2 px-5 py-3 rounded-2xl shadow-2xl text-xs sm:text-sm font-black z-50 animate-pop text-white border ${
+          <div className={`fixed bottom-20 left-1/2 -translate-x-1/2 px-5 py-3 rounded-none shadow-2xl text-xs sm:text-sm font-black z-50 animate-pop text-white border ${
             toastMessage.type === 'success' ? 'bg-emerald-600 border-emerald-400 shadow-emerald-600/30' : 
             toastMessage.type === 'warning' ? 'bg-amber-600 border-amber-400 shadow-amber-600/30' : 'bg-slate-800 border-slate-700'
           }`}>

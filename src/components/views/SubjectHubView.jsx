@@ -1,18 +1,20 @@
-import React, { useMemo } from 'react';
+import React, { useState, useMemo } from 'react';
 import { 
-  BookOpen, 
-  Sparkles, 
   Star, 
-  Crown, 
   Flame, 
   Volume2, 
   VolumeX, 
-  Lock, 
   Play, 
-  Compass, 
-  Swords,
-  BookMarked,
-  Heart
+  Heart,
+  Sparkles,
+  Trophy,
+  BookOpen,
+  BookText,
+  Languages,
+  Globe2,
+  ChevronRight,
+  Sparkle,
+  Headphones
 } from 'lucide-react';
 import { sound } from '../../audio/SoundSynthesizer';
 
@@ -25,8 +27,19 @@ export default function SubjectHubView({
   lives = 5,
   isAudioMuted = false,
   setIsAudioMuted,
-  onSelectSubject
+  activeMode = 'practice',
+  onModeChange,
+  onSelectSubject,
+  onOpenAudioSettings
 }) {
+  // 2 Primary Modes: 'practice' (Game Style) vs 'learning' (Learning Subject Hub)
+  const [internalMode, setInternalMode] = useState(activeMode);
+  const currentMode = onModeChange ? activeMode : internalMode;
+  const setMode = (mode) => {
+    if (onModeChange) onModeChange(mode);
+    setInternalMode(mode);
+  };
+
   const toggleAudio = () => {
     const next = !isAudioMuted;
     if (setIsAudioMuted) setIsAudioMuted(next);
@@ -51,226 +64,387 @@ export default function SubjectHubView({
   const totalLevels = levels.length || 201;
   const progressPercent = Math.min(100, Math.round(((currentLvlNum - 1) / totalLevels) * 100));
 
-  const handlePlaySubject = (subjectId) => {
+  const currentLevelData = useMemo(() => {
+    return (levels || []).find(lvl => lvl.level_id === currentLvlNum) || levels[0] || {};
+  }, [levels, currentLvlNum]);
+
+  // Clean level title to avoid duplicate "Level 1: Level 1:"
+  const cleanLevelTitle = useMemo(() => {
+    const raw = currentLevelData?.title || 'Vocabulary Quest';
+    return raw.replace(/^Level\s*\d+\s*:\s*/i, '').trim();
+  }, [currentLevelData]);
+
+  const handlePlayPractice = (subjectId = 'english') => {
     sound.playClick();
     if (onSelectSubject) {
       onSelectSubject(subjectId);
     }
   };
 
-  const handleLockedClick = (subjectName) => {
+  const handleOpenLearningSubject = (subjectId = 'learning') => {
+    sound.playClick();
+    if (onSelectSubject) {
+      onSelectSubject(subjectId);
+    }
+  };
+
+  const handleLockedClick = () => {
     sound.playWrong();
   };
 
-  return (
-    <div className="w-full max-w-md mx-auto flex flex-col items-center select-none pt-2 pb-16 px-3.5 space-y-4 animate-pop">
-      {/* 1. TOP ARCADE GAME HUD (Lives ❤️, Streak 🔥, Gems 💎, Stars ⭐, Audio 🔊) */}
-      <header 
-        className="w-full bg-[#0e1626] border-2 border-slate-800 rounded-3xl p-3 shadow-[0_8px_0_#060a12]"
-        style={{ marginTop: 'max(env(safe-area-inset-top, 0px), 4px)' }}
-      >
-        <div className="flex items-center justify-between gap-1.5">
-          {/* Hearts / Lives */}
-          <div className="flex items-center space-x-1 bg-rose-950/80 border border-rose-500/40 px-2.5 py-1.5 rounded-2xl text-rose-300 shadow-xs">
-            <Heart className="w-4 h-4 fill-rose-500 text-rose-500 animate-pulse" />
-            <span className="font-mono font-black text-xs">{lives}</span>
-          </div>
+  // =========================================================================
+  // 1. PRACTICE MODE (GAME STYLE UI)
+  // =========================================================================
+  if (currentMode === 'practice') {
+    return (
+      <div className="w-full max-w-md mx-auto flex flex-col items-center select-none pt-1 pb-16 px-1 space-y-3.5">
+        {/* TOP GAME STATUS HUD */}
+        <header 
+          className="w-full bg-[#0e1626]/95 backdrop-blur-md border border-slate-800/90 rounded-none px-3.5 py-2.5 shadow-sm"
+          style={{ marginTop: 'max(env(safe-area-inset-top, 0px), 2px)' }}
+        >
+          <div className="flex items-center justify-between w-full">
+            {/* Stats Metrics (Lives, Streak, Gems, Stars) */}
+            <div className="flex items-center space-x-3 sm:space-x-4">
+              <div className="flex items-center space-x-1.5" title="Lives">
+                <Heart className="w-4 h-4 fill-rose-500 text-rose-500 animate-pulse" />
+                <span className="font-mono font-bold text-xs text-rose-200">{lives}</span>
+              </div>
 
-          {/* Streak Flame */}
-          <div className="flex items-center space-x-1 bg-amber-950/80 border border-amber-500/40 px-2.5 py-1.5 rounded-2xl text-amber-300 shadow-xs">
-            <Flame className="w-4 h-4 fill-orange-500 text-orange-500" />
-            <span className="font-mono font-black text-xs">{streak}</span>
-          </div>
+              <div className="w-px h-3.5 bg-slate-800" />
 
-          {/* Gems */}
-          <div className="flex items-center space-x-1 bg-blue-950/80 border border-blue-500/40 px-2.5 py-1.5 rounded-2xl text-blue-300 shadow-xs">
-            <span className="text-xs">💎</span>
-            <span className="font-mono font-black text-xs">{gems}</span>
-          </div>
+              <div className="flex items-center space-x-1.5" title="Daily Streak">
+                <Flame className="w-4 h-4 fill-orange-500 text-orange-500" />
+                <span className="font-mono font-bold text-xs text-orange-200">{streak}</span>
+              </div>
 
-          {/* Total Stars */}
-          <div className="flex items-center space-x-1 bg-amber-500/15 border border-amber-400/40 px-2.5 py-1.5 rounded-2xl text-amber-300 shadow-xs">
-            <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
-            <span className="font-mono font-black text-xs">{String(totalStarsEarned).replace('.0', '')}</span>
-          </div>
+              <div className="w-px h-3.5 bg-slate-800" />
 
-          {/* Sound Mute Toggle */}
+              <div className="flex items-center space-x-1.5" title="Gems">
+                <Sparkles className="w-3.5 h-3.5 text-blue-400 fill-blue-400" />
+                <span className="font-mono font-bold text-xs text-blue-200">{gems}</span>
+              </div>
+
+              <div className="w-px h-3.5 bg-slate-800" />
+
+              <div className="flex items-center space-x-1.5" title="Total Stars Earned">
+                <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
+                <span className="font-mono font-bold text-xs text-amber-200">
+                  {String(totalStarsEarned).replace('.0', '')}
+                </span>
+              </div>
+            </div>
+
+              {/* Actions: Audio Pack Settings & Sound Mute Toggle */}
+              <div className="flex items-center space-x-1.5 shrink-0 ml-2">
+                {onOpenAudioSettings && (
+                  <button
+                    onClick={onOpenAudioSettings}
+                    className="h-8 px-2.5 flex items-center space-x-1.5 rounded-xl bg-slate-800/80 hover:bg-slate-700 active:scale-90 transition border border-slate-700/80 text-amber-400 cursor-pointer shadow-xs shrink-0 text-xs font-semibold"
+                    title="Offline Audio Pack Settings"
+                  >
+                    <Headphones className="w-3.5 h-3.5" />
+                    <span className="hidden sm:inline text-[11px]">Audio Pack</span>
+                  </button>
+                )}
+
+                <button
+                  onClick={toggleAudio}
+                  className="w-8 h-8 flex items-center justify-center rounded-xl bg-slate-800/80 hover:bg-slate-700 active:scale-90 transition border border-slate-700/80 text-slate-300 cursor-pointer shadow-xs shrink-0"
+                  title={isAudioMuted ? 'Unmute Sound' : 'Mute Sound'}
+                  aria-label="Toggle Sound"
+                >
+                  {isAudioMuted ? (
+                    <VolumeX className="w-4 h-4 text-rose-400" />
+                  ) : (
+                    <Volume2 className="w-4 h-4 text-blue-400" />
+                  )}
+                </button>
+              </div>
+          </div>
+        </header>
+
+        {/* 2-MODE SEGMENTED SWITCHER (PRACTICE VS LEARNING) */}
+        <div className="w-full flex items-center p-1 bg-[#0e1626] border border-slate-800/90 rounded-none shadow-sm">
           <button
-            onClick={toggleAudio}
-            className="w-8 h-8 flex items-center justify-center rounded-2xl bg-slate-800 hover:bg-slate-700 active:scale-90 transition border border-slate-700 text-slate-300 cursor-pointer shadow-xs shrink-0"
-            title={isAudioMuted ? 'Unmute Sound' : 'Mute Sound'}
-            aria-label="Toggle Sound"
+            onClick={() => {
+              sound.playClick();
+              setMode('practice');
+            }}
+            className="flex-1 flex items-center justify-center space-x-2 py-2.5 rounded-none font-bold text-xs uppercase tracking-wider transition cursor-pointer bg-blue-600 text-white shadow-md"
           >
-            {isAudioMuted ? (
-              <VolumeX className="w-4 h-4 text-rose-400" />
-            ) : (
-              <Volume2 className="w-4 h-4 text-blue-400" />
-            )}
+            <Play className="w-3.5 h-3.5 fill-current" />
+            <span>Practice</span>
+          </button>
+
+          <button
+            onClick={() => {
+              sound.playClick();
+              setMode('learning');
+            }}
+            className="flex-1 flex items-center justify-center space-x-2 py-2.5 rounded-none font-bold text-xs uppercase tracking-wider transition cursor-pointer text-slate-400 hover:text-slate-200"
+          >
+            <BookOpen className="w-3.5 h-3.5" />
+            <span>Learning</span>
           </button>
         </div>
-      </header>
 
-      {/* 2. MAIN TITLE BANNER */}
-      <div className="w-full flex items-center justify-between px-2 pt-1">
-        <div className="flex items-center space-x-2">
-          <div className="w-3 h-3 rounded-full bg-blue-500 animate-ping" />
-          <span className="font-black text-xs uppercase tracking-widest text-blue-400">CHOOSE GAME WORLD</span>
-        </div>
-        <span className="text-[11px] font-black text-slate-500 uppercase tracking-wider">3 WORLDS • 1 VAULT</span>
-      </div>
-
-      {/* 3. GAME WORLDS (3 PLAYING WORLDS) */}
-      <div className="w-full space-y-3.5">
-        {/* WORLD 1: 🇬🇧 ENGLISH REALM (Active & Playable) */}
-        <div className="w-full bg-gradient-to-b from-[#162746] to-[#0d172a] border-3 border-blue-500 rounded-3xl p-4 shadow-[0_8px_0_#0f172a] relative overflow-hidden group">
-          {/* Glowing World Tag */}
-          <div className="flex items-center justify-between mb-3">
-            <div className="flex items-center space-x-2.5">
-              <div className="w-12 h-12 rounded-2xl bg-gradient-to-b from-blue-400 to-blue-600 flex items-center justify-center text-white text-2xl shadow-[0_4px_0_#1d4ed8] border-2 border-blue-200">
-                🇬🇧
+        {/* HERO FEATURE CARD: ENGLISH SAGA QUEST */}
+        <div className="w-full bg-gradient-to-b from-[#13223f] to-[#0c1527] border border-blue-500/30 rounded-none p-5 shadow-lg relative overflow-hidden space-y-4 animate-pop">
+          {/* Top: Flag / Title / Active Tag */}
+          <div className="flex items-start justify-between gap-2">
+            <div className="flex items-center space-x-3 min-w-0">
+              <div className="w-11 h-11 rounded-none bg-blue-600/30 border border-blue-400/40 flex items-center justify-center text-blue-300 font-bold text-sm shadow-md shrink-0">
+                <Languages className="w-5 h-5" />
               </div>
-              <div>
+              <div className="min-w-0">
                 <div className="flex items-center space-x-2">
                   <h2 className="text-lg font-black text-white tracking-tight uppercase">ENGLISH SAGA</h2>
-                  <span className="bg-emerald-500 text-slate-950 font-black text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wider shadow-xs">
+                  <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 font-bold text-[9px] px-2 py-0.5 rounded-none uppercase tracking-wider">
                     ACTIVE
                   </span>
                 </div>
-                <div className="flex items-center space-x-2 text-xs font-bold text-blue-300 mt-0.5">
-                  <span>201 Levels</span>
-                  <span>•</span>
-                  <span>1,005 Words</span>
-                  <span>•</span>
-                  <span className="text-amber-400">👑 {totalMastered} Mastered</span>
-                </div>
+                <p className="text-xs text-blue-200/90 font-medium mt-0.5 truncate">
+                  Level {currentLvlNum}: {cleanLevelTitle}
+                </p>
               </div>
             </div>
+
+            <div className="text-right shrink-0">
+              <span className="text-xs font-mono font-bold text-amber-400 block">
+                {progressPercent}%
+              </span>
+              <span className="text-[10px] text-slate-400 font-medium">Progress</span>
+            </div>
           </div>
 
-          {/* Level Progress Bar inside Card */}
-          <div className="bg-slate-950/80 rounded-2xl p-3 border border-blue-500/20 mb-3.5 space-y-1.5">
-            <div className="flex items-center justify-between text-xs font-black">
-              <span className="text-slate-300">
-                Current: <span className="text-blue-400 font-mono text-sm">Level {currentLvlNum}</span> / {totalLevels}
-              </span>
-              <span className="text-amber-400 font-mono">{progressPercent}%</span>
-            </div>
-            <div className="w-full h-2.5 bg-slate-900 rounded-full border border-slate-800 overflow-hidden">
+          {/* Progress Bar & Stats */}
+          <div className="space-y-2">
+            <div className="w-full h-2 bg-slate-950 rounded-none border border-slate-800 overflow-hidden">
               <div 
-                className="h-full bg-gradient-to-r from-blue-500 via-indigo-400 to-emerald-400 rounded-full transition-all duration-500"
-                style={{ width: `${Math.max(5, progressPercent)}%` }}
+                className="h-full bg-gradient-to-r from-blue-500 via-indigo-400 to-emerald-400 rounded-none transition-all duration-500"
+                style={{ width: `${Math.max(4, progressPercent)}%` }}
               />
             </div>
+
+            <div className="flex items-center justify-between text-[11px] text-slate-400 font-medium">
+              <span>{totalLevels} Levels • 1,005 Words</span>
+              <span className="text-amber-400 font-semibold flex items-center space-x-1">
+                <Trophy className="w-3 h-3 inline" />
+                <span>{totalMastered} Mastered</span>
+              </span>
+            </div>
           </div>
 
-          {/* Big Duolingo-style 3D Play Button */}
+          {/* Tactile Big Play Button */}
           <button
-            onClick={() => handlePlaySubject('english')}
-            className="w-full game-btn-3d bg-emerald-500 hover:bg-emerald-400 border-2 border-emerald-300 text-white font-black text-base uppercase tracking-wider py-3.5 px-4 rounded-2xl shadow-[0_6px_0_#047857] flex items-center justify-center space-x-2 cursor-pointer active:translate-y-1.5 active:shadow-none transition-all"
+            onClick={() => handlePlayPractice('english')}
+            className="w-full game-btn-3d bg-emerald-500 hover:bg-emerald-400 border-2 border-emerald-300 text-white font-black text-sm uppercase tracking-wider py-3.5 px-4 rounded-none shadow-[0_5px_0_#047857] flex items-center justify-center space-x-2 cursor-pointer active:translate-y-1 active:shadow-none transition-all"
           >
-            <Play className="w-5 h-5 fill-white" />
-            <span>PLAY LEVEL {currentLvlNum}</span>
+            <Play className="w-4 h-4 fill-white" />
+            <span>CONTINUE LEVEL {currentLvlNum}</span>
           </button>
         </div>
 
-        {/* WORLD 2: 🇧🇩 BANGLA KINGDOM (Coming Soon) */}
-        <div 
-          onClick={() => handleLockedClick('Bangla')}
-          className="w-full bg-gradient-to-b from-[#2a131b] to-[#170a0f] border-2 border-rose-900/60 rounded-3xl p-4 shadow-[0_6px_0_#0a0407] opacity-80 cursor-pointer hover:opacity-100 transition"
-        >
-          <div className="flex items-center justify-between mb-3">
-            <div className="flex items-center space-x-2.5">
-              <div className="w-11 h-11 rounded-2xl bg-gradient-to-b from-rose-700 to-rose-900 flex items-center justify-center text-white text-xl shadow-[0_4px_0_#4c0519] border border-rose-500/40">
-                🇧🇩
-              </div>
-              <div>
-                <div className="flex items-center space-x-2">
-                  <h2 className="text-base font-black text-slate-200 tracking-tight uppercase">BANGLA MASTER</h2>
-                  <span className="bg-slate-800 text-slate-400 font-black text-[9px] px-2 py-0.5 rounded-full flex items-center space-x-1 border border-slate-700">
-                    <Lock className="w-2.5 h-2.5" />
-                    <span>LOCKED</span>
-                  </span>
-                </div>
-                <p className="text-xs font-bold text-rose-300/70 mt-0.5">বাংলা সাহিত্য ও ব্যাকরণ কুইজ</p>
-              </div>
-            </div>
-            <div className="w-8 h-8 rounded-full bg-slate-900/80 border border-rose-900/50 flex items-center justify-center text-rose-400">
-              <Lock className="w-4 h-4" />
-            </div>
+        {/* UPCOMING QUEST PACKS */}
+        <div className="w-full space-y-2 pt-1">
+          <div className="flex items-center space-x-1.5 px-1">
+            <Sparkle className="w-3.5 h-3.5 text-slate-500" />
+            <span className="font-bold text-xs uppercase tracking-wider text-slate-500">UPCOMING QUESTS</span>
           </div>
 
-          <div className="w-full bg-slate-950/60 border border-slate-800/80 text-slate-400 font-bold text-xs py-2.5 px-3 rounded-xl flex items-center justify-center space-x-2">
-            <Lock className="w-3.5 h-3.5" />
-            <span>UNLOCKED IN NEXT QUEST PACK</span>
-          </div>
-        </div>
-
-        {/* WORLD 3: 🌍 GK ODYSSEY (General Knowledge - Coming Soon) */}
-        <div 
-          onClick={() => handleLockedClick('GK')}
-          className="w-full bg-gradient-to-b from-[#211438] to-[#120a21] border-2 border-purple-900/60 rounded-3xl p-4 shadow-[0_6px_0_#0b0514] opacity-80 cursor-pointer hover:opacity-100 transition"
-        >
-          <div className="flex items-center justify-between mb-3">
-            <div className="flex items-center space-x-2.5">
-              <div className="w-11 h-11 rounded-2xl bg-gradient-to-b from-purple-600 to-purple-900 flex items-center justify-center text-white text-xl shadow-[0_4px_0_#3b0764] border border-purple-400/40">
-                🌍
-              </div>
-              <div>
-                <div className="flex items-center space-x-2">
-                  <h2 className="text-base font-black text-slate-200 tracking-tight uppercase">GENERAL KNOWLEDGE</h2>
-                  <span className="bg-slate-800 text-slate-400 font-black text-[9px] px-2 py-0.5 rounded-full flex items-center space-x-1 border border-slate-700">
-                    <Lock className="w-2.5 h-2.5" />
-                    <span>LOCKED</span>
-                  </span>
-                </div>
-                <p className="text-xs font-bold text-purple-300/70 mt-0.5">বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি</p>
-              </div>
-            </div>
-            <div className="w-8 h-8 rounded-full bg-slate-900/80 border border-purple-900/50 flex items-center justify-center text-purple-400">
-              <Lock className="w-4 h-4" />
-            </div>
-          </div>
-
-          <div className="w-full bg-slate-950/60 border border-slate-800/80 text-slate-400 font-bold text-xs py-2.5 px-3 rounded-xl flex items-center justify-center space-x-2">
-            <Lock className="w-3.5 h-3.5" />
-            <span>UNLOCKED IN NEXT QUEST PACK</span>
-          </div>
-        </div>
-
-        {/* 4. LEARNING SECTION: 📖 WORD VAULT & DICTIONARY */}
-        <div className="pt-1">
-          <div className="px-2 mb-2 flex items-center space-x-1.5">
-            <BookMarked className="w-3.5 h-3.5 text-amber-400" />
-            <span className="font-black text-xs uppercase tracking-widest text-amber-400">STUDY & WORD VAULT</span>
-          </div>
-
-          <div className="w-full bg-gradient-to-b from-[#2d210b] to-[#181105] border-3 border-amber-500 rounded-3xl p-4 shadow-[0_8px_0_#0f0b03] relative">
-            <div className="flex items-center justify-between mb-3">
-              <div className="flex items-center space-x-2.5">
-                <div className="w-11 h-11 rounded-2xl bg-gradient-to-b from-amber-400 to-amber-600 flex items-center justify-center text-white text-xl shadow-[0_4px_0_#78350f] border border-amber-200">
-                  📖
-                </div>
-                <div>
-                  <div className="flex items-center space-x-2">
-                    <h2 className="text-base font-black text-amber-200 tracking-tight uppercase">VOCABULARY VAULT</h2>
-                    <span className="bg-amber-500/20 text-amber-300 font-black text-[9px] px-2 py-0.5 rounded-full border border-amber-400/40 uppercase">
-                      STUDY
-                    </span>
-                  </div>
-                  <p className="text-xs font-bold text-amber-300/80 mt-0.5">1,005 Words • Audio Pronunciation & Bookmarks</p>
-                </div>
-              </div>
-            </div>
-
-            {/* 3D Gold Action Button */}
-            <button
-              onClick={() => handlePlaySubject('learning')}
-              className="w-full game-btn-3d bg-amber-500 hover:bg-amber-400 border-2 border-amber-300 text-amber-950 font-black text-sm uppercase tracking-wider py-3 px-4 rounded-2xl shadow-[0_5px_0_#78350f] flex items-center justify-center space-x-2 cursor-pointer active:translate-y-1.5 active:shadow-none transition-all"
+          <div className="space-y-2 w-full">
+            {/* World 2: Bangla Master */}
+            <div 
+              onClick={handleLockedClick}
+              className="w-full bg-[#0e1626]/50 border border-slate-800/80 rounded-none p-3 flex items-center justify-between opacity-75 hover:opacity-100 transition cursor-pointer"
             >
-              <BookOpen className="w-4 h-4 fill-amber-950 text-amber-950" />
-              <span>OPEN WORD VAULT (১,০০৫ শব্দ)</span>
+              <div className="flex items-center space-x-3 min-w-0">
+                <div className="w-9 h-9 rounded-none bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 shrink-0">
+                  <BookText className="w-4 h-4" />
+                </div>
+                <div className="min-w-0">
+                  <h4 className="text-xs font-bold text-slate-300 truncate">Bangla Master</h4>
+                  <p className="text-[10px] text-slate-500 truncate">বাংলা সাহিত্য ও ব্যাকরণ কুইজ</p>
+                </div>
+              </div>
+
+              <span className="text-slate-500 font-mono text-[10px] tracking-wider shrink-0">
+                SOON
+              </span>
+            </div>
+
+            {/* World 3: General Knowledge */}
+            <div 
+              onClick={handleLockedClick}
+              className="w-full bg-[#0e1626]/50 border border-slate-800/80 rounded-none p-3 flex items-center justify-between opacity-75 hover:opacity-100 transition cursor-pointer"
+            >
+              <div className="flex items-center space-x-3 min-w-0">
+                <div className="w-9 h-9 rounded-none bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 shrink-0">
+                  <Globe2 className="w-4 h-4" />
+                </div>
+                <div className="min-w-0">
+                  <h4 className="text-xs font-bold text-slate-300 truncate">General Knowledge</h4>
+                  <p className="text-[10px] text-slate-500 truncate">বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি</p>
+                </div>
+              </div>
+
+              <span className="text-slate-500 font-mono text-[10px] tracking-wider shrink-0">
+                SOON
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // =========================================================================
+  // 2. LEARNING HOME PAGE (PURE EDITORIAL SUBJECT SELECTION)
+  // =========================================================================
+  return (
+    <div className="w-full max-w-md mx-auto flex flex-col items-center select-none pb-16 bg-[#0a0a0c] min-h-screen text-neutral-100 font-sans px-3">
+      {/* 1. EDITORIAL HEADER */}
+      <header 
+        className="sticky top-0 z-40 w-full bg-[#0a0a0c]/98 backdrop-blur-md border-b border-neutral-800/80 py-3 space-y-3 shadow-sm mb-4"
+        style={{ paddingTop: 'max(0.6rem, env(safe-area-inset-top, 0px))' }}
+      >
+        {/* Row 1: Mode Switcher + Audio Toggle */}
+        <div className="flex items-center justify-between w-full">
+          {/* Minimal Editorial Mode Switcher */}
+          <div className="flex items-center p-0.5 bg-[#141518] border border-neutral-800 rounded-none">
+            <button
+              onClick={() => {
+                sound.playClick();
+                setMode('practice');
+              }}
+              className="px-3 py-1.5 rounded-none text-xs font-medium text-neutral-400 hover:text-white transition cursor-pointer"
+            >
+              Practice
+            </button>
+            <button
+              onClick={() => {
+                sound.playClick();
+                setMode('learning');
+              }}
+              className="px-3 py-1.5 rounded-none text-xs font-bold bg-neutral-200 text-neutral-950 shadow-xs transition cursor-pointer"
+            >
+              Learning
             </button>
           </div>
+
+          {/* Sound Toggle & Audio Pack */}
+          <div className="flex items-center space-x-1.5">
+            {onOpenAudioSettings && (
+              <button
+                onClick={onOpenAudioSettings}
+                className="h-8 px-2.5 rounded-none bg-[#141518] hover:bg-[#1c1d22] border border-neutral-800 flex items-center space-x-1.5 text-amber-300 text-xs font-semibold transition cursor-pointer active:scale-95"
+                title="Offline Audio Pack Settings"
+              >
+                <Headphones className="w-3.5 h-3.5" />
+                <span className="hidden sm:inline text-[11px]">Audio Pack</span>
+              </button>
+            )}
+
+            <button
+              onClick={toggleAudio}
+              className="w-8 h-8 rounded-none bg-[#141518] hover:bg-[#1c1d22] border border-neutral-800 flex items-center justify-center text-neutral-300 transition cursor-pointer active:scale-90"
+              title={isAudioMuted ? 'Unmute Sound' : 'Mute Sound'}
+              aria-label="Toggle Sound"
+            >
+              {isAudioMuted ? (
+                <VolumeX className="w-4 h-4 text-rose-400" />
+              ) : (
+                <Volume2 className="w-4 h-4 text-neutral-300" />
+              )}
+            </button>
+          </div>
+        </div>
+
+        {/* Row 2: Learning Hub Heading */}
+        <div className="space-y-0.5 pt-0.5">
+          <h1 className="font-luxury-serif italic text-2xl text-white font-bold tracking-tight">
+            Subjects
+          </h1>
+          <p className="text-xs text-neutral-400">
+            পড়াশোনা শুরু করতে নিচের বিষয়গুলোর মধ্য থেকে যেকোনো একটি বেছে নিন:
+          </p>
+        </div>
+      </header>
+
+      {/* 2. SUBJECTS LIST (CLEAN EDITORIAL CARDS - NO BOX INCEPTION) */}
+      <div className="w-full space-y-3">
+        {/* SUBJECT 1: ENGLISH (ACTIVE) */}
+        <div 
+          onClick={() => handleOpenLearningSubject('learning')}
+          className="w-full bg-[#121316] hover:bg-[#16181d] border border-neutral-800 hover:border-neutral-700 rounded-none p-4.5 transition cursor-pointer flex items-center justify-between group active:scale-[0.99]"
+        >
+          <div className="flex items-center space-x-3.5 min-w-0 pr-2">
+            <div className="w-11 h-11 rounded-none bg-neutral-900 border border-neutral-800 flex items-center justify-center text-neutral-300 group-hover:text-white transition shrink-0">
+              <Languages className="w-5 h-5 stroke-[1.75]" />
+            </div>
+            <div className="min-w-0">
+              <h2 className="text-base font-bold text-white font-sans tracking-tight">
+                English <span className="text-neutral-400 font-normal">| ইংরেজি</span>
+              </h2>
+              <p className="text-xs text-neutral-400 mt-0.5 leading-relaxed">
+                ১,০০৫ শব্দকোষ • অডিও উচ্চারণ • অর্থ ও ব্যাকরণ
+              </p>
+            </div>
+          </div>
+
+          <div className="flex items-center space-x-2 shrink-0">
+            <span className="text-[11px] font-mono text-neutral-400">1,005 Words</span>
+            <ChevronRight className="w-4 h-4 text-neutral-500 group-hover:text-white transition" />
+          </div>
+        </div>
+
+        {/* SUBJECT 2: BANGLA (COMING SOON) */}
+        <div 
+          onClick={handleLockedClick}
+          className="w-full bg-[#121316]/60 border border-neutral-800/60 rounded-none p-4.5 flex items-center justify-between opacity-70 hover:opacity-90 transition cursor-pointer"
+        >
+          <div className="flex items-center space-x-3.5 min-w-0 pr-2">
+            <div className="w-11 h-11 rounded-none bg-neutral-900/80 border border-neutral-800/60 flex items-center justify-center text-neutral-500 shrink-0">
+              <BookText className="w-5 h-5 stroke-[1.75]" />
+            </div>
+            <div className="min-w-0">
+              <h3 className="text-base font-bold text-neutral-300 font-sans tracking-tight">
+                Bangla <span className="text-neutral-500 font-normal">| বাংলা</span>
+              </h3>
+              <p className="text-xs text-neutral-500 mt-0.5">
+                বাংলা সাহিত্য ও ব্যাকরণ হ্যান্ডনোট
+              </p>
+            </div>
+          </div>
+
+          <span className="text-[11px] font-mono text-neutral-500 shrink-0">
+            Coming Soon
+          </span>
+        </div>
+
+        {/* SUBJECT 3: GENERAL KNOWLEDGE (COMING SOON) */}
+        <div 
+          onClick={handleLockedClick}
+          className="w-full bg-[#121316]/60 border border-neutral-800/60 rounded-none p-4.5 flex items-center justify-between opacity-70 hover:opacity-90 transition cursor-pointer"
+        >
+          <div className="flex items-center space-x-3.5 min-w-0 pr-2">
+            <div className="w-11 h-11 rounded-none bg-neutral-900/80 border border-neutral-800/60 flex items-center justify-center text-neutral-500 shrink-0">
+              <Globe2 className="w-5 h-5 stroke-[1.75]" />
+            </div>
+            <div className="min-w-0">
+              <h3 className="text-base font-bold text-neutral-300 font-sans tracking-tight">
+                General Knowledge <span className="text-neutral-500 font-normal">| সাধারণ জ্ঞান</span>
+              </h3>
+              <p className="text-xs text-neutral-500 mt-0.5">
+                বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি
+              </p>
+            </div>
+          </div>
+
+          <span className="text-[11px] font-mono text-neutral-500 shrink-0">
+            Coming Soon
+          </span>
         </div>
       </div>
     </div>

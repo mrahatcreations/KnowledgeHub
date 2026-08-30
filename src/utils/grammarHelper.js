@@ -12,9 +12,30 @@ export const POS_LABELS = {
   idiom: { full: 'Idiom (বাগধারা)', short: 'IDIOM', color: 'bg-pink-500/20 text-pink-300 border-pink-500/40' }
 };
 
-export function getPosInfo(pos) {
-  if (!pos) return { full: 'Word', short: 'WORD', color: 'bg-slate-800 text-slate-300 border-slate-700' };
-  const clean = String(pos).toLowerCase().trim();
+export function inferPos(word, pos, meaning = '') {
+  if (pos && pos.trim() && pos.toLowerCase() !== 'word') {
+    const p = pos.toLowerCase().trim();
+    if (POS_LABELS[p]) return p;
+    if (p.includes('verb') || p === 'v') return 'v';
+    if (p.includes('noun') || p === 'n') return 'n';
+    if (p.includes('adj')) return 'adj';
+    if (p.includes('adv')) return 'adv';
+    return p;
+  }
+  if (!word) return 'n';
+  const w = word.toLowerCase().trim();
+  
+  if (w.endsWith('ly')) return 'adv';
+  if (w.endsWith('able') || w.endsWith('ible') || w.endsWith('ful') || w.endsWith('less') || w.endsWith('ous') || w.endsWith('ive') || w.endsWith('ic') || w.endsWith('al') || w.endsWith('ed')) return 'adj';
+  if (w.endsWith('tion') || w.endsWith('sion') || w.endsWith('ment') || w.endsWith('ness') || w.endsWith('ity') || w.endsWith('ance') || w.endsWith('ence') || w.endsWith('ship') || w.endsWith('hood') || w.endsWith('ism') || w.endsWith('ist') || w.endsWith('er') || w.endsWith('or')) return 'n';
+  if (w.endsWith('ize') || w.endsWith('ise') || w.endsWith('ify') || w.endsWith('ate')) return 'v';
+  if (meaning && (meaning.includes('করা') || meaning.includes('হওয়া') || meaning.includes('দেওয়া') || meaning.includes('নেওয়া'))) return 'v';
+  
+  return 'n';
+}
+
+export function getPosInfo(pos, word = '', meaning = '') {
+  const clean = inferPos(word, pos, meaning);
   return POS_LABELS[clean] || { 
     full: clean.charAt(0).toUpperCase() + clean.slice(1), 
     short: clean.toUpperCase(), 

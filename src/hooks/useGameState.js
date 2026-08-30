@@ -8,7 +8,7 @@ export const STARS_PER_STAGE = 0.5;
 export const MAX_STARS_PER_LEVEL = 5.0;
 export const MASTERY_REQUIRED_STARS = 5.0;
 export const STORAGE_KEY_PROGRESS = 'vocabmaster_progress';
-export const STORAGE_KEY_CACHED_LEVELS = 'vocabmaster_cached_levels';
+export const STORAGE_KEY_CACHED_LEVELS = 'vocabmaster_cached_levels_v2_1';
 
 export const DEFAULT_GEMS = 240;
 export const DEFAULT_STREAK = 5;
@@ -105,54 +105,37 @@ export function useGameState(options = {}) {
   }, [gems, streak, lives]);
 
   /**
-   * Loads levels data instantly from local cache/bundle and silently performs
-   * background auto-sync from the GitHub repository.
+   * Loads fresh levels data from local bundle v2.1.0
    */
   const loadLevelsData = useCallback(async () => {
     setIsLoadingLevels(true);
 
-    // 1. Instant local load
     try {
-      const cached = localStorage.getItem(STORAGE_KEY_CACHED_LEVELS);
-      if (cached) {
-        try {
-          const parsed = JSON.parse(cached);
-          if (parsed && Array.isArray(parsed.levels) && parsed.levels.length > 0) {
-            setLevels(parsed.levels);
-            setIsLoadingLevels(false);
-          }
-        } catch {}
-      }
+      // Remove deprecated old cached key if present
+      localStorage.removeItem('vocabmaster_cached_levels');
 
-      const localRes = await fetch('/data/levels.json');
+      const localRes = await fetch('/data/levels.json?v=' + Date.now(), { cache: 'no-cache' });
       if (localRes.ok) {
         const localData = await localRes.json();
         if (localData.levels && Array.isArray(localData.levels)) {
+          localStorage.setItem(STORAGE_KEY_CACHED_LEVELS, JSON.stringify(localData));
           setLevels(localData.levels);
+          return;
+        }
+      }
+
+      // Fallback to cache if network error
+      const cached = localStorage.getItem(STORAGE_KEY_CACHED_LEVELS);
+      if (cached) {
+        const parsed = JSON.parse(cached);
+        if (parsed && Array.isArray(parsed.levels)) {
+          setLevels(parsed.levels);
         }
       }
     } catch (e) {
       console.warn('Local levels load warning:', e);
     } finally {
       setIsLoadingLevels(false);
-    }
-
-    // 2. Silent background auto-sync from GitHub
-    try {
-      const remoteUrl = 'https://raw.githubusercontent.com/mrahatcreations/VocabMaster/main/data';
-      const versionRes = await fetch(`${remoteUrl}/version.json`, { cache: 'no-store' });
-      if (versionRes.ok) {
-        const levelsRes = await fetch(`${remoteUrl}/levels.json`, { cache: 'no-store' });
-        if (levelsRes.ok) {
-          const remoteData = await levelsRes.json();
-          if (remoteData.levels && Array.isArray(remoteData.levels) && remoteData.levels.length > 0) {
-            localStorage.setItem(STORAGE_KEY_CACHED_LEVELS, JSON.stringify(remoteData));
-            setLevels(remoteData.levels);
-          }
-        }
-      }
-    } catch (err) {
-      // Silent catch: offline mode or network error, game continues smoothly
     }
   }, []);
 

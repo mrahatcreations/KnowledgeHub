@@ -17,11 +17,9 @@
   html {
     width: 100%;
     min-height: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow-x: clip;
     -webkit-text-size-adjust: 100%;
     -webkit-overflow-scrolling: touch;
-    overscroll-behavior-y: none;
   }
 
   body {
@@ -31,8 +29,7 @@
     min-height: 100%;
     background-color: #0b0f19;
     color: #f8fafc;
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow-x: clip;
     -webkit-overflow-scrolling: touch;
   }
 
@@ -46,6 +43,19 @@
     touch-action: manipulation;
     -webkit-tap-highlight-color: transparent;
   }
+}
+
+.font-luxury-title {
+  font-family: 'Cinzel', 'Playfair Display', Georgia, serif;
+  letter-spacing: 0.12em;
+}
+
+.font-luxury-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-luxury-mono {
+  font-family: 'JetBrains Mono', monospace;
 }
 
 /* 3D Perspective & Flip */
@@ -80,7 +90,7 @@
 /* Crisp 3D Saga Nodes */
 .saga-node-base {
   position: relative;
-  border-radius: 9999px;
+  border-radius: 0px !important;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -91,44 +101,44 @@
 }
 
 .saga-node-base:active:not(:disabled) {
-  transform: translateY(5px) scale(0.97) !important;
+  transform: translateY(4px) !important;
 }
 
 /* Mastered 5-Star Node (Solid Royal Gold) */
 .saga-node-mastered {
-  background-color: #f59e0b;
-  border: 3px solid #fde68a;
-  box-shadow: 0 6px 0 #b45309;
+  background-color: #d97706;
+  border: 2px solid #fde68a;
+  box-shadow: 0 5px 0 #78350f;
 }
 .saga-node-mastered:active:not(:disabled) {
-  box-shadow: 0 1px 0 #b45309;
+  box-shadow: 0 1px 0 #78350f;
 }
 
 /* Current Active Node (Solid Electric Blue) */
 .saga-node-current {
-  background-color: #3b82f6;
-  border: 3px solid #bfdbfe;
-  box-shadow: 0 6px 0 #1d4ed8;
+  background-color: #2563eb;
+  border: 2px solid #93c5fd;
+  box-shadow: 0 5px 0 #1e40af;
 }
 .saga-node-current:active:not(:disabled) {
-  box-shadow: 0 1px 0 #1d4ed8;
+  box-shadow: 0 1px 0 #1e40af;
 }
 
 /* Unlocked In-Progress Node (Solid Emerald) */
 .saga-node-unlocked {
-  background-color: #10b981;
-  border: 3px solid #a7f3d0;
-  box-shadow: 0 6px 0 #047857;
+  background-color: #059669;
+  border: 2px solid #6ee7b7;
+  box-shadow: 0 5px 0 #064e3b;
 }
 .saga-node-unlocked:active:not(:disabled) {
-  box-shadow: 0 1px 0 #047857;
+  box-shadow: 0 1px 0 #064e3b;
 }
 
 /* Locked Node (Crisp Dark Slate) */
 .saga-node-locked {
-  background-color: #1e293b;
-  border: 2px solid #334155;
-  box-shadow: 0 5px 0 #090d16;
+  background-color: #0f172a;
+  border: 1px solid #334155;
+  box-shadow: 0 4px 0 #020617;
   cursor: not-allowed;
 }
 

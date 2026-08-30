@@ -12,7 +12,8 @@ export default function SagaLevelPath({
   onSelectLevel,
   onBackToHub,
   isAudioMuted = false,
-  setIsAudioMuted
+  setIsAudioMuted,
+  onOpenAudioSettings
 }) {
   const [selectedUnit, setSelectedUnit] = useState('ALL');
   const currentNodeRef = useRef(null);
@@ -47,7 +48,6 @@ export default function SagaLevelPath({
     );
   }, [levelStars]);
 
-  const totalMaxStars = levels.length * 5;
   const progressPercent = Math.min(100, Math.round((Math.min(unlockedLevel - 1, levels.length) / levels.length) * 100));
 
   // Auto-scroll to the current unlocked level node only if beyond level 2
@@ -77,7 +77,7 @@ export default function SagaLevelPath({
   const AMPLITUDE = 60;      // horizontal sway (px)
   const CENTER_X = 160;      // center point in a 320px SVG canvas
   const ROW_HEIGHT = 105;    // vertical distance between node centers (px)
-  const TOP_PAD = 50;        // top padding for first node inside the path canvas
+  const TOP_PAD = 80;        // top padding for first node inside the path canvas to give START badge clearance
 
   // Calculate coordinates for every level node in the current view
   const nodePositions = useMemo(() => {
@@ -90,7 +90,7 @@ export default function SagaLevelPath({
 
   const totalSvgHeight = useMemo(() => {
     if (nodePositions.length === 0) return 300;
-    return nodePositions[nodePositions.length - 1].y + 80;
+    return nodePositions[nodePositions.length - 1].y + 70;
   }, [nodePositions]);
 
   // Generate SVG Cubic Bezier Curve connecting all node centers
@@ -121,93 +121,89 @@ export default function SagaLevelPath({
     return (
       <div className="w-full max-w-md mx-auto py-20 flex flex-col items-center justify-center space-y-3">
         <Sparkles className="w-8 h-8 text-indigo-400 animate-spin" />
-        <p className="text-sm font-bold text-slate-400">Loading Levels...</p>
+        <p className="text-xs font-mono font-bold uppercase tracking-wider text-slate-400">Loading Levels...</p>
       </div>
     );
   }
 
   return (
-    <div className="w-full max-w-md mx-auto flex flex-col items-center select-none pt-[calc(145px+env(safe-area-inset-top,0px))] pb-12 sm:pb-16">
-      {/* 1. PERMANENTLY FIXED TOP DASHBOARD (Status + Progress + Filter Pills) */}
+    <div className="w-full max-w-md mx-auto flex flex-col items-center select-none pt-[calc(96px+env(safe-area-inset-top,0px))] pb-12 sm:pb-16">
+      {/* 1. PERMANENTLY FIXED TOP ULTRA-COMPACT DASHBOARD (<= 80px total height, 2 Slim Rows) */}
       <div 
-        className="fixed top-0 left-0 right-0 z-40 bg-[#0b0f19] border-b border-slate-800 shadow-md safe-top"
-        style={{ paddingTop: 'max(env(safe-area-inset-top, 0px), 8px)' }}
+        className="fixed top-0 left-0 right-0 z-40 bg-slate-950/95 backdrop-blur-md border-b border-slate-800 shadow-xs safe-top"
+        style={{ paddingTop: 'max(env(safe-area-inset-top, 0px), 6px)' }}
       >
-        <div className="max-w-md w-full mx-auto px-3.5 pb-2.5">
-          {/* Top Status & Controls Row */}
-          <div className="flex items-center justify-between gap-2 mb-2">
-            <div className="flex items-center space-x-2 min-w-0">
-              <button
-                onClick={() => {
-                  sound.playClick();
-                  if (onBackToHub) onBackToHub();
-                }}
-                className="flex items-center space-x-1.5 px-2.5 py-1.5 rounded-xl bg-slate-800/90 hover:bg-slate-700 active:scale-95 transition border border-slate-700 text-slate-200 shrink-0 cursor-pointer shadow-xs"
-                title="Back to Subjects Hub"
-                aria-label="Back to Subjects"
-              >
-                <ArrowLeft className="w-4 h-4 text-blue-400 shrink-0" />
-                <span className="font-bold text-xs text-white tracking-tight">Subjects</span>
-              </button>
-              <div className="flex flex-col min-w-0">
-                <div className="flex items-center space-x-1.5 leading-none">
-                  <span className="font-black text-sm text-white tracking-tight">English Saga</span>
-                  <span className="text-[10px] bg-blue-900/40 text-blue-300 font-bold px-1.5 py-0.5 rounded-full border border-blue-700/50">
-                    201 Lvl
-                  </span>
-                </div>
-                <span className="text-[10px] font-bold text-slate-400 mt-0.5">
-                  Level {Math.min(unlockedLevel, levels.length)} of {levels.length}
+        <div className="max-w-md w-full mx-auto px-3 pb-2">
+          {/* Row 1: Back Button + Level Progress Center + Stats & Audio on Right */}
+          <div className="flex items-center justify-between gap-2">
+            {/* Left: Hub Navigation */}
+            <button
+              onClick={() => {
+                sound.playClick();
+                if (onBackToHub) onBackToHub();
+              }}
+              className="flex items-center space-x-1 px-2 py-1 rounded-none bg-slate-900 hover:bg-slate-800 active:bg-slate-700 transition border border-slate-700/80 text-slate-200 shrink-0 cursor-pointer font-mono font-bold text-xs"
+              title="Back to Subjects Hub"
+              aria-label="Back to Subjects"
+            >
+              <ArrowLeft className="w-3.5 h-3.5 text-indigo-400 shrink-0" />
+              <span>HUB</span>
+            </button>
+
+            {/* Center: Title & Mini Level Progress Bar */}
+            <div className="flex flex-col items-center justify-center min-w-0 flex-1 px-1">
+              <div className="flex items-center space-x-1.5 leading-none">
+                <span className="font-mono font-bold text-xs text-white uppercase tracking-wider truncate">English Saga</span>
+                <span className="text-[9px] font-mono font-bold text-indigo-300 shrink-0">
+                  Lvl {Math.min(unlockedLevel, levels.length)}/{levels.length}
                 </span>
+              </div>
+              <div className="w-full max-w-[120px] h-1 bg-slate-900 rounded-none border border-slate-800/90 overflow-hidden mt-1">
+                <div 
+                  className="h-full bg-indigo-500 rounded-none transition-all duration-300"
+                  style={{ width: `${Math.max(3, progressPercent)}%` }}
+                />
               </div>
             </div>
 
             {/* Right: Stars, Completed & Mute */}
-            <div className="flex items-center space-x-1.5 shrink-0">
+            <div className="flex items-center space-x-1 shrink-0 font-mono">
               {/* Total Stars */}
               <div 
-                className="flex items-center space-x-1 bg-amber-500/10 text-amber-400 px-2 py-1 rounded-xl border border-amber-500/20"
+                className="flex items-center space-x-1 bg-amber-500/10 text-amber-400 px-1.5 py-1 rounded-none border border-amber-500/20"
                 title="Total Stars Collected"
               >
-                <Star className="w-3.5 h-3.5 fill-amber-400 shrink-0" />
-                <span className="font-mono text-xs font-black">{String(totalStarsEarned).replace('.0', '')}</span>
+                <Star className="w-3 h-3 fill-amber-400 shrink-0" />
+                <span className="text-xs font-bold">{String(totalStarsEarned).replace('.0', '')}</span>
               </div>
 
               {/* Mastered Levels */}
               <div 
-                className="flex items-center space-x-1 bg-slate-800 text-slate-200 px-2 py-1 rounded-xl border border-slate-700"
+                className="flex items-center space-x-1 bg-slate-900 text-slate-200 px-1.5 py-1 rounded-none border border-slate-700/80"
                 title="Mastered Levels"
               >
-                <Crown className="w-3.5 h-3.5 fill-amber-400 text-amber-400 shrink-0" />
-                <span className="font-mono text-xs font-black">{totalMastered}</span>
+                <Crown className="w-3 h-3 fill-amber-400 text-amber-400 shrink-0" />
+                <span className="text-xs font-bold">{totalMastered}</span>
               </div>
 
               {/* Sound Toggle */}
               <button
                 onClick={toggleAudio}
-                className="w-8 h-8 flex items-center justify-center rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-300 transition active:scale-95 shrink-0"
+                className="w-7 h-7 flex items-center justify-center rounded-none bg-slate-900 hover:bg-slate-800 border border-slate-700/80 text-slate-300 transition active:scale-95 shrink-0 cursor-pointer"
                 title={isAudioMuted ? 'Unmute Sound' : 'Mute Sound'}
                 aria-label="Sound Toggle"
               >
                 {isAudioMuted ? (
-                  <VolumeX className="w-3.5 h-3.5 text-rose-400" />
+                  <VolumeX className="w-3 h-3 text-rose-400" />
                 ) : (
-                  <Volume2 className="w-3.5 h-3.5 text-blue-400" />
+                  <Volume2 className="w-3 h-3 text-indigo-400" />
                 )}
               </button>
             </div>
           </div>
 
-          {/* Level Progress Bar */}
-          <div className="w-full h-1.5 bg-slate-900 rounded-full border border-slate-800 overflow-hidden mb-2">
-            <div 
-              className="h-full bg-blue-500 rounded-full transition-all duration-300"
-              style={{ width: `${Math.max(3, progressPercent)}%` }}
-            />
-          </div>
-
-          {/* Horizontal Unit Filter Pills */}
-          <div className="w-full flex items-center space-x-2 overflow-x-auto scrollbar-none whitespace-nowrap touch-pan-x">
+          {/* Row 2: Horizontal Unit Filter Chips */}
+          <div className="w-full flex items-center space-x-1.5 overflow-x-auto scrollbar-none whitespace-nowrap touch-pan-x mt-1.5 pt-0.5">
             {units.map((u, i) => {
               const isSelected = selectedUnit === u;
               return (
@@ -217,9 +213,9 @@ export default function SagaLevelPath({
                     setSelectedUnit(u);
                     sound.playClick();
                   }}
-                  className={`px-3 py-1 rounded-xl text-xs font-bold whitespace-nowrap shrink-0 transition-all active:scale-95 cursor-pointer ${
+                  className={`px-2.5 py-0.5 rounded-none text-[10px] font-mono font-bold uppercase tracking-wider whitespace-nowrap shrink-0 transition-all active:scale-95 cursor-pointer ${
                     isSelected
-                      ? 'bg-blue-600 text-white shadow-xs font-black'
+                      ? 'bg-indigo-600 text-white border border-indigo-400/40 shadow-xs'
                       : 'bg-slate-900 border border-slate-800 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
                   }`}
                 >
@@ -231,10 +227,10 @@ export default function SagaLevelPath({
         </div>
       </div>
 
-      {/* 3. Winding Path */}
+      {/* 2. Winding Path Canvas */}
       <div 
         ref={pathContainerRef}
-        className="relative w-[320px] mx-auto flex justify-center pt-8 pb-4"
+        className="relative w-[320px] mx-auto flex justify-center pt-6 pb-4"
         style={{ minHeight: `${totalSvgHeight}px` }}
       >
         {/* Clean SVG Connecting Path */}
@@ -248,30 +244,30 @@ export default function SagaLevelPath({
           {/* Base Road Track */}
           <path
             d={svgCurves.fullPath}
-            stroke="#1e293b"
-            strokeWidth="16"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+            stroke="#0f172a"
+            strokeWidth="14"
+            strokeLinecap="square"
+            strokeLinejoin="miter"
           />
 
-          {/* Locked Stepping Dashes */}
+          {/* Stepping Track Border */}
           <path
             d={svgCurves.fullPath}
-            stroke="#334155"
+            stroke="#1e293b"
             strokeWidth="4"
-            strokeDasharray="6 8"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+            strokeDasharray="4 6"
+            strokeLinecap="square"
+            strokeLinejoin="miter"
           />
 
           {/* Unlocked Solid Active Line */}
           {svgCurves.unlockedPath && (
             <path
               d={svgCurves.unlockedPath}
-              stroke="#3b82f6"
-              strokeWidth="5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+              stroke="#4f46e5"
+              strokeWidth="4"
+              strokeLinecap="square"
+              strokeLinejoin="miter"
             />
           )}
         </svg>
@@ -303,16 +299,16 @@ export default function SagaLevelPath({
               >
                 {/* Floating "START" Indicator for Active Node */}
                 {isCurrent && (
-                  <div className="absolute -top-10 z-30 animate-float flex flex-col items-center pointer-events-none">
-                    <div className="bg-blue-600 text-white text-[10px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-md shadow-md border border-blue-400 flex items-center space-x-1">
+                  <div className="absolute -top-8 z-30 animate-float flex flex-col items-center pointer-events-none">
+                    <div className="bg-indigo-600 text-white text-[9px] font-mono font-bold uppercase tracking-widest px-2 py-0.5 rounded-none shadow-md border border-indigo-400 flex items-center space-x-1">
                       <Play className="w-2.5 h-2.5 fill-white" />
                       <span>START</span>
                     </div>
-                    <div className="w-0 h-0 border-x-4 border-x-transparent border-t-4 border-t-blue-600" />
+                    <div className="w-0 h-0 border-x-3 border-x-transparent border-t-3 border-t-indigo-600" />
                   </div>
                 )}
 
-                {/* Duolingo-style 3D Circle Node Button */}
+                {/* Hard Corner 3D Square Node Button */}
                 <button
                   onClick={() => {
                     if (isUnlocked) {
@@ -321,7 +317,7 @@ export default function SagaLevelPath({
                     }
                   }}
                   disabled={!isUnlocked}
-                  className={`saga-node-base w-15 h-15 sm:w-16 sm:h-16 ${
+                  className={`saga-node-base w-14 h-14 sm:w-15 sm:h-15 rounded-none font-mono ${
                     isMastered
                       ? 'saga-node-mastered'
                       : isCurrent
@@ -334,29 +330,29 @@ export default function SagaLevelPath({
                 >
                   {/* Mastered Crown Badge */}
                   {isMastered && (
-                    <div className="absolute -top-2.5 bg-amber-400 border-2 border-white rounded-full p-0.5 shadow-sm">
-                      <Crown className="w-3.5 h-3.5 fill-amber-950 text-amber-950" />
+                    <div className="absolute -top-2 bg-amber-400 border border-amber-200 rounded-none px-1 py-0.5 shadow-xs flex items-center justify-center">
+                      <Crown className="w-3 h-3 fill-amber-950 text-amber-950" />
                     </div>
                   )}
 
                   {/* Level Number or Lock */}
                   {isUnlocked ? (
-                    <span className={`text-xl sm:text-2xl font-black font-mono leading-none ${
+                    <span className={`text-lg sm:text-xl font-black font-mono leading-none ${
                       isMastered ? 'text-amber-950' : 'text-white'
                     }`}>
                       {lvl.level_id}
                     </span>
                   ) : (
-                    <Lock className="w-5 h-5 text-slate-500" />
+                    <Lock className="w-4 h-4 text-slate-500" />
                   )}
                 </button>
 
                 {/* Star Rating Badge (Only shown if unlocked & has stars) */}
                 {isUnlocked && displayStars > 0 && (
-                  <div className={`flex items-center justify-center space-x-1 mt-1.5 px-2 py-0.5 rounded-full border text-[10px] font-mono font-bold ${
+                  <div className={`flex items-center justify-center space-x-1 mt-1 px-1.5 py-0.5 rounded-none border text-[9px] font-mono font-bold ${
                     isMastered
-                      ? 'bg-amber-500/10 border-amber-500/30 text-amber-400'
-                      : 'bg-slate-900 border-slate-800 text-slate-300'
+                      ? 'bg-amber-500/15 border-amber-500/40 text-amber-400'
+                      : 'bg-slate-950/90 border-slate-800 text-slate-300'
                   }`}>
                     <Star className="w-2.5 h-2.5 fill-amber-400 text-amber-400 shrink-0" />
                     <span>{String(displayStars).replace('.0', '')}/5</span>

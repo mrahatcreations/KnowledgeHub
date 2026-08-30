@@ -4,3 +4,12 @@ dist/
 *.log
 *.tmp
 *.apk
+__pycache__/
+*.pyc
+scratch/
+local.properties
+android/local.properties
+.gradle/
+android/.gradle/
+android/app/build/
+android/build/
