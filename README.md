@@ -33,5 +33,5 @@ npm run build
 `
 
 ## 🔄 Live Sync Endpoint
-- Remote Version: https://raw.githubusercontent.com/mrahatcreations/English-Easy/main/data/version.json
-- Remote Levels: https://raw.githubusercontent.com/mrahatcreations/English-Easy/main/data/levels.json
+- Remote Version: https://raw.githubusercontent.com/mrahatcreations/VocabMaster/main/data/version.json
+- Remote Levels: https://raw.githubusercontent.com/mrahatcreations/VocabMaster/main/data/levels.json

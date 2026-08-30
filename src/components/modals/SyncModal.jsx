@@ -5,7 +5,7 @@ import { sound } from '../../audio/SoundSynthesizer';
 export default function SyncModal({ onClose, totalLevels, onReloadLevels }) {
   const [syncStatus, setSyncStatus] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
-  const [githubUrl, setGithubUrl] = useState('https://raw.githubusercontent.com/mrahatcreations/English-Easy/main/data');
+  const [githubUrl, setGithubUrl] = useState('https://raw.githubusercontent.com/mrahatcreations/VocabMaster/main/data');
 
   const handleSync = async () => {
     setIsLoading(true);
