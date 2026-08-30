@@ -124,7 +124,7 @@ export default function OddOneOutStage({ stage, onSubmitAnswer, isSecondChance }
                 <span className={`w-7 h-7 rounded-xl flex items-center justify-center font-mono text-xs font-black shrink-0 transition-all ${numBadgeStyle}`}>
                   {cardNum}
                 </span>
-                <span className="text-base sm:text-lg font-black tracking-tight truncate">
+                <span className="text-sm sm:text-base font-black tracking-tight leading-snug break-words">
                   {opt}
                 </span>
               </div>

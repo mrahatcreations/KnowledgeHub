@@ -340,7 +340,7 @@ export default function FlashcardStage({ stage, onSubmitAnswer, isSecondChance }
                     : 'game-btn-slate bg-gradient-to-b from-slate-800 to-slate-900 border-slate-700 text-slate-100 hover:border-indigo-400 hover:text-white'
                 } ${isShaking ? 'animate-shake' : ''}`}
               >
-                <div className="flex items-center space-x-3 flex-1 min-w-0 pr-2">
+                <div className="flex items-center space-x-3 flex-1 flex-1 pr-2">
                   {/* Number Chip */}
                   <span
                     className={`w-7 h-7 shrink-0 rounded-xl flex items-center justify-center text-xs font-mono font-black border transition ${
@@ -355,7 +355,7 @@ export default function FlashcardStage({ stage, onSubmitAnswer, isSecondChance }
                   </span>
 
                   {/* Option Text */}
-                  <span className="truncate leading-tight font-sans text-sm sm:text-base">
+                  <span className="leading-snug font-sans text-sm sm:text-base break-words">
                     {opt}
                   </span>
                 </div>

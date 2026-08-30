@@ -216,7 +216,7 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
                   <div className="absolute inset-x-0 top-0 h-[1px] bg-white/20 pointer-events-none" />
 
                   <div className="flex items-center space-x-2 truncate mr-1">
-                    <span className="truncate tracking-wide font-extrabold">{item.text}</span>
+                    <span className="tracking-wide font-extrabold break-words leading-tight">{item.text}</span>
                   </div>
 
                   {/* Right-side status icon */}
@@ -284,7 +284,7 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
                   {/* Glowing Edge highlight */}
                   <div className="absolute inset-x-0 top-0 h-[1px] bg-white/20 pointer-events-none" />
 
-                  <span className="leading-snug tracking-wide line-clamp-2 mr-1">{item.text}</span>
+                  <span className="leading-snug tracking-wide text-xs sm:text-sm break-words mr-1">{item.text}</span>
 
                   {/* Status Indicator Icon */}
                   <div className="shrink-0">
