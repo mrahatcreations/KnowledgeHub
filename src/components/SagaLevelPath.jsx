@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
-import { Star, Lock, Trophy, Sparkles, Gift, Crown, Play, Volume2, VolumeX } from 'lucide-react';
+import { Star, Lock, Trophy, Sparkles, Gift, Crown, Play, Volume2, VolumeX, ArrowLeft } from 'lucide-react';
 import { sound } from '../audio/SoundSynthesizer';
 
 export default function SagaLevelPath({ 
@@ -10,6 +10,7 @@ export default function SagaLevelPath({
   streak = 1, 
   lives = 5, 
   onSelectLevel,
+  onBackToHub,
   isAudioMuted = false,
   setIsAudioMuted
 }) {
@@ -126,7 +127,7 @@ export default function SagaLevelPath({
   }
 
   return (
-    <div className="w-full max-w-md mx-auto flex flex-col items-center select-none pt-[calc(145px+env(safe-area-inset-top,0px))] pb-28 sm:pb-32">
+    <div className="w-full max-w-md mx-auto flex flex-col items-center select-none pt-[calc(145px+env(safe-area-inset-top,0px))] pb-12 sm:pb-16">
       {/* 1. PERMANENTLY FIXED TOP DASHBOARD (Status + Progress + Filter Pills) */}
       <div 
         className="fixed top-0 left-0 right-0 z-40 bg-[#0b0f19] border-b border-slate-800 shadow-md safe-top"
@@ -136,14 +137,23 @@ export default function SagaLevelPath({
           {/* Top Status & Controls Row */}
           <div className="flex items-center justify-between gap-2 mb-2">
             <div className="flex items-center space-x-2 min-w-0">
-              <div className="w-7 h-7 rounded-xl bg-blue-600 flex items-center justify-center font-black text-white text-xs shrink-0 shadow-xs">
-                V
-              </div>
+              <button
+                onClick={() => {
+                  sound.playClick();
+                  if (onBackToHub) onBackToHub();
+                }}
+                className="flex items-center space-x-1.5 px-2.5 py-1.5 rounded-xl bg-slate-800/90 hover:bg-slate-700 active:scale-95 transition border border-slate-700 text-slate-200 shrink-0 cursor-pointer shadow-xs"
+                title="Back to Subjects Hub"
+                aria-label="Back to Subjects"
+              >
+                <ArrowLeft className="w-4 h-4 text-blue-400 shrink-0" />
+                <span className="font-bold text-xs text-white tracking-tight">Subjects</span>
+              </button>
               <div className="flex flex-col min-w-0">
                 <div className="flex items-center space-x-1.5 leading-none">
-                  <span className="font-black text-sm text-white tracking-tight">Level Path</span>
-                  <span className="text-[10px] bg-slate-800 text-slate-300 font-bold px-1.5 py-0.2 rounded-full border border-slate-700">
-                    {levels.length}
+                  <span className="font-black text-sm text-white tracking-tight">English Saga</span>
+                  <span className="text-[10px] bg-blue-900/40 text-blue-300 font-bold px-1.5 py-0.5 rounded-full border border-blue-700/50">
+                    201 Lvl
                   </span>
                 </div>
                 <span className="text-[10px] font-bold text-slate-400 mt-0.5">

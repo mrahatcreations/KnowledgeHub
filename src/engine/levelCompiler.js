@@ -155,55 +155,211 @@ export function getRandomDistractors(allItems, currentItem, count = 3, key = 'me
   return picked;
 }
 
+export const POS_MAP = {
+  n: 'Noun (বিশেষ্য)',
+  v: 'Verb (ক্রিয়া)',
+  adj: 'Adjective (বিশেষণ)',
+  adv: 'Adverb (ক্রিয়া-বিশেষণ)',
+  prep: 'Preposition (অব্যয়)',
+  phrase: 'Phrase (বাক্যাংশ)',
+  idiom: 'Idiom (বাগধারা)'
+};
+
+export function formatPoS(pos) {
+  if (!pos) return 'Word';
+  const clean = String(pos).toLowerCase().trim();
+  return POS_MAP[clean] || (clean.charAt(0).toUpperCase() + clean.slice(1));
+}
+
 /**
- * 1. Flashcard Stage Generator
+ * 1. Flashcard Stage Generator with Multi-Angle Question Types
  */
 export function generateFlashcardStage(item, allItems, stageMeta = {}) {
-  const distractors = getRandomDistractors(allItems, item, 3, 'meaning');
-  const options = shuffleArray([item.meaning, ...distractors]);
-
   const synonyms = extractWordList(item.synonyms, item.raw_synonyms);
   const antonyms = extractWordList(item.antonyms, item.raw_antonyms);
+  const stageNum = stageMeta.stageNumber || 1;
+  const iteration = stageMeta.iteration || 1;
+
+  let questionType = 'meaning';
+  if (iteration === 2 && synonyms.length > 0) {
+    questionType = 'synonym';
+  } else if (iteration === 2 && antonyms.length > 0) {
+    questionType = 'antonym';
+  } else if (stageNum % 4 === 0 && item.pos) {
+    questionType = 'pos';
+  } else if (stageNum % 3 === 0) {
+    questionType = 'reverse';
+  }
+
+  let question = `What is the correct meaning of "${item.word}"?`;
+  let title = 'Flashcard Active Recall';
+  let instruction = 'Review the word and select the correct meaning';
+  let options = [];
+  let correctAnswer = '';
+  let explanation = '';
 
   const synonymsText = synonyms.length > 0 ? ` Synonyms: ${synonyms.join(', ')}` : '';
   const antonymsText = antonyms.length > 0 ? ` | Antonyms: ${antonyms.join(', ')}` : '';
 
+  if (questionType === 'synonym' && synonyms.length > 0) {
+    title = 'Synonym Recall Challenge';
+    instruction = 'Identify the correct Synonym (সমার্থক শব্দ) for the word';
+    question = `Which word is a SYNONYM of "${item.word}"?`;
+    correctAnswer = synonyms[0];
+    const wordDistractors = getRandomDistractors(allItems, item, 3, 'word');
+    options = shuffleArray([correctAnswer, ...wordDistractors]);
+    explanation = `Correct! "${correctAnswer}" is a synonym of "${item.word}" (${item.meaning}).`;
+  } else if (questionType === 'antonym' && antonyms.length > 0) {
+    title = 'Antonym Recall Challenge';
+    instruction = 'Identify the correct Opposite / Antonym (বিপরীত শব্দ) for the word';
+    question = `Which word is an ANTONYM (opposite) of "${item.word}"?`;
+    correctAnswer = antonyms[0];
+    const wordDistractors = getRandomDistractors(allItems, item, 3, 'word');
+    options = shuffleArray([correctAnswer, ...wordDistractors]);
+    explanation = `Correct! "${correctAnswer}" is the antonym (opposite) of "${item.word}" (${item.meaning}).`;
+  } else if (questionType === 'pos' && item.pos) {
+    title = 'Grammar & Part of Speech';
+    instruction = 'Select the correct Part of Speech (পদ) for this word';
+    question = `What Part of Speech (Grammar) is "${item.word}"?`;
+    correctAnswer = formatPoS(item.pos);
+    const standardPosList = ['Noun (বিশেষ্য)', 'Verb (ক্রিয়া)', 'Adjective (বিশেষণ)', 'Adverb (ক্রিয়া-বিশেষণ)', 'Preposition (অব্যয়)'];
+    const otherPos = standardPosList.filter(p => p !== correctAnswer);
+    options = shuffleArray([correctAnswer, ...shuffleArray(otherPos).slice(0, 3)]);
+    explanation = `Correct! "${item.word}" is a ${correctAnswer}. Meaning: "${item.meaning}".`;
+  } else if (questionType === 'reverse') {
+    title = 'Reverse Word Recall';
+    instruction = 'Select the English word matching the Bengali definition';
+    question = `Which English word means "${item.meaning}"?`;
+    correctAnswer = item.word;
+    const wordDistractors = getRandomDistractors(allItems, item, 3, 'word');
+    options = shuffleArray([correctAnswer, ...wordDistractors]);
+    explanation = `Correct! "${item.word}" means "${item.meaning}".${synonymsText}${antonymsText}`;
+  } else {
+    // Standard Meaning
+    correctAnswer = item.meaning;
+    const distractors = getRandomDistractors(allItems, item, 3, 'meaning');
+    options = shuffleArray([item.meaning, ...distractors]);
+    explanation = `"${item.word}" (${formatPoS(item.pos)}) means: "${item.meaning}".${synonymsText}${antonymsText}`;
+  }
+
   return {
     type: STAGE_TYPES.FLASHCARD,
-    stageNumber: stageMeta.stageNumber || 1,
-    iteration: stageMeta.iteration || 1,
-    title: STAGE_TITLES[STAGE_TYPES.FLASHCARD],
-    instruction: STAGE_INSTRUCTIONS[STAGE_TYPES.FLASHCARD],
+    questionType: questionType,
+    stageNumber: stageNum,
+    iteration: iteration,
+    title: title,
+    instruction: instruction,
     item: item,
-    question: `What is the correct meaning of "${item.word}"?`,
+    question: question,
     options: options,
-    correctAnswer: item.meaning,
-    explanation: `"${item.word}" (${item.pos || 'Word'}) means: "${item.meaning}".${synonymsText}${antonymsText}`
+    correctAnswer: correctAnswer,
+    explanation: explanation
   };
 }
 
 /**
- * 2. Matching Stage Generator
+ * 2. Multi-Mode Matching Stage Generator (Meaning, Synonym, Antonym, Grammar)
  */
 export function generateMatchingStage(allItems, stageMeta = {}, targetItem = null) {
   const sourceItems = Array.isArray(allItems) && allItems.length > 0 ? allItems : (targetItem ? [targetItem] : []);
   const selected = shuffleArray(sourceItems).slice(0, Math.min(sourceItems.length, 5));
+  const stageNum = stageMeta.stageNumber || 2;
+  const iteration = stageMeta.iteration || 1;
 
-  const leftItems = selected.map(it => ({ id: it.id, text: it.word }));
-  const rightItems = shuffleArray(selected.map(it => ({ id: it.id, text: it.meaning })));
+  // Check available synonyms and antonyms
+  const itemsWithSyn = selected.filter(it => extractWordList(it.synonyms, it.raw_synonyms).length > 0);
+  const itemsWithAnt = selected.filter(it => extractWordList(it.antonyms, it.raw_antonyms).length > 0);
+  const distinctPoS = new Set(selected.map(it => it.pos).filter(Boolean));
+
+  let mode = 'meaning'; // 'meaning' | 'synonym' | 'antonym' | 'pos'
+
+  if (iteration === 2 && itemsWithSyn.length >= 3) {
+    mode = 'synonym';
+  } else if (iteration === 2 && itemsWithAnt.length >= 3) {
+    mode = 'antonym';
+  } else if (stageNum % 3 === 0 && distinctPoS.size >= 3) {
+    mode = 'pos';
+  } else if (stageNum % 2 === 0 && itemsWithSyn.length >= 3) {
+    mode = 'synonym';
+  }
+
+  let leftItems = [];
+  let rightItems = [];
+  let title = 'Left-Right Matching';
+  let instruction = 'Match each English word with its correct definition';
+  let leftHeader = 'English Words';
+  let leftSub = 'EN';
+  let rightHeader = 'Definitions / Meanings';
+  let rightSub = 'BN';
+  let explanation = 'Match each English word with its corresponding definition.';
+
+  if (mode === 'synonym') {
+    title = 'Synonym Pairs Matching';
+    instruction = 'Match each word with its corresponding Synonym (সমার্থক শব্দ)';
+    leftHeader = 'Target Words';
+    leftSub = 'WORD';
+    rightHeader = 'Synonyms';
+    rightSub = 'SYN';
+    explanation = 'Match each word with its correct synonym to complete the challenge.';
+
+    leftItems = selected.map(it => ({ id: it.id, text: it.word }));
+    rightItems = shuffleArray(selected.map(it => {
+      const syns = extractWordList(it.synonyms, it.raw_synonyms);
+      const text = syns.length > 0 ? syns[0] : it.meaning;
+      return { id: it.id, text: text };
+    }));
+  } else if (mode === 'antonym') {
+    title = 'Antonym Pairs Matching';
+    instruction = 'Match each word with its correct Antonym (বিপরীত শব্দ)';
+    leftHeader = 'Target Words';
+    leftSub = 'WORD';
+    rightHeader = 'Antonyms (Opposites)';
+    rightSub = 'ANT';
+    explanation = 'Match each word with its correct opposite / antonym.';
+
+    leftItems = selected.map(it => ({ id: it.id, text: it.word }));
+    rightItems = shuffleArray(selected.map(it => {
+      const ants = extractWordList(it.antonyms, it.raw_antonyms);
+      const text = ants.length > 0 ? ants[0] : `${it.meaning} (Opposite)`;
+      return { id: it.id, text: text };
+    }));
+  } else if (mode === 'pos') {
+    title = 'Grammar & PoS Matching';
+    instruction = 'Match each word with its correct Part of Speech (Noun, Verb, Adjective)';
+    leftHeader = 'Vocabulary Words';
+    leftSub = 'WORD';
+    rightHeader = 'Parts of Speech';
+    rightSub = 'POS';
+    explanation = 'Match each word with its correct grammatical Part of Speech.';
+
+    leftItems = selected.map(it => ({ id: it.id, text: it.word }));
+    rightItems = shuffleArray(selected.map(it => ({
+      id: it.id,
+      text: formatPoS(it.pos)
+    })));
+  } else {
+    // Default: Word <-> Meaning
+    leftItems = selected.map(it => ({ id: it.id, text: it.word }));
+    rightItems = shuffleArray(selected.map(it => ({ id: it.id, text: it.meaning })));
+  }
 
   return {
     type: STAGE_TYPES.MATCHING,
-    stageNumber: stageMeta.stageNumber || 2,
-    iteration: stageMeta.iteration || 1,
-    title: STAGE_TITLES[STAGE_TYPES.MATCHING],
-    instruction: STAGE_INSTRUCTIONS[STAGE_TYPES.MATCHING],
+    matchingMode: mode,
+    stageNumber: stageNum,
+    iteration: iteration,
+    title: title,
+    instruction: instruction,
+    leftHeader: leftHeader,
+    leftSub: leftSub,
+    rightHeader: rightHeader,
+    rightSub: rightSub,
     item: targetItem || selected[0] || null,
     leftItems: shuffleArray(leftItems),
     rightItems: rightItems,
     totalPairs: selected.length,
     correctAnswer: 'MATCH_ALL',
-    explanation: 'Match each English word with its corresponding definition to complete all pairs.'
+    explanation: explanation
   };
 }
 
@@ -254,31 +410,76 @@ export function generateDragDropStage(item, allItems, stageMeta = {}) {
 }
 
 /**
- * 4. True/False Swipe Stage Generator
+ * 4. True/False Swipe Stage Generator with Multi-Angle Verification
  */
 export function generateTrueFalseStage(item, allItems, stageMeta = {}) {
+  const synonyms = extractWordList(item.synonyms, item.raw_synonyms);
+  const antonyms = extractWordList(item.antonyms, item.raw_antonyms);
+  const stageNum = stageMeta.stageNumber || 4;
+  const iteration = stageMeta.iteration || 1;
   const isTrue = Math.random() >= 0.5;
-  let displayedMeaning = item.meaning;
 
-  if (!isTrue) {
-    const distractors = getRandomDistractors(allItems, item, 1, 'meaning');
-    displayedMeaning = distractors.length > 0 ? distractors[0] : 'Alternative Meaning';
+  let mode = 'meaning';
+  if (iteration === 2 && synonyms.length > 0 && Math.random() > 0.3) {
+    mode = 'synonym';
+  } else if (iteration === 2 && antonyms.length > 0 && Math.random() > 0.3) {
+    mode = 'antonym';
+  } else if (stageNum % 3 === 0 && item.pos) {
+    mode = 'pos';
+  }
+
+  let statement = '';
+  let displayedMeaning = item.meaning;
+  let explanation = '';
+
+  if (mode === 'synonym' && synonyms.length > 0) {
+    const targetSyn = isTrue ? synonyms[0] : (getRandomDistractors(allItems, item, 1, 'word')[0] || 'Unrelated');
+    statement = `Is "${targetSyn}" a SYNONYM of "${item.word}"?`;
+    displayedMeaning = targetSyn;
+    explanation = isTrue
+      ? `Correct! "${targetSyn}" is indeed a synonym of "${item.word}" (${item.meaning}).`
+      : `False! "${targetSyn}" is not a synonym of "${item.word}" (Synonyms: ${synonyms.join(', ')}).`;
+  } else if (mode === 'antonym' && antonyms.length > 0) {
+    const targetAnt = isTrue ? antonyms[0] : (getRandomDistractors(allItems, item, 1, 'word')[0] || 'Opposite');
+    statement = `Is "${targetAnt}" an OPPOSITE (Antonym) of "${item.word}"?`;
+    displayedMeaning = targetAnt;
+    explanation = isTrue
+      ? `Correct! "${targetAnt}" is the antonym of "${item.word}" (${item.meaning}).`
+      : `False! "${targetAnt}" is not the antonym of "${item.word}" (Antonyms: ${antonyms.join(', ')}).`;
+  } else if (mode === 'pos' && item.pos) {
+    const posList = ['Noun (বিশেষ্য)', 'Verb (ক্রিয়া)', 'Adjective (বিশেষণ)', 'Adverb (ক্রিয়া-বিশেষণ)', 'Preposition (অব্যয়)'];
+    const actualPos = formatPoS(item.pos);
+    const fakePos = posList.filter(p => !actualPos.toLowerCase().includes(p.toLowerCase()))[0] || 'Noun (বিশেষ্য)';
+    const displayedPoS = isTrue ? actualPos : fakePos;
+    statement = `Is "${item.word}" a ${displayedPoS} (Part of Speech)?`;
+    displayedMeaning = displayedPoS;
+    explanation = isTrue
+      ? `Correct! "${item.word}" is a ${actualPos}. Meaning: "${item.meaning}".`
+      : `False! "${item.word}" is actually a ${actualPos}, not a ${displayedPoS}.`;
+  } else {
+    // Meaning
+    if (!isTrue) {
+      const distractors = getRandomDistractors(allItems, item, 1, 'meaning');
+      displayedMeaning = distractors.length > 0 ? distractors[0] : 'Alternative Meaning';
+    }
+    statement = `Does "${item.word}" mean "${displayedMeaning}"?`;
+    explanation = isTrue
+      ? `Correct! "${item.word}" means "${item.meaning}".`
+      : `False! "${item.word}" means "${item.meaning}" (not "${displayedMeaning}").`;
   }
 
   return {
     type: STAGE_TYPES.TRUE_FALSE,
-    stageNumber: stageMeta.stageNumber || 4,
-    iteration: stageMeta.iteration || 1,
+    stageNumber: stageNum,
+    iteration: iteration,
     title: STAGE_TITLES[STAGE_TYPES.TRUE_FALSE],
     instruction: STAGE_INSTRUCTIONS[STAGE_TYPES.TRUE_FALSE],
     item: item,
-    statement: `Does "${item.word}" mean "${displayedMeaning}"?`,
+    statement: statement,
     displayedMeaning: displayedMeaning,
     isTrue: isTrue,
     correctAnswer: isTrue ? 'TRUE' : 'FALSE',
-    explanation: isTrue 
-      ? `Correct! "${item.word}" means "${item.meaning}".` 
-      : `Incorrect! "${item.word}" means "${item.meaning}" (not "${displayedMeaning}").`
+    explanation: explanation
   };
 }
 
@@ -437,6 +638,8 @@ export default {
   CORE_STAGE_MODES,
   STAGE_TITLES,
   STAGE_INSTRUCTIONS,
+  POS_MAP,
+  formatPoS,
   shuffleArray,
   extractWordList,
   getRandomDistractors,

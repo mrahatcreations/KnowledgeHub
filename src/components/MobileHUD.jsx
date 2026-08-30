@@ -52,12 +52,12 @@ export default function MobileHUD({
           </button>
         ) : (
           <div className="flex items-center space-x-2.5 shrink-0">
-            <div className="w-7 h-7 rounded-xl bg-indigo-600 border border-indigo-400/40 flex items-center justify-center font-black text-white text-sm shrink-0">
-              V
+            <div className="w-7 h-7 rounded-xl bg-blue-600 flex items-center justify-center font-black text-white text-xs shrink-0 shadow-xs">
+              K
             </div>
             <div className="flex flex-col shrink-0">
-              <span className="font-bold text-sm tracking-tight text-white leading-tight">VocabMaster</span>
-              <span className="text-[9px] font-semibold text-slate-400 uppercase tracking-wider leading-none">201 Levels</span>
+              <span className="font-bold text-sm tracking-tight text-white leading-tight">Knowledge Hub</span>
+              <span className="text-[9px] font-semibold text-slate-400 uppercase tracking-wider leading-none">English • 201 Levels</span>
             </div>
           </div>
         )}

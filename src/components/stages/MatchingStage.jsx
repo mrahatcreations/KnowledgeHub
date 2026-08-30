@@ -164,14 +164,14 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
 
       {/* Dual-Column Tile Grid */}
       <div className="grid grid-cols-2 gap-2 sm:gap-3 pt-1">
-        {/* Left Column (English Words) */}
+        {/* Left Column */}
         <div className="flex flex-col space-y-2">
           <div className="flex items-center justify-between px-1">
             <span className="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-indigo-400 flex items-center space-x-1 truncate">
               <span className="w-1.5 h-1.5 rounded-full bg-indigo-400 shrink-0 inline-block" />
-              <span className="truncate">English Words</span>
+              <span className="truncate">{stage.leftHeader || 'English Words'}</span>
             </span>
-            <span className="text-[9px] sm:text-[10px] text-slate-500 font-bold font-mono shrink-0">EN</span>
+            <span className="text-[9px] sm:text-[10px] text-slate-500 font-bold font-mono shrink-0">{stage.leftSub || 'EN'}</span>
           </div>
 
           <div className="flex flex-col space-y-2.5">
@@ -227,14 +227,14 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
           </div>
         </div>
 
-        {/* Right Column (Meanings / Definitions) */}
+        {/* Right Column */}
         <div className="flex flex-col space-y-2">
           <div className="flex items-center justify-between px-1">
             <span className="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-teal-400 flex items-center space-x-1 truncate">
               <span className="w-1.5 h-1.5 rounded-full bg-teal-400 shrink-0 inline-block" />
-              <span className="truncate">Meaning / Definition</span>
+              <span className="truncate">{stage.rightHeader || 'Meaning / Definition'}</span>
             </span>
-            <span className="text-[9px] sm:text-[10px] text-slate-500 font-bold font-mono shrink-0">DEF</span>
+            <span className="text-[9px] sm:text-[10px] text-slate-500 font-bold font-mono shrink-0">{stage.rightSub || 'DEF'}</span>
           </div>
 
           <div className="flex flex-col space-y-2.5">

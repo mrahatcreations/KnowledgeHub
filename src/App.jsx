@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { App as CapApp } from '@capacitor/app';
 import MobileHUD from './components/MobileHUD';
 import SagaLevelPath from './components/SagaLevelPath';
-import BottomNav from './components/BottomNav';
+import SubjectHubView from './components/views/SubjectHubView';
 import VocabBookView from './components/views/VocabBookView';
 
 import FlashcardStage from './components/stages/FlashcardStage';
@@ -24,6 +25,8 @@ export default function App() {
     isAudioMuted,
     setIsAudioMuted
   } = soundController;
+
+  const [selectedSubject, setSelectedSubject] = useState(null);
 
   const {
     // Levels & Loading
@@ -55,17 +58,47 @@ export default function App() {
     handleRetryLevel,
     handleBackToMap,
 
-    // Navigation
-    activeTab,
-    setActiveTab,
+    // Notifications & Effects
     toastMessage,
     stageCelebration
   } = useGameState({ soundController });
 
+  useEffect(() => {
+    let backListener = null;
+    const setupBackListener = async () => {
+      try {
+        backListener = await CapApp.addListener('backButton', ({ canGoBack }) => {
+          // Priority 1: If in an active level stage (currentLevel != null):
+          if (currentLevel) {
+            handleBackToMap();
+            return;
+          }
+          // Priority 2: If inside a subject (selectedSubject != null):
+          if (selectedSubject) {
+            setSelectedSubject(null);
+            return;
+          }
+          // Priority 3: At root Subject Hub, exit app
+          CapApp.exitApp();
+        });
+      } catch (e) {
+        console.warn('Capacitor App plugin not available in web browser mode', e);
+      }
+    };
+
+    setupBackListener();
+
+    return () => {
+      if (backListener && backListener.remove) {
+        backListener.remove();
+      }
+    };
+  }, [currentLevel, selectedSubject, handleBackToMap]);
+
   return (
     <div className="min-h-screen w-full bg-slate-950 text-slate-100 flex flex-col items-center selection:bg-indigo-500 selection:text-white font-sans antialiased">
       <div className="max-w-md mx-auto w-full min-h-screen flex flex-col relative">
-        {(currentLevel || activeTab === 'vocab') && (
+        {currentLevel && (
           <MobileHUD
             currentLevel={currentLevel}
             stageIndex={stageIndex}
@@ -79,10 +112,23 @@ export default function App() {
           />
         )}
 
-        <main className={`flex-1 flex flex-col justify-start max-w-md w-full mx-auto ${currentLevel ? 'py-3 px-3 sm:px-4 pb-8' : activeTab === 'vocab' ? 'py-3 px-3 sm:px-4 pb-32' : 'px-3 pb-8'}`}>
+        <main className={`flex-1 flex flex-col justify-start max-w-md w-full mx-auto ${currentLevel ? 'py-3 px-3 sm:px-4 pb-8' : selectedSubject === 'learning' ? 'py-3 px-3 sm:px-4 pb-8' : 'px-3 pb-8'}`}>
           {!currentLevel ? (
             <>
-              {activeTab === 'path' && (
+              {!selectedSubject && (
+                <SubjectHubView
+                  levels={levels}
+                  unlockedLevel={unlockedLevel}
+                  levelStars={levelStars}
+                  gems={gems}
+                  streak={streak}
+                  lives={lives}
+                  isAudioMuted={isAudioMuted}
+                  setIsAudioMuted={setIsAudioMuted}
+                  onSelectSubject={(subj) => setSelectedSubject(subj)}
+                />
+              )}
+              {selectedSubject === 'english' && (
                 <SagaLevelPath
                   levels={levels}
                   unlockedLevel={unlockedLevel}
@@ -93,9 +139,16 @@ export default function App() {
                   isAudioMuted={isAudioMuted}
                   setIsAudioMuted={setIsAudioMuted}
                   onSelectLevel={(lvl) => handleStartLevel(lvl, true)}
+                  onBackToHub={() => setSelectedSubject(null)}
                 />
               )}
-              {activeTab === 'vocab' && <VocabBookView levels={levels} levelStars={levelStars} />}
+              {selectedSubject === 'learning' && (
+                <VocabBookView
+                  levels={levels}
+                  levelStars={levelStars}
+                  onBackToHub={() => setSelectedSubject(null)}
+                />
+              )}
             </>
           ) : (
             <div className="w-full flex flex-col space-y-3 sm:space-y-4 animate-pop">
@@ -121,13 +174,6 @@ export default function App() {
             </div>
           )}
         </main>
-
-        {!currentLevel && (
-          <BottomNav 
-            activeTab={activeTab} 
-            setActiveTab={setActiveTab} 
-          />
-        )}
 
         {/* First-Attempt Perfect Stage Micro-Celebration Overlay */}
         {stageCelebration && (

@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from 'react';
-import { Search, Volume2, Bookmark, BookmarkCheck, BookOpen, Star, Sparkles, Filter, ChevronDown } from 'lucide-react';
+import { Search, Volume2, Bookmark, BookmarkCheck, BookOpen, Star, Sparkles, Filter, ChevronDown, ArrowLeft } from 'lucide-react';
 import { sound } from '../../audio/SoundSynthesizer';
 
-export default function VocabBookView({ levels, levelStars }) {
+export default function VocabBookView({ levels, levelStars, onBackToHub }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedUnit, setSelectedUnit] = useState('ALL');
   const [bookmarkedWords, setBookmarkedWords] = useState(() => {
@@ -61,13 +61,29 @@ export default function VocabBookView({ levels, levelStars }) {
   };
 
   return (
-    <div className="w-full max-w-md mx-auto px-4 pb-32 pt-2 animate-pop">
+    <div className="w-full max-w-md mx-auto px-4 pb-12 pt-2 animate-pop">
       {/* Header */}
       <div className="bg-slate-900/90 rounded-2xl p-4 border border-slate-800 mb-4 shadow-sm">
-        <div className="flex items-center space-x-2 text-indigo-400 text-xs font-semibold uppercase tracking-wider mb-1">
-          <BookOpen className="w-4 h-4 text-indigo-400" />
-          <span>Digital Word Vault & Dictionary</span>
+        <div className="flex items-center justify-between mb-3">
+          <button
+            onClick={() => {
+              sound.playClick();
+              if (onBackToHub) onBackToHub();
+            }}
+            className="flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-slate-800/90 hover:bg-slate-700 active:scale-95 transition border border-slate-700 text-slate-200 cursor-pointer shadow-xs"
+            title="Back to Subject Hub"
+            aria-label="Back to Subject Hub"
+          >
+            <ArrowLeft className="w-4 h-4 text-indigo-400 shrink-0" />
+            <span className="font-bold text-xs text-white">Back to Hub</span>
+          </button>
+
+          <div className="flex items-center space-x-1.5 text-indigo-400 text-xs font-semibold uppercase tracking-wider">
+            <BookOpen className="w-4 h-4 text-indigo-400" />
+            <span>Word Vault</span>
+          </div>
         </div>
+
         <h2 className="text-xl font-bold text-white tracking-tight">Vocabulary Vault</h2>
         <p className="text-xs text-slate-400 mt-0.5">
           Total <span className="text-amber-400 font-bold font-mono">{allVocabItems.length}</span> English vocabulary words
