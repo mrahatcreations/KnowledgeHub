@@ -16,6 +16,7 @@ import CompletionModal from './components/modals/CompletionModal';
 import { STAGE_TYPES } from './engine/GameEngine';
 import { useGameState } from './hooks/useGameState';
 import { useSoundEffects } from './hooks/useSoundEffects';
+import { Star, Sparkles, CheckCircle2 } from 'lucide-react';
 
 export default function App() {
   const soundController = useSoundEffects();
@@ -54,7 +55,8 @@ export default function App() {
     // Navigation
     activeTab,
     setActiveTab,
-    toastMessage
+    toastMessage,
+    stageCelebration
   } = useGameState({ soundController });
 
   return (
@@ -122,7 +124,27 @@ export default function App() {
           />
         )}
 
-        {toastMessage && (
+        {/* First-Attempt Perfect Stage Micro-Celebration Overlay */}
+        {stageCelebration && (
+          <div className="fixed inset-0 pointer-events-none z-50 flex items-center justify-center animate-pop px-4 select-none">
+            <div className="bg-slate-900/95 border border-amber-400/60 shadow-[0_0_35px_rgba(251,191,36,0.5)] rounded-2xl px-6 py-4 flex flex-col items-center space-y-1.5 text-center transform scale-105 sm:scale-110">
+              <div className="flex items-center space-x-2">
+                <Sparkles className="w-5 h-5 text-amber-400 animate-spin" />
+                <Star className="w-8 h-8 text-amber-400 fill-amber-400 drop-shadow-[0_0_12px_rgba(251,191,36,0.9)] animate-bounce" />
+                <Sparkles className="w-5 h-5 text-amber-400 animate-spin" />
+              </div>
+              <div className="text-xl font-black text-amber-300 drop-shadow-[0_0_8px_rgba(251,191,36,0.6)]">
+                {stageCelebration.title}
+              </div>
+              <div className="text-xs font-bold text-emerald-400 flex items-center space-x-1">
+                <CheckCircle2 className="w-3.5 h-3.5" />
+                <span>{stageCelebration.subtitle}</span>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {toastMessage && !stageCelebration && (
           <div className={`fixed bottom-20 left-1/2 -translate-x-1/2 px-5 py-3 rounded-2xl shadow-2xl text-xs sm:text-sm font-black z-50 animate-pop text-white border ${
             toastMessage.type === 'success' ? 'bg-emerald-600 border-emerald-400 shadow-emerald-600/30' : 
             toastMessage.type === 'warning' ? 'bg-amber-600 border-amber-400 shadow-amber-600/30' : 'bg-slate-800 border-slate-700'

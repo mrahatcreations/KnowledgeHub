@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { buildLevelStages, STAGE_TYPES } from '../engine/GameEngine.js';
 import { sound } from '../audio/SoundSynthesizer.js';
+import confetti from 'canvas-confetti';
 
 export const TOTAL_STAGES_PER_LEVEL = 10;
 export const STARS_PER_STAGE = 0.5;
@@ -56,6 +57,7 @@ export function useGameState(options = {}) {
   const [revealModalData, setRevealModalData] = useState(null);
   const [completionResult, setCompletionResult] = useState(null);
   const [toastMessage, setToastMessage] = useState(null);
+  const [stageCelebration, setStageCelebration] = useState(null);
 
   /**
    * Loads saved user progress from localStorage
@@ -217,22 +219,41 @@ export function useGameState(options = {}) {
     if (isCorrect) {
       soundApi.playCorrect();
 
-      // Star is awarded ONLY on the 1st attempt (stageAttempts === 0)
+      // Star is awarded ONLY on the 1st attempt without any mistakes (stageAttempts === 0)
       if (stageAttempts === 0) {
         setStageStars((prevStars) => {
           const updated = [...prevStars];
           updated[stageIndex] = true;
           return updated;
         });
-        showToast('দারুণ উত্তর! (+১ স্টার অর্জিত)', 'success');
+
+        // Trigger rich micro-celebration animation on 1st attempt!
+        setStageCelebration({
+          starsEarned: 0.5,
+          title: 'পারফেক্ট! +০.৫ ⭐',
+          subtitle: '১ম সুযোগেই নির্ভুল উত্তর!',
+          stageIndex: stageIndex
+        });
+
+        try {
+          confetti({
+            particleCount: 55,
+            spread: 70,
+            origin: { y: 0.65 },
+            colors: ['#fbbf24', '#34d399', '#818cf8', '#f472b6', '#38bdf8']
+          });
+        } catch (e) {}
+
+        showToast('পারফেক্ট! +০.৫ স্টার ⭐', 'success');
       } else {
-        showToast('সঠিক উত্তর!', 'success');
+        showToast('সঠিক উত্তর! (২য় সুযোগ)', 'success');
       }
 
-      // Automatically proceed to next stage after slight delay for visual satisfaction
+      // Automatically proceed to next stage after celebration delay
       setTimeout(() => {
+        setStageCelebration(null);
         proceedNextStage();
-      }, 700);
+      }, stageAttempts === 0 ? 850 : 650);
     } else {
       // Record mistake in the mistakes accumulator
       const targetItem = currentStage.item || {};
@@ -463,7 +484,8 @@ export function useGameState(options = {}) {
     setIsSettingsOpen,
     toastMessage,
     setToastMessage,
-    showToast
+    showToast,
+    stageCelebration
   };
 }
 
