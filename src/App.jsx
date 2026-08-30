@@ -3,8 +3,6 @@ import MobileHUD from './components/MobileHUD';
 import SagaLevelPath from './components/SagaLevelPath';
 import BottomNav from './components/BottomNav';
 import VocabBookView from './components/views/VocabBookView';
-import LeaderboardView from './components/views/LeaderboardView';
-import ProfileView from './components/views/ProfileView';
 
 import FlashcardStage from './components/stages/FlashcardStage';
 import MatchingStage from './components/stages/MatchingStage';
@@ -78,9 +76,8 @@ export default function App() {
           setIsAudioMuted={setIsAudioMuted}
           onBackToMap={handleBackToMap}
           onOpenSettings={() => setIsSettingsOpen(true)}
-          streak={streak}
-          gems={gems}
-          lives={lives}
+          levelStars={levelStars}
+          unlockedLevel={unlockedLevel}
         />
 
         <main className={`flex-1 flex flex-col justify-start py-4 px-3 sm:px-4 max-w-md w-full mx-auto ${!currentLevel ? 'pb-24' : 'pb-6'}`}>
@@ -91,24 +88,10 @@ export default function App() {
                   levels={levels}
                   unlockedLevel={unlockedLevel}
                   levelStars={levelStars}
-                  onSelectLevel={(lvl) => handleStartLevel(lvl, false)}
+                  onSelectLevel={(lvl) => handleStartLevel(lvl, true)}
                 />
               )}
               {activeTab === 'vocab' && <VocabBookView levels={levels} levelStars={levelStars} />}
-              {activeTab === 'ranks' && <LeaderboardView unlockedLevel={unlockedLevel} levelStars={levelStars} streak={streak} />}
-              {activeTab === 'profile' && (
-                <ProfileView
-                  levels={levels}
-                  unlockedLevel={unlockedLevel}
-                  levelStars={levelStars}
-                  streak={streak}
-                  gems={gems}
-                  lives={lives}
-                  isAudioMuted={isAudioMuted}
-                  setIsAudioMuted={setIsAudioMuted}
-                  onOpenSettings={() => setIsSettingsOpen(true)}
-                />
-              )}
             </>
           ) : (
             <div className="w-full flex flex-col space-y-4 sm:space-y-5 animate-pop">
@@ -140,7 +123,13 @@ export default function App() {
           )}
         </main>
 
-        {!currentLevel && <BottomNav activeTab={activeTab} setActiveTab={setActiveTab} />}
+        {!currentLevel && (
+          <BottomNav 
+            activeTab={activeTab} 
+            setActiveTab={setActiveTab} 
+            onOpenSync={() => setIsSettingsOpen(true)} 
+          />
+        )}
 
         {toastMessage && (
           <div className={`fixed bottom-20 left-1/2 -translate-x-1/2 px-5 py-3 rounded-2xl shadow-2xl text-xs sm:text-sm font-black z-50 animate-pop text-white border ${
