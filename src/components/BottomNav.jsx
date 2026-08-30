@@ -11,7 +11,7 @@ export default function BottomNav({ activeTab, setActiveTab }) {
   ];
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 z-40 bg-slate-950/95 backdrop-blur-xl border-t border-slate-800/80 py-2 px-3 safe-bottom shadow-2xl">
+    <nav className="fixed bottom-0 left-0 right-0 z-40 bg-slate-950/95 backdrop-blur-xl border-t border-slate-800/80 px-1 sm:px-3 pt-1 pb-[max(0.5rem,env(safe-area-inset-bottom))] shadow-2xl safe-bottom select-none">
       <div className="max-w-md mx-auto flex items-center justify-around">
         {tabs.map((tab) => {
           const Icon = tab.icon;
@@ -23,18 +23,22 @@ export default function BottomNav({ activeTab, setActiveTab }) {
                 sound.playClick();
                 setActiveTab(tab.id);
               }}
-              className={`relative flex flex-col items-center justify-center py-1 px-3 rounded-2xl transition-all duration-200 active:scale-90 ${
+              className={`relative flex flex-col items-center justify-center flex-1 min-w-0 py-1 px-1 rounded-xl transition-all duration-200 active:scale-95 min-h-[44px] ${
                 isActive
-                  ? 'text-indigo-400 font-black scale-105'
-                  : 'text-slate-500 hover:text-slate-300 font-bold'
+                  ? 'text-indigo-400 font-black'
+                  : 'text-slate-400 hover:text-slate-200 font-semibold'
               }`}
+              aria-label={tab.label}
+              aria-selected={isActive}
             >
               {/* Active Indicator Pip */}
               {isActive && (
-                <span className="absolute -top-1 w-1.5 h-1.5 rounded-full bg-indigo-400 shadow-[0_0_8px_#818cf8]" />
+                <span className="absolute top-0 w-1.5 h-1.5 rounded-full bg-indigo-400 shadow-[0_0_8px_#818cf8]" />
               )}
-              <Icon className={`w-5 h-5 ${isActive ? 'stroke-[2.5] text-indigo-400' : 'stroke-[1.8]'}`} />
-              <span className="text-[10px] mt-1 tracking-tight">{tab.label}</span>
+              <Icon className={`w-5 h-5 shrink-0 transition-transform ${isActive ? 'stroke-[2.5] text-indigo-400 scale-110' : 'stroke-[1.8]'}`} />
+              <span className="text-[10px] sm:text-[11px] mt-0.5 tracking-tight leading-tight truncate w-full text-center">
+                {tab.label}
+              </span>
             </button>
           );
         })}

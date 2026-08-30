@@ -150,12 +150,14 @@ console.log(`✔ Passed: SoundSynthesizer implements all ${requiredAudioMethods.
 // Test Suite 7: App Game Rules & UI Mechanics Check
 console.log('\n--- Test Suite 7: App Game Rules & 2nd Chance Mechanics ---');
 const appCode = fs.readFileSync(path.join(__dirname, '../src/App.jsx'), 'utf8');
-assert.ok(appCode.includes('stageAttempts === 0'), 'App must reward star on 1st attempt');
-assert.ok(appCode.includes('playSecondChance()'), 'App must trigger second chance sound on 1st attempt failure');
-assert.ok(appCode.includes('playWrong()'), 'App must trigger wrong sound on 2nd attempt failure');
-assert.ok(appCode.includes('playVictory()'), 'App must trigger victory fanfare on level mastery');
-assert.ok(appCode.includes('handleStartLevel(currentLevel, true)'), 'App must trigger The Blender retry mode');
-console.log('✔ Passed: 1st chance star, 2nd chance retry, explanation modal, and Blender mechanics verified in App.jsx');
+const gameStateCode = fs.readFileSync(path.join(__dirname, '../src/hooks/useGameState.js'), 'utf8');
+const combinedUiCode = appCode + '\n' + gameStateCode;
+assert.ok(combinedUiCode.includes('stageAttempts === 0'), 'App must reward star on 1st attempt');
+assert.ok(combinedUiCode.includes('playSecondChance()'), 'App must trigger second chance sound on 1st attempt failure');
+assert.ok(combinedUiCode.includes('playWrong()'), 'App must trigger wrong sound on 2nd attempt failure');
+assert.ok(combinedUiCode.includes('playVictory()'), 'App must trigger victory fanfare on level mastery');
+assert.ok(combinedUiCode.includes('handleStartLevel(currentLevel, true)'), 'App must trigger The Blender retry mode');
+console.log('✔ Passed: 1st chance star, 2nd chance retry, explanation modal, and Blender mechanics verified in App.jsx & useGameState.js');
 
 console.log('\n======================================================');
 console.log(' ALL 7 VERIFICATION TEST SUITES PASSED (100% SUCCESS)');

@@ -1,105 +1,189 @@
 import React from 'react';
-import { Star, Volume2, VolumeX, Settings, ArrowLeft } from 'lucide-react';
+import { Star, Volume2, VolumeX, Settings, ArrowLeft, Flame, Diamond, Heart } from 'lucide-react';
 import { sound } from '../audio/SoundSynthesizer';
 
 export default function Header({ 
   currentLevel, 
-  stageIndex, 
-  stageStars, 
-  isAudioMuted, 
+  stageIndex = 0, 
+  stageStars = [], 
+  totalStages = 10,
+  isAudioMuted = false, 
   setIsAudioMuted, 
   onBackToMap, 
-  onOpenSettings 
+  onOpenSettings,
+  streak = 5,
+  gems = 240,
+  lives = 5
 }) {
   const toggleAudio = () => {
     const next = !isAudioMuted;
-    setIsAudioMuted(next);
+    if (setIsAudioMuted) setIsAudioMuted(next);
     sound.enabled = !next;
   };
 
-  const progressPercent = ((stageIndex) / 5) * 100;
+  const effectiveTotalStages = totalStages || (stageStars && stageStars.length) || 10;
+  const starsArray = Array.from({ length: effectiveTotalStages });
+  const earnedStarsCount = Array.isArray(stageStars) ? stageStars.filter(Boolean).length : 0;
+  const progressPercent = Math.min(100, Math.max(0, ((stageIndex) / effectiveTotalStages) * 100));
 
   return (
-    <header className="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-slate-200 shadow-xs">
-      <div className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
-        {/* Left: Back & Level Title */}
-        <div className="flex items-center space-x-3">
-          {currentLevel && (
+    <header className="sticky top-0 z-40 bg-white/95 dark:bg-slate-950/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 shadow-xs px-2.5 sm:px-4 py-2 sm:py-2.5 select-none transition-all safe-top">
+      <div className="max-w-4xl mx-auto flex items-center justify-between gap-1.5 sm:gap-3">
+        {/* Left: Back & Level Title / Brand */}
+        <div className="flex items-center space-x-2 sm:space-x-3 shrink-0">
+          {currentLevel ? (
             <button
               onClick={onBackToMap}
-              className="p-2 rounded-xl text-slate-500 hover:text-slate-900 hover:bg-slate-100 transition active:scale-95"
-              title="Back to Map"
+              className="h-10 min-w-[40px] px-2.5 flex items-center justify-center space-x-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800/90 dark:hover:bg-slate-700 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 transition active:scale-95 shrink-0"
+              title="লেভেল থেকে প্রস্থান করুন"
+              aria-label="লেভেল থেকে প্রস্থান করুন"
             >
-              <ArrowLeft className="w-5 h-5" />
+              <ArrowLeft className="w-4 h-4 text-indigo-600 dark:text-indigo-400 shrink-0" />
+              <span className="text-xs font-black font-mono">L{currentLevel.level_id}</span>
             </button>
+          ) : (
+            <div className="flex items-center space-x-2 shrink-0">
+              <div className="w-8 h-8 rounded-xl bg-gradient-to-tr from-indigo-600 to-indigo-500 border border-indigo-400 flex items-center justify-center font-black text-white text-base shadow-md shadow-indigo-500/20 shrink-0">
+                V
+              </div>
+              <div className="flex flex-col shrink-0">
+                <h1 className="text-sm sm:text-base font-black text-slate-800 dark:text-white tracking-tight leading-none">
+                  VocabMaster
+                </h1>
+                <span className="text-[8px] sm:text-[9px] font-bold text-indigo-500 dark:text-indigo-400 uppercase tracking-widest leading-tight">
+                  Pro Game
+                </span>
+              </div>
+            </div>
           )}
 
-          <div>
-            <div className="flex items-center space-x-2">
-              <h1 className="text-base sm:text-lg font-bold text-slate-800 tracking-tight">
-                {currentLevel ? currentLevel.title : 'VocabMaster'}
-              </h1>
-              {currentLevel && (
-                <span className="text-[11px] font-bold px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700">
-                  {currentLevel.unit || currentLevel.category}
+          {currentLevel && (
+            <div className="flex flex-col min-w-0 max-w-[120px] sm:max-w-[200px]">
+              <div className="flex items-center space-x-1.5 truncate">
+                <span className="text-xs sm:text-sm font-bold text-slate-800 dark:text-white truncate">
+                  {currentLevel.title || `Level ${currentLevel.level_id}`}
                 </span>
-              )}
+                {(currentLevel.unit || currentLevel.category) && (
+                  <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-300 shrink-0 hidden sm:inline-block">
+                    {currentLevel.unit || currentLevel.category}
+                  </span>
+                )}
+              </div>
+              <p className="text-[10px] sm:text-xs text-slate-500 dark:text-slate-400 font-medium whitespace-nowrap">
+                ধাপ {stageIndex + 1}/{effectiveTotalStages}
+              </p>
             </div>
-            {currentLevel && (
-              <p className="text-xs text-slate-400 font-medium">ধাপ {stageIndex + 1} / 10</p>
-            )}
-          </div>
+          )}
         </div>
 
-        {/* Center: 10 Stars Indicator */}
-        {currentLevel && (
-          <div className="hidden sm:flex items-center space-x-1 bg-slate-50 px-3 py-1.5 rounded-full border border-slate-200">
-            {Array.from({ length: 10 }).map((_, idx) => {
-              const isFilled = idx < stageIndex ? Boolean(stageStars[idx]) : false;
+        {/* Center: In-Game 10-Star Node Step Meter OR In-Map Stats */}
+        {currentLevel ? (
+          <div 
+            className="flex items-center justify-center gap-0.5 sm:gap-1 bg-slate-100 dark:bg-slate-900/90 px-1.5 sm:px-2.5 py-1 rounded-full border border-slate-200 dark:border-slate-700/80 shadow-inner overflow-x-hidden shrink"
+            title={`ধাপ ${stageIndex + 1}/${effectiveTotalStages} (স্টার: ${earnedStarsCount})`}
+          >
+            {starsArray.map((_, idx) => {
+              const isPast = idx < stageIndex;
+              const isEarned = isPast && Boolean(stageStars[idx]);
               const isCurrent = idx === stageIndex;
+
               return (
-                <Star
-                  key={idx}
-                  className={`w-4 h-4 transition-all ${
-                    isFilled
-                      ? 'text-amber-400 fill-amber-400 scale-110'
-                      : isCurrent
-                      ? 'text-indigo-500 animate-pulse stroke-2'
-                      : 'text-slate-300 stroke-1'
-                  }`}
-                />
+                <div key={idx} className="relative flex items-center justify-center shrink-0">
+                  <Star
+                    className={`w-3.5 h-3.5 sm:w-4 sm:h-4 transition-all duration-300 shrink-0 ${
+                      isEarned
+                        ? 'text-amber-400 fill-amber-400 scale-110 drop-shadow-[0_0_6px_rgba(251,191,36,0.8)]'
+                        : isCurrent
+                        ? 'text-indigo-500 dark:text-indigo-400 fill-indigo-400/20 animate-pulse stroke-2 scale-110'
+                        : isPast
+                        ? 'text-slate-300 dark:text-slate-600 stroke-1 opacity-50'
+                        : 'text-slate-200 dark:text-slate-700 stroke-1'
+                    }`}
+                  />
+                  {isCurrent && (
+                    <span className="absolute -bottom-1 w-1 h-1 bg-indigo-500 dark:bg-indigo-400 rounded-full animate-ping" />
+                  )}
+                </div>
               );
             })}
           </div>
+        ) : (
+          <div className="flex items-center space-x-1 sm:space-x-1.5 text-xs font-black shrink-0">
+            {/* Streak */}
+            <div 
+              className="flex items-center space-x-1 bg-amber-500/15 text-amber-600 dark:text-amber-400 px-1.5 sm:px-2.5 py-1 rounded-xl border border-amber-500/30 shadow-xs shrink-0"
+              title="টানা অনুশীলনের স্ট্রিক"
+            >
+              <Flame className="w-3.5 h-3.5 fill-amber-500 dark:fill-amber-400 shrink-0 animate-bounce" />
+              <span className="font-mono text-xs leading-none">{streak}</span>
+            </div>
+
+            {/* Gems */}
+            <div 
+              className="flex items-center space-x-1 bg-cyan-500/15 text-cyan-600 dark:text-cyan-400 px-1.5 sm:px-2.5 py-1 rounded-xl border border-cyan-500/30 shadow-xs shrink-0"
+              title="অর্জিত রত্ন (Gems)"
+            >
+              <Diamond className="w-3.5 h-3.5 fill-cyan-500 dark:fill-cyan-400 shrink-0" />
+              <span className="font-mono text-xs leading-none">{gems}</span>
+            </div>
+
+            {/* Lives */}
+            <div 
+              className="flex items-center space-x-1 bg-rose-500/15 text-rose-600 dark:text-rose-400 px-1.5 sm:px-2.5 py-1 rounded-xl border border-rose-500/30 shadow-xs shrink-0"
+              title="জীবন / হার্টস"
+            >
+              <Heart className="w-3.5 h-3.5 fill-rose-500 dark:fill-rose-400 shrink-0" />
+              <span className="font-mono text-xs leading-none">{lives}</span>
+            </div>
+          </div>
         )}
 
-        {/* Right: Audio & Settings */}
-        <div className="flex items-center space-x-2">
+        {/* Right: Audio & Settings (Compact 40px touch targets) */}
+        <div className="flex items-center space-x-1 sm:space-x-1.5 shrink-0">
           <button
             onClick={toggleAudio}
-            className="p-2 rounded-xl text-slate-600 hover:bg-slate-100 transition active:scale-95"
+            className="w-10 h-10 flex items-center justify-center rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800/90 dark:hover:bg-slate-700 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 transition active:scale-95 shrink-0"
             title={isAudioMuted ? 'শব্দ চালু করুন' : 'শব্দ বন্ধ করুন'}
+            aria-label={isAudioMuted ? 'শব্দ চালু করুন' : 'শব্দ বন্ধ করুন'}
           >
-            {isAudioMuted ? <VolumeX className="w-5 h-5 text-rose-500" /> : <Volume2 className="w-5 h-5 text-indigo-600" />}
+            {isAudioMuted ? (
+              <VolumeX className="w-4 h-4 text-rose-500 dark:text-rose-400 shrink-0" />
+            ) : (
+              <Volume2 className="w-4 h-4 text-indigo-600 dark:text-indigo-400 shrink-0" />
+            )}
           </button>
 
-          <button
-            onClick={onOpenSettings}
-            className="p-2 rounded-xl text-slate-600 hover:bg-slate-100 transition active:scale-95"
-            title="সেটিংস ও ডেটাবেজ সিঙ্ক"
-          >
-            <Settings className="w-5 h-5 text-slate-600" />
-          </button>
+          {!currentLevel && (
+            <button
+              onClick={onOpenSettings}
+              className="w-10 h-10 flex items-center justify-center rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800/90 dark:hover:bg-slate-700 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 transition active:scale-95 shrink-0"
+              title="সেটিংস ও ডেটাবেজ সিঙ্ক"
+              aria-label="সেটিংস ও ডেটাবেজ সিঙ্ক"
+            >
+              <Settings className="w-4 h-4 text-slate-600 dark:text-slate-300 shrink-0" />
+            </button>
+          )}
         </div>
       </div>
 
-      {/* Progress Bar */}
+      {/* In-Game Progress Bar */}
       {currentLevel && (
-        <div className="w-full bg-slate-100 h-1.5">
-          <div
-            className="bg-indigo-600 h-1.5 transition-all duration-300 ease-out"
-            style={{ width: `${Math.min(100, Math.max(0, ((stageIndex) / 10) * 100))}%` }}
-          />
+        <div className="max-w-4xl mx-auto w-full mt-1.5 pt-0.5">
+          <div className="flex items-center justify-between text-[11px] font-bold text-slate-500 dark:text-slate-400 mb-1 px-0.5 leading-none whitespace-nowrap">
+            <span className="text-indigo-600 dark:text-indigo-300 font-medium">
+              ধাপ {stageIndex + 1}/{effectiveTotalStages}
+            </span>
+            <span className="text-amber-500 dark:text-amber-300 flex items-center space-x-1 font-mono">
+              <Star className="w-3 h-3 fill-amber-400 text-amber-400 inline shrink-0" />
+              <span>{earnedStarsCount}/{effectiveTotalStages}</span>
+            </span>
+          </div>
+          <div className="w-full bg-slate-200 dark:bg-slate-800/80 h-1.5 rounded-full overflow-hidden border border-slate-300 dark:border-slate-700/50">
+            <div
+              className="bg-gradient-to-r from-indigo-500 via-purple-500 to-amber-400 h-full rounded-full transition-all duration-300 ease-out shadow-[0_0_8px_rgba(99,102,241,0.5)]"
+              style={{ width: `${progressPercent}%` }}
+            />
+          </div>
         </div>
       )}
     </header>

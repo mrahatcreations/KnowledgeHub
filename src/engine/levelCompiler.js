@@ -389,56 +389,26 @@ export function buildLevelStages(level, isRetry = false) {
     STAGE_TYPES.ODD_ONE_OUT
   ];
 
-  let iter1Words = [];
-  let iter1Modes = [];
-  let iter2Words = [];
-  let iter2Modes = [];
+  // Always dynamically randomize word order and stage modes on every play/retry
+  const iter1Words = shuffleArray(levelWords);
+  const iter1Modes = shuffleArray(standardModes);
 
-  if (!isRetry) {
-    // Normal / First Play:
-    // Iteration 1: Stages 1-5 map Word 0..4 to Flashcard, Matching, DragDrop, TrueFalse, OddOneOut
-    iter1Words = [...levelWords];
-    iter1Modes = [...standardModes];
+  // Track mode assigned to each word in Iteration 1
+  const wordIter1ModeMap = new Map();
+  iter1Words.forEach((w, idx) => {
+    wordIter1ModeMap.set(w.id, iter1Modes[idx]);
+  });
 
-    // Iteration 2: Stages 6-10 map Word 0..4 with swapped modes (shift by +2)
-    // Word 0: Flashcard -> DragDrop
-    // Word 1: Matching -> TrueFalse
-    // Word 2: DragDrop -> OddOneOut
-    // Word 3: TrueFalse -> Flashcard
-    // Word 4: OddOneOut -> Matching
-    iter2Words = [...levelWords];
-    iter2Modes = [
-      standardModes[2], // DragDrop
-      standardModes[3], // TrueFalse
-      standardModes[4], // OddOneOut
-      standardModes[0], // Flashcard
-      standardModes[1]  // Matching
-    ];
-  } else {
-    // Retry Mode ("The Blender" Cross-Stage Randomization):
-    // 1. Scramble word order and modes for Iteration 1
-    iter1Words = shuffleArray(levelWords);
-    iter1Modes = shuffleArray(standardModes);
+  // Iteration 2: Re-shuffle words and shift modes so every word is tested with a different mode
+  const iter2Words = shuffleArray(levelWords);
+  const randomShift = 1 + Math.floor(Math.random() * 4); // 1, 2, 3, or 4
 
-    // Track mode assigned to each word in Iteration 1
-    const wordIter1ModeMap = new Map();
-    iter1Words.forEach((w, idx) => {
-      wordIter1ModeMap.set(w.id, iter1Modes[idx]);
-    });
-
-    // 2. Randomize order for Iteration 2
-    iter2Words = shuffleArray(levelWords);
-
-    // Pick a random non-zero shift (1, 2, 3, or 4) so every word is guaranteed a new mode
-    const randomShift = 1 + Math.floor(Math.random() * 4);
-
-    iter2Modes = iter2Words.map(w => {
-      const prevMode = wordIter1ModeMap.get(w.id);
-      const prevIndex = standardModes.indexOf(prevMode);
-      const newIndex = (prevIndex + randomShift) % standardModes.length;
-      return standardModes[newIndex];
-    });
-  }
+  const iter2Modes = iter2Words.map(w => {
+    const prevMode = wordIter1ModeMap.get(w.id);
+    const prevIndex = standardModes.indexOf(prevMode);
+    const newIndex = (prevIndex + randomShift) % standardModes.length;
+    return standardModes[newIndex];
+  });
 
   // Compile Iteration 1 (Stages 1 to 5)
   const stagesIter1 = iter1Modes.map((mode, idx) => {

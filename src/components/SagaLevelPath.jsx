@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Star, Lock, Trophy, Sparkles, Check, Flame, Gift, Crown, Award, ChevronRight } from 'lucide-react';
+import { Star, Lock, Trophy, Sparkles, Gift, Crown } from 'lucide-react';
 import { sound } from '../audio/SoundSynthesizer';
 
 export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSelectLevel }) {
@@ -11,13 +11,22 @@ export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSel
   const totalMastered = Object.values(levelStars).filter(s => s >= 10 || s === 5).length;
   const totalStarsEarned = Object.values(levelStars).reduce((sum, s) => sum + s, 0);
 
+  const formatUnitName = (u) => {
+    if (u === 'ALL') return 'সব লেভেল';
+    const match = u.match(/(?:Unit|Image)\s*[-:]?\s*(\d+)/i);
+    if (match) {
+      return `ইউনিট ${match[1]}`;
+    }
+    return u;
+  };
+
   return (
-    <div className="w-full max-w-md mx-auto px-4 pb-32 pt-3 flex flex-col items-center select-none">
+    <div className="w-full max-w-md mx-auto px-4 pb-28 sm:pb-32 pt-3 flex flex-col items-center select-none">
       {/* Top Banner / Progress Trophy Card */}
       <div className="w-full bg-gradient-to-r from-indigo-950 via-slate-900 to-indigo-950 rounded-3xl p-4 border border-indigo-500/30 mb-5 shadow-2xl flex items-center justify-between">
         <div className="space-y-1">
           <div className="flex items-center space-x-1.5 text-indigo-400 text-xs font-bold uppercase tracking-wider">
-            <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+            <Sparkles className="w-3.5 h-3.5 text-amber-400 shrink-0" />
             <span>শব্দভাণ্ডার অভিযান</span>
           </div>
           <div className="text-sm font-black text-white flex items-center space-x-2">
@@ -29,36 +38,34 @@ export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSel
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-center bg-amber-500/10 border border-amber-400/30 px-3 py-2 rounded-2xl text-amber-300">
+        <div className="flex flex-col items-center justify-center bg-amber-500/10 border border-amber-400/30 px-3 py-2 rounded-2xl text-amber-300 shrink-0">
           <Crown className="w-5 h-5 text-amber-400 fill-amber-400" />
           <span className="text-[10px] font-black mt-0.5">১০-স্টার লক্ষ্য</span>
         </div>
       </div>
 
       {/* Unit Filter Horizontal Pills */}
-      <div className="w-full flex items-center space-x-2 overflow-x-auto pb-3 mb-6 scrollbar-none">
-        {units.slice(0, 10).map((u, i) => (
+      <div className="w-full flex items-center space-x-2 overflow-x-auto pb-2 sm:pb-3 mb-5 sm:mb-6 scrollbar-none whitespace-nowrap touch-pan-x">
+        {units.map((u, i) => (
           <button
             key={i}
             onClick={() => {
               setSelectedUnit(u);
               sound.playClick();
             }}
-            className={`px-3.5 py-1.5 rounded-xl text-xs font-black whitespace-nowrap transition-all shadow-md active:scale-95 ${
+            className={`px-3.5 py-1.5 rounded-xl text-xs font-black whitespace-nowrap shrink-0 transition-all shadow-md active:scale-95 ${
               selectedUnit === u
                 ? 'bg-indigo-600 text-white border-2 border-indigo-400 shadow-indigo-500/30 scale-105'
                 : 'bg-slate-900/90 border border-slate-800 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
             }`}
           >
-            {u === 'ALL' 
-              ? 'সব লেভেল' 
-              : u.replace(/Image\s*(\d+):?/i, 'ইউনিট $1').replace(/Unit-(\d+)/i, 'ইউনিট $1')}
+            {formatUnitName(u)}
           </button>
         ))}
       </div>
 
       {/* Vertical Winding Saga Path */}
-      <div className="relative w-full flex flex-col items-center space-y-9 py-4">
+      <div className="relative w-full flex flex-col items-center space-y-9 sm:space-y-10 py-4">
         {filteredLevels.map((lvl, index) => {
           const isUnlocked = lvl.level_id <= unlockedLevel;
           const isCurrent = lvl.level_id === unlockedLevel;
@@ -66,8 +73,8 @@ export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSel
           const isMastered = stars >= 10 || stars === 5;
           const isMilestone = lvl.level_id % 5 === 0;
 
-          // S-Curve Winding Calculation (Mobile Math for Duolingo/Candy Crush snake layout)
-          const curveOffsets = [0, 48, 88, 48, 0, -48, -88, -48];
+          // S-Curve Winding Calculation (Clamped to [-36px, +36px] for seamless mobile layout down to 320px)
+          const curveOffsets = [0, 24, 36, 24, 0, -24, -36, -24];
           const xOffset = curveOffsets[index % curveOffsets.length];
 
           return (
@@ -76,9 +83,9 @@ export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSel
               {isMilestone && index > 0 && (
                 <div 
                   style={{ transform: `translateX(${xOffset * 0.4}px)` }}
-                  className="flex items-center space-x-2 bg-gradient-to-r from-amber-500/20 via-indigo-900/40 to-amber-500/20 border border-amber-500/40 px-4 py-2 rounded-2xl text-amber-300 text-xs font-black shadow-lg my-1 animate-float"
+                  className="flex items-center space-x-2 bg-gradient-to-r from-amber-500/20 via-indigo-900/40 to-amber-500/20 border border-amber-500/40 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-2xl text-amber-300 text-xs font-black shadow-lg my-1 animate-float"
                 >
-                  <Gift className="w-4 h-4 text-amber-400 animate-bounce" />
+                  <Gift className="w-4 h-4 text-amber-400 animate-bounce shrink-0" />
                   <span>মাইলস্টোন রিওয়ার্ড #{lvl.level_id / 5} (+৫০ Gems)</span>
                 </div>
               )}
@@ -87,7 +94,7 @@ export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSel
                 style={{ transform: `translateX(${xOffset}px)` }}
                 className="relative flex flex-col items-center transition-transform duration-300"
               >
-                {/* Level 3D Node Button */}
+                {/* Level 3D Node Button - 72px x 72px on mobile (w-18 h-18 sm:w-20 sm:h-20) */}
                 <button
                   onClick={() => {
                     if (isUnlocked) {
@@ -96,7 +103,7 @@ export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSel
                     }
                   }}
                   disabled={!isUnlocked}
-                  className={`relative w-20 h-20 rounded-3xl flex flex-col items-center justify-center font-black transition-all active:scale-95 game-btn-3d ${
+                  className={`relative w-18 h-18 sm:w-20 sm:h-20 rounded-3xl flex flex-col items-center justify-center font-black transition-all active:scale-95 game-btn-3d ${
                     isMastered
                       ? 'game-btn-amber text-amber-950 ring-4 ring-amber-400/30'
                       : isCurrent
@@ -108,43 +115,43 @@ export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSel
                 >
                   {/* Mastered Crown Badge */}
                   {isMastered && (
-                    <div className="absolute -top-3.5 bg-gradient-to-tr from-amber-500 to-amber-300 border-2 border-white rounded-full p-1 shadow-lg">
-                      <Crown className="w-4 h-4 fill-amber-950 text-amber-950" />
+                    <div className="absolute -top-3 sm:-top-3.5 bg-gradient-to-tr from-amber-500 to-amber-300 border-2 border-white rounded-full p-1 shadow-lg">
+                      <Crown className="w-3.5 h-3.5 sm:w-4 sm:h-4 fill-amber-950 text-amber-950" />
                     </div>
                   )}
 
                   {/* Node Content */}
                   {isUnlocked ? (
                     <>
-                      <span className="text-2xl font-black font-mono leading-none tracking-tight">
+                      <span className="text-xl sm:text-2xl font-black font-mono leading-none tracking-tight">
                         {lvl.level_id}
                       </span>
-                      <span className="text-[9px] font-bold uppercase tracking-wider opacity-90 mt-1">
+                      <span className="text-[8px] sm:text-[9px] font-bold uppercase tracking-wider opacity-90 mt-0.5 sm:mt-1">
                         LEVEL
                       </span>
                     </>
                   ) : (
-                    <Lock className="w-6 h-6 text-slate-600" />
+                    <Lock className="w-5 h-5 sm:w-6 sm:h-6 text-slate-600" />
                   )}
                 </button>
 
-                {/* 10-Star Indicator Container */}
-                <div className="flex items-center space-x-1 mt-2 bg-slate-900/95 px-2.5 py-0.5 rounded-full border border-slate-800 shadow-md">
+                {/* 10-Star Indicator Container Centered Under Node */}
+                <div className="flex items-center justify-center space-x-1 mt-2 bg-slate-900/95 px-2.5 py-0.5 rounded-full border border-slate-800 shadow-md">
                   <Star
-                    className={`w-3 h-3 transition-all ${
+                    className={`w-3 h-3 transition-all shrink-0 ${
                       stars > 0
                         ? 'text-amber-400 fill-amber-400 drop-shadow-[0_0_4px_rgba(251,191,36,0.8)]'
                         : 'text-slate-700'
                     }`}
                   />
-                  <span className={`text-[10px] font-mono font-black ${stars >= 10 ? 'text-amber-400' : stars > 0 ? 'text-slate-200' : 'text-slate-600'}`}>
+                  <span className={`text-[10px] font-mono font-black tracking-tight ${stars >= 10 ? 'text-amber-400' : stars > 0 ? 'text-slate-200' : 'text-slate-600'}`}>
                     {stars}/10
                   </span>
                 </div>
 
                 {/* Current Active Level Tooltip Indicator */}
                 {isCurrent && (
-                  <div className="absolute -bottom-7 whitespace-nowrap bg-indigo-600 text-white text-[10px] font-black px-3 py-0.5 rounded-full shadow-xl border border-indigo-400 animate-bounce">
+                  <div className="absolute -bottom-7 whitespace-nowrap bg-indigo-600 text-white text-[10px] font-black px-3 py-0.5 rounded-full shadow-xl border border-indigo-400 animate-bounce pointer-events-none z-10">
                     বর্তমান লেভেল
                   </div>
                 )}
