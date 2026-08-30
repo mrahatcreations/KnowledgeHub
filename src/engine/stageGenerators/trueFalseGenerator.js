@@ -163,7 +163,7 @@ export function generateTrueFalseStage(item = {}, allItems = [], options = {}) {
   // Determine whether this statement is TRUE or FALSE (50% true / 50% false by default)
   const isTrue = typeof options.forceAnswer === 'boolean' 
     ? options.forceAnswer 
-    : Math.random() >= 0.5;
+    : (typeof options.isTrue === 'boolean' ? options.isTrue : Math.random() >= 0.5);
 
   const hasSynonyms = safeItem.synonyms.length > 0;
   

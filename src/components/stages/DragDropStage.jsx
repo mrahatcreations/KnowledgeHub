@@ -1,5 +1,6 @@
 import React, { useState, useRef, useMemo } from 'react';
 import { 
+  Check,
   Volume2, 
   CheckCircle2, 
   XCircle, 
@@ -91,6 +92,8 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
       }, 650);
     }
   };
+
+  const handleCheckAnswer = handleVerify;
 
   // HTML5 Drag & Drop handlers
   const handleDragStart = (e, word) => {

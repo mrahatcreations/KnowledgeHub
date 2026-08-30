@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { buildLevelStages, STAGE_TYPES } from '../engine/GameEngine.js';
 import { sound } from '../audio/SoundSynthesizer.js';
 import confetti from 'canvas-confetti';
+import defaultLevelsData from '../../public/data/levels.json' with { type: 'json' };
 
 export const TOTAL_STAGES_PER_LEVEL = 10;
 export const STARS_PER_STAGE = 0.5;
@@ -14,6 +15,66 @@ export const DEFAULT_GEMS = 240;
 export const DEFAULT_STREAK = 5;
 export const DEFAULT_LIVES = 5;
 export const MASTERY_BONUS_GEMS = 50;
+
+/**
+ * Bulletproof normalizer for level schemas from GitHub CDN or local storage.
+ * Ensures consistent item arrays, sentences, synonyms, antonyms, and level IDs.
+ */
+export function normalizeLevelsData(rawLevels) {
+  if (!Array.isArray(rawLevels)) return [];
+  return rawLevels.map((lvl, lIdx) => {
+    const levelId = Number(lvl.level_id || lvl.id || (lIdx + 1));
+    const items = Array.isArray(lvl.items)
+      ? lvl.items.map((item, iIdx) => {
+          const word = String(item.word || '').trim();
+          const meaning = String(item.meaning || '').trim();
+
+          let synonyms = [];
+          if (Array.isArray(item.synonyms)) {
+            synonyms = item.synonyms.map(s => String(s).trim()).filter(Boolean);
+          } else if (typeof item.synonyms === 'string') {
+            synonyms = item.synonyms.split(/[,;|]+/).map(s => s.trim()).filter(Boolean);
+          } else if (typeof item.raw_synonyms === 'string') {
+            synonyms = item.raw_synonyms.split(/[,;|]+/).map(s => s.trim()).filter(Boolean);
+          }
+
+          let antonyms = [];
+          if (Array.isArray(item.antonyms)) {
+            antonyms = item.antonyms.map(a => String(a).trim()).filter(Boolean);
+          } else if (typeof item.antonyms === 'string') {
+            antonyms = item.antonyms.split(/[,;|]+/).map(a => a.trim()).filter(Boolean);
+          } else if (typeof item.raw_antonyms === 'string') {
+            antonyms = item.raw_antonyms.split(/[,;|]+/).map(a => a.trim()).filter(Boolean);
+          }
+
+          const sentence = String(item.sentence || '').trim() || `The word "${word}" means ${meaning}.`;
+
+          return {
+            id: item.id || `lvl_${levelId}_item_${iIdx + 1}`,
+            word: word || `Word ${iIdx + 1}`,
+            meaning: meaning || 'অর্থ উপলব্ধ নয়',
+            pos: String(item.pos || 'n').toLowerCase(),
+            synonyms,
+            antonyms,
+            raw_synonyms: item.raw_synonyms || synonyms.join(', '),
+            raw_antonyms: item.raw_antonyms || antonyms.join(', '),
+            sentence,
+            category: item.category || lvl.category || 'Vocabulary',
+            unit: item.unit || lvl.unit || `Unit ${levelId}`
+          };
+        })
+      : [];
+
+    return {
+      ...lvl,
+      level_id: levelId,
+      title: lvl.title || `Level ${levelId}: ${lvl.category || 'Vocabulary'}`,
+      unit: lvl.unit || `Image ${levelId}: Vocabulary`,
+      category: lvl.category || 'Vocabulary',
+      items
+    };
+  });
+}
 
 /**
  * Creates an empty 10-stage star tracking array.
@@ -32,9 +93,20 @@ export const createInitialStageStars = () => Array(TOTAL_STAGES_PER_LEVEL).fill(
 export function useGameState(options = {}) {
   const soundApi = options.soundController || sound;
 
-  // Levels database
-  const [levels, setLevels] = useState([]);
-  const [isLoadingLevels, setIsLoadingLevels] = useState(true);
+  // Levels database - Synchronous instant initialization for 100% offline cold-start resiliency
+  const [levels, setLevels] = useState(() => {
+    try {
+      const cached = localStorage.getItem(STORAGE_KEY_CACHED_LEVELS);
+      if (cached) {
+        const parsed = JSON.parse(cached);
+        if (parsed && Array.isArray(parsed.levels) && parsed.levels.length > 0) {
+          return parsed.levels;
+        }
+      }
+    } catch (e) {}
+    return defaultLevelsData?.levels || [];
+  });
+  const [isLoadingLevels, setIsLoadingLevels] = useState(false);
 
   // Progression & Persistence State
   const [unlockedLevel, setUnlockedLevel] = useState(1);
@@ -114,7 +186,7 @@ export function useGameState(options = {}) {
       if (cached) {
         const parsed = JSON.parse(cached);
         if (parsed && Array.isArray(parsed.levels) && parsed.levels.length > 0) {
-          setLevels(parsed.levels);
+          setLevels(normalizeLevelsData(parsed.levels));
           setIsLoadingLevels(false);
         }
       }
@@ -130,8 +202,9 @@ export function useGameState(options = {}) {
         if (remoteRes.ok) {
           const remoteData = await remoteRes.json();
           if (remoteData.levels && Array.isArray(remoteData.levels) && remoteData.levels.length > 0) {
-            localStorage.setItem(STORAGE_KEY_CACHED_LEVELS, JSON.stringify(remoteData));
-            setLevels(remoteData.levels);
+            const normalized = normalizeLevelsData(remoteData.levels);
+            localStorage.setItem(STORAGE_KEY_CACHED_LEVELS, JSON.stringify({ ...remoteData, levels: normalized }));
+            setLevels(normalized);
             dataLoaded = true;
           }
         }
@@ -145,8 +218,9 @@ export function useGameState(options = {}) {
         if (localRes.ok) {
           const localData = await localRes.json();
           if (localData.levels && Array.isArray(localData.levels)) {
-            localStorage.setItem(STORAGE_KEY_CACHED_LEVELS, JSON.stringify(localData));
-            setLevels(localData.levels);
+            const normalized = normalizeLevelsData(localData.levels);
+            localStorage.setItem(STORAGE_KEY_CACHED_LEVELS, JSON.stringify({ ...localData, levels: normalized }));
+            setLevels(normalized);
           }
         }
       }

@@ -83,9 +83,10 @@ export function extractWordList(list, raw) {
  * @param {Object} currentItem - Current target item
  * @param {number} count - Desired number of distractors
  * @param {string} key - Item property key ('meaning' or 'word')
+ * @param {Array} excludeList - Optional list of values to exclude
  * @returns {string[]} Array of distractor strings
  */
-export function getRandomDistractors(allItems, currentItem, count = 3, key = 'meaning') {
+export function getRandomDistractors(allItems, currentItem, count = 3, key = 'meaning', excludeList = []) {
   const currentId = currentItem ? currentItem.id : null;
   const currentTargetVal = (currentItem && currentItem[key]) ? String(currentItem[key]).trim().toLowerCase() : '';
 
@@ -99,11 +100,18 @@ export function getRandomDistractors(allItems, currentItem, count = 3, key = 'me
   if (currentTargetVal) {
     seen.add(currentTargetVal);
   }
+  if (Array.isArray(excludeList)) {
+    excludeList.forEach(ex => {
+      if (ex !== undefined && ex !== null && String(ex).trim().length > 0) {
+        seen.add(String(ex).trim().toLowerCase());
+      }
+    });
+  }
 
   for (const it of shuffled) {
     const val = String(it[key]).trim();
     const valLower = val.toLowerCase();
-    if (!seen.has(valLower)) {
+    if (valLower.length > 0 && !seen.has(valLower)) {
       seen.add(valLower);
       picked.push(val);
       if (picked.length >= count) break;
@@ -149,6 +157,16 @@ export function getRandomDistractors(allItems, currentItem, count = 3, key = 'me
     if (!seen.has(fbLower)) {
       seen.add(fbLower);
       picked.push(fb);
+    }
+  }
+
+  // Guaranteed non-empty fallback if pool was exhausted by high exclusion list
+  let synthIdx = 1;
+  while (picked.length < count) {
+    const synthVal = key === 'word' ? `AlternativeWord${synthIdx++}` : `Alternative Definition ${synthIdx++}`;
+    if (!seen.has(synthVal.toLowerCase())) {
+      seen.add(synthVal.toLowerCase());
+      picked.push(synthVal);
     }
   }
 
@@ -257,16 +275,92 @@ export function generateFlashcardStage(item, allItems, stageMeta = {}) {
   };
 }
 
+export const DEFAULT_MATCHING_FALLBACK_PAIRS = [
+  { id: 'fb_m1', word: 'Facilitate', meaning: 'সহজতর করা (To make easier)', synonyms: ['Assist', 'Help'], antonyms: ['Hinder', 'Impede'], pos: 'v' },
+  { id: 'fb_m2', word: 'Enhance', meaning: 'উন্নত করা (To improve/increase)', synonyms: ['Improve', 'Boost'], antonyms: ['Diminish', 'Reduce'], pos: 'v' },
+  { id: 'fb_m3', word: 'Advocate', meaning: 'সমর্থন করা (To publicly support)', synonyms: ['Champion', 'Support'], antonyms: ['Oppose', 'Condemn'], pos: 'v' },
+  { id: 'fb_m4', word: 'Synthesize', meaning: 'একত্রিত করা (To combine together)', synonyms: ['Integrate', 'Unify'], antonyms: ['Separate', 'Divide'], pos: 'v' },
+  { id: 'fb_m5', word: 'Clarify', meaning: 'স্পষ্ট করা (To make clear)', synonyms: ['Explain', 'Elucidate'], antonyms: ['Confuse', 'Obscure'], pos: 'v' },
+  { id: 'fb_m6', word: 'Pioneer', meaning: 'পথপ্রদর্শক বা অগ্রদূত', synonyms: ['Trailblazer', 'Innovator'], antonyms: ['Follower', 'Imitator'], pos: 'n' },
+  { id: 'fb_m7', word: 'Crucial', meaning: 'অত্যন্ত গুরুত্বপূর্ণ বা সংকটপূর্ণ', synonyms: ['Critical', 'Vital'], antonyms: ['Trivial', 'Minor'], pos: 'adj' }
+];
+
 /**
  * 2. Multi-Mode Matching Stage Generator (Meaning, Synonym, Antonym, Grammar)
+ * 
+ * Robust against:
+ * - Datasets with < 4-5 words (automatically tops up from curated fallback pool)
+ * - Duplicate meanings or duplicate words (strictly deduplicates pairs and IDs)
+ * - Null, undefined, or missing values (guarantees clean strings and unique non-null IDs)
  */
 export function generateMatchingStage(allItems, stageMeta = {}, targetItem = null) {
-  const sourceItems = Array.isArray(allItems) && allItems.length > 0 ? allItems : (targetItem ? [targetItem] : []);
-  const selected = shuffleArray(sourceItems).slice(0, Math.min(sourceItems.length, 5));
   const stageNum = stageMeta.stageNumber || 2;
   const iteration = stageMeta.iteration || 1;
 
-  // Check available synonyms and antonyms
+  // 1. Gather raw candidates from allItems or targetItem
+  const rawPool = Array.isArray(allItems) && allItems.length > 0
+    ? allItems
+    : (targetItem ? [targetItem] : []);
+
+  // 2. Clean, validate, and deduplicate candidates by word and meaning
+  const validCandidates = [];
+  const seenWords = new Set();
+  const seenMeanings = new Set();
+  const seenIds = new Set();
+
+  for (const item of rawPool) {
+    if (!item || typeof item !== 'object') continue;
+    const word = String(item.word || '').trim();
+    const meaning = String(item.meaning || '').trim();
+    if (!word || !meaning) continue;
+
+    const wordLower = word.toLowerCase();
+    const meaningLower = meaning.toLowerCase();
+
+    // Prevent duplicate words or duplicate meanings in the candidate pool
+    if (seenWords.has(wordLower) || seenMeanings.has(meaningLower)) continue;
+
+    seenWords.add(wordLower);
+    seenMeanings.add(meaningLower);
+
+    const safeId = item.id !== undefined && item.id !== null ? String(item.id) : `pair_${validCandidates.length + 1}`;
+    seenIds.add(safeId);
+
+    validCandidates.push({
+      ...item,
+      id: safeId,
+      word,
+      meaning
+    });
+  }
+
+  // 3. If candidates < 4 (fewer than 4-5 words), top up from DEFAULT_MATCHING_FALLBACK_PAIRS
+  const TARGET_PAIRS_COUNT = 5;
+  const pool = [...validCandidates];
+
+  if (pool.length < TARGET_PAIRS_COUNT) {
+    for (const fb of DEFAULT_MATCHING_FALLBACK_PAIRS) {
+      if (pool.length >= TARGET_PAIRS_COUNT) break;
+      const fbWordLower = fb.word.toLowerCase();
+      const fbMeaningLower = fb.meaning.toLowerCase();
+
+      if (!seenWords.has(fbWordLower) && !seenMeanings.has(fbMeaningLower)) {
+        seenWords.add(fbWordLower);
+        seenMeanings.add(fbMeaningLower);
+        const fbId = `fb_${pool.length + 1}_${Math.random().toString(36).substring(2, 6)}`;
+        seenIds.add(fbId);
+        pool.push({
+          ...fb,
+          id: fbId
+        });
+      }
+    }
+  }
+
+  // Select up to 5 items
+  const selected = shuffleArray(pool).slice(0, Math.min(pool.length, TARGET_PAIRS_COUNT));
+
+  // 4. Determine appropriate matching mode
   const itemsWithSyn = selected.filter(it => extractWordList(it.synonyms, it.raw_synonyms).length > 0);
   const itemsWithAnt = selected.filter(it => extractWordList(it.antonyms, it.raw_antonyms).length > 0);
   const distinctPoS = new Set(selected.map(it => it.pos).filter(Boolean));
@@ -283,8 +377,6 @@ export function generateMatchingStage(allItems, stageMeta = {}, targetItem = nul
     mode = 'synonym';
   }
 
-  let leftItems = [];
-  let rightItems = [];
   let title = 'Left-Right Matching';
   let instruction = 'Match each English word with its correct definition';
   let leftHeader = 'English Words';
@@ -292,6 +384,10 @@ export function generateMatchingStage(allItems, stageMeta = {}, targetItem = nul
   let rightHeader = 'Definitions / Meanings';
   let rightSub = 'BN';
   let explanation = 'Match each English word with its corresponding definition.';
+
+  // 5. Build pairs according to mode with guaranteed unique right-column texts
+  const pairs = [];
+  const usedRightTexts = new Set();
 
   if (mode === 'synonym') {
     title = 'Synonym Pairs Matching';
@@ -302,12 +398,22 @@ export function generateMatchingStage(allItems, stageMeta = {}, targetItem = nul
     rightSub = 'SYN';
     explanation = 'Match each word with its correct synonym to complete the challenge.';
 
-    leftItems = selected.map(it => ({ id: it.id, text: it.word }));
-    rightItems = shuffleArray(selected.map(it => {
+    selected.forEach((it, idx) => {
       const syns = extractWordList(it.synonyms, it.raw_synonyms);
-      const text = syns.length > 0 ? syns[0] : it.meaning;
-      return { id: it.id, text: text };
-    }));
+      // Pick a synonym that hasn't been used yet in this stage to avoid collision
+      let chosenText = syns.find(s => !usedRightTexts.has(s.toLowerCase())) || syns[0] || it.meaning;
+      if (usedRightTexts.has(chosenText.toLowerCase())) {
+        chosenText = `${chosenText} (${idx + 1})`;
+      }
+      usedRightTexts.add(chosenText.toLowerCase());
+
+      pairs.push({
+        id: String(it.id),
+        left: it.word,
+        right: chosenText,
+        item: it
+      });
+    });
   } else if (mode === 'antonym') {
     title = 'Antonym Pairs Matching';
     instruction = 'Match each word with its correct Antonym (বিপরীত শব্দ)';
@@ -317,12 +423,21 @@ export function generateMatchingStage(allItems, stageMeta = {}, targetItem = nul
     rightSub = 'ANT';
     explanation = 'Match each word with its correct opposite / antonym.';
 
-    leftItems = selected.map(it => ({ id: it.id, text: it.word }));
-    rightItems = shuffleArray(selected.map(it => {
+    selected.forEach((it, idx) => {
       const ants = extractWordList(it.antonyms, it.raw_antonyms);
-      const text = ants.length > 0 ? ants[0] : `${it.meaning} (Opposite)`;
-      return { id: it.id, text: text };
-    }));
+      let chosenText = ants.find(a => !usedRightTexts.has(a.toLowerCase())) || ants[0] || `${it.meaning} (Opposite)`;
+      if (usedRightTexts.has(chosenText.toLowerCase())) {
+        chosenText = `${chosenText} (${idx + 1})`;
+      }
+      usedRightTexts.add(chosenText.toLowerCase());
+
+      pairs.push({
+        id: String(it.id),
+        left: it.word,
+        right: chosenText,
+        item: it
+      });
+    });
   } else if (mode === 'pos') {
     title = 'Grammar & PoS Matching';
     instruction = 'Match each word with its correct Part of Speech (Noun, Verb, Adjective)';
@@ -332,20 +447,56 @@ export function generateMatchingStage(allItems, stageMeta = {}, targetItem = nul
     rightSub = 'POS';
     explanation = 'Match each word with its correct grammatical Part of Speech.';
 
-    leftItems = selected.map(it => ({ id: it.id, text: it.word }));
-    rightItems = shuffleArray(selected.map(it => ({
-      id: it.id,
-      text: formatPoS(it.pos)
-    })));
+    selected.forEach((it, idx) => {
+      let chosenText = formatPoS(it.pos);
+      if (usedRightTexts.has(chosenText.toLowerCase())) {
+        chosenText = `${chosenText} (${it.meaning.split(/[,;(]/)[0].trim()})`;
+      }
+      if (usedRightTexts.has(chosenText.toLowerCase())) {
+        chosenText = `${chosenText} #${idx + 1}`;
+      }
+      usedRightTexts.add(chosenText.toLowerCase());
+
+      pairs.push({
+        id: String(it.id),
+        left: it.word,
+        right: chosenText,
+        item: it
+      });
+    });
   } else {
     // Default: Word <-> Meaning
-    leftItems = selected.map(it => ({ id: it.id, text: it.word }));
-    rightItems = shuffleArray(selected.map(it => ({ id: it.id, text: it.meaning })));
+    selected.forEach((it, idx) => {
+      let chosenText = it.meaning;
+      if (usedRightTexts.has(chosenText.toLowerCase())) {
+        chosenText = `${chosenText} (${idx + 1})`;
+      }
+      usedRightTexts.add(chosenText.toLowerCase());
+
+      pairs.push({
+        id: String(it.id),
+        left: it.word,
+        right: chosenText,
+        item: it
+      });
+    });
   }
+
+  // 6. Build leftItems and rightItems with guaranteed unique IDs and non-null values
+  const leftItems = pairs.map(p => ({
+    id: p.id,
+    text: p.left
+  }));
+
+  const rightItems = pairs.map(p => ({
+    id: p.id,
+    text: p.right
+  }));
 
   return {
     type: STAGE_TYPES.MATCHING,
     matchingMode: mode,
+    subType: mode,
     stageNumber: stageNum,
     iteration: iteration,
     title: title,
@@ -356,8 +507,9 @@ export function generateMatchingStage(allItems, stageMeta = {}, targetItem = nul
     rightSub: rightSub,
     item: targetItem || selected[0] || null,
     leftItems: shuffleArray(leftItems),
-    rightItems: rightItems,
-    totalPairs: selected.length,
+    rightItems: shuffleArray(rightItems),
+    pairs: pairs.map(p => ({ id: p.id, left: p.left, right: p.right })),
+    totalPairs: pairs.length,
     correctAnswer: 'MATCH_ALL',
     explanation: explanation
   };
@@ -413,73 +565,117 @@ export function generateDragDropStage(item, allItems, stageMeta = {}) {
  * 4. True/False Swipe Stage Generator with Multi-Angle Verification
  */
 export function generateTrueFalseStage(item, allItems, stageMeta = {}) {
-  const synonyms = extractWordList(item.synonyms, item.raw_synonyms);
-  const antonyms = extractWordList(item.antonyms, item.raw_antonyms);
+  const safeItem = item || {};
+  const word = String(safeItem.word || 'Vocabulary').trim();
+  const meaning = String(safeItem.meaning || 'অর্থ').trim();
+  const synonyms = extractWordList(safeItem.synonyms, safeItem.raw_synonyms);
+  const antonyms = extractWordList(safeItem.antonyms, safeItem.raw_antonyms);
   const stageNum = stageMeta.stageNumber || 4;
   const iteration = stageMeta.iteration || 1;
-  const isTrue = Math.random() >= 0.5;
 
-  let mode = 'meaning';
-  if (iteration === 2 && synonyms.length > 0 && Math.random() > 0.3) {
-    mode = 'synonym';
-  } else if (iteration === 2 && antonyms.length > 0 && Math.random() > 0.3) {
-    mode = 'antonym';
-  } else if (stageNum % 3 === 0 && item.pos) {
-    mode = 'pos';
+  // Expected boolean answer: strictly true or false
+  const isTrue = typeof stageMeta.forceAnswer === 'boolean'
+    ? stageMeta.forceAnswer
+    : (typeof stageMeta.isTrue === 'boolean' ? stageMeta.isTrue : Math.random() >= 0.5);
+
+  let mode = stageMeta.mode || 'meaning';
+  if (!stageMeta.mode) {
+    if (iteration === 2 && synonyms.length > 0 && Math.random() > 0.3) {
+      mode = 'synonym';
+    } else if (iteration === 2 && antonyms.length > 0 && Math.random() > 0.3) {
+      mode = 'antonym';
+    } else if (stageNum % 3 === 0 && safeItem.pos) {
+      mode = 'pos';
+    }
   }
 
   let statement = '';
-  let displayedMeaning = item.meaning;
+  let displayedMeaning = meaning;
   let explanation = '';
 
   if (mode === 'synonym' && synonyms.length > 0) {
-    const targetSyn = isTrue ? synonyms[0] : (getRandomDistractors(allItems, item, 1, 'word')[0] || 'Unrelated');
-    statement = `Is "${targetSyn}" a SYNONYM of "${item.word}"?`;
+    let targetSyn = '';
+    if (isTrue) {
+      targetSyn = synonyms[0] || 'Similar Meaning';
+      explanation = `Correct! "${targetSyn}" is indeed a synonym of "${word}" (${meaning}).`;
+    } else {
+      // FALSE statement: Distractor must NOT be a synonym of word, and must NOT equal word itself!
+      const distractorWords = getRandomDistractors(allItems, safeItem, 1, 'word', [word, ...synonyms]);
+      targetSyn = distractorWords.length > 0 ? distractorWords[0] : '';
+      if (!targetSyn || synonyms.some(s => s.toLowerCase() === targetSyn.toLowerCase()) || targetSyn.toLowerCase() === word.toLowerCase()) {
+        targetSyn = (antonyms.length > 0 && !synonyms.includes(antonyms[0])) ? antonyms[0] : 'Unrelated Word';
+      }
+      explanation = `False! "${targetSyn}" is not a synonym of "${word}" (Synonyms: ${synonyms.join(', ')}).`;
+    }
+    statement = `Is "${targetSyn}" a SYNONYM of "${word}"?`;
     displayedMeaning = targetSyn;
-    explanation = isTrue
-      ? `Correct! "${targetSyn}" is indeed a synonym of "${item.word}" (${item.meaning}).`
-      : `False! "${targetSyn}" is not a synonym of "${item.word}" (Synonyms: ${synonyms.join(', ')}).`;
   } else if (mode === 'antonym' && antonyms.length > 0) {
-    const targetAnt = isTrue ? antonyms[0] : (getRandomDistractors(allItems, item, 1, 'word')[0] || 'Opposite');
-    statement = `Is "${targetAnt}" an OPPOSITE (Antonym) of "${item.word}"?`;
+    let targetAnt = '';
+    if (isTrue) {
+      targetAnt = antonyms[0] || 'Opposite Meaning';
+      explanation = `Correct! "${targetAnt}" is the antonym of "${word}" (${meaning}).`;
+    } else {
+      // FALSE statement: Distractor must NOT be an antonym, and must NOT equal word itself!
+      const distractorWords = getRandomDistractors(allItems, safeItem, 1, 'word', [word, ...antonyms]);
+      targetAnt = distractorWords.length > 0 ? distractorWords[0] : '';
+      if (!targetAnt || antonyms.some(a => a.toLowerCase() === targetAnt.toLowerCase()) || targetAnt.toLowerCase() === word.toLowerCase()) {
+        targetAnt = (synonyms.length > 0 && !antonyms.includes(synonyms[0])) ? synonyms[0] : 'Similar Word';
+      }
+      explanation = `False! "${targetAnt}" is not the antonym of "${word}" (Antonyms: ${antonyms.join(', ')}).`;
+    }
+    statement = `Is "${targetAnt}" an OPPOSITE (Antonym) of "${word}"?`;
     displayedMeaning = targetAnt;
-    explanation = isTrue
-      ? `Correct! "${targetAnt}" is the antonym of "${item.word}" (${item.meaning}).`
-      : `False! "${targetAnt}" is not the antonym of "${item.word}" (Antonyms: ${antonyms.join(', ')}).`;
-  } else if (mode === 'pos' && item.pos) {
+  } else if (mode === 'pos' && safeItem.pos) {
     const posList = ['Noun (বিশেষ্য)', 'Verb (ক্রিয়া)', 'Adjective (বিশেষণ)', 'Adverb (ক্রিয়া-বিশেষণ)', 'Preposition (অব্যয়)'];
-    const actualPos = formatPoS(item.pos);
-    const fakePos = posList.filter(p => !actualPos.toLowerCase().includes(p.toLowerCase()))[0] || 'Noun (বিশেষ্য)';
+    const actualPos = formatPoS(safeItem.pos);
+    const otherPosList = posList.filter(p => p.toLowerCase() !== actualPos.toLowerCase() && !actualPos.toLowerCase().includes(p.toLowerCase()));
+    const fakePos = otherPosList.length > 0 ? otherPosList[0] : (actualPos.includes('Noun') ? 'Verb (ক্রিয়া)' : 'Noun (বিশেষ্য)');
     const displayedPoS = isTrue ? actualPos : fakePos;
-    statement = `Is "${item.word}" a ${displayedPoS} (Part of Speech)?`;
+    statement = `Is "${word}" a ${displayedPoS} (Part of Speech)?`;
     displayedMeaning = displayedPoS;
     explanation = isTrue
-      ? `Correct! "${item.word}" is a ${actualPos}. Meaning: "${item.meaning}".`
-      : `False! "${item.word}" is actually a ${actualPos}, not a ${displayedPoS}.`;
+      ? `Correct! "${word}" is a ${actualPos}. Meaning: "${meaning}".`
+      : `False! "${word}" is actually a ${actualPos}, not a ${displayedPoS}.`;
   } else {
-    // Meaning
-    if (!isTrue) {
-      const distractors = getRandomDistractors(allItems, item, 1, 'meaning');
-      displayedMeaning = distractors.length > 0 ? distractors[0] : 'Alternative Meaning';
+    // Meaning Mode (Default)
+    if (isTrue) {
+      displayedMeaning = meaning;
+      explanation = `Correct! "${word}" means "${meaning}".`;
+    } else {
+      // FALSE statement: Distractor meaning MUST NOT be identical to item.meaning, null, or undefined
+      const distractors = getRandomDistractors(allItems, safeItem, 1, 'meaning', [meaning]);
+      let distractorMeaning = distractors.length > 0 ? distractors[0] : '';
+
+      if (!distractorMeaning || distractorMeaning.trim().toLowerCase() === meaning.toLowerCase()) {
+        const fallbacks = [
+          'Associate or Connect',
+          'Improve or Enhance',
+          'Warning or Caution',
+          'Evaluation or Assessment',
+          'Adaptive or Flexible',
+          'Preserve or Protect',
+          'Explain or Clarify'
+        ];
+        distractorMeaning = fallbacks.find(fb => fb.toLowerCase() !== meaning.toLowerCase()) || 'Alternative Definition';
+      }
+      displayedMeaning = distractorMeaning;
+      explanation = `False! "${word}" means "${meaning}" (not "${displayedMeaning}").`;
     }
-    statement = `Does "${item.word}" mean "${displayedMeaning}"?`;
-    explanation = isTrue
-      ? `Correct! "${item.word}" means "${item.meaning}".`
-      : `False! "${item.word}" means "${item.meaning}" (not "${displayedMeaning}").`;
+    statement = `Does "${word}" mean "${displayedMeaning}"?`;
   }
 
   return {
     type: STAGE_TYPES.TRUE_FALSE,
     stageNumber: stageNum,
     iteration: iteration,
-    title: STAGE_TITLES[STAGE_TYPES.TRUE_FALSE],
-    instruction: STAGE_INSTRUCTIONS[STAGE_TYPES.TRUE_FALSE],
-    item: item,
-    statement: statement,
-    displayedMeaning: displayedMeaning,
-    isTrue: isTrue,
+    title: STAGE_TITLES[STAGE_TYPES.TRUE_FALSE] || 'True / False Swipe',
+    instruction: STAGE_INSTRUCTIONS[STAGE_TYPES.TRUE_FALSE] || 'Swipe right for TRUE or left for FALSE',
+    item: safeItem,
+    statement: String(statement),
+    displayedMeaning: String(displayedMeaning),
+    isTrue: Boolean(isTrue),
     correctAnswer: isTrue ? 'TRUE' : 'FALSE',
-    explanation: explanation
+    explanation: String(explanation)
   };
 }
 
@@ -503,17 +699,18 @@ export function generateOddOneOutStage(item, allItems, stageMeta = {}) {
     explanation = `Correct answer: "${oddWord}". It is an antonym, while the others are synonyms of "${item.word}".`;
   } else if (ants.length > 0) {
     oddWord = ants[0];
-    const distractorWords = getRandomDistractors(allItems, item, 2, 'word');
-    const related = [item.word, ...(syns.length > 0 ? [syns[0]] : [distractorWords[0] || 'Related']), item.meaning || 'Meaning'];
+    const distractorWords = getRandomDistractors(allItems, item, 3, 'word');
+    const related = [item.word, ...(syns.length > 0 ? [syns[0]] : []), distractorWords[0] || 'Associate', distractorWords[1] || 'Connect'];
     options = shuffleArray([...related.slice(0, 3), oddWord]);
     categoryTitle = `Which of the following is the antonym or odd word for "${item.word}"?`;
     explanation = `Correct answer: "${oddWord}". It is an antonym, while the other choices are related to "${item.word}".`;
   } else {
-    const distractors = getRandomDistractors(allItems, item, 1, 'word');
+    const distractors = getRandomDistractors(allItems, item, 4, 'word');
     oddWord = distractors.length > 0 ? distractors[0] : 'Unrelated';
     const related = [item.word, ...syns.slice(0, 2)];
+    let dIdx = 1;
     while (related.length < 3) {
-      related.push(item.meaning || 'Meaning');
+      related.push(distractors[dIdx++] || `RelatedWord_${related.length}`);
     }
     options = shuffleArray([...related.slice(0, 3), oddWord]);
     categoryTitle = `Which word does not belong with "${item.word}"?`;

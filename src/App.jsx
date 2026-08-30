@@ -178,7 +178,7 @@ export default function App() {
             </>
           ) : (
             <div className="w-full flex flex-col space-y-3 sm:space-y-4 animate-pop">
-              {currentStage && (
+              {currentStage ? (
                 <>
                   {currentStage.type === STAGE_TYPES.FLASHCARD && (
                     <FlashcardStage key={`stage_${stageIndex}_${currentStage.item?.id || ''}_${currentStage.correctAnswer}`} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} isSecondChance={stageAttempts === 1} />
@@ -196,6 +196,24 @@ export default function App() {
                     <OddOneOutStage key={`stage_${stageIndex}_${currentStage.item?.id || ''}_${currentStage.correctAnswer}`} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} isSecondChance={stageAttempts === 1} />
                   )}
                 </>
+              ) : (
+                <div className="flex flex-col items-center justify-center min-h-[320px] text-center p-8 bg-slate-900/60 border border-slate-800 rounded-none space-y-4">
+                  <div className="w-8 h-8 border-2 border-indigo-500 border-t-transparent animate-spin rounded-none" />
+                  <div className="flex flex-col items-center space-y-1">
+                    <p className="text-xs font-mono font-bold uppercase tracking-widest text-slate-300">
+                      Preparing Stage {stageIndex + 1}...
+                    </p>
+                    <p className="text-[11px] text-slate-500 font-sans">
+                      Compiling stage items and interactive challenges
+                    </p>
+                  </div>
+                  <button
+                    onClick={handleBackToMap}
+                    className="mt-2 px-3 py-1.5 text-xs font-mono font-bold uppercase tracking-wider text-slate-400 hover:text-slate-200 bg-slate-900 border border-slate-800 hover:border-slate-700 transition cursor-pointer rounded-none"
+                  >
+                    Return to Map
+                  </button>
+                </div>
               )}
             </div>
           )}
@@ -248,7 +266,7 @@ export default function App() {
           <CompletionModal
             level={completionResult.level}
             totalStars={completionResult.totalStars}
-            totalStages={completionResult.totalPossible || 10}
+            totalStages={completionResult.totalStages || completionResult.totalPossible || 10}
             isTenStar={completionResult.isTenStar}
             isFiveStar={completionResult.isFiveStar}
             mistakes={mistakes}

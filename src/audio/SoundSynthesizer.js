@@ -295,8 +295,11 @@ class SoundSynthesizer {
           : `https://raw.githubusercontent.com/mrahatcreations/VocabMaster/main/public/audio/${manifestFile || ''}`;
       }
 
-      if (typeof navigator !== 'undefined' && navigator.onLine !== false) {
-        this._log(`🎙️ Playing Voice for: "${clean}"`);
+      const isLocalBlob = targetUrl && (targetUrl.startsWith('blob:') || targetUrl.startsWith('data:'));
+      const isOnline = typeof navigator === 'undefined' || navigator.onLine !== false;
+
+      if (isLocalBlob || isOnline) {
+        this._log(`🎙️ Playing Voice for: "${clean}" (${isLocalBlob ? 'Local Offline Cache' : 'Cloud CDN'})`);
         
         const audio = new Audio(targetUrl);
         audio.playbackRate = 0.95;
@@ -310,7 +313,7 @@ class SoundSynthesizer {
             })
             .catch((err) => {
               this._log(`⚠️ Playback error, trying live fallback: ${err?.message || err}`);
-              if (isProxy) {
+              if (isProxy && !isLocalBlob) {
                 const liveAudio = new Audio(`/__edge_tts?text=${encodeURIComponent(clean)}`);
                 this._currentAudio = liveAudio;
                 liveAudio.play().catch(() => this._fallbackTTS(clean));

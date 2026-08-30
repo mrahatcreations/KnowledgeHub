@@ -1,32 +1,84 @@
+import { BinaryAudioPackEngine } from './BinaryAudioPackEngine.js';
+
 // AudioPackManager.js - Manages Offline Audio Pack download, local cache storage, and CDN streaming
 const CACHE_NAME = 'vocabmaster-audio-pack-v1';
 const GITHUB_CDN_BASE = 'https://raw.githubusercontent.com/mrahatcreations/VocabMaster/main/public/audio';
+const GITHUB_PACK_URL = 'https://raw.githubusercontent.com/mrahatcreations/VocabMaster/main/public/data/voice_pack_v1.khpack';
+const LOCAL_PACK_URL = '/data/voice_pack_v1.khpack';
 const LOCAL_BASE = '/audio';
 const STORAGE_KEY_PACK_STATUS = 'vocabmaster_audio_pack_status';
+const STORAGE_KEY_MANIFEST = 'vocabmaster_audio_manifest';
 
 class AudioPackManager {
   constructor() {
     this.isDownloading = false;
     this.abortController = null;
     this.manifest = null;
+    this._manifestPromise = null;
     this._listeners = new Set();
     this._initManifest();
   }
 
   async _initManifest() {
-    if (typeof window === 'undefined') return;
-    try {
-      const res = await fetch(`${LOCAL_BASE}/manifest.json?v=` + Date.now());
-      if (res.ok) {
-        this.manifest = await res.json();
+    if (typeof window === 'undefined') return {};
+    
+    // Return in-flight promise if already loading
+    if (this._manifestPromise) {
+      return this._manifestPromise;
+    }
+
+    this._manifestPromise = (async () => {
+      // 1. Instant hydration from localStorage cache if available
+      if (!this.manifest) {
+        try {
+          const cached = localStorage.getItem(STORAGE_KEY_MANIFEST);
+          if (cached) {
+            const parsed = JSON.parse(cached);
+            if (parsed && typeof parsed === 'object' && Object.keys(parsed).length > 0) {
+              this.manifest = parsed;
+            }
+          }
+        } catch (e) {}
       }
-    } catch (e) {
+
+      // 2. Try fetching from local base
+      try {
+        const res = await fetch(`${LOCAL_BASE}/manifest.json?v=` + Date.now());
+        if (res.ok) {
+          const data = await res.json();
+          if (data && typeof data === 'object') {
+            this.manifest = data;
+            try {
+              localStorage.setItem(STORAGE_KEY_MANIFEST, JSON.stringify(data));
+            } catch (e) {}
+            return this.manifest;
+          }
+        }
+      } catch (e) {}
+
+      // 3. Fallback to GitHub CDN
       try {
         const res = await fetch(`${GITHUB_CDN_BASE}/manifest.json`);
         if (res.ok) {
-          this.manifest = await res.json();
+          const data = await res.json();
+          if (data && typeof data === 'object') {
+            this.manifest = data;
+            try {
+              localStorage.setItem(STORAGE_KEY_MANIFEST, JSON.stringify(data));
+            } catch (e) {}
+            return this.manifest;
+          }
         }
       } catch (err) {}
+
+      return this.manifest || {};
+    })();
+
+    try {
+      const result = await this._manifestPromise;
+      return result;
+    } finally {
+      this._manifestPromise = null;
     }
   }
 
@@ -42,7 +94,7 @@ class AudioPackManager {
   }
 
   async getManifest() {
-    if (!this.manifest) {
+    if (!this.manifest || Object.keys(this.manifest).length === 0) {
       await this._initManifest();
     }
     return this.manifest || {};
@@ -53,20 +105,18 @@ class AudioPackManager {
    */
   async getStatus() {
     if (typeof window === 'undefined' || !('caches' in window)) {
-      return { isDownloaded: false, downloadedCount: 0, totalCount: 5868, sizeMB: 0, percent: 0 };
+      return { isDownloaded: false, downloadedCount: 0, totalCount: 5867, sizeMB: 0, percent: 0, phase: 'idle' };
     }
 
     try {
       const cache = await caches.open(CACHE_NAME);
       const keys = await cache.keys();
       const downloadedCount = keys.length;
-      const manifest = await this.getManifest();
-      const totalCount = Object.keys(manifest).length || 5868;
+      const totalCount = 5867;
 
-      // Estimated ~14.7 KB average per opus file
       const sizeMB = Number(((downloadedCount * 14.7) / 1024).toFixed(1));
       const percent = totalCount > 0 ? Math.min(100, Math.round((downloadedCount / totalCount) * 100)) : 0;
-      const isDownloaded = downloadedCount >= Math.floor(totalCount * 0.95);
+      const isDownloaded = downloadedCount >= Math.floor(totalCount * 0.9);
 
       return {
         isDownloaded,
@@ -74,10 +124,11 @@ class AudioPackManager {
         totalCount,
         sizeMB,
         percent,
-        isDownloading: this.isDownloading
+        isDownloading: this.isDownloading,
+        phase: this.isDownloading ? 'downloading' : isDownloaded ? 'ready' : 'idle'
       };
     } catch (e) {
-      return { isDownloaded: false, downloadedCount: 0, totalCount: 5868, sizeMB: 0, percent: 0 };
+      return { isDownloaded: false, downloadedCount: 0, totalCount: 5867, sizeMB: 0, percent: 0, phase: 'idle' };
     }
   }
 
@@ -87,7 +138,7 @@ class AudioPackManager {
   async getAudioUrl(filename) {
     if (!filename) return null;
 
-    // 1. Check local CacheStorage first
+    // 1. Check local CacheStorage first (offline)
     if (typeof window !== 'undefined' && 'caches' in window) {
       try {
         const cache = await caches.open(CACHE_NAME);
@@ -99,10 +150,9 @@ class AudioPackManager {
       } catch (e) {}
     }
 
-    // 2. Return GitHub CDN URL & cache in background for offline use
+    // 2. Return GitHub CDN streaming URL & background cache
     const cdnUrl = `${GITHUB_CDN_BASE}/${filename}`;
     if (typeof window !== 'undefined' && 'caches' in window) {
-      // Background non-blocking cache
       fetch(cdnUrl)
         .then(async (res) => {
           if (res.ok) {
@@ -117,7 +167,7 @@ class AudioPackManager {
   }
 
   /**
-   * Downloads all audio files in parallel batches into CacheStorage
+   * Downloads single encrypted .khpack stream and decrypts/unpacks directly to CacheStorage
    */
   async downloadPack(onProgress) {
     if (this.isDownloading) return;
@@ -130,68 +180,79 @@ class AudioPackManager {
     const signal = this.abortController.signal;
 
     try {
-      const manifest = await this.getManifest();
-      const filenames = Array.from(new Set(Object.values(manifest)));
-      const totalCount = filenames.length || 5868;
+      // 1. Determine download target (try local or GitHub raw CDN)
+      let targetUrl = GITHUB_PACK_URL;
+      let res = await fetch(LOCAL_PACK_URL, { signal, method: 'HEAD' }).catch(() => null);
+      if (res && res.ok) {
+        targetUrl = LOCAL_PACK_URL;
+      }
 
-      const cache = await caches.open(CACHE_NAME);
-      const existingKeys = await cache.keys();
-      const existingUrls = new Set(existingKeys.map(k => k.url));
+      const response = await fetch(targetUrl, { signal });
+      if (!response.ok) {
+        throw new Error(`Failed to download audio pack (${response.status})`);
+      }
 
-      let downloadedCount = 0;
-      existingKeys.forEach(() => downloadedCount++);
+      const contentLength = response.headers.get('Content-Length');
+      const totalBytes = contentLength ? parseInt(contentLength, 10) : 82470000; // ~78.6 MB estimate
+      let loadedBytes = 0;
 
-      const queue = filenames.filter(f => !existingUrls.has(new URL(`${LOCAL_BASE}/${f}`, window.location.href).href));
+      const reader = response.body.getReader();
+      const chunks = [];
 
-      const BATCH_SIZE = 16; // 16 parallel downloads
-      let activeIndex = 0;
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
 
-      const updateProgress = () => {
-        const percent = totalCount > 0 ? Math.min(100, Math.round((downloadedCount / totalCount) * 100)) : 0;
-        const sizeMB = Number(((downloadedCount * 14.7) / 1024).toFixed(1));
+        chunks.push(value);
+        loadedBytes += value.length;
+
+        const percent = Math.min(95, Math.round((loadedBytes / totalBytes) * 95));
         const status = {
           isDownloading: true,
+          phase: 'downloading',
           percent,
-          downloadedCount,
-          totalCount,
-          sizeMB
+          downloadedCount: Math.round((percent / 100) * 5867),
+          totalCount: 5867,
+          sizeMB: Number((loadedBytes / (1024 * 1024)).toFixed(1)),
+          totalSizeMB: Number((totalBytes / (1024 * 1024)).toFixed(1))
         };
         if (onProgress) onProgress(status);
         this._notify(status);
+      }
+
+      // 2. Concatenate chunks to single ArrayBuffer
+      const totalBuffer = new Uint8Array(loadedBytes);
+      let offset = 0;
+      for (const chunk of chunks) {
+        totalBuffer.set(chunk, offset);
+        offset += chunk.length;
+      }
+
+      // 3. Decrypt and unpack container into CacheStorage
+      const unpackStatus = {
+        isDownloading: true,
+        phase: 'unpacking',
+        percent: 96,
+        downloadedCount: 5867,
+        totalCount: 5867,
+        sizeMB: Number((loadedBytes / (1024 * 1024)).toFixed(1))
       };
+      if (onProgress) onProgress(unpackStatus);
+      this._notify(unpackStatus);
 
-      updateProgress();
-
-      const worker = async () => {
-        while (activeIndex < queue.length) {
-          if (signal.aborted) break;
-          const idx = activeIndex++;
-          const filename = queue[idx];
-          if (!filename) break;
-
-          const requestUrl = `${LOCAL_BASE}/${filename}`;
-          try {
-            // Fetch from local dev proxy or GitHub CDN
-            let res = await fetch(requestUrl, { signal });
-            if (!res.ok) {
-              res = await fetch(`${GITHUB_CDN_BASE}/${filename}`, { signal });
-            }
-
-            if (res.ok) {
-              await cache.put(requestUrl, res.clone());
-              downloadedCount++;
-              if (downloadedCount % 20 === 0 || downloadedCount === totalCount) {
-                updateProgress();
-              }
-            }
-          } catch (err) {
-            if (signal.aborted) break;
-          }
-        }
-      };
-
-      const workers = Array.from({ length: BATCH_SIZE }, () => worker());
-      await Promise.all(workers);
+      await BinaryAudioPackEngine.unpack(totalBuffer.buffer, ({ extracted, total }) => {
+        const unpackPercent = 96 + Math.round((extracted / total) * 4);
+        const st = {
+          isDownloading: true,
+          phase: 'unpacking',
+          percent: Math.min(100, unpackPercent),
+          downloadedCount: extracted,
+          totalCount: total,
+          sizeMB: Number((loadedBytes / (1024 * 1024)).toFixed(1))
+        };
+        if (onProgress) onProgress(st);
+        this._notify(st);
+      });
 
       this.isDownloading = false;
       this.abortController = null;
@@ -219,11 +280,11 @@ class AudioPackManager {
     if (typeof window === 'undefined' || !('caches' in window)) return;
     try {
       await caches.delete(CACHE_NAME);
-      const status = { isDownloaded: false, downloadedCount: 0, totalCount: 5868, sizeMB: 0, percent: 0, isDownloading: false };
+      const status = await this.getStatus();
       this._notify(status);
       return status;
     } catch (e) {
-      console.warn('Failed to delete audio cache:', e);
+      return null;
     }
   }
 }

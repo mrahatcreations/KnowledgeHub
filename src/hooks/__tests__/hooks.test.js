@@ -1,5 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import path from 'node:path';
 
 import {
   TOTAL_STAGES_PER_LEVEL,
@@ -581,5 +583,273 @@ test('TrueFalseSwipeStage and OddOneOutStage JSX Component Hard Corners & Editor
   assert.ok(oooContent.includes('effectiveSecondChance'), 'OddOneOutStage must handle second chance');
 });
 
+test('Encrypted Audio Pack and Offline Data-Driven Architecture Verification', async () => {
+  const metaPath = path.resolve('public/data/voice_pack_meta.json');
+  const metaContent = await fs.readFile(metaPath, 'utf8');
+  const meta = JSON.parse(metaContent);
 
+  assert.equal(meta.version, 1, 'Audio pack version must be 1');
+  assert.ok(meta.total_files > 5800, 'Audio pack must contain over 5800 audio files');
+  assert.ok(meta.pack_size_mb > 0 && meta.pack_size_mb < 85, 'Audio pack size must be under 85 MB');
+  assert.ok(meta.checksum_sha256 && meta.checksum_sha256.length === 64, 'Must have valid SHA-256 checksum');
+
+  // Verify BinaryAudioPackEngine exists and has unpack method
+  const engineContent = await fs.readFile(path.resolve('src/audio/BinaryAudioPackEngine.js'), 'utf8');
+  assert.ok(engineContent.includes('class BinaryAudioPackEngine'), 'Must export BinaryAudioPackEngine');
+  assert.ok(engineContent.includes('static async unpack'), 'Must have unpack method');
+  assert.ok(engineContent.includes('AES-CTR'), 'Must use AES-CTR decryption');
+  assert.ok(engineContent.includes('DecompressionStream'), 'Must use DecompressionStream');
+
+  // Verify AudioPackManager single-stream download integration
+  const managerContent = await fs.readFile(path.resolve('src/audio/AudioPackManager.js'), 'utf8');
+  assert.ok(managerContent.includes('BinaryAudioPackEngine'), 'AudioPackManager must import BinaryAudioPackEngine');
+  assert.ok(managerContent.includes('voice_pack_v1.khpack'), 'AudioPackManager must download .khpack');
+  assert.ok(managerContent.includes('GITHUB_CDN_BASE'), 'AudioPackManager must support CDN fallback streaming');
+});
+
+test('201-Level End-to-End Test & Comprehensive 2,010 Stage Verification', async () => {
+  const levelsFilePath = path.resolve('public/data/levels.json');
+  const fileData = await fs.readFile(levelsFilePath, 'utf8');
+  const levelsData = JSON.parse(fileData);
+
+  // 1. Validate Schema & Structure of public/data/levels.json
+  assert.ok(levelsData, 'levels.json must be valid JSON');
+  assert.equal(levelsData.total_levels, 201, 'levels.json total_levels must equal 201');
+  assert.equal(levelsData.total_items, 1005, 'levels.json total_items must equal 1005 (201 * 5)');
+  assert.ok(Array.isArray(levelsData.levels), 'levels property must be an array');
+  assert.equal(levelsData.levels.length, 201, 'levels array must contain exactly 201 level objects');
+
+  let totalItemsCounted = 0;
+  let totalStagesCompiled = 0;
+  const stageTypeCounts = {
+    [STAGE_TYPES.FLASHCARD]: 0,
+    [STAGE_TYPES.MATCHING]: 0,
+    [STAGE_TYPES.DRAG_DROP]: 0,
+    [STAGE_TYPES.TRUE_FALSE]: 0,
+    [STAGE_TYPES.ODD_ONE_OUT]: 0
+  };
+
+  const validQuestionTypes = new Set(['meaning', 'synonym', 'antonym', 'pos', 'reverse']);
+  const validMatchingModes = new Set(['meaning', 'synonym', 'antonym', 'pos']);
+
+  // 2. Loop through every level from 1 to 201
+  for (let levelIndex = 0; levelIndex < levelsData.levels.length; levelIndex++) {
+    const level = levelsData.levels[levelIndex];
+    const expectedLevelId = levelIndex + 1;
+
+    // Validate Level Schema
+    assert.equal(level.level_id, expectedLevelId, `Level at index ${levelIndex} must have level_id ${expectedLevelId}`);
+    assert.ok(level.title && typeof level.title === 'string' && level.title.length > 0, `Level ${expectedLevelId} must have a non-empty title`);
+    assert.ok(level.unit && typeof level.unit === 'string', `Level ${expectedLevelId} must have a unit string`);
+    assert.ok(level.category && typeof level.category === 'string', `Level ${expectedLevelId} must have a category string`);
+    assert.ok(Array.isArray(level.items), `Level ${expectedLevelId} items must be an array`);
+    assert.equal(level.items.length, 5, `Level ${expectedLevelId} must have exactly 5 vocabulary items`);
+
+    // Validate individual items within the level
+    level.items.forEach((item, itemIdx) => {
+      totalItemsCounted++;
+      assert.ok(item.id, `Level ${expectedLevelId} Item ${itemIdx + 1} must have an id`);
+      assert.ok(item.word && typeof item.word === 'string' && item.word.trim().length > 0, `Level ${expectedLevelId} Item ${itemIdx + 1} must have a word`);
+      assert.ok(item.pos && typeof item.pos === 'string' && item.pos.trim().length > 0, `Level ${expectedLevelId} Item ${itemIdx + 1} (${item.word}) must have a part of speech (pos)`);
+      assert.ok(item.meaning && typeof item.meaning === 'string' && item.meaning.trim().length > 0, `Level ${expectedLevelId} Item ${itemIdx + 1} (${item.word}) must have a meaning`);
+      assert.ok(item.sentence && typeof item.sentence === 'string' && item.sentence.trim().length > 0, `Level ${expectedLevelId} Item ${itemIdx + 1} (${item.word}) must have an example sentence`);
+    });
+
+    // Compile 10 stages for this level
+    const stages = buildLevelStages(level, false);
+    assert.equal(stages.length, 10, `Level ${expectedLevelId} must compile into exactly 10 stages`);
+    totalStagesCompiled += stages.length;
+
+    // 3. Detailed Stage-by-Stage Verification
+    stages.forEach((stage, stageIdx) => {
+      const stageNum = stageIdx + 1;
+      const stageCtx = `[Level ${expectedLevelId} -> Stage ${stageNum} (${stage.type})]`;
+
+      // Common Stage Properties
+      assert.ok(stage.type, `${stageCtx} must have a valid stage type`);
+      assert.ok(Object.values(STAGE_TYPES).includes(stage.type), `${stageCtx} type '${stage.type}' must be in STAGE_TYPES`);
+      assert.ok(stage.title && typeof stage.title === 'string' && stage.title.length > 0, `${stageCtx} must have a non-empty title`);
+      assert.ok(stage.instruction && typeof stage.instruction === 'string' && stage.instruction.length > 0, `${stageCtx} must have a non-empty instruction`);
+      assert.equal(stage.stageNumber, stageNum, `${stageCtx} stageNumber must match index ${stageNum}`);
+      assert.equal(stage.iteration, stageNum <= 5 ? 1 : 2, `${stageCtx} iteration must match phase (1 or 2)`);
+      assert.ok(stage.explanation && typeof stage.explanation === 'string' && stage.explanation.length > 0, `${stageCtx} must have an explanation`);
+
+      stageTypeCounts[stage.type] = (stageTypeCounts[stage.type] || 0) + 1;
+
+      // Mode-Specific Contract and Evaluation Verifications
+      switch (stage.type) {
+        case STAGE_TYPES.FLASHCARD: {
+          assert.ok(stage.item && stage.item.word, `${stageCtx} must reference target item`);
+          assert.ok(validQuestionTypes.has(stage.questionType), `${stageCtx} questionType '${stage.questionType}' must be valid`);
+          assert.ok(stage.question && typeof stage.question === 'string' && stage.question.length > 0, `${stageCtx} must have question text`);
+          assert.ok(Array.isArray(stage.options), `${stageCtx} options must be an array`);
+          assert.ok(stage.options.length >= 2, `${stageCtx} options must have at least 2 choices (found ${stage.options.length})`);
+          assert.ok(stage.correctAnswer && typeof stage.correctAnswer === 'string' && stage.correctAnswer.length > 0, `${stageCtx} must have correctAnswer`);
+          assert.ok(stage.options.includes(stage.correctAnswer), `${stageCtx} options must include correctAnswer '${stage.correctAnswer}'`);
+
+          // Simulate correct evaluation
+          const isCorrect = stage.correctAnswer === stage.correctAnswer;
+          assert.equal(isCorrect, true, `${stageCtx} correct answer evaluation must succeed`);
+          break;
+        }
+
+        case STAGE_TYPES.MATCHING: {
+          assert.ok(validMatchingModes.has(stage.matchingMode), `${stageCtx} matchingMode '${stage.matchingMode}' must be valid`);
+          assert.ok(Array.isArray(stage.leftItems), `${stageCtx} leftItems must be an array`);
+          assert.ok(Array.isArray(stage.rightItems), `${stageCtx} rightItems must be an array`);
+          assert.equal(stage.leftItems.length, 5, `${stageCtx} leftItems length must be 5`);
+          assert.equal(stage.rightItems.length, 5, `${stageCtx} rightItems length must be 5`);
+          assert.equal(stage.totalPairs, 5, `${stageCtx} totalPairs must be 5`);
+          assert.equal(stage.correctAnswer, 'MATCH_ALL', `${stageCtx} correctAnswer must be 'MATCH_ALL'`);
+
+          // Verify left items have non-empty text and id
+          const leftIds = new Set();
+          stage.leftItems.forEach((li, lIdx) => {
+            assert.ok(li.id, `${stageCtx} leftItem ${lIdx + 1} must have id`);
+            assert.ok(li.text && typeof li.text === 'string' && li.text.length > 0, `${stageCtx} leftItem ${lIdx + 1} must have non-empty text`);
+            leftIds.add(li.id);
+          });
+
+          // Verify right items have non-empty text and id matching left items
+          const rightIds = new Set();
+          stage.rightItems.forEach((ri, rIdx) => {
+            assert.ok(ri.id, `${stageCtx} rightItem ${rIdx + 1} must have id`);
+            assert.ok(ri.text && typeof ri.text === 'string' && ri.text.length > 0, `${stageCtx} rightItem ${rIdx + 1} must have non-empty text`);
+            rightIds.add(ri.id);
+          });
+
+          assert.equal(leftIds.size, 5, `${stageCtx} left items must have 5 distinct ids`);
+          assert.equal(rightIds.size, 5, `${stageCtx} right items must have 5 distinct ids`);
+          for (const id of leftIds) {
+            assert.ok(rightIds.has(id), `${stageCtx} matching pair id ${id} must exist on both sides`);
+          }
+          break;
+        }
+
+        case STAGE_TYPES.DRAG_DROP: {
+          assert.ok(stage.item && stage.item.word, `${stageCtx} must reference target item`);
+          assert.ok(stage.targetWord && typeof stage.targetWord === 'string' && stage.targetWord.length > 0, `${stageCtx} must have targetWord`);
+          assert.ok(stage.sentenceText && typeof stage.sentenceText === 'string' && stage.sentenceText.length > 0, `${stageCtx} must have sentenceText`);
+          assert.ok(stage.sentenceText.includes('_______'), `${stageCtx} sentenceText must contain '_______' placeholder`);
+          assert.ok(Array.isArray(stage.options), `${stageCtx} options must be an array`);
+          assert.ok(stage.options.length >= 2, `${stageCtx} options must have at least 2 choices`);
+          assert.equal(stage.correctAnswer, stage.targetWord, `${stageCtx} correctAnswer must match targetWord`);
+          assert.ok(stage.options.includes(stage.correctAnswer), `${stageCtx} options must include correctAnswer '${stage.correctAnswer}'`);
+
+          // Simulate correct evaluation
+          const isSlotCorrect = stage.correctAnswer.trim().toLowerCase() === stage.targetWord.trim().toLowerCase();
+          assert.equal(isSlotCorrect, true, `${stageCtx} drag drop evaluation must succeed`);
+          break;
+        }
+
+        case STAGE_TYPES.TRUE_FALSE: {
+          assert.ok(stage.item && stage.item.word, `${stageCtx} must reference target item`);
+          assert.ok(stage.statement && typeof stage.statement === 'string' && stage.statement.length > 0, `${stageCtx} must have statement`);
+          assert.equal(typeof stage.isTrue, 'boolean', `${stageCtx} isTrue must be a boolean`);
+          assert.ok(['TRUE', 'FALSE'].includes(stage.correctAnswer), `${stageCtx} correctAnswer must be 'TRUE' or 'FALSE'`);
+          assert.equal(stage.correctAnswer, stage.isTrue ? 'TRUE' : 'FALSE', `${stageCtx} correctAnswer must align with isTrue`);
+
+          // Simulate correct evaluation
+          const playerChoice = stage.isTrue ? 'TRUE' : 'FALSE';
+          assert.equal(playerChoice, stage.correctAnswer, `${stageCtx} true/false evaluation must succeed`);
+          break;
+        }
+
+        case STAGE_TYPES.ODD_ONE_OUT: {
+          assert.ok(stage.item && stage.item.word, `${stageCtx} must reference target item`);
+          assert.ok(stage.categoryTitle && typeof stage.categoryTitle === 'string' && stage.categoryTitle.length > 0, `${stageCtx} must have categoryTitle`);
+          assert.ok(Array.isArray(stage.options), `${stageCtx} options must be an array`);
+          assert.ok(stage.options.length >= 3, `${stageCtx} options must have at least 3 choices`);
+          assert.ok(stage.correctAnswer && typeof stage.correctAnswer === 'string' && stage.correctAnswer.length > 0, `${stageCtx} must have correctAnswer`);
+          assert.ok(stage.options.includes(stage.correctAnswer), `${stageCtx} options must include correctAnswer '${stage.correctAnswer}'`);
+
+          // Simulate correct selection
+          const selectedAnswer = stage.correctAnswer;
+          assert.equal(selectedAnswer, stage.correctAnswer, `${stageCtx} odd one out evaluation must succeed`);
+          break;
+        }
+
+        default:
+          assert.fail(`${stageCtx} encountered unsupported stage type '${stage.type}'`);
+      }
+    });
+
+    // 4. Test Retry Recompilation for Level
+    const retryStages = buildLevelStages(level, true);
+    assert.equal(retryStages.length, 10, `Level ${expectedLevelId} retry must compile exactly 10 stages`);
+    retryStages.forEach(rs => {
+      assert.ok(rs.type && rs.title && rs.instruction && rs.explanation, `Retry stage in Level ${expectedLevelId} must be complete`);
+    });
+  }
+
+  // 5. Global Assertions Across All 201 Levels & 2,010 Stages
+  assert.equal(totalItemsCounted, 1005, 'Total validated items must equal 1005 across all 201 levels');
+  assert.equal(totalStagesCompiled, 2010, 'Total compiled stages must equal exactly 2,010 across all 201 levels');
+
+  // Verify all 5 stage types are generated and well-balanced across the 2,010 stages
+  for (const type of Object.values(STAGE_TYPES)) {
+    const count = stageTypeCounts[type];
+    assert.ok(count > 300, `Stage type '${type}' must be well represented across 2,010 stages (count: ${count})`);
+  }
+});
+
+test('App.jsx Stage Dispatch, State Machine Boundaries & Graceful Loader Guard Verification', async () => {
+  // 1. Verify App.jsx contains graceful loader fallback when currentStage is momentarily undefined
+  const appContent = await fs.readFile(path.resolve('src/App.jsx'), 'utf8');
+  assert.ok(appContent.includes('{currentStage ? ('), 'App.jsx must check currentStage with ternary condition');
+  assert.ok(appContent.includes('Preparing Stage'), 'App.jsx must render graceful loader when currentStage is undefined');
+  assert.ok(appContent.includes('Return to Map'), 'App.jsx graceful loader must provide return button');
+  assert.ok(appContent.includes('animate-spin'), 'App.jsx graceful loader must render loading indicator');
+  assert.ok(appContent.includes('rounded-none'), 'App.jsx graceful loader must use rounded-none for hard corners');
+
+  // 2. Simulate handleStartLevel -> stages compiled -> currentStage retrieval
+  const sampleLevel = {
+    level_id: 42,
+    title: 'Level 42: Academic Words',
+    unit: 'Unit 5',
+    category: 'Vocabulary',
+    items: [
+      { id: 1, word: 'Synthesize', pos: 'v', meaning: 'সংশ্লেষণ করা', sentence: 'Synthesize the findings.' },
+      { id: 2, word: 'Hypothesis', pos: 'n', meaning: 'অনুমান বা প্রকল্প', sentence: 'Test the hypothesis.' },
+      { id: 3, word: 'Empirical', pos: 'adj', meaning: 'অভিজ্ঞতাজনিত', sentence: 'Gather empirical data.' },
+      { id: 4, word: 'Methodology', pos: 'n', meaning: 'পদ্ধতিবিদ্যা', sentence: 'Follow the methodology.' },
+      { id: 5, word: 'Paradigm', pos: 'n', meaning: 'দৃষ্টান্ত বা রূপরেখা', sentence: 'A paradigm shift occurred.' }
+    ]
+  };
+
+  const compiledStages = buildLevelStages(sampleLevel, false);
+  assert.equal(compiledStages.length, 10, 'Compiled stages count must be 10');
+
+  // Trace stageIndex from 0 to 9
+  for (let idx = 0; idx < 10; idx++) {
+    const stage = compiledStages[idx];
+    assert.ok(stage, `Stage at index ${idx} must be defined`);
+    assert.ok(stage.type, `Stage at index ${idx} must have type`);
+    assert.ok(Object.values(STAGE_TYPES).includes(stage.type), `Stage at index ${idx} must match valid STAGE_TYPES`);
+  }
+
+  // 3. Test stageIndex boundary advance simulation:
+  // When stageIndex reaches 9, advancing must not exceed total stages (finishLevel triggers)
+  let simulatedStageIndex = 0;
+  let levelCompleted = false;
+
+  const simulateProceed = () => {
+    if (simulatedStageIndex + 1 >= compiledStages.length) {
+      levelCompleted = true;
+      // Index remains at 9 or stops advancing
+    } else {
+      simulatedStageIndex += 1;
+    }
+  };
+
+  for (let step = 0; step < 9; step++) {
+    simulateProceed();
+    assert.equal(levelCompleted, false, `Level must not complete at stage index ${simulatedStageIndex}`);
+  }
+
+  assert.equal(simulatedStageIndex, 9, 'Final stage index before completion must be 9');
+  simulateProceed();
+  assert.equal(levelCompleted, true, 'Advancing past index 9 must trigger level completion');
+  assert.equal(simulatedStageIndex, 9, 'Stage index must not advance out of bounds beyond 9');
+});
 

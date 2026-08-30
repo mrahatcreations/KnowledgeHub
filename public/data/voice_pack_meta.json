@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "total_files": 5867,
+  "raw_size_bytes": 90653226,
+  "raw_size_mb": 86.45,
+  "pack_size_bytes": 82466601,
+  "pack_size_mb": 78.65,
+  "checksum_sha256": "e08dfa50088125c1bd294503149b7279b15fe811993a302b9954df452b4346a5",
+  "algorithm": "AES-256-CTR + GZIP-9",
+  "generated_at": "2026-08-30T19:54:11.144Z"
+}
