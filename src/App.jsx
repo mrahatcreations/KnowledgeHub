@@ -42,6 +42,7 @@ export default function App() {
   // Modals
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [revealModalData, setRevealModalData] = useState(null);
+  const [mistakes, setMistakes] = useState([]);
   const [completionResult, setCompletionResult] = useState(null);
 
   useEffect(() => {
@@ -107,6 +108,7 @@ export default function App() {
     setStageAttempts(0);
     setCompletionResult(null);
     setRevealModalData(null);
+    setMistakes([]);
   };
 
   const handleAnswerSubmit = (userAnswer) => {
@@ -285,6 +287,7 @@ export default function App() {
           level={completionResult.level}
           totalStars={completionResult.totalStars}
           isFiveStar={completionResult.isFiveStar}
+          mistakes={mistakes}
           onNextLevel={() => {
             const nextLvl = levels.find(l => l.level_id === currentLevel.level_id + 1);
             if (nextLvl) handleStartLevel(nextLvl, false); else setCurrentLevel(null);

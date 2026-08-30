@@ -1,15 +1,19 @@
-import React, { useEffect } from 'react';
-import { Star, Trophy, Shuffle, ArrowRight, RotateCcw } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
+import { Star, Trophy, RefreshCw, ArrowRight, BookOpen, Volume2, CheckCircle2, XCircle, AlertCircle } from 'lucide-react';
 import confetti from 'canvas-confetti';
+import { sound } from '../../audio/SoundSynthesizer';
 
 export default function CompletionModal({ 
   level, 
   totalStars, 
   isFiveStar, 
+  mistakes = [],
   onNextLevel, 
   onRetryLevel, 
   onBackToMap 
 }) {
+  const [activeTab, setActiveTab] = useState(mistakes.length > 0 ? 'mistakes' : 'score');
+
   useEffect(() => {
     if (isFiveStar) {
       try {
@@ -23,63 +27,160 @@ export default function CompletionModal({
   }, [isFiveStar]);
 
   return (
-    <div className="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4">
-      <div className="bg-white rounded-3xl p-6 sm:p-8 max-w-md w-full shadow-2xl border border-slate-100 animate-pop text-center">
-        {/* Top Icon */}
-        <div className={`w-16 h-16 rounded-3xl flex items-center justify-center mx-auto mb-4 shadow-sm ${
-          isFiveStar ? 'bg-amber-50 text-amber-500 border border-amber-200' : 'bg-indigo-50 text-indigo-600 border border-indigo-200'
+    <div className="fixed inset-0 z-50 bg-slate-900/75 backdrop-blur-md flex items-center justify-center p-4">
+      <div className="bg-white rounded-3xl max-w-md w-full shadow-2xl border border-slate-100 animate-pop overflow-hidden flex flex-col max-h-[90vh]">
+        {/* Header / Score Banner */}
+        <div className={`p-6 text-center text-white ${
+          isFiveStar ? 'bg-gradient-to-b from-amber-500 to-amber-600' : 'bg-gradient-to-b from-indigo-600 to-indigo-800'
         }`}>
-          {isFiveStar ? <Trophy className="w-8 h-8" /> : <Shuffle className="w-8 h-8" />}
+          <div className="w-14 h-14 rounded-2xl bg-white/20 backdrop-blur-xs flex items-center justify-center mx-auto mb-3 shadow-inner">
+            {isFiveStar ? <Trophy className="w-8 h-8 text-amber-100" /> : <Star className="w-8 h-8 text-indigo-100" />}
+          </div>
+
+          <h2 className="text-2xl font-black tracking-tight">
+            {isFiveStar ? '????? ?????????!' : '????? ??????? ?????!'}
+          </h2>
+
+          <div className="flex items-center justify-center space-x-1.5 my-3">
+            {[0, 1, 2, 3, 4].map((s) => (
+              <Star
+                key={s}
+                className={`w-7 h-7 transition-all ${
+                  s < totalStars ? 'text-amber-300 fill-amber-300 scale-110' : 'text-black/25 stroke-1'
+                }`}
+              />
+            ))}
+          </div>
+
+          <p className="text-xs font-medium text-white/90">
+            {isFiveStar
+              ? '?????! ?????? ???? ?? ?????? ???? ????? ???? ?-????? ????? ???????'
+              : `???? ${totalStars}/? ????? ????? ??????? ??????? ??????? ???? ?-????? ????????`}
+          </p>
         </div>
 
-        {/* Title & Stars */}
-        <h2 className="text-2xl font-black text-slate-900 tracking-tight">
-          {isFiveStar ? 'লেভেল মাস্টার্ড! ৫-স্টার অর্জন!' : 'লেভেল সম্পন্ন হয়েছে!'}
-        </h2>
-
-        <div className="flex items-center justify-center space-x-2 my-4">
-          {[0, 1, 2, 3, 4].map((s) => (
-            <Star
-              key={s}
-              className={`w-8 h-8 transition-transform ${
-                s < totalStars ? 'text-amber-400 fill-amber-400 scale-110' : 'text-slate-200 stroke-1'
+        {/* Tab Switcher if mistakes exist */}
+        {mistakes.length > 0 && (
+          <div className="flex border-b border-slate-200 bg-slate-50 px-4 pt-2">
+            <button
+              onClick={() => setActiveTab('mistakes')}
+              className={`flex-1 pb-2.5 text-xs font-black border-b-2 transition flex items-center justify-center space-x-1.5 ${
+                activeTab === 'mistakes'
+                  ? 'border-indigo-600 text-indigo-700'
+                  : 'border-transparent text-slate-500 hover:text-slate-700'
               }`}
-            />
-          ))}
+            >
+              <AlertCircle className="w-4 h-4 text-rose-500" />
+              <span>???????? ?????? ({mistakes.length})</span>
+            </button>
+
+            <button
+              onClick={() => setActiveTab('score')}
+              className={`flex-1 pb-2.5 text-xs font-black border-b-2 transition flex items-center justify-center space-x-1.5 ${
+                activeTab === 'score'
+                  ? 'border-indigo-600 text-indigo-700'
+                  : 'border-transparent text-slate-500 hover:text-slate-700'
+              }`}
+            >
+              <CheckCircle2 className="w-4 h-4 text-emerald-500" />
+              <span>?????</span>
+            </button>
+          </div>
+        )}
+
+        {/* Scrollable Body Content */}
+        <div className="p-5 overflow-y-auto flex-1 space-y-4">
+          {activeTab === 'mistakes' && mistakes.length > 0 ? (
+            <div className="space-y-3">
+              <div className="text-xs text-slate-500 font-semibold mb-2">
+                ????? ?????????? ??? ??????, ??????? ???? ??? ???? ??? ???? ???:
+              </div>
+
+              {mistakes.map((m, idx) => (
+                <div key={idx} className="p-4 rounded-2xl bg-slate-50 border border-slate-200 text-left space-y-2">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center space-x-2">
+                      <span className="text-base font-black text-slate-900">{m.word}</span>
+                      {m.pos && (
+                        <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-indigo-100 text-indigo-700 uppercase">
+                          {m.pos}
+                        </span>
+                      )}
+                    </div>
+                    <button
+                      onClick={() => sound.speak(m.word)}
+                      className="p-1.5 text-slate-400 hover:text-indigo-600 rounded-full hover:bg-white transition"
+                      title="Pronounce"
+                    >
+                      <Volume2 className="w-4 h-4" />
+                    </button>
+                  </div>
+
+                  <div className="text-xs text-slate-700">
+                    <strong className="text-slate-500">????? ????:</strong> <span className="text-amber-700 font-bold">{m.meaning}</span>
+                  </div>
+
+                  {m.userAnswer && (
+                    <div className="flex items-center space-x-1.5 text-xs text-rose-600 bg-rose-50 px-2.5 py-1 rounded-lg border border-rose-200">
+                      <XCircle className="w-3.5 h-3.5 shrink-0" />
+                      <span><strong>????? ??? ?????:</strong> {m.userAnswer}</span>
+                    </div>
+                  )}
+
+                  <div className="flex items-center space-x-1.5 text-xs text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-lg border border-emerald-200">
+                    <CheckCircle2 className="w-3.5 h-3.5 shrink-0" />
+                    <span><strong>???? ?????:</strong> {m.correctAnswer}</span>
+                  </div>
+
+                  {m.explanation && (
+                    <p className="text-[11px] text-slate-500 bg-white p-2 rounded-lg border border-slate-100 leading-relaxed">
+                      {m.explanation}
+                    </p>
+                  )}
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="text-center py-4 space-y-3">
+              {isFiveStar ? (
+                <div className="p-4 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-sm font-semibold flex items-center justify-center space-x-2">
+                  <CheckCircle2 className="w-5 h-5 text-emerald-600" />
+                  <span>????????! ???? ???? ??? ????? ??????? ??????? ???????</span>
+                </div>
+              ) : (
+                <div className="p-4 rounded-2xl bg-amber-50 border border-amber-200 text-amber-800 text-xs font-semibold leading-relaxed text-left">
+                  ??????? ?????? ???? ??? ?????? ?????? ?? ??????? ???? ????? ???? ???? ??????? ???? ??? ????????? ??????? ??? ? ?????? ????? ?????????????? ?????? ??? ???? ???? ???? ???????? ????? ??????
+                </div>
+              )}
+            </div>
+          )}
         </div>
 
-        {/* Message */}
-        <p className="text-sm font-medium text-slate-600 leading-relaxed mb-6">
-          {isFiveStar
-            ? 'অভিনন্দন! আপনি ১ম সুযোগেই প্রতিটি ধাপ সঠিকভাবে সম্পন্ন করে ৫-স্টার অর্জন করেছেন এবং পরবর্তী লেভেল আনলক করেছেন।'
-            : `আপনি ৫টির মধ্যে ${totalStars}টি স্টার অর্জন করেছেন। পরবর্তী লেভেল আনলক করতে ৫টি স্টার প্রয়োজন। The Blender দিয়ে নতুন বিন্যাসে পুনরায় চেষ্টা করে ৫-স্টার অর্জন করুন।`}
-        </p>
-
-        {/* Action Buttons */}
-        <div className="flex flex-col space-y-3">
+        {/* Footer Actions */}
+        <div className="p-4 bg-slate-50 border-t border-slate-200 flex flex-col space-y-2">
           {isFiveStar ? (
             <button
               onClick={onNextLevel}
-              className="w-full py-4 px-6 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm flex items-center justify-center space-x-2 transition shadow-md active:scale-95"
+              className="w-full py-3.5 px-6 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm flex items-center justify-center space-x-2 transition shadow-md active:scale-95"
             >
-              <span>পরবর্তী লেভেল খেলুন</span>
+              <span>??????? ????? ?????</span>
               <ArrowRight className="w-4 h-4" />
             </button>
           ) : (
             <button
               onClick={onRetryLevel}
-              className="w-full py-4 px-6 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-sm flex items-center justify-center space-x-2 transition shadow-md active:scale-95"
+              className="w-full py-3.5 px-6 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-sm flex items-center justify-center space-x-2 transition shadow-md active:scale-95"
             >
-              <Shuffle className="w-4 h-4" />
-              <span>The Blender দিয়ে পুনরায় চেষ্টা করুন</span>
+              <RefreshCw className="w-4 h-4" />
+              <span>???? ???????? ??????? ????</span>
             </button>
           )}
 
           <button
             onClick={onBackToMap}
-            className="w-full py-3 px-6 rounded-2xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs transition active:scale-95"
+            className="w-full py-2.5 px-4 rounded-xl text-slate-600 hover:bg-slate-200 font-bold text-xs transition"
           >
-            লেভেল ম্যাপে ফিরে যান
+            ????? ?????? ???? ???
           </button>
         </div>
       </div>
