@@ -102,7 +102,7 @@ export default function LevelMap({ levels, unlockedLevel, levelStars, onSelectLe
                 </div>
 
                 <h3 className="text-base font-bold text-slate-800 mt-3">{lvl.title}</h3>
-                <p className="text-xs text-slate-500 mt-1 line-clamp-1">{lvl.unit || ''}</p>
+                <p className="text-xs text-slate-500 mt-1 break-words">{lvl.unit || ''}</p>
               </div>
 
               <div className="mt-5 pt-3 border-t border-slate-100 flex items-center justify-between">

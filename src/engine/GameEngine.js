@@ -24,7 +24,7 @@ export function getRandomDistractors(allItems, currentItem, count = 3, key = 'me
   const picked = shuffled.slice(0, count).map(it => it[key]);
 
   const fallbackPools = {
-    meaning: ['সম্পর্কযুক্ত করা', 'উন্নতি সাধন', 'সতর্কীকরণ', 'মূল্যায়ন', 'পরিবর্তনশীল', 'সংরক্ষণ করা'],
+    meaning: ['???????????? ???', '?????? ????', '?????????', '?????????', '???????????', '??????? ???'],
     word: ['Facilitate', 'Enhance', 'Advocate', 'Synthesize', 'Clarify', 'Generate']
   };
 
@@ -42,10 +42,11 @@ export function getRandomDistractors(allItems, currentItem, count = 3, key = 'me
 
 /**
  * Compiles a 5-Stage level for the game.
- * When isRetry is true, "The Blender" scrambles stage types across the 5 level words.
+ * When isRetry is true, cross-stage randomization completely scrambles stage types across words.
+ * Also randomizes word assignment to each stage so questions change dynamically.
  *
  * @param {Object} level - The level object containing raw items
- * @param {boolean} isRetry - Whether this is a retry attempt (triggers The Blender)
+ * @param {boolean} isRetry - Whether this is a retry attempt
  * @returns {Array} Array of 5 stage payloads
  */
 export function buildLevelStages(level, isRetry = false) {
@@ -53,9 +54,10 @@ export function buildLevelStages(level, isRetry = false) {
     return [];
   }
 
-  const items = [...level.items];
-  while (items.length < 5) {
-    items.push({ ...items[items.length % items.length], id: Math.random() });
+  // Shuffle the 5 words from this level so different words go to different stages
+  const shuffledWords = shuffleArray([...level.items]);
+  while (shuffledWords.length < 5) {
+    shuffledWords.push({ ...shuffledWords[shuffledWords.length % shuffledWords.length], id: Math.random() });
   }
 
   // Base 5 distinct stage types
@@ -67,13 +69,11 @@ export function buildLevelStages(level, isRetry = false) {
     STAGE_TYPES.ODD_ONE_OUT
   ];
 
-  if (isRetry) {
-    // The Blender: Cross-stage randomization scrambles stage types across words
-    stageTypes = shuffleArray(stageTypes);
-  }
+  // Scramble stage order dynamically
+  stageTypes = shuffleArray(stageTypes);
 
   return stageTypes.map((type, idx) => {
-    const item = items[idx % items.length];
+    const item = shuffledWords[idx % shuffledWords.length];
     const allLevelItems = level.items;
 
     switch (type) {
@@ -98,13 +98,13 @@ function generateFlashcardStage(item, allItems) {
   const options = shuffleArray([item.meaning, ...distractors]);
   return {
     type: STAGE_TYPES.FLASHCARD,
-    title: 'ফ্ল্যাশ কার্ড ও স্মরণ পরীক্ষা (Flash Card)',
-    instruction: 'শব্দটি দেখুন এবং সঠিক বাংলা অর্থ নির্বাচন করুন',
+    title: '??????? ????? ? ????? ??????? (Flash Card)',
+    instruction: '?????? ????? ??? ???? ????? ???? ???????? ????',
     item: item,
-    question: `"${item.word}" শব্দটির সঠিক বাংলা অর্থ কোনটি?`,
+    question: `"${item.word}" ??????? ???? ????? ???? ??????`,
     options: options,
     correctAnswer: item.meaning,
-    explanation: `"${item.word}" (${item.pos || 'Word'}) এর অর্থ: "${item.meaning}"।${item.raw_synonyms ? ' সমার্থক শব্দ: ' + item.raw_synonyms : ''}${item.raw_antonyms ? ' | বিপরীত শব্দ: ' + item.raw_antonyms : ''}`
+    explanation: `"${item.word}" (${item.pos || 'Word'}) ?? ????: "${item.meaning}"?${item.raw_synonyms ? ' ??????? ????: ' + item.raw_synonyms : ''}${item.raw_antonyms ? ' | ?????? ????: ' + item.raw_antonyms : ''}`
   };
 }
 
@@ -115,12 +115,12 @@ function generateMatchingStage(allItems) {
 
   return {
     type: STAGE_TYPES.MATCHING,
-    title: 'বাম-ডান মিলকরণ (Left-Right Matching)',
-    instruction: 'বাম পাশের ইংরেজি শব্দের সাথে ডান পাশের সঠিক বাংলা অর্থ মেলাও',
+    title: '???-??? ?????? (Left-Right Matching)',
+    instruction: '??? ????? ?????? ?????? ???? ??? ????? ???? ????? ???? ?????',
     leftItems: shuffleArray(leftItems),
     rightItems: rightItems,
     totalPairs: selected.length,
-    explanation: 'প্রতিটি ইংরেজি শব্দের জন্য সঠিক বাংলা অর্থ মিলিয়ে পূর্ণ জোড়া তৈরি করুন।'
+    explanation: '??????? ?????? ?????? ???? ???? ????? ???? ?????? ????? ???? ???? ?????'
   };
 }
 
@@ -133,7 +133,7 @@ function generateDragDropStage(item, allItems) {
     const reg = new RegExp(`\\b${targetWord}\\b`, 'gi');
     maskedSentence = sentence.replace(reg, '_______');
   } else {
-    maskedSentence = `বাক্যটি সম্পূর্ণ করো: [_______] শব্দটির বাংলা অর্থ হলো "${item.meaning}"।`;
+    maskedSentence = `??????? ???????? ???: [_______] ??????? ????? ???? ??? "${item.meaning}"?`;
   }
 
   const distractors = getRandomDistractors(allItems, item, 3, 'word');
@@ -141,14 +141,14 @@ function generateDragDropStage(item, allItems) {
 
   return {
     type: STAGE_TYPES.DRAG_DROP,
-    title: 'শূন্যস্থান পূরণ (Drag & Drop Fill-in)',
-    instruction: 'সঠিক শব্দটি টেনে খালি বক্সে বসাও বা ক্লিক করে নির্বাচন করো',
+    title: '?????????? ???? (Drag & Drop Fill-in)',
+    instruction: '???? ?????? ???? ???? ????? ???? ?? ????? ??? ???????? ???',
     item: item,
     sentenceText: maskedSentence,
     targetWord: targetWord,
     options: options,
     correctAnswer: targetWord,
-    explanation: `সঠিক উত্তর: "${targetWord}"। এর অর্থ: "${item.meaning}"।`
+    explanation: `???? ?????: "${targetWord}"? ?? ????: "${item.meaning}"?`
   };
 }
 
@@ -158,21 +158,21 @@ function generateTrueFalseStage(item, allItems) {
 
   if (!isTrue) {
     const distractors = getRandomDistractors(allItems, item, 1, 'meaning');
-    displayedMeaning = distractors.length > 0 ? distractors[0] : 'ভিন্ন অর্থ';
+    displayedMeaning = distractors.length > 0 ? distractors[0] : '????? ????';
   }
 
   return {
     type: STAGE_TYPES.TRUE_FALSE,
-    title: 'সত্য/মিথ্যা যাচাই (True/False Swipe)',
-    instruction: 'বিবৃতিটি সত্য হলে TRUE অথবা মিথ্যা হলে FALSE নির্বাচন করুন',
+    title: '????/?????? ????? (True/False Swipe)',
+    instruction: '???????? ???? ??? TRUE ???? ?????? ??? FALSE ???????? ????',
     item: item,
-    statement: `"${item.word}" শব্দটির অর্থ কি "${displayedMeaning}"?`,
+    statement: `"${item.word}" ??????? ???? ?? "${displayedMeaning}"?`,
     displayedMeaning: displayedMeaning,
     isTrue: isTrue,
     correctAnswer: isTrue ? 'TRUE' : 'FALSE',
     explanation: isTrue 
-      ? `সঠিক! "${item.word}" এর প্রকৃত অর্থ "${item.meaning}"।` 
-      : `ভুল! "${item.word}" এর সঠিক অর্থ হলো "${item.meaning}" (প্রদর্শিত অর্থ "${displayedMeaning}" সঠিক নয়)।`
+      ? `????! "${item.word}" ?? ?????? ???? "${item.meaning}"?` 
+      : `???! "${item.word}" ?? ???? ???? ??? "${item.meaning}" (????????? ???? "${displayedMeaning}" ???? ??)?`
   };
 }
 
@@ -184,15 +184,15 @@ function generateOddOneOutStage(item, allItems) {
   if (syns.length >= 2 && item.antonyms && item.antonyms.length > 0) {
     oddWord = item.antonyms[0];
     const choices = shuffleArray([item.word, ...syns.slice(0, 2), oddWord]);
-    categoryTitle = `"${item.word}" এর সাথে নিচের কোনটি বেমানান বা বিপরীত শব্দ (Antonym)?`;
+    categoryTitle = `"${item.word}" ?? ???? ????? ????? ??????? ?? ?????? ???? (Antonym)?`;
     return {
       type: STAGE_TYPES.ODD_ONE_OUT,
-      title: 'বেমানান শব্দ বাছাই (Odd One Out)',
-      instruction: 'চারটি বিকল্পের মধ্য থেকে বেমানান বা বিপরীত (Odd) শব্দটি বেছে নাও',
+      title: '??????? ???? ????? (Odd One Out)',
+      instruction: '????? ???????? ???? ???? ??????? ?? ?????? (Odd) ?????? ???? ???',
       categoryTitle: categoryTitle,
       options: choices,
       correctAnswer: oddWord,
-      explanation: `সঠিক উত্তর: "${oddWord}"। এটি বিপরীত শব্দ (Antonym), বাকিগুলো "${item.word}" এর সমার্থক (Synonyms)।`
+      explanation: `???? ?????: "${oddWord}"? ??? ?????? ???? (Antonym), ???????? "${item.word}" ?? ??????? (Synonyms)?`
     };
   } else {
     const distractors = getRandomDistractors(allItems, item, 1, 'word');
@@ -204,12 +204,12 @@ function generateOddOneOutStage(item, allItems) {
     const choices = shuffleArray([...related.slice(0, 3), oddWord]);
     return {
       type: STAGE_TYPES.ODD_ONE_OUT,
-      title: 'বেমানান শব্দ বাছাই (Odd One Out)',
-      instruction: 'চারটি বিকল্পের মধ্য থেকে বেমানান (Odd) শব্দটি খুঁজে বের করো',
-      categoryTitle: `"${item.word}" সম্পর্কিত তালিকার বাইরে কোনটি?`,
+      title: '??????? ???? ????? (Odd One Out)',
+      instruction: '????? ???????? ???? ???? ??????? (Odd) ?????? ????? ??? ???',
+      categoryTitle: `"${item.word}" ????????? ??????? ????? ??????`,
       options: choices,
       correctAnswer: oddWord,
-      explanation: `সঠিক উত্তর: "${oddWord}"। এটি ভিন্ন শব্দ, বাকিগুলো "${item.word}" সম্পর্কিত।`
+      explanation: `???? ?????: "${oddWord}"? ??? ????? ????, ???????? "${item.word}" ??????????`
     };
   }
 }

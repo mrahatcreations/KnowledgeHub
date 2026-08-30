@@ -215,7 +215,7 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
                   {/* Glowing Edge highlight */}
                   <div className="absolute inset-x-0 top-0 h-[1px] bg-white/20 pointer-events-none" />
 
-                  <div className="flex items-center space-x-2 truncate mr-1">
+                  <div className="flex items-center space-x-2 flex-1 mr-1">
                     <span className="tracking-wide font-extrabold break-words leading-tight">{item.text}</span>
                   </div>
 
