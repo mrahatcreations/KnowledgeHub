@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import MobileHUD from './components/MobileHUD';
 import SagaLevelPath from './components/SagaLevelPath';
 import BottomNav from './components/BottomNav';
@@ -16,180 +16,55 @@ import AnswerRevealModal from './components/modals/AnswerRevealModal';
 import CompletionModal from './components/modals/CompletionModal';
 import SyncModal from './components/modals/SyncModal';
 
-import { buildLevelStages, STAGE_TYPES } from './engine/GameEngine';
-import { sound } from './audio/SoundSynthesizer';
+import { STAGE_TYPES } from './engine/GameEngine';
+import { useGameState } from './hooks/useGameState';
+import { useSoundEffects } from './hooks/useSoundEffects';
 
 export default function App() {
-  const [levels, setLevels] = useState([]);
-  const [unlockedLevel, setUnlockedLevel] = useState(1);
-  const [levelStars, setLevelStars] = useState({});
-  const [currentLevel, setCurrentLevel] = useState(null);
-  const [stages, setStages] = useState([]);
-  const [stageIndex, setStageIndex] = useState(0);
-  const [stageStars, setStageStars] = useState([false, false, false, false, false]);
-  const [stageAttempts, setStageAttempts] = useState(0); // 0: 1st chance, 1: 2nd chance, 2: failed
-  const [isAudioMuted, setIsAudioMuted] = useState(false);
-  const [toastMessage, setToastMessage] = useState(null);
+  const soundController = useSoundEffects();
+  const {
+    isAudioMuted,
+    setIsAudioMuted
+  } = soundController;
 
-  // Gamification Stats
-  const [streak, setStreak] = useState(5);
-  const [gems, setGems] = useState(240);
-  const [lives, setLives] = useState(5);
+  const {
+    // Levels & Loading
+    levels,
+    loadLevelsData,
 
-  // Navigation
-  const [activeTab, setActiveTab] = useState('path'); // 'path', 'vocab', 'ranks', 'profile'
+    // Progression
+    unlockedLevel,
+    levelStars,
+    streak,
+    gems,
+    lives,
 
-  // Modals
-  const [isSettingsOpen, setIsSettingsOpen] = useState(false);
-  const [revealModalData, setRevealModalData] = useState(null);
-  const [mistakes, setMistakes] = useState([]);
-  const [completionResult, setCompletionResult] = useState(null);
+    // Active Level / 10-Stage Session
+    currentLevel,
+    stages,
+    stageIndex,
+    stageStars,
+    stageAttempts,
+    currentStage,
+    mistakes,
+    revealModalData,
+    completionResult,
 
-  useEffect(() => {
-    loadLocalProgress();
-    loadLevelsData();
-  }, []);
+    // Actions & Handlers
+    handleStartLevel,
+    handleAnswerSubmit,
+    closeRevealModalAndProceed,
+    handleNextLevel,
+    handleRetryLevel,
+    handleBackToMap,
 
-  const loadLocalProgress = () => {
-    try {
-      const saved = localStorage.getItem('vocabmaster_progress');
-      if (saved) {
-        const parsed = JSON.parse(saved);
-        if (parsed.unlockedLevel) setUnlockedLevel(parsed.unlockedLevel);
-        if (parsed.levelStars) setLevelStars(parsed.levelStars);
-        if (parsed.gems) setGems(parsed.gems);
-        if (parsed.streak) setStreak(parsed.streak);
-        if (parsed.lives !== undefined) setLives(parsed.lives);
-      }
-    } catch (e) {}
-  };
-
-  const saveProgress = (newUnlocked, newStars, newGems = gems) => {
-    try {
-      localStorage.setItem('vocabmaster_progress', JSON.stringify({
-        unlockedLevel: newUnlocked,
-        levelStars: newStars,
-        gems: newGems,
-        streak: streak,
-        lives: lives
-      }));
-    } catch (e) {}
-  };
-
-  const loadLevelsData = async () => {
-    try {
-      const res = await fetch('/data/levels.json');
-      const data = await res.json();
-      if (data.levels && Array.isArray(data.levels)) {
-        setLevels(data.levels);
-      }
-    } catch (e) {
-      console.warn('Fallback loading levels error:', e);
-    }
-  };
-
-  const showToast = (msg, type = 'info') => {
-    setToastMessage({ msg, type });
-    setTimeout(() => {
-      setToastMessage(null);
-    }, 2200);
-  };
-
-  const handleStartLevel = (level, isRetry = false) => {
-    if (lives <= 0) {
-      showToast('আপনার কোনো হার্টস অবশিষ্ট নেই! কিছুক্ষণ অপেক্ষা করুন।', 'warning');
-      return;
-    }
-    const compiledStages = buildLevelStages(level, isRetry);
-    setCurrentLevel(level);
-    setStages(compiledStages);
-    setStageIndex(0);
-    setStageStars([false, false, false, false, false]);
-    setStageAttempts(0);
-    setCompletionResult(null);
-    setRevealModalData(null);
-    setMistakes([]);
-  };
-
-  const handleAnswerSubmit = (userAnswer) => {
-    const currentStage = stages[stageIndex];
-    let isCorrect = false;
-
-    if (currentStage.type === STAGE_TYPES.MATCHING) {
-      isCorrect = true; // Matching handles pairs internally
-    } else {
-      isCorrect = String(userAnswer).trim().toLowerCase() === String(currentStage.correctAnswer).trim().toLowerCase();
-    }
-
-    if (isCorrect) {
-      sound.playCorrect();
-      if (stageAttempts === 0) {
-        const updatedStars = [...stageStars];
-        updatedStars[stageIndex] = true;
-        setStageStars(updatedStars);
-        showToast('দারুণ উত্তর! (+১ স্টার অর্জিত)', 'success');
-      } else {
-        showToast('সঠিক উত্তর!', 'success');
-      }
-
-      setTimeout(() => {
-        proceedNextStage();
-      }, 700);
-    } else {
-      if (stageAttempts === 0) {
-        setStageAttempts(1);
-        sound.playSecondChance();
-        showToast('ভুল উত্তর! ২য় সুযোগে আবার চেষ্টা করুন', 'warning');
-      } else {
-        setStageAttempts(2);
-        sound.playWrong();
-        setRevealModalData({
-          correctAnswer: currentStage.correctAnswer,
-          explanation: currentStage.explanation
-        });
-      }
-    }
-  };
-
-  const proceedNextStage = () => {
-    const nextIdx = stageIndex + 1;
-    if (nextIdx >= 5) {
-      finishLevel();
-    } else {
-      setStageIndex(nextIdx);
-      setStageAttempts(0);
-    }
-  };
-
-  const finishLevel = () => {
-    const totalStarsEarned = stageStars.filter(Boolean).length;
-    const isFiveStar = totalStarsEarned === 5;
-
-    let newUnlocked = unlockedLevel;
-    let newGems = gems;
-    const updatedLevelStars = { ...levelStars, [currentLevel.level_id]: totalStarsEarned };
-
-    if (isFiveStar) {
-      sound.playVictory();
-      newGems += 25;
-      setGems(newGems);
-      if (currentLevel.level_id >= unlockedLevel) {
-        newUnlocked = currentLevel.level_id + 1;
-        setUnlockedLevel(newUnlocked);
-      }
-    }
-
-    setLevelStars(updatedLevelStars);
-    saveProgress(newUnlocked, updatedLevelStars, newGems);
-
-    setCompletionResult({
-      level: currentLevel,
-      totalStars: totalStarsEarned,
-      isFiveStar: isFiveStar
-    });
-  };
-
-  const currentStage = stages[stageIndex];
+    // Navigation & Modals
+    activeTab,
+    setActiveTab,
+    isSettingsOpen,
+    setIsSettingsOpen,
+    toastMessage
+  } = useGameState({ soundController });
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col selection:bg-indigo-500 selection:text-white font-sans antialiased overflow-x-hidden">
@@ -197,9 +72,10 @@ export default function App() {
         currentLevel={currentLevel}
         stageIndex={stageIndex}
         stageStars={stageStars}
+        totalStages={stages.length || 10}
         isAudioMuted={isAudioMuted}
         setIsAudioMuted={setIsAudioMuted}
-        onBackToMap={() => setCurrentLevel(null)}
+        onBackToMap={handleBackToMap}
         onOpenSettings={() => setIsSettingsOpen(true)}
         streak={streak}
         gems={gems}
@@ -243,19 +119,19 @@ export default function App() {
             {currentStage && (
               <>
                 {currentStage.type === STAGE_TYPES.FLASHCARD && (
-                  <FlashcardStage key={stageIndex} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} />
+                  <FlashcardStage key={stageIndex} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} isSecondChance={stageAttempts === 1} />
                 )}
                 {currentStage.type === STAGE_TYPES.MATCHING && (
-                  <MatchingStage key={stageIndex} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} />
+                  <MatchingStage key={stageIndex} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} isSecondChance={stageAttempts === 1} />
                 )}
                 {currentStage.type === STAGE_TYPES.DRAG_DROP && (
-                  <DragDropStage key={stageIndex} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} />
+                  <DragDropStage key={stageIndex} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} isSecondChance={stageAttempts === 1} />
                 )}
                 {currentStage.type === STAGE_TYPES.TRUE_FALSE && (
-                  <TrueFalseSwipeStage key={stageIndex} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} />
+                  <TrueFalseSwipeStage key={stageIndex} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} isSecondChance={stageAttempts === 1} />
                 )}
                 {currentStage.type === STAGE_TYPES.ODD_ONE_OUT && (
-                  <OddOneOutStage key={stageIndex} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} />
+                  <OddOneOutStage key={stageIndex} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} isSecondChance={stageAttempts === 1} />
                 )}
               </>
             )}
@@ -278,7 +154,7 @@ export default function App() {
         <AnswerRevealModal
           correctAnswer={revealModalData.correctAnswer}
           explanation={revealModalData.explanation}
-          onContinue={() => { setRevealModalData(null); proceedNextStage(); }}
+          onContinue={closeRevealModalAndProceed}
         />
       )}
 
@@ -286,14 +162,13 @@ export default function App() {
         <CompletionModal
           level={completionResult.level}
           totalStars={completionResult.totalStars}
+          totalStages={completionResult.totalPossible || 10}
+          isTenStar={completionResult.isTenStar}
           isFiveStar={completionResult.isFiveStar}
           mistakes={mistakes}
-          onNextLevel={() => {
-            const nextLvl = levels.find(l => l.level_id === currentLevel.level_id + 1);
-            if (nextLvl) handleStartLevel(nextLvl, false); else setCurrentLevel(null);
-          }}
-          onRetryLevel={() => handleStartLevel(currentLevel, true)}
-          onBackToMap={() => setCurrentLevel(null)}
+          onNextLevel={handleNextLevel}
+          onRetryLevel={handleRetryLevel}
+          onBackToMap={handleBackToMap}
         />
       )}
 

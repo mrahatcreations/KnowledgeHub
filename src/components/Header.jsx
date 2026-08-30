@@ -46,21 +46,21 @@ export default function Header({
               )}
             </div>
             {currentLevel && (
-              <p className="text-xs text-slate-400 font-medium">ধাপ {stageIndex + 1} / 5</p>
+              <p className="text-xs text-slate-400 font-medium">ধাপ {stageIndex + 1} / 10</p>
             )}
           </div>
         </div>
 
-        {/* Center: 5 Stars Indicator */}
+        {/* Center: 10 Stars Indicator */}
         {currentLevel && (
-          <div className="hidden sm:flex items-center space-x-1.5 bg-slate-50 px-3 py-1.5 rounded-full border border-slate-200">
-            {[0, 1, 2, 3, 4].map((idx) => {
-              const isFilled = idx < stageIndex ? stageStars[idx] : false;
+          <div className="hidden sm:flex items-center space-x-1 bg-slate-50 px-3 py-1.5 rounded-full border border-slate-200">
+            {Array.from({ length: 10 }).map((_, idx) => {
+              const isFilled = idx < stageIndex ? Boolean(stageStars[idx]) : false;
               const isCurrent = idx === stageIndex;
               return (
                 <Star
                   key={idx}
-                  className={`w-5 h-5 transition-all ${
+                  className={`w-4 h-4 transition-all ${
                     isFilled
                       ? 'text-amber-400 fill-amber-400 scale-110'
                       : isCurrent
@@ -78,7 +78,7 @@ export default function Header({
           <button
             onClick={toggleAudio}
             className="p-2 rounded-xl text-slate-600 hover:bg-slate-100 transition active:scale-95"
-            title={isAudioMuted ? 'Unmute' : 'Mute'}
+            title={isAudioMuted ? 'শব্দ চালু করুন' : 'শব্দ বন্ধ করুন'}
           >
             {isAudioMuted ? <VolumeX className="w-5 h-5 text-rose-500" /> : <Volume2 className="w-5 h-5 text-indigo-600" />}
           </button>
@@ -86,7 +86,7 @@ export default function Header({
           <button
             onClick={onOpenSettings}
             className="p-2 rounded-xl text-slate-600 hover:bg-slate-100 transition active:scale-95"
-            title="Settings & Sync"
+            title="সেটিংস ও ডেটাবেজ সিঙ্ক"
           >
             <Settings className="w-5 h-5 text-slate-600" />
           </button>
@@ -98,7 +98,7 @@ export default function Header({
         <div className="w-full bg-slate-100 h-1.5">
           <div
             className="bg-indigo-600 h-1.5 transition-all duration-300 ease-out"
-            style={{ width: `${progressPercent}%` }}
+            style={{ width: `${Math.min(100, Math.max(0, ((stageIndex) / 10) * 100))}%` }}
           />
         </div>
       )}

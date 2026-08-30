@@ -8,7 +8,7 @@ export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSel
   const units = ['ALL', ...new Set(levels.map(l => l.unit || l.category).filter(Boolean))];
   const filteredLevels = selectedUnit === 'ALL' ? levels : levels.filter(l => (l.unit || l.category) === selectedUnit);
 
-  const totalMastered = Object.values(levelStars).filter(s => s === 5).length;
+  const totalMastered = Object.values(levelStars).filter(s => s >= 10 || s === 5).length;
   const totalStarsEarned = Object.values(levelStars).reduce((sum, s) => sum + s, 0);
 
   return (
@@ -31,7 +31,7 @@ export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSel
 
         <div className="flex flex-col items-center justify-center bg-amber-500/10 border border-amber-400/30 px-3 py-2 rounded-2xl text-amber-300">
           <Crown className="w-5 h-5 text-amber-400 fill-amber-400" />
-          <span className="text-[10px] font-black mt-0.5">৫-স্টার লক্ষ্য</span>
+          <span className="text-[10px] font-black mt-0.5">১০-স্টার লক্ষ্য</span>
         </div>
       </div>
 
@@ -63,7 +63,7 @@ export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSel
           const isUnlocked = lvl.level_id <= unlockedLevel;
           const isCurrent = lvl.level_id === unlockedLevel;
           const stars = levelStars[lvl.level_id] || 0;
-          const isMastered = stars === 5;
+          const isMastered = stars >= 10 || stars === 5;
           const isMilestone = lvl.level_id % 5 === 0;
 
           // S-Curve Winding Calculation (Mobile Math for Duolingo/Candy Crush snake layout)
@@ -128,18 +128,18 @@ export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSel
                   )}
                 </button>
 
-                {/* 5-Star Indicator Container */}
-                <div className="flex items-center space-x-1 mt-2.5 bg-slate-900/95 px-2.5 py-1 rounded-full border border-slate-800 shadow-md">
-                  {[0, 1, 2, 3, 4].map(s => (
-                    <Star
-                      key={s}
-                      className={`w-3.5 h-3.5 transition-all ${
-                        s < stars 
-                          ? 'text-amber-400 fill-amber-400 drop-shadow-[0_0_4px_rgba(251,191,36,0.8)]' 
-                          : 'text-slate-700'
-                      }`}
-                    />
-                  ))}
+                {/* 10-Star Indicator Container */}
+                <div className="flex items-center space-x-1 mt-2 bg-slate-900/95 px-2.5 py-0.5 rounded-full border border-slate-800 shadow-md">
+                  <Star
+                    className={`w-3 h-3 transition-all ${
+                      stars > 0
+                        ? 'text-amber-400 fill-amber-400 drop-shadow-[0_0_4px_rgba(251,191,36,0.8)]'
+                        : 'text-slate-700'
+                    }`}
+                  />
+                  <span className={`text-[10px] font-mono font-black ${stars >= 10 ? 'text-amber-400' : stars > 0 ? 'text-slate-200' : 'text-slate-600'}`}>
+                    {stars}/10
+                  </span>
                 </div>
 
                 {/* Current Active Level Tooltip Indicator */}
