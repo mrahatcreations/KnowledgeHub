@@ -89,7 +89,7 @@ export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSel
               {isMilestone && index > 0 && (
                 <div 
                   style={{ transform: `translateX(${xOffset * 0.4}px)` }}
-                  className="flex items-center space-x-2 bg-slate-900/90 border border-amber-500/30 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-2xl text-amber-300 text-xs font-bold shadow-sm my-1"
+                  className="flex items-center space-x-2 bg-gradient-to-r from-amber-500/15 via-slate-900/95 to-amber-500/15 border border-amber-500/40 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-2xl text-amber-300 text-xs font-bold shadow-[0_0_12px_rgba(245,158,11,0.2)] my-1 animate-float"
                 >
                   <Gift className="w-4 h-4 text-amber-400 shrink-0" />
                   <span>মাইলস্টোন রিওয়ার্ড #{lvl.level_id / 5} (+৫০ Gems)</span>
@@ -111,17 +111,17 @@ export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSel
                   disabled={!isUnlocked}
                   className={`relative w-18 h-18 sm:w-20 sm:h-20 rounded-2xl flex flex-col items-center justify-center font-black transition-all active:scale-95 game-btn-3d ${
                     isMastered
-                      ? 'game-btn-amber text-amber-950'
+                      ? 'game-btn-amber text-amber-950 animate-gold-glow'
                       : isCurrent
-                      ? 'game-btn-indigo text-white'
+                      ? 'game-btn-indigo text-white animate-pulse-glow ring-2 ring-indigo-400/60'
                       : isUnlocked
-                      ? 'game-btn-slate text-white'
+                      ? 'game-btn-slate text-white hover:border-indigo-400/50'
                       : 'bg-slate-900/60 border border-slate-800 text-slate-600 cursor-not-allowed shadow-none'
                   }`}
                 >
                   {/* Mastered Crown Badge */}
                   {isMastered && (
-                    <div className="absolute -top-2.5 sm:-top-3 bg-amber-400 border border-amber-300 rounded-full p-1 shadow-sm">
+                    <div className="absolute -top-2.5 sm:-top-3 bg-amber-400 border border-amber-200 rounded-full p-1 shadow-[0_0_8px_rgba(251,191,36,0.6)]">
                       <Crown className="w-3.5 h-3.5 fill-amber-950 text-amber-950" />
                     </div>
                   )}
@@ -146,18 +146,18 @@ export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSel
                   <Star
                     className={`w-3 h-3 transition-all shrink-0 ${
                       displayStars > 0
-                        ? 'text-amber-400 fill-amber-400'
+                        ? 'text-amber-400 fill-amber-400 drop-shadow-[0_0_4px_rgba(251,191,36,0.8)]'
                         : 'text-slate-700'
                     }`}
                   />
-                  <span className={`text-[10px] font-mono font-bold tracking-tight ${displayStars >= 5 ? 'text-amber-400' : displayStars > 0 ? 'text-slate-200' : 'text-slate-600'}`}>
+                  <span className={`text-[10px] font-mono font-bold tracking-tight ${displayStars >= 5 ? 'text-amber-400 drop-shadow-[0_0_3px_rgba(251,191,36,0.6)]' : displayStars > 0 ? 'text-slate-200' : 'text-slate-600'}`}>
                     {String(displayStars).replace('.0', '')}/5
                   </span>
                 </div>
 
                 {/* Current Active Level Tooltip Indicator */}
                 {isCurrent && (
-                  <div className="absolute -bottom-6 whitespace-nowrap bg-indigo-600 text-white text-[10px] font-bold px-2.5 py-0.5 rounded-full shadow-md border border-indigo-400/40 pointer-events-none z-10">
+                  <div className="absolute -bottom-6 whitespace-nowrap bg-indigo-600 text-white text-[10px] font-bold px-2.5 py-0.5 rounded-full shadow-[0_0_12px_rgba(99,102,241,0.6)] border border-indigo-300 animate-bounce pointer-events-none z-10">
                     বর্তমান লেভেল
                   </div>
                 )}

@@ -168,13 +168,13 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
                   className={`inline-flex items-center justify-center align-middle mx-1.5 my-1 min-h-[40px] min-w-[110px] px-3 py-1 rounded-xl border transition-all duration-150 text-xs sm:text-sm font-bold relative max-w-full ${
                     placedWord
                       ? feedbackState === 'correct'
-                        ? 'bg-emerald-600 border-emerald-400 text-white cursor-pointer'
+                        ? 'bg-emerald-600 border-emerald-300 text-white cursor-pointer shadow-[0_0_18px_rgba(16,185,129,0.65)]'
                         : feedbackState === 'wrong'
-                        ? 'bg-rose-600 border-rose-400 text-white cursor-pointer'
-                        : 'bg-indigo-600 text-white border-indigo-400 cursor-pointer shadow-sm'
+                        ? 'bg-rose-600 border-rose-300 text-white cursor-pointer shadow-[0_0_18px_rgba(244,63,94,0.65)]'
+                        : 'bg-indigo-600 text-white border-indigo-300 cursor-pointer shadow-[0_0_14px_rgba(99,102,241,0.5)]'
                       : isDragOver
-                      ? 'border-indigo-400 bg-indigo-950/80 text-indigo-300'
-                      : 'border-dashed border-slate-700 bg-slate-950/60 text-slate-400 hover:border-slate-600'
+                      ? 'border-indigo-400 bg-indigo-950/80 text-indigo-300 shadow-[0_0_15px_rgba(99,102,241,0.5)] animate-pulse'
+                      : 'border-dashed border-slate-700 bg-slate-950/60 text-slate-400 hover:border-indigo-500/50'
                   }`}
                 >
                   {placedWord ? (

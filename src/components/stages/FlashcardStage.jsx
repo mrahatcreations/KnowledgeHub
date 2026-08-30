@@ -204,7 +204,7 @@ export default function FlashcardStage({ stage, onSubmitAnswer, isSecondChance }
 
             {/* Back Center: Bengali Meaning & Details */}
             <div className="relative z-10 flex flex-col items-center justify-center text-center my-auto py-1 space-y-2">
-              <h3 className="text-2xl sm:text-3xl font-extrabold text-amber-300 break-words text-center leading-tight">
+              <h3 className="text-2xl sm:text-3xl font-extrabold text-amber-300 drop-shadow-[0_0_12px_rgba(251,191,36,0.5)] break-words text-center leading-tight">
                 {stage.item?.meaning}
               </h3>
 
@@ -300,10 +300,10 @@ export default function FlashcardStage({ stage, onSubmitAnswer, isSecondChance }
                 disabled={isWrong || selectedOption !== null}
                 className={`game-btn-3d w-full min-h-[48px] sm:min-h-[52px] p-3 rounded-xl border text-xs sm:text-sm font-semibold text-left transition-all duration-150 flex items-center justify-between touch-manipulation cursor-pointer ${
                   isWrong
-                    ? 'bg-rose-950/30 border-rose-500/40 text-rose-300 opacity-60 cursor-not-allowed shadow-none'
+                    ? 'bg-rose-950/40 border-rose-500/50 text-rose-300 opacity-60 cursor-not-allowed shadow-none'
                     : isSelected
-                    ? 'game-btn-emerald bg-emerald-600 border-emerald-400 text-white font-bold'
-                    : 'game-btn-slate bg-slate-900 border-slate-800 text-slate-100 hover:border-slate-700 hover:text-white'
+                    ? 'game-btn-emerald bg-emerald-600 border-emerald-300 text-white font-bold shadow-[0_0_18px_rgba(16,185,129,0.5)] ring-2 ring-emerald-400/50'
+                    : 'game-btn-slate bg-slate-900 border-slate-800 text-slate-100 hover:border-indigo-500/50 hover:text-white'
                 } ${isShaking ? 'animate-shake' : ''}`}
               >
                 <div className="flex items-center space-x-2.5 flex-1 min-w-0 pr-1.5">

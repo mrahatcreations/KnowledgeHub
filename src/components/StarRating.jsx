@@ -36,13 +36,13 @@ export default function StarRating({
             return (
               <Star
                 key={i}
-                className={`${starSizeClass} text-amber-400 fill-amber-400 shrink-0 transition-transform duration-200`}
+                className={`${starSizeClass} text-amber-400 fill-amber-400 drop-shadow-[0_0_4px_rgba(251,191,36,0.7)] shrink-0 transition-transform duration-200`}
               />
             );
           } else if (fillAmount > 0) {
             // Half Star (0.5)
             return (
-              <div key={i} className={`relative ${starSizeClass} shrink-0`}>
+              <div key={i} className={`relative ${starSizeClass} shrink-0 drop-shadow-[0_0_4px_rgba(251,191,36,0.6)]`}>
                 <svg
                   className={`${starSizeClass} text-amber-400`}
                   viewBox="0 0 24 24"

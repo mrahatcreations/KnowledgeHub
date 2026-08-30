@@ -101,10 +101,10 @@ export default function OddOneOutStage({ stage, onSubmitAnswer, isSecondChance }
               disabled={isWrong || (selectedOpt !== null)}
               className={`game-btn-3d group relative p-3 sm:p-3.5 rounded-xl border font-bold text-left transition-all duration-150 flex items-center justify-between gap-2.5 ${
                 isWrong
-                  ? 'border-rose-500/40 bg-rose-950/30 text-rose-300 opacity-60 cursor-not-allowed shadow-none'
+                  ? 'border-rose-500/50 bg-rose-950/40 text-rose-300 opacity-60 cursor-not-allowed shadow-none'
                   : isSelected
-                  ? 'game-btn-emerald bg-emerald-600 border-emerald-400 text-white'
-                  : 'game-btn-slate bg-slate-900 border-slate-800 text-slate-100 hover:border-slate-700 hover:text-white'
+                  ? 'game-btn-emerald bg-emerald-600 border-emerald-300 text-white shadow-[0_0_18px_rgba(16,185,129,0.55)] ring-2 ring-emerald-400/50'
+                  : 'game-btn-slate bg-slate-900 border-slate-800 text-slate-100 hover:border-indigo-500/50 hover:text-white'
               } ${isShaking ? 'animate-shake' : ''}`}
             >
               {/* Left Side: Number Badge & Word */}
@@ -155,7 +155,7 @@ export default function OddOneOutStage({ stage, onSubmitAnswer, isSecondChance }
 
       {/* Semantic Explanation Card */}
       {showExplanation && stage.explanation && (
-        <div className="p-3.5 rounded-xl bg-slate-900/90 border border-slate-800 shadow-sm animate-pop text-left">
+        <div className="p-3.5 rounded-xl bg-slate-900/95 border border-indigo-500/30 shadow-[0_0_14px_rgba(99,102,241,0.15)] animate-pop text-left">
           <div className="flex items-center space-x-1.5 text-indigo-300 font-bold text-xs sm:text-sm mb-1">
             <Lightbulb className="w-4 h-4 text-amber-400 shrink-0" />
             <span>শব্দার্থ ও বিশ্লেষণ (Semantic Explanation)</span>

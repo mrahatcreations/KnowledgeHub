@@ -193,12 +193,12 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
                   disabled={isMatched || isFinished}
                   className={`game-btn-3d w-full min-h-[48px] sm:min-h-[52px] p-2.5 sm:p-3 rounded-xl font-bold text-xs sm:text-sm text-left transition-all duration-150 flex items-center justify-between group relative ${
                     isMatched
-                      ? 'bg-emerald-950/40 border border-emerald-500/40 text-emerald-200 opacity-90'
+                      ? 'bg-emerald-950/50 border border-emerald-500/60 text-emerald-200 shadow-[0_0_12px_rgba(16,185,129,0.25)] opacity-95'
                       : isError
-                      ? 'bg-rose-950/40 border border-rose-500/60 text-rose-200 animate-shake'
+                      ? 'bg-rose-950/50 border border-rose-500/70 text-rose-200 animate-shake shadow-[0_0_14px_rgba(244,63,94,0.4)]'
                       : isSelected
-                      ? 'bg-indigo-600 border border-indigo-400 text-white shadow-sm'
-                      : 'bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-200 hover:text-white'
+                      ? 'bg-indigo-600 border border-indigo-300 text-white shadow-[0_0_16px_rgba(99,102,241,0.6)] ring-2 ring-indigo-400/50 scale-[1.02]'
+                      : 'bg-slate-900 border border-slate-800 hover:border-indigo-500/50 text-slate-200 hover:text-white'
                   }`}
                 >
                   <div className="flex items-center space-x-1.5 flex-1 min-w-0 mr-1">
@@ -209,13 +209,13 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
                   <div className="shrink-0 flex items-center space-x-1">
                     {isMatched ? (
                       <div className="flex items-center space-x-1">
-                        {isRecent && <Sparkles className="w-3 h-3 text-amber-300" />}
-                        <div className="w-5 h-5 rounded-full bg-emerald-500/20 border border-emerald-400/50 flex items-center justify-center text-emerald-300">
+                        {isRecent && <Sparkles className="w-3 h-3 text-amber-300 animate-star" />}
+                        <div className="w-5 h-5 rounded-full bg-emerald-500/20 border border-emerald-400/60 flex items-center justify-center text-emerald-300 shadow-[0_0_8px_rgba(16,185,129,0.4)]">
                           <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
                         </div>
                       </div>
                     ) : isError ? (
-                      <div className="w-5 h-5 rounded-full bg-rose-500/20 border border-rose-400/50 flex items-center justify-center text-rose-300">
+                      <div className="w-5 h-5 rounded-full bg-rose-500/20 border border-rose-400/60 flex items-center justify-center text-rose-300">
                         <XCircle className="w-3.5 h-3.5 text-rose-400" />
                       </div>
                     ) : (
@@ -259,12 +259,12 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
                   disabled={isMatched || isFinished}
                   className={`game-btn-3d w-full min-h-[48px] sm:min-h-[52px] p-2.5 sm:p-3 rounded-xl font-medium text-xs sm:text-sm text-left transition-all duration-150 flex items-center justify-between group relative ${
                     isMatched
-                      ? 'bg-emerald-950/40 border border-emerald-500/40 text-emerald-200 opacity-90'
+                      ? 'bg-emerald-950/50 border border-emerald-500/60 text-emerald-200 shadow-[0_0_12px_rgba(16,185,129,0.25)] opacity-95'
                       : isError
-                      ? 'bg-rose-950/40 border border-rose-500/60 text-rose-200 animate-shake'
+                      ? 'bg-rose-950/50 border border-rose-500/70 text-rose-200 animate-shake shadow-[0_0_14px_rgba(244,63,94,0.4)]'
                       : isSelected
-                      ? 'bg-teal-600 border border-teal-400 text-white shadow-sm'
-                      : 'bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-200 hover:text-white'
+                      ? 'bg-teal-600 border border-teal-300 text-white shadow-[0_0_16px_rgba(20,184,166,0.6)] ring-2 ring-teal-400/50 scale-[1.02]'
+                      : 'bg-slate-900 border border-slate-800 hover:border-teal-500/50 text-slate-200 hover:text-white'
                   }`}
                 >
                   <div className="flex-1 min-w-0 mr-1">

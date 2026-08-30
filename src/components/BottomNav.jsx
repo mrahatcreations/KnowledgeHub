@@ -23,13 +23,13 @@ export default function BottomNav({ activeTab, setActiveTab }) {
               }}
               className={`relative flex items-center justify-center space-x-2 flex-1 min-w-0 py-2.5 px-3 rounded-xl transition-all duration-150 active:scale-95 min-h-[44px] ${
                 isActive
-                  ? 'bg-indigo-600/15 text-indigo-400 font-bold border border-indigo-500/30'
+                  ? 'bg-indigo-600/20 text-indigo-300 font-bold border border-indigo-500/40 shadow-[0_0_12px_rgba(99,102,241,0.2)]'
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900 font-medium'
               }`}
               aria-label={tab.label}
               aria-selected={isActive}
             >
-              <Icon className={`w-4 h-4 sm:w-5 sm:h-5 shrink-0 ${isActive ? 'text-indigo-400' : 'text-slate-400'}`} />
+              <Icon className={`w-4 h-4 sm:w-5 sm:h-5 shrink-0 ${isActive ? 'text-indigo-400 drop-shadow-[0_0_6px_rgba(99,102,241,0.6)]' : 'text-slate-400'}`} />
               <span className="text-xs sm:text-sm tracking-tight leading-none truncate">
                 {tab.label}
               </span>

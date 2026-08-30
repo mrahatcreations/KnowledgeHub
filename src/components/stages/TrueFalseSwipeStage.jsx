@@ -179,9 +179,9 @@ export default function TrueFalseSwipeStage({ stage, onSubmitAnswer, isSecondCha
               opacity: trueRatio,
               transform: `scale(${0.9 + trueRatio * 0.15}) rotate(-8deg)`
             }}
-            className="absolute top-4 right-4 z-20 px-3 py-1 rounded-xl border border-emerald-500 bg-emerald-500/15 text-emerald-400 font-bold flex items-center space-x-1.5 pointer-events-none transition-all duration-75"
+            className="absolute top-4 right-4 z-20 px-3 py-1.5 rounded-xl border border-emerald-400 bg-emerald-950/90 text-emerald-300 font-bold flex items-center space-x-1.5 pointer-events-none transition-all duration-75 shadow-[0_0_18px_rgba(16,185,129,0.65)]"
           >
-            <Check className="w-4 h-4" />
+            <Check className="w-4 h-4 text-emerald-400" />
             <div className="flex flex-col items-start leading-none">
               <span className="text-sm font-bold">TRUE</span>
               <span className="text-[10px] text-emerald-300">সত্য</span>
@@ -194,9 +194,9 @@ export default function TrueFalseSwipeStage({ stage, onSubmitAnswer, isSecondCha
               opacity: falseRatio,
               transform: `scale(${0.9 + falseRatio * 0.15}) rotate(8deg)`
             }}
-            className="absolute top-4 left-4 z-20 px-3 py-1 rounded-xl border border-rose-500 bg-rose-500/15 text-rose-400 font-bold flex items-center space-x-1.5 pointer-events-none transition-all duration-75"
+            className="absolute top-4 left-4 z-20 px-3 py-1.5 rounded-xl border border-rose-400 bg-rose-950/90 text-rose-300 font-bold flex items-center space-x-1.5 pointer-events-none transition-all duration-75 shadow-[0_0_18px_rgba(244,63,94,0.65)]"
           >
-            <X className="w-4 h-4" />
+            <X className="w-4 h-4 text-rose-400" />
             <div className="flex flex-col items-start leading-none">
               <span className="text-sm font-bold">FALSE</span>
               <span className="text-[10px] text-rose-300">মিথ্যা</span>
@@ -243,7 +243,7 @@ export default function TrueFalseSwipeStage({ stage, onSubmitAnswer, isSecondCha
             {/* Bengali Meaning Statement Challenge */}
             <div className="bg-slate-950/60 border border-slate-800 rounded-xl p-2.5 sm:p-3">
               <p className="text-[11px] text-slate-400 font-medium mb-0.5">প্রদর্শিত অর্থ কি সঠিক?</p>
-              <p className="text-base sm:text-lg font-bold text-amber-300 leading-snug break-words">
+              <p className="text-base sm:text-lg font-bold text-amber-300 drop-shadow-[0_0_8px_rgba(251,191,36,0.35)] leading-snug break-words">
                 &ldquo;{stage?.displayedMeaning || stage?.statement}&rdquo;
               </p>
             </div>
