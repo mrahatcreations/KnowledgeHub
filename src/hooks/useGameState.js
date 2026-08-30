@@ -3,7 +3,9 @@ import { buildLevelStages, STAGE_TYPES } from '../engine/GameEngine.js';
 import { sound } from '../audio/SoundSynthesizer.js';
 
 export const TOTAL_STAGES_PER_LEVEL = 10;
-export const MASTERY_REQUIRED_STARS = 10;
+export const STARS_PER_STAGE = 0.5;
+export const MAX_STARS_PER_LEVEL = 5.0;
+export const MASTERY_REQUIRED_STARS = 5.0;
 export const STORAGE_KEY_PROGRESS = 'vocabmaster_progress';
 export const STORAGE_KEY_CACHED_LEVELS = 'vocabmaster_cached_levels';
 
@@ -20,7 +22,7 @@ export const createInitialStageStars = () => Array(TOTAL_STAGES_PER_LEVEL).fill(
 
 /**
  * Custom React Hook to manage vocabulary game state, decoupled progression logic,
- * 10-stage level execution, 10-star mastery rules, mistakes accumulation, and persistence.
+ * 10-stage level execution, 5-star mastery rules (0.5 star per stage), mistakes accumulation, and persistence.
  *
  * @param {Object} options Configuration options
  * @param {Object} [options.soundController] Optional sound effect controller
@@ -64,7 +66,14 @@ export function useGameState(options = {}) {
       if (saved) {
         const parsed = JSON.parse(saved);
         if (typeof parsed.unlockedLevel === 'number') setUnlockedLevel(parsed.unlockedLevel);
-        if (parsed.levelStars && typeof parsed.levelStars === 'object') setLevelStars(parsed.levelStars);
+        if (parsed.levelStars && typeof parsed.levelStars === 'object') {
+          const normalized = {};
+          Object.entries(parsed.levelStars).forEach(([lvlId, starVal]) => {
+            const num = Number(starVal) || 0;
+            normalized[lvlId] = num > 5 ? Number((num * 0.5).toFixed(1)) : num;
+          });
+          setLevelStars(normalized);
+        }
         if (typeof parsed.gems === 'number') setGems(parsed.gems);
         if (typeof parsed.streak === 'number') setStreak(parsed.streak);
         if (typeof parsed.lives === 'number') setLives(parsed.lives);
@@ -304,17 +313,19 @@ export function useGameState(options = {}) {
     if (!currentLevel) return;
 
     setStageStars((currentStars) => {
-      const totalStarsEarned = currentStars.filter(Boolean).length;
+      const correctStagesCount = currentStars.filter(Boolean).length;
+      const totalStarsEarned = Number((correctStagesCount * 0.5).toFixed(1));
       const totalStages = stages.length || TOTAL_STAGES_PER_LEVEL;
-      const isTenStar = totalStarsEarned === totalStages && totalStarsEarned === MASTERY_REQUIRED_STARS;
+      const isFiveStar = totalStarsEarned >= MASTERY_REQUIRED_STARS;
 
       let newUnlocked = unlockedLevel;
       let newGems = gems;
       const previousStars = levelStars[currentLevel.level_id] || 0;
-      const bestStars = Math.max(previousStars, totalStarsEarned);
+      const normalizedPrev = previousStars > 5 ? Number((previousStars * 0.5).toFixed(1)) : previousStars;
+      const bestStars = Math.max(normalizedPrev, totalStarsEarned);
       const updatedLevelStars = { ...levelStars, [currentLevel.level_id]: bestStars };
 
-      if (isTenStar) {
+      if (isFiveStar) {
         soundApi.playVictory();
         newGems += MASTERY_BONUS_GEMS;
         setGems(newGems);
@@ -331,11 +342,13 @@ export function useGameState(options = {}) {
       setCompletionResult({
         level: currentLevel,
         totalStars: totalStarsEarned,
-        maxStars: totalStages,
-        isTenStar: isTenStar,
-        isMastered: isTenStar,
+        maxStars: 5,
+        totalStages: totalStages,
+        correctStagesCount: correctStagesCount,
+        isFiveStar: isFiveStar,
+        isMastered: isFiveStar,
         mistakes: mistakes,
-        earnedGems: isTenStar ? MASTERY_BONUS_GEMS : 0,
+        earnedGems: isFiveStar ? MASTERY_BONUS_GEMS : 0,
         newUnlockedLevel: newUnlocked
       });
 

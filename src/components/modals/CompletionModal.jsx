@@ -1,21 +1,23 @@
 import React, { useEffect, useState } from 'react';
-import { Star, Trophy, RefreshCw, ArrowRight, Volume2, CheckCircle2, XCircle, AlertCircle, Sparkles, Award } from 'lucide-react';
+import { Trophy, RefreshCw, ArrowRight, Volume2, CheckCircle2, XCircle, AlertCircle, Sparkles, Award } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { sound } from '../../audio/SoundSynthesizer';
+import StarRating from '../StarRating';
 
 export default function CompletionModal({ 
   level, 
   totalStars = 0, 
-  isTenStar = false, 
   isFiveStar = false, 
+  isMastered: propMastered,
   mistakes = [],
   totalStages = 10,
+  correctStagesCount,
   onNextLevel, 
   onRetryLevel, 
   onBackToMap 
 }) {
-  const effectiveTotalStages = totalStages || 10;
-  const isMastered = isTenStar || isFiveStar || totalStars >= effectiveTotalStages;
+  const earnedStarsNum = Number(Number(totalStars).toFixed(1));
+  const isMastered = propMastered || isFiveStar || earnedStarsNum >= 5.0;
   const [activeTab, setActiveTab] = useState(mistakes.length > 0 ? 'mistakes' : 'score');
 
   useEffect(() => {
@@ -30,7 +32,7 @@ export default function CompletionModal({
     }
   }, [isMastered]);
 
-  const accuracyPercent = Math.round((totalStars / effectiveTotalStages) * 100);
+  const accuracyPercent = Math.round((earnedStarsNum / 5.0) * 100);
 
   return (
     <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-3 sm:p-4 select-none animate-fadeIn">
@@ -49,34 +51,22 @@ export default function CompletionModal({
             {isMastered ? (
               <>
                 <Sparkles className="w-4 h-4 text-amber-400 shrink-0" />
-                <span>১০-স্টার পারফেক্ট মাস্টারি!</span>
+                <span>৫-স্টার পারফেক্ট মাস্টারি!</span>
               </>
             ) : (
-              <span>লেভেল সম্পন্ন হয়েছে!</span>
+              <span>{earnedStarsNum.toFixed(1).replace('.0', '')} / ৫.০ স্টার অর্জিত</span>
             )}
           </h2>
 
-          {/* 10-Star Display Grid */}
-          <div className="grid grid-cols-5 gap-1.5 justify-items-center w-fit mx-auto my-2.5 px-2">
-            {Array.from({ length: effectiveTotalStages }).map((_, s) => {
-              const isEarned = s < totalStars;
-              return (
-                <Star
-                  key={s}
-                  className={`w-5 h-5 sm:w-6 sm:h-6 transition-all ${
-                    isEarned 
-                      ? 'text-amber-400 fill-amber-400' 
-                      : 'text-slate-700'
-                  }`}
-                />
-              );
-            })}
+          {/* 5-Star Display Grid with 0.5 step half-stars */}
+          <div className="flex items-center justify-center my-3">
+            <StarRating stars={earnedStarsNum} maxStars={5} size="lg" />
           </div>
 
           <p className="text-xs text-slate-300 leading-relaxed px-1">
             {isMastered
-              ? 'অসাধারণ দক্ষতা! সবগুলো ১০টি ধাপে ১ম সুযোগে সঠিক উত্তর দিয়ে পূর্ণ ১০-স্টার অর্জন করেছেন।'
-              : `আপনি ${effectiveTotalStages} টির মধ্যে ${totalStars} স্টার অর্জন করেছেন। পরবর্তী লেভেলের জন্য পূর্ণ ১০-স্টার প্রয়োজন।`}
+              ? 'অসাধারণ দক্ষতা! সবগুলো ১০টি ধাপে ১ম সুযোগে সঠিক উত্তর দিয়ে পূর্ণ ৫-স্টার (প্রতি ধাপে ০.৫) অর্জন করেছেন।'
+              : `আপনি ৫.০ এর মধ্যে ${earnedStarsNum.toFixed(1).replace('.0', '')} স্টার অর্জন করেছেন। পরবর্তী লেভেলের জন্য পূর্ণ ৫-স্টার প্রয়োজন (প্রতি ধাপে ০.৫ স্টার)।`}
           </p>
         </div>
 
@@ -173,7 +163,7 @@ export default function CompletionModal({
                 <div className="p-2.5 bg-slate-950/70 border border-slate-800 rounded-xl">
                   <div className="text-[10px] font-bold text-slate-400 uppercase">অর্জিত স্টার</div>
                   <div className="text-sm sm:text-base font-bold text-amber-400 font-mono mt-0.5">
-                    {totalStars} / {effectiveTotalStages}
+                    {earnedStarsNum.toFixed(1).replace('.0', '')} / 5.0
                   </div>
                 </div>
                 <div className="p-2.5 bg-slate-950/70 border border-slate-800 rounded-xl">
@@ -195,12 +185,12 @@ export default function CompletionModal({
                 <div className="p-3 rounded-xl bg-emerald-950/30 border border-emerald-500/30 text-emerald-300 text-xs font-medium flex items-start gap-2 text-left">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
                   <div className="leading-relaxed break-words">
-                    <strong>অভিনন্দন!</strong> আপনি কোনো ভুল ছাড়া ১০-স্টার অর্জন করেছেন। পরবর্তী লেভেল আনলক হয়েছে এবং ৫০টি রত্ন (Gems) বোনাস যুক্ত হয়েছে।
+                    <strong>অভিনন্দন!</strong> আপনি ১০টি ধাপেই ১ম সুযোগে সঠিক উত্তর দিয়ে ৫.০ স্টার অর্জন করেছেন। পরবর্তী লেভেল আনলক হয়েছে এবং ৫০টি রত্ন (Gems) বোনাস যুক্ত হয়েছে।
                   </div>
                 </div>
               ) : (
                 <div className="p-3 rounded-xl bg-amber-950/30 border border-amber-500/30 text-amber-300 text-xs font-medium leading-relaxed text-left break-words">
-                  পরবর্তী লেভেলে যাওয়ার জন্য ১০টি ধাপেই ১ম সুযোগে সঠিক উত্তর দিয়ে ১০-স্টার অর্জন করতে হবে। রিট্রাই করার সময় প্রশ্নের ধরন এবং বিকল্পগুলোর পজিশন স্বয়ংক্রিয়ভাবে অদলবদল হবে যাতে ভোকাবুলারি স্থায়ীভাবে আয়ত্ত হয়।
+                  পরবর্তী লেভেলে যাওয়ার জন্য ১০টি ধাপেই ১ম সুযোগে সঠিক উত্তর দিয়ে পূর্ণ ৫-স্টার (প্রতি ধাপে ০.৫) অর্জন করতে হবে। রিট্রাই করার সময় প্রশ্নের ধরন এবং বিকল্পগুলোর পজিশন স্বয়ংক্রিয়ভাবে অদলবদল হবে যাতে ভোকাবুলারি স্থায়ীভাবে আয়ত্ত হয়।
                 </div>
               )}
             </div>

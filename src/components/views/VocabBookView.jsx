@@ -26,7 +26,7 @@ export default function VocabBookView({ levels, levelStars }) {
             ...it,
             levelId: lvl.level_id,
             levelTitle: lvl.title,
-            isMastered: (levelStars[lvl.level_id] || 0) === 5
+            isMastered: (levelStars[lvl.level_id] || 0) >= 5 || (levelStars[lvl.level_id] || 0) === 10
           });
         }
       });

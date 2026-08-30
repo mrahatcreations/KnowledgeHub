@@ -8,8 +8,13 @@ export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSel
   const units = ['ALL', ...new Set(levels.map(l => l.unit || l.category).filter(Boolean))];
   const filteredLevels = selectedUnit === 'ALL' ? levels : levels.filter(l => (l.unit || l.category) === selectedUnit);
 
-  const totalMastered = Object.values(levelStars).filter(s => s >= 10 || s === 5).length;
-  const totalStarsEarned = Object.values(levelStars).reduce((sum, s) => sum + s, 0);
+  const totalMastered = Object.values(levelStars).filter(s => Number(s) >= 5 || Number(s) === 10).length;
+  const totalStarsEarned = Number(
+    Object.values(levelStars).reduce((sum, s) => {
+      const num = Number(s) || 0;
+      return sum + (num > 5 ? num * 0.5 : num);
+    }, 0).toFixed(1)
+  );
 
   const formatUnitName = (u) => {
     if (u === 'ALL') return 'সব লেভেল';
@@ -34,13 +39,13 @@ export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSel
             <span>দক্ষতা অর্জন: {totalMastered} / {levels.length} লেভেল</span>
           </div>
           <div className="text-[11px] text-slate-400 font-medium">
-            মোট সংগৃহীত স্টার: <span className="text-amber-400 font-bold font-mono">{totalStarsEarned}</span>
+            মোট সংগৃহীত স্টার: <span className="text-amber-400 font-bold font-mono">{String(totalStarsEarned).replace('.0', '')}</span> / {levels.length * 5}
           </div>
         </div>
 
         <div className="flex flex-col items-center justify-center bg-amber-500/10 border border-amber-500/20 px-3 py-2 rounded-xl text-amber-300 shrink-0">
           <Crown className="w-5 h-5 text-amber-400 fill-amber-400" />
-          <span className="text-[10px] font-bold mt-0.5">১০-স্টার লক্ষ্য</span>
+          <span className="text-[10px] font-bold mt-0.5">৫-স্টার লক্ষ্য</span>
         </div>
       </div>
 
@@ -69,8 +74,9 @@ export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSel
         {filteredLevels.map((lvl, index) => {
           const isUnlocked = lvl.level_id <= unlockedLevel;
           const isCurrent = lvl.level_id === unlockedLevel;
-          const stars = levelStars[lvl.level_id] || 0;
-          const isMastered = stars >= 10 || stars === 5;
+          const rawStars = levelStars[lvl.level_id] || 0;
+          const displayStars = rawStars > 5 ? Number((rawStars * 0.5).toFixed(1)) : Number(Number(rawStars).toFixed(1));
+          const isMastered = displayStars >= 5.0;
           const isMilestone = lvl.level_id % 5 === 0;
 
           // S-Curve Winding Calculation (Clamped to [-36px, +36px] for seamless mobile layout down to 320px)
@@ -135,17 +141,17 @@ export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSel
                   )}
                 </button>
 
-                {/* 10-Star Indicator Container Centered Under Node */}
+                {/* 5-Star Indicator Container Centered Under Node */}
                 <div className="flex items-center justify-center space-x-1 mt-2 bg-slate-900/95 px-2.5 py-0.5 rounded-full border border-slate-800 shadow-sm">
                   <Star
                     className={`w-3 h-3 transition-all shrink-0 ${
-                      stars > 0
+                      displayStars > 0
                         ? 'text-amber-400 fill-amber-400'
                         : 'text-slate-700'
                     }`}
                   />
-                  <span className={`text-[10px] font-mono font-bold tracking-tight ${stars >= 10 ? 'text-amber-400' : stars > 0 ? 'text-slate-200' : 'text-slate-600'}`}>
-                    {stars}/10
+                  <span className={`text-[10px] font-mono font-bold tracking-tight ${displayStars >= 5 ? 'text-amber-400' : displayStars > 0 ? 'text-slate-200' : 'text-slate-600'}`}>
+                    {String(displayStars).replace('.0', '')}/5
                   </span>
                 </div>
 
@@ -163,4 +169,3 @@ export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSel
     </div>
   );
 }
-

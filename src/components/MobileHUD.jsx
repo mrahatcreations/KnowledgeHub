@@ -1,6 +1,7 @@
 import React from 'react';
 import { Star, Volume2, VolumeX, ArrowLeft, Trophy } from 'lucide-react';
 import { sound } from '../audio/SoundSynthesizer';
+import StarRating from './StarRating';
 
 export default function MobileHUD({ 
   currentLevel, 
@@ -19,12 +20,17 @@ export default function MobileHUD({
   };
 
   const effectiveTotalStages = totalStages || (stageStars && stageStars.length) || 10;
-  const starsArray = Array.from({ length: effectiveTotalStages });
-  const earnedStarsCount = Array.isArray(stageStars) ? stageStars.filter(Boolean).length : 0;
+  const earnedCorrectStages = Array.isArray(stageStars) ? stageStars.filter(Boolean).length : 0;
+  const currentEarnedStars = Number((earnedCorrectStages * 0.5).toFixed(1));
   const progressPercent = Math.min(100, Math.max(0, ((stageIndex) / effectiveTotalStages) * 100));
 
-  const totalEarnedStars = Object.values(levelStars || {}).reduce((sum, s) => sum + (Number(s) || 0), 0);
-  const totalMasteredLevels = Object.values(levelStars || {}).filter(s => s === 10 || s === 5).length;
+  const totalEarnedStars = Number(
+    Object.values(levelStars || {}).reduce((sum, s) => {
+      const num = Number(s) || 0;
+      return sum + (num > 5 ? num * 0.5 : num);
+    }, 0).toFixed(1)
+  );
+  const totalMasteredLevels = Object.values(levelStars || {}).filter(s => Number(s) >= 5 || Number(s) === 10).length;
 
   return (
     <header className="sticky top-0 z-40 bg-slate-950/95 backdrop-blur-md border-b border-slate-800 text-white px-3 sm:px-4 py-2.5 shadow-sm select-none safe-top">
@@ -53,51 +59,28 @@ export default function MobileHUD({
           </div>
         )}
 
-        {/* Center: In-Game 10-Star Node Step Meter OR In-Map Stats */}
+        {/* Center: 5-Star Meter with 0.5 per stage OR In-Map Stats */}
         {currentLevel ? (
           <div 
-            className="flex items-center justify-center gap-1 bg-slate-900 px-2.5 py-1 rounded-full border border-slate-800 overflow-x-hidden shrink"
-            title={`ধাপ ${stageIndex + 1}/${effectiveTotalStages} (স্টার: ${earnedStarsCount})`}
+            className="flex items-center justify-center bg-slate-900 px-2.5 py-1 rounded-full border border-slate-800 shrink-0 select-none"
+            title={`ধাপ ${stageIndex + 1}/${effectiveTotalStages} (স্টার: ${currentEarnedStars}/5.0)`}
           >
-            {starsArray.map((_, idx) => {
-              const isPast = idx < stageIndex;
-              const isEarned = isPast && Boolean(stageStars[idx]);
-              const isCurrent = idx === stageIndex;
-
-              return (
-                <div key={idx} className="relative flex items-center justify-center shrink-0">
-                  <Star
-                    className={`w-3.5 h-3.5 transition-all duration-200 shrink-0 ${
-                      isEarned
-                        ? 'text-amber-400 fill-amber-400'
-                        : isCurrent
-                        ? 'text-indigo-400 fill-indigo-400/20 stroke-2'
-                        : isPast
-                        ? 'text-slate-600 stroke-1 opacity-50'
-                        : 'text-slate-700 stroke-1'
-                    }`}
-                  />
-                  {isCurrent && (
-                    <span className="absolute -bottom-1 w-1 h-1 bg-indigo-400 rounded-full animate-ping" />
-                  )}
-                </div>
-              );
-            })}
+            <StarRating stars={currentEarnedStars} maxStars={5} size="sm" />
           </div>
         ) : (
           <div className="flex items-center space-x-2 text-xs font-bold shrink-0">
             {/* Total Stars Collected */}
             <div 
-              className="flex items-center space-x-1.5 bg-amber-500/10 text-amber-400 px-2.5 py-1 rounded-xl border border-amber-500/20 shrink-0"
+              className="flex items-center space-x-1.5 bg-amber-500/10 text-amber-400 px-2.5 py-1.5 rounded-xl border border-amber-500/20 shrink-0"
               title="মোট সংগৃহীত স্টার"
             >
               <Star className="w-3.5 h-3.5 fill-amber-400 shrink-0" />
-              <span className="font-mono text-xs leading-none">{totalEarnedStars}</span>
+              <span className="font-mono text-xs leading-none">{String(totalEarnedStars).replace('.0', '')}</span>
             </div>
 
             {/* Mastered Levels */}
             <div 
-              className="flex items-center space-x-1.5 bg-emerald-500/10 text-emerald-400 px-2.5 py-1 rounded-xl border border-emerald-500/20 shrink-0"
+              className="flex items-center space-x-1.5 bg-emerald-500/10 text-emerald-400 px-2.5 py-1.5 rounded-xl border border-emerald-500/20 shrink-0"
               title="মাস্টার করা লেভেল"
             >
               <Trophy className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
@@ -123,7 +106,7 @@ export default function MobileHUD({
         </div>
       </div>
 
-      {/* In-Game 10-Stage Progress Bar Indicator */}
+      {/* In-Game 10-Stage Progress Bar Indicator with 5-Star scale */}
       {currentLevel && (
         <div className="max-w-md mx-auto w-full mt-2 pt-0.5">
           <div className="flex items-center justify-between text-[11px] font-bold text-slate-400 mb-1 px-0.5 leading-none whitespace-nowrap">
@@ -132,7 +115,7 @@ export default function MobileHUD({
             </span>
             <span className="text-amber-300 flex items-center space-x-1 font-mono">
               <Star className="w-3 h-3 fill-amber-400 text-amber-400 inline shrink-0" />
-              <span>{earnedStarsCount}/{effectiveTotalStages} স্টার</span>
+              <span>{currentEarnedStars.toFixed(1).replace('.0', '')}/5 স্টার (প্রতি ধাপে ০.৫)</span>
             </span>
           </div>
           <div className="w-full bg-slate-800 h-1 rounded-full overflow-hidden">
