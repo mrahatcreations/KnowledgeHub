@@ -109,7 +109,7 @@ export default function MobileHUD({
           </div>
         )}
 
-        {/* Right Side: Sound Toggle & Settings */}
+        {/* Right Side: Sound Toggle */}
         <div className="flex items-center space-x-1.5 shrink-0">
           <button
             onClick={toggleAudio}
@@ -123,17 +123,6 @@ export default function MobileHUD({
               <Volume2 className="w-4 h-4 text-indigo-400 shrink-0" />
             )}
           </button>
-
-          {!currentLevel && (
-            <button
-              onClick={onOpenSettings}
-              className="w-10 h-10 flex items-center justify-center rounded-xl bg-slate-800/90 hover:bg-slate-700 border border-slate-700 text-slate-300 transition active:scale-95 shrink-0"
-              title="গিটহাব সিঙ্ক ও সেটিংস"
-              aria-label="গিটহাব সিঙ্ক ও সেটিংস"
-            >
-              <Settings className="w-4 h-4 shrink-0" />
-            </button>
-          )}
         </div>
       </div>
 

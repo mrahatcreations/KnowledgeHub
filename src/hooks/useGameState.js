@@ -94,12 +94,14 @@ export function useGameState(options = {}) {
   }, [gems, streak, lives]);
 
   /**
-   * Loads levels data from local cache or remote/local JSON endpoint
+   * Loads levels data instantly from local cache/bundle and silently performs
+   * background auto-sync from the GitHub repository.
    */
   const loadLevelsData = useCallback(async () => {
     setIsLoadingLevels(true);
+
+    // 1. Instant local load
     try {
-      // Check cached levels in localStorage first
       const cached = localStorage.getItem(STORAGE_KEY_CACHED_LEVELS);
       if (cached) {
         try {
@@ -107,24 +109,39 @@ export function useGameState(options = {}) {
           if (parsed && Array.isArray(parsed.levels) && parsed.levels.length > 0) {
             setLevels(parsed.levels);
             setIsLoadingLevels(false);
-            return;
           }
-        } catch {
-          // Fall back to network fetch
-        }
+        } catch {}
       }
 
-      const res = await fetch('/data/levels.json');
-      if (res.ok) {
-        const data = await res.json();
-        if (data.levels && Array.isArray(data.levels)) {
-          setLevels(data.levels);
+      const localRes = await fetch('/data/levels.json');
+      if (localRes.ok) {
+        const localData = await localRes.json();
+        if (localData.levels && Array.isArray(localData.levels)) {
+          setLevels(localData.levels);
         }
       }
     } catch (e) {
-      console.warn('Fallback loading levels error:', e);
+      console.warn('Local levels load warning:', e);
     } finally {
       setIsLoadingLevels(false);
+    }
+
+    // 2. Silent background auto-sync from GitHub
+    try {
+      const remoteUrl = 'https://raw.githubusercontent.com/mrahatcreations/VocabMaster/main/data';
+      const versionRes = await fetch(`${remoteUrl}/version.json`, { cache: 'no-store' });
+      if (versionRes.ok) {
+        const levelsRes = await fetch(`${remoteUrl}/levels.json`, { cache: 'no-store' });
+        if (levelsRes.ok) {
+          const remoteData = await levelsRes.json();
+          if (remoteData.levels && Array.isArray(remoteData.levels) && remoteData.levels.length > 0) {
+            localStorage.setItem(STORAGE_KEY_CACHED_LEVELS, JSON.stringify(remoteData));
+            setLevels(remoteData.levels);
+          }
+        }
+      }
+    } catch (err) {
+      // Silent catch: offline mode or network error, game continues smoothly
     }
   }, []);
 

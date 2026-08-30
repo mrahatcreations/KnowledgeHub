@@ -12,7 +12,6 @@ import OddOneOutStage from './components/stages/OddOneOutStage';
 
 import AnswerRevealModal from './components/modals/AnswerRevealModal';
 import CompletionModal from './components/modals/CompletionModal';
-import SyncModal from './components/modals/SyncModal';
 
 import { STAGE_TYPES } from './engine/GameEngine';
 import { useGameState } from './hooks/useGameState';
@@ -28,14 +27,10 @@ export default function App() {
   const {
     // Levels & Loading
     levels,
-    loadLevelsData,
 
     // Progression
     unlockedLevel,
     levelStars,
-    streak,
-    gems,
-    lives,
 
     // Active Level / 10-Stage Session
     currentLevel,
@@ -56,11 +51,9 @@ export default function App() {
     handleRetryLevel,
     handleBackToMap,
 
-    // Navigation & Modals
+    // Navigation
     activeTab,
     setActiveTab,
-    isSettingsOpen,
-    setIsSettingsOpen,
     toastMessage
   } = useGameState({ soundController });
 
@@ -75,7 +68,6 @@ export default function App() {
           isAudioMuted={isAudioMuted}
           setIsAudioMuted={setIsAudioMuted}
           onBackToMap={handleBackToMap}
-          onOpenSettings={() => setIsSettingsOpen(true)}
           levelStars={levelStars}
           unlockedLevel={unlockedLevel}
         />
@@ -127,7 +119,6 @@ export default function App() {
           <BottomNav 
             activeTab={activeTab} 
             setActiveTab={setActiveTab} 
-            onOpenSync={() => setIsSettingsOpen(true)} 
           />
         )}
 
@@ -159,14 +150,6 @@ export default function App() {
             onNextLevel={handleNextLevel}
             onRetryLevel={handleRetryLevel}
             onBackToMap={handleBackToMap}
-          />
-        )}
-
-        {isSettingsOpen && (
-          <SyncModal
-            totalLevels={levels.length}
-            onClose={() => setIsSettingsOpen(false)}
-            onReloadLevels={loadLevelsData}
           />
         )}
       </div>
