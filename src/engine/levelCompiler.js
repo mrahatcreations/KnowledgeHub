@@ -118,12 +118,12 @@ export function getRandomDistractors(allItems, currentItem, count = 3, key = 'me
       'মূল্যায়ন',
       'পরিবর্তনশীল',
       'সংরক্ষণ করা',
-      'বাস্তবায়ন করা',
-      'পরিমাপ করা',
-      'সমন্বয় সাধন করা',
-      'শক্তিশালী করা',
-      'স্পষ্ট করা',
-      'রূপান্তর করা'
+      'ব্যাখ্যা করা',
+      'প্রতিষ্ঠা করা',
+      'প্রভাব বিস্তার করা',
+      'রূপান্তর করা',
+      'উৎসাহিত করা',
+      'পুনর্বিবেচনা করা'
     ],
     word: [
       'Facilitate',
@@ -212,14 +212,22 @@ export function generateMatchingStage(allItems, stageMeta = {}, targetItem = nul
  */
 export function generateDragDropStage(item, allItems, stageMeta = {}) {
   const sentence = item.sentence || '';
-  const targetWord = item.word;
+  const targetWord = item.word || '';
 
   let maskedSentence = '';
-  if (sentence && sentence.toLowerCase().includes(targetWord.toLowerCase())) {
+  if (sentence && targetWord && sentence.toLowerCase().includes(targetWord.toLowerCase())) {
     const escapedTarget = targetWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    maskedSentence = sentence.replace(new RegExp(`\\b${escapedTarget}\\b`, 'gi'), '_______');
-    if (!maskedSentence.includes('_______')) {
-      maskedSentence = sentence.replace(new RegExp(escapedTarget, 'i'), '_______');
+    try {
+      maskedSentence = sentence.replace(new RegExp('\\b' + escapedTarget + '\\b', 'gi'), '_______');
+    } catch (e) {
+      maskedSentence = '';
+    }
+    if (!maskedSentence || !maskedSentence.includes('_______')) {
+      try {
+        maskedSentence = sentence.replace(new RegExp(escapedTarget, 'i'), '_______');
+      } catch (e) {
+        maskedSentence = '';
+      }
     }
   }
 
@@ -350,7 +358,7 @@ export function buildStageByType(type, item, allItems, stageMeta = {}) {
  * 
  * - Iteration 1: Stages 1-5 covering Words 1-5 across the 5 core game modes.
  * - Iteration 2: Stages 6-10 covering Words 1-5 with swapped game modes.
- * - Cross-stage randomization on retry (isRetry = true).
+ * - Full cross-stage randomization on retry (isRetry = true).
  * 
  * @param {Object} level - The level object containing raw items
  * @param {boolean} isRetry - Whether this is a retry attempt (triggers full cross-stage shuffle)
