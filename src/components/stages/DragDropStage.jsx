@@ -133,12 +133,12 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
           <div className="flex items-center space-x-2">
             <span className="px-2.5 py-0.5 bg-indigo-500/15 text-indigo-300 text-[11px] sm:text-xs font-bold rounded-full uppercase tracking-wider flex items-center space-x-1.5 border border-indigo-500/20">
               <Sparkles className="w-3.5 h-3.5 text-indigo-400" />
-              <span>বাক্য সম্পূর্ণকরণ</span>
+              <span>Sentence Completion</span>
             </span>
 
             {isSecondChance && (
               <span className="px-2 py-0.5 bg-amber-500/15 text-amber-300 text-[10px] sm:text-[11px] font-bold rounded-full border border-amber-500/30">
-                ২য় সুযোগ (০ স্টার)
+                2nd Chance (0 Stars)
               </span>
             )}
           </div>
@@ -146,10 +146,10 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
           <button
             onClick={handleSpeak}
             className="p-1.5 sm:p-2 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white rounded-full transition shadow-xs active:scale-95 flex items-center space-x-1"
-            title="বাক্যের ইংরেজি উচ্চারণ শুনুন"
+            title="Listen sentence pronunciation"
           >
             <Volume2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-            <span className="text-[10px] sm:text-[11px] font-semibold hidden sm:inline">উচ্চারণ</span>
+            <span className="text-[10px] sm:text-[11px] font-semibold hidden sm:inline">Listen</span>
           </button>
         </div>
 
@@ -188,7 +188,7 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
                       )}
                       {feedbackState === 'idle' && (
                         <span 
-                          title="মুছে ফেলতে ট্যাপ করুন" 
+                          title="Tap to remove" 
                           className="p-0.5 hover:bg-white/20 rounded-full transition ml-0.5 shrink-0"
                         >
                           <Undo2 className="w-3.5 h-3.5 text-indigo-200" />
@@ -198,7 +198,7 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
                   ) : (
                     <span className="flex items-center space-x-1 text-[11px] sm:text-xs font-semibold text-slate-400">
                       <ArrowDownCircle className="w-3.5 h-3.5 text-indigo-400 shrink-0" />
-                      <span>এখানে বসাও</span>
+                      <span>Place here</span>
                     </span>
                   )}
                 </span>
@@ -211,7 +211,7 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
         {stage.item?.meaning && (
           <div className="mt-3 pt-2.5 border-t border-slate-800 flex items-center justify-center space-x-1.5 text-xs text-slate-400 font-medium">
             <Lightbulb className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-            <span>শব্দের বাংলা অর্থ: <strong className="text-amber-300 font-bold">{stage.item.meaning}</strong></span>
+            <span>Meaning: <strong className="text-amber-300 font-bold">{stage.item.meaning}</strong></span>
           </div>
         )}
       </div>
@@ -220,7 +220,7 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
       <div className="p-3.5 sm:p-4 rounded-2xl bg-slate-900/90 border border-slate-800 text-center shadow-sm">
         <div className="flex items-center justify-center space-x-1.5 text-[11px] sm:text-xs text-slate-400 font-semibold mb-3">
           <MousePointerClick className="w-3.5 h-3.5 text-indigo-400 shrink-0" />
-          <span>টেনে এনে বসাও অথবা ট্যাপ করে নির্বাচন করো:</span>
+          <span>Tap or drag words to place in the slot:</span>
         </div>
 
         {/* Word Chips */}
@@ -260,10 +260,10 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
             onClick={handleRemovePlacedWord}
             disabled={isSubmitting}
             className="p-3 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-300 font-bold text-xs flex items-center justify-center space-x-1.5 transition active:scale-95 shrink-0"
-            title="শব্দটি ফিরিয়ে নাও"
+            title="Remove placed word"
           >
             <RotateCcw className="w-3.5 h-3.5 text-slate-400 shrink-0" />
-            <span className="hidden sm:inline">মুছে ফেলুন</span>
+            <span className="hidden sm:inline">Clear</span>
           </button>
         )}
 
@@ -279,10 +279,10 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
           <CheckCircle2 className="w-4 h-4 text-white/90 shrink-0" />
           <span className="truncate">
             {feedbackState === 'correct'
-              ? 'সঠিক উত্তর! এগিয়ে চলুন...'
+              ? 'Correct! Proceeding...'
               : feedbackState === 'wrong'
-              ? 'ভুল উত্তর!'
-              : 'উত্তর নিশ্চিত করো (Check Answer)'}
+              ? 'Incorrect!'
+              : 'Check Answer'}
           </span>
         </button>
       </div>

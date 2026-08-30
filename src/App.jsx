@@ -60,8 +60,8 @@ export default function App() {
   } = useGameState({ soundController });
 
   return (
-    <div className="min-h-screen min-h-[100dvh] w-full max-w-[100vw] bg-slate-950 text-slate-100 flex flex-col items-center selection:bg-indigo-500 selection:text-white font-sans antialiased overflow-x-hidden touch-manipulation">
-      <div className="max-w-md mx-auto w-full min-h-screen min-h-[100dvh] flex flex-col relative overflow-x-hidden">
+    <div className="min-h-screen w-full bg-slate-950 text-slate-100 flex flex-col items-center selection:bg-indigo-500 selection:text-white font-sans antialiased">
+      <div className="max-w-md mx-auto w-full min-h-screen flex flex-col relative">
         <MobileHUD
           currentLevel={currentLevel}
           stageIndex={stageIndex}
@@ -74,7 +74,7 @@ export default function App() {
           unlockedLevel={unlockedLevel}
         />
 
-        <main className={`flex-1 flex flex-col justify-start py-4 px-3 sm:px-4 max-w-md w-full mx-auto ${!currentLevel ? 'pb-24' : 'pb-6'}`}>
+        <main className={`flex-1 flex flex-col justify-start py-3 px-3 sm:px-4 max-w-md w-full mx-auto ${!currentLevel ? 'pb-32' : 'pb-8'}`}>
           {!currentLevel ? (
             <>
               {activeTab === 'path' && (

@@ -4,8 +4,8 @@ import { sound } from '../audio/SoundSynthesizer';
 
 export default function BottomNav({ activeTab, setActiveTab }) {
   const tabs = [
-    { id: 'path', label: 'গেম পাথ (২০১ লেভেল)', icon: Compass },
-    { id: 'vocab', label: 'শব্দকোষ (১,০০৫ শব্দ)', icon: BookOpen }
+    { id: 'path', label: 'Saga Path (201 Levels)', icon: Compass },
+    { id: 'vocab', label: 'Word Vault (1,005 Words)', icon: BookOpen }
   ];
 
   return (

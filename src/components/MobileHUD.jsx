@@ -41,11 +41,11 @@ export default function MobileHUD({
           <button
             onClick={onBackToMap}
             className="h-9 px-3 flex items-center justify-center space-x-1.5 rounded-xl bg-slate-800/90 hover:bg-slate-700 active:scale-95 transition border border-slate-700 text-slate-200 shrink-0"
-            title="লেভেল ম্যাপে ফিরে যান"
-            aria-label="লেভেল ম্যাপে ফিরে যান"
+            title="Back to Map"
+            aria-label="Back to Map"
           >
             <ArrowLeft className="w-4 h-4 text-indigo-400 shrink-0" />
-            <span className="text-xs font-bold font-mono">লেভেল {currentLevel.level_id}</span>
+            <span className="text-xs font-bold font-mono">Level {currentLevel.level_id}</span>
           </button>
         ) : (
           <div className="flex items-center space-x-2.5 shrink-0">
@@ -54,7 +54,7 @@ export default function MobileHUD({
             </div>
             <div className="flex flex-col shrink-0">
               <span className="font-bold text-sm tracking-tight text-white leading-tight">VocabMaster</span>
-              <span className="text-[9px] font-semibold text-slate-400 uppercase tracking-wider leading-none">২০১টি লেভেল</span>
+              <span className="text-[9px] font-semibold text-slate-400 uppercase tracking-wider leading-none">201 Levels</span>
             </div>
           </div>
         )}
@@ -63,7 +63,7 @@ export default function MobileHUD({
         {currentLevel ? (
           <div 
             className="flex items-center justify-center bg-slate-900 px-2.5 py-1 rounded-full border border-slate-800 shrink-0 select-none"
-            title={`ধাপ ${stageIndex + 1}/${effectiveTotalStages} (স্টার: ${currentEarnedStars}/5.0)`}
+            title={`Stage ${stageIndex + 1}/${effectiveTotalStages} (Stars: ${currentEarnedStars}/5.0)`}
           >
             <StarRating stars={currentEarnedStars} maxStars={5} size="sm" />
           </div>
@@ -72,7 +72,7 @@ export default function MobileHUD({
             {/* Total Stars Collected */}
             <div 
               className="flex items-center space-x-1.5 bg-amber-500/10 text-amber-400 px-2.5 py-1.5 rounded-xl border border-amber-500/20 shrink-0"
-              title="মোট সংগৃহীত স্টার"
+              title="Total Stars Collected"
             >
               <Star className="w-3.5 h-3.5 fill-amber-400 shrink-0" />
               <span className="font-mono text-xs leading-none">{String(totalEarnedStars).replace('.0', '')}</span>
@@ -81,7 +81,7 @@ export default function MobileHUD({
             {/* Mastered Levels */}
             <div 
               className="flex items-center space-x-1.5 bg-emerald-500/10 text-emerald-400 px-2.5 py-1.5 rounded-xl border border-emerald-500/20 shrink-0"
-              title="মাস্টার করা লেভেল"
+              title="Mastered Levels"
             >
               <Trophy className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
               <span className="font-mono text-xs leading-none">{totalMasteredLevels}</span>
@@ -94,8 +94,8 @@ export default function MobileHUD({
           <button
             onClick={toggleAudio}
             className="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-300 transition active:scale-95 shrink-0"
-            title={isAudioMuted ? 'শব্দ চালু করুন' : 'শব্দ বন্ধ করুন'}
-            aria-label={isAudioMuted ? 'শব্দ চালু করুন' : 'শব্দ বন্ধ করুন'}
+            title={isAudioMuted ? 'Unmute Sound' : 'Mute Sound'}
+            aria-label={isAudioMuted ? 'Unmute Sound' : 'Mute Sound'}
           >
             {isAudioMuted ? (
               <VolumeX className="w-4 h-4 text-rose-400 shrink-0" />
@@ -111,11 +111,11 @@ export default function MobileHUD({
         <div className="max-w-md mx-auto w-full mt-2 pt-0.5">
           <div className="flex items-center justify-between text-[11px] font-bold text-slate-400 mb-1 px-0.5 leading-none whitespace-nowrap">
             <span className="text-indigo-300 font-medium">
-              ধাপ {stageIndex + 1}/{effectiveTotalStages}
+              Stage {stageIndex + 1}/{effectiveTotalStages}
             </span>
             <span className="text-amber-300 flex items-center space-x-1 font-mono">
               <Star className="w-3 h-3 fill-amber-400 text-amber-400 inline shrink-0" />
-              <span>{currentEarnedStars.toFixed(1).replace('.0', '')}/5 স্টার (প্রতি ধাপে ০.৫)</span>
+              <span>{currentEarnedStars.toFixed(1).replace('.0', '')}/5 Stars (0.5/stage)</span>
             </span>
           </div>
           <div className="w-full bg-slate-800 h-1 rounded-full overflow-hidden">

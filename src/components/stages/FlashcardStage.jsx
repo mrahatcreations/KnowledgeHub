@@ -142,7 +142,7 @@ export default function FlashcardStage({ stage, onSubmitAnswer, isSecondChance }
           }
         }}
         className="perspective-1000 w-full cursor-pointer group outline-none rounded-2xl"
-        title="কার্ড উল্টাতে ক্লিক করুন"
+        title="Click to flip card"
       >
         <div
           className={`relative w-full min-h-[200px] sm:min-h-[230px] rounded-2xl transition-transform duration-500 transform-style-3d ${
@@ -163,7 +163,7 @@ export default function FlashcardStage({ stage, onSubmitAnswer, isSecondChance }
                 type="button"
                 onClick={handleSpeak}
                 className="group/speak flex items-center space-x-1.5 px-3 py-1 rounded-full bg-slate-800 hover:bg-slate-700 border border-slate-700 text-indigo-300 hover:text-white shadow-xs active:scale-95 transition cursor-pointer"
-                title="সঠিক উচ্চারণ শুনুন"
+                title="Listen pronunciation"
               >
                 <Volume2 className={`w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform ${isSpeaking ? 'text-amber-400 scale-110' : ''}`} />
                 <span className="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider">Listen</span>
@@ -176,7 +176,7 @@ export default function FlashcardStage({ stage, onSubmitAnswer, isSecondChance }
                 {stage.item?.word}
               </h2>
               <p className="text-xs text-slate-400 mt-1 font-medium break-words">
-                কার্ডে ট্যাপ করে বাংলা অর্থ ও বিস্তারিত দেখুন
+                Tap card to reveal definition & details
               </p>
             </div>
 
@@ -184,7 +184,7 @@ export default function FlashcardStage({ stage, onSubmitAnswer, isSecondChance }
             <div className="relative z-10 flex items-center justify-center">
               <div className="inline-flex items-center space-x-1.5 px-3 py-0.5 rounded-full bg-slate-800/80 border border-slate-700/60 text-slate-400 text-[11px] sm:text-xs font-medium">
                 <RotateCw className="w-3 h-3 text-slate-400" />
-                <span>উল্টাতে ট্যাপ করুন</span>
+                <span>Tap to flip</span>
               </div>
             </div>
           </div>
@@ -195,7 +195,7 @@ export default function FlashcardStage({ stage, onSubmitAnswer, isSecondChance }
             <div className="relative z-10 flex items-center justify-between text-xs">
               <div className="flex items-center space-x-1.5 text-amber-400 font-bold tracking-wider uppercase text-[10px] sm:text-[11px]">
                 <Sparkles className="w-3.5 h-3.5 text-amber-400 fill-amber-400" />
-                <span>শব্দের অর্থ ও বিবরণ</span>
+                <span>Definition & Details</span>
               </div>
               <div className="px-2.5 py-0.5 rounded-full bg-slate-800 border border-slate-700 text-indigo-300 font-bold text-[10px] sm:text-xs font-mono max-w-[120px] truncate">
                 {stage.item?.word}
@@ -253,7 +253,7 @@ export default function FlashcardStage({ stage, onSubmitAnswer, isSecondChance }
             <div className="relative z-10 flex items-center justify-center">
               <div className="inline-flex items-center space-x-1.5 text-slate-400 text-[11px] sm:text-xs font-medium">
                 <RotateCw className="w-3 h-3 text-slate-400" />
-                <span>আবার উল্টাতে ট্যাপ করুন</span>
+                <span>Tap to flip back</span>
               </div>
             </div>
           </div>
@@ -274,12 +274,12 @@ export default function FlashcardStage({ stage, onSubmitAnswer, isSecondChance }
             <div className="p-1.5 rounded-lg bg-indigo-600/15 text-indigo-400 border border-indigo-500/20 shrink-0">
               <HelpCircle className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
             </div>
-            <span className="break-words">{stage.question || `"${stage.item?.word}" শব্দটির সঠিক বাংলা অর্থ কোনটি?`}</span>
+            <span className="break-words">{stage.question || `Select the correct meaning of "${stage.item?.word}"`}</span>
           </div>
 
           {(isSecondChance || wrongOptions.length > 0) && (
             <span className="shrink-0 px-2.5 py-0.5 bg-amber-500/15 border border-amber-500/30 text-amber-300 text-[10px] sm:text-[11px] font-bold rounded-full whitespace-nowrap">
-              ২য় সুযোগ (0 Star)
+              2nd Chance (0 Stars)
             </span>
           )}
         </div>

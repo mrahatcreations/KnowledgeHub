@@ -51,10 +51,10 @@ export default function CompletionModal({
             {isMastered ? (
               <>
                 <Sparkles className="w-4 h-4 text-amber-400 shrink-0" />
-                <span>৫-স্টার পারফেক্ট মাস্টারি!</span>
+                <span>5-Star Perfect Mastery!</span>
               </>
             ) : (
-              <span>{earnedStarsNum.toFixed(1).replace('.0', '')} / ৫.০ স্টার অর্জিত</span>
+              <span>{earnedStarsNum.toFixed(1).replace('.0', '')} / 5.0 Stars Earned</span>
             )}
           </h2>
 
@@ -65,8 +65,8 @@ export default function CompletionModal({
 
           <p className="text-xs text-slate-300 leading-relaxed px-1">
             {isMastered
-              ? 'অসাধারণ দক্ষতা! সবগুলো ১০টি ধাপে ১ম সুযোগে সঠিক উত্তর দিয়ে পূর্ণ ৫-স্টার (প্রতি ধাপে ০.৫) অর্জন করেছেন।'
-              : `আপনি ৫.০ এর মধ্যে ${earnedStarsNum.toFixed(1).replace('.0', '')} স্টার অর্জন করেছেন। পরবর্তী লেভেলের জন্য পূর্ণ ৫-স্টার প্রয়োজন (প্রতি ধাপে ০.৫ স্টার)।`}
+              ? 'Outstanding performance! You answered all 10 stages correctly on your 1st attempt to achieve full 5.0 Stars (0.5 stars per stage).'
+              : `You scored ${earnedStarsNum.toFixed(1).replace('.0', '')} out of 5.0 Stars. 5.0 Stars required to unlock the next level (0.5 stars per stage).`}
           </p>
         </div>
 
@@ -82,7 +82,7 @@ export default function CompletionModal({
               }`}
             >
               <AlertCircle className="w-3.5 h-3.5 text-rose-400 shrink-0" />
-              <span>ভুলগুলোর সামারি ({mistakes.length})</span>
+              <span>Mistakes Analysis ({mistakes.length})</span>
             </button>
 
             <button
@@ -94,7 +94,7 @@ export default function CompletionModal({
               }`}
             >
               <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
-              <span>ফলাফল ও বিশ্লেষণ</span>
+              <span>Score & Summary</span>
             </button>
           </div>
         )}
@@ -104,7 +104,7 @@ export default function CompletionModal({
           {activeTab === 'mistakes' && mistakes.length > 0 ? (
             <div className="space-y-2.5">
               <div className="text-[11px] text-slate-400 font-medium mb-1">
-                নিচের শব্দগুলোতে ভুল হয়েছিল, রিট্রাই করার আগে শব্দার্থ ও ব্যাখ্যাগুলো দেখে নিন:
+                Review your mistakes before retrying:
               </div>
 
               {mistakes.map((m, idx) => (
@@ -121,14 +121,14 @@ export default function CompletionModal({
                     <button
                       onClick={() => sound.speak(m.word)}
                       className="p-1 text-slate-400 hover:text-white rounded-lg hover:bg-slate-800 transition active:scale-95 cursor-pointer"
-                      title="উচ্চারণ শুনুন"
+                      title="Listen pronunciation"
                     >
                       <Volume2 className="w-3.5 h-3.5" />
                     </button>
                   </div>
 
                   <div className="text-xs text-slate-300 break-words">
-                    <span className="text-slate-400">বাংলা অর্থ:</span>{' '}
+                    <span className="text-slate-400">Meaning:</span>{' '}
                     <span className="text-amber-300 font-bold">{m.meaning}</span>
                   </div>
 
@@ -136,7 +136,7 @@ export default function CompletionModal({
                     <div className="flex items-start gap-1.5 text-xs text-rose-300 bg-rose-950/30 px-2 py-1 rounded-lg border border-rose-500/30 break-words">
                       <XCircle className="w-3.5 h-3.5 mt-0.5 shrink-0 text-rose-400" />
                       <div className="break-words">
-                        <strong>আপনার ভুল উত্তর:</strong> {m.userAnswer}
+                        <strong>Your answer:</strong> {m.userAnswer}
                       </div>
                     </div>
                   )}
@@ -144,7 +144,7 @@ export default function CompletionModal({
                   <div className="flex items-start gap-1.5 text-xs text-emerald-300 bg-emerald-950/30 px-2 py-1 rounded-lg border border-emerald-500/30 break-words">
                     <CheckCircle2 className="w-3.5 h-3.5 mt-0.5 shrink-0 text-emerald-400" />
                     <div className="break-words">
-                      <strong>সঠিক উত্তর:</strong> {m.correctAnswer}
+                      <strong>Correct answer:</strong> {m.correctAnswer}
                     </div>
                   </div>
 
@@ -161,19 +161,19 @@ export default function CompletionModal({
               {/* Performance Metrics Grid */}
               <div className="grid grid-cols-3 gap-2 text-center">
                 <div className="p-2.5 bg-slate-950/70 border border-slate-800 rounded-xl">
-                  <div className="text-[10px] font-bold text-slate-400 uppercase">অর্জিত স্টার</div>
+                  <div className="text-[10px] font-bold text-slate-400 uppercase">Stars Earned</div>
                   <div className="text-sm sm:text-base font-bold text-amber-400 font-mono mt-0.5">
                     {earnedStarsNum.toFixed(1).replace('.0', '')} / 5.0
                   </div>
                 </div>
                 <div className="p-2.5 bg-slate-950/70 border border-slate-800 rounded-xl">
-                  <div className="text-[10px] font-bold text-slate-400 uppercase">সফলতার হার</div>
+                  <div className="text-[10px] font-bold text-slate-400 uppercase">Accuracy</div>
                   <div className="text-sm sm:text-base font-bold text-indigo-400 font-mono mt-0.5">
                     {accuracyPercent}%
                   </div>
                 </div>
                 <div className="p-2.5 bg-slate-950/70 border border-slate-800 rounded-xl">
-                  <div className="text-[10px] font-bold text-slate-400 uppercase">ভুলের সংখ্যা</div>
+                  <div className="text-[10px] font-bold text-slate-400 uppercase">Mistakes</div>
                   <div className="text-sm sm:text-base font-bold text-rose-400 font-mono mt-0.5">
                     {mistakes.length}
                   </div>
@@ -185,12 +185,12 @@ export default function CompletionModal({
                 <div className="p-3 rounded-xl bg-emerald-950/30 border border-emerald-500/30 text-emerald-300 text-xs font-medium flex items-start gap-2 text-left">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
                   <div className="leading-relaxed break-words">
-                    <strong>অভিনন্দন!</strong> আপনি ১০টি ধাপেই ১ম সুযোগে সঠিক উত্তর দিয়ে ৫.০ স্টার অর্জন করেছেন। পরবর্তী লেভেল আনলক হয়েছে এবং ৫০টি রত্ন (Gems) বোনাস যুক্ত হয়েছে।
+                    <strong>Congratulations!</strong> You mastered all 10 stages on your 1st attempt to earn 5.0 Stars. Next level unlocked and +50 Gems bonus awarded!
                   </div>
                 </div>
               ) : (
                 <div className="p-3 rounded-xl bg-amber-950/30 border border-amber-500/30 text-amber-300 text-xs font-medium leading-relaxed text-left break-words">
-                  পরবর্তী লেভেলে যাওয়ার জন্য ১০টি ধাপেই ১ম সুযোগে সঠিক উত্তর দিয়ে পূর্ণ ৫-স্টার (প্রতি ধাপে ০.৫) অর্জন করতে হবে। রিট্রাই করার সময় প্রশ্নের ধরন এবং বিকল্পগুলোর পজিশন স্বয়ংক্রিয়ভাবে অদলবদল হবে যাতে ভোকাবুলারি স্থায়ীভাবে আয়ত্ত হয়।
+                  To unlock the next level, you must answer all 10 stages correctly on your 1st attempt (0.5 star per stage). When retrying, stage modes and options are dynamically scrambled.
                 </div>
               )}
             </div>
@@ -204,7 +204,7 @@ export default function CompletionModal({
               onClick={onNextLevel}
               className="w-full min-h-[44px] py-2.5 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition shadow-sm active:scale-95 cursor-pointer"
             >
-              <span>পরবর্তী লেভেল খেলুন</span>
+              <span>Play Next Level</span>
               <ArrowRight className="w-4 h-4" />
             </button>
           ) : (
@@ -213,7 +213,7 @@ export default function CompletionModal({
               className="w-full min-h-[44px] py-2.5 px-4 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition shadow-sm active:scale-95 cursor-pointer"
             >
               <RefreshCw className="w-4 h-4" />
-              <span>নতুন বিন্যাসে রিট্রাই করুন</span>
+              <span>Retry Level</span>
             </button>
           )}
 
@@ -221,7 +221,7 @@ export default function CompletionModal({
             onClick={onBackToMap}
             className="w-full min-h-[36px] py-2 px-4 rounded-xl text-slate-400 hover:bg-slate-800 hover:text-slate-200 font-semibold text-xs transition cursor-pointer"
           >
-            লেভেল ম্যাপে ফিরে যান
+            Back to Map
           </button>
         </div>
       </div>

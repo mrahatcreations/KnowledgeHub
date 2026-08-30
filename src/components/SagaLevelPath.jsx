@@ -17,35 +17,35 @@ export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSel
   );
 
   const formatUnitName = (u) => {
-    if (u === 'ALL') return 'সব লেভেল';
+    if (u === 'ALL') return 'All Levels';
     const match = u.match(/(?:Unit|Image)\s*[-:]?\s*(\d+)/i);
     if (match) {
-      return `ইউনিট ${match[1]}`;
+      return `Unit ${match[1]}`;
     }
     return u;
   };
 
   return (
-    <div className="w-full max-w-md mx-auto px-4 pb-28 sm:pb-32 pt-3 flex flex-col items-center select-none">
+    <div className="w-full max-w-md mx-auto px-4 pb-28 sm:pb-32 pt-3 flex flex-col items-center">
       {/* Top Banner / Progress Trophy Card */}
       <div className="w-full bg-slate-900/90 rounded-2xl p-4 border border-slate-800 mb-4 shadow-sm flex items-center justify-between">
         <div className="space-y-1">
           <div className="flex items-center space-x-1.5 text-indigo-400 text-xs font-semibold uppercase tracking-wider">
             <Sparkles className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-            <span>শব্দভাণ্ডার অভিযান</span>
+            <span>Vocabulary Journey</span>
           </div>
           <div className="text-sm font-bold text-white flex items-center space-x-2">
             <Trophy className="w-4 h-4 text-amber-400 shrink-0" />
-            <span>দক্ষতা অর্জন: {totalMastered} / {levels.length} লেভেল</span>
+            <span>Mastery: {totalMastered} / {levels.length} Levels</span>
           </div>
           <div className="text-[11px] text-slate-400 font-medium">
-            মোট সংগৃহীত স্টার: <span className="text-amber-400 font-bold font-mono">{String(totalStarsEarned).replace('.0', '')}</span> / {levels.length * 5}
+            Total Stars Collected: <span className="text-amber-400 font-bold font-mono">{String(totalStarsEarned).replace('.0', '')}</span> / {levels.length * 5}
           </div>
         </div>
 
         <div className="flex flex-col items-center justify-center bg-amber-500/10 border border-amber-500/20 px-3 py-2 rounded-xl text-amber-300 shrink-0">
           <Crown className="w-5 h-5 text-amber-400 fill-amber-400" />
-          <span className="text-[10px] font-bold mt-0.5">৫-স্টার লক্ষ্য</span>
+          <span className="text-[10px] font-bold mt-0.5">5-Star Goal</span>
         </div>
       </div>
 
@@ -92,7 +92,7 @@ export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSel
                   className="flex items-center space-x-2 bg-gradient-to-r from-amber-500/15 via-slate-900/95 to-amber-500/15 border border-amber-500/40 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-2xl text-amber-300 text-xs font-bold shadow-[0_0_12px_rgba(245,158,11,0.2)] my-1 animate-float"
                 >
                   <Gift className="w-4 h-4 text-amber-400 shrink-0" />
-                  <span>মাইলস্টোন রিওয়ার্ড #{lvl.level_id / 5} (+৫০ Gems)</span>
+                  <span>Milestone Reward #{lvl.level_id / 5} (+50 Gems)</span>
                 </div>
               )}
 
@@ -158,7 +158,7 @@ export default function SagaLevelPath({ levels, unlockedLevel, levelStars, onSel
                 {/* Current Active Level Tooltip Indicator */}
                 {isCurrent && (
                   <div className="absolute -bottom-6 whitespace-nowrap bg-indigo-600 text-white text-[10px] font-bold px-2.5 py-0.5 rounded-full shadow-[0_0_12px_rgba(99,102,241,0.6)] border border-indigo-300 animate-bounce pointer-events-none z-10">
-                    বর্তমান লেভেল
+                    Current Level
                   </div>
                 )}
               </div>

@@ -124,9 +124,9 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
               <Link2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
             </div>
             <div className="min-w-0 flex-1">
-              <span className="text-xs sm:text-sm font-bold text-white tracking-wide truncate block">জোড়া মেলানোর অগ্রগতি</span>
+              <span className="text-xs sm:text-sm font-bold text-white tracking-wide truncate block">Matching Progress</span>
               <div className="text-[10px] sm:text-[11px] text-slate-400 font-medium truncate block">
-                বাম ও ডান পাশ থেকে সঠিক জোড়া নির্বাচন করুন
+                Select matching pairs from left and right columns
               </div>
             </div>
           </div>
@@ -138,7 +138,7 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
               : 'bg-slate-800 border-slate-700 text-indigo-300'
           }`}>
             <Sparkles className={`w-3 h-3 ${matchedCount === totalPairs ? 'text-amber-400 fill-amber-400' : 'text-indigo-400'}`} />
-            <span>{toBnDigits(matchedCount)} / {toBnDigits(totalPairs)} জোড়া</span>
+            <span>{matchedCount} / {totalPairs} Pairs</span>
           </div>
         </div>
 
@@ -155,7 +155,7 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
       {(hadMistake || isSecondChance) && !isFinished && (
         <div className="p-2 sm:p-2.5 rounded-xl bg-amber-500/10 border border-amber-400/30 text-amber-300 text-[11px] sm:text-xs font-semibold flex items-center justify-center space-x-2">
           <AlertCircle className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-          <span>ভুল মিলকরণ হয়েছে! সতর্কভাবে বাকি জোড়াগুলো মেলান (২য় সুযোগ)</span>
+          <span>Incorrect match! Carefully match the remaining pairs (2nd Chance)</span>
         </div>
       )}
 
@@ -163,7 +163,7 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
       {isFinished && (
         <div className="p-2.5 rounded-xl bg-emerald-500/15 border border-emerald-400/30 text-emerald-200 text-xs sm:text-sm font-bold flex items-center justify-center space-x-2 animate-pop">
           <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
-          <span>চমৎকার! সবকটি জোড়া সফলভাবে মেলানো সম্পন্ন হয়েছে!</span>
+          <span>Excellent! All pairs successfully matched!</span>
         </div>
       )}
 
@@ -174,7 +174,7 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
           <div className="flex items-center justify-between px-1">
             <span className="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-indigo-400 flex items-center space-x-1 truncate">
               <span className="w-1.5 h-1.5 rounded-full bg-indigo-400 shrink-0 inline-block" />
-              <span className="truncate">ইংরেজি শব্দ</span>
+              <span className="truncate">English Words</span>
             </span>
             <span className="text-[9px] sm:text-[10px] text-slate-500 font-bold font-mono shrink-0">EN</span>
           </div>
@@ -223,7 +223,7 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
                         type="button"
                         onClick={(e) => handleSpeakOnly(e, item.text)}
                         className="p-1 rounded-lg text-slate-400 hover:text-indigo-300 hover:bg-slate-800 transition shrink-0"
-                        title="উচ্চারণ শুনুন"
+                        title="Listen pronunciation"
                       >
                         <Volume2 className="w-3.5 h-3.5" />
                       </button>
@@ -235,14 +235,14 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
           </div>
         </div>
 
-        {/* Right Column (Bengali Meanings) */}
+        {/* Right Column (Meanings / Definitions) */}
         <div className="flex flex-col space-y-2">
           <div className="flex items-center justify-between px-1">
             <span className="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-teal-400 flex items-center space-x-1 truncate">
               <span className="w-1.5 h-1.5 rounded-full bg-teal-400 shrink-0 inline-block" />
-              <span className="truncate">বাংলা অর্থ</span>
+              <span className="truncate">Meaning / Definition</span>
             </span>
-            <span className="text-[9px] sm:text-[10px] text-slate-500 font-bold font-mono shrink-0">BN</span>
+            <span className="text-[9px] sm:text-[10px] text-slate-500 font-bold font-mono shrink-0">DEF</span>
           </div>
 
           <div className="flex flex-col space-y-2">

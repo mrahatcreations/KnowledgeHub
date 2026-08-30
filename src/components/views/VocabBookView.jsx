@@ -61,16 +61,16 @@ export default function VocabBookView({ levels, levelStars }) {
   };
 
   return (
-    <div className="w-full max-w-md mx-auto px-4 pb-32 pt-2 select-none animate-pop">
+    <div className="w-full max-w-md mx-auto px-4 pb-32 pt-2 animate-pop">
       {/* Header */}
       <div className="bg-slate-900/90 rounded-2xl p-4 border border-slate-800 mb-4 shadow-sm">
         <div className="flex items-center space-x-2 text-indigo-400 text-xs font-semibold uppercase tracking-wider mb-1">
           <BookOpen className="w-4 h-4 text-indigo-400" />
-          <span>ডিজিটাল শব্দকোষ ও লেকচার ডিকশনারি</span>
+          <span>Digital Word Vault & Dictionary</span>
         </div>
-        <h2 className="text-xl font-bold text-white tracking-tight">ভোকাবুলারি বুক</h2>
+        <h2 className="text-xl font-bold text-white tracking-tight">Vocabulary Vault</h2>
         <p className="text-xs text-slate-400 mt-0.5">
-          মোট <span className="text-amber-400 font-bold font-mono">{allVocabItems.length}</span> টি ইংরেজি শব্দ ও বাংলা অর্থ
+          Total <span className="text-amber-400 font-bold font-mono">{allVocabItems.length}</span> English vocabulary words
         </p>
 
         {/* Search Input Bar */}
@@ -80,7 +80,7 @@ export default function VocabBookView({ levels, levelStars }) {
             type="text"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            placeholder="ইংরেজি শব্দ বা বাংলা অর্থ অনুসন্ধান করুন..."
+            placeholder="Search English words, meanings, or synonyms..."
             className="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-950/80 border border-slate-700/80 text-xs sm:text-sm font-medium text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition"
           />
         </div>
@@ -101,7 +101,7 @@ export default function VocabBookView({ levels, levelStars }) {
                 : 'bg-slate-900 border border-slate-800 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
             }`}
           >
-            {u === 'ALL' ? 'সব শব্দ' : u.replace(/Image\s*(\d+):?/i, 'ইউনিট $1').replace(/Unit-(\d+)/i, 'ইউনিট $1')}
+            {u === 'ALL' ? 'All Words' : u.replace(/Image\s*(\d+):?/i, 'Unit $1').replace(/Unit-(\d+)/i, 'Unit $1')}
           </button>
         ))}
       </div>
@@ -137,7 +137,7 @@ export default function VocabBookView({ levels, levelStars }) {
                   <button
                     onClick={() => sound.speak(item.word)}
                     className="p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-indigo-400 transition active:scale-90"
-                    title="উচ্চারণ শুনুন"
+                    title="Listen pronunciation"
                   >
                     <Volume2 className="w-4 h-4" />
                   </button>
@@ -145,7 +145,7 @@ export default function VocabBookView({ levels, levelStars }) {
                   <button
                     onClick={() => toggleBookmark(item.word)}
                     className="p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-amber-400 transition active:scale-90"
-                    title={isBookmarked ? "বুকমার্ক সরান" : "বুকমার্ক যোগ করুন"}
+                    title={isBookmarked ? "Remove bookmark" : "Add bookmark"}
                   >
                     {isBookmarked ? (
                       <BookmarkCheck className="w-4 h-4 fill-amber-400" />
@@ -179,7 +179,7 @@ export default function VocabBookView({ levels, levelStars }) {
 
         {filteredItems.length === 0 && (
           <div className="text-center py-12 text-slate-500 text-sm">
-            কোনো শব্দ খুঁজে পাওয়া যায়নি।
+            No words found matching your search.
           </div>
         )}
       </div>
