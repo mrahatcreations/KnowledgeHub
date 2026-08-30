@@ -105,35 +105,53 @@ export function useGameState(options = {}) {
   }, [gems, streak, lives]);
 
   /**
-   * Loads fresh levels data from local bundle v2.1.0
+   * Loads fresh levels & learning data from GitHub CDN with instant local cache and offline fallback
    */
   const loadLevelsData = useCallback(async () => {
-    setIsLoadingLevels(true);
-
+    // 1. Instant Cache Hydration: Render immediately if cached
     try {
-      // Remove deprecated old cached key if present
-      localStorage.removeItem('vocabmaster_cached_levels');
-
-      const localRes = await fetch('/data/levels.json?v=' + Date.now(), { cache: 'no-cache' });
-      if (localRes.ok) {
-        const localData = await localRes.json();
-        if (localData.levels && Array.isArray(localData.levels)) {
-          localStorage.setItem(STORAGE_KEY_CACHED_LEVELS, JSON.stringify(localData));
-          setLevels(localData.levels);
-          return;
-        }
-      }
-
-      // Fallback to cache if network error
       const cached = localStorage.getItem(STORAGE_KEY_CACHED_LEVELS);
       if (cached) {
         const parsed = JSON.parse(cached);
-        if (parsed && Array.isArray(parsed.levels)) {
+        if (parsed && Array.isArray(parsed.levels) && parsed.levels.length > 0) {
           setLevels(parsed.levels);
+          setIsLoadingLevels(false);
+        }
+      }
+    } catch (e) {}
+
+    const GITHUB_LEVELS_URL = 'https://raw.githubusercontent.com/mrahatcreations/VocabMaster/main/public/data/levels.json';
+
+    try {
+      // 2. Fetch latest data from GitHub Cloud CDN
+      let dataLoaded = false;
+      try {
+        const remoteRes = await fetch(`${GITHUB_LEVELS_URL}?v=${Date.now()}`, { cache: 'no-cache' });
+        if (remoteRes.ok) {
+          const remoteData = await remoteRes.json();
+          if (remoteData.levels && Array.isArray(remoteData.levels) && remoteData.levels.length > 0) {
+            localStorage.setItem(STORAGE_KEY_CACHED_LEVELS, JSON.stringify(remoteData));
+            setLevels(remoteData.levels);
+            dataLoaded = true;
+          }
+        }
+      } catch (networkErr) {
+        // Network offline or GitHub unreachable
+      }
+
+      // 3. If remote failed and not yet loaded, try local bundle fallback
+      if (!dataLoaded) {
+        const localRes = await fetch('/data/levels.json?v=' + Date.now(), { cache: 'no-cache' });
+        if (localRes.ok) {
+          const localData = await localRes.json();
+          if (localData.levels && Array.isArray(localData.levels)) {
+            localStorage.setItem(STORAGE_KEY_CACHED_LEVELS, JSON.stringify(localData));
+            setLevels(localData.levels);
+          }
         }
       }
     } catch (e) {
-      console.warn('Local levels load warning:', e);
+      console.warn('Game data sync note:', e);
     } finally {
       setIsLoadingLevels(false);
     }

@@ -99,8 +99,21 @@ class AudioPackManager {
       } catch (e) {}
     }
 
-    // 2. Local dev server / bundle fallback
-    return `${LOCAL_BASE}/${filename}`;
+    // 2. Return GitHub CDN URL & cache in background for offline use
+    const cdnUrl = `${GITHUB_CDN_BASE}/${filename}`;
+    if (typeof window !== 'undefined' && 'caches' in window) {
+      // Background non-blocking cache
+      fetch(cdnUrl)
+        .then(async (res) => {
+          if (res.ok) {
+            const cache = await caches.open(CACHE_NAME);
+            await cache.put(`${LOCAL_BASE}/${filename}`, res.clone());
+          }
+        })
+        .catch(() => {});
+    }
+
+    return cdnUrl;
   }
 
   /**

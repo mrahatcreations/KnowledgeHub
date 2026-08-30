@@ -111,8 +111,30 @@ function audioLoggerPlugin() {
   }
 }
 
+function excludeHeavyAudioPlugin() {
+  return {
+    name: 'exclude-heavy-audio',
+    closeBundle() {
+      const distAudio = path.resolve(process.cwd(), 'dist', 'audio');
+      if (fs.existsSync(distAudio)) {
+        const files = fs.readdirSync(distAudio);
+        let removed = 0;
+        for (const file of files) {
+          if (file.endsWith('.opus') || file.endsWith('.mp3')) {
+            try {
+              fs.unlinkSync(path.join(distAudio, file));
+              removed++;
+            } catch (e) {}
+          }
+        }
+        console.log(`✨ Ultra-thin installer: Excluded ${removed} offline audio files from dist.`);
+      }
+    }
+  };
+}
+
 export default defineConfig({
-  plugins: [react(), tailwindcss(), audioLoggerPlugin()],
+  plugins: [react(), tailwindcss(), audioLoggerPlugin(), excludeHeavyAudioPlugin()],
   server: {
     watch: {
       ignored: ['**/android/**', '**/dist/**', '**/*.apk', '**/audio_debug.log']
@@ -124,3 +146,4 @@ export default defineConfig({
     emptyOutDir: false
   }
 })
+
