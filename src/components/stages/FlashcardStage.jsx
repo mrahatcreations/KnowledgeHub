@@ -2,15 +2,11 @@ import React, { useState, useRef } from 'react';
 import { Volume2, RotateCw, HelpCircle, CheckCircle2, XCircle, Sparkles } from 'lucide-react';
 import { sound } from '../../audio/SoundSynthesizer';
 
-/**
- * Helper to get POS badge configuration with distinct colors:
- * Noun: Blue, Verb: Emerald, Adjective: Purple, Adverb: Amber
- */
 function getPosConfig(pos) {
   if (!pos) {
     return {
       label: 'VOCAB',
-      badgeClass: 'bg-indigo-500/15 text-indigo-300 border-indigo-400/30 ring-1 ring-indigo-500/20',
+      badgeClass: 'bg-indigo-500/10 text-indigo-300 border-indigo-500/20',
       dotClass: 'bg-indigo-400'
     };
   }
@@ -19,42 +15,39 @@ function getPosConfig(pos) {
   if (p === 'n' || p.startsWith('noun')) {
     return {
       label: 'NOUN',
-      badgeClass: 'bg-blue-500/15 text-blue-300 border-blue-400/30 ring-1 ring-blue-500/20',
+      badgeClass: 'bg-blue-500/10 text-blue-300 border-blue-500/20',
       dotClass: 'bg-blue-400'
     };
   }
   if (p === 'v' || p.startsWith('verb')) {
     return {
       label: 'VERB',
-      badgeClass: 'bg-emerald-500/15 text-emerald-300 border-emerald-400/30 ring-1 ring-emerald-500/20',
+      badgeClass: 'bg-emerald-500/10 text-emerald-300 border-emerald-500/20',
       dotClass: 'bg-emerald-400'
     };
   }
   if (p === 'adj' || p.startsWith('adject')) {
     return {
       label: 'ADJECTIVE',
-      badgeClass: 'bg-purple-500/15 text-purple-300 border-purple-400/30 ring-1 ring-purple-500/20',
+      badgeClass: 'bg-purple-500/10 text-purple-300 border-purple-500/20',
       dotClass: 'bg-purple-400'
     };
   }
   if (p === 'adv' || p.startsWith('adverb')) {
     return {
       label: 'ADVERB',
-      badgeClass: 'bg-amber-500/15 text-amber-300 border-amber-400/30 ring-1 ring-amber-500/20',
+      badgeClass: 'bg-amber-500/10 text-amber-300 border-amber-500/20',
       dotClass: 'bg-amber-400'
     };
   }
 
   return {
     label: pos.toUpperCase(),
-    badgeClass: 'bg-cyan-500/15 text-cyan-300 border-cyan-400/30 ring-1 ring-cyan-500/20',
+    badgeClass: 'bg-cyan-500/10 text-cyan-300 border-cyan-500/20',
     dotClass: 'bg-cyan-400'
   };
 }
 
-/**
- * Helper to safely extract list of words from array or comma-separated string
- */
 function extractWordList(list, raw) {
   if (Array.isArray(list) && list.length > 0) {
     return list.filter(w => typeof w === 'string' && w.trim().length > 0);
@@ -78,45 +71,41 @@ export default function FlashcardStage({ stage, onSubmitAnswer, isSecondChance }
   const antonyms = extractWordList(stage.item?.antonyms, stage.item?.raw_antonyms);
 
   const handleFlip = () => {
-    setIsFlipped(!isFlipped);
     sound.playFlip();
+    setIsFlipped(prev => !prev);
   };
 
   const handleSpeak = (e) => {
     e.stopPropagation();
     if (!stage.item?.word) return;
-
     sound.speak(stage.item.word);
     setIsSpeaking(true);
-
     if (speakTimeoutRef.current) clearTimeout(speakTimeoutRef.current);
     speakTimeoutRef.current = setTimeout(() => {
       setIsSpeaking(false);
     }, 1200);
   };
 
-  const handleSelectOption = (opt) => {
-    if (selectedOption || wrongOptions.includes(opt)) return;
-    sound.playClick();
+  const handleSelectOption = (option) => {
+    if (selectedOption !== null || wrongOptions.includes(option)) return;
 
-    const isCorrect = String(opt).trim().toLowerCase() === String(stage.correctAnswer).trim().toLowerCase();
+    sound.playClick();
+    const isCorrect = String(option).trim().toLowerCase() === String(stage.correctAnswer).trim().toLowerCase();
 
     if (isCorrect) {
-      setSelectedOption(opt);
-      onSubmitAnswer(opt);
+      setSelectedOption(option);
+      onSubmitAnswer(option);
     } else {
-      setShakingOption(opt);
-      setTimeout(() => setShakingOption(null), 500);
-      setWrongOptions(prev => [...prev, opt]);
-      onSubmitAnswer(opt);
+      setShakingOption(option);
+      setWrongOptions(prev => [...prev, option]);
+      setTimeout(() => setShakingOption(null), 400);
+      onSubmitAnswer(option);
     }
   };
 
-  // Highlights the target word in the example sentence
   const renderSentenceWithHighlight = (sentence, targetWord) => {
     if (!sentence) return null;
     if (!targetWord) return <span>&ldquo;{sentence}&rdquo;</span>;
-
     try {
       const parts = sentence.split(new RegExp(`(${targetWord})`, 'gi'));
       return (
@@ -152,91 +141,70 @@ export default function FlashcardStage({ stage, onSubmitAnswer, isSecondChance }
             handleFlip();
           }
         }}
-        className="perspective-1000 w-full cursor-pointer group outline-none focus:ring-2 focus:ring-indigo-500/50 rounded-3xl"
+        className="perspective-1000 w-full cursor-pointer group outline-none rounded-2xl"
         title="কার্ড উল্টাতে ক্লিক করুন"
       >
         <div
-          className={`relative w-full min-h-[220px] sm:min-h-[260px] rounded-3xl transition-transform duration-500 transform-style-3d ${
+          className={`relative w-full min-h-[200px] sm:min-h-[230px] rounded-2xl transition-transform duration-500 transform-style-3d ${
             isFlipped ? 'rotate-y-180' : ''
           }`}
         >
-          {/* =========================================
-              FRONT CARD FACE
-             ========================================= */}
-          <div className="absolute inset-0 backface-hidden rounded-3xl p-4 sm:p-6 flex flex-col justify-between overflow-hidden bg-gradient-to-b from-slate-900 via-slate-900/95 to-indigo-950/90 border-2 border-indigo-500/30 group-hover:border-indigo-400/60 shadow-[0_16px_36px_rgba(15,23,42,0.8),0_0_24px_rgba(99,102,241,0.15)] transition-all duration-300">
-            {/* Glossy Top Sheen Accent */}
-            <div className="absolute inset-0 bg-gradient-to-br from-white/10 via-white/5 to-transparent pointer-events-none rounded-3xl" />
-            <div className="absolute -top-16 -right-16 w-36 h-36 bg-indigo-500/15 rounded-full blur-2xl pointer-events-none" />
-
-            {/* Front Header: POS Badge & Pronounce Button */}
+          {/* FRONT FACE */}
+          <div className="absolute inset-0 backface-hidden rounded-2xl p-4 sm:p-5 flex flex-col justify-between overflow-hidden bg-slate-900 border border-slate-800 shadow-sm transition-all duration-300">
+            {/* Front Header */}
             <div className="relative z-10 flex items-center justify-between">
-              <div className={`px-2.5 sm:px-3.5 py-0.5 sm:py-1 rounded-full text-[10px] sm:text-xs font-black tracking-wider flex items-center space-x-1.5 border shadow-xs ${posConfig.badgeClass}`}>
-                <span className={`w-1.5 sm:w-2 h-1.5 sm:h-2 rounded-full ${posConfig.dotClass} animate-pulse`} />
+              <div className={`px-2.5 py-0.5 rounded-full text-[10px] sm:text-xs font-bold tracking-wider flex items-center space-x-1.5 border ${posConfig.badgeClass}`}>
+                <span className={`w-1.5 h-1.5 rounded-full ${posConfig.dotClass}`} />
                 <span>{posConfig.label}</span>
               </div>
 
-              {/* Pronunciation button with Sound Wave SVG */}
+              {/* Pronunciation button */}
               <button
                 type="button"
                 onClick={handleSpeak}
-                className="group/speak flex items-center space-x-1.5 sm:space-x-2 px-2.5 sm:px-3.5 py-1 sm:py-1.5 rounded-full bg-indigo-600/20 hover:bg-indigo-600/40 border border-indigo-400/30 hover:border-indigo-400/60 text-indigo-300 hover:text-white shadow-md active:scale-95 transition cursor-pointer"
-                title="সঠিক উচ্চারণ শুনুন (Pronounce Word)"
+                className="group/speak flex items-center space-x-1.5 px-3 py-1 rounded-full bg-slate-800 hover:bg-slate-700 border border-slate-700 text-indigo-300 hover:text-white shadow-xs active:scale-95 transition cursor-pointer"
+                title="সঠিক উচ্চারণ শুনুন"
               >
-                <Volume2 className={`w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform ${isSpeaking ? 'text-amber-400 scale-110' : 'group-hover/speak:scale-110'}`} />
-                {/* Custom Audio Wave SVG Indicator */}
-                <div className="flex items-center space-x-0.5 h-3.5">
-                  <span className={`w-0.5 rounded-full bg-indigo-300 transition-all duration-150 ${isSpeaking ? 'h-3.5 bg-amber-400 animate-pulse' : 'h-1.5'}`} />
-                  <span className={`w-0.5 rounded-full bg-indigo-300 transition-all duration-150 ${isSpeaking ? 'h-4 bg-amber-400 animate-bounce' : 'h-3'}`} />
-                  <span className={`w-0.5 rounded-full bg-indigo-300 transition-all duration-150 ${isSpeaking ? 'h-2.5 bg-amber-400 animate-pulse' : 'h-1'}`} />
-                  <span className={`w-0.5 rounded-full bg-indigo-300 transition-all duration-150 ${isSpeaking ? 'h-4 bg-amber-400 animate-bounce' : 'h-2.5'}`} />
-                  <span className={`w-0.5 rounded-full bg-indigo-300 transition-all duration-150 ${isSpeaking ? 'h-2 bg-amber-400 animate-pulse' : 'h-1.5'}`} />
-                </div>
-                <span className="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider hidden xs:inline">Listen</span>
+                <Volume2 className={`w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform ${isSpeaking ? 'text-amber-400 scale-110' : ''}`} />
+                <span className="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider">Listen</span>
               </button>
             </div>
 
             {/* Front Center: Large Crisp English Word */}
             <div className="relative z-10 text-center py-2 sm:py-4 my-auto">
-              <h2 className="text-2xl sm:text-4xl md:text-5xl font-black text-white tracking-tight drop-shadow-[0_2px_12px_rgba(0,0,0,0.8)] break-words">
+              <h2 className="text-2xl sm:text-4xl font-extrabold text-white tracking-tight break-words">
                 {stage.item?.word}
               </h2>
-              <p className="text-[11px] sm:text-xs text-indigo-200/70 mt-1 sm:mt-2 font-medium break-words">
+              <p className="text-xs text-slate-400 mt-1 font-medium break-words">
                 কার্ডে ট্যাপ করে বাংলা অর্থ ও বিস্তারিত দেখুন
               </p>
             </div>
 
             {/* Front Footer: Tap Flip Cue */}
             <div className="relative z-10 flex items-center justify-center">
-              <div className="inline-flex items-center space-x-1.5 sm:space-x-2 px-3 py-0.5 sm:py-1 rounded-full bg-slate-800/80 border border-slate-700/80 text-indigo-300 text-[11px] sm:text-xs font-bold shadow-xs group-hover:bg-indigo-950/60 group-hover:border-indigo-500/40 transition">
-                <RotateCw className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-indigo-400 group-hover:rotate-180 transition-transform duration-500" />
+              <div className="inline-flex items-center space-x-1.5 px-3 py-0.5 rounded-full bg-slate-800/80 border border-slate-700/60 text-slate-400 text-[11px] sm:text-xs font-medium">
+                <RotateCw className="w-3 h-3 text-slate-400" />
                 <span>উল্টাতে ট্যাপ করুন</span>
               </div>
             </div>
           </div>
 
-          {/* =========================================
-              BACK CARD FACE
-             ========================================= */}
-          <div className="absolute inset-0 backface-hidden rotate-y-180 rounded-3xl p-4 sm:p-6 flex flex-col justify-between overflow-hidden bg-gradient-to-b from-slate-900 via-slate-950 to-indigo-950 border-2 border-amber-500/40 group-hover:border-amber-400/60 shadow-[0_16px_36px_rgba(15,23,42,0.9),0_0_28px_rgba(245,158,11,0.2)] transition-all duration-300">
-            {/* Glossy Top Sheen Accent */}
-            <div className="absolute inset-0 bg-gradient-to-br from-amber-500/5 via-transparent to-transparent pointer-events-none rounded-3xl" />
-            <div className="absolute -top-12 -left-12 w-32 h-32 bg-amber-500/10 rounded-full blur-2xl pointer-events-none" />
-
+          {/* BACK FACE */}
+          <div className="absolute inset-0 backface-hidden rotate-y-180 rounded-2xl p-4 sm:p-5 flex flex-col justify-between overflow-hidden bg-slate-900 border border-slate-800 shadow-sm transition-all duration-300">
             {/* Back Header */}
             <div className="relative z-10 flex items-center justify-between text-xs">
               <div className="flex items-center space-x-1.5 text-amber-400 font-bold tracking-wider uppercase text-[10px] sm:text-[11px]">
                 <Sparkles className="w-3.5 h-3.5 text-amber-400 fill-amber-400" />
                 <span>শব্দের অর্থ ও বিবরণ</span>
               </div>
-              <div className="px-2 sm:px-2.5 py-0.5 rounded-full bg-slate-800/90 border border-slate-700 text-indigo-300 font-black text-[10px] sm:text-xs font-mono max-w-[120px] truncate">
+              <div className="px-2.5 py-0.5 rounded-full bg-slate-800 border border-slate-700 text-indigo-300 font-bold text-[10px] sm:text-xs font-mono max-w-[120px] truncate">
                 {stage.item?.word}
               </div>
             </div>
 
-            {/* Back Center: Glowing Golden Bengali Meaning & Details */}
-            <div className="relative z-10 flex flex-col items-center justify-center text-center my-auto py-1 sm:py-2 space-y-2 sm:space-y-3">
-              {/* Glowing Golden Bengali Meaning */}
-              <h3 className="text-2xl sm:text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-400 to-yellow-300 drop-shadow-[0_0_16px_rgba(251,191,36,0.6)] break-words text-center leading-tight">
+            {/* Back Center: Bengali Meaning & Details */}
+            <div className="relative z-10 flex flex-col items-center justify-center text-center my-auto py-1 space-y-2">
+              <h3 className="text-2xl sm:text-3xl font-extrabold text-amber-300 break-words text-center leading-tight">
                 {stage.item?.meaning}
               </h3>
 
@@ -249,7 +217,7 @@ export default function FlashcardStage({ stage, onSubmitAnswer, isSecondChance }
                       {synonyms.map((syn, idx) => (
                         <span
                           key={idx}
-                          className="px-1.5 sm:px-2 py-0.5 rounded-full bg-emerald-500/15 border border-emerald-400/30 text-emerald-300 text-[10px] sm:text-[11px] font-semibold break-words"
+                          className="px-2 py-0.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-300 text-[10px] sm:text-[11px] font-medium break-words"
                         >
                           {syn}
                         </span>
@@ -258,12 +226,12 @@ export default function FlashcardStage({ stage, onSubmitAnswer, isSecondChance }
                   )}
 
                   {antonyms.length > 0 && (
-                    <div className="flex flex-wrap items-center justify-center gap-1 ml-1 sm:ml-1.5">
+                    <div className="flex flex-wrap items-center justify-center gap-1 ml-1">
                       <span className="text-[9px] sm:text-[10px] font-bold text-rose-400 uppercase mr-0.5">Antonyms:</span>
                       {antonyms.map((ant, idx) => (
                         <span
                           key={idx}
-                          className="px-1.5 sm:px-2 py-0.5 rounded-full bg-rose-500/15 border border-rose-400/30 text-rose-300 text-[10px] sm:text-[11px] font-semibold break-words"
+                          className="px-2 py-0.5 rounded-full bg-rose-500/10 border border-rose-500/20 text-rose-300 text-[10px] sm:text-[11px] font-medium break-words"
                         >
                           {ant}
                         </span>
@@ -273,17 +241,17 @@ export default function FlashcardStage({ stage, onSubmitAnswer, isSecondChance }
                 </div>
               )}
 
-              {/* Example Sentence with High Readability */}
+              {/* Example Sentence */}
               {stage.item?.sentence && (
-                <div className="w-full bg-slate-800/70 border border-slate-700/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 text-xs sm:text-sm text-slate-200 leading-relaxed font-sans italic text-center max-w-md shadow-inner break-words overflow-hidden">
+                <div className="w-full bg-slate-800/60 border border-slate-700/50 rounded-xl p-2 text-xs sm:text-sm text-slate-200 leading-relaxed font-sans italic text-center max-w-md break-words overflow-hidden">
                   {renderSentenceWithHighlight(stage.item.sentence, stage.item.word)}
                 </div>
               )}
             </div>
 
-            {/* Back Footer: Tap Flip Cue */}
+            {/* Back Footer */}
             <div className="relative z-10 flex items-center justify-center">
-              <div className="inline-flex items-center space-x-1.5 text-slate-400 text-[11px] sm:text-xs font-semibold">
+              <div className="inline-flex items-center space-x-1.5 text-slate-400 text-[11px] sm:text-xs font-medium">
                 <RotateCw className="w-3 h-3 text-slate-400" />
                 <span>আবার উল্টাতে ট্যাপ করুন</span>
               </div>
@@ -292,34 +260,32 @@ export default function FlashcardStage({ stage, onSubmitAnswer, isSecondChance }
         </div>
       </div>
 
-      {/* =========================================
-          ACTIVE RECALL QUIZ CONTAINER
-         ========================================= */}
+      {/* ACTIVE RECALL QUIZ CONTAINER */}
       <div
-        className={`p-3.5 sm:p-6 rounded-2xl sm:rounded-3xl bg-slate-900/90 border-2 transition-all duration-300 shadow-2xl backdrop-blur-md ${
+        className={`p-3.5 sm:p-5 rounded-2xl bg-slate-900/90 border transition-all duration-200 shadow-sm ${
           isSecondChance || wrongOptions.length > 0
-            ? 'border-amber-500/60 bg-gradient-to-b from-slate-900 to-amber-950/20 ring-2 ring-amber-500/20'
-            : 'border-slate-800 hover:border-slate-700'
+            ? 'border-amber-500/40 bg-slate-900'
+            : 'border-slate-800'
         }`}
       >
         {/* Quiz Header */}
-        <div className="flex items-center justify-between mb-3 sm:mb-4 pb-2.5 sm:pb-3 border-b border-slate-800/80 gap-2">
+        <div className="flex items-center justify-between mb-3 pb-2.5 border-b border-slate-800 gap-2">
           <div className="flex items-center space-x-2 text-slate-200 font-bold text-xs sm:text-sm md:text-base min-w-0">
-            <div className="p-1 sm:p-1.5 rounded-lg bg-indigo-600/20 text-indigo-400 border border-indigo-500/30 shrink-0">
+            <div className="p-1.5 rounded-lg bg-indigo-600/15 text-indigo-400 border border-indigo-500/20 shrink-0">
               <HelpCircle className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
             </div>
             <span className="break-words">{stage.question || `"${stage.item?.word}" শব্দটির সঠিক বাংলা অর্থ কোনটি?`}</span>
           </div>
 
           {(isSecondChance || wrongOptions.length > 0) && (
-            <span className="shrink-0 px-2.5 sm:px-3 py-0.5 sm:py-1 bg-amber-500/20 border border-amber-400/40 text-amber-300 text-[10px] sm:text-[11px] font-black rounded-full animate-pulse shadow-xs whitespace-nowrap">
+            <span className="shrink-0 px-2.5 py-0.5 bg-amber-500/15 border border-amber-500/30 text-amber-300 text-[10px] sm:text-[11px] font-bold rounded-full whitespace-nowrap">
               ২য় সুযোগ (0 Star)
             </span>
           )}
         </div>
 
-        {/* 3D Tactile Option Buttons Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 sm:gap-3">
+        {/* Option Buttons Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
           {stage.options.map((opt, i) => {
             const isWrong = wrongOptions.includes(opt);
             const isSelected = selectedOption === opt;
@@ -332,23 +298,23 @@ export default function FlashcardStage({ stage, onSubmitAnswer, isSecondChance }
                 type="button"
                 onClick={() => handleSelectOption(opt)}
                 disabled={isWrong || selectedOption !== null}
-                className={`game-btn-3d w-full min-h-[50px] sm:min-h-[56px] p-2.5 sm:p-3.5 rounded-xl sm:rounded-2xl border-2 text-xs sm:text-sm font-bold text-left transition-all duration-150 flex items-center justify-between touch-manipulation cursor-pointer ${
+                className={`game-btn-3d w-full min-h-[48px] sm:min-h-[52px] p-3 rounded-xl border text-xs sm:text-sm font-semibold text-left transition-all duration-150 flex items-center justify-between touch-manipulation cursor-pointer ${
                   isWrong
-                    ? 'bg-rose-950/50 border-rose-500/60 text-rose-300 opacity-60 cursor-not-allowed shadow-none'
+                    ? 'bg-rose-950/30 border-rose-500/40 text-rose-300 opacity-60 cursor-not-allowed shadow-none'
                     : isSelected
-                    ? 'game-btn-emerald bg-emerald-600 border-emerald-300 text-white font-extrabold ring-4 ring-emerald-400/40 shadow-[0_0_24px_rgba(16,185,129,0.5)]'
-                    : 'game-btn-slate bg-gradient-to-b from-slate-800 to-slate-900 border-slate-700 text-slate-100 hover:border-indigo-400 hover:text-white'
+                    ? 'game-btn-emerald bg-emerald-600 border-emerald-400 text-white font-bold'
+                    : 'game-btn-slate bg-slate-900 border-slate-800 text-slate-100 hover:border-slate-700 hover:text-white'
                 } ${isShaking ? 'animate-shake' : ''}`}
               >
-                <div className="flex items-center space-x-2.5 sm:space-x-3 flex-1 min-w-0 pr-1.5 sm:pr-2">
+                <div className="flex items-center space-x-2.5 flex-1 min-w-0 pr-1.5">
                   {/* Number Chip */}
                   <span
-                    className={`w-6 h-6 sm:w-7 sm:h-7 shrink-0 rounded-lg sm:rounded-xl flex items-center justify-center text-[11px] sm:text-xs font-mono font-black border transition ${
+                    className={`w-6 h-6 shrink-0 rounded-lg flex items-center justify-center text-[11px] font-mono font-bold border transition ${
                       isWrong
-                        ? 'bg-rose-900/60 border-rose-500/80 text-rose-200'
+                        ? 'bg-rose-900/40 border-rose-500/50 text-rose-200'
                         : isSelected
-                        ? 'bg-emerald-700/80 border-white text-white'
-                        : 'bg-slate-950/80 border-slate-700 text-indigo-300'
+                        ? 'bg-emerald-700 border-emerald-400 text-white'
+                        : 'bg-slate-800 border-slate-700 text-indigo-300'
                     }`}
                   >
                     {chipNum}
@@ -362,9 +328,9 @@ export default function FlashcardStage({ stage, onSubmitAnswer, isSecondChance }
 
                 {/* Status Indicator Icon */}
                 {isWrong ? (
-                  <XCircle className="w-4 h-4 sm:w-5 sm:h-5 text-rose-400 shrink-0 ml-1" />
+                  <XCircle className="w-4 h-4 text-rose-400 shrink-0 ml-1" />
                 ) : isSelected ? (
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-white shrink-0 animate-pop ml-1" />
+                  <CheckCircle2 className="w-4 h-4 text-white shrink-0 ml-1" />
                 ) : null}
               </button>
             );

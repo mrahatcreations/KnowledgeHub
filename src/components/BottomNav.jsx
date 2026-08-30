@@ -9,8 +9,8 @@ export default function BottomNav({ activeTab, setActiveTab }) {
   ];
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 z-40 bg-slate-950/95 backdrop-blur-xl border-t border-slate-800/80 px-3 sm:px-6 pt-2 pb-[max(0.6rem,env(safe-area-inset-bottom))] shadow-2xl safe-bottom select-none">
-      <div className="max-w-md mx-auto flex items-center justify-around gap-3">
+    <nav className="fixed bottom-0 left-0 right-0 z-40 bg-slate-950/95 backdrop-blur-md border-t border-slate-800 px-3 sm:px-6 pt-2 pb-[max(0.5rem,env(safe-area-inset-bottom))] shadow-lg safe-bottom select-none">
+      <div className="max-w-md mx-auto flex items-center justify-around gap-2.5">
         {tabs.map((tab) => {
           const Icon = tab.icon;
           const isActive = activeTab === tab.id;
@@ -21,20 +21,16 @@ export default function BottomNav({ activeTab, setActiveTab }) {
                 sound.playClick();
                 setActiveTab(tab.id);
               }}
-              className={`relative flex items-center justify-center space-x-2 flex-1 min-w-0 py-2.5 px-3 rounded-2xl transition-all duration-200 active:scale-95 min-h-[48px] ${
+              className={`relative flex items-center justify-center space-x-2 flex-1 min-w-0 py-2.5 px-3 rounded-xl transition-all duration-150 active:scale-95 min-h-[44px] ${
                 isActive
-                  ? 'bg-indigo-600/20 text-indigo-400 font-black border border-indigo-500/40 shadow-md shadow-indigo-500/10'
-                  : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900/50 font-semibold'
+                  ? 'bg-indigo-600/15 text-indigo-400 font-bold border border-indigo-500/30'
+                  : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900 font-medium'
               }`}
               aria-label={tab.label}
               aria-selected={isActive}
             >
-              {/* Active Glow Dot */}
-              {isActive && (
-                <span className="absolute -top-1 left-1/2 -translate-x-1/2 w-2 h-2 rounded-full bg-indigo-400 shadow-[0_0_10px_#818cf8]" />
-              )}
-              <Icon className={`w-5 h-5 shrink-0 transition-transform ${isActive ? 'stroke-[2.5] text-indigo-400 scale-110' : 'stroke-[1.8]'}`} />
-              <span className="text-xs sm:text-sm tracking-tight leading-none truncate font-bold">
+              <Icon className={`w-4 h-4 sm:w-5 sm:h-5 shrink-0 ${isActive ? 'text-indigo-400' : 'text-slate-400'}`} />
+              <span className="text-xs sm:text-sm tracking-tight leading-none truncate">
                 {tab.label}
               </span>
             </button>
@@ -44,4 +40,3 @@ export default function BottomNav({ activeTab, setActiveTab }) {
     </nav>
   );
 }
-

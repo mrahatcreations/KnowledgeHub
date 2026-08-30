@@ -63,42 +63,42 @@ export default function VocabBookView({ levels, levelStars }) {
   return (
     <div className="w-full max-w-md mx-auto px-4 pb-32 pt-2 select-none animate-pop">
       {/* Header */}
-      <div className="bg-gradient-to-r from-indigo-950 via-slate-900 to-indigo-950 rounded-3xl p-5 border border-indigo-500/30 mb-5 shadow-2xl">
-        <div className="flex items-center space-x-2 text-indigo-400 text-xs font-bold uppercase tracking-wider mb-1">
+      <div className="bg-slate-900/90 rounded-2xl p-4 border border-slate-800 mb-4 shadow-sm">
+        <div className="flex items-center space-x-2 text-indigo-400 text-xs font-semibold uppercase tracking-wider mb-1">
           <BookOpen className="w-4 h-4 text-indigo-400" />
           <span>ডিজিটাল শব্দকোষ ও লেকচার ডিকশনারি</span>
         </div>
-        <h2 className="text-2xl font-black text-white tracking-tight">ভোকাবুলারি বুক</h2>
-        <p className="text-xs text-slate-300 mt-1">
+        <h2 className="text-xl font-bold text-white tracking-tight">ভোকাবুলারি বুক</h2>
+        <p className="text-xs text-slate-400 mt-0.5">
           মোট <span className="text-amber-400 font-bold font-mono">{allVocabItems.length}</span> টি ইংরেজি শব্দ ও বাংলা অর্থ
         </p>
 
         {/* Search Input Bar */}
-        <div className="relative mt-4">
+        <div className="relative mt-3">
           <Search className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400" />
           <input
             type="text"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             placeholder="ইংরেজি শব্দ বা বাংলা অর্থ অনুসন্ধান করুন..."
-            className="w-full pl-10 pr-4 py-3 rounded-2xl bg-slate-950/80 border border-slate-700 text-sm font-medium text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition shadow-inner"
+            className="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-950/80 border border-slate-700/80 text-xs sm:text-sm font-medium text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition"
           />
         </div>
       </div>
 
-      {/* Unit Filter Pills */}
-      <div className="w-full flex items-center space-x-2 overflow-x-auto pb-3 mb-4 scrollbar-none">
-        {units.slice(0, 10).map((u, i) => (
+      {/* Unit Filter Pills - Non-clipping */}
+      <div className="w-full flex items-center space-x-2 overflow-x-auto px-1 py-1.5 mb-4 scrollbar-none whitespace-nowrap touch-pan-x">
+        {units.map((u, i) => (
           <button
             key={i}
             onClick={() => {
               setSelectedUnit(u);
               sound.playClick();
             }}
-            className={`px-3.5 py-1.5 rounded-xl text-xs font-black whitespace-nowrap transition-all shadow-md active:scale-95 ${
+            className={`px-3.5 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap shrink-0 transition-all active:scale-95 ${
               selectedUnit === u
-                ? 'bg-indigo-600 text-white border-2 border-indigo-400 shadow-indigo-500/30'
-                : 'bg-slate-900/90 border border-slate-800 text-slate-400 hover:text-slate-200'
+                ? 'bg-indigo-600 text-white border border-indigo-400/50 shadow-sm'
+                : 'bg-slate-900 border border-slate-800 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
             }`}
           >
             {u === 'ALL' ? 'সব শব্দ' : u.replace(/Image\s*(\d+):?/i, 'ইউনিট $1').replace(/Unit-(\d+)/i, 'ইউনিট $1')}
@@ -107,7 +107,7 @@ export default function VocabBookView({ levels, levelStars }) {
       </div>
 
       {/* Word Cards List */}
-      <div className="space-y-3">
+      <div className="space-y-2.5">
         {filteredItems.slice(0, 50).map((item, idx) => {
           const isBookmarked = bookmarkedWords.includes(item.word);
           return (
