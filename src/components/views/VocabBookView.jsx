@@ -137,6 +137,24 @@ export default function VocabBookView({ levels = [], levelStars = {}, onBackToHu
     setTimeout(() => setSpeakingWord(null), 1200);
   };
 
+  const letterContainerRef = useRef(null);
+
+  const scrollLetters = (dir) => {
+    sound.playClick();
+    if (letterContainerRef.current) {
+      letterContainerRef.current.scrollBy({ left: dir * 180, behavior: 'smooth' });
+    }
+  };
+
+  const letterCounts = useMemo(() => {
+    const counts = {};
+    allVocabItems.forEach(item => {
+      const char = item.word.charAt(0).toUpperCase();
+      counts[char] = (counts[char] || 0) + 1;
+    });
+    return counts;
+  }, [allVocabItems]);
+
   return (
     <div className="w-full max-w-md mx-auto flex flex-col items-center select-none pt-2 pb-16 px-3.5 animate-pop">
       {/* 1. TOP HEADER & SEARCH CARD */}
@@ -195,21 +213,49 @@ export default function VocabBookView({ levels = [], levelStars = {}, onBackToHu
         </div>
       </div>
 
-      {/* 2. ALPHABETICAL A-Z SERIAL SELECTOR */}
-      <div className="w-full mb-3">
-        <div className="flex items-center justify-between px-1 mb-1.5">
+      {/* 2. ALPHABETICAL A-Z SERIAL SELECTOR WITH VISIBLE SCROLLBAR & ARROW CONTROLS */}
+      <div className="w-full mb-3 bg-[#0e1626] border-2 border-slate-800 rounded-3xl p-3 shadow-[0_5px_0_#060a12]">
+        <div className="flex items-center justify-between px-1 mb-2">
           <span className="text-[11px] font-black uppercase tracking-wider text-blue-400 flex items-center space-x-1">
             <Tag className="w-3 h-3 text-blue-400" />
             <span>ALPHABETICAL A-Z INDEX</span>
           </span>
-          <span className="text-[10px] font-bold text-slate-400">
-            {selectedLetter === 'ALL' ? 'All Letters' : `Letter '${selectedLetter}'`}
-          </span>
+          
+          <div className="flex items-center space-x-2">
+            <span className="text-[10px] font-mono font-bold text-amber-400 bg-amber-500/15 border border-amber-500/30 px-2 py-0.5 rounded-full">
+              {selectedLetter === 'ALL' ? `All (${allVocabItems.length})` : `'${selectedLetter}' (${letterCounts[selectedLetter] || 0})`}
+            </span>
+
+            {/* Quick Scroll Left/Right Buttons */}
+            <div className="flex items-center space-x-1">
+              <button
+                onClick={() => scrollLetters(-1)}
+                className="w-6 h-6 rounded-lg bg-slate-800 hover:bg-slate-700 active:scale-90 text-slate-300 flex items-center justify-center text-xs font-black cursor-pointer border border-slate-700 shadow-xs"
+                title="Scroll Left"
+                aria-label="Scroll Letters Left"
+              >
+                ‹
+              </button>
+              <button
+                onClick={() => scrollLetters(1)}
+                className="w-6 h-6 rounded-lg bg-slate-800 hover:bg-slate-700 active:scale-90 text-slate-300 flex items-center justify-center text-xs font-black cursor-pointer border border-slate-700 shadow-xs"
+                title="Scroll Right"
+                aria-label="Scroll Letters Right"
+              >
+                ›
+              </button>
+            </div>
+          </div>
         </div>
 
-        <div className="w-full flex items-center space-x-1.5 overflow-x-auto px-1 py-1.5 scrollbar-none whitespace-nowrap touch-pan-x bg-slate-900/80 border border-slate-800 rounded-2xl">
+        {/* Scrollable Letter Strip with Visible Styled Scrollbar */}
+        <div 
+          ref={letterContainerRef}
+          className="w-full flex items-center space-x-1.5 custom-h-scrollbar pb-2.5 pt-1 px-1 whitespace-nowrap touch-pan-x"
+        >
           {ALPHABET.map((letter) => {
             const isSelected = selectedLetter === letter;
+            const count = letter === 'ALL' ? allVocabItems.length : (letterCounts[letter] || 0);
             return (
               <button
                 key={letter}
@@ -217,13 +263,20 @@ export default function VocabBookView({ levels = [], levelStars = {}, onBackToHu
                   sound.playClick();
                   setSelectedLetter(letter);
                 }}
-                className={`px-3 py-1.5 rounded-xl font-mono text-xs font-black shrink-0 transition-all active:scale-95 cursor-pointer ${
+                className={`px-3 py-2 rounded-xl font-mono text-xs font-black shrink-0 transition-all active:scale-95 cursor-pointer flex flex-col items-center justify-center min-w-[42px] ${
                   isSelected
-                    ? 'bg-blue-600 text-white shadow-[0_3px_0_#1d4ed8] border border-blue-400'
-                    : 'bg-slate-800 text-slate-300 hover:bg-slate-700 border border-slate-700'
+                    ? 'bg-blue-600 text-white shadow-[0_4px_0_#1d4ed8] border border-blue-400'
+                    : count > 0 
+                      ? 'bg-slate-800 text-slate-200 hover:bg-slate-700 border border-slate-700 hover:border-blue-500/50' 
+                      : 'bg-slate-900/60 text-slate-600 border border-slate-800/80 cursor-not-allowed opacity-50'
                 }`}
               >
-                {letter}
+                <span>{letter}</span>
+                {letter !== 'ALL' && (
+                  <span className={`text-[8px] font-bold ${isSelected ? 'text-blue-200' : 'text-slate-400'}`}>
+                    {count}
+                  </span>
+                )}
               </button>
             );
           })}
