@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "release_date": "2026-08-30",
+  "total_levels": 201,
+  "total_items": 1005,
+  "categories": {
+    "Vocabulary": 614,
+    "Phrasal Verb": 106,
+    "Appropriate Preposition": 158,
+    "Word Transformation": 53,
+    "Idiom": 74
+  },
+  "checksum": "v1.0-201-1005",
+  "changelog": "Complete refined OCR English lecture dataset with 5-stage Blender game levels."
+}

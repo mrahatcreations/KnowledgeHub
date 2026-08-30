@@ -1,0 +1,6 @@
+{
+  "appId": "com.rahat.vocabmaster",
+  "appName": "VocabMaster Game",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
