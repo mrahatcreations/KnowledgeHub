@@ -396,25 +396,23 @@ export function generateAntonymAmongSynonyms(item, allItems = []) {
   // Unique 4 options
   const options = shuffleArray([...synonymGroup.slice(0, 3), oddWord]);
 
-  const categoryTitle = targetMeaning 
-    ? `"${targetWord}" (${targetMeaning}) এর সমার্থক শব্দের তালিকায় কোনটি বিপরীত শব্দ (Antonym)?`
-    : `"${targetWord}" এর সমার্থক শব্দের তালিকায় কোনটি বিপরীত শব্দ (Antonym)?`;
+  const categoryTitle = `Which of the following is the antonym (opposite word) for "${targetWord}"?`;
 
   const otherWordsFormatted = synonymGroup
     .slice(0, 3)
     .map(w => `"${w}"`)
     .join(', ');
 
-  const oddMeaningStr = oddMeaning ? ` (অর্থ: "${oddMeaning}")` : '';
+  const oddMeaningStr = oddMeaning ? ` (meaning: "${oddMeaning}")` : '';
   const targetMeaningStr = targetMeaning ? ` (${targetMeaning})` : '';
 
-  const explanation = `সঠিক উত্তর: "${oddWord}"${oddMeaningStr}। এটি একটি বিপরীত শব্দ (Antonym)।\nঅপর ৩টি শব্দ—${otherWordsFormatted}—হলো "${targetWord}"${targetMeaningStr} এর সমার্থক শব্দ (Synonyms)।`;
+  const explanation = `Correct answer: "${oddWord}"${oddMeaningStr}. It is an antonym (opposite).\nThe other 3 words—${otherWordsFormatted}—are synonyms of "${targetWord}"${targetMeaningStr}.`;
 
   return {
     type: 'odd_one_out',
     subType: ODD_ONE_OUT_SUBTYPES.ANTONYM_AMONG_SYNS,
-    title: 'বেমানান শব্দ বাছাই (Odd One Out)',
-    instruction: 'চারটি বিকল্পের মধ্য থেকে বিপরীত বা বেমানান (Odd) শব্দটি বেছে নাও',
+    title: 'Odd One Out',
+    instruction: 'Identify the odd or antonym word from the choices',
     categoryTitle,
     options,
     correctAnswer: oddWord,
@@ -466,20 +464,18 @@ export function generateSynonymAmongAntonyms(item, allItems = []) {
   const selectedAntonyms = antonymGroup.slice(0, 3);
   const options = shuffleArray([...selectedAntonyms, oddWord]);
 
-  const categoryTitle = targetMeaning
-    ? `নিচের ৩টি শব্দ বিপরীতার্থক (Antonyms)—কোনটি সমার্থক বা মূল শব্দ (Synonym)?`
-    : `নিচের বিপরীতার্থক শব্দগুলোর মধ্যে কোনটি সমার্থক শব্দ (Synonym)?`;
+  const categoryTitle = `3 of these words are antonyms—which one is the original/synonym word for "${targetWord}"?`;
 
   const antonymsFormatted = selectedAntonyms.map(w => `"${w}"`).join(', ');
-  const oddMeaningStr = oddMeaning ? ` (অর্থ: "${oddMeaning}")` : '';
+  const oddMeaningStr = oddMeaning ? ` (meaning: "${oddMeaning}")` : '';
 
-  const explanation = `সঠিক উত্তর: "${oddWord}"${oddMeaningStr}। এটি মূল শব্দ/সমার্থক শব্দ (Synonym)।\nঅপর ৩টি শব্দ—${antonymsFormatted}—হলো "${targetWord}" এর বিপরীত শব্দ (Antonyms)।`;
+  const explanation = `Correct answer: "${oddWord}"${oddMeaningStr}. It is the synonym/original word.\nThe other 3 words—${antonymsFormatted}—are antonyms of "${targetWord}".`;
 
   return {
     type: 'odd_one_out',
     subType: ODD_ONE_OUT_SUBTYPES.SYNONYM_AMONG_ANTS,
-    title: 'বেমানান শব্দ বাছাই (Odd One Out)',
-    instruction: 'বিপরীতার্থক শব্দগুলোর মধ্য থেকে মূল/সমার্থক (Odd) শব্দটি বেছে নাও',
+    title: 'Odd One Out',
+    instruction: 'Identify the original/synonym word among the antonyms',
     categoryTitle,
     options,
     correctAnswer: oddWord,
@@ -569,18 +565,18 @@ export function generateUnrelatedDistractor(item, allItems = []) {
   const options = shuffleArray([...finalRelated, oddWord]);
 
   const targetMeaningStr = targetMeaning ? ` (${targetMeaning})` : '';
-  const categoryTitle = `নিচের কোন শব্দটি "${targetWord}"${targetMeaningStr} এর অর্থ ও বিষয়ের সাথে সম্পর্কহীন বা বেমানান?`;
+  const categoryTitle = `Which of the following words is unrelated or odd compared to "${targetWord}"${targetMeaningStr}?`;
 
   const relatedFormatted = finalRelated.map(w => `"${w}"`).join(', ');
-  const oddMeaningStr = oddMeaning ? ` (অর্থ: "${oddMeaning}")` : '';
+  const oddMeaningStr = oddMeaning ? ` (meaning: "${oddMeaning}")` : '';
 
-  const explanation = `সঠিক উত্তর: "${oddWord}"${oddMeaningStr}। এটি একটি ভিন্নার্থক সম্পর্কহীন শব্দ।\nঅপর ৩টি শব্দ—${relatedFormatted}—সবগুলোই "${targetWord}"${targetMeaningStr} এর সাথে প্রাসঙ্গিক ও অর্থবোধক।`;
+  const explanation = `Correct answer: "${oddWord}"${oddMeaningStr}. It is an unrelated word.\nThe other 3 words—${relatedFormatted}—are all related in meaning to "${targetWord}"${targetMeaningStr}.`;
 
   return {
     type: 'odd_one_out',
     subType: ODD_ONE_OUT_SUBTYPES.UNRELATED_DISTRACTOR,
-    title: 'বেমানান শব্দ বাছাই (Odd One Out)',
-    instruction: 'চারটি বিকল্পের মধ্য থেকে সম্পর্কহীন বা বেমানান (Odd) শব্দটি বেছে নাও',
+    title: 'Odd One Out',
+    instruction: 'Identify the unrelated or odd word from the choices',
     categoryTitle,
     options,
     correctAnswer: oddWord,

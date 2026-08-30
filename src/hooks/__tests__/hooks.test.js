@@ -13,7 +13,7 @@ import { buildLevelStages } from '../../engine/GameEngine.js';
 
 test('Game Constants and 10-Stage Initial State', () => {
   assert.equal(TOTAL_STAGES_PER_LEVEL, 10, 'Total stages per level must be 10');
-  assert.equal(MASTERY_REQUIRED_STARS, 10, 'Mastery requirement must be 10 stars');
+  assert.equal(MASTERY_REQUIRED_STARS, 5, 'Mastery requirement must be 5 stars (0.5 per stage)');
   assert.equal(MASTERY_BONUS_GEMS, 50, 'Mastery bonus gems must be 50');
 
   const initialStars = createInitialStageStars();

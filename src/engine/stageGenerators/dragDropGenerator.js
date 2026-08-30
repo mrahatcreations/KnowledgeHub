@@ -74,10 +74,10 @@ export function maskSentence(sentence, targetWord, fallbackMeaning = '', pos = '
     return rawSentence.replace(directRegex, '_______');
   }
 
-  // Fallback: Contextual Bengali definition template
-  const meaningText = fallbackMeaning ? fallbackMeaning.trim() : 'সঠিক অর্থ';
+  // Fallback: Contextual definition template
+  const meaningText = fallbackMeaning ? fallbackMeaning.trim() : 'Meaning';
   const posTag = pos ? ` (${pos})` : '';
-  return `বাক্যটি সম্পূর্ণ করো: [_______]${posTag} শব্দটির বাংলা অর্থ হলো "${meaningText}"।`;
+  return `Complete the sentence: [_______]${posTag} means "${meaningText}".`;
 }
 
 /**
@@ -165,19 +165,19 @@ export function generateDragDropStage(item, allItems = [], config = {}) {
   // Combine and shuffle options
   const options = shuffleArray([targetWord, ...distractors]);
 
-  // Clean UTF-8 Bengali Explanation
-  let explanation = `সঠিক উত্তর: "${targetWord}"। এর অর্থ: "${meaning}"।`;
+  // Clean Explanation
+  let explanation = `Correct answer: "${targetWord}". Meaning: "${meaning}".`;
   if (safeItem.raw_synonyms && String(safeItem.raw_synonyms).trim()) {
-    explanation += ` সমার্থক শব্দ: ${String(safeItem.raw_synonyms).trim()}`;
+    explanation += ` Synonyms: ${String(safeItem.raw_synonyms).trim()}`;
   }
   if (safeItem.raw_antonyms && String(safeItem.raw_antonyms).trim()) {
-    explanation += ` | বিপরীত শব্দ: ${String(safeItem.raw_antonyms).trim()}`;
+    explanation += ` | Antonyms: ${String(safeItem.raw_antonyms).trim()}`;
   }
 
   return {
     type: DRAG_DROP_STAGE_TYPE,
-    title: 'শূন্যস্থান পূরণ (Drag & Drop Fill-in)',
-    instruction: 'সঠিক শব্দটি টেনে খালি বক্সে বসাও বা ক্লিক করে নির্বাচন করো',
+    title: 'Sentence Completion',
+    instruction: 'Drag or select the correct word to complete the sentence',
     item: safeItem,
     sentenceText: sentenceText,
     targetWord: targetWord,

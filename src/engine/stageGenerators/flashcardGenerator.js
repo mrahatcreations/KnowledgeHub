@@ -26,16 +26,16 @@ export const FLASHCARD_MODES = {
  * @returns {string} Clean formatted POS label
  */
 export function formatPartOfSpeech(pos) {
-  if (!pos || typeof pos !== 'string') return 'Word / শব্দ';
+  if (!pos || typeof pos !== 'string') return 'Word';
 
   const p = pos.toLowerCase().trim();
-  if (p === 'n' || p.startsWith('noun')) return 'Noun (বিশেষ্য)';
-  if (p === 'v' || p.startsWith('verb')) return 'Verb (ক্রিয়া)';
-  if (p === 'adj' || p.startsWith('adject')) return 'Adjective (বিশেষণ)';
-  if (p === 'adv' || p.startsWith('adverb')) return 'Adverb (ভাববিশেষণ)';
-  if (p === 'prep' || p.startsWith('prepos')) return 'Preposition (পদান্বয়ী অব্যয়)';
-  if (p === 'conj' || p.startsWith('conjunc')) return 'Conjunction (সংযোজক অব্যয়)';
-  if (p === 'pron' || p.startsWith('pronoun')) return 'Pronoun (সর্বনাম)';
+  if (p === 'n' || p.startsWith('noun')) return 'Noun';
+  if (p === 'v' || p.startsWith('verb')) return 'Verb';
+  if (p === 'adj' || p.startsWith('adject')) return 'Adjective';
+  if (p === 'adv' || p.startsWith('adverb')) return 'Adverb';
+  if (p === 'prep' || p.startsWith('prepos')) return 'Preposition';
+  if (p === 'conj' || p.startsWith('conjunc')) return 'Conjunction';
+  if (p === 'pron' || p.startsWith('pronoun')) return 'Pronoun';
 
   return pos.toUpperCase();
 }
@@ -58,34 +58,34 @@ export function extractList(list, raw) {
 }
 
 /**
- * Builds a rich, clean UTF-8 Bengali educational explanation.
+ * Builds a rich educational explanation in English.
  * 
  * @param {Object} item - Vocabulary item
  * @param {string} mode - 'standard' or 'reverse'
- * @returns {string} Comprehensive Bengali explanation
+ * @returns {string} Comprehensive explanation
  */
 export function buildExplanation(item, mode = FLASHCARD_MODES.STANDARD) {
-  if (!item) return 'সঠিক উত্তর নির্বাচন সম্পন্ন হয়েছে।';
+  if (!item) return 'Correct answer selected.';
 
-  const word = item.word || 'শব্দ';
-  const meaning = item.meaning || 'অর্থ';
+  const word = item.word || 'Word';
+  const meaning = item.meaning || 'Meaning';
   const posLabel = formatPartOfSpeech(item.pos);
 
   const synonyms = extractList(item.synonyms, item.raw_synonyms);
   const antonyms = extractList(item.antonyms, item.raw_antonyms);
 
-  let explanation = `"${word}" (${posLabel}) এর সঠিক অর্থ: "${meaning}"।`;
+  let explanation = `"${word}" (${posLabel}) means: "${meaning}".`;
 
   if (synonyms.length > 0) {
-    explanation += ` সমার্থক শব্দ (Synonyms): ${synonyms.slice(0, 3).join(', ')}।`;
+    explanation += ` Synonyms: ${synonyms.slice(0, 3).join(', ')}.`;
   }
 
   if (antonyms.length > 0) {
-    explanation += ` বিপরীত শব্দ (Antonyms): ${antonyms.slice(0, 3).join(', ')}।`;
+    explanation += ` Antonyms: ${antonyms.slice(0, 3).join(', ')}.`;
   }
 
   if (item.sentence && typeof item.sentence === 'string' && item.sentence.trim().length > 0) {
-    explanation += ` বাক্যে প্রয়োগ: "${item.sentence.trim()}"`;
+    explanation += ` Example: "${item.sentence.trim()}"`;
   }
 
   return explanation;
@@ -93,7 +93,7 @@ export function buildExplanation(item, mode = FLASHCARD_MODES.STANDARD) {
 
 /**
  * Generates a Standard Recall Flashcard Stage:
- * Displays the English word -> User must identify the correct Bengali meaning.
+ * Displays the English word -> User must identify the correct definition/meaning.
  * 
  * @param {Object} item - Target vocabulary item
  * @param {Array} allItems - All level items for distractor sampling
@@ -108,11 +108,11 @@ export function generateStandardFlashcardStage(item, allItems = [], config = {})
   return {
     type: FLASHCARD_STAGE_TYPE,
     mode: FLASHCARD_MODES.STANDARD,
-    title: 'ফ্ল্যাশ কার্ড ও স্মরণ পরীক্ষা (Flash Card)',
-    instruction: 'শব্দটি দেখুন এবং সঠিক বাংলা অর্থ নির্বাচন করুন',
+    title: 'Flashcard Active Recall',
+    instruction: 'Review the word and select the correct meaning',
     item: item,
     targetWord: item.word,
-    question: `"${item.word}" শব্দটির সঠিক বাংলা অর্থ কোনটি?`,
+    question: `What is the correct meaning of "${item.word}"?`,
     options: options,
     correctAnswer: item.meaning,
     explanation: buildExplanation(item, FLASHCARD_MODES.STANDARD)
@@ -121,7 +121,7 @@ export function generateStandardFlashcardStage(item, allItems = [], config = {})
 
 /**
  * Generates a Reverse Recall Flashcard Stage:
- * Displays the Bengali meaning -> User must identify the correct English word.
+ * Displays the definition/meaning -> User must identify the correct English word.
  * 
  * @param {Object} item - Target vocabulary item
  * @param {Array} allItems - All level items for distractor sampling
@@ -136,11 +136,11 @@ export function generateReverseFlashcardStage(item, allItems = [], config = {}) 
   return {
     type: FLASHCARD_STAGE_TYPE,
     mode: FLASHCARD_MODES.REVERSE,
-    title: 'বিপরীত স্মরণ পরীক্ষা (Reverse Recall Flash Card)',
-    instruction: 'বাংলা অর্থটি দেখুন এবং সঠিক ইংরেজি শব্দটি নির্বাচন করুন',
+    title: 'Reverse Recall Flashcard',
+    instruction: 'Review the definition and select the correct English word',
     item: item,
     targetWord: item.word,
-    question: `"${item.meaning}" অর্থটির জন্য সঠিক ইংরেজি শব্দ কোনটি?`,
+    question: `Which English word corresponds to: "${item.meaning}"?`,
     options: options,
     correctAnswer: item.word,
     explanation: buildExplanation(item, FLASHCARD_MODES.REVERSE)

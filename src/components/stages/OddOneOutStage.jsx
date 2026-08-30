@@ -42,51 +42,46 @@ export default function OddOneOutStage({ stage, onSubmitAnswer, isSecondChance }
     <div className="w-full max-w-xl mx-auto flex flex-col space-y-3.5 sm:space-y-4 animate-pop select-none">
       {/* Mystery Challenge Hint Box */}
       <div 
-        className={`relative overflow-hidden p-4 rounded-2xl bg-slate-900 border text-left shadow-sm transition-all duration-200 ${
+        className={`p-4 sm:p-5 rounded-2xl bg-slate-900 border-2 text-left shadow-md transition-all duration-200 ${
           effectiveSecondChance 
-            ? 'border-amber-500/40' 
+            ? 'border-amber-500 bg-slate-900' 
             : 'border-slate-800'
         }`}
       >
-        <div className="relative z-10">
-          {/* Top Badges */}
-          <div className="flex items-center justify-between gap-2 mb-2.5">
-            <div className="flex items-center space-x-2">
-              <div className="w-7 h-7 rounded-lg bg-indigo-500/15 text-indigo-400 flex items-center justify-center border border-indigo-500/20 shrink-0">
-                <Sparkles className="w-3.5 h-3.5" />
-              </div>
-              <span className="px-2.5 py-0.5 bg-indigo-500/15 border border-indigo-500/20 text-indigo-300 text-[11px] sm:text-xs font-bold rounded-full uppercase tracking-wider">
-                বেমানান শব্দ চ্যালেঞ্জ
-              </span>
-            </div>
-
-            {effectiveSecondChance ? (
-              <span className="px-2 py-0.5 bg-amber-500/15 border border-amber-500/30 text-amber-300 text-[10px] sm:text-xs font-bold rounded-full flex items-center gap-1">
-                <Flame className="w-3 h-3 text-amber-400 shrink-0" />
-                ২য় সুযোগ (০ স্টার)
-              </span>
-            ) : (
-              <span className="text-[10px] sm:text-xs font-semibold text-slate-400 bg-slate-800 px-2.5 py-0.5 rounded-full border border-slate-700 flex items-center gap-1">
-                <HelpCircle className="w-3 h-3 text-indigo-400 shrink-0" />
-                ৪টির মধ্যে ১টি বেমানান
-              </span>
-            )}
+        {/* Top Badges */}
+        <div className="flex items-center justify-between gap-2 mb-2.5">
+          <div className="flex items-center space-x-2">
+            <span className="px-3 py-1 bg-blue-600 text-white text-xs font-black rounded-lg uppercase tracking-wider shadow-xs">
+              Odd One Out
+            </span>
           </div>
 
-          {/* Category Question / Title */}
-          <div className="mt-1">
-            <h3 className="text-sm sm:text-base font-bold text-white leading-snug break-words">
-              {stage.categoryTitle || 'নিচের শব্দগুলোর মধ্যে কোনটি বেমানান বা বিপরীত?'}
-            </h3>
-            <p className="text-[11px] sm:text-xs text-slate-400 font-medium mt-0.5 leading-relaxed">
-              বাকি ৩টি শব্দ সমার্থক বা একই অর্থবোধক—সঠিক বেমানান শব্দটি বেছে নিন।
-            </p>
-          </div>
+          {effectiveSecondChance ? (
+            <span className="px-2.5 py-1 bg-amber-500 text-slate-950 text-xs font-black rounded-lg flex items-center gap-1 shadow-xs">
+              <Flame className="w-3.5 h-3.5 fill-slate-950" />
+              2nd Chance
+            </span>
+          ) : (
+            <span className="text-xs font-bold text-slate-300 bg-slate-800 px-3 py-1 rounded-lg border border-slate-700 flex items-center gap-1">
+              <HelpCircle className="w-3.5 h-3.5 text-blue-400 shrink-0" />
+              1 of 4 is Odd
+            </span>
+          )}
+        </div>
+
+        {/* Category Question / Title */}
+        <div className="mt-2">
+          <h3 className="text-base sm:text-lg font-black text-white leading-snug break-words">
+            {stage.categoryTitle || 'Which word does not belong with the others?'}
+          </h3>
+          <p className="text-xs sm:text-sm text-slate-300 font-medium mt-1 leading-relaxed">
+            3 words share a relationship—choose the odd word out.
+          </p>
         </div>
       </div>
 
       {/* 4-Card Mystery Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         {stage.options.map((opt, i) => {
           const isWrong = wrongOpts.includes(opt);
           const isSelected = selectedOpt === opt;
@@ -99,32 +94,32 @@ export default function OddOneOutStage({ stage, onSubmitAnswer, isSecondChance }
               type="button"
               onClick={() => handleSelect(opt)}
               disabled={isWrong || (selectedOpt !== null)}
-              className={`game-btn-3d group relative p-3 sm:p-3.5 rounded-xl border font-bold text-left transition-all duration-150 flex items-center justify-between gap-2.5 ${
+              className={`relative p-3.5 sm:p-4 rounded-2xl border-2 font-bold text-left transition-all duration-150 flex items-center justify-between gap-3 cursor-pointer ${
                 isWrong
-                  ? 'border-rose-500/50 bg-rose-950/40 text-rose-300 opacity-60 cursor-not-allowed shadow-none'
+                  ? 'border-rose-500 bg-rose-600 text-white shadow-[0_4px_0_#9f1239] cursor-not-allowed opacity-90'
                   : isSelected
-                  ? 'game-btn-emerald bg-emerald-600 border-emerald-300 text-white shadow-[0_0_18px_rgba(16,185,129,0.55)] ring-2 ring-emerald-400/50'
-                  : 'game-btn-slate bg-slate-900 border-slate-800 text-slate-100 hover:border-indigo-500/50 hover:text-white'
+                  ? 'border-emerald-400 bg-emerald-600 text-white shadow-[0_4px_0_#065f46]'
+                  : 'bg-slate-900 hover:bg-slate-800 border-slate-800 hover:border-blue-500 text-white shadow-[0_4px_0_#020617] active:translate-y-1 active:shadow-none'
               } ${isShaking ? 'animate-shake' : ''}`}
             >
               {/* Left Side: Number Badge & Word */}
-              <div className="flex items-center space-x-2.5 min-w-0 flex-1">
-                <span className={`w-6 h-6 rounded-lg flex items-center justify-center font-mono text-[11px] font-bold shrink-0 border ${
+              <div className="flex items-center space-x-3 min-w-0 flex-1">
+                <span className={`w-7 h-7 rounded-xl flex items-center justify-center font-mono text-xs font-black shrink-0 ${
                   isWrong
-                    ? 'bg-rose-900/40 border-rose-500/50 text-rose-200'
+                    ? 'bg-rose-800 text-white'
                     : isSelected
-                    ? 'bg-emerald-700 border-emerald-400 text-white'
-                    : 'bg-slate-800 border-slate-700 text-indigo-300'
+                    ? 'bg-emerald-700 text-white'
+                    : 'bg-blue-600 text-white shadow-xs'
                 }`}>
                   {cardNum}
                 </span>
-                <span className="text-xs sm:text-sm md:text-base font-bold tracking-tight leading-snug break-words">
+                <span className="text-sm sm:text-base font-black tracking-tight leading-snug break-words">
                   {opt}
                 </span>
               </div>
 
               {/* Right Side: Audio & Status */}
-              <div className="flex items-center space-x-1 shrink-0">
+              <div className="flex items-center space-x-1.5 shrink-0">
                 <span
                   role="button"
                   tabIndex={0}
@@ -135,17 +130,17 @@ export default function OddOneOutStage({ stage, onSubmitAnswer, isSecondChance }
                       handleSpeak(e, opt);
                     }
                   }}
-                  title="উচ্চারণ শুনুন"
-                  className="p-1 rounded-lg text-slate-400 hover:text-indigo-300 hover:bg-slate-800 transition active:scale-90"
+                  title="Listen pronunciation"
+                  className="p-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-700/80 transition active:scale-90"
                 >
-                  <Volume2 className="w-3.5 h-3.5" />
+                  <Volume2 className="w-4 h-4" />
                 </span>
 
                 {isWrong && (
-                  <XCircle className="w-4 h-4 text-rose-400 shrink-0" />
+                  <XCircle className="w-5 h-5 text-white shrink-0" />
                 )}
                 {isSelected && (
-                  <CheckCircle2 className="w-4 h-4 text-white shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-white shrink-0" />
                 )}
               </div>
             </button>
@@ -155,12 +150,12 @@ export default function OddOneOutStage({ stage, onSubmitAnswer, isSecondChance }
 
       {/* Semantic Explanation Card */}
       {showExplanation && stage.explanation && (
-        <div className="p-3.5 rounded-xl bg-slate-900/95 border border-indigo-500/30 shadow-[0_0_14px_rgba(99,102,241,0.15)] animate-pop text-left">
-          <div className="flex items-center space-x-1.5 text-indigo-300 font-bold text-xs sm:text-sm mb-1">
+        <div className="p-4 rounded-2xl bg-slate-900 border-2 border-blue-500 shadow-md animate-pop text-left">
+          <div className="flex items-center space-x-1.5 text-blue-400 font-bold text-xs sm:text-sm mb-1">
             <Lightbulb className="w-4 h-4 text-amber-400 shrink-0" />
-            <span>শব্দার্থ ও বিশ্লেষণ (Semantic Explanation)</span>
+            <span>Explanation</span>
           </div>
-          <p className="text-xs sm:text-sm text-slate-300 leading-relaxed break-words">
+          <p className="text-xs sm:text-sm text-slate-200 font-medium leading-relaxed break-words">
             {stage.explanation}
           </p>
         </div>

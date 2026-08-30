@@ -185,7 +185,7 @@ export default function CompletionModal({
                 <div className="p-3 rounded-xl bg-emerald-950/30 border border-emerald-500/30 text-emerald-300 text-xs font-medium flex items-start gap-2 text-left">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
                   <div className="leading-relaxed break-words">
-                    <strong>Congratulations!</strong> You mastered all 10 stages on your 1st attempt to earn 5.0 Stars. Next level unlocked and +50 Gems bonus awarded!
+                    <strong>Congratulations!</strong> You mastered all 10 stages on your 1st attempt to earn 5.0 Stars. Next level is now unlocked!
                   </div>
                 </div>
               ) : (

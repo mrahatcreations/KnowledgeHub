@@ -35,15 +35,6 @@ export function shuffleArray(arr) {
   return result;
 }
 
-/**
- * Converts English number/digits to Bengali digits
- * @param {number|string} num
- * @returns {string} Bengali digits representation
- */
-export function toBnDigits(num) {
-  const bnDigits = ['০', '১', '২', '৩', '৪', '৫', '৬', '৭', '৮', '৯'];
-  return String(num).replace(/\d/g, (d) => bnDigits[Number(d)] || d);
-}
 
 /**
  * Clean and normalize string
@@ -111,11 +102,11 @@ export function extractAntonyms(item) {
  * Fallback items pool if provided level items are insufficient
  */
 const DEFAULT_FALLBACK_PAIRS = [
-  { id: 'fb_1', word: 'Facilitate', meaning: 'সহজতর করা' },
-  { id: 'fb_2', word: 'Enhance', meaning: 'বৃদ্ধি করা' },
-  { id: 'fb_3', word: 'Advocate', meaning: 'সমর্থন করা' },
-  { id: 'fb_4', word: 'Synthesize', meaning: 'সমন্বয় করা' },
-  { id: 'fb_5', word: 'Clarify', meaning: 'স্পষ্ট করা' }
+  { id: 'fb_1', word: 'Facilitate', meaning: 'To make easier or assist' },
+  { id: 'fb_2', word: 'Enhance', meaning: 'To improve or increase quality' },
+  { id: 'fb_3', word: 'Advocate', meaning: 'To publicly recommend or support' },
+  { id: 'fb_4', word: 'Synthesize', meaning: 'To combine into a coherent whole' },
+  { id: 'fb_5', word: 'Clarify', meaning: 'To make clear or easy to understand' }
 ];
 
 /**
@@ -287,21 +278,21 @@ export function generateMatchingStage(allItems = [], options = {}) {
   );
 
   // Configure Title, Instruction, and Explanation based on Subtype
-  let title = 'বাম-ডান শব্দ ও অর্থ মিলকরণ (Word-Meaning Matching)';
-  let instruction = 'বাম পাশের ইংরেজি শব্দের সাথে ডান পাশের সঠিক বাংলা অর্থ মেলাও';
+  let title = 'Left-Right Matching';
+  let instruction = 'Match each English word with its correct definition';
   let pairRelationSymbol = '=';
-  let explanationHeader = `প্রতিটি ইংরেজি শব্দের জন্য সঠিক বাংলা অর্থ মিলিয়ে ${toBnDigits(pairs.length)}টি পূর্ণ জোড়া তৈরি করুন।`;
+  let explanationHeader = `Match all ${pairs.length} pairs correctly:`;
 
   if (selectedSubtype === MATCHING_SUBTYPES.SYNONYM) {
-    title = 'সমার্থক শব্দ মিলকরণ (Synonym Matching)';
-    instruction = 'বাম পাশের মূল ইংরেজি শব্দের সাথে ডান পাশের সঠিক সমার্থক শব্দ (Synonym) মেলাও';
+    title = 'Synonym Matching';
+    instruction = 'Match each word with its corresponding synonym';
     pairRelationSymbol = '↔';
-    explanationHeader = `প্রতিটি মূল শব্দের সাথে তার সঠিক সমার্থক শব্দ (Synonym) মিলিয়ে ${toBnDigits(pairs.length)}টি জোড়া পূর্ণ করুন।`;
+    explanationHeader = `Match all ${pairs.length} synonym pairs correctly:`;
   } else if (selectedSubtype === MATCHING_SUBTYPES.ANTONYM) {
-    title = 'বিপরীতার্থক শব্দ মিলকরণ (Antonym Matching)';
-    instruction = 'বাম পাশের মূল ইংরেজি শব্দের সাথে ডান পাশের সঠিক বিপরীত শব্দ (Antonym) মেলাও';
+    title = 'Antonym Matching';
+    instruction = 'Match each word with its corresponding antonym';
     pairRelationSymbol = '≠';
-    explanationHeader = `প্রতিটি মূল শব্দের সাথে তার সঠিক বিপরীত শব্দ (Antonym) মিলিয়ে ${toBnDigits(pairs.length)}টি জোড়া পূর্ণ করুন।`;
+    explanationHeader = `Match all ${pairs.length} antonym pairs correctly:`;
   }
 
   // Generate detailed pair list for explanation
@@ -309,7 +300,7 @@ export function generateMatchingStage(allItems = [], options = {}) {
     .map(p => `• ${p.left} ${pairRelationSymbol} ${p.right}`)
     .join('\n');
 
-  const detailedExplanation = `${explanationHeader}\n\nসঠিক জোড়াসমূহ:\n${pairsExplanation}`;
+  const detailedExplanation = `${explanationHeader}\n\nCorrect Pairs:\n${pairsExplanation}`;
 
   return {
     type: 'matching',

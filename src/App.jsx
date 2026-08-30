@@ -32,6 +32,9 @@ export default function App() {
     // Progression
     unlockedLevel,
     levelStars,
+    gems,
+    streak,
+    lives,
 
     // Active Level / 10-Stage Session
     currentLevel,
@@ -62,19 +65,21 @@ export default function App() {
   return (
     <div className="min-h-screen w-full bg-slate-950 text-slate-100 flex flex-col items-center selection:bg-indigo-500 selection:text-white font-sans antialiased">
       <div className="max-w-md mx-auto w-full min-h-screen flex flex-col relative">
-        <MobileHUD
-          currentLevel={currentLevel}
-          stageIndex={stageIndex}
-          stageStars={stageStars}
-          totalStages={stages.length || 10}
-          isAudioMuted={isAudioMuted}
-          setIsAudioMuted={setIsAudioMuted}
-          onBackToMap={handleBackToMap}
-          levelStars={levelStars}
-          unlockedLevel={unlockedLevel}
-        />
+        {(currentLevel || activeTab === 'vocab') && (
+          <MobileHUD
+            currentLevel={currentLevel}
+            stageIndex={stageIndex}
+            stageStars={stageStars}
+            totalStages={stages.length || 10}
+            isAudioMuted={isAudioMuted}
+            setIsAudioMuted={setIsAudioMuted}
+            onBackToMap={handleBackToMap}
+            levelStars={levelStars}
+            unlockedLevel={unlockedLevel}
+          />
+        )}
 
-        <main className={`flex-1 flex flex-col justify-start py-3 px-3 sm:px-4 max-w-md w-full mx-auto ${!currentLevel ? 'pb-32' : 'pb-8'}`}>
+        <main className={`flex-1 flex flex-col justify-start max-w-md w-full mx-auto ${currentLevel ? 'py-3 px-3 sm:px-4 pb-8' : activeTab === 'vocab' ? 'py-3 px-3 sm:px-4 pb-32' : 'px-3 pb-8'}`}>
           {!currentLevel ? (
             <>
               {activeTab === 'path' && (
@@ -82,18 +87,18 @@ export default function App() {
                   levels={levels}
                   unlockedLevel={unlockedLevel}
                   levelStars={levelStars}
+                  gems={gems}
+                  streak={streak}
+                  lives={lives}
+                  isAudioMuted={isAudioMuted}
+                  setIsAudioMuted={setIsAudioMuted}
                   onSelectLevel={(lvl) => handleStartLevel(lvl, true)}
                 />
               )}
               {activeTab === 'vocab' && <VocabBookView levels={levels} levelStars={levelStars} />}
             </>
           ) : (
-            <div className="w-full flex flex-col space-y-4 sm:space-y-5 animate-pop">
-              <div className="text-center space-y-1">
-                <h2 className="text-xl sm:text-2xl font-black text-white tracking-tight">{currentStage?.title}</h2>
-                <p className="text-xs sm:text-sm text-slate-400 font-medium">{currentStage?.instruction}</p>
-              </div>
-
+            <div className="w-full flex flex-col space-y-3 sm:space-y-4 animate-pop">
               {currentStage && (
                 <>
                   {currentStage.type === STAGE_TYPES.FLASHCARD && (

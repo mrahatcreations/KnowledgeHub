@@ -31,19 +31,19 @@ export const CORE_STAGE_MODES = [
 ];
 
 export const STAGE_TITLES = {
-  [STAGE_TYPES.FLASHCARD]: 'ফ্ল্যাশ কার্ড ও স্মরণ পরীক্ষা (Flash Card)',
-  [STAGE_TYPES.MATCHING]: 'বাম-ডান মিলকরণ (Left-Right Matching)',
-  [STAGE_TYPES.DRAG_DROP]: 'শূন্যস্থান পূরণ (Drag & Drop Fill-in)',
-  [STAGE_TYPES.TRUE_FALSE]: 'সত্য/মিথ্যা যাচাই (True/False Swipe)',
-  [STAGE_TYPES.ODD_ONE_OUT]: 'বেমানান শব্দ বাছাই (Odd One Out)'
+  [STAGE_TYPES.FLASHCARD]: 'Flashcard Active Recall',
+  [STAGE_TYPES.MATCHING]: 'Left-Right Matching',
+  [STAGE_TYPES.DRAG_DROP]: 'Sentence Completion',
+  [STAGE_TYPES.TRUE_FALSE]: 'True / False Swipe',
+  [STAGE_TYPES.ODD_ONE_OUT]: 'Odd One Out'
 };
 
 export const STAGE_INSTRUCTIONS = {
-  [STAGE_TYPES.FLASHCARD]: 'শব্দটি দেখুন এবং সঠিক বাংলা অর্থ নির্বাচন করুন',
-  [STAGE_TYPES.MATCHING]: 'বাম পাশের ইংরেজি শব্দের সাথে ডান পাশের সঠিক বাংলা অর্থ মেলাও',
-  [STAGE_TYPES.DRAG_DROP]: 'সঠিক শব্দটি টেনে খালি বক্সে বসাও বা ক্লিক করে নির্বাচন করো',
-  [STAGE_TYPES.TRUE_FALSE]: 'বিবৃতিটি সত্য হলে TRUE অথবা মিথ্যা হলে FALSE নির্বাচন করুন',
-  [STAGE_TYPES.ODD_ONE_OUT]: 'চারটি বিকল্পের মধ্য থেকে বেমানান বা বিপরীত (Odd) শব্দটি বেছে নাও'
+  [STAGE_TYPES.FLASHCARD]: 'Review the word and select the correct meaning',
+  [STAGE_TYPES.MATCHING]: 'Match each English word with its correct definition',
+  [STAGE_TYPES.DRAG_DROP]: 'Drag or select the correct word to complete the sentence',
+  [STAGE_TYPES.TRUE_FALSE]: 'Swipe right for TRUE or left for FALSE',
+  [STAGE_TYPES.ODD_ONE_OUT]: 'Identify the odd or antonym word from the choices'
 };
 
 /**
@@ -112,18 +112,18 @@ export function getRandomDistractors(allItems, currentItem, count = 3, key = 'me
 
   const fallbackPools = {
     meaning: [
-      'সম্পর্কযুক্ত করা',
-      'উন্নতি সাধন',
-      'সতর্কীকরণ',
-      'মূল্যায়ন',
-      'পরিবর্তনশীল',
-      'সংরক্ষণ করা',
-      'ব্যাখ্যা করা',
-      'প্রতিষ্ঠা করা',
-      'প্রভাব বিস্তার করা',
-      'রূপান্তর করা',
-      'উৎসাহিত করা',
-      'পুনর্বিবেচনা করা'
+      'Associate or Connect',
+      'Improve or Enhance',
+      'Warning or Caution',
+      'Evaluation or Assessment',
+      'Adaptive or Flexible',
+      'Preserve or Protect',
+      'Explain or Clarify',
+      'Establish or Found',
+      'Influence or Impact',
+      'Transform or Convert',
+      'Encourage or Motivate',
+      'Review or Reconsider'
     ],
     word: [
       'Facilitate',
@@ -165,8 +165,8 @@ export function generateFlashcardStage(item, allItems, stageMeta = {}) {
   const synonyms = extractWordList(item.synonyms, item.raw_synonyms);
   const antonyms = extractWordList(item.antonyms, item.raw_antonyms);
 
-  const synonymsText = synonyms.length > 0 ? ` সমার্থক শব্দ: ${synonyms.join(', ')}` : '';
-  const antonymsText = antonyms.length > 0 ? ` | বিপরীত শব্দ: ${antonyms.join(', ')}` : '';
+  const synonymsText = synonyms.length > 0 ? ` Synonyms: ${synonyms.join(', ')}` : '';
+  const antonymsText = antonyms.length > 0 ? ` | Antonyms: ${antonyms.join(', ')}` : '';
 
   return {
     type: STAGE_TYPES.FLASHCARD,
@@ -175,10 +175,10 @@ export function generateFlashcardStage(item, allItems, stageMeta = {}) {
     title: STAGE_TITLES[STAGE_TYPES.FLASHCARD],
     instruction: STAGE_INSTRUCTIONS[STAGE_TYPES.FLASHCARD],
     item: item,
-    question: `"${item.word}" শব্দটির সঠিক বাংলা অর্থ কোনটি?`,
+    question: `What is the correct meaning of "${item.word}"?`,
     options: options,
     correctAnswer: item.meaning,
-    explanation: `"${item.word}" (${item.pos || 'Word'}) এর অর্থ: "${item.meaning}"।${synonymsText}${antonymsText}`
+    explanation: `"${item.word}" (${item.pos || 'Word'}) means: "${item.meaning}".${synonymsText}${antonymsText}`
   };
 }
 
@@ -203,7 +203,7 @@ export function generateMatchingStage(allItems, stageMeta = {}, targetItem = nul
     rightItems: rightItems,
     totalPairs: selected.length,
     correctAnswer: 'MATCH_ALL',
-    explanation: 'প্রতিটি ইংরেজি শব্দের জন্য সঠিক বাংলা অর্থ মিলিয়ে পূর্ণ জোড়া তৈরি করুন।'
+    explanation: 'Match each English word with its corresponding definition to complete all pairs.'
   };
 }
 
@@ -232,7 +232,7 @@ export function generateDragDropStage(item, allItems, stageMeta = {}) {
   }
 
   if (!maskedSentence || !maskedSentence.includes('_______')) {
-    maskedSentence = `বাক্যটি সম্পূর্ণ করো: [_______] শব্দটির বাংলা অর্থ হলো "${item.meaning}"।`;
+    maskedSentence = `Complete the sentence: [_______] means "${item.meaning}".`;
   }
 
   const distractors = getRandomDistractors(allItems, item, 3, 'word');
@@ -249,7 +249,7 @@ export function generateDragDropStage(item, allItems, stageMeta = {}) {
     targetWord: targetWord,
     options: options,
     correctAnswer: targetWord,
-    explanation: `সঠিক উত্তর: "${targetWord}"। এর অর্থ: "${item.meaning}"।`
+    explanation: `Correct answer: "${targetWord}". Meaning: "${item.meaning}".`
   };
 }
 
@@ -262,7 +262,7 @@ export function generateTrueFalseStage(item, allItems, stageMeta = {}) {
 
   if (!isTrue) {
     const distractors = getRandomDistractors(allItems, item, 1, 'meaning');
-    displayedMeaning = distractors.length > 0 ? distractors[0] : 'ভিন্ন অর্থ';
+    displayedMeaning = distractors.length > 0 ? distractors[0] : 'Alternative Meaning';
   }
 
   return {
@@ -272,13 +272,13 @@ export function generateTrueFalseStage(item, allItems, stageMeta = {}) {
     title: STAGE_TITLES[STAGE_TYPES.TRUE_FALSE],
     instruction: STAGE_INSTRUCTIONS[STAGE_TYPES.TRUE_FALSE],
     item: item,
-    statement: `"${item.word}" শব্দটির অর্থ কি "${displayedMeaning}"?`,
+    statement: `Does "${item.word}" mean "${displayedMeaning}"?`,
     displayedMeaning: displayedMeaning,
     isTrue: isTrue,
     correctAnswer: isTrue ? 'TRUE' : 'FALSE',
     explanation: isTrue 
-      ? `সঠিক! "${item.word}" এর প্রকৃত অর্থ "${item.meaning}"।` 
-      : `ভুল! "${item.word}" এর সঠিক অর্থ হলো "${item.meaning}" (প্রদর্শিত অর্থ "${displayedMeaning}" সঠিক নয়)।`
+      ? `Correct! "${item.word}" means "${item.meaning}".` 
+      : `Incorrect! "${item.word}" means "${item.meaning}" (not "${displayedMeaning}").`
   };
 }
 
@@ -298,15 +298,15 @@ export function generateOddOneOutStage(item, allItems, stageMeta = {}) {
     oddWord = ants[0];
     const related = [item.word, syns[0], syns[1]];
     options = shuffleArray([...related, oddWord]);
-    categoryTitle = `"${item.word}" এর সাথে নিচের কোনটি বেমানান বা বিপরীত শব্দ (Antonym)?`;
-    explanation = `সঠিক উত্তর: "${oddWord}"। এটি বিপরীত শব্দ (Antonym), বাকিগুলো "${item.word}" এর সমার্থক (Synonyms)।`;
+    categoryTitle = `Which of the following is the antonym or odd word for "${item.word}"?`;
+    explanation = `Correct answer: "${oddWord}". It is an antonym, while the others are synonyms of "${item.word}".`;
   } else if (ants.length > 0) {
     oddWord = ants[0];
     const distractorWords = getRandomDistractors(allItems, item, 2, 'word');
     const related = [item.word, ...(syns.length > 0 ? [syns[0]] : [distractorWords[0] || 'Related']), item.meaning || 'Meaning'];
     options = shuffleArray([...related.slice(0, 3), oddWord]);
-    categoryTitle = `"${item.word}" এর সাথে নিচের কোনটি বেমানান বা বিপরীত শব্দ (Antonym)?`;
-    explanation = `সঠিক উত্তর: "${oddWord}"। এটি বিপরীত শব্দ (Antonym), বাকিগুলো "${item.word}" সম্পর্কিত।`;
+    categoryTitle = `Which of the following is the antonym or odd word for "${item.word}"?`;
+    explanation = `Correct answer: "${oddWord}". It is an antonym, while the other choices are related to "${item.word}".`;
   } else {
     const distractors = getRandomDistractors(allItems, item, 1, 'word');
     oddWord = distractors.length > 0 ? distractors[0] : 'Unrelated';
@@ -315,8 +315,8 @@ export function generateOddOneOutStage(item, allItems, stageMeta = {}) {
       related.push(item.meaning || 'Meaning');
     }
     options = shuffleArray([...related.slice(0, 3), oddWord]);
-    categoryTitle = `"${item.word}" সম্পর্কিত তালিকার বাইরে কোনটি?`;
-    explanation = `সঠিক উত্তর: "${oddWord}"। এটি ভিন্ন শব্দ, বাকিগুলো "${item.word}" সম্পর্কিত।`;
+    categoryTitle = `Which word does not belong with "${item.word}"?`;
+    explanation = `Correct answer: "${oddWord}". It is unrelated, while the others are connected to "${item.word}".`;
   }
 
   return {

@@ -64,94 +64,133 @@
   transform: rotateY(180deg);
 }
 
-/* Modern Sleek Tactile Game Buttons */
+/* Crisp, Clean Duolingo-style 3D Game Buttons & Saga Nodes */
 .game-btn-3d {
   position: relative;
-  transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
   will-change: transform, box-shadow;
 }
 
 .game-btn-3d:active:not(:disabled) {
-  transform: translateY(2px);
+  transform: translateY(4px) !important;
+}
+
+/* Crisp 3D Saga Nodes */
+.saga-node-base {
+  position: relative;
+  border-radius: 9999px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+  user-select: none;
+}
+
+.saga-node-base:active:not(:disabled) {
+  transform: translateY(5px) scale(0.97) !important;
+}
+
+/* Mastered 5-Star Node (Solid Royal Gold) */
+.saga-node-mastered {
+  background-color: #f59e0b;
+  border: 3px solid #fde68a;
+  box-shadow: 0 6px 0 #b45309;
+}
+.saga-node-mastered:active:not(:disabled) {
+  box-shadow: 0 1px 0 #b45309;
+}
+
+/* Current Active Node (Solid Electric Blue) */
+.saga-node-current {
+  background-color: #3b82f6;
+  border: 3px solid #bfdbfe;
+  box-shadow: 0 6px 0 #1d4ed8;
+}
+.saga-node-current:active:not(:disabled) {
+  box-shadow: 0 1px 0 #1d4ed8;
+}
+
+/* Unlocked In-Progress Node (Solid Emerald) */
+.saga-node-unlocked {
+  background-color: #10b981;
+  border: 3px solid #a7f3d0;
+  box-shadow: 0 6px 0 #047857;
+}
+.saga-node-unlocked:active:not(:disabled) {
+  box-shadow: 0 1px 0 #047857;
+}
+
+/* Locked Node (Crisp Dark Slate) */
+.saga-node-locked {
+  background-color: #1e293b;
+  border: 2px solid #334155;
+  box-shadow: 0 5px 0 #090d16;
+  cursor: not-allowed;
 }
 
 .game-btn-indigo {
-  background: linear-gradient(180deg, #4f46e5 0%, #4338ca 100%);
-  border: 1px solid rgba(129, 140, 248, 0.35);
-  box-shadow: 0 3px 0 #312e81, 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  background-color: #4f46e5;
+  border: 1px solid #818cf8;
+  box-shadow: 0 4px 0 #312e81;
 }
 .game-btn-indigo:active:not(:disabled) {
-  box-shadow: 0 1px 0 #312e81, 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 0 #312e81;
 }
 
 .game-btn-emerald {
-  background: linear-gradient(180deg, #059669 0%, #047857 100%);
-  border: 1px solid rgba(52, 211, 153, 0.35);
-  box-shadow: 0 3px 0 #064e3b, 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  background-color: #059669;
+  border: 1px solid #34d399;
+  box-shadow: 0 4px 0 #064e3b;
 }
 .game-btn-emerald:active:not(:disabled) {
-  box-shadow: 0 1px 0 #064e3b, 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 0 #064e3b;
 }
 
 .game-btn-amber {
-  background: linear-gradient(180deg, #d97706 0%, #b45309 100%);
-  border: 1px solid rgba(251, 191, 36, 0.35);
-  box-shadow: 0 3px 0 #78350f, 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  background-color: #d97706;
+  border: 1px solid #fbbf24;
+  box-shadow: 0 4px 0 #78350f;
 }
 .game-btn-amber:active:not(:disabled) {
-  box-shadow: 0 1px 0 #78350f, 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 0 #78350f;
 }
 
 .game-btn-rose {
-  background: linear-gradient(180deg, #e11d48 0%, #be123c 100%);
-  border: 1px solid rgba(251, 113, 133, 0.35);
-  box-shadow: 0 3px 0 #881337, 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  background-color: #e11d48;
+  border: 1px solid #fb7185;
+  box-shadow: 0 4px 0 #881337;
 }
 .game-btn-rose:active:not(:disabled) {
-  box-shadow: 0 1px 0 #881337, 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 0 #881337;
 }
 
 .game-btn-purple {
-  background: linear-gradient(180deg, #9333ea 0%, #7e22ce 100%);
-  border: 1px solid rgba(192, 132, 252, 0.35);
-  box-shadow: 0 3px 0 #581c87, 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  background-color: #9333ea;
+  border: 1px solid #c084fc;
+  box-shadow: 0 4px 0 #581c87;
 }
 .game-btn-purple:active:not(:disabled) {
-  box-shadow: 0 1px 0 #581c87, 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 0 #581c87;
 }
 
 .game-btn-slate {
-  background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
-  border: 1px solid rgba(71, 85, 105, 0.4);
-  box-shadow: 0 3px 0 #020617, 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  background-color: #1e293b;
+  border: 1px solid #475569;
+  box-shadow: 0 4px 0 #020617;
 }
 .game-btn-slate:active:not(:disabled) {
-  box-shadow: 0 1px 0 #020617, 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 0 #020617;
 }
 
 /* Animations */
-@keyframes pulseGlow {
-  0%, 100% {
-    box-shadow: 0 0 14px rgba(99, 102, 241, 0.35), 0 3px 0 #312e81;
-  }
-  50% {
-    box-shadow: 0 0 24px rgba(99, 102, 241, 0.65), 0 3px 0 #312e81;
-  }
+@keyframes pulseSubtle {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.03); }
 }
-.animate-pulse-glow {
-  animation: pulseGlow 2s ease-in-out infinite;
-}
-
-@keyframes goldGlow {
-  0%, 100% {
-    box-shadow: 0 0 12px rgba(245, 158, 11, 0.35), 0 3px 0 #78350f;
-  }
-  50% {
-    box-shadow: 0 0 22px rgba(245, 158, 11, 0.6), 0 3px 0 #78350f;
-  }
-}
-.animate-gold-glow {
-  animation: goldGlow 2.5s ease-in-out infinite;
+.animate-pulse-subtle {
+  animation: pulseSubtle 2s ease-in-out infinite;
 }
 
 @keyframes floatSlow {
@@ -159,7 +198,7 @@
   50% { transform: translateY(-4px); }
 }
 .animate-float {
-  animation: floatSlow 3s ease-in-out infinite;
+  animation: floatSlow 2.5s ease-in-out infinite;
 }
 
 @keyframes popIn {

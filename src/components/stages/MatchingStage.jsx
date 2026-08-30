@@ -3,11 +3,6 @@ import { CheckCircle2, XCircle, Sparkles, Volume2, AlertCircle, Link2 } from 'lu
 import confetti from 'canvas-confetti';
 import { sound } from '../../audio/SoundSynthesizer';
 
-// Bengali number converter helper
-const toBnDigits = (num) => {
-  const bnDigits = ['০', '১', '২', '৩', '৪', '৫', '৬', '৭', '৮', '৯'];
-  return String(num).replace(/\d/g, (d) => bnDigits[Number(d)]);
-};
 
 export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance }) {
   const [selectedLeft, setSelectedLeft] = useState(null);
@@ -179,7 +174,7 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
             <span className="text-[9px] sm:text-[10px] text-slate-500 font-bold font-mono shrink-0">EN</span>
           </div>
 
-          <div className="flex flex-col space-y-2">
+          <div className="flex flex-col space-y-2.5">
             {stage.leftItems?.map((item) => {
               const isMatched = matchedIds.includes(item.id);
               const isSelected = selectedLeft?.id === item.id;
@@ -191,41 +186,38 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
                   key={item.id}
                   onClick={() => handleLeftClick(item)}
                   disabled={isMatched || isFinished}
-                  className={`game-btn-3d w-full min-h-[48px] sm:min-h-[52px] p-2.5 sm:p-3 rounded-xl font-bold text-xs sm:text-sm text-left transition-all duration-150 flex items-center justify-between group relative ${
+                  className={`w-full min-h-[50px] sm:min-h-[56px] p-3 rounded-2xl font-bold text-xs sm:text-sm text-left transition-all duration-150 flex items-center justify-between group relative border-2 cursor-pointer ${
                     isMatched
-                      ? 'bg-emerald-950/50 border border-emerald-500/60 text-emerald-200 shadow-[0_0_12px_rgba(16,185,129,0.25)] opacity-95'
+                      ? 'bg-emerald-600 border-emerald-400 text-white shadow-[0_3px_0_#065f46] opacity-90'
                       : isError
-                      ? 'bg-rose-950/50 border border-rose-500/70 text-rose-200 animate-shake shadow-[0_0_14px_rgba(244,63,94,0.4)]'
+                      ? 'bg-rose-600 border-rose-400 text-white animate-shake shadow-[0_3px_0_#9f1239]'
                       : isSelected
-                      ? 'bg-indigo-600 border border-indigo-300 text-white shadow-[0_0_16px_rgba(99,102,241,0.6)] ring-2 ring-indigo-400/50 scale-[1.02]'
-                      : 'bg-slate-900 border border-slate-800 hover:border-indigo-500/50 text-slate-200 hover:text-white'
+                      ? 'bg-blue-600 border-blue-300 text-white shadow-[0_3px_0_#1d4ed8] scale-[1.02]'
+                      : 'bg-slate-900 border-slate-800 hover:border-blue-500 text-white shadow-[0_3px_0_#020617] active:translate-y-1 active:shadow-none'
                   }`}
                 >
-                  <div className="flex items-center space-x-1.5 flex-1 min-w-0 mr-1">
-                    <span className="tracking-wide font-bold break-words min-w-0 leading-tight">{item.text}</span>
+                  <div className="flex items-center space-x-2 flex-1 min-w-0 mr-1">
+                    <span className="tracking-tight font-black break-words min-w-0 leading-tight text-sm sm:text-base">{item.text}</span>
                   </div>
 
                   {/* Status icon */}
                   <div className="shrink-0 flex items-center space-x-1">
                     {isMatched ? (
-                      <div className="flex items-center space-x-1">
-                        {isRecent && <Sparkles className="w-3 h-3 text-amber-300 animate-star" />}
-                        <div className="w-5 h-5 rounded-full bg-emerald-500/20 border border-emerald-400/60 flex items-center justify-center text-emerald-300 shadow-[0_0_8px_rgba(16,185,129,0.4)]">
-                          <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
-                        </div>
+                      <div className="w-6 h-6 rounded-full bg-emerald-700 flex items-center justify-center text-white">
+                        <CheckCircle2 className="w-4 h-4 text-white" />
                       </div>
                     ) : isError ? (
-                      <div className="w-5 h-5 rounded-full bg-rose-500/20 border border-rose-400/60 flex items-center justify-center text-rose-300">
-                        <XCircle className="w-3.5 h-3.5 text-rose-400" />
+                      <div className="w-6 h-6 rounded-full bg-rose-700 flex items-center justify-center text-white">
+                        <XCircle className="w-4 h-4 text-white" />
                       </div>
                     ) : (
                       <button
                         type="button"
                         onClick={(e) => handleSpeakOnly(e, item.text)}
-                        className="p-1 rounded-lg text-slate-400 hover:text-indigo-300 hover:bg-slate-800 transition shrink-0"
+                        className="p-1 rounded-lg text-slate-400 hover:text-white hover:bg-slate-700/80 transition shrink-0"
                         title="Listen pronunciation"
                       >
-                        <Volume2 className="w-3.5 h-3.5" />
+                        <Volume2 className="w-4 h-4" />
                       </button>
                     )}
                   </div>
@@ -245,7 +237,7 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
             <span className="text-[9px] sm:text-[10px] text-slate-500 font-bold font-mono shrink-0">DEF</span>
           </div>
 
-          <div className="flex flex-col space-y-2">
+          <div className="flex flex-col space-y-2.5">
             {stage.rightItems?.map((item) => {
               const isMatched = matchedIds.includes(item.id);
               const isSelected = selectedRight?.id === item.id;
@@ -257,35 +249,32 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
                   key={item.id}
                   onClick={() => handleRightClick(item)}
                   disabled={isMatched || isFinished}
-                  className={`game-btn-3d w-full min-h-[48px] sm:min-h-[52px] p-2.5 sm:p-3 rounded-xl font-medium text-xs sm:text-sm text-left transition-all duration-150 flex items-center justify-between group relative ${
+                  className={`w-full min-h-[50px] sm:min-h-[56px] p-3 rounded-2xl font-bold text-xs sm:text-sm text-left transition-all duration-150 flex items-center justify-between group relative border-2 cursor-pointer ${
                     isMatched
-                      ? 'bg-emerald-950/50 border border-emerald-500/60 text-emerald-200 shadow-[0_0_12px_rgba(16,185,129,0.25)] opacity-95'
+                      ? 'bg-emerald-600 border-emerald-400 text-white shadow-[0_3px_0_#065f46] opacity-90'
                       : isError
-                      ? 'bg-rose-950/50 border border-rose-500/70 text-rose-200 animate-shake shadow-[0_0_14px_rgba(244,63,94,0.4)]'
+                      ? 'bg-rose-600 border-rose-400 text-white animate-shake shadow-[0_3px_0_#9f1239]'
                       : isSelected
-                      ? 'bg-teal-600 border border-teal-300 text-white shadow-[0_0_16px_rgba(20,184,166,0.6)] ring-2 ring-teal-400/50 scale-[1.02]'
-                      : 'bg-slate-900 border border-slate-800 hover:border-teal-500/50 text-slate-200 hover:text-white'
+                      ? 'bg-teal-600 border-teal-300 text-white shadow-[0_3px_0_#0f766e] scale-[1.02]'
+                      : 'bg-slate-900 border-slate-800 hover:border-teal-500 text-white shadow-[0_3px_0_#020617] active:translate-y-1 active:shadow-none'
                   }`}
                 >
                   <div className="flex-1 min-w-0 mr-1">
-                    <span className="leading-snug tracking-wide text-[11px] sm:text-xs md:text-sm break-words block">{item.text}</span>
+                    <span className="leading-snug tracking-normal text-xs sm:text-sm font-bold break-words block">{item.text}</span>
                   </div>
 
                   {/* Status Indicator */}
                   <div className="shrink-0 flex items-center justify-center">
                     {isMatched ? (
-                      <div className="flex items-center space-x-1">
-                        {isRecent && <Sparkles className="w-3 h-3 text-amber-300" />}
-                        <div className="w-5 h-5 rounded-full bg-emerald-500/20 border border-emerald-400/50 flex items-center justify-center text-emerald-300">
-                          <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
-                        </div>
+                      <div className="w-6 h-6 rounded-full bg-emerald-700 flex items-center justify-center text-white">
+                        <CheckCircle2 className="w-4 h-4 text-white" />
                       </div>
                     ) : isError ? (
-                      <div className="w-5 h-5 rounded-full bg-rose-500/20 border border-rose-400/50 flex items-center justify-center text-rose-300">
-                        <XCircle className="w-3.5 h-3.5 text-rose-400" />
+                      <div className="w-6 h-6 rounded-full bg-rose-700 flex items-center justify-center text-white">
+                        <XCircle className="w-4 h-4 text-white" />
                       </div>
                     ) : (
-                      <div className="w-1.5 h-1.5 rounded-full bg-slate-700 group-hover:bg-teal-400 transition" />
+                      <div className="w-2 h-2 rounded-full bg-slate-600 group-hover:bg-teal-400 transition" />
                     )}
                   </div>
                 </button>

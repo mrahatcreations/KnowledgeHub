@@ -15,10 +15,10 @@ export default function LevelMap({ levels, unlockedLevel, levelStars, onSelectLe
   const totalStarsEarned = Object.values(levelStars).reduce((sum, s) => sum + s, 0);
 
   const formatCategoryName = (cat) => {
-    if (cat === 'ALL') return 'সব ক্যাটাগরি';
+    if (cat === 'ALL') return 'All Categories';
     const match = cat.match(/(?:Unit|Image)\s*[-:]?\s*(\d+)/i);
     if (match) {
-      return `ইউনিট ${match[1]}`;
+      return `Unit ${match[1]}`;
     }
     return cat;
   };
@@ -28,20 +28,20 @@ export default function LevelMap({ levels, unlockedLevel, levelStars, onSelectLe
       {/* Top Banner / Stats */}
       <div className="bg-gradient-to-r from-indigo-950 via-slate-900 to-indigo-950 rounded-3xl p-5 sm:p-7 border border-indigo-500/30 shadow-2xl mb-6 sm:mb-8 flex flex-col sm:flex-row items-center justify-between gap-5">
         <div className="space-y-1.5 text-center sm:text-left">
-          <div className="flex items-center justify-center sm:justify-start space-x-1.5 text-indigo-400 text-xs font-bold uppercase tracking-wider">
+          <div className="flex items-center justify-center sm:justify-start space-x-1.5 text-blue-400 text-xs font-bold uppercase tracking-wider">
             <Sparkles className="w-4 h-4 text-amber-400 shrink-0" />
-            <span>শব্দভাণ্ডার অভিযান (Grid Overview)</span>
+            <span>Level Overview</span>
           </div>
-          <h2 className="text-xl sm:text-3xl font-extrabold text-white tracking-tight">ইংরেজি ভোকাবুলারি জার্নি</h2>
+          <h2 className="text-xl sm:text-3xl font-extrabold text-white tracking-tight">Vocabulary Levels</h2>
           <p className="text-xs sm:text-sm text-slate-300 max-w-md">
-            প্রতিটি লেভেলে ১০টি আকর্ষণীয় স্টেজ রয়েছে। ১ম সুযোগেই সবগুলো স্টেজ সঠিক করে ১০-স্টার অর্জন করুন এবং নতুন লেভেল আনলক করুন!
+            Each level features 10 stages. Answer all 10 stages correctly to master the level and unlock the next one.
           </p>
         </div>
 
         <div className="flex sm:flex-col items-center justify-center gap-3 sm:gap-1 bg-amber-500/10 border border-amber-400/30 px-5 py-3.5 rounded-2xl text-center min-w-[140px] shrink-0">
           <Crown className="w-5 h-5 text-amber-400 fill-amber-400 shrink-0" />
           <div>
-            <span className="text-[11px] text-amber-300 uppercase font-bold tracking-wider">মাস্টার লেভেল</span>
+            <span className="text-[11px] text-amber-300 uppercase font-bold tracking-wider">Mastered Levels</span>
             <div className="text-2xl sm:text-3xl font-black text-amber-400 font-mono">
               {totalMastered} <span className="text-xs font-normal text-slate-400">/ {levels.length}</span>
             </div>
@@ -108,7 +108,7 @@ export default function LevelMap({ levels, unlockedLevel, levelStars, onSelectLe
                   {isMastered ? (
                     <span className="flex items-center space-x-1 text-amber-400 bg-amber-500/10 border border-amber-400/30 px-2 py-0.5 rounded-full text-xs font-bold">
                       <Crown className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
-                      <span>মাস্টার্ড</span>
+                      <span>Mastered</span>
                     </span>
                   ) : !isUnlocked ? (
                     <Lock className="w-4 h-4 text-slate-500" />
@@ -119,7 +119,7 @@ export default function LevelMap({ levels, unlockedLevel, levelStars, onSelectLe
                   <span>{lvl.title}</span>
                   {isCurrent && (
                     <span className="text-[10px] font-black text-indigo-400 bg-indigo-500/10 border border-indigo-400/30 px-2 py-0.5 rounded-full">
-                      বর্তমান
+                      Current
                     </span>
                   )}
                 </h3>
@@ -143,7 +143,7 @@ export default function LevelMap({ levels, unlockedLevel, levelStars, onSelectLe
                   isUnlocked ? 'text-indigo-400' : 'text-slate-500'
                 }`}>
                   {isUnlocked && <Play className="w-3 h-3 fill-indigo-400 text-indigo-400" />}
-                  <span>{isUnlocked ? 'খেলুন' : 'লকড'}</span>
+                  <span>{isUnlocked ? 'Play' : 'Locked'}</span>
                 </span>
               </div>
             </div>

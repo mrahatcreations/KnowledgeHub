@@ -118,43 +118,42 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
     <div className="w-full max-w-xl mx-auto flex flex-col space-y-3.5 sm:space-y-4 animate-pop select-none">
       {/* Sentence Puzzle Board Card */}
       <div 
-        className={`relative overflow-hidden rounded-2xl bg-slate-900 border shadow-sm transition-all duration-200 p-4 sm:p-5 ${
+        className={`relative overflow-hidden rounded-2xl bg-slate-900 border-2 shadow-md transition-all duration-200 p-4 sm:p-5 ${
           feedbackState === 'correct' 
-            ? 'border-emerald-500/50' 
+            ? 'border-emerald-500 bg-slate-900' 
             : feedbackState === 'wrong'
-            ? 'border-rose-500/50 animate-shake'
+            ? 'border-rose-500 bg-slate-900 animate-shake'
             : isSecondChance 
-            ? 'border-amber-500/40' 
+            ? 'border-amber-500 bg-slate-900' 
             : 'border-slate-800'
         }`}
       >
         {/* Card Header */}
         <div className="flex items-center justify-between gap-2 mb-3 pb-2.5 border-b border-slate-800">
           <div className="flex items-center space-x-2">
-            <span className="px-2.5 py-0.5 bg-indigo-500/15 text-indigo-300 text-[11px] sm:text-xs font-bold rounded-full uppercase tracking-wider flex items-center space-x-1.5 border border-indigo-500/20">
-              <Sparkles className="w-3.5 h-3.5 text-indigo-400" />
-              <span>Sentence Completion</span>
+            <span className="px-3 py-1 bg-blue-600 text-white text-xs font-black rounded-lg uppercase tracking-wider shadow-xs">
+              Sentence Completion
             </span>
 
             {isSecondChance && (
-              <span className="px-2 py-0.5 bg-amber-500/15 text-amber-300 text-[10px] sm:text-[11px] font-bold rounded-full border border-amber-500/30">
-                2nd Chance (0 Stars)
+              <span className="px-2.5 py-1 bg-amber-500 text-slate-950 text-xs font-black rounded-lg shadow-xs">
+                2nd Chance
               </span>
             )}
           </div>
 
           <button
             onClick={handleSpeak}
-            className="p-1.5 sm:p-2 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white rounded-full transition shadow-xs active:scale-95 flex items-center space-x-1"
+            className="p-1.5 sm:p-2 bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white rounded-xl transition shadow-xs active:scale-95 flex items-center space-x-1.5 cursor-pointer border border-slate-700"
             title="Listen sentence pronunciation"
           >
-            <Volume2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-            <span className="text-[10px] sm:text-[11px] font-semibold hidden sm:inline">Listen</span>
+            <Volume2 className="w-4 h-4" />
+            <span className="text-xs font-bold">Listen</span>
           </button>
         </div>
 
         {/* Interactive Sentence with Snap-in Slot Target */}
-        <div className="my-3 sm:my-4 text-base sm:text-xl font-bold text-slate-100 leading-relaxed text-center break-words">
+        <div className="my-4 text-base sm:text-xl font-bold text-white leading-relaxed text-center break-words">
           {sentenceParts.map((part, index) => (
             <React.Fragment key={index}>
               <span>{part}</span>
@@ -165,39 +164,39 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
                   onDragLeave={handleDragLeave}
                   onDrop={handleDrop}
                   onClick={placedWord ? handleRemovePlacedWord : undefined}
-                  className={`inline-flex items-center justify-center align-middle mx-1.5 my-1 min-h-[40px] min-w-[110px] px-3 py-1 rounded-xl border transition-all duration-150 text-xs sm:text-sm font-bold relative max-w-full ${
+                  className={`inline-flex items-center justify-center align-middle mx-1.5 my-1 min-h-[44px] min-w-[120px] px-3.5 py-1.5 rounded-xl border-2 transition-all duration-150 text-sm font-black relative max-w-full ${
                     placedWord
                       ? feedbackState === 'correct'
-                        ? 'bg-emerald-600 border-emerald-300 text-white cursor-pointer shadow-[0_0_18px_rgba(16,185,129,0.65)]'
+                        ? 'bg-emerald-600 border-emerald-400 text-white cursor-pointer shadow-[0_3px_0_#065f46]'
                         : feedbackState === 'wrong'
-                        ? 'bg-rose-600 border-rose-300 text-white cursor-pointer shadow-[0_0_18px_rgba(244,63,94,0.65)]'
-                        : 'bg-indigo-600 text-white border-indigo-300 cursor-pointer shadow-[0_0_14px_rgba(99,102,241,0.5)]'
+                        ? 'bg-rose-600 border-rose-400 text-white cursor-pointer shadow-[0_3px_0_#9f1239]'
+                        : 'bg-blue-600 text-white border-blue-400 cursor-pointer shadow-[0_3px_0_#1d4ed8]'
                       : isDragOver
-                      ? 'border-indigo-400 bg-indigo-950/80 text-indigo-300 shadow-[0_0_15px_rgba(99,102,241,0.5)] animate-pulse'
-                      : 'border-dashed border-slate-700 bg-slate-950/60 text-slate-400 hover:border-indigo-500/50'
+                      ? 'border-blue-400 bg-blue-900/60 text-blue-300 shadow-md animate-pulse'
+                      : 'border-dashed border-slate-600 bg-slate-950 text-slate-400 hover:border-blue-400'
                   }`}
                 >
                   {placedWord ? (
-                    <span className="flex items-center space-x-1.5 animate-pop max-w-full">
-                      <span className="break-words max-w-[140px] sm:max-w-[180px]">{placedWord}</span>
+                    <span className="flex items-center space-x-2 animate-pop max-w-full">
+                      <span className="break-words max-w-[150px] sm:max-w-[190px]">{placedWord}</span>
                       {feedbackState === 'correct' && (
-                        <CheckCircle2 className="w-4 h-4 text-emerald-200 shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-white shrink-0" />
                       )}
                       {feedbackState === 'wrong' && (
-                        <XCircle className="w-4 h-4 text-rose-200 shrink-0" />
+                        <XCircle className="w-4 h-4 text-white shrink-0" />
                       )}
                       {feedbackState === 'idle' && (
                         <span 
                           title="Tap to remove" 
                           className="p-0.5 hover:bg-white/20 rounded-full transition ml-0.5 shrink-0"
                         >
-                          <Undo2 className="w-3.5 h-3.5 text-indigo-200" />
+                          <Undo2 className="w-3.5 h-3.5 text-blue-200" />
                         </span>
                       )}
                     </span>
                   ) : (
-                    <span className="flex items-center space-x-1 text-[11px] sm:text-xs font-semibold text-slate-400">
-                      <ArrowDownCircle className="w-3.5 h-3.5 text-indigo-400 shrink-0" />
+                    <span className="flex items-center space-x-1 text-xs font-bold text-slate-400">
+                      <ArrowDownCircle className="w-3.5 h-3.5 text-blue-400 shrink-0" />
                       <span>Place here</span>
                     </span>
                   )}
@@ -209,22 +208,22 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
 
         {/* Word Meaning Hint Footer */}
         {stage.item?.meaning && (
-          <div className="mt-3 pt-2.5 border-t border-slate-800 flex items-center justify-center space-x-1.5 text-xs text-slate-400 font-medium">
-            <Lightbulb className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-            <span>Meaning: <strong className="text-amber-300 font-bold">{stage.item.meaning}</strong></span>
+          <div className="mt-3 pt-2.5 border-t border-slate-800 flex items-center justify-center space-x-1.5 text-xs text-slate-300 font-medium">
+            <Lightbulb className="w-4 h-4 text-amber-400 shrink-0" />
+            <span>Meaning: <strong className="text-amber-400 font-bold">{stage.item.meaning}</strong></span>
           </div>
         )}
       </div>
 
       {/* Word Chip Pool Container */}
-      <div className="p-3.5 sm:p-4 rounded-2xl bg-slate-900/90 border border-slate-800 text-center shadow-sm">
-        <div className="flex items-center justify-center space-x-1.5 text-[11px] sm:text-xs text-slate-400 font-semibold mb-3">
-          <MousePointerClick className="w-3.5 h-3.5 text-indigo-400 shrink-0" />
-          <span>Tap or drag words to place in the slot:</span>
+      <div className="p-4 sm:p-5 rounded-2xl bg-slate-900 border-2 border-slate-800 text-center shadow-md">
+        <div className="flex items-center justify-center space-x-1.5 text-xs text-slate-300 font-bold mb-3">
+          <MousePointerClick className="w-4 h-4 text-blue-400 shrink-0" />
+          <span>Tap or drag words to complete the sentence:</span>
         </div>
 
         {/* Word Chips */}
-        <div className="flex flex-wrap justify-center gap-2">
+        <div className="flex flex-wrap justify-center gap-2.5">
           {stage.options.map((opt, i) => {
             const isWrong = wrongWords.includes(opt);
             const isPlaced = placedWord === opt;
@@ -236,17 +235,17 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
                 onDragStart={(e) => handleDragStart(e, opt)}
                 onClick={() => handlePlaceWord(opt)}
                 disabled={isWrong || isSubmitting}
-                className={`py-2 px-3.5 rounded-xl font-bold text-xs sm:text-sm transition-all flex items-center space-x-1.5 break-words max-w-full text-center active:scale-95 select-none ${
+                className={`py-2.5 px-4 rounded-xl font-black text-xs sm:text-sm transition-all flex items-center space-x-1.5 break-words max-w-full text-center border-2 select-none cursor-pointer ${
                   isWrong
-                    ? 'border border-rose-900/40 bg-rose-950/30 text-rose-400/60 opacity-40 cursor-not-allowed line-through'
+                    ? 'border-rose-500 bg-rose-600 text-white opacity-40 cursor-not-allowed line-through'
                     : isPlaced
-                    ? 'border border-dashed border-indigo-500/40 bg-indigo-950/30 text-indigo-400 opacity-60 scale-95'
-                    : 'game-btn-3d bg-slate-800 text-slate-100 border border-slate-700 hover:border-slate-600 hover:text-white cursor-grab active:cursor-grabbing'
+                    ? 'border-dashed border-blue-400 bg-slate-800 text-blue-400 opacity-50 scale-95'
+                    : 'bg-slate-800 hover:bg-slate-700 text-white border-slate-700 hover:border-blue-400 shadow-[0_3px_0_#0f172a] active:translate-y-0.5 active:shadow-none'
                 }`}
               >
                 <span className="break-words">{opt}</span>
-                {isWrong && <XCircle className="w-3.5 h-3.5 text-rose-400 shrink-0" />}
-                {isPlaced && <Check className="w-3.5 h-3.5 text-indigo-400 shrink-0" />}
+                {isWrong && <XCircle className="w-4 h-4 text-white shrink-0" />}
+                {isPlaced && <Check className="w-4 h-4 text-blue-400 shrink-0" />}
               </button>
             );
           })}

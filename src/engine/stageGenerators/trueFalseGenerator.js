@@ -34,21 +34,21 @@ function normalizeWordList(val) {
  * Fallback distractor pools for resilient generation
  */
 const FALLBACK_MEANINGS = [
-  'সম্পর্কযুক্ত করা',
-  'উন্নতি সাধন করা',
-  'সতর্কীকরণ করা',
-  'মূল্যায়ন করা',
-  'পরিবর্তনশীল',
-  'সংরক্ষণ করা',
-  'বাস্তবায়ন করা',
-  'স্থগিত রাখা',
-  'অনুমোদন দেওয়া',
-  'উৎসাহিত করা',
-  'সহজতর করা',
-  'সংক্ষিপ্ত করা',
-  'স্পষ্ট করা',
-  'প্রতিরোধ করা',
-  'পুনরাবৃত্তি করা'
+  'To connect or associate',
+  'To improve or enhance',
+  'To warn or caution',
+  'To evaluate or assess',
+  'Flexible or adaptable',
+  'To preserve or protect',
+  'To implement or execute',
+  'To suspend or delay',
+  'To approve or authorize',
+  'To encourage or motivate',
+  'To facilitate or assist',
+  'To shorten or condense',
+  'To clarify or explain',
+  'To resist or prevent',
+  'To repeat or duplicate'
 ];
 
 const FALLBACK_WORDS = [
@@ -186,20 +186,20 @@ export function generateTrueFalseStage(item = {}, allItems = [], options = {}) {
     // ----------------------------------------------------
     if (isTrue) {
       const realSynonym = safeItem.synonyms[Math.floor(Math.random() * safeItem.synonyms.length)];
-      displayedMeaning = `সমার্থক শব্দ: ${realSynonym}`;
-      statement = `"${safeItem.word}" শব্দটির সমার্থক শব্দ (Synonym) হলো "${realSynonym}"।`;
-      explanation = `সঠিক! "${safeItem.word}" এবং "${realSynonym}" একে অপরের সমার্থক শব্দ (Synonyms)। এর বাংলা অর্থ: "${safeItem.meaning}"।`;
+      displayedMeaning = `Synonym: ${realSynonym}`;
+      statement = `Is "${realSynonym}" a synonym of "${safeItem.word}"?`;
+      explanation = `Correct! "${safeItem.word}" and "${realSynonym}" are synonyms. Meaning: "${safeItem.meaning}".`;
     } else {
       const distractor = getRandomWordDistractor(allItems, safeItem, safeItem.synonyms);
       const fakeWord = distractor.word;
-      displayedMeaning = `সমার্থক শব্দ: ${fakeWord}`;
-      statement = `"${safeItem.word}" শব্দটির সমার্থক শব্দ (Synonym) হলো "${fakeWord}"।`;
+      displayedMeaning = `Synonym: ${fakeWord}`;
+      statement = `Is "${fakeWord}" a synonym of "${safeItem.word}"?`;
 
       const realSynsText = safeItem.raw_synonyms || safeItem.synonyms.join(', ');
       if (distractor.isAntonym) {
-        explanation = `ভুল! "${fakeWord}" শব্দটি "${safeItem.word}" এর সমার্থক নয়, বরং বিপরীত শব্দ (Antonym)। "${safeItem.word}" এর সঠিক সমার্থক শব্দ: "${realSynsText}" (অর্থ: "${safeItem.meaning}")।`;
+        explanation = `Incorrect! "${fakeWord}" is not a synonym, but an antonym of "${safeItem.word}". Synonyms: "${realSynsText}" (Meaning: "${safeItem.meaning}").`;
       } else {
-        explanation = `ভুল! "${fakeWord}" শব্দটি "${safeItem.word}" এর সমার্থক নয়। "${safeItem.word}" এর প্রকৃত সমার্থক শব্দ: "${realSynsText}" (অর্থ: "${safeItem.meaning}")।`;
+        explanation = `Incorrect! "${fakeWord}" is not a synonym of "${safeItem.word}". Synonyms: "${realSynsText}" (Meaning: "${safeItem.meaning}").`;
       }
     }
   } else {
@@ -208,20 +208,20 @@ export function generateTrueFalseStage(item = {}, allItems = [], options = {}) {
     // ----------------------------------------------------
     if (isTrue) {
       displayedMeaning = safeItem.meaning;
-      statement = `"${safeItem.word}" শব্দটির সঠিক বাংলা অর্থ কি "${displayedMeaning}"?`;
-      explanation = `সঠিক! "${safeItem.word}" (${safeItem.pos || 'শব্দ'}) এর প্রকৃত অর্থ হলো "${safeItem.meaning}"।${safeItem.raw_synonyms ? ` সমার্থক শব্দ: ${safeItem.raw_synonyms}।` : ''}`;
+      statement = `Does "${safeItem.word}" mean "${displayedMeaning}"?`;
+      explanation = `Correct! "${safeItem.word}" (${safeItem.pos || 'Word'}) means "${safeItem.meaning}".${safeItem.raw_synonyms ? ` Synonyms: ${safeItem.raw_synonyms}.` : ''}`;
     } else {
       const distractorMeaning = getRandomMeaningDistractor(allItems, safeItem);
       displayedMeaning = distractorMeaning;
-      statement = `"${safeItem.word}" শব্দটির সঠিক বাংলা অর্থ কি "${displayedMeaning}"?`;
-      explanation = `ভুল! "${safeItem.word}" এর সঠিক অর্থ হলো "${safeItem.meaning}" (প্রদর্শিত অর্থ "${distractorMeaning}" সঠিক নয়)।${safeItem.raw_synonyms ? ` সমার্থক শব্দ: ${safeItem.raw_synonyms}।` : ''}`;
+      statement = `Does "${safeItem.word}" mean "${displayedMeaning}"?`;
+      explanation = `Incorrect! "${safeItem.word}" means "${safeItem.meaning}" (not "${distractorMeaning}").${safeItem.raw_synonyms ? ` Synonyms: ${safeItem.raw_synonyms}.` : ''}`;
     }
   }
 
   return {
     type: STAGE_TYPE,
-    title: 'সত্য/মিথ্যা যাচাই (True/False Swipe)',
-    instruction: 'বিবৃতিটি সত্য হলে TRUE অথবা মিথ্যা হলে FALSE নির্বাচন করুন',
+    title: 'True / False Swipe',
+    instruction: 'Swipe right for TRUE or left for FALSE',
     item: safeItem,
     statement: statement,
     displayedMeaning: displayedMeaning,

@@ -180,7 +180,7 @@ export function useGameState(options = {}) {
     if (!level) return false;
 
     if (lives <= 0) {
-      showToast('আপনার কোনো হার্টস অবশিষ্ট নেই! কিছুক্ষণ অপেক্ষা করুন।', 'warning');
+      showToast('You are out of lives! Please wait a moment.', 'warning');
       return false;
     }
 
@@ -230,8 +230,8 @@ export function useGameState(options = {}) {
         // Trigger rich micro-celebration animation on 1st attempt!
         setStageCelebration({
           starsEarned: 0.5,
-          title: 'পারফেক্ট! +০.৫ ⭐',
-          subtitle: '১ম সুযোগেই নির্ভুল উত্তর!',
+          title: 'Perfect! +0.5 ⭐',
+          subtitle: 'Flawless 1st attempt!',
           stageIndex: stageIndex
         });
 
@@ -244,9 +244,9 @@ export function useGameState(options = {}) {
           });
         } catch (e) {}
 
-        showToast('পারফেক্ট! +০.৫ স্টার ⭐', 'success');
+        showToast('Perfect! +0.5 Star ⭐', 'success');
       } else {
-        showToast('সঠিক উত্তর! (২য় সুযোগ)', 'success');
+        showToast('Correct! (2nd Chance)', 'success');
       }
 
       // Automatically proceed to next stage after celebration delay
@@ -286,7 +286,7 @@ export function useGameState(options = {}) {
         // First wrong attempt -> Give 2nd chance
         setStageAttempts(1);
         soundApi.playSecondChance();
-        showToast('ভুল উত্তর! ২য় সুযোগে আবার চেষ্টা করুন', 'warning');
+        showToast('Incorrect! Try again on your 2nd chance', 'warning');
       } else {
         // Second wrong attempt -> Stage failed, reveal correct answer modal
         setStageAttempts(2);
@@ -426,7 +426,7 @@ export function useGameState(options = {}) {
     setCurrentLevel(null);
     setCompletionResult(null);
     setRevealModalData(null);
-    showToast('সকল প্রগ্রেস রিসেট করা হয়েছে', 'info');
+    showToast('All progress has been reset', 'info');
   }, [showToast]);
 
   const currentStage = stages && stages.length > 0 ? stages[stageIndex] : null;

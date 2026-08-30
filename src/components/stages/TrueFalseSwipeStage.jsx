@@ -173,7 +173,7 @@ export default function TrueFalseSwipeStage({ stage, onSubmitAnswer, isSecondCha
             isSecondChance ? 'border-amber-500/40' : 'border-slate-800'
           }`}
         >
-          {/* Dynamic Stamp: TRUE / সত্য (Right Swipe) */}
+          {/* Dynamic Stamp: TRUE (Right Swipe) */}
           <div
             style={{
               opacity: trueRatio,
@@ -184,11 +184,10 @@ export default function TrueFalseSwipeStage({ stage, onSubmitAnswer, isSecondCha
             <Check className="w-4 h-4 text-emerald-400" />
             <div className="flex flex-col items-start leading-none">
               <span className="text-sm font-bold">TRUE</span>
-              <span className="text-[10px] text-emerald-300">সত্য</span>
             </div>
           </div>
 
-          {/* Dynamic Stamp: FALSE / মিথ্যা (Left Swipe) */}
+          {/* Dynamic Stamp: FALSE (Left Swipe) */}
           <div
             style={{
               opacity: falseRatio,
@@ -199,7 +198,6 @@ export default function TrueFalseSwipeStage({ stage, onSubmitAnswer, isSecondCha
             <X className="w-4 h-4 text-rose-400" />
             <div className="flex flex-col items-start leading-none">
               <span className="text-sm font-bold">FALSE</span>
-              <span className="text-[10px] text-rose-300">মিথ্যা</span>
             </div>
           </div>
 
@@ -212,7 +210,7 @@ export default function TrueFalseSwipeStage({ stage, onSubmitAnswer, isSecondCha
               {isSecondChance && (
                 <span className="px-2 py-0.5 bg-amber-500/15 border border-amber-500/30 text-amber-300 text-[10px] font-bold rounded-full flex items-center space-x-1">
                   <Sparkles className="w-3 h-3 text-amber-400" />
-                  <span>২য় সুযোগ</span>
+                  <span>2nd Chance (0 Stars)</span>
                 </span>
               )}
             </div>
@@ -221,7 +219,7 @@ export default function TrueFalseSwipeStage({ stage, onSubmitAnswer, isSecondCha
               onClick={handleSpeak}
               type="button"
               className="p-1.5 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition active:scale-95 flex items-center justify-center"
-              title="উচ্চারণ শুনুন"
+              title="Listen pronunciation"
             >
               <Volume2 className={`w-3.5 h-3.5 ${isSpeaking ? 'text-amber-400' : ''}`} />
             </button>
@@ -240,46 +238,41 @@ export default function TrueFalseSwipeStage({ stage, onSubmitAnswer, isSecondCha
 
             <div className="my-2.5 h-0.5 w-8 bg-indigo-500/40 mx-auto rounded-full" />
 
-            {/* Bengali Meaning Statement Challenge */}
-            <div className="bg-slate-950/60 border border-slate-800 rounded-xl p-2.5 sm:p-3">
-              <p className="text-[11px] text-slate-400 font-medium mb-0.5">প্রদর্শিত অর্থ কি সঠিক?</p>
-              <p className="text-base sm:text-lg font-bold text-amber-300 drop-shadow-[0_0_8px_rgba(251,191,36,0.35)] leading-snug break-words">
+            {/* Meaning Statement Challenge */}
+            <div className="bg-slate-950 border-2 border-slate-800 rounded-2xl p-3.5 sm:p-4 shadow-inner">
+              <p className="text-xs text-slate-400 font-bold mb-1">Is the displayed definition correct?</p>
+              <p className="text-lg sm:text-xl font-black text-amber-400 leading-snug break-words">
                 &ldquo;{stage?.displayedMeaning || stage?.statement}&rdquo;
               </p>
             </div>
           </div>
 
           {/* Card Bottom Hint */}
-          <div className="flex items-center justify-between text-[10px] sm:text-[11px] font-medium text-slate-500 px-1 pt-2 border-t border-slate-800/80 z-10">
-            <div className="flex items-center space-x-1 text-rose-400">
-              <ArrowLeft className="w-3 h-3" />
-              <span>বামে: মিথ্যা</span>
+          <div className="flex items-center justify-between text-xs font-bold text-slate-400 px-2 pt-2.5 border-t border-slate-800 z-10">
+            <div className="flex items-center space-x-1.5 text-rose-400">
+              <ArrowLeft className="w-3.5 h-3.5" />
+              <span>Left: FALSE</span>
             </div>
-            <span className="text-slate-500">টেনে বা বাটনে চাপুন</span>
-            <div className="flex items-center space-x-1 text-emerald-400">
-              <span>ডানে: সত্য</span>
-              <ArrowRight className="w-3 h-3" />
+            <span className="text-slate-400">Swipe or tap</span>
+            <div className="flex items-center space-x-1.5 text-emerald-400">
+              <span>Right: TRUE</span>
+              <ArrowRight className="w-3.5 h-3.5" />
             </div>
           </div>
         </div>
       </div>
 
       {/* Action Controls (50/50 Grid) */}
-      <div className="grid grid-cols-2 gap-3 w-full pt-1">
+      <div className="grid grid-cols-2 gap-3.5 w-full pt-1">
         {/* FALSE Button */}
         <button
           type="button"
           onClick={() => handleDecision('FALSE')}
           disabled={isAnswered}
-          className="game-btn-3d game-btn-rose w-full py-3 px-3 rounded-xl text-white font-bold flex items-center justify-center space-x-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed shadow-sm"
+          className="w-full py-3.5 px-4 rounded-2xl bg-rose-600 hover:bg-rose-500 text-white font-black flex items-center justify-center space-x-2.5 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed shadow-[0_4px_0_#9f1239] active:translate-y-1 active:shadow-none border-2 border-rose-400 transition"
         >
-          <div className="p-1 rounded-lg bg-white/20 shrink-0">
-            <X className="w-4 h-4 stroke-[3]" />
-          </div>
-          <div className="flex flex-col items-start leading-tight">
-            <span className="text-[10px] font-semibold opacity-90">মিথ্যা</span>
-            <span className="text-xs sm:text-sm font-bold tracking-wide">FALSE</span>
-          </div>
+          <X className="w-5 h-5 stroke-[3]" />
+          <span className="text-sm sm:text-base font-black tracking-wide">FALSE</span>
         </button>
 
         {/* TRUE Button */}
@@ -287,15 +280,10 @@ export default function TrueFalseSwipeStage({ stage, onSubmitAnswer, isSecondCha
           type="button"
           onClick={() => handleDecision('TRUE')}
           disabled={isAnswered}
-          className="game-btn-3d game-btn-emerald w-full py-3 px-3 rounded-xl text-white font-bold flex items-center justify-center space-x-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed shadow-sm"
+          className="w-full py-3.5 px-4 rounded-2xl bg-emerald-600 hover:bg-emerald-500 text-white font-black flex items-center justify-center space-x-2.5 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed shadow-[0_4px_0_#065f46] active:translate-y-1 active:shadow-none border-2 border-emerald-400 transition"
         >
-          <div className="p-1 rounded-lg bg-white/20 shrink-0">
-            <Check className="w-4 h-4 stroke-[3]" />
-          </div>
-          <div className="flex flex-col items-start leading-tight">
-            <span className="text-[10px] font-semibold opacity-90">সত্য</span>
-            <span className="text-xs sm:text-sm font-bold tracking-wide">TRUE</span>
-          </div>
+          <Check className="w-5 h-5 stroke-[3]" />
+          <span className="text-sm sm:text-base font-black tracking-wide">TRUE</span>
         </button>
       </div>
     </div>

@@ -262,30 +262,30 @@ export default function FlashcardStage({ stage, onSubmitAnswer, isSecondChance }
 
       {/* ACTIVE RECALL QUIZ CONTAINER */}
       <div
-        className={`p-3.5 sm:p-5 rounded-2xl bg-slate-900/90 border transition-all duration-200 shadow-sm ${
+        className={`p-4 sm:p-5 rounded-2xl bg-slate-900 border-2 transition-all duration-200 shadow-md ${
           isSecondChance || wrongOptions.length > 0
-            ? 'border-amber-500/40 bg-slate-900'
+            ? 'border-amber-500 bg-slate-900'
             : 'border-slate-800'
         }`}
       >
         {/* Quiz Header */}
-        <div className="flex items-center justify-between mb-3 pb-2.5 border-b border-slate-800 gap-2">
-          <div className="flex items-center space-x-2 text-slate-200 font-bold text-xs sm:text-sm md:text-base min-w-0">
-            <div className="p-1.5 rounded-lg bg-indigo-600/15 text-indigo-400 border border-indigo-500/20 shrink-0">
-              <HelpCircle className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-            </div>
+        <div className="flex items-center justify-between mb-3.5 pb-2.5 border-b border-slate-800 gap-2">
+          <div className="flex items-center space-x-2 text-white font-bold text-sm sm:text-base min-w-0">
+            <span className="p-1 rounded-lg bg-blue-600 text-white shrink-0">
+              <HelpCircle className="w-4 h-4" />
+            </span>
             <span className="break-words">{stage.question || `Select the correct meaning of "${stage.item?.word}"`}</span>
           </div>
 
           {(isSecondChance || wrongOptions.length > 0) && (
-            <span className="shrink-0 px-2.5 py-0.5 bg-amber-500/15 border border-amber-500/30 text-amber-300 text-[10px] sm:text-[11px] font-bold rounded-full whitespace-nowrap">
-              2nd Chance (0 Stars)
+            <span className="shrink-0 px-2.5 py-1 bg-amber-500 text-slate-950 text-xs font-black rounded-lg whitespace-nowrap shadow-xs">
+              2nd Chance
             </span>
           )}
         </div>
 
         {/* Option Buttons Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {stage.options.map((opt, i) => {
             const isWrong = wrongOptions.includes(opt);
             const isSelected = selectedOption === opt;
@@ -298,39 +298,39 @@ export default function FlashcardStage({ stage, onSubmitAnswer, isSecondChance }
                 type="button"
                 onClick={() => handleSelectOption(opt)}
                 disabled={isWrong || selectedOption !== null}
-                className={`game-btn-3d w-full min-h-[48px] sm:min-h-[52px] p-3 rounded-xl border text-xs sm:text-sm font-semibold text-left transition-all duration-150 flex items-center justify-between touch-manipulation cursor-pointer ${
+                className={`relative p-3.5 sm:p-4 rounded-2xl border-2 font-bold text-left transition-all duration-150 flex items-center justify-between gap-3 cursor-pointer ${
                   isWrong
-                    ? 'bg-rose-950/40 border-rose-500/50 text-rose-300 opacity-60 cursor-not-allowed shadow-none'
+                    ? 'border-rose-500 bg-rose-600 text-white shadow-[0_4px_0_#9f1239] cursor-not-allowed opacity-90'
                     : isSelected
-                    ? 'game-btn-emerald bg-emerald-600 border-emerald-300 text-white font-bold shadow-[0_0_18px_rgba(16,185,129,0.5)] ring-2 ring-emerald-400/50'
-                    : 'game-btn-slate bg-slate-900 border-slate-800 text-slate-100 hover:border-indigo-500/50 hover:text-white'
+                    ? 'border-emerald-400 bg-emerald-600 text-white shadow-[0_4px_0_#065f46]'
+                    : 'bg-slate-900 hover:bg-slate-800 border-slate-800 hover:border-blue-500 text-white shadow-[0_4px_0_#020617] active:translate-y-1 active:shadow-none'
                 } ${isShaking ? 'animate-shake' : ''}`}
               >
-                <div className="flex items-center space-x-2.5 flex-1 min-w-0 pr-1.5">
+                <div className="flex items-center space-x-3 flex-1 min-w-0 pr-1">
                   {/* Number Chip */}
                   <span
-                    className={`w-6 h-6 shrink-0 rounded-lg flex items-center justify-center text-[11px] font-mono font-bold border transition ${
+                    className={`w-7 h-7 shrink-0 rounded-xl flex items-center justify-center text-xs font-mono font-black border transition ${
                       isWrong
-                        ? 'bg-rose-900/40 border-rose-500/50 text-rose-200'
+                        ? 'bg-rose-800 text-white'
                         : isSelected
-                        ? 'bg-emerald-700 border-emerald-400 text-white'
-                        : 'bg-slate-800 border-slate-700 text-indigo-300'
+                        ? 'bg-emerald-700 text-white'
+                        : 'bg-blue-600 text-white shadow-xs'
                     }`}
                   >
                     {chipNum}
                   </span>
 
                   {/* Option Text */}
-                  <span className="leading-snug font-sans text-xs sm:text-sm md:text-base break-words min-w-0">
+                  <span className="leading-snug font-sans text-sm sm:text-base font-black break-words min-w-0">
                     {opt}
                   </span>
                 </div>
 
                 {/* Status Indicator Icon */}
                 {isWrong ? (
-                  <XCircle className="w-4 h-4 text-rose-400 shrink-0 ml-1" />
+                  <XCircle className="w-5 h-5 text-white shrink-0 ml-1" />
                 ) : isSelected ? (
-                  <CheckCircle2 className="w-4 h-4 text-white shrink-0 ml-1" />
+                  <CheckCircle2 className="w-5 h-5 text-white shrink-0 ml-1" />
                 ) : null}
               </button>
             );
