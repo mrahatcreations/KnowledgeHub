@@ -38,7 +38,7 @@ export default function CompletionModal({
           </div>
 
           <h2 className="text-2xl font-black tracking-tight">
-            {isFiveStar ? '????? ?????????!' : '????? ??????? ?????!'}
+            {isFiveStar ? 'লেভেল মাস্টার্ড!' : 'লেভেল সম্পন্ন হয়েছে!'}
           </h2>
 
           <div className="flex items-center justify-center space-x-1.5 my-3">
@@ -54,8 +54,8 @@ export default function CompletionModal({
 
           <p className="text-xs font-medium text-white/90">
             {isFiveStar
-              ? '?????! ?????? ???? ?? ?????? ???? ????? ???? ?-????? ????? ???????'
-              : `???? ${totalStars}/? ????? ????? ??????? ??????? ??????? ???? ?-????? ????????`}
+              ? 'দারুণ! সবগুলো ধাপে ১ম সুযোগে সঠিক উত্তর দিয়ে ৫-স্টার অর্জন করেছেন।'
+              : `আপনি ${totalStars}/৫ স্টার অর্জন করেছেন। পরবর্তী লেভেলের জন্য ৫-স্টার প্রয়োজন।`}
           </p>
         </div>
 
@@ -71,7 +71,7 @@ export default function CompletionModal({
               }`}
             >
               <AlertCircle className="w-4 h-4 text-rose-500" />
-              <span>???????? ?????? ({mistakes.length})</span>
+              <span>ভুলগুলোর সামারি ({mistakes.length})</span>
             </button>
 
             <button
@@ -83,7 +83,7 @@ export default function CompletionModal({
               }`}
             >
               <CheckCircle2 className="w-4 h-4 text-emerald-500" />
-              <span>?????</span>
+              <span>ফলাফল</span>
             </button>
           </div>
         )}
@@ -93,7 +93,7 @@ export default function CompletionModal({
           {activeTab === 'mistakes' && mistakes.length > 0 ? (
             <div className="space-y-3">
               <div className="text-xs text-slate-500 font-semibold mb-2">
-                ????? ?????????? ??? ??????, ??????? ???? ??? ???? ??? ???? ???:
+                নিচের শব্দগুলোতে ভুল হয়েছিল, রিট্রাই করার আগে ভালো করে দেখে নিন:
               </div>
 
               {mistakes.map((m, idx) => (
@@ -117,19 +117,19 @@ export default function CompletionModal({
                   </div>
 
                   <div className="text-xs text-slate-700">
-                    <strong className="text-slate-500">????? ????:</strong> <span className="text-amber-700 font-bold">{m.meaning}</span>
+                    <strong className="text-slate-500">বাংলা অর্থ:</strong> <span className="text-amber-700 font-bold">{m.meaning}</span>
                   </div>
 
                   {m.userAnswer && (
                     <div className="flex items-center space-x-1.5 text-xs text-rose-600 bg-rose-50 px-2.5 py-1 rounded-lg border border-rose-200">
                       <XCircle className="w-3.5 h-3.5 shrink-0" />
-                      <span><strong>????? ??? ?????:</strong> {m.userAnswer}</span>
+                      <span><strong>আপনার ভুল উত্তর:</strong> {m.userAnswer}</span>
                     </div>
                   )}
 
                   <div className="flex items-center space-x-1.5 text-xs text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-lg border border-emerald-200">
                     <CheckCircle2 className="w-3.5 h-3.5 shrink-0" />
-                    <span><strong>???? ?????:</strong> {m.correctAnswer}</span>
+                    <span><strong>সঠিক উত্তর:</strong> {m.correctAnswer}</span>
                   </div>
 
                   {m.explanation && (
@@ -145,11 +145,11 @@ export default function CompletionModal({
               {isFiveStar ? (
                 <div className="p-4 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-sm font-semibold flex items-center justify-center space-x-2">
                   <CheckCircle2 className="w-5 h-5 text-emerald-600" />
-                  <span>????????! ???? ???? ??? ????? ??????? ??????? ???????</span>
+                  <span>অভিনন্দন! আপনি কোনো ভুল ছাড়াই লেভেলটি সম্পন্ন করেছেন।</span>
                 </div>
               ) : (
                 <div className="p-4 rounded-2xl bg-amber-50 border border-amber-200 text-amber-800 text-xs font-semibold leading-relaxed text-left">
-                  ??????? ?????? ???? ??? ?????? ?????? ?? ??????? ???? ????? ???? ???? ??????? ???? ??? ????????? ??????? ??? ? ?????? ????? ?????????????? ?????? ??? ???? ???? ???? ???????? ????? ??????
+                  পরবর্তী লেভেলে যেতে হলে সবগুলো স্টেজে ১ম চান্সেই সঠিক উত্তর দিতে হবে। রিট্রাই করার সময় শব্দগুলোর স্টেজের ধরন ও অপশনের পজিশন স্বয়ংক্রিয়ভাবে অদলবদল হয়ে যাবে যাতে আপনি ভালোভাবে শিখতে পারেন।
                 </div>
               )}
             </div>
@@ -163,7 +163,7 @@ export default function CompletionModal({
               onClick={onNextLevel}
               className="w-full py-3.5 px-6 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm flex items-center justify-center space-x-2 transition shadow-md active:scale-95"
             >
-              <span>??????? ????? ?????</span>
+              <span>পরবর্তী লেভেল খেলুন</span>
               <ArrowRight className="w-4 h-4" />
             </button>
           ) : (
@@ -172,7 +172,7 @@ export default function CompletionModal({
               className="w-full py-3.5 px-6 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-sm flex items-center justify-center space-x-2 transition shadow-md active:scale-95"
             >
               <RefreshCw className="w-4 h-4" />
-              <span>???? ???????? ??????? ????</span>
+              <span>নতুন বিন্যাসে রিট্রাই করুন</span>
             </button>
           )}
 
@@ -180,7 +180,7 @@ export default function CompletionModal({
             onClick={onBackToMap}
             className="w-full py-2.5 px-4 rounded-xl text-slate-600 hover:bg-slate-200 font-bold text-xs transition"
           >
-            ????? ?????? ???? ???
+            লেভেল ম্যাপে ফিরে যান
           </button>
         </div>
       </div>

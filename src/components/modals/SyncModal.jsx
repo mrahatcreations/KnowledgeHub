@@ -11,28 +11,25 @@ export default function SyncModal({ onClose, totalLevels, onReloadLevels }) {
     setIsLoading(true);
     sound.playClick();
     try {
-      // First try fetching from live remote GitHub repository
       const remoteRes = await fetch(`${githubUrl}/version.json`, { cache: 'no-store' });
       if (remoteRes.ok) {
         const ver = await remoteRes.json();
-        // Fetch new levels
         const levelsRes = await fetch(`${githubUrl}/levels.json`, { cache: 'no-store' });
         if (levelsRes.ok) {
           const levelsData = await levelsRes.json();
           localStorage.setItem('vocabmaster_cached_levels', JSON.stringify(levelsData));
-          setSyncStatus(`?????? ???? ????? ???! ??????: ${ver.version} (${ver.total_levels}?? ????? ??? ?????)`);
+          setSyncStatus(`গিটহাব লাইভ সিঙ্ক সফল! ভার্সন: ${ver.version} (${ver.total_levels}টি লেভেল লোড হয়েছে)`);
           onReloadLevels();
           setIsLoading(false);
           return;
         }
       }
-      // Fallback local sync
       const res = await fetch('/data/version.json');
       const ver = await res.json();
-      setSyncStatus(`????? ???? ????? ???????! ??????: ${ver.version} (${ver.total_levels}?? ????? ????????)`);
+      setSyncStatus(`লোকাল ডাটা সিঙ্ক সম্পন্ন! ভার্সন: ${ver.version} (${ver.total_levels}টি লেভেল প্রস্তুত)`);
       onReloadLevels();
     } catch (e) {
-      setSyncStatus('?????? ??? ???? ?????? ????? ??????? ???????? ???????');
+      setSyncStatus('অফলাইন মোড চালু রয়েছে। লোকাল ডাটাবেস সম্পূর্ণ সক্রিয়।');
     } finally {
       setIsLoading(false);
     }
@@ -44,7 +41,7 @@ export default function SyncModal({ onClose, totalLevels, onReloadLevels }) {
         <div className="flex items-center justify-between pb-4 border-b border-slate-100">
           <div className="flex items-center space-x-2">
             <Database className="w-5 h-5 text-indigo-600" />
-            <h3 className="text-lg font-bold text-slate-900">?????? ????? ? ???????</h3>
+            <h3 className="text-lg font-bold text-slate-900">গিটহাব সিঙ্ক ও ডাটাবেজ</h3>
           </div>
           <button
             onClick={onClose}
@@ -57,8 +54,8 @@ export default function SyncModal({ onClose, totalLevels, onReloadLevels }) {
         <div className="my-5 space-y-4 text-sm text-slate-600">
           <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-between">
             <div>
-              <div className="text-xs text-slate-500 font-medium">???????? ??? ???? ?????</div>
-              <div className="text-xl font-bold text-slate-900">{totalLevels} ?? ?????</div>
+              <div className="text-xs text-slate-500 font-medium">বর্তমানে লোড হওয়া লেভেল</div>
+              <div className="text-xl font-bold text-slate-900">{totalLevels} টি লেভেল</div>
             </div>
             <span className="flex items-center space-x-1 text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-full text-xs font-bold">
               <ShieldCheck className="w-4 h-4" />
@@ -80,7 +77,7 @@ export default function SyncModal({ onClose, totalLevels, onReloadLevels }) {
           </div>
 
           <div className="text-xs text-slate-500 leading-relaxed">
-            ??????? ???? ????? ??? ???? ?? ?? ????? ????? ?????????????? ???? ??????? ??????? ??? ????? ???????? ??? ??? ?????
+            গিটহাবে নতুন লেভেল পুশ করার পর এই বাটনে চাপলে স্বয়ংক্রিয়ভাবে নতুন কনটেন্ট ডাউনলোড হয়ে লোকাল স্টোরেজে সেভ হয়ে যাবে।
           </div>
 
           {syncStatus && (
@@ -97,7 +94,7 @@ export default function SyncModal({ onClose, totalLevels, onReloadLevels }) {
           className="w-full py-3.5 px-6 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-sm flex items-center justify-center space-x-2 transition shadow-md active:scale-95"
         >
           <RefreshCw className={`w-4 h-4 ${isLoading ? 'animate-spin' : ''}`} />
-          <span>{isLoading ? '????? ??? ?????...' : '?????? ???? ???? ????? ????'}</span>
+          <span>{isLoading ? 'সিঙ্ক করা হচ্ছে...' : 'গিটহাব থেকে লাইভ সিঙ্ক করুন'}</span>
         </button>
       </div>
     </div>
