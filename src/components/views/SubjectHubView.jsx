@@ -30,6 +30,7 @@ export default function SubjectHubView({
   activeMode = 'practice',
   onModeChange,
   onSelectSubject,
+  onStartLevel,
   onOpenAudioSettings
 }) {
   // 2 Primary Modes: 'practice' (Game Style) vs 'learning' (Learning Subject Hub)
@@ -46,22 +47,13 @@ export default function SubjectHubView({
     sound.enabled = !next;
   };
 
-  // Global Mastery and Star statistics
+  // Compute Total Mastered Levels
   const totalMastered = useMemo(() => {
-    return Object.values(levelStars).filter(s => Number(s) >= 5 || Number(s) === 10).length;
+    return Object.values(levelStars || {}).filter(stars => (stars >= 5 || stars >= 10)).length;
   }, [levelStars]);
 
-  const totalStarsEarned = useMemo(() => {
-    return Number(
-      Object.values(levelStars).reduce((sum, s) => {
-        const num = Number(s) || 0;
-        return sum + (num > 5 ? num * 0.5 : num);
-      }, 0).toFixed(1)
-    );
-  }, [levelStars]);
-
-  const currentLvlNum = Math.min(unlockedLevel, levels.length || 201);
-  const totalLevels = levels.length || 201;
+  const totalLevels = levels?.length || 201;
+  const currentLvlNum = Math.min(totalLevels, Math.max(1, unlockedLevel || 1));
   const progressPercent = Math.min(100, Math.round(((currentLvlNum - 1) / totalLevels) * 100));
 
   const currentLevelData = useMemo(() => {
@@ -76,6 +68,10 @@ export default function SubjectHubView({
 
   const handlePlayPractice = (subjectId = 'english') => {
     sound.playClick();
+    if (onStartLevel && currentLevelData) {
+      onStartLevel(currentLevelData);
+      return;
+    }
     if (onSelectSubject) {
       onSelectSubject(subjectId);
     }

@@ -20,6 +20,42 @@ import { useGameState } from './hooks/useGameState';
 import { useSoundEffects } from './hooks/useSoundEffects';
 import { Star, Sparkles, CheckCircle2 } from 'lucide-react';
 
+class StageErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false, error: null };
+  }
+
+  static getDerivedStateFromError(error) {
+    return { hasError: true, error };
+  }
+
+  componentDidCatch(error, info) {
+    console.error('Stage Error Caught:', error, info);
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div className="w-full flex flex-col items-center justify-center p-6 space-y-4 bg-slate-900 border border-red-500/40 rounded-none text-center">
+          <p className="text-sm font-bold text-red-400">An error occurred while loading this stage.</p>
+          <p className="text-xs text-slate-400 font-mono">{this.state.error?.message || 'Unknown error'}</p>
+          <button
+            onClick={() => {
+              this.setState({ hasError: false, error: null });
+              if (this.props.onRetry) this.props.onRetry();
+            }}
+            className="px-4 py-2 bg-red-600 hover:bg-red-500 text-white font-bold text-xs uppercase tracking-wider rounded-none"
+          >
+            Retry Stage
+          </button>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
+
 export default function App() {
   const soundController = useSoundEffects();
   const {
@@ -142,6 +178,7 @@ export default function App() {
                   activeMode={hubMode}
                   onModeChange={setHubMode}
                   onSelectSubject={handleSelectSubject}
+                  onStartLevel={(lvl) => handleStartLevel(lvl || 1, true)}
                   onOpenAudioSettings={() => setIsAudioSettingsOpen(true)}
                 />
               )}
@@ -178,43 +215,45 @@ export default function App() {
             </>
           ) : (
             <div className="w-full flex flex-col space-y-3 sm:space-y-4 animate-pop">
-              {currentStage ? (
-                <>
-                  {currentStage.type === STAGE_TYPES.FLASHCARD && (
-                    <FlashcardStage key={`stage_${stageIndex}_${currentStage.item?.id || ''}_${currentStage.correctAnswer}`} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} isSecondChance={stageAttempts === 1} />
-                  )}
-                  {currentStage.type === STAGE_TYPES.MATCHING && (
-                    <MatchingStage key={`stage_${stageIndex}_${currentStage.item?.id || ''}_${currentStage.correctAnswer}`} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} isSecondChance={stageAttempts === 1} />
-                  )}
-                  {currentStage.type === STAGE_TYPES.DRAG_DROP && (
-                    <DragDropStage key={`stage_${stageIndex}_${currentStage.item?.id || ''}_${currentStage.correctAnswer}`} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} isSecondChance={stageAttempts === 1} />
-                  )}
-                  {currentStage.type === STAGE_TYPES.TRUE_FALSE && (
-                    <TrueFalseSwipeStage key={`stage_${stageIndex}_${currentStage.item?.id || ''}_${currentStage.correctAnswer}`} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} isSecondChance={stageAttempts === 1} />
-                  )}
-                  {currentStage.type === STAGE_TYPES.ODD_ONE_OUT && (
-                    <OddOneOutStage key={`stage_${stageIndex}_${currentStage.item?.id || ''}_${currentStage.correctAnswer}`} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} isSecondChance={stageAttempts === 1} />
-                  )}
-                </>
-              ) : (
-                <div className="flex flex-col items-center justify-center min-h-[320px] text-center p-8 bg-slate-900/60 border border-slate-800 rounded-none space-y-4">
-                  <div className="w-8 h-8 border-2 border-indigo-500 border-t-transparent animate-spin rounded-none" />
-                  <div className="flex flex-col items-center space-y-1">
-                    <p className="text-xs font-mono font-bold uppercase tracking-widest text-slate-300">
-                      Preparing Stage {stageIndex + 1}...
-                    </p>
-                    <p className="text-[11px] text-slate-500 font-sans">
-                      Compiling stage items and interactive challenges
-                    </p>
+              <StageErrorBoundary key={`eb_${stageIndex}`} onRetry={handleRetryLevel}>
+                {currentStage ? (
+                  <>
+                    {currentStage.type === STAGE_TYPES.FLASHCARD && (
+                      <FlashcardStage key={`stage_${stageIndex}_${currentStage.item?.id || ''}_${currentStage.correctAnswer}`} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} isSecondChance={stageAttempts === 1} />
+                    )}
+                    {currentStage.type === STAGE_TYPES.MATCHING && (
+                      <MatchingStage key={`stage_${stageIndex}_${currentStage.item?.id || ''}_${currentStage.correctAnswer}`} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} isSecondChance={stageAttempts === 1} />
+                    )}
+                    {currentStage.type === STAGE_TYPES.DRAG_DROP && (
+                      <DragDropStage key={`stage_${stageIndex}_${currentStage.item?.id || ''}_${currentStage.correctAnswer}`} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} isSecondChance={stageAttempts === 1} />
+                    )}
+                    {currentStage.type === STAGE_TYPES.TRUE_FALSE && (
+                      <TrueFalseSwipeStage key={`stage_${stageIndex}_${currentStage.item?.id || ''}_${currentStage.correctAnswer}`} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} isSecondChance={stageAttempts === 1} />
+                    )}
+                    {currentStage.type === STAGE_TYPES.ODD_ONE_OUT && (
+                      <OddOneOutStage key={`stage_${stageIndex}_${currentStage.item?.id || ''}_${currentStage.correctAnswer}`} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} isSecondChance={stageAttempts === 1} />
+                    )}
+                  </>
+                ) : (
+                  <div className="flex flex-col items-center justify-center min-h-[320px] text-center p-8 bg-slate-900/60 border border-slate-800 rounded-none space-y-4">
+                    <div className="w-8 h-8 border-2 border-indigo-500 border-t-transparent animate-spin rounded-none" />
+                    <div className="flex flex-col items-center space-y-1">
+                      <p className="text-xs font-mono font-bold uppercase tracking-widest text-slate-300">
+                        Preparing Stage {stageIndex + 1}...
+                      </p>
+                      <p className="text-[11px] text-slate-500 font-sans">
+                        Compiling stage items and interactive challenges
+                      </p>
+                    </div>
+                    <button
+                      onClick={handleBackToMap}
+                      className="mt-2 px-3 py-1.5 text-xs font-mono font-bold uppercase tracking-wider text-slate-400 hover:text-slate-200 bg-slate-900 border border-slate-800 hover:border-slate-700 transition cursor-pointer rounded-none"
+                    >
+                      Return to Map
+                    </button>
                   </div>
-                  <button
-                    onClick={handleBackToMap}
-                    className="mt-2 px-3 py-1.5 text-xs font-mono font-bold uppercase tracking-wider text-slate-400 hover:text-slate-200 bg-slate-900 border border-slate-800 hover:border-slate-700 transition cursor-pointer rounded-none"
-                  >
-                    Return to Map
-                  </button>
-                </div>
-              )}
+                )}
+              </StageErrorBoundary>
             </div>
           )}
         </main>

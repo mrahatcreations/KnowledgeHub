@@ -3,6 +3,7 @@ import { BinaryAudioPackEngine } from './BinaryAudioPackEngine.js';
 // AudioPackManager.js - Manages Offline Audio Pack download, local cache storage, and CDN streaming
 const CACHE_NAME = 'vocabmaster-audio-pack-v1';
 const GITHUB_CDN_BASE = 'https://raw.githubusercontent.com/mrahatcreations/VocabMaster/main/public/audio';
+const GITHUB_RELEASE_PACK_URL = 'https://github.com/mrahatcreations/VocabMaster/releases/download/v1.0.9/voice_pack_v1.khpack';
 const GITHUB_PACK_URL = 'https://raw.githubusercontent.com/mrahatcreations/VocabMaster/main/public/data/voice_pack_v1.khpack';
 const LOCAL_PACK_URL = '/data/voice_pack_v1.khpack';
 const LOCAL_BASE = '/audio';
@@ -180,14 +181,23 @@ class AudioPackManager {
     const signal = this.abortController.signal;
 
     try {
-      // 1. Determine download target (try local or GitHub raw CDN)
-      let targetUrl = GITHUB_PACK_URL;
+      console.log('🚀 [AudioPackManager] Starting SINGLE STREAM download of voice_pack_v1.khpack (0 loose files)...');
+      
+      // 1. Determine download target (Local -> Release CDN -> Raw CDN)
+      let targetUrl = LOCAL_PACK_URL;
       let res = await fetch(LOCAL_PACK_URL, { signal, method: 'HEAD' }).catch(() => null);
-      if (res && res.ok) {
-        targetUrl = LOCAL_PACK_URL;
+      if (!res || !res.ok) {
+        targetUrl = GITHUB_RELEASE_PACK_URL;
       }
 
-      const response = await fetch(targetUrl, { signal });
+      console.log('📦 [AudioPackManager] Fetching from single URL:', targetUrl);
+      let response = await fetch(targetUrl, { signal }).catch(() => null);
+      if (!response || !response.ok) {
+        console.warn('⚠️ Release CDN failed, trying GitHub Raw CDN...');
+        targetUrl = GITHUB_PACK_URL;
+        response = await fetch(targetUrl, { signal });
+      }
+
       if (!response.ok) {
         throw new Error(`Failed to download audio pack (${response.status})`);
       }

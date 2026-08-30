@@ -249,18 +249,106 @@ export function useGameState(options = {}) {
   }, []);
 
   /**
+   * Calculates level completion score, applies 5-Star mastery rule,
+   * updates gems and stars, and persists to localStorage.
+   */
+  const finishLevel = useCallback(() => {
+    if (!currentLevel) return;
+
+    setStageStars((currentStars) => {
+      const correctStagesCount = currentStars.filter(Boolean).length;
+      const totalStarsEarned = Number((correctStagesCount * 0.5).toFixed(1));
+      const totalStages = stages.length || TOTAL_STAGES_PER_LEVEL;
+      const isFiveStar = totalStarsEarned >= MASTERY_REQUIRED_STARS;
+
+      let newUnlocked = unlockedLevel;
+      let newGems = gems;
+      const previousStars = levelStars[currentLevel.level_id] || 0;
+      const normalizedPrev = previousStars > 5 ? Number((previousStars * 0.5).toFixed(1)) : previousStars;
+      const bestStars = Math.max(normalizedPrev, totalStarsEarned);
+      const updatedLevelStars = { ...levelStars, [currentLevel.level_id]: bestStars };
+
+      if (isFiveStar) {
+        soundApi.playVictory();
+        newGems += MASTERY_BONUS_GEMS;
+        setGems(newGems);
+
+        if (currentLevel.level_id >= unlockedLevel) {
+          newUnlocked = currentLevel.level_id + 1;
+          setUnlockedLevel(newUnlocked);
+        }
+      }
+
+      setLevelStars(updatedLevelStars);
+      saveProgress(newUnlocked, updatedLevelStars, newGems, streak, lives);
+
+      setCompletionResult({
+        level: currentLevel,
+        totalStars: totalStarsEarned,
+        maxStars: 5,
+        totalStages: totalStages,
+        correctStagesCount: correctStagesCount,
+        isFiveStar: isFiveStar,
+        isMastered: isFiveStar,
+        mistakes: mistakes,
+        earnedGems: isFiveStar ? MASTERY_BONUS_GEMS : 0,
+        newUnlockedLevel: newUnlocked
+      });
+
+      return currentStars;
+    });
+  }, [currentLevel, stages.length, unlockedLevel, gems, levelStars, streak, lives, soundApi, saveProgress, mistakes]);
+
+  /**
+   * Advances to the next stage or triggers level completion if all 10 stages are finished.
+   */
+  const proceedNextStage = useCallback(() => {
+    setStageIndex((prevIndex) => {
+      const nextIdx = prevIndex + 1;
+      const totalStages = stages.length || TOTAL_STAGES_PER_LEVEL;
+
+      if (nextIdx >= totalStages) {
+        finishLevel();
+        return prevIndex;
+      }
+
+      setStageAttempts(0);
+      return nextIdx;
+    });
+  }, [stages.length, finishLevel]);
+
+  /**
+   * Closes the answer reveal modal and proceeds to the next stage.
+   */
+  const closeRevealModalAndProceed = useCallback(() => {
+    setRevealModalData(null);
+    proceedNextStage();
+  }, [proceedNextStage]);
+
+  /**
    * Starts or restarts a 10-stage level
    */
-  const handleStartLevel = useCallback((level, isRetry = false) => {
-    if (!level) return false;
+  const handleStartLevel = useCallback((levelInput, isRetry = false) => {
+    if (!levelInput) return false;
 
     if (lives <= 0) {
       showToast('You are out of lives! Please wait a moment.', 'warning');
       return false;
     }
 
-    const compiledStages = buildLevelStages(level, isRetry);
-    setCurrentLevel(level);
+    // Resolve levelInput whether it is a number id or object
+    let targetLevel = levelInput;
+    if (typeof levelInput === 'number') {
+      targetLevel = levels.find((l) => l.level_id === levelInput) || levels[0];
+    }
+
+    if (!targetLevel || !Array.isArray(targetLevel.items) || targetLevel.items.length === 0) {
+      console.warn('Target level items missing, using fallback level');
+      targetLevel = levels[0] || defaultLevelsData?.levels?.[0];
+    }
+
+    const compiledStages = buildLevelStages(targetLevel, isRetry);
+    setCurrentLevel(targetLevel);
     setStages(compiledStages);
     setStageIndex(0);
     setStageStars(createInitialStageStars());
@@ -270,7 +358,7 @@ export function useGameState(options = {}) {
     setRevealModalData(null);
 
     return true;
-  }, [lives, showToast]);
+  }, [lives, levels, showToast]);
 
   /**
    * Handles submission of an answer for the current active stage.
@@ -373,84 +461,7 @@ export function useGameState(options = {}) {
         });
       }
     }
-  }, [currentLevel, stages, stageIndex, stageAttempts, soundApi, showToast]);
-
-  /**
-   * Advances to the next stage or triggers level completion if all 10 stages are finished.
-   */
-  const proceedNextStage = useCallback(() => {
-    setStageIndex((prevIndex) => {
-      const nextIdx = prevIndex + 1;
-      const totalStages = stages.length || TOTAL_STAGES_PER_LEVEL;
-
-      if (nextIdx >= totalStages) {
-        finishLevel();
-        return prevIndex;
-      }
-
-      setStageAttempts(0);
-      return nextIdx;
-    });
-  }, [stages]);
-
-  /**
-   * Closes the answer reveal modal and proceeds to the next stage.
-   */
-  const closeRevealModalAndProceed = useCallback(() => {
-    setRevealModalData(null);
-    proceedNextStage();
-  }, [proceedNextStage]);
-
-  /**
-   * Calculates level completion score, applies 10-Star mastery rule (10/10 stars to unlock next level),
-   * updates gems and stars, and persists to localStorage.
-   */
-  const finishLevel = useCallback(() => {
-    if (!currentLevel) return;
-
-    setStageStars((currentStars) => {
-      const correctStagesCount = currentStars.filter(Boolean).length;
-      const totalStarsEarned = Number((correctStagesCount * 0.5).toFixed(1));
-      const totalStages = stages.length || TOTAL_STAGES_PER_LEVEL;
-      const isFiveStar = totalStarsEarned >= MASTERY_REQUIRED_STARS;
-
-      let newUnlocked = unlockedLevel;
-      let newGems = gems;
-      const previousStars = levelStars[currentLevel.level_id] || 0;
-      const normalizedPrev = previousStars > 5 ? Number((previousStars * 0.5).toFixed(1)) : previousStars;
-      const bestStars = Math.max(normalizedPrev, totalStarsEarned);
-      const updatedLevelStars = { ...levelStars, [currentLevel.level_id]: bestStars };
-
-      if (isFiveStar) {
-        soundApi.playVictory();
-        newGems += MASTERY_BONUS_GEMS;
-        setGems(newGems);
-
-        if (currentLevel.level_id >= unlockedLevel) {
-          newUnlocked = currentLevel.level_id + 1;
-          setUnlockedLevel(newUnlocked);
-        }
-      }
-
-      setLevelStars(updatedLevelStars);
-      saveProgress(newUnlocked, updatedLevelStars, newGems, streak, lives);
-
-      setCompletionResult({
-        level: currentLevel,
-        totalStars: totalStarsEarned,
-        maxStars: 5,
-        totalStages: totalStages,
-        correctStagesCount: correctStagesCount,
-        isFiveStar: isFiveStar,
-        isMastered: isFiveStar,
-        mistakes: mistakes,
-        earnedGems: isFiveStar ? MASTERY_BONUS_GEMS : 0,
-        newUnlockedLevel: newUnlocked
-      });
-
-      return currentStars;
-    });
-  }, [currentLevel, stages.length, unlockedLevel, gems, levelStars, streak, lives, soundApi, saveProgress, mistakes]);
+  }, [currentLevel, stages, stageIndex, stageAttempts, soundApi, showToast, proceedNextStage]);
 
   /**
    * Navigation helper: advances to the next level or returns to map
