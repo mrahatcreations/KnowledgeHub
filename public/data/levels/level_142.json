@@ -1,0 +1,133 @@
+{
+  "level_id": 142,
+  "title": "Level 142: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 706,
+      "word": "Entitled to",
+      "ipa": "/ɪnˈtaɪtld tuː/",
+      "pos": "phrase",
+      "meaning": "অধিকারী হওয়া, পাওয়ার যোগ্য, স্বত্বাধিকারী",
+      "synonyms": [
+        "eligible for",
+        "qualified for",
+        "authorized to",
+        "deserving of"
+      ],
+      "antonyms": [
+        "disqualified from",
+        "ineligible for",
+        "prohibited from",
+        "deprived of"
+      ],
+      "raw_synonyms": "eligible for, qualified for, authorized to, deserving of",
+      "raw_antonyms": "disqualified from, ineligible for, prohibited from, deprived of",
+      "sentence": "Every registered citizen is constitutionally entitled to free and fair legal representation in court.",
+      "sentence_meaning": "প্রত্যেক নিবন্ধিত নাগরিক আদালতে বিনামূল্যে ও নিরপেক্ষ আইনি প্রতিনিধিত্ব পাওয়ার সাংবিধানিক অধিকারী।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 707,
+      "word": "Faith in",
+      "ipa": "/feɪθ ɪn/",
+      "pos": "phrase",
+      "meaning": "বিশ্বাস, গভীর আস্থা, ভরসা",
+      "synonyms": [
+        "belief in",
+        "trust in",
+        "confidence in",
+        "reliance on"
+      ],
+      "antonyms": [
+        "distrust of",
+        "disbelief in",
+        "skepticism toward",
+        "doubt about"
+      ],
+      "raw_synonyms": "belief in, trust in, confidence in, reliance on",
+      "raw_antonyms": "distrust of, disbelief in, skepticism toward, doubt about",
+      "sentence": "Despite numerous market setbacks, long-term investors retained strong faith in the tech firm's leadership.",
+      "sentence_meaning": "বাজারে নানাবিধ প্রতিকূলতা সত্ত্বেও দীর্ঘমেয়াদী বিনিয়োগকারীরা প্রযুক্তি সংস্থার নেতৃত্বের ওপর দৃঢ় আস্থা বজায় রেখেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 708,
+      "word": "Noxious",
+      "ipa": "/ˈnɑːkʃəs/",
+      "pos": "adj",
+      "meaning": "ক্ষতিকর, বিষাক্ত, অনিষ্টকর",
+      "synonyms": [
+        "harmful",
+        "toxic",
+        "poisonous",
+        "pernicious"
+      ],
+      "antonyms": [
+        "harmless",
+        "wholesome",
+        "beneficial",
+        "nontoxic"
+      ],
+      "raw_synonyms": "harmful, toxic, poisonous, pernicious",
+      "raw_antonyms": "harmless, wholesome, beneficial, nontoxic",
+      "sentence": "Factory emissions released noxious fumes into the atmosphere, causing respiratory problems for nearby residents.",
+      "sentence_meaning": "কারখানা থেকে নির্গত ক্ষতিকর বিষাক্ত গ্যাস বায়ুমণ্ডলে ছড়িয়ে পড়ে আশেপাশের বাসিন্দাদের শ্বাসকষ্টজনিত সমস্যা সৃষ্টি করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 709,
+      "word": "Myriad",
+      "ipa": "/ˈmɪriəd/",
+      "pos": "adj",
+      "meaning": "অসংখ্য, অগণিত, বহুবিধ",
+      "synonyms": [
+        "countless",
+        "innumerable",
+        "multitudinous",
+        "infinite"
+      ],
+      "antonyms": [
+        "few",
+        "limited",
+        "scarce",
+        "finite"
+      ],
+      "raw_synonyms": "countless, innumerable, multitudinous, infinite",
+      "raw_antonyms": "few, limited, scarce, finite",
+      "sentence": "The night sky in the rural desert was illuminated by a myriad of twinkling stars.",
+      "sentence_meaning": "পল্লী অঞ্চলের মরুভূমির রাতের আকাশ অগণিত মিটমিট করা তারায় আলোকিত হয়ে উঠেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 710,
+      "word": "Lampoon",
+      "ipa": "/læmˈpuːn/",
+      "pos": "v",
+      "meaning": "ব্যঙ্গ করা, বিদ্রূপাত্মক রচনা করা",
+      "synonyms": [
+        "satirize",
+        "ridicule",
+        "mock",
+        "parody"
+      ],
+      "antonyms": [
+        "praise",
+        "commend",
+        "laud",
+        "flatter"
+      ],
+      "raw_synonyms": "satirize, ridicule, mock, parody",
+      "raw_antonyms": "praise, commend, laud, flatter",
+      "sentence": "The political cartoon effectively lampooned the hypocrisy of corrupt government officials.",
+      "sentence_meaning": "রাজনৈতিক কার্টুনটি দুর্নীতিগ্রস্ত সরকারি কর্মকর্তাদের ভণ্ডামিকে কার্যকরভাবে ব্যঙ্গ করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

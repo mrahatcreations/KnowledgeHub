@@ -1,0 +1,133 @@
+{
+  "level_id": 60,
+  "title": "Level 60: Vocabulary",
+  "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 296,
+      "word": "Animate",
+      "ipa": "/ˈænɪmeɪt/",
+      "pos": "v",
+      "meaning": "প্রাণবন্ত করা, উদ্দীপ্ত করা",
+      "synonyms": [
+        "enliven",
+        "energize",
+        "invigorate",
+        "stimulate"
+      ],
+      "antonyms": [
+        "deaden",
+        "depress",
+        "dull",
+        "subdue"
+      ],
+      "raw_synonyms": "enliven, energize, invigorate, stimulate",
+      "raw_antonyms": "deaden, depress, dull, subdue",
+      "sentence": "The energetic speaker knew exactly how to animate the tired audience with vivid stories.",
+      "sentence_meaning": "প্রাণবন্ত বক্তা ঠিক জানতেন কীভাবে প্রাণবন্ত গল্পের মাধ্যমে ক্লান্ত শ্রোতাদের উদ্দীপ্ত করতে হয়।",
+      "category": "Vocabulary",
+      "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)"
+    },
+    {
+      "id": 297,
+      "word": "Dynamic",
+      "ipa": "/daɪˈnæmɪk/",
+      "pos": "adj",
+      "meaning": "গতিশীল, উদ্যমী ও পরিবর্তনশীল",
+      "synonyms": [
+        "energetic",
+        "progressive",
+        "vibrant",
+        "vigorous"
+      ],
+      "antonyms": [
+        "static",
+        "idle",
+        "sluggish",
+        "inactive"
+      ],
+      "raw_synonyms": "energetic, progressive, vibrant, vigorous",
+      "raw_antonyms": "static, idle, sluggish, inactive",
+      "sentence": "A dynamic global market requires companies to innovate and adapt rapidly to new technologies.",
+      "sentence_meaning": "একটি গতিশীল বৈশ্বিক বাজারের জন্য কোম্পানিগুলোকে দ্রুত নতুন প্রযুক্তির সাথে খাপ খাইয়ে নিতে এবং উদ্ভাবন করতে হয়।",
+      "category": "Vocabulary",
+      "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)"
+    },
+    {
+      "id": 298,
+      "word": "Evolve",
+      "ipa": "/ɪˈvɑːlv/",
+      "pos": "v",
+      "meaning": "ক্রমবিকাশ লাভ করা, ধীরে ধীরে বিকশিত হওয়া",
+      "synonyms": [
+        "develop",
+        "mature",
+        "progress",
+        "advance"
+      ],
+      "antonyms": [
+        "deteriorate",
+        "regress",
+        "devolve",
+        "stagnate"
+      ],
+      "raw_synonyms": "develop, mature, progress, advance",
+      "raw_antonyms": "deteriorate, regress, devolve, stagnate",
+      "sentence": "Living organisms evolve over millions of years to adapt to changing environments.",
+      "sentence_meaning": "পরিবর্তনশীল পরিবেশের সাথে খাপ খাইয়ে নিতে জীবজগৎ লক্ষ লক্ষ বছর ধরে ক্রমবিকাশ লাভ করে।",
+      "category": "Vocabulary",
+      "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)"
+    },
+    {
+      "id": 299,
+      "word": "Abreast",
+      "ipa": "/əˈbrest/",
+      "pos": "adv",
+      "meaning": "পাশাপাশি, সমতালে বা হালনাগাদ তথ্যে",
+      "synonyms": [
+        "alongside",
+        "side by side",
+        "in step",
+        "aligned"
+      ],
+      "antonyms": [
+        "behind",
+        "out of step",
+        "trailing",
+        "apart"
+      ],
+      "raw_synonyms": "alongside, side by side, in step, aligned",
+      "raw_antonyms": "behind, out of step, trailing, apart",
+      "sentence": "Professionals must read scientific journals continuously to keep abreast of modern medical advances.",
+      "sentence_meaning": "আধুনিক চিকিৎসার অগ্রগতির সাথে সমতালে থাকতে পেশাজীবীদের নিয়মিত বৈজ্ঞানিক জার্নাল পড়তে হবে।",
+      "category": "Vocabulary",
+      "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)"
+    },
+    {
+      "id": 300,
+      "word": "Ancient",
+      "ipa": "/ˈeɪnʃənt/",
+      "pos": "adj",
+      "meaning": "প্রাচীন, বহু পুরোনো",
+      "synonyms": [
+        "archaic",
+        "primitive",
+        "antique",
+        "primordial"
+      ],
+      "antonyms": [
+        "modern",
+        "contemporary",
+        "recent",
+        "novel"
+      ],
+      "raw_synonyms": "archaic, primitive, antique, primordial",
+      "raw_antonyms": "modern, contemporary, recent, novel",
+      "sentence": "The Great Pyramids of Giza stand as a timeless wonder of ancient engineering.",
+      "sentence_meaning": "গিজার মহাপ্রাসাদগুলো বা পিরামিড প্রাচীন প্রকৌশলবিদ্যার এক কালজয়ী বিস্ময় হিসেবে দাঁড়িয়ে আছে।",
+      "category": "Vocabulary",
+      "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)"
+    }
+  ]
+}

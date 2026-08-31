@@ -1,0 +1,133 @@
+{
+  "level_id": 28,
+  "title": "Level 28: Phrasal Verb",
+  "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique",
+  "category": "Phrasal Verb",
+  "items": [
+    {
+      "id": 136,
+      "word": "Auspicious",
+      "ipa": "/ɔːˈspɪʃəs/",
+      "pos": "adj",
+      "meaning": "শুভ, মঙ্গলসূচক, অনুকূল",
+      "synonyms": [
+        "propitious",
+        "promising",
+        "favorable",
+        "felicitous"
+      ],
+      "antonyms": [
+        "inauspicious",
+        "ominous",
+        "unfavorable",
+        "sinister"
+      ],
+      "raw_synonyms": "propitious, promising, favorable, felicitous",
+      "raw_antonyms": "inauspicious, ominous, unfavorable, sinister",
+      "sentence": "The foundation stone for the new research center was laid on an auspicious morning.",
+      "sentence_meaning": "এক শুভ সকালে নতুন গবেষণা কেন্দ্রের ভিত্তিপ্রস্তর স্থাপন করা হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 137,
+      "word": "Act for",
+      "ipa": "/ækt fɔːr/",
+      "pos": "phrase",
+      "meaning": "কারো পক্ষে কাজ করা, প্রতিনিধিত্ব করা",
+      "synonyms": [
+        "represent",
+        "deputize for",
+        "stand in for",
+        "act on behalf of"
+      ],
+      "antonyms": [
+        "oppose",
+        "counteract",
+        "sabotage",
+        "undermine"
+      ],
+      "raw_synonyms": "represent, deputize for, stand in for, act on behalf of",
+      "raw_antonyms": "oppose, counteract, sabotage, undermine",
+      "sentence": "The experienced lawyer was appointed to act for the defendant throughout the trial.",
+      "sentence_meaning": "বিচার চলাকালীন বিবাদীর পক্ষে কাজ করার জন্য অভিজ্ঞ আইনজীবীকে নিয়োগ করা হয়েছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 138,
+      "word": "Act on/upon",
+      "ipa": "/ækt ɒn/ /ækt əˈpɒn/",
+      "pos": "phrase",
+      "meaning": "ক্ষতিকর প্রভাব ফেলা / অনুসারে কাজ করা",
+      "synonyms": [
+        "affect",
+        "influence",
+        "tell upon",
+        "impact"
+      ],
+      "antonyms": [
+        "leave unaffected",
+        "spare",
+        "preserve",
+        "protect"
+      ],
+      "raw_synonyms": "affect, influence, tell upon, impact",
+      "raw_antonyms": "leave unaffected, spare, preserve, protect",
+      "sentence": "Excessive stress and irregular sleep will eventually act upon your physical and mental health.",
+      "sentence_meaning": "অতিরিক্ত মানসিক চাপ এবং অনিয়মিত ঘুম শেষ পর্যন্ত আপনার শারীরিক ও মানসিক স্বাস্থ্যের উপর ক্ষতিকর প্রভাব ফেলবে।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 139,
+      "word": "Act up to",
+      "ipa": "/ækt ʌp tuː/",
+      "pos": "phrase",
+      "meaning": "প্রত্যাশা অনুযায়ী কাজ করা, অনুরূপ চলা",
+      "synonyms": [
+        "live up to",
+        "fulfill",
+        "comply with",
+        "satisfy"
+      ],
+      "antonyms": [
+        "fall short of",
+        "disobey",
+        "fail",
+        "neglect"
+      ],
+      "raw_synonyms": "live up to, fulfill, comply with, satisfy",
+      "raw_antonyms": "fall short of, disobey, fail, neglect",
+      "sentence": "The young apprentice tried his best to act up to his mentor's high expectations.",
+      "sentence_meaning": "তরুণ শিক্ষানবিস তার শিক্ষকের উচ্চ প্রত্যাশা পূরণ করার জন্য যথাসাধ্য চেষ্টা করেছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 140,
+      "word": "Act on",
+      "ipa": "/ækt ɒn/",
+      "pos": "phrase",
+      "meaning": "কার্যকর প্রভাব বিস্তার করা, ক্রিয়া করা",
+      "synonyms": [
+        "affect",
+        "stimulate",
+        "target",
+        "impact"
+      ],
+      "antonyms": [
+        "neutralize",
+        "impair",
+        "inhibit",
+        "block"
+      ],
+      "raw_synonyms": "affect, stimulate, target, impact",
+      "raw_antonyms": "neutralize, impair, inhibit, block",
+      "sentence": "This particular pharmaceutical drug acts on the central nervous system to alleviate chronic pain.",
+      "sentence_meaning": "এই বিশেষ ওষুধটি দীর্ঘস্থায়ী ব্যথা উপশম করতে কেন্দ্রীয় স্নায়ুতন্ত্রের ওপর কার্যকর প্রভাব ফেলে।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    }
+  ]
+}

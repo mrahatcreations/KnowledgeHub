@@ -129,6 +129,14 @@ function excludeHeavyAudioPlugin() {
         }
         console.log(`✨ Ultra-thin installer: Excluded ${removed} offline audio files from dist.`);
       }
+
+      const distPack = path.resolve(process.cwd(), 'dist', 'data', 'voice_pack_v1.khpack');
+      if (fs.existsSync(distPack)) {
+        try {
+          fs.unlinkSync(distPack);
+          console.log('✨ Ultra-thin installer: Excluded heavy voice_pack_v1.khpack from dist.');
+        } catch (e) {}
+      }
     }
   };
 }

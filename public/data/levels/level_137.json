@@ -1,0 +1,133 @@
+{
+  "level_id": 137,
+  "title": "Level 137: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 681,
+      "word": "Commence",
+      "ipa": "/kəˈmens/",
+      "pos": "v",
+      "meaning": "শুরু করা, আরম্ভ করা, সূত্রপাত করা",
+      "synonyms": [
+        "begin",
+        "start",
+        "initiate",
+        "launch"
+      ],
+      "antonyms": [
+        "conclude",
+        "terminate",
+        "finish",
+        "end"
+      ],
+      "raw_synonyms": "begin, start, initiate, launch",
+      "raw_antonyms": "conclude, terminate, finish, end",
+      "sentence": "The international climate summit is scheduled to commence early next week in Geneva.",
+      "sentence_meaning": "আগামী সপ্তাহের শুরুতে জেনেভায় আন্তর্জাতিক জলবায়ু শীর্ষ সম্মেলন শুরু হওয়ার কথা রয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 682,
+      "word": "Remunerate",
+      "ipa": "/rɪˈmjuːnəreɪt/",
+      "pos": "v",
+      "meaning": "পারিশ্রমিক দেওয়া, ক্ষতিপূরণ বা পারিশ্রমিক প্রদান করা",
+      "synonyms": [
+        "compensate",
+        "reimburse",
+        "reward",
+        "pay"
+      ],
+      "antonyms": [
+        "penalize",
+        "fine",
+        "deprive",
+        "underpay"
+      ],
+      "raw_synonyms": "compensate, reimburse, reward, pay",
+      "raw_antonyms": "penalize, fine, deprive, underpay",
+      "sentence": "The consultancy firm ensures that it fairly remunerates employees for overtime work and exceptional performance.",
+      "sentence_meaning": "পরামর্শক সংস্থাটি নিশ্চিত করে যে তারা অতিরিক্ত সময় কাজ এবং ব্যতিক্রমী পারফরম্যান্সের জন্য কর্মচারীদের ন্যায্য পারিশ্রমিক প্রদান করে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 683,
+      "word": "Cautious",
+      "ipa": "/ˈkɔːʃəs/",
+      "pos": "adj",
+      "meaning": "সতর্ক, সাবধানী, দূরদর্শী",
+      "synonyms": [
+        "prudent",
+        "wary",
+        "vigilant",
+        "circumspect"
+      ],
+      "antonyms": [
+        "reckless",
+        "careless",
+        "rash",
+        "impetuous"
+      ],
+      "raw_synonyms": "prudent, wary, vigilant, circumspect",
+      "raw_antonyms": "reckless, careless, rash, impetuous",
+      "sentence": "Financial advisors recommend taking a cautious approach before investing heavily in volatile emerging markets.",
+      "sentence_meaning": "অস্থির বিকাশমান বাজারে বিপুল বিনিয়োগ করার আগে আর্থিক উপদেষ্টারা একটি সতর্ক দৃষ্টিভঙ্গি গ্রহণের পরামর্শ দেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 684,
+      "word": "Clinch",
+      "ipa": "/klɪntʃ/",
+      "pos": "v",
+      "meaning": "চূড়ান্ত করা, নিশ্চিত করা, নিষ্পত্তি করা",
+      "synonyms": [
+        "settle",
+        "secure",
+        "finalize",
+        "conclude"
+      ],
+      "antonyms": [
+        "lose",
+        "forfeit",
+        "unsettle",
+        "relinquish"
+      ],
+      "raw_synonyms": "settle, secure, finalize, conclude",
+      "raw_antonyms": "lose, forfeit, unsettle, relinquish",
+      "sentence": "The striker scored a decisive goal in the final minutes to clinch the championship title for his club.",
+      "sentence_meaning": "স্ট্রাইকার শেষ মুহূর্তে একটি নিষ্পত্তিমূলক গোল করে তাঁর ক্লাবের জন্য চ্যাম্পিয়নশিপের শিরোপা নিশ্চিত করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 685,
+      "word": "Coherent",
+      "ipa": "/koʊˈhɪrənt/",
+      "pos": "adj",
+      "meaning": "সুসংগত, যুক্তিযুক্ত, বোধগম্য",
+      "synonyms": [
+        "logical",
+        "lucid",
+        "consistent",
+        "articulate"
+      ],
+      "antonyms": [
+        "incoherent",
+        "muddled",
+        "disjointed",
+        "irrational"
+      ],
+      "raw_synonyms": "logical, lucid, consistent, articulate",
+      "raw_antonyms": "incoherent, muddled, disjointed, irrational",
+      "sentence": "The candidate failed to present a coherent economic strategy during the televised presidential debate.",
+      "sentence_meaning": "টেলিভিশনে প্রচারিত প্রেসিডেন্ট বিতর্কের সময় প্রার্থী একটি সুসংগত অর্থনৈতিক কৌশল উপস্থাপন করতে ব্যর্থ হয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

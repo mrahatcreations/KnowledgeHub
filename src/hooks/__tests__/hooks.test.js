@@ -853,3 +853,38 @@ test('App.jsx Stage Dispatch, State Machine Boundaries & Graceful Loader Guard V
   assert.equal(simulatedStageIndex, 9, 'Stage index must not advance out of bounds beyond 9');
 });
 
+test('Full 10-Stage Sequential Lifecycle & Seamless Stage-to-Stage Transition Simulation', async () => {
+  const levelsPath = path.resolve('public/data/levels.json');
+  const levelsRaw = await fs.readFile(levelsPath, 'utf8');
+  const levelsData = JSON.parse(levelsRaw);
+
+  const sampleLevel = levelsData.levels[0];
+  const compiledStages = buildLevelStages(sampleLevel, true);
+  assert.equal(compiledStages.length, 10, 'Compiled stages must be 10');
+
+  // Verify each stage payload has all required properties to render without blank screen
+  compiledStages.forEach((stage, idx) => {
+    assert.ok(stage, `Stage ${idx + 1} must exist`);
+    assert.ok(stage.type, `Stage ${idx + 1} must have a valid type`);
+    assert.ok(Object.values(STAGE_TYPES).includes(stage.type), `Stage ${idx + 1} type ${stage.type} must be valid`);
+
+    if (stage.type === STAGE_TYPES.FLASHCARD) {
+      assert.ok(Array.isArray(stage.options) && stage.options.length >= 4, `Flashcard stage ${idx + 1} must have at least 4 options`);
+      assert.ok(stage.correctAnswer, `Flashcard stage ${idx + 1} must have correctAnswer`);
+    } else if (stage.type === STAGE_TYPES.MATCHING) {
+      assert.ok(Array.isArray(stage.leftItems) && stage.leftItems.length === 5, `Matching stage ${idx + 1} must have 5 leftItems`);
+      assert.ok(Array.isArray(stage.rightItems) && stage.rightItems.length === 5, `Matching stage ${idx + 1} must have 5 rightItems`);
+    } else if (stage.type === STAGE_TYPES.DRAG_DROP) {
+      assert.ok(stage.sentenceText, `DragDrop stage ${idx + 1} must have sentenceText`);
+      assert.ok(Array.isArray(stage.options) && stage.options.length >= 4, `DragDrop stage ${idx + 1} must have word bank options`);
+    } else if (stage.type === STAGE_TYPES.TRUE_FALSE) {
+      assert.ok(stage.item && stage.item.word, `TrueFalse stage ${idx + 1} must have item word`);
+      assert.ok(stage.correctAnswer === 'TRUE' || stage.correctAnswer === 'FALSE' || typeof stage.correctAnswer === 'boolean', `TrueFalse stage ${idx + 1} must have valid boolean/string answer`);
+    } else if (stage.type === STAGE_TYPES.ODD_ONE_OUT) {
+      assert.ok(Array.isArray(stage.options) && stage.options.length === 4, `OddOneOut stage ${idx + 1} must have 4 options`);
+      assert.ok(stage.correctAnswer, `OddOneOut stage ${idx + 1} must have correctAnswer`);
+    }
+  });
+});
+
+

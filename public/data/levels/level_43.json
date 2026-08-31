@@ -1,0 +1,131 @@
+{
+  "level_id": 43,
+  "title": "Level 43: Appropriate Preposition",
+  "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1",
+  "category": "Appropriate Preposition",
+  "items": [
+    {
+      "id": 211,
+      "word": "Begin with",
+      "ipa": "/bɪˈɡɪn wɪð/",
+      "pos": "prep",
+      "meaning": "কোনো কিছু দিয়ে সূচনা করা",
+      "synonyms": [
+        "commence with",
+        "start with",
+        "initiate with",
+        "originate with"
+      ],
+      "antonyms": [
+        "end with",
+        "conclude with",
+        "terminate with",
+        "finish with"
+      ],
+      "raw_synonyms": "commence with, start with, initiate with, originate with",
+      "raw_antonyms": "end with, conclude with, terminate with, finish with",
+      "sentence": "Let us begin with a brief historical overview before examining the contemporary data.",
+      "sentence_meaning": "সমসাময়িক তথ্য পরীক্ষার পূর্বে আসুন আমরা একটি সংক্ষিপ্ত ঐতিহাসিক বিবরণ দিয়ে শুরু করি।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1"
+    },
+    {
+      "id": 212,
+      "word": "Bored with",
+      "ipa": "/bɔːrd wɪð/",
+      "pos": "prep",
+      "meaning": "কোনো কিছুতে একঘেয়েমি বা ক্লান্তি অনুভব করা",
+      "synonyms": [
+        "weary of",
+        "tired of",
+        "fed up with",
+        "uninterested in"
+      ],
+      "antonyms": [
+        "fascinated by",
+        "enthusiastic about",
+        "captivated by",
+        "excited about"
+      ],
+      "raw_synonyms": "weary of, tired of, fed up with, uninterested in",
+      "raw_antonyms": "fascinated by, enthusiastic about, captivated by, excited about",
+      "sentence": "Children quickly grew bored with the repetitive video games and asked to play outdoors.",
+      "sentence_meaning": "শিশুরা একঘেয়ে ভিডিও গেমে দ্রুত বিরক্ত হয়ে বাইরে খেলার জন্য অনুরোধ করল।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1"
+    },
+    {
+      "id": 213,
+      "word": "Busy with",
+      "ipa": "/ˈbɪzi wɪð/",
+      "pos": "prep",
+      "meaning": "কোনো কাজে ব্যস্ত বা নিমগ্ন",
+      "synonyms": [
+        "occupied with",
+        "engaged in",
+        "preoccupied with",
+        "absorbed in"
+      ],
+      "antonyms": [
+        "idle from",
+        "free from",
+        "unoccupied with"
+      ],
+      "raw_synonyms": "occupied with, engaged in, preoccupied with, absorbed in",
+      "raw_antonyms": "idle from, free from, unoccupied with",
+      "sentence": "The editorial team is currently busy with proofreading the final manuscript for publication.",
+      "sentence_meaning": "সম্পাদকীয় দলটি বর্তমানে প্রকাশের জন্য চূড়ান্ত পাণ্ডুলিপি প্রুফরিডিংয়ে ব্যস্ত রয়েছে।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1"
+    },
+    {
+      "id": 214,
+      "word": "Collide with",
+      "ipa": "/kəˈlaɪd wɪð/",
+      "pos": "prep",
+      "meaning": "কোনো কিছুর সাথে সজোরে ধাক্কা খাওয়া",
+      "synonyms": [
+        "crash into",
+        "smash into",
+        "bump into",
+        "impact with"
+      ],
+      "antonyms": [
+        "swerve clear of",
+        "avoid",
+        "bypass",
+        "miss"
+      ],
+      "raw_synonyms": "crash into, smash into, bump into, impact with",
+      "raw_antonyms": "swerve clear of, avoid, bypass, miss",
+      "sentence": "The speeding delivery van collided with a stationary freight truck during the heavy downpour.",
+      "sentence_meaning": "ভারী বৃষ্টির সময় দ্রুতগামী ডেলিভারি ভ্যানটি একটি স্থির মালবাহী ট্রাকের সাথে সজোরে ধাক্কা খায়।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1"
+    },
+    {
+      "id": 215,
+      "word": "Compare with",
+      "ipa": "/kəmˈper wɪð/",
+      "pos": "prep",
+      "meaning": "সমজাতীয় বস্তুর তুলনা করা",
+      "synonyms": [
+        "contrast with",
+        "measure against",
+        "match with",
+        "weigh against"
+      ],
+      "antonyms": [
+        "differentiate from",
+        "separate from",
+        "dissociate from"
+      ],
+      "raw_synonyms": "contrast with, measure against, match with, weigh against",
+      "raw_antonyms": "differentiate from, separate from, dissociate from",
+      "sentence": "If you compare with previous quarter earnings, this year's financial performance shows remarkable improvement.",
+      "sentence_meaning": "পূর্ববর্তী প্রান্তিকের আয়ের সাথে তুলনা করলে চলতি বছরের আর্থিক ফলাফলে লক্ষণীয় উন্নতি দেখা যায়।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "level_id": 52,
+  "title": "Level 52: Vocabulary",
+  "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 256,
+      "word": "Spectacular",
+      "ipa": "/spekˈtækjələr/",
+      "pos": "adj",
+      "meaning": "দর্শনীয়, নয়নাভিরাম ও চমকপ্রদ",
+      "synonyms": [
+        "magnificent",
+        "breathtaking",
+        "splendid",
+        "stunning"
+      ],
+      "antonyms": [
+        "unimpressive",
+        "ordinary",
+        "mediocre",
+        "dull"
+      ],
+      "raw_synonyms": "magnificent, breathtaking, splendid, stunning",
+      "raw_antonyms": "unimpressive, ordinary, mediocre, dull",
+      "sentence": "The midnight fireworks display over the harbor was a truly spectacular sight to behold.",
+      "sentence_meaning": "পোতাশ্রয়ের ওপর মধ্যরাতের আতশবাজির প্রদর্শনীটি সত্যিই এক অসাধারণ দর্শনীয় দৃশ্য ছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 257,
+      "word": "Contemporary",
+      "ipa": "/kənˈtempəreri/",
+      "pos": "adj",
+      "meaning": "সমসাময়িক, আধুনিক",
+      "synonyms": [
+        "modern",
+        "present-day",
+        "current",
+        "coexistent"
+      ],
+      "antonyms": [
+        "ancient",
+        "archaic",
+        "outdated",
+        "traditional"
+      ],
+      "raw_synonyms": "modern, present-day, current, coexistent",
+      "raw_antonyms": "ancient, archaic, outdated, traditional",
+      "sentence": "Contemporary literature reflects the multifaceted social and technological dilemmas of the twenty-first century.",
+      "sentence_meaning": "সমসাময়িক সাহিত্য একবিংশ শতাব্দীর বহুমুখী সামাজিক ও প্রযুক্তিগত সংকটগুলোকে প্রতিফলিত করে।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 258,
+      "word": "Explore",
+      "ipa": "/ɪkˈsplɔːr/",
+      "pos": "v",
+      "meaning": "অন্বেষণ করা, বিশদভাবে খতিয়ে দেখা",
+      "synonyms": [
+        "investigate",
+        "examine",
+        "probe",
+        "delve into"
+      ],
+      "antonyms": [
+        "neglect",
+        "overlook",
+        "ignore",
+        "disregard"
+      ],
+      "raw_synonyms": "investigate, examine, probe, delve into",
+      "raw_antonyms": "neglect, overlook, ignore, disregard",
+      "sentence": "The seminar aimed to explore novel methodologies for combating climate change in coastal zones.",
+      "sentence_meaning": "সেমিনারটির লক্ষ্য ছিল উপকূলীয় অঞ্চলে জলবায়ু পরিবর্তন মোকাবিলার জন্য নতুন কার্যপদ্ধতি অন্বেষণ করা।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 259,
+      "word": "Expressive",
+      "ipa": "/ɪkˈspresɪv/",
+      "pos": "adj",
+      "meaning": "ভাবব্যঞ্জক, অনুভূতি স্পষ্টভাবে প্রকাশ করে এমন",
+      "synonyms": [
+        "evocative",
+        "eloquent",
+        "revealing",
+        "meaningful"
+      ],
+      "antonyms": [
+        "inexpressive",
+        "blank",
+        "unemotional",
+        "poker-faced"
+      ],
+      "raw_synonyms": "evocative, eloquent, revealing, meaningful",
+      "raw_antonyms": "inexpressive, blank, unemotional, poker-faced",
+      "sentence": "The classical dancer's expressive facial gestures conveyed intricate mythological narratives without words.",
+      "sentence_meaning": "ধ্রুপদী নৃত্যশিল্পীর ভাবব্যঞ্জক মুখের অভিব্যক্তি কোনো কথা ছাড়াই জটিল পৌরাণিক কাহিনি ফুটিয়ে তুলেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 260,
+      "word": "Insightful",
+      "ipa": "/ˈɪnsaɪtfl/",
+      "pos": "adj",
+      "meaning": "অন্তর্দৃষ্টিপূর্ণ, গভীর উপলব্ধিযুক্ত",
+      "synonyms": [
+        "perceptive",
+        "discerning",
+        "penetrating",
+        "astute"
+      ],
+      "antonyms": [
+        "unperceptive",
+        "shallow",
+        "obtuse",
+        "uninsightful"
+      ],
+      "raw_synonyms": "perceptive, discerning, penetrating, astute",
+      "raw_antonyms": "unperceptive, shallow, obtuse, uninsightful",
+      "sentence": "Her insightful critique illuminated subtle thematic layers in the author's classic novel.",
+      "sentence_meaning": "তাঁর অন্তর্দৃষ্টিপূর্ণ পর্যালোচনা লেখকের চিরায়ত উপন্যাসের সূক্ষ্ম বিষয়ভিত্তিক স্তরগুলোকে উন্মোচিত করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    }
+  ]
+}

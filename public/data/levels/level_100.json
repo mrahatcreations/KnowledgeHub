@@ -1,0 +1,133 @@
+{
+  "level_id": 100,
+  "title": "Level 100: Idiom",
+  "unit": "Idioms & Phrases Table",
+  "category": "Idiom",
+  "items": [
+    {
+      "id": 496,
+      "word": "Blow one's own horn",
+      "ipa": "/bloʊ wʌnz oʊn hɔːrn/",
+      "pos": "phrase",
+      "meaning": "নিজের গুণগান নিজে করা, নিজের ঢোল নিজে পেটানো",
+      "synonyms": [
+        "brag",
+        "boast",
+        "show off",
+        "self-promote"
+      ],
+      "antonyms": [
+        "be humble",
+        "understate",
+        "be modest",
+        "play down"
+      ],
+      "raw_synonyms": "brag, boast, show off, self-promote",
+      "raw_antonyms": "be humble, understate, be modest, play down",
+      "sentence": "A truly accomplished scholar never feels the need to blow their own horn.",
+      "sentence_meaning": "একজন প্রকৃত গুণী পণ্ডিত কখনই নিজের গুণগান নিজে করার প্রয়োজন বোধ করেন না।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 497,
+      "word": "Big gun",
+      "ipa": "/ˈbɪɡ ɡʌn/",
+      "pos": "phrase",
+      "meaning": "প্রভাবশালী বা গুরুত্বপূর্ণ ব্যক্তি, রাঘববোয়াল",
+      "synonyms": [
+        "heavyweight",
+        "VIP",
+        "bigwig",
+        "key figure"
+      ],
+      "antonyms": [
+        "nobody",
+        "nonentity",
+        "subordinate",
+        "underling"
+      ],
+      "raw_synonyms": "heavyweight, VIP, bigwig, key figure",
+      "raw_antonyms": "nobody, nonentity, subordinate, underling",
+      "sentence": "The government invited several big guns from the tech industry to advise on digital policy.",
+      "sentence_meaning": "সরকার ডিজিটাল নীতির বিষয়ে পরামর্শ দেওয়ার জন্য প্রযুক্তি শিল্পের বেশ কয়েকজন প্রভাবশালী ব্যক্তিকে আমন্ত্রণ জানিয়েছিল।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 498,
+      "word": "Bird's eye view",
+      "ipa": "/ˈbɜːrdz aɪ vjuː/",
+      "pos": "phrase",
+      "meaning": "সার্বিক দৃশ্য, ওপর থেকে সার্বিক রূপ বা ভাসাভাসি ধারণা",
+      "synonyms": [
+        "overview",
+        "aerial view",
+        "panoramic view",
+        "general summary"
+      ],
+      "antonyms": [
+        "microscopic view",
+        "detailed view",
+        "worm's-eye view",
+        "close-up"
+      ],
+      "raw_synonyms": "overview, aerial view, panoramic view, general summary",
+      "raw_antonyms": "microscopic view, detailed view, worm's-eye view, close-up",
+      "sentence": "The hot air balloon ride gave us a breathtaking bird's eye view of the green countryside.",
+      "sentence_meaning": "হট এয়ার বেলুন ভ্রমণ আমাদের সবুজ পল্লী অঞ্চলের একটি শ্বাসরুদ্ধকর মনোরম সার্বিক দৃশ্য দেখার সুযোগ করে দিয়েছিল।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 499,
+      "word": "Blow the cobwebs away",
+      "ipa": "/bloʊ ðə ˈkɒbwebz əˈweɪ/",
+      "pos": "phrase",
+      "meaning": "একঘেয়েমি ও ক্লান্তি ঝেড়ে ফেলে শরীর ও মনকে সতেজ করা",
+      "synonyms": [
+        "refresh oneself",
+        "clear one's head",
+        "reinvigorate",
+        "revitalize"
+      ],
+      "antonyms": [
+        "stagnate",
+        "tire oneself",
+        "exhaust",
+        "grow sluggish"
+      ],
+      "raw_synonyms": "refresh oneself, clear one's head, reinvigorate, revitalize",
+      "raw_antonyms": "stagnate, tire oneself, exhaust, grow sluggish",
+      "sentence": "Taking a brisk morning jog in the park will help blow the cobwebs away and get you ready for work.",
+      "sentence_meaning": "সকালে পার্কে দ্রুত জগিং করা একঘেয়েমি ঝেড়ে ফেলে মনকে সতেজ করতে এবং আপনাকে কাজের জন্য প্রস্তুত করতে সাহায্য করবে।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 500,
+      "word": "Bursting at the seams",
+      "ipa": "/ˈbɜːrstɪŋ æt ðə siːmz/",
+      "pos": "phrase",
+      "meaning": "লোকে লোকারণ্য, কানায় কানায় পূর্ণ",
+      "synonyms": [
+        "packed",
+        "overflowing",
+        "jam-packed",
+        "crowded"
+      ],
+      "antonyms": [
+        "empty",
+        "deserted",
+        "vacant",
+        "sparse"
+      ],
+      "raw_synonyms": "packed, overflowing, jam-packed, crowded",
+      "raw_antonyms": "empty, deserted, vacant, sparse",
+      "sentence": "During the festival season, the local marketplace was bursting at the seams with enthusiastic shoppers.",
+      "sentence_meaning": "উৎসবের মরসুমে স্থানীয় বাজারটি উৎসাহী ক্রেতাদের উপস্থিতিতে লোকে লোকারণ্য ও কানায় কানায় পূর্ণ ছিল।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    }
+  ]
+}

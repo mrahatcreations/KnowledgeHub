@@ -1,0 +1,133 @@
+{
+  "level_id": 78,
+  "title": "Level 78: Vocabulary",
+  "unit": "Vocabulary Table",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 386,
+      "word": "Imagination",
+      "ipa": "/ɪˌmædʒɪˈneɪʃn/",
+      "pos": "n",
+      "meaning": "কল্পনাশক্তি, উদ্ভাবনী চিন্তা",
+      "synonyms": [
+        "creativity",
+        "vision",
+        "inventiveness",
+        "fancy"
+      ],
+      "antonyms": [
+        "reality",
+        "fact",
+        "literalness",
+        "actuality"
+      ],
+      "raw_synonyms": "creativity, vision, inventiveness, fancy",
+      "raw_antonyms": "reality, fact, literalness, actuality",
+      "sentence": "Reading classic literature stimulates a child's imagination and expands their understanding of the world.",
+      "sentence_meaning": "ধ্রুপদী সাহিত্য পড়া একটি শিশুর কল্পনাশক্তিকে উদ্দীপিত করে এবং বিশ্ব সম্পর্কে তার ধারণাকে প্রসারিত করে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 387,
+      "word": "Empirical",
+      "ipa": "/ɪmˈpɪrɪkl/",
+      "pos": "adj",
+      "meaning": "অভিজ্ঞতালব্ধ, পর্যবেক্ষণ বা প্রমাণের ওপর প্রতিষ্ঠিত",
+      "synonyms": [
+        "experiential",
+        "observational",
+        "experimental",
+        "factual"
+      ],
+      "antonyms": [
+        "theoretical",
+        "hypothetical",
+        "speculative",
+        "unproven"
+      ],
+      "raw_synonyms": "experiential, observational, experimental, factual",
+      "raw_antonyms": "theoretical, hypothetical, speculative, unproven",
+      "sentence": "The scientists gathered empirical evidence through rigorous laboratory trials before publishing their findings.",
+      "sentence_meaning": "বিজ্ঞানীরা তাদের গবেষণার ফলাফল প্রকাশের আগে কঠোর গবেষণাগার পরীক্ষার মাধ্যমে অভিজ্ঞতালব্ধ প্রমাণ সংগ্রহ করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 388,
+      "word": "Baffling",
+      "ipa": "/ˈbæflɪŋ/",
+      "pos": "adj",
+      "meaning": "বিভ্রান্তিকর, দুর্বোধ্য, রহস্যময়",
+      "synonyms": [
+        "perplexing",
+        "puzzling",
+        "mystifying",
+        "confusing"
+      ],
+      "antonyms": [
+        "straightforward",
+        "clear",
+        "comprehensible",
+        "lucid"
+      ],
+      "raw_synonyms": "perplexing, puzzling, mystifying, confusing",
+      "raw_antonyms": "straightforward, clear, comprehensible, lucid",
+      "sentence": "The sudden disappearance of the ancient artifact from the museum remains a baffling mystery.",
+      "sentence_meaning": "জাদুঘর থেকে প্রাচীন নিদর্শনটির আকস্মিক অন্তর্ধান এখনও একটি বিভ্রান্তিকর রহস্য হয়ে রয়ে গেছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 389,
+      "word": "Augment",
+      "ipa": "/ɔːɡˈment/",
+      "pos": "v",
+      "meaning": "বৃদ্ধি করা, পরিবর্ধন করা",
+      "synonyms": [
+        "increase",
+        "expand",
+        "enhance",
+        "enlarge"
+      ],
+      "antonyms": [
+        "diminish",
+        "reduce",
+        "decrease",
+        "deplete"
+      ],
+      "raw_synonyms": "increase, expand, enhance, enlarge",
+      "raw_antonyms": "diminish, reduce, decrease, deplete",
+      "sentence": "The university decided to augment its research budget to support groundbreaking scientific studies.",
+      "sentence_meaning": "যুগান্তকারী বৈজ্ঞানিক গবেষণাকে সমর্থন করার জন্য বিশ্ববিদ্যালয়টি তাদের গবেষণা বাজেট বৃদ্ধি করার সিদ্ধান্ত নিয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 390,
+      "word": "Instinctively",
+      "ipa": "/ɪnˈstɪŋktɪvli/",
+      "pos": "adv",
+      "meaning": "স্বভাবতই, সহজাত প্রবৃত্তি অনুযায়ী, স্বতঃস্ফূর্তভাবে",
+      "synonyms": [
+        "intuitively",
+        "spontaneously",
+        "automatically",
+        "naturally"
+      ],
+      "antonyms": [
+        "deliberately",
+        "consciously",
+        "intentionally",
+        "calculatedly"
+      ],
+      "raw_synonyms": "intuitively, spontaneously, automatically, naturally",
+      "raw_antonyms": "deliberately, consciously, intentionally, calculatedly",
+      "sentence": "When the unexpected loud noise echoed through the room, she instinctively ducked beneath her desk.",
+      "sentence_meaning": "কক্ষে অপ্রত্যাশিত বিকট শব্দ প্রতিধ্বনিত হলে, তিনি সহজাত প্রবৃত্তিবশত নিজের টেবিলের নিচে মাথা নিচু করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    }
+  ]
+}

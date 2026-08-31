@@ -1,0 +1,133 @@
+{
+  "level_id": 25,
+  "title": "Level 25: Vocabulary",
+  "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 121,
+      "word": "Accelerate",
+      "ipa": "/əkˈseləreɪt/",
+      "pos": "v",
+      "meaning": "গতি বৃদ্ধি করা, ত্বরান্বিত করা",
+      "synonyms": [
+        "quicken",
+        "hasten",
+        "expedite",
+        "speed up"
+      ],
+      "antonyms": [
+        "decelerate",
+        "delay",
+        "retard",
+        "slow"
+      ],
+      "raw_synonyms": "quicken, hasten, expedite, speed up",
+      "raw_antonyms": "decelerate, delay, retard, slow",
+      "sentence": "Technological innovation will accelerate economic growth across developing sectors.",
+      "sentence_meaning": "প্রযুক্তিগত উদ্ভাবন উন্নয়নশীল খাত জুড়ে অর্থনৈতিক প্রবৃদ্ধিকে ত্বরান্বিত করবে।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 122,
+      "word": "Acrid",
+      "ipa": "/ˈækrɪd/",
+      "pos": "adj",
+      "meaning": "ঝাঁজালো, তীব্র কটু, তিক্ত",
+      "synonyms": [
+        "pungent",
+        "bitter",
+        "sharp",
+        "caustic"
+      ],
+      "antonyms": [
+        "sweet",
+        "mild",
+        "savory",
+        "pleasant"
+      ],
+      "raw_synonyms": "pungent, bitter, sharp, caustic",
+      "raw_antonyms": "sweet, mild, savory, pleasant",
+      "sentence": "An acrid smoke billowed from the burning chemical warehouse, irritating everyone's eyes.",
+      "sentence_meaning": "জ্বলন্ত রাসায়নিকের গুদাম থেকে ঝাঁজালো ধোঁয়া নির্গত হয়ে সকলের চোখে জ্বালাপোড়া সৃষ্টি করছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 123,
+      "word": "Adhere",
+      "ipa": "/ədˈhɪər/",
+      "pos": "v",
+      "meaning": "লেগে থাকা, আঁকড়ে থাকা, মেনে চলা",
+      "synonyms": [
+        "stick",
+        "comply",
+        "cling",
+        "conform"
+      ],
+      "antonyms": [
+        "detach",
+        "disobey",
+        "violate",
+        "separate"
+      ],
+      "raw_synonyms": "stick, comply, cling, conform",
+      "raw_antonyms": "detach, disobey, violate, separate",
+      "sentence": "All medical practitioners are required to adhere strictly to professional ethical standards.",
+      "sentence_meaning": "সকল চিকিৎসা কর্মকর্তাকে পেশাগত নৈতিক মান কঠোরভাবে মেনে চলতে হয়।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 124,
+      "word": "Adjourn",
+      "ipa": "/əˈdʒɜːrn/",
+      "pos": "v",
+      "meaning": "মুলতবি রাখা, সাময়িক স্থগিত করা",
+      "synonyms": [
+        "postpone",
+        "suspend",
+        "defer",
+        "delay"
+      ],
+      "antonyms": [
+        "convene",
+        "continue",
+        "commence",
+        "resume"
+      ],
+      "raw_synonyms": "postpone, suspend, defer, delay",
+      "raw_antonyms": "convene, continue, commence, resume",
+      "sentence": "The judge decided to adjourn the court session until ten o'clock the following morning.",
+      "sentence_meaning": "বিচারক পরদিন সকাল দশটা পর্যন্ত আদালতের কার্যক্রম মুলতবি রাখার সিদ্ধান্ত নেন।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 125,
+      "word": "Adumbrate",
+      "ipa": "/ˈædəmbreɪt/",
+      "pos": "v",
+      "meaning": "পূর্বাভাস দেওয়া, অস্পষ্ট রূপরেখা দেওয়া",
+      "synonyms": [
+        "foreshadow",
+        "outline",
+        "intimate",
+        "portend"
+      ],
+      "antonyms": [
+        "clarify",
+        "illuminate",
+        "detail",
+        "explain"
+      ],
+      "raw_synonyms": "foreshadow, outline, intimate, portend",
+      "raw_antonyms": "clarify, illuminate, detail, explain",
+      "sentence": "The introductory chapter served to adumbrate the major themes explored later in the book.",
+      "sentence_meaning": "ভূমিকা অধ্যায়টি বইটিতে পরবর্তীতে আলোচিত প্রধান বিষয়গুলোর একটি রূপরেখা তুলে ধরে।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    }
+  ]
+}

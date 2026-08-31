@@ -1,0 +1,133 @@
+{
+  "level_id": 145,
+  "title": "Level 145: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 721,
+      "word": "Audacious",
+      "ipa": "/ɔːˈdeɪʃəs/",
+      "pos": "adj",
+      "meaning": "দুঃসাহসী, অসমসাহসী, ধৃষ্ট",
+      "synonyms": [
+        "bold",
+        "daring",
+        "fearless",
+        "intrepid"
+      ],
+      "antonyms": [
+        "timid",
+        "cowardly",
+        "cautious",
+        "meek"
+      ],
+      "raw_synonyms": "bold, daring, fearless, intrepid",
+      "raw_antonyms": "timid, cowardly, cautious, meek",
+      "sentence": "The young entrepreneur launched an audacious campaign to challenge established industry monopolies.",
+      "sentence_meaning": "তরুণ উদ্যোক্তা প্রতিষ্ঠিত শিল্প একচেটিয়া আধিপত্যকে চ্যালেঞ্জ করার জন্য একটি দুঃসাহসী প্রচারণা শুরু করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 722,
+      "word": "Accumulate",
+      "ipa": "/əˈkjuːmjəleɪt/",
+      "pos": "v",
+      "meaning": "পুঞ্জীভূত করা, জমিয়ে তোলা, সঞ্চয় করা",
+      "synonyms": [
+        "gather",
+        "amass",
+        "collect",
+        "hoard"
+      ],
+      "antonyms": [
+        "disperse",
+        "scatter",
+        "dissipate",
+        "spend"
+      ],
+      "raw_synonyms": "gather, amass, collect, hoard",
+      "raw_antonyms": "disperse, scatter, dissipate, spend",
+      "sentence": "Over decades of dedicated saving, she managed to accumulate substantial capital for retirement.",
+      "sentence_meaning": "কয়েক দশকের একনিষ্ঠ সঞ্চয়ের মাধ্যমে তিনি অবসরের জন্য পর্যাপ্ত মূলধন জমা করতে সক্ষম হয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 723,
+      "word": "Articulate",
+      "ipa": "/ɑːrˈtɪkjuleɪt/",
+      "pos": "v",
+      "meaning": "স্পষ্ট ভাষায় ব্যক্ত করা, স্পষ্টভাবে উচ্চারণ করা",
+      "synonyms": [
+        "express",
+        "enunciate",
+        "verbalize",
+        "pronounce"
+      ],
+      "antonyms": [
+        "mumble",
+        "suppress",
+        "misrepresent",
+        "stumble"
+      ],
+      "raw_synonyms": "express, enunciate, verbalize, pronounce",
+      "raw_antonyms": "mumble, suppress, misrepresent, stumble",
+      "sentence": "The keynote speaker was able to articulate complex economic theories with remarkable clarity and poise.",
+      "sentence_meaning": "মূল বক্তা অসাধারণ স্পষ্টতা ও আত্মবিশ্বাসের সাথে জটিল অর্থনৈতিক তত্ত্বগুলো ব্যক্ত করতে পেরেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 724,
+      "word": "Accumulate",
+      "ipa": "/əˈkjuːmjəleɪt/",
+      "pos": "v",
+      "meaning": "জড়ো হওয়া, পুঞ্জীভূত হওয়া, জমা হওয়া",
+      "synonyms": [
+        "pile up",
+        "build up",
+        "accrue",
+        "aggregate"
+      ],
+      "antonyms": [
+        "diminish",
+        "dwindle",
+        "decrease",
+        "disperse"
+      ],
+      "raw_synonyms": "pile up, build up, accrue, aggregate",
+      "raw_antonyms": "diminish, dwindle, decrease, disperse",
+      "sentence": "Toxic pollutants continue to accumulate in urban river systems if industrial waste is left untreated.",
+      "sentence_meaning": "শিল্প বর্জ্য অপরিশোধিত রেখে দিলে শহুরে নদী ব্যবস্থায় বিষাক্ত দূষণকারী উপাদান ক্রমাগত জমা হতে থাকে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 725,
+      "word": "Beneficial",
+      "ipa": "/ˌbenɪˈfɪʃl/",
+      "pos": "adj",
+      "meaning": "উপকারী, কল্যাণকর, লাভজনক",
+      "synonyms": [
+        "advantageous",
+        "favorable",
+        "helpful",
+        "salubrious"
+      ],
+      "antonyms": [
+        "harmful",
+        "detrimental",
+        "damaging",
+        "deleterious"
+      ],
+      "raw_synonyms": "advantageous, favorable, helpful, salubrious",
+      "raw_antonyms": "harmful, detrimental, damaging, deleterious",
+      "sentence": "Regular cardiovascular exercise yields immensely beneficial effects for overall heart health.",
+      "sentence_meaning": "নিয়মিত হৃদযন্ত্রের ব্যায়াম সামগ্রিক হৃদরোগের স্বাস্থ্যের জন্য অত্যন্ত উপকারী প্রভাব ফেলে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "level_id": 14,
+  "title": "Level 14: Vocabulary",
+  "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 66,
+      "word": "Innocence",
+      "ipa": "/ˈɪnəsns/",
+      "pos": "n",
+      "meaning": "নির্দোষতা, সারল্য, নিষ্পাপ অবস্থা",
+      "synonyms": [
+        "guiltlessness",
+        "purity",
+        "chastity",
+        "blamelessness"
+      ],
+      "antonyms": [
+        "guilt",
+        "culpability",
+        "sinfulness",
+        "corruption"
+      ],
+      "raw_synonyms": "guiltlessness, purity, chastity, blamelessness",
+      "raw_antonyms": "guilt, culpability, sinfulness, corruption",
+      "sentence": "The defense attorney presented conclusive evidence proving his client's complete innocence.",
+      "sentence_meaning": "আসামীপক্ষের আইনজীবী তাঁর মক্কেলের সম্পূর্ণ নির্দোষতা প্রমাণে চূড়ান্ত প্রমাণ পেশ করেন।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    },
+    {
+      "id": 67,
+      "word": "Slightly",
+      "ipa": "/ˈslaɪtli/",
+      "pos": "adv",
+      "meaning": "সামান্য, মৃদুভাবে, কিছুটা",
+      "synonyms": [
+        "marginally",
+        "somewhat",
+        "barely",
+        "faintly"
+      ],
+      "antonyms": [
+        "substantially",
+        "considerably",
+        "greatly",
+        "entirely"
+      ],
+      "raw_synonyms": "marginally, somewhat, barely, faintly",
+      "raw_antonyms": "substantially, considerably, greatly, entirely",
+      "sentence": "The financial forecast was adjusted slightly downward due to rising inflation.",
+      "sentence_meaning": "ক্রমবর্ধমান মুদ্রাস্ফীতির কারণে আর্থিক পূর্বাভাস সামান্য হ্রাস করা হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    },
+    {
+      "id": 68,
+      "word": "Empirical",
+      "ipa": "/ɪmˈpɪrɪkl/",
+      "pos": "adj",
+      "meaning": "অভিজ্ঞতালব্ধ, পর্যবেক্ষণভিত্তিক, বাস্তবপ্রমাণভিত্তিক",
+      "synonyms": [
+        "experimental",
+        "observational",
+        "factual",
+        "practical"
+      ],
+      "antonyms": [
+        "theoretical",
+        "speculative",
+        "hypothetical",
+        "conjectural"
+      ],
+      "raw_synonyms": "experimental, observational, factual, practical",
+      "raw_antonyms": "theoretical, speculative, hypothetical, conjectural",
+      "sentence": "Scientific conclusions must be supported by rigorous empirical evidence rather than mere assumptions.",
+      "sentence_meaning": "বৈজ্ঞানিক সিদ্ধান্তসমূহকে নিছক অনুমানের পরিবর্তে কঠোর বাস্তব অভিজ্ঞতালব্ধ প্রমাণের ওপর ভিত্তি করে প্রতিষ্ঠিত হতে হবে।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    },
+    {
+      "id": 69,
+      "word": "Impetus",
+      "ipa": "/ˈɪmpɪtəs/",
+      "pos": "n",
+      "meaning": "প্রেরণা, চালিকাশক্তি, গতিবেগ",
+      "synonyms": [
+        "stimulus",
+        "incentive",
+        "momentum",
+        "motivation"
+      ],
+      "antonyms": [
+        "hindrance",
+        "deterrent",
+        "impediment",
+        "discouragement"
+      ],
+      "raw_synonyms": "stimulus, incentive, momentum, motivation",
+      "raw_antonyms": "hindrance, deterrent, impediment, discouragement",
+      "sentence": "The foreign grant provided the needed impetus for expanding rural healthcare facilities.",
+      "sentence_meaning": "বিদেশি অনুদান গ্রামীণ স্বাস্থ্যসেবা সুবিধা সম্প্রসারণের জন্য প্রয়োজনীয় প্রেরণা ও চালিকাশক্তি জুগিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    },
+    {
+      "id": 70,
+      "word": "Abate",
+      "ipa": "/əˈbeɪt/",
+      "pos": "v",
+      "meaning": "কমা, প্রশমিত হওয়া বা করা, উপশম হওয়া",
+      "synonyms": [
+        "subside",
+        "diminish",
+        "decrease",
+        "lessen"
+      ],
+      "antonyms": [
+        "intensify",
+        "escalate",
+        "increase",
+        "augment"
+      ],
+      "raw_synonyms": "subside, diminish, decrease, lessen",
+      "raw_antonyms": "intensify, escalate, increase, augment",
+      "sentence": "We waited patiently inside the shelter until the violent storm began to abate.",
+      "sentence_meaning": "প্রচণ্ড ঝড় কমতে শুরু না করা পর্যন্ত আমরা ধৈর্যের সাথে আশ্রয়কেন্দ্রে অপেক্ষা করেছিলাম।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    }
+  ]
+}

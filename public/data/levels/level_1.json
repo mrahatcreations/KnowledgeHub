@@ -1,0 +1,130 @@
+{
+  "level_id": 1,
+  "title": "Level 1: Vocabulary",
+  "unit": "Image 1: Vocabulary (Unit-1)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 1,
+      "word": "Incorporate",
+      "ipa": "/ɪnˈkɔːrpəreɪt/",
+      "pos": "v",
+      "meaning": "অন্তর্ভুক্ত করা, সমন্বিত করা",
+      "synonyms": [
+        "integrate",
+        "include",
+        "embody",
+        "assimilate"
+      ],
+      "antonyms": [
+        "exclude",
+        "separate",
+        "divide",
+        "eliminate"
+      ],
+      "raw_synonyms": "integrate, include, embody, assimilate",
+      "raw_antonyms": "exclude, separate, divide, eliminate",
+      "sentence": "The architect decided to incorporate traditional elements into the modern building design.",
+      "sentence_meaning": "স্থপতি আধুনিক ভবনের নকশায় ঐতিহ্যবাহী উপাদান অন্তর্ভুক্ত করার সিদ্ধান্ত নিয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 2,
+      "word": "Automate",
+      "ipa": "/ˈɔːtəmeɪt/",
+      "pos": "v",
+      "meaning": "স্বয়ংক্রিয় করা",
+      "synonyms": [
+        "mechanize",
+        "computerize",
+        "systematize",
+        "robotize"
+      ],
+      "antonyms": [
+        "manualize",
+        "operate manually",
+        "deautomate"
+      ],
+      "raw_synonyms": "mechanize, computerize, systematize, robotize",
+      "raw_antonyms": "manualize, operate manually, deautomate",
+      "sentence": "The company aims to automate its assembly line to increase efficiency and reduce errors.",
+      "sentence_meaning": "দক্ষতা বৃদ্ধি এবং ভুল কমাতে কোম্পানিটি তাদের সমাবেশ লাইন স্বয়ংক্রিয় করার লক্ষ্য নিয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 3,
+      "word": "Repetitive",
+      "ipa": "/rɪˈpetətɪv/",
+      "pos": "adj",
+      "meaning": "পুনরাবৃত্তিমূলক, একঘেয়ে",
+      "synonyms": [
+        "recurrent",
+        "monotonous",
+        "repetitious",
+        "tedious"
+      ],
+      "antonyms": [
+        "varied",
+        "diverse",
+        "novel",
+        "dynamic"
+      ],
+      "raw_synonyms": "recurrent, monotonous, repetitious, tedious",
+      "raw_antonyms": "varied, diverse, novel, dynamic",
+      "sentence": "Doing repetitive tasks without breaks can lead to mental fatigue and decreased productivity.",
+      "sentence_meaning": "বিরতিহীনভাবে পুনরাবৃত্তিমূলক কাজ করা মানসিক ক্লান্তি এবং উৎপাদনশীলতা হ্রাসের কারণ হতে পারে।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 4,
+      "word": "Feedback",
+      "ipa": "/ˈfiːdbæk/",
+      "pos": "n",
+      "meaning": "প্রতিক্রিয়া, গঠনমূলক মতামত",
+      "synonyms": [
+        "assessment",
+        "evaluation",
+        "critique",
+        "response"
+      ],
+      "antonyms": [
+        "unresponsiveness",
+        "silence",
+        "ignorance"
+      ],
+      "raw_synonyms": "assessment, evaluation, critique, response",
+      "raw_antonyms": "unresponsiveness, silence, ignorance",
+      "sentence": "Constructive feedback from the supervisor helped the junior researcher refine his hypothesis.",
+      "sentence_meaning": "তত্ত্বাবধায়কের কাছ থেকে গঠনমূলক প্রতিক্রিয়া জুনিয়র গবেষককে তার অনুমান পরিমার্জন করতে সাহায্য করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 5,
+      "word": "Edtech",
+      "ipa": "/ˈedtek/",
+      "pos": "n",
+      "meaning": "শিক্ষা-প্রযুক্তি",
+      "synonyms": [
+        "educational technology",
+        "e-learning",
+        "digital education",
+        "instructional technology"
+      ],
+      "antonyms": [
+        "traditional schooling",
+        "conventional education",
+        "offline learning"
+      ],
+      "raw_synonyms": "educational technology, e-learning, digital education, instructional technology",
+      "raw_antonyms": "traditional schooling, conventional education, offline learning",
+      "sentence": "The surge in edtech platforms has transformed remote learning across developing nations.",
+      "sentence_meaning": "শিক্ষা-প্রযুক্তি প্ল্যাটফর্মের উত্থান উন্নয়নশীল দেশগুলোতে দূরশিক্ষণ পদ্ধতিতে রূপান্তর এনেছে।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    }
+  ]
+}

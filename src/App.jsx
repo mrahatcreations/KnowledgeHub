@@ -233,6 +233,9 @@ export default function App() {
                     {currentStage.type === STAGE_TYPES.ODD_ONE_OUT && (
                       <OddOneOutStage key={`stage_${stageIndex}_${currentStage.item?.id || ''}_${currentStage.correctAnswer}`} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} isSecondChance={stageAttempts === 1} />
                     )}
+                    {!Object.values(STAGE_TYPES).includes(currentStage.type) && (
+                      <FlashcardStage key={`stage_fb_${stageIndex}_${currentStage.item?.id || ''}`} stage={currentStage} onSubmitAnswer={handleAnswerSubmit} isSecondChance={stageAttempts === 1} />
+                    )}
                   </>
                 ) : (
                   <div className="flex flex-col items-center justify-center min-h-[320px] text-center p-8 bg-slate-900/60 border border-slate-800 rounded-none space-y-4">

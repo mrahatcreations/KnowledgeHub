@@ -1,0 +1,133 @@
+{
+  "level_id": 150,
+  "title": "Level 150: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 746,
+      "word": "Negligible",
+      "ipa": "/ˈneɡlɪdʒəbl/",
+      "pos": "adj",
+      "meaning": "নগণ্য, তুচ্ছ, উপেক্ষণীয়",
+      "synonyms": [
+        "insignificant",
+        "minor",
+        "trifling",
+        "trivial"
+      ],
+      "antonyms": [
+        "significant",
+        "substantial",
+        "major",
+        "considerable"
+      ],
+      "raw_synonyms": "insignificant, minor, trifling, trivial",
+      "raw_antonyms": "significant, substantial, major, considerable",
+      "sentence": "The statistical difference between the two experimental groups was negligible and showed no clinical impact.",
+      "sentence_meaning": "দুটি পরীক্ষামূলক দলের মধ্যে পরিসংখ্যানগত পার্থক্য ছিল নগণ্য এবং এর কোনো ক্লিনিকাল প্রভাব দেখা যায়নি।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 747,
+      "word": "Obsolete",
+      "ipa": "/ˌɑːbsəˈliːt/",
+      "pos": "adj",
+      "meaning": "অপ্রচলিত, প্রাচীন, সেকেলে",
+      "synonyms": [
+        "antiquated",
+        "outdated",
+        "archaic",
+        "defunct"
+      ],
+      "antonyms": [
+        "modern",
+        "contemporary",
+        "current",
+        "advanced"
+      ],
+      "raw_synonyms": "antiquated, outdated, archaic, defunct",
+      "raw_antonyms": "modern, contemporary, current, advanced",
+      "sentence": "Rapid advances in artificial intelligence make older automated software tools obsolete within years.",
+      "sentence_meaning": "কৃত্রিম বুদ্ধিমত্তার দ্রুত অগ্রগতি কয়েক বছরের মধ্যেই পুরনো স্বয়ংক্রিয় সফটওয়্যার সরঞ্জামগুলোকে অপ্রচলিত করে তোলে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 748,
+      "word": "Optimistic",
+      "ipa": "/ˌɑːptɪˈmɪstɪk/",
+      "pos": "adj",
+      "meaning": "আশাবাদী",
+      "synonyms": [
+        "hopeful",
+        "positive",
+        "sanguine",
+        "confident"
+      ],
+      "antonyms": [
+        "pessimistic",
+        "cynical",
+        "gloomy",
+        "despondent"
+      ],
+      "raw_synonyms": "hopeful, positive, sanguine, confident",
+      "raw_antonyms": "pessimistic, cynical, gloomy, despondent",
+      "sentence": "Economists remain cautiously optimistic about the recovery of global trade markets in the upcoming quarter.",
+      "sentence_meaning": "আসন্ন প্রান্তিকে বৈশ্বিক বাণিজ্য বাজারের পুনরুদ্ধার সম্পর্কে অর্থনীতিবিদরা সতর্কতার সাথে আশাবাদী রয়েছেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 749,
+      "word": "Prudent",
+      "ipa": "/ˈpruːdnt/",
+      "pos": "adj",
+      "meaning": "বিচক্ষণ, দূরদর্শী, সতর্ক, মিতব্যয়ী",
+      "synonyms": [
+        "wise",
+        "sagacious",
+        "cautious",
+        "discreet"
+      ],
+      "antonyms": [
+        "rash",
+        "reckless",
+        "foolish",
+        "imprudent"
+      ],
+      "raw_synonyms": "wise, sagacious, cautious, discreet",
+      "raw_antonyms": "rash, reckless, foolish, imprudent",
+      "sentence": "It is prudent to diversify investment portfolios to minimize exposure to sudden market volatility.",
+      "sentence_meaning": "আকস্মিক বাজারের অস্থিরতার ঝুঁকি কমাতে বিনিয়োগ পোর্টফোলিও বৈচিত্র্যময় করা বিচক্ষণতার কাজ।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 750,
+      "word": "Prevalent",
+      "ipa": "/ˈprevələnt/",
+      "pos": "adj",
+      "meaning": "ব্যাপক, প্রচলিত, বিস্তারশীল",
+      "synonyms": [
+        "widespread",
+        "rampant",
+        "common",
+        "pervasive"
+      ],
+      "antonyms": [
+        "rare",
+        "uncommon",
+        "scarce",
+        "sporadic"
+      ],
+      "raw_synonyms": "widespread, rampant, common, pervasive",
+      "raw_antonyms": "rare, uncommon, scarce, sporadic",
+      "sentence": "Seasonal influenza is particularly prevalent during the cold winter months across the region.",
+      "sentence_meaning": "মৌসুমি ইনফ্লুয়েঞ্জা এই অঞ্চলে বিশেষ করে শীতের ঠান্ডা মাসগুলোতে ব্যাপকভাবে প্রচলিত থাকে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

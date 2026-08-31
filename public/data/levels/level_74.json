@@ -1,0 +1,133 @@
+{
+  "level_id": 74,
+  "title": "Level 74: Vocabulary",
+  "unit": "Vocabulary Table",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 366,
+      "word": "Overwhelm",
+      "ipa": "/ˌoʊvərˈwelm/",
+      "pos": "v",
+      "meaning": "অভিভূত করা, বিহ্বল করা, চেপে বসা",
+      "synonyms": [
+        "overpower",
+        "overcome",
+        "inundate",
+        "engulf"
+      ],
+      "antonyms": [
+        "underwhelm",
+        "relieve",
+        "ease",
+        "assist"
+      ],
+      "raw_synonyms": "overpower, overcome, inundate, engulf",
+      "raw_antonyms": "underwhelm, relieve, ease, assist",
+      "sentence": "The sheer volume of urgent assignments began to overwhelm the newly hired apprentice.",
+      "sentence_meaning": "জরুরি কাজের বিপুল চাপ নতুন নিযুক্ত শিক্ষানবিসকে বিহ্বল করে তুলতে শুরু করল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 367,
+      "word": "Glimpse",
+      "ipa": "/ɡlɪmps/",
+      "pos": "n",
+      "meaning": "ক্ষণদর্শন, একপলক দেখা, সংক্ষিপ্ত আভাস",
+      "synonyms": [
+        "glance",
+        "peek",
+        "sight",
+        "flash"
+      ],
+      "antonyms": [
+        "stare",
+        "gaze",
+        "scrutiny",
+        "inspection"
+      ],
+      "raw_synonyms": "glance, peek, sight, flash",
+      "raw_antonyms": "stare, gaze, scrutiny, inspection",
+      "sentence": "Through the parting clouds, we caught a breathtaking glimpse of the snow-capped mountain summit.",
+      "sentence_meaning": "মেঘের ফাঁক দিয়ে আমরা তুষারাবৃত পর্বতচূড়ার এক চমৎকার ক্ষণদর্শন পেয়েছিলাম।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 368,
+      "word": "Passion",
+      "ipa": "/ˈpæʃn/",
+      "pos": "n",
+      "meaning": "তীব্র আবেগ, অনুরাগ, তীব্র ইচ্ছা",
+      "synonyms": [
+        "enthusiasm",
+        "ardor",
+        "fervor",
+        "zeal"
+      ],
+      "antonyms": [
+        "apathy",
+        "indifference",
+        "lethargy",
+        "coldness"
+      ],
+      "raw_synonyms": "enthusiasm, ardor, fervor, zeal",
+      "raw_antonyms": "apathy, indifference, lethargy, coldness",
+      "sentence": "His lifelong passion for astronomy inspired generations of young students to explore space science.",
+      "sentence_meaning": "জ্যোতির্বিদ্যার প্রতি তাঁর আজীবন অনুরাগ তরুণ প্রজন্মের বহু শিক্ষার্থীকে মহাকাশ বিজ্ঞান চর্চায় উদ্বুদ্ধ করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 369,
+      "word": "Hemorrhage",
+      "ipa": "/ˈhemərɪdʒ/",
+      "pos": "n",
+      "meaning": "রক্তক্ষরণ, মারাত্মক ক্ষয় বা ক্ষতি",
+      "synonyms": [
+        "bleeding",
+        "bloodloss",
+        "drain",
+        "depletion"
+      ],
+      "antonyms": [
+        "staunching",
+        "containment",
+        "recovery",
+        "accumulation"
+      ],
+      "raw_synonyms": "bleeding, bloodloss, drain, depletion",
+      "raw_antonyms": "staunching, containment, recovery, accumulation",
+      "sentence": "Prompt medical intervention successfully arrested the internal hemorrhage following the surgical operation.",
+      "sentence_meaning": "অস্ত্রোপচারের পর দ্রুত চিকিৎসা ব্যবস্থা সফলভাবে অভ্যন্তরীণ রক্তক্ষরণ বন্ধ করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 370,
+      "word": "Charm",
+      "ipa": "/tʃɑːrm/",
+      "pos": "n",
+      "meaning": "মুগ্ধতা, আকর্ষণ, মোহনীয়তা",
+      "synonyms": [
+        "attraction",
+        "allure",
+        "charisma",
+        "fascination"
+      ],
+      "antonyms": [
+        "repulsiveness",
+        "ugliness",
+        "displeasure",
+        "repulsion"
+      ],
+      "raw_synonyms": "attraction, allure, charisma, fascination",
+      "raw_antonyms": "repulsiveness, ugliness, displeasure, repulsion",
+      "sentence": "The historic seaside town has preserved its quaint old-world charm despite modern urbanization.",
+      "sentence_meaning": "ঐতিহাসিক উপকূলীয় শহরটি আধুনিক নগরায়নের মধ্যেও তার চমৎকার প্রাচীন মুগ্ধতা ধরে রেখেছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    }
+  ]
+}

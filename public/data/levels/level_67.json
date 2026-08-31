@@ -1,0 +1,133 @@
+{
+  "level_id": 67,
+  "title": "Level 67: Vocabulary",
+  "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 331,
+      "word": "Interposition",
+      "ipa": "/ˌɪntərpəˈzɪʃn/",
+      "pos": "n",
+      "meaning": "হস্তক্ষেপ, মধ্যস্থতা",
+      "synonyms": [
+        "intervention",
+        "mediation",
+        "intercession",
+        "arbitration"
+      ],
+      "antonyms": [
+        "nonintervention",
+        "withdrawal",
+        "inaction",
+        "passivity"
+      ],
+      "raw_synonyms": "intervention, mediation, intercession, arbitration",
+      "raw_antonyms": "nonintervention, withdrawal, inaction, passivity",
+      "sentence": "The timely interposition of neutral mediators prevented the border dispute from escalating into war.",
+      "sentence_meaning": "নিরপেক্ষ মধ্যস্থতাকারীদের সময়োপযোগী হস্তক্ষেপ সীমান্ত বিরোধকে যুদ্ধে রূপ নেওয়া থেকে রক্ষা করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 332,
+      "word": "Nullification",
+      "ipa": "/ˌnʌlɪfɪˈkeɪʃn/",
+      "pos": "n",
+      "meaning": "বাতিলকরণ, অকার্যকর ঘোষণা",
+      "synonyms": [
+        "annulment",
+        "invalidation",
+        "revocation",
+        "repeal"
+      ],
+      "antonyms": [
+        "ratification",
+        "validation",
+        "confirmation",
+        "enactment"
+      ],
+      "raw_synonyms": "annulment, invalidation, revocation, repeal",
+      "raw_antonyms": "ratification, validation, confirmation, enactment",
+      "sentence": "The supreme judicial bench ruled in favor of the complete nullification of the arbitrary decree.",
+      "sentence_meaning": "সর্বোচ্চ বিচারিক বেঞ্চ স্বেচ্ছাচারী ফরমানটির সম্পূর্ণ বাতিলকরণের পক্ষে রায় দিয়েছেন।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 333,
+      "word": "Prodigious",
+      "ipa": "/prəˈdɪdʒəs/",
+      "pos": "adj",
+      "meaning": "বিস্ময়কর, বিশাল ও অসাধারণ",
+      "synonyms": [
+        "colossal",
+        "monumental",
+        "extraordinary",
+        "immense"
+      ],
+      "antonyms": [
+        "puny",
+        "insignificant",
+        "meager",
+        "trivial"
+      ],
+      "raw_synonyms": "colossal, monumental, extraordinary, immense",
+      "raw_antonyms": "puny, insignificant, meager, trivial",
+      "sentence": "The child prodigy demonstrated prodigious musical talent, composing symphonies at the age of ten.",
+      "sentence_meaning": "বিস্ময়কর প্রতিভাধর শিশুটি অসাধারণ সঙ্গীত প্রতিভা প্রদর্শন করে মাত্র দশ বছর বয়সে সিম্ফনি রচনা করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 334,
+      "word": "Affluent",
+      "ipa": "/ˈæfluənt/",
+      "pos": "adj",
+      "meaning": "ধনী, বিত্তবান ও প্রাচুর্যময়",
+      "synonyms": [
+        "wealthy",
+        "opulent",
+        "prosperous",
+        "rich"
+      ],
+      "antonyms": [
+        "impoverished",
+        "poor",
+        "destitute",
+        "indigent"
+      ],
+      "raw_synonyms": "wealthy, opulent, prosperous, rich",
+      "raw_antonyms": "impoverished, poor, destitute, indigent",
+      "sentence": "They live in an affluent neighborhood with access to elite private schools and libraries.",
+      "sentence_meaning": "তারা একটি বিত্তশালী এলাকায় বাস করে যেখানে অভিজাত বেসরকারি বিদ্যালয় ও গ্রন্থাগারের সুযোগ রয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 335,
+      "word": "Delegate",
+      "ipa": "/ˈdelɪɡeɪt/",
+      "pos": "v",
+      "meaning": "দায়িত্ব অর্পণ করা, প্রতিনিধিত্ব করতে পাঠানো",
+      "synonyms": [
+        "assign",
+        "depute",
+        "entrust",
+        "designate"
+      ],
+      "antonyms": [
+        "retain",
+        "withhold",
+        "usurp",
+        "monopolize"
+      ],
+      "raw_synonyms": "assign, depute, entrust, designate",
+      "raw_antonyms": "retain, withhold, usurp, monopolize",
+      "sentence": "An effective leader knows how to delegate key managerial responsibilities to qualified teammates.",
+      "sentence_meaning": "একজন দক্ষ নেতা জানেন কীভাবে যোগ্য সহকর্মীদের ওপর গুরুত্বপূর্ণ ব্যবস্থাপনা দায়িত্ব অর্পণ করতে হয়।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "level_id": 81,
+  "title": "Level 81: Vocabulary",
+  "unit": "Vocabulary Table",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 401,
+      "word": "Delicate",
+      "ipa": "/ˈdelɪkət/",
+      "pos": "adj",
+      "meaning": "কোমল, নাজুক, সূক্ষ্ম",
+      "synonyms": [
+        "fragile",
+        "dainty",
+        "exquisite",
+        "sensitive"
+      ],
+      "antonyms": [
+        "robust",
+        "sturdy",
+        "coarse",
+        "rugged"
+      ],
+      "raw_synonyms": "fragile, dainty, exquisite, sensitive",
+      "raw_antonyms": "robust, sturdy, coarse, rugged",
+      "sentence": "The ancient porcelain vase is extremely delicate and must be handled with utmost care.",
+      "sentence_meaning": "প্রাচীন চীনামাটির ফুলদানিটি অত্যন্ত নাজুক এবং এটি অত্যন্ত সতর্কতার সাথে নাড়াচাড়া করতে হবে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 402,
+      "word": "Discharge",
+      "ipa": "/dɪsˈtʃɑːrdʒ/",
+      "pos": "v",
+      "meaning": "অব্যাহতি দেওয়া, খালাস করা, নিঃসরণ করা",
+      "synonyms": [
+        "release",
+        "dismiss",
+        "exonerate",
+        "emit"
+      ],
+      "antonyms": [
+        "detain",
+        "hire",
+        "absorb",
+        "imprison"
+      ],
+      "raw_synonyms": "release, dismiss, exonerate, emit",
+      "raw_antonyms": "detain, hire, absorb, imprison",
+      "sentence": "The hospital decided to discharge the patient after a complete recovery from the surgery.",
+      "sentence_meaning": "অস্ত্রোপচার থেকে পুরোপুরি সুস্থ হয়ে ওঠার পর হাসপাতাল রোগীকে ছাড়পত্র বা অব্যাহতি দেওয়ার সিদ্ধান্ত নেয়।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 403,
+      "word": "Endangered",
+      "ipa": "/ɪnˈdeɪndʒərd/",
+      "pos": "adj",
+      "meaning": "বিপন্ন, সংকটাপন্ন",
+      "synonyms": [
+        "threatened",
+        "at-risk",
+        "vulnerable",
+        "imperiled"
+      ],
+      "antonyms": [
+        "secure",
+        "safe",
+        "abundant",
+        "thriving"
+      ],
+      "raw_synonyms": "threatened, at-risk, vulnerable, imperiled",
+      "raw_antonyms": "secure, safe, abundant, thriving",
+      "sentence": "The Bengal tiger has become an endangered species due to rampant poaching and habitat loss.",
+      "sentence_meaning": "অবাধ শিকার এবং আবাসস্থল ধ্বংসের কারণে বেঙ্গল টাইগার একটি বিপন্ন প্রজাতিতে পরিণত হয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 404,
+      "word": "Desolate",
+      "ipa": "/ˈdesələt/",
+      "pos": "adj",
+      "meaning": "নির্জন, জনমানবহীন, বিষাদময়",
+      "synonyms": [
+        "barren",
+        "bleak",
+        "deserted",
+        "forlorn"
+      ],
+      "antonyms": [
+        "populous",
+        "vibrant",
+        "inhabited",
+        "lush"
+      ],
+      "raw_synonyms": "barren, bleak, deserted, forlorn",
+      "raw_antonyms": "populous, vibrant, inhabited, lush",
+      "sentence": "After the severe drought, the once fertile agricultural valley turned into a desolate wasteland.",
+      "sentence_meaning": "ভয়াবহ খরার পর, একসময়ের উর্বর কৃষিজ উপত্যকাটি একটি নির্জন ও বিরান ভূমিতে পরিণত হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 405,
+      "word": "Stranded",
+      "ipa": "/ˈstrændɪd/",
+      "pos": "adj",
+      "meaning": "আটকে পড়া, অসহায় অবস্থায় পতিত",
+      "synonyms": [
+        "marooned",
+        "abandoned",
+        "isolated",
+        "helpless"
+      ],
+      "antonyms": [
+        "rescued",
+        "accompanied",
+        "assisted",
+        "freed"
+      ],
+      "raw_synonyms": "marooned, abandoned, isolated, helpless",
+      "raw_antonyms": "rescued, accompanied, assisted, freed",
+      "sentence": "Hundreds of airline passengers were stranded at the terminal due to an unexpected blizzard.",
+      "sentence_meaning": "হঠাৎ তুষারঝড়ের কারণে শত শত বিমানযাত্রী টার্মিনালে আটকে পড়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    }
+  ]
+}

@@ -255,54 +255,54 @@ export function useGameState(options = {}) {
   const finishLevel = useCallback(() => {
     if (!currentLevel) return;
 
-    setStageStars((currentStars) => {
-      const correctStagesCount = currentStars.filter(Boolean).length;
-      const totalStarsEarned = Number((correctStagesCount * 0.5).toFixed(1));
-      const totalStages = stages.length || TOTAL_STAGES_PER_LEVEL;
-      const isFiveStar = totalStarsEarned >= MASTERY_REQUIRED_STARS;
+    const correctStagesCount = (stageStars || []).filter(Boolean).length;
+    const totalStarsEarned = Number((correctStagesCount * 0.5).toFixed(1));
+    const totalStages = stages.length || TOTAL_STAGES_PER_LEVEL;
+    const isFiveStar = totalStarsEarned >= MASTERY_REQUIRED_STARS;
 
-      let newUnlocked = unlockedLevel;
-      let newGems = gems;
-      const previousStars = levelStars[currentLevel.level_id] || 0;
-      const normalizedPrev = previousStars > 5 ? Number((previousStars * 0.5).toFixed(1)) : previousStars;
-      const bestStars = Math.max(normalizedPrev, totalStarsEarned);
-      const updatedLevelStars = { ...levelStars, [currentLevel.level_id]: bestStars };
+    let newUnlocked = unlockedLevel;
+    let newGems = gems;
+    const previousStars = levelStars[currentLevel.level_id] || 0;
+    const normalizedPrev = previousStars > 5 ? Number((previousStars * 0.5).toFixed(1)) : previousStars;
+    const bestStars = Math.max(normalizedPrev, totalStarsEarned);
+    const updatedLevelStars = { ...levelStars, [currentLevel.level_id]: bestStars };
 
-      if (isFiveStar) {
-        soundApi.playVictory();
-        newGems += MASTERY_BONUS_GEMS;
-        setGems(newGems);
+    if (isFiveStar) {
+      soundApi.playVictory();
+      newGems += MASTERY_BONUS_GEMS;
+      setGems(newGems);
 
-        if (currentLevel.level_id >= unlockedLevel) {
-          newUnlocked = currentLevel.level_id + 1;
-          setUnlockedLevel(newUnlocked);
-        }
+      if (currentLevel.level_id >= unlockedLevel) {
+        newUnlocked = currentLevel.level_id + 1;
+        setUnlockedLevel(newUnlocked);
       }
+    }
 
-      setLevelStars(updatedLevelStars);
-      saveProgress(newUnlocked, updatedLevelStars, newGems, streak, lives);
+    setLevelStars(updatedLevelStars);
+    saveProgress(newUnlocked, updatedLevelStars, newGems, streak, lives);
 
-      setCompletionResult({
-        level: currentLevel,
-        totalStars: totalStarsEarned,
-        maxStars: 5,
-        totalStages: totalStages,
-        correctStagesCount: correctStagesCount,
-        isFiveStar: isFiveStar,
-        isMastered: isFiveStar,
-        mistakes: mistakes,
-        earnedGems: isFiveStar ? MASTERY_BONUS_GEMS : 0,
-        newUnlockedLevel: newUnlocked
-      });
-
-      return currentStars;
+    setCompletionResult({
+      level: currentLevel,
+      totalStars: totalStarsEarned,
+      maxStars: 5,
+      totalStages: totalStages,
+      correctStagesCount: correctStagesCount,
+      isFiveStar: isFiveStar,
+      isMastered: isFiveStar,
+      mistakes: mistakes,
+      earnedGems: isFiveStar ? MASTERY_BONUS_GEMS : 0,
+      newUnlockedLevel: newUnlocked
     });
-  }, [currentLevel, stages.length, unlockedLevel, gems, levelStars, streak, lives, soundApi, saveProgress, mistakes]);
+  }, [currentLevel, stageStars, stages.length, unlockedLevel, gems, levelStars, streak, lives, soundApi, saveProgress, mistakes]);
 
   /**
    * Advances to the next stage or triggers level completion if all 10 stages are finished.
    */
   const proceedNextStage = useCallback(() => {
+    setRevealModalData(null);
+    setStageCelebration(null);
+    setStageAttempts(0);
+
     setStageIndex((prevIndex) => {
       const nextIdx = prevIndex + 1;
       const totalStages = stages.length || TOTAL_STAGES_PER_LEVEL;
@@ -312,7 +312,6 @@ export function useGameState(options = {}) {
         return prevIndex;
       }
 
-      setStageAttempts(0);
       return nextIdx;
     });
   }, [stages.length, finishLevel]);

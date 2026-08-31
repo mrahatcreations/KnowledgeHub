@@ -1,0 +1,133 @@
+{
+  "level_id": 93,
+  "title": "Level 93: Vocabulary",
+  "unit": "Vocabulary Table",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 461,
+      "word": "Benign",
+      "ipa": "/bɪˈnaɪn/",
+      "pos": "adj",
+      "meaning": "সদয়, নিরীহ, ক্ষতিহীন",
+      "synonyms": [
+        "gentle",
+        "harmless",
+        "kindly",
+        "favorable"
+      ],
+      "antonyms": [
+        "malignant",
+        "harmful",
+        "hostile",
+        "vicious"
+      ],
+      "raw_synonyms": "gentle, harmless, kindly, favorable",
+      "raw_antonyms": "malignant, harmful, hostile, vicious",
+      "sentence": "Fortunately, the medical report confirmed that the growth was entirely benign.",
+      "sentence_meaning": "সৌভাগ্যবশত, মেডিকেল রিপোর্টে নিশ্চিত করা হয়েছে যে টিউমারটি সম্পূর্ণ ক্ষতিহীন ও নিরীহ ছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 462,
+      "word": "Blasphemous",
+      "ipa": "/ˈblæsfəməs/",
+      "pos": "adj",
+      "meaning": "ধর্মনিন্দামূলক, ধর্মদ্রোহী",
+      "synonyms": [
+        "sacrilegious",
+        "profane",
+        "irreverent",
+        "impious"
+      ],
+      "antonyms": [
+        "reverent",
+        "respectful",
+        "pious",
+        "devout"
+      ],
+      "raw_synonyms": "sacrilegious, profane, irreverent, impious",
+      "raw_antonyms": "reverent, respectful, pious, devout",
+      "sentence": "The ancient council considered any insult against sacred traditions to be strictly blasphemous.",
+      "sentence_meaning": "প্রাচীন কাউন্সিল পবিত্র ঐতিহ্যের প্রতি যেকোনো অপমানকে কঠোরভাবে ধর্মনিন্দামূলক বলে মনে করত।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 463,
+      "word": "Blithe",
+      "ipa": "/blaɪð/",
+      "pos": "adj",
+      "meaning": "প্রফুল্ল, চিন্তামুক্ত, নিশ্চিন্ত",
+      "synonyms": [
+        "cheerful",
+        "carefree",
+        "joyous",
+        "lighthearted"
+      ],
+      "antonyms": [
+        "morose",
+        "gloomy",
+        "sorrowful",
+        "anxious"
+      ],
+      "raw_synonyms": "cheerful, carefree, joyous, lighthearted",
+      "raw_antonyms": "morose, gloomy, sorrowful, anxious",
+      "sentence": "He drove through the stormy night with a blithe indifference to the perilous road conditions.",
+      "sentence_meaning": "তিনি বিপজ্জনক রাস্তার পরিস্থিতির প্রতি এক নিশ্চিন্ত উদাসীনতা নিয়ে ঝোড়ো রাতের মধ্য দিয়ে গাড়ি চালিয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 464,
+      "word": "Boon",
+      "ipa": "/buːn/",
+      "pos": "n",
+      "meaning": "আশীর্বাদ, পরম প্রাপ্তি, বিশেষ সুবিধা",
+      "synonyms": [
+        "blessing",
+        "benefit",
+        "godsend",
+        "asset"
+      ],
+      "antonyms": [
+        "curse",
+        "bane",
+        "misfortune",
+        "disadvantage"
+      ],
+      "raw_synonyms": "blessing, benefit, godsend, asset",
+      "raw_antonyms": "curse, bane, misfortune, disadvantage",
+      "sentence": "The new bypass highway proved to be a great boon to daily commuters and freight drivers.",
+      "sentence_meaning": "নতুন বাইপাস মহাসড়কটি দৈনিক যাত্রী এবং পণ্যবাহী চালকদের জন্য একটি বড় আশীর্বাদ বলে প্রমাণিত হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 465,
+      "word": "Breach",
+      "ipa": "/briːtʃ/",
+      "pos": "n",
+      "meaning": "লঙ্ঘন, ফাটল, ভঙ্গ",
+      "synonyms": [
+        "violation",
+        "infringement",
+        "rupture",
+        "break"
+      ],
+      "antonyms": [
+        "compliance",
+        "adherence",
+        "repair",
+        "union"
+      ],
+      "raw_synonyms": "violation, infringement, rupture, break",
+      "raw_antonyms": "compliance, adherence, repair, union",
+      "sentence": "Failing to deliver the goods on the promised date constituted a direct breach of contract.",
+      "sentence_meaning": "প্রতিশ্রুত তারিখে পণ্য সরবরাহ করতে ব্যর্থ হওয়া ছিল চুক্তির একটি সরাসরি লঙ্ঘন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    }
+  ]
+}

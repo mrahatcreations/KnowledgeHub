@@ -1,0 +1,133 @@
+{
+  "level_id": 95,
+  "title": "Level 95: Vocabulary",
+  "unit": "Vocabulary Table",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 471,
+      "word": "Counterpart",
+      "ipa": "/ˈkaʊntərpɑːrt/",
+      "pos": "n",
+      "meaning": "সমকক্ষ ব্যক্তি বা বস্তু, প্রতিরূপ",
+      "synonyms": [
+        "equivalent",
+        "peer",
+        "counterweight",
+        "match"
+      ],
+      "antonyms": [
+        "opposite",
+        "mismatch",
+        "antithesis",
+        "correlative"
+      ],
+      "raw_synonyms": "equivalent, peer, counterweight, match",
+      "raw_antonyms": "opposite, mismatch, antithesis, correlative",
+      "sentence": "The foreign minister met his European counterpart to sign the bilateral trade agreement.",
+      "sentence_meaning": "দ্বিপাক্ষিক বাণিজ্য চুক্তি স্বাক্ষরের জন্য পররাষ্ট্রমন্ত্রী তাঁর ইউরোপীয় সমকক্ষের সাথে বৈঠক করেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 472,
+      "word": "Crooked",
+      "ipa": "/ˈkrʊkɪd/",
+      "pos": "adj",
+      "meaning": "বাঁকা, অসৎ, কুটিল",
+      "synonyms": [
+        "bent",
+        "twisted",
+        "dishonest",
+        "devious"
+      ],
+      "antonyms": [
+        "straight",
+        "honest",
+        "upright",
+        "direct"
+      ],
+      "raw_synonyms": "bent, twisted, dishonest, devious",
+      "raw_antonyms": "straight, honest, upright, direct",
+      "sentence": "The auditor discovered that the company's crooked accountant had falsified financial records.",
+      "sentence_meaning": "নিরীক্ষক জানতে পেরেছিলেন যে কোম্পানির অসৎ হিসাবরক্ষক আর্থিক নথিপত্র জাল করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 473,
+      "word": "Capable",
+      "ipa": "/ˈkeɪpəbl/",
+      "pos": "adj",
+      "meaning": "সক্ষম, দক্ষ, যোগ্য",
+      "synonyms": [
+        "competent",
+        "proficient",
+        "skillful",
+        "adept"
+      ],
+      "antonyms": [
+        "incapable",
+        "incompetent",
+        "inept",
+        "unskilled"
+      ],
+      "raw_synonyms": "competent, proficient, skillful, adept",
+      "raw_antonyms": "incapable, incompetent, inept, unskilled",
+      "sentence": "She is a highly capable engineer who can solve intricate software architecture problems quickly.",
+      "sentence_meaning": "তিনি একজন অত্যন্ত দক্ষ প্রকৌশলী যিনি জটিল সফটওয়্যার কাঠামোর সমস্যাগুলো দ্রুত সমাধান করতে পারেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 474,
+      "word": "Compulsory",
+      "ipa": "/kəmˈpʌlsəri/",
+      "pos": "adj",
+      "meaning": "বাধ্যতামূলক, অবশ্যকরণীয়",
+      "synonyms": [
+        "mandatory",
+        "obligatory",
+        "imperative",
+        "requisite"
+      ],
+      "antonyms": [
+        "optional",
+        "voluntary",
+        "elective",
+        "discretionary"
+      ],
+      "raw_synonyms": "mandatory, obligatory, imperative, requisite",
+      "raw_antonyms": "optional, voluntary, elective, discretionary",
+      "sentence": "Wearing a protective helmet is compulsory for all motorcycle riders on public roads.",
+      "sentence_meaning": "পাবলিক রাস্তায় সকল মোটরসাইকেল আরোহীর জন্য প্রতিরক্ষামূলক হেলমেট পরা বাধ্যতামূলক।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 475,
+      "word": "Conceal",
+      "ipa": "/kənˈsiːl/",
+      "pos": "v",
+      "meaning": "লুকানো, গোপন রাখা",
+      "synonyms": [
+        "hide",
+        "disguise",
+        "mask",
+        "camouflage"
+      ],
+      "antonyms": [
+        "reveal",
+        "disclose",
+        "expose",
+        "uncover"
+      ],
+      "raw_synonyms": "hide, disguise, mask, camouflage",
+      "raw_antonyms": "reveal, disclose, expose, uncover",
+      "sentence": "The spy used false documents to conceal his true identity from border officials.",
+      "sentence_meaning": "গোয়েন্দাটি সীমান্ত কর্মকর্তাদের কাছ থেকে নিজের আসল পরিচয় গোপন রাখতে জাল নথিপত্র ব্যবহার করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    }
+  ]
+}

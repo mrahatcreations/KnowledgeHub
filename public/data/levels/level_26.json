@@ -1,0 +1,132 @@
+{
+  "level_id": 26,
+  "title": "Level 26: Vocabulary",
+  "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 126,
+      "word": "Affable",
+      "ipa": "/ˈæfəbl/",
+      "pos": "adj",
+      "meaning": "বন্ধুবৎসল, অমায়িক, সদালাপী",
+      "synonyms": [
+        "genial",
+        "amiable",
+        "cordial",
+        "approachable"
+      ],
+      "antonyms": [
+        "aloof",
+        "unfriendly",
+        "surly",
+        "haughty"
+      ],
+      "raw_synonyms": "genial, amiable, cordial, approachable",
+      "raw_antonyms": "aloof, unfriendly, surly, haughty",
+      "sentence": "The university president's affable nature made freshmen feel welcome and appreciated.",
+      "sentence_meaning": "বিশ্ববিদ্যালয়ের সভাপতির অমায়িক স্বভাব নবাগত শিক্ষার্থীদের স্বাগত ও সম্মানিত বোধ করিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 127,
+      "word": "Anticipate",
+      "ipa": "/ænˈtɪsɪpeɪt/",
+      "pos": "v",
+      "meaning": "প্রত্যাশা করা, পূর্বানুমান করা, আগে থেকেই ভাবা",
+      "synonyms": [
+        "forecast",
+        "predict",
+        "foresee",
+        "expect"
+      ],
+      "antonyms": [
+        "doubt",
+        "overlook",
+        "disregard",
+        "ignore"
+      ],
+      "raw_synonyms": "forecast, predict, foresee, expect",
+      "raw_antonyms": "doubt, overlook, disregard, ignore",
+      "sentence": "Economists anticipate a steady recovery in international trade during the next fiscal quarter.",
+      "sentence_meaning": "অর্থনীতিবিদরা আগামী ত্রৈমাসিকে আন্তর্জাতিক বাণিজ্যে একটি স্থিতিশীল পুনরুদ্ধারের প্রত্যাশা করছেন।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 128,
+      "word": "Antonym",
+      "ipa": "/ˈæntənɪm/",
+      "pos": "n",
+      "meaning": "বিপরীতার্থক শব্দ, বিপরীত শব্দ",
+      "synonyms": [
+        "opposite",
+        "converse",
+        "counterpart",
+        "reverse"
+      ],
+      "antonyms": [
+        "synonym",
+        "equivalent",
+        "homonym"
+      ],
+      "raw_synonyms": "opposite, converse, counterpart, reverse",
+      "raw_antonyms": "synonym, equivalent, homonym",
+      "sentence": "In vocabulary exams, candidates are often asked to identify the most suitable antonym for a given word.",
+      "sentence_meaning": "শব্দভাণ্ডার পরীক্ষায় প্রায়শই পরীক্ষার্থীদের প্রদত্ত শব্দের সবচেয়ে উপযুক্ত বিপরীতার্থক শব্দটি চিহ্নিত করতে বলা হয়।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 129,
+      "word": "Apex",
+      "ipa": "/ˈeɪpeks/",
+      "pos": "n",
+      "meaning": "চূড়া, শীর্ষস্থান, সর্বোচ্চ বিন্দু",
+      "synonyms": [
+        "summit",
+        "pinnacle",
+        "vertex",
+        "zenith"
+      ],
+      "antonyms": [
+        "base",
+        "nadir",
+        "bottom",
+        "foot"
+      ],
+      "raw_synonyms": "summit, pinnacle, vertex, zenith",
+      "raw_antonyms": "base, nadir, bottom, foot",
+      "sentence": "Reaching the apex of the mountain offered breathtaking views of the surrounding valleys.",
+      "sentence_meaning": "পাহাড়ের চূড়ায় পৌঁছানোর পর চারপাশের উপত্যকাগুলোর চোখ জুড়ানো দৃশ্য দেখা গেল।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 130,
+      "word": "Archaic",
+      "ipa": "/ɑːrˈkeɪɪk/",
+      "pos": "adj",
+      "meaning": "প্রাচীন, সেকেলে, অপ্রচলিত",
+      "synonyms": [
+        "obsolete",
+        "antiquated",
+        "ancient",
+        "outdated"
+      ],
+      "antonyms": [
+        "modern",
+        "contemporary",
+        "current",
+        "novel"
+      ],
+      "raw_synonyms": "obsolete, antiquated, ancient, outdated",
+      "raw_antonyms": "modern, contemporary, current, novel",
+      "sentence": "The legal statute contained archaic terms that were confusing to contemporary readers.",
+      "sentence_meaning": "আইনি সংবিধিটিতে এমন কিছু অপ্রচলিত শব্দ ছিল যা সমসাময়িক পাঠকদের জন্য বিভ্রান্তিকর ছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    }
+  ]
+}

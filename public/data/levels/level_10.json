@@ -1,0 +1,133 @@
+{
+  "level_id": 10,
+  "title": "Level 10: Vocabulary",
+  "unit": "Image 1: Vocabulary (Unit-1)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 46,
+      "word": "Abruptly",
+      "ipa": "/əˈbrʌptli/",
+      "pos": "adv",
+      "meaning": "হঠাৎ করে, অপ্রত্যাশিতভাবে",
+      "synonyms": [
+        "suddenly",
+        "unexpectedly",
+        "precipitously",
+        "hastily"
+      ],
+      "antonyms": [
+        "gradually",
+        "slowly",
+        "steadily",
+        "smoothly"
+      ],
+      "raw_synonyms": "suddenly, unexpectedly, precipitously, hastily",
+      "raw_antonyms": "gradually, slowly, steadily, smoothly",
+      "sentence": "The music stopped abruptly, leaving the audience in complete silence.",
+      "sentence_meaning": "সঙ্গীত হঠাৎ বন্ধ হয়ে গেল, দর্শকদের সম্পূর্ণ নীরবতায় ফেলে রেখে।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 47,
+      "word": "Whisper",
+      "ipa": "/ˈwɪspər/",
+      "pos": "v",
+      "meaning": "ফিসফিস করে বলা",
+      "synonyms": [
+        "murmur",
+        "mutter",
+        "breathe",
+        "hiss"
+      ],
+      "antonyms": [
+        "shout",
+        "scream",
+        "bellow",
+        "yell"
+      ],
+      "raw_synonyms": "murmur, mutter, breathe, hiss",
+      "raw_antonyms": "shout, scream, bellow, yell",
+      "sentence": "He leaned forward to whisper the secret combination into her ear.",
+      "sentence_meaning": "তিনি গোপন কম্বিনেশনটি তার কানে ফিসফিস করে বলার জন্য সামনের দিকে ঝুঁকে পড়লেন।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 48,
+      "word": "Neatly",
+      "ipa": "/ˈniːtli/",
+      "pos": "adv",
+      "meaning": "পরিপাটিভাবে, সুশৃঙ্খলভাবে",
+      "synonyms": [
+        "tidily",
+        "orderly",
+        "meticulously",
+        "sprucely"
+      ],
+      "antonyms": [
+        "messily",
+        "chaotically",
+        "untidily",
+        "sloppily"
+      ],
+      "raw_synonyms": "tidily, orderly, meticulously, sprucely",
+      "raw_antonyms": "messily, chaotically, untidily, sloppily",
+      "sentence": "The books were arranged neatly on the shelf in chronological order.",
+      "sentence_meaning": "বইগুলো শেলফে কালানুক্রমিকভাবে পরিপাটি করে সাজানো হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 49,
+      "word": "Shabby",
+      "ipa": "/ˈʃæbi/",
+      "pos": "adj",
+      "meaning": "জীর্ণ, মলিন",
+      "synonyms": [
+        "ragged",
+        "tattered",
+        "dilapidated",
+        "threadbare"
+      ],
+      "antonyms": [
+        "pristine",
+        "luxurious",
+        "smart",
+        "new"
+      ],
+      "raw_synonyms": "ragged, tattered, dilapidated, threadbare",
+      "raw_antonyms": "pristine, luxurious, smart, new",
+      "sentence": "Despite wearing a shabby coat, the old gentleman maintained great dignity.",
+      "sentence_meaning": "একটি জীর্ণ কোট পরা সত্ত্বেও বৃদ্ধ ভদ্রলোকটি দারুণ মর্যাদা বজায় রেখেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Vocabulary (Unit-1 Continued) & Written Part Intro"
+    },
+    {
+      "id": 50,
+      "word": "Hasty",
+      "ipa": "/ˈheɪsti/",
+      "pos": "adj",
+      "meaning": "তাড়াহুড়োযুক্ত, দ্রুতকৃত",
+      "synonyms": [
+        "hurried",
+        "rash",
+        "impulsive",
+        "precipitate"
+      ],
+      "antonyms": [
+        "deliberate",
+        "considered",
+        "cautious",
+        "slow"
+      ],
+      "raw_synonyms": "hurried, rash, impulsive, precipitate",
+      "raw_antonyms": "deliberate, considered, cautious, slow",
+      "sentence": "Making hasty decisions in times of crisis can lead to severe consequences.",
+      "sentence_meaning": "সংকটের সময়ে তাড়াহুড়ো করে সিদ্ধান্ত নেওয়া মারাত্মক পরিণতির দিকে নিয়ে যেতে পারে।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Vocabulary (Unit-1 Continued) & Written Part Intro"
+    }
+  ]
+}

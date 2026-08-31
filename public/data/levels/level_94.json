@@ -1,0 +1,133 @@
+{
+  "level_id": 94,
+  "title": "Level 94: Vocabulary",
+  "unit": "Vocabulary Table",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 466,
+      "word": "Brochure",
+      "ipa": "/broʊˈʃʊr/",
+      "pos": "n",
+      "meaning": "পুস্তিকা, প্রচারপত্র",
+      "synonyms": [
+        "pamphlet",
+        "leaflet",
+        "booklet",
+        "flyer"
+      ],
+      "antonyms": [
+        "tome",
+        "treatise",
+        "volume",
+        "manuscript"
+      ],
+      "raw_synonyms": "pamphlet, leaflet, booklet, flyer",
+      "raw_antonyms": "tome, treatise, volume, manuscript",
+      "sentence": "The tourist information center provided a colorful brochure outlining all historical landmarks.",
+      "sentence_meaning": "পর্যটন তথ্য কেন্দ্র সকল ঐতিহাসিক দর্শনীয় স্থান তুলে ধরে একটি রঙিন পুস্তিকা সরবরাহ করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 467,
+      "word": "Bustle",
+      "ipa": "/ˈbʌsl/",
+      "pos": "n",
+      "meaning": "ব্যস্ততা, কোলাহল, চঞ্চলতা",
+      "synonyms": [
+        "commotion",
+        "activity",
+        "flurry",
+        "stir"
+      ],
+      "antonyms": [
+        "calm",
+        "tranquility",
+        "stillness",
+        "quiet"
+      ],
+      "raw_synonyms": "commotion, activity, flurry, stir",
+      "raw_antonyms": "calm, tranquility, stillness, quiet",
+      "sentence": "She enjoyed walking through the bustling market square early in the morning.",
+      "sentence_meaning": "তিনি খুব সকালে কর্মচঞ্চল ও কোলাহলপূর্ণ বাজার চত্বরের মধ্য দিয়ে হাঁটতে পছন্দ করতেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 468,
+      "word": "Bellicose",
+      "ipa": "/ˈbelɪkoʊs/",
+      "pos": "adj",
+      "meaning": "যুদ্ধংদেহী, মারমুখী, যুদ্ধকামী",
+      "synonyms": [
+        "aggressive",
+        "combative",
+        "belligerent",
+        "warlike"
+      ],
+      "antonyms": [
+        "peaceful",
+        "pacific",
+        "conciliatory",
+        "peaceable"
+      ],
+      "raw_synonyms": "aggressive, combative, belligerent, warlike",
+      "raw_antonyms": "peaceful, pacific, conciliatory, peaceable",
+      "sentence": "The diplomat warned that bellicose statements would derail peace talks between the neighboring nations.",
+      "sentence_meaning": "কূটনীতিক সতর্ক করেছিলেন যে যুদ্ধংদেহী বক্তব্য প্রতিবেশী দেশগুলোর মধ্যে শান্তি আলোচনাকে ব্যাহত করবে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 469,
+      "word": "Concur",
+      "ipa": "/kənˈkɜːr/",
+      "pos": "v",
+      "meaning": "একমত হওয়া, সম্মতি দেওয়া",
+      "synonyms": [
+        "agree",
+        "coincide",
+        "assent",
+        "accord"
+      ],
+      "antonyms": [
+        "disagree",
+        "dissent",
+        "differ",
+        "oppose"
+      ],
+      "raw_synonyms": "agree, coincide, assent, accord",
+      "raw_antonyms": "disagree, dissent, differ, oppose",
+      "sentence": "The entire board of directors concurred with the CEO's proposal to expand into global markets.",
+      "sentence_meaning": "পরিচালক পর্ষদের সকল সদস্য বৈশ্বিক বাজারে সম্প্রসারণের বিষয়ে প্রধান নির্বাহীর প্রস্তাবের সাথে একমত হয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 470,
+      "word": "Cognitive",
+      "ipa": "/ˈkɑːɡnətɪv/",
+      "pos": "adj",
+      "meaning": "জ্ঞানসম্পর্কিত, বুদ্ধিবৃত্তিক, ধারণাগত",
+      "synonyms": [
+        "intellectual",
+        "mental",
+        "perceptual",
+        "cerebral"
+      ],
+      "antonyms": [
+        "emotional",
+        "instinctive",
+        "physical",
+        "noncognitive"
+      ],
+      "raw_synonyms": "intellectual, mental, perceptual, cerebral",
+      "raw_antonyms": "emotional, instinctive, physical, noncognitive",
+      "sentence": "Reading and continuous learning stimulate cognitive development throughout an individual's life.",
+      "sentence_meaning": "বই পড়া এবং অবিচ্ছিন্ন শিক্ষা একজন ব্যক্তির জীবনজুড়ে বুদ্ধিবৃত্তিক বিকাশকে উৎসাহিত করে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    }
+  ]
+}

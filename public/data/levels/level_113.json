@@ -1,0 +1,133 @@
+{
+  "level_id": 113,
+  "title": "Level 113: Phrasal Verb",
+  "unit": "Image 19 (image (19).jpg) - Phrasal Verbs",
+  "category": "Phrasal Verb",
+  "items": [
+    {
+      "id": 561,
+      "word": "Cry out",
+      "ipa": "/kraɪ aʊt/",
+      "pos": "phrase",
+      "meaning": "যন্ত্রণায় বা ভয়ে চিৎকার করা, তীব্র প্রতিবাদ জানানো",
+      "synonyms": [
+        "shout",
+        "scream",
+        "exclaim",
+        "yell"
+      ],
+      "antonyms": [
+        "whisper",
+        "remain silent",
+        "mutter",
+        "hush"
+      ],
+      "raw_synonyms": "shout, scream, exclaim, yell",
+      "raw_antonyms": "whisper, remain silent, mutter, hush",
+      "sentence": "The injured hiker cried out for immediate help when he slipped down the rocky slope.",
+      "sentence_meaning": "আহত পর্বতারোহী যখন পাথুরে ঢাল বেয়ে পিছলে পড়ে যান, তখন তিনি অবিলম্বে সাহায্যের জন্য চিৎকার করেছিলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 562,
+      "word": "Come down",
+      "ipa": "/kʌm daʊn/",
+      "pos": "phrase",
+      "meaning": "অর্থ পরিশোধ করা, বকেয়া মেটানো, হ্রাস পাওয়া",
+      "synonyms": [
+        "pay up",
+        "settle",
+        "disburse",
+        "decrease"
+      ],
+      "antonyms": [
+        "withhold",
+        "increase",
+        "rise",
+        "refuse payment"
+      ],
+      "raw_synonyms": "pay up, settle, disburse, decrease",
+      "raw_antonyms": "withhold, increase, rise, refuse payment",
+      "sentence": "The tenant finally agreed to come down with all the overdue rent payments.",
+      "sentence_meaning": "ভাড়াটিয়া অবশেষে সমস্ত বকেয়া বাড়ি ভাড়া পরিশোধ করতে সম্মত হলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 563,
+      "word": "Cut down",
+      "ipa": "/kʌt daʊn/",
+      "pos": "phrase",
+      "meaning": "গাছ বা কোনো কিছু কেটে মাটিতে ফেলা",
+      "synonyms": [
+        "fell",
+        "chop down",
+        "hew",
+        "level"
+      ],
+      "antonyms": [
+        "plant",
+        "grow",
+        "raise",
+        "cultivate"
+      ],
+      "raw_synonyms": "fell, chop down, hew, level",
+      "raw_antonyms": "plant, grow, raise, cultivate",
+      "sentence": "Environmentalists urged the community not to cut down ancient trees in the park.",
+      "sentence_meaning": "পরিবেশবাদীরা পার্কের প্রাচীন গাছগুলো কেটে না ফেলার জন্য সম্প্রদায়ের প্রতি আহ্বান জানিয়েছেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 564,
+      "word": "Cut down",
+      "ipa": "/kʌt daʊn/",
+      "pos": "phrase",
+      "meaning": "খরচ বা পরিমাণ কমানো, হ্রাস করা",
+      "synonyms": [
+        "reduce",
+        "curtail",
+        "decrease",
+        "slash"
+      ],
+      "antonyms": [
+        "expand",
+        "increase",
+        "augment",
+        "boost"
+      ],
+      "raw_synonyms": "reduce, curtail, decrease, slash",
+      "raw_antonyms": "expand, increase, augment, boost",
+      "sentence": "The company had to cut down unnecessary operational expenses to maintain profitability.",
+      "sentence_meaning": "মুনাফা বজায় রাখতে কোম্পানিটিকে অপ্রয়োজনীয় পরিচালন ব্যয় কমাতে হয়েছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 565,
+      "word": "Cut off",
+      "ipa": "/kʌt ɒf/",
+      "pos": "phrase",
+      "meaning": "সংযোগ বিচ্ছিন্ন করা, আলাদা করা",
+      "synonyms": [
+        "disconnect",
+        "sever",
+        "isolate",
+        "interrupt"
+      ],
+      "antonyms": [
+        "connect",
+        "join",
+        "link",
+        "attach"
+      ],
+      "raw_synonyms": "disconnect, sever, isolate, interrupt",
+      "raw_antonyms": "connect, join, link, attach",
+      "sentence": "The heavy blizzard cut off electrical power to several remote mountain villages.",
+      "sentence_meaning": "প্রচণ্ড তুষারঝড়ে কয়েকটি দুর্গম পাহাড়ি গ্রামের বিদ্যুৎ সংযোগ বিচ্ছিন্ন হয়ে গেছে।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    }
+  ]
+}

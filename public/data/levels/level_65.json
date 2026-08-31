@@ -1,0 +1,132 @@
+{
+  "level_id": 65,
+  "title": "Level 65: Vocabulary",
+  "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 321,
+      "word": "Labyrinth",
+      "ipa": "/ˈlæbərɪnθ/",
+      "pos": "n",
+      "meaning": "গোলকধাঁধা, জটিল প্যাঁচালো পথ",
+      "synonyms": [
+        "maze",
+        "complex",
+        "network",
+        "web"
+      ],
+      "antonyms": [
+        "straight path",
+        "direct route",
+        "simplicity"
+      ],
+      "raw_synonyms": "maze, complex, network, web",
+      "raw_antonyms": "straight path, direct route, simplicity",
+      "sentence": "Navigating the labyrinth of ancient cobbled alleyways in the historic quarter was delightful yet disorienting.",
+      "sentence_meaning": "ঐতিহাসিক এলাকার প্রাচীন পাথুরে গলিপথের গোলকধাঁধায় পথ চলা আনন্দদায়ক হলেও বিভ্রান্তিকর ছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 322,
+      "word": "Ascend",
+      "ipa": "/əˈsend/",
+      "pos": "v",
+      "meaning": "উপরে ওঠা, আরোহণ করা",
+      "synonyms": [
+        "climb",
+        "mount",
+        "soar",
+        "scale"
+      ],
+      "antonyms": [
+        "descend",
+        "fall",
+        "plummet",
+        "drop"
+      ],
+      "raw_synonyms": "climb, mount, soar, scale",
+      "raw_antonyms": "descend, fall, plummet, drop",
+      "sentence": "The hikers began to ascend the steep rocky trail before the midday heat became unbearable.",
+      "sentence_meaning": "দুপুরের অসহনীয় তাপ শুরু হওয়ার আগেই পদযাত্রীরা খাড়া পাথুরে পথ ধরে ওপরে উঠতে শুরু করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 323,
+      "word": "Plummet",
+      "ipa": "/ˈplʌmɪt/",
+      "pos": "v",
+      "meaning": "খাড়াভাবে নিচে নেমে যাওয়া, দ্রুত হ্রাস পাওয়া",
+      "synonyms": [
+        "plunge",
+        "nosedive",
+        "tumble",
+        "drop steeply"
+      ],
+      "antonyms": [
+        "skyrocket",
+        "soar",
+        "ascend",
+        "surge"
+      ],
+      "raw_synonyms": "plunge, nosedive, tumble, drop steeply",
+      "raw_antonyms": "skyrocket, soar, ascend, surge",
+      "sentence": "Company share prices plummeted dramatically after the unexpected resignation of the chief executive.",
+      "sentence_meaning": "প্রধান নির্বাহীর অপ্রত্যাশিত পদত্যাগের পর কোম্পানির শেয়ারের দাম নাটকীয়ভাবে দ্রুত হ্রাস পেয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 324,
+      "word": "Splash",
+      "ipa": "/splæʃ/",
+      "pos": "v",
+      "meaning": "ছিটানো বা পানি ছিটিয়ে পড়া",
+      "synonyms": [
+        "splatter",
+        "spray",
+        "sprinkle",
+        "dash"
+      ],
+      "antonyms": [
+        "contain",
+        "drain",
+        "dry",
+        "absorb"
+      ],
+      "raw_synonyms": "splatter, spray, sprinkle, dash",
+      "raw_antonyms": "contain, drain, dry, absorb",
+      "sentence": "The playful children loved to splash cold water on each other during the scorching afternoon.",
+      "sentence_meaning": "তপ্ত দুপুরে কৌতুকপ্রিয় শিশুরা একে অপরের দিকে ঠান্ডা পানি ছিটাতে পছন্দ করত।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 325,
+      "word": "Vigilant",
+      "ipa": "/ˈvɪdʒɪlənt/",
+      "pos": "adj",
+      "meaning": "সতর্ক, সদা জাগ্রত প্রহরীসুলভ",
+      "synonyms": [
+        "watchful",
+        "alert",
+        "attentive",
+        "circumspect"
+      ],
+      "antonyms": [
+        "negligent",
+        "inattentive",
+        "careless",
+        "heedless"
+      ],
+      "raw_synonyms": "watchful, alert, attentive, circumspect",
+      "raw_antonyms": "negligent, inattentive, careless, heedless",
+      "sentence": "Security guards remained highly vigilant throughout the night to prevent unauthorized building intrusion.",
+      "sentence_meaning": "অননুমোদিত ভবনে অনুপ্রবেশ রোধ করতে নিরাপত্তা প্রহরীরা সারা রাত অত্যন্ত সতর্ক ছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    }
+  ]
+}

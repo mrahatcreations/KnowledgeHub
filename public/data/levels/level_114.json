@@ -1,0 +1,133 @@
+{
+  "level_id": 114,
+  "title": "Level 114: Phrasal Verb",
+  "unit": "Image 19 (image (19).jpg) - Phrasal Verbs",
+  "category": "Phrasal Verb",
+  "items": [
+    {
+      "id": 566,
+      "word": "Cut off",
+      "ipa": "/kʌt ɒf/",
+      "pos": "phrase",
+      "meaning": "অকালে মৃত্যুবরণ করা, জীবনাবসান ঘটা",
+      "synonyms": [
+        "pass away",
+        "perish",
+        "expire",
+        "succumb"
+      ],
+      "antonyms": [
+        "survive",
+        "endure",
+        "live long",
+        "thrive"
+      ],
+      "raw_synonyms": "pass away, perish, expire, succumb",
+      "raw_antonyms": "survive, endure, live long, thrive",
+      "sentence": "The brilliant young poet was tragically cut off in the prime of his youth.",
+      "sentence_meaning": "মেধাবী তরুণ কবি তাঁর যৌবনের সোনালী সময়ে মর্মান্তিকভাবে অকালে মৃত্যুবরণ করেছিলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 567,
+      "word": "Cut out",
+      "ipa": "/kʌt aʊt/",
+      "pos": "phrase",
+      "meaning": "ছেঁটে ফেলা, কেটে বাদ দেওয়া",
+      "synonyms": [
+        "remove",
+        "excise",
+        "trim",
+        "snip"
+      ],
+      "antonyms": [
+        "insert",
+        "add",
+        "include",
+        "retain"
+      ],
+      "raw_synonyms": "remove, excise, trim, snip",
+      "raw_antonyms": "insert, add, include, retain",
+      "sentence": "The film director had to cut out several unnecessary scenes to shorten the movie.",
+      "sentence_meaning": "সিনেমাটি সংক্ষিপ্ত করতে চলচ্চিত্র পরিচালককে বেশ কয়েকটি অপ্রয়োজনীয় দৃশ্য কেটে বাদ দিতে হয়েছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 568,
+      "word": "Cut out",
+      "ipa": "/kʌt aʊt/",
+      "pos": "phrase",
+      "meaning": "প্রতিদ্বন্দ্বীকে পরাজিত করা, ছাড়িয়ে যাওয়া",
+      "synonyms": [
+        "defeat",
+        "outdo",
+        "supplant",
+        "outshine"
+      ],
+      "antonyms": [
+        "lose to",
+        "surrender",
+        "yield",
+        "succumb"
+      ],
+      "raw_synonyms": "defeat, outdo, supplant, outshine",
+      "raw_antonyms": "lose to, surrender, yield, succumb",
+      "sentence": "Through sheer perseverance, the young athlete managed to cut out his fierce rivals in the championship.",
+      "sentence_meaning": "একনিষ্ঠ অধ্যবসায়ের মাধ্যমে তরুণ ক্রীড়াবিদ চ্যাম্পিয়নশিপে তার প্রবল প্রতিদ্বন্দ্বীদের পরাজিত করতে সক্ষম হয়েছিলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 569,
+      "word": "Cut into",
+      "ipa": "/kʌt ˈɪntuː/",
+      "pos": "phrase",
+      "meaning": "টুকরো টুকরো করে কাটা, খণ্ডন করা",
+      "synonyms": [
+        "slice",
+        "divide",
+        "carve",
+        "chop"
+      ],
+      "antonyms": [
+        "mend",
+        "unite",
+        "assemble",
+        "join"
+      ],
+      "raw_synonyms": "slice, divide, carve, chop",
+      "raw_antonyms": "mend, unite, assemble, join",
+      "sentence": "She used a sharp kitchen knife to cut the ripe mango into small juicy pieces.",
+      "sentence_meaning": "তিনি একটি ধারালো রান্নাঘরের ছুরি ব্যবহার করে পাকা আমটিকে ছোট ছোট রসালো টুকরো করে কেটেছিলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 570,
+      "word": "Cut up",
+      "ipa": "/kʌt ʌp/",
+      "pos": "phrase",
+      "meaning": "মানসিকভাবে গভীরভাবে মর্মাহত বা ব্যথিত হওয়া",
+      "synonyms": [
+        "distressed",
+        "upset",
+        "heartbroken",
+        "grieved"
+      ],
+      "antonyms": [
+        "comforted",
+        "cheerful",
+        "delighted",
+        "composed"
+      ],
+      "raw_synonyms": "distressed, upset, heartbroken, grieved",
+      "raw_antonyms": "comforted, cheerful, delighted, composed",
+      "sentence": "The entire team was deeply cut up by the sudden loss of their beloved captain.",
+      "sentence_meaning": "তাদের প্রিয় অধিনায়কের আকস্মিক প্রয়াণে পুরো দলটি মানসিকভাবে গভীরভাবে মর্মাহত হয়েছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    }
+  ]
+}
