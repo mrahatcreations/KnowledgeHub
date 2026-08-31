@@ -1,0 +1,133 @@
+{
+  "level_id": 198,
+  "title": "Level 198: Vocabulary",
+  "unit": "Root Word Technique: Bel (War)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 986,
+      "word": "Rebel",
+      "ipa": "/ˈrebl/",
+      "pos": "n",
+      "meaning": "বিদ্রোহী, বিরুদ্ধাচারী",
+      "synonyms": [
+        "insurgent",
+        "mutineer",
+        "revolutionary",
+        "dissident"
+      ],
+      "antonyms": [
+        "loyalist",
+        "conformist",
+        "supporter",
+        "follower"
+      ],
+      "raw_synonyms": "insurgent, mutineer, revolutionary, dissident",
+      "raw_antonyms": "loyalist, conformist, supporter, follower",
+      "sentence": "The rebel factions launched an armed offensive to overthrow the authoritarian military dictatorship.",
+      "sentence_meaning": "বিদ্রোহী দলগুলো কর্তৃত্ববাদী সামরিক একনায়কতন্ত্রকে উৎখাত করার জন্য একটি সশস্ত্র অভিযান শুরু করে।",
+      "category": "Vocabulary",
+      "unit": "Root Word Technique: Bel (War)"
+    },
+    {
+      "id": 987,
+      "word": "Benefit",
+      "ipa": "/ˈbenɪfɪt/",
+      "pos": "n",
+      "meaning": "উপকার, সুবিধা, কল্যাণ",
+      "synonyms": [
+        "advantage",
+        "gain",
+        "profit",
+        "asset"
+      ],
+      "antonyms": [
+        "disadvantage",
+        "loss",
+        "detriment",
+        "drawback"
+      ],
+      "raw_synonyms": "advantage, gain, profit, asset",
+      "raw_antonyms": "disadvantage, loss, detriment, drawback",
+      "sentence": "Access to quality healthcare provides tremendous long-term benefit to the nation's economic productivity.",
+      "sentence_meaning": "মানসম্মত স্বাস্থ্যসেবার সুবিধা প্রাপ্তি দেশের অর্থনৈতিক উৎপাদনশীলতার জন্য অসাধারণ দীর্ঘমেয়াদী সুফল প্রদান করে।",
+      "category": "Vocabulary",
+      "unit": "Root Word Technique: Bel (War)"
+    },
+    {
+      "id": 988,
+      "word": "Benevolent",
+      "ipa": "/bəˈnevələnt/",
+      "pos": "adj",
+      "meaning": "দয়ালু, পরোপকারী, বদান্য",
+      "synonyms": [
+        "kind",
+        "generous",
+        "charitable",
+        "altruistic"
+      ],
+      "antonyms": [
+        "malevolent",
+        "malicious",
+        "cruel",
+        "selfish"
+      ],
+      "raw_synonyms": "kind, generous, charitable, altruistic",
+      "raw_antonyms": "malevolent, malicious, cruel, selfish",
+      "sentence": "The benevolent patron provided full university scholarships to dozens of meritorious poor students.",
+      "sentence_meaning": "দয়ালু পৃষ্ঠপোষক ডজনখানেক মেধাবী দরিদ্র শিক্ষার্থীকে বিশ্ববিদ্যালয়ের পূর্ণাঙ্গ বৃত্তি প্রদান করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Root Word Technique: Bel (War)"
+    },
+    {
+      "id": 989,
+      "word": "Benefaction",
+      "ipa": "/ˌbenɪˈfækʃn/",
+      "pos": "n",
+      "meaning": "দান, উপহার, কল্যাণকর কাজ",
+      "synonyms": [
+        "donation",
+        "endowment",
+        "gift",
+        "contribution"
+      ],
+      "antonyms": [
+        "confiscation",
+        "deprivation",
+        "robbery",
+        "loss"
+      ],
+      "raw_synonyms": "donation, endowment, gift, contribution",
+      "raw_antonyms": "confiscation, deprivation, robbery, loss",
+      "sentence": "The new science research wing was established through a generous private benefaction from an alumnus.",
+      "sentence_meaning": "একজন প্রাক্তন শিক্ষার্থীর উদার ব্যক্তিগত অনুদানের মাধ্যমে নতুন বিজ্ঞান গবেষণা শাখাটি প্রতিষ্ঠিত হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Root Word Technique: Bel (War)"
+    },
+    {
+      "id": 990,
+      "word": "Benign",
+      "ipa": "/bɪˈnaɪn/",
+      "pos": "adj",
+      "meaning": "সদয়, অমায়িক, নির্দোষ (মারাত্মক নয় এমন)",
+      "synonyms": [
+        "harmless",
+        "gentle",
+        "mild",
+        "non-malignant"
+      ],
+      "antonyms": [
+        "malignant",
+        "harmful",
+        "hostile",
+        "severe"
+      ],
+      "raw_synonyms": "harmless, gentle, mild, non-malignant",
+      "raw_antonyms": "malignant, harmful, hostile, severe",
+      "sentence": "After a biopsy, the oncologist reassured the relieved patient that the tumor was completely benign.",
+      "sentence_meaning": "বায়োপসির পর ক্যান্সার বিশেষজ্ঞ আশ্বস্ত রোগীকে নিশ্চিত করেন যে টিউমারটি সম্পূর্ণ নির্দোষ ও ঝুঁকিমুক্ত ছিল।",
+      "category": "Vocabulary",
+      "unit": "Root Word Technique: Bel (War)"
+    }
+  ]
+}

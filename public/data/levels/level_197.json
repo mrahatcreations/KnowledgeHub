@@ -1,0 +1,133 @@
+{
+  "level_id": 197,
+  "title": "Level 197: Vocabulary",
+  "unit": "Image 36 (image (36).jpg) - Transformation of Word",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 981,
+      "word": "Deception",
+      "ipa": "/dɪˈsepʃn/",
+      "pos": "n",
+      "meaning": "প্রতারণা, প্রবঞ্চনা, চাতুরী",
+      "synonyms": [
+        "fraud",
+        "trickery",
+        "duplicity",
+        "dishonesty"
+      ],
+      "antonyms": [
+        "honesty",
+        "sincerity",
+        "truthfulness",
+        "frankness"
+      ],
+      "raw_synonyms": "fraud, trickery, duplicity, dishonesty",
+      "raw_antonyms": "honesty, sincerity, truthfulness, frankness",
+      "sentence": "The elaborate financial scam was based on systematic deception and fabricated accounting records.",
+      "sentence_meaning": "সুপরিকল্পিত আর্থিক কেলেঙ্কারিটি পদ্ধতিগত প্রতারণা এবং ভুয়া হিসাব নথির ওপর ভিত্তি করে তৈরি করা হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 36 (image (36).jpg) - Transformation of Word"
+    },
+    {
+      "id": 982,
+      "word": "Decision",
+      "ipa": "/dɪˈsɪʒn/",
+      "pos": "n",
+      "meaning": "সিদ্ধান্ত, রায়, মীমাংসা",
+      "synonyms": [
+        "verdict",
+        "resolution",
+        "judgment",
+        "determination"
+      ],
+      "antonyms": [
+        "indecision",
+        "hesitation",
+        "vacillation",
+        "ambiguity"
+      ],
+      "raw_synonyms": "verdict, resolution, judgment, determination",
+      "raw_antonyms": "indecision, hesitation, vacillation, ambiguity",
+      "sentence": "The judicial panel delivered a landmark decision that strengthened constitutional privacy rights.",
+      "sentence_meaning": "বিচারিক প্যানেল একটি যুগান্তকারী সিদ্ধান্ত দিয়েছে যা সাংবিধানিক গোপনীয়তার অধিকারকে আরও জোরদার করেছে।",
+      "category": "Vocabulary",
+      "unit": "Image 36 (image (36).jpg) - Transformation of Word"
+    },
+    {
+      "id": 983,
+      "word": "Antebellum",
+      "ipa": "/ˌæntiˈbeləm/",
+      "pos": "adj",
+      "meaning": "যুদ্ধের পূর্ববর্তী (বিশেষ করে গৃহযুদ্ধের পূর্ববর্তী)",
+      "synonyms": [
+        "pre-war",
+        "pre-civil war",
+        "prior",
+        "precedential"
+      ],
+      "antonyms": [
+        "postbellum",
+        "post-war",
+        "aftermath",
+        "subsequent"
+      ],
+      "raw_synonyms": "pre-war, pre-civil war, prior, precedential",
+      "raw_antonyms": "postbellum, post-war, aftermath, subsequent",
+      "sentence": "The historic plantation museum preserves furniture and architecture from the antebellum American South.",
+      "sentence_meaning": "ঐতিহাসিক প্ল্যান্টেশন জাদুঘরটি আমেরিকার দক্ষিণাঞ্চলের যুদ্ধপূর্ববর্তী সময়ের আসবাবপত্র ও স্থাপত্য সংরক্ষণ করে।",
+      "category": "Vocabulary",
+      "unit": "Image 36 (image (36).jpg) - Transformation of Word"
+    },
+    {
+      "id": 984,
+      "word": "Belligerent",
+      "ipa": "/bəˈlɪdʒərənt/",
+      "pos": "adj",
+      "meaning": "যুদ্ধংদেহী, আক্রমণাত্মক, ঝগড়াটে",
+      "synonyms": [
+        "hostile",
+        "combative",
+        "aggressive",
+        "pugnacious"
+      ],
+      "antonyms": [
+        "peaceful",
+        "pacifist",
+        "conciliatory",
+        "friendly"
+      ],
+      "raw_synonyms": "hostile, combative, aggressive, pugnacious",
+      "raw_antonyms": "peaceful, pacifist, conciliatory, friendly",
+      "sentence": "The belligerent diplomat threatened to sever economic ties if the sanctions were not lifted immediately.",
+      "sentence_meaning": "যুদ্ধংদেহী কূটনীতিক অবিলম্বে নিষেধাজ্ঞা প্রত্যাহার না করা হলে অর্থনৈতিক সম্পর্ক ছিন্ন করার হুমকি দেন।",
+      "category": "Vocabulary",
+      "unit": "Image 36 (image (36).jpg) - Transformation of Word"
+    },
+    {
+      "id": 985,
+      "word": "Bellicose",
+      "ipa": "/ˈbelɪkoʊs/",
+      "pos": "adj",
+      "meaning": "যুদ্ধপ্রিয়, মারমুখী, যুদ্ধলিপ্সু",
+      "synonyms": [
+        "warlike",
+        "aggressive",
+        "quarrelsome",
+        "belligerent"
+      ],
+      "antonyms": [
+        "peaceable",
+        "pacifistic",
+        "gentle",
+        "amicable"
+      ],
+      "raw_synonyms": "warlike, aggressive, quarrelsome, belligerent",
+      "raw_antonyms": "peaceable, pacifistic, gentle, amicable",
+      "sentence": "The rogue general's bellicose statements raised serious concerns about impending regional warfare.",
+      "sentence_meaning": "বিদ্রোহী জেনারেলের যুদ্ধংদেহী বক্তব্য আসন্ন আঞ্চলিক যুদ্ধ নিয়ে গুরুতর উদ্বেগের সৃষ্টি করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 36 (image (36).jpg) - Transformation of Word"
+    }
+  ]
+}

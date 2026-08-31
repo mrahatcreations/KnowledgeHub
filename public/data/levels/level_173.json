@@ -1,0 +1,133 @@
+{
+  "level_id": 173,
+  "title": "Level 173: Idiom",
+  "unit": "Image 31 (image (31).jpg)",
+  "category": "Idiom",
+  "items": [
+    {
+      "id": 861,
+      "word": "A cut above",
+      "ipa": "/ə kʌt əˈbʌv/",
+      "pos": "phrase",
+      "meaning": "অন্য কারো বা কিছুর চেয়ে স্পষ্টভাবে শ্রেয় বা উন্নত (Superior)",
+      "synonyms": [
+        "superior",
+        "better",
+        "distinguished",
+        "exceptional"
+      ],
+      "antonyms": [
+        "inferior",
+        "substandard",
+        "worse",
+        "mediocre"
+      ],
+      "raw_synonyms": "superior, better, distinguished, exceptional",
+      "raw_antonyms": "inferior, substandard, worse, mediocre",
+      "sentence": "Her exceptional analytical presentation was clearly a cut above the rest of the candidates.",
+      "sentence_meaning": "তার অসাধারণ বিশ্লেষণধর্মী উপস্থাপনাটি স্পষ্টতই অন্যান্য প্রার্থীদের তুলনায় অনেক বেশি উন্নত ছিল।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    },
+    {
+      "id": 862,
+      "word": "Double game",
+      "ipa": "/ˈdʌbl ɡeɪm/",
+      "pos": "phrase",
+      "meaning": "দ্বিমুখী নীতি, কপটতা, প্রতারণামূলক আচরণ",
+      "synonyms": [
+        "duplicity",
+        "deceit",
+        "treachery",
+        "double-dealing"
+      ],
+      "antonyms": [
+        "honesty",
+        "sincerity",
+        "transparency",
+        "integrity"
+      ],
+      "raw_synonyms": "duplicity, deceit, treachery, double-dealing",
+      "raw_antonyms": "honesty, sincerity, transparency, integrity",
+      "sentence": "The double agent was caught playing a dangerous double game between rival intelligence agencies.",
+      "sentence_meaning": "প্রতিদ্বন্দ্বী গোয়েন্দা সংস্থাগুলোর মাঝে বিপজ্জনক দ্বিমুখী খেলা খেলার সময় দ্বৈত গুপ্তচরটি ধরা পড়েছিল।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    },
+    {
+      "id": 863,
+      "word": "Devil's advocate",
+      "ipa": "/ˈdevlz ˈædvəkət/",
+      "pos": "phrase",
+      "meaning": "যুক্তির ত্রুটি যাচাইয়ের স্বার্থে বিপক্ষ মত সমর্থনকারী ব্যক্তি",
+      "synonyms": [
+        "counter-arguer",
+        "challenger",
+        "dissenter",
+        "questioner"
+      ],
+      "antonyms": [
+        "supporter",
+        "ally",
+        "backer",
+        "collaborator"
+      ],
+      "raw_synonyms": "counter-arguer, challenger, dissenter, questioner",
+      "raw_antonyms": "supporter, ally, backer, collaborator",
+      "sentence": "To ensure all potential risks were evaluated, the strategist played devil's advocate during the executive meeting.",
+      "sentence_meaning": "সমস্ত সম্ভাব্য ঝুঁকি যাচাই নিশ্চিত করার জন্য, কৌশলবিদ নির্বাহী সভায় তর্কের খাতিরে বিপক্ষ মত তুলে ধরেছিলেন।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    },
+    {
+      "id": 864,
+      "word": "Diehard",
+      "ipa": "/ˈdaɪhɑːrd/",
+      "pos": "adj",
+      "meaning": "চরম অনড়, গোঁড়া, আপসহীন",
+      "synonyms": [
+        "stubborn",
+        "fanatical",
+        "uncompromising",
+        "staunch"
+      ],
+      "antonyms": [
+        "flexible",
+        "moderate",
+        "open-minded",
+        "yielding"
+      ],
+      "raw_synonyms": "stubborn, fanatical, uncompromising, staunch",
+      "raw_antonyms": "flexible, moderate, open-minded, yielding",
+      "sentence": "Diehard supporters of the club stood in pouring rain for hours to cheer for their team.",
+      "sentence_meaning": "ক্লাবের অন্ধ ও অনড় সমর্থকেরা তাদের দলকে উৎসাহিত করতে টানা বৃষ্টির মধ্যেও ঘণ্টার পর ঘণ্টা দাঁড়িয়ে ছিল।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    },
+    {
+      "id": 865,
+      "word": "Dilly-dally",
+      "ipa": "/ˈdɪliˌdæli/",
+      "pos": "phrase",
+      "meaning": "অযথা সময় নষ্ট করা, দ্বিধাগ্রস্ত হয়ে গড়িমসি করা",
+      "synonyms": [
+        "dawdle",
+        "waste time",
+        "procrastinate",
+        "loiter"
+      ],
+      "antonyms": [
+        "hurry",
+        "expedite",
+        "act promptly",
+        "hasten"
+      ],
+      "raw_synonyms": "dawdle, waste time, procrastinate, loiter",
+      "raw_antonyms": "hurry, expedite, act promptly, hasten",
+      "sentence": "Do not dilly-dally on this urgent assignment, as the client expects the completed project by tomorrow morning.",
+      "sentence_meaning": "এই জরুরি অ্যাসাইনমেন্টে অহেতুক গড়িমসি করবেন না, কারণ মক্কেল আগামীকাল সকালের মধ্যে সম্পন্ন প্রকল্প প্রত্যাশা করছেন।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    }
+  ]
+}

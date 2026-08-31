@@ -1,0 +1,131 @@
+{
+  "level_id": 156,
+  "title": "Level 156: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 776,
+      "word": "Chicanery",
+      "ipa": "/ʃɪˈkeɪnəri/",
+      "pos": "n",
+      "meaning": "প্রতারণা, চাতুরী, কূটকৌশল",
+      "synonyms": [
+        "trickery",
+        "deception",
+        "duplicity",
+        "subterfuge"
+      ],
+      "antonyms": [
+        "honesty",
+        "candor",
+        "integrity",
+        "frankness"
+      ],
+      "raw_synonyms": "trickery, deception, duplicity, subterfuge",
+      "raw_antonyms": "honesty, candor, integrity, frankness",
+      "sentence": "The shady lawyer relied on legal chicanery to delay court proceedings and shield his guilty client.",
+      "sentence_meaning": "অসৎ আইনজীবী আদালতের কার্যক্রম বিলম্বিত করতে এবং তার দোষী মক্কেলকে বাঁচাতে আইনি চাতুরীর আশ্রয় নিয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 777,
+      "word": "Callow",
+      "ipa": "/ˈkæloʊ/",
+      "pos": "adj",
+      "meaning": "অপরিণত, অনভিজ্ঞ, অর্বাচীন",
+      "synonyms": [
+        "immature",
+        "inexperienced",
+        "naive",
+        "green"
+      ],
+      "antonyms": [
+        "mature",
+        "experienced",
+        "sophisticated",
+        "veteran"
+      ],
+      "raw_synonyms": "immature, inexperienced, naive, green",
+      "raw_antonyms": "mature, experienced, sophisticated, veteran",
+      "sentence": "A callow rookie officer had to quickly adapt to the complex demands of urban criminal investigations.",
+      "sentence_meaning": "একজন অনভিজ্ঞ নতুন পুলিশ কর্মকর্তাকে শহরের অপরাধ তদন্তের জটিল চাহিদার সাথে দ্রুত মানিয়ে নিতে হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 778,
+      "word": "Canine",
+      "ipa": "/ˈkeɪnaɪn/",
+      "pos": "adj",
+      "meaning": "কুকুরজাতীয়, সারমেয়",
+      "synonyms": [
+        "dog-like",
+        "hound-like",
+        "canid",
+        "doggish"
+      ],
+      "antonyms": [
+        "feline",
+        "non-canine",
+        "cat-like"
+      ],
+      "raw_synonyms": "dog-like, hound-like, canid, doggish",
+      "raw_antonyms": "feline, non-canine, cat-like",
+      "sentence": "Police departments often utilize trained canine units to detect concealed narcotics and explosives.",
+      "sentence_meaning": "লুকানো মাদকদ্রব্য ও বিস্ফোরক শনাক্ত করতে পুলিশ বিভাগ প্রায়ই প্রশিক্ষিত কুকুর স্কোয়াড ব্যবহার করে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 779,
+      "word": "Carnal",
+      "ipa": "/ˈkɑːrnl/",
+      "pos": "adj",
+      "meaning": "দৈহিক, পার্থিব, ইন্দ্রিয়সুখসম্পর্কিত",
+      "synonyms": [
+        "corporeal",
+        "fleshly",
+        "sensual",
+        "bodily"
+      ],
+      "antonyms": [
+        "spiritual",
+        "pure",
+        "intellectual",
+        "platonic"
+      ],
+      "raw_synonyms": "corporeal, fleshly, sensual, bodily",
+      "raw_antonyms": "spiritual, pure, intellectual, platonic",
+      "sentence": "The ascetic monk renounced all carnal desires in his lifelong pursuit of spiritual enlightenment.",
+      "sentence_meaning": "তপস্বী সন্ন্যাসী আধ্যাত্মিক জ্ঞানার্জনের আজীবন সাধনায় সমস্ত পার্থিব ও শারীরিক কামনা-বাসনা ত্যাগ করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 780,
+      "word": "Carnivore",
+      "ipa": "/ˈkɑːrnɪvɔːr/",
+      "pos": "n",
+      "meaning": "মাংসাশী প্রাণী",
+      "synonyms": [
+        "meat-eater",
+        "predator",
+        "flesh-eater",
+        "carnivorous animal"
+      ],
+      "antonyms": [
+        "herbivore",
+        "vegetarian",
+        "plant-eater"
+      ],
+      "raw_synonyms": "meat-eater, predator, flesh-eater, carnivorous animal",
+      "raw_antonyms": "herbivore, vegetarian, plant-eater",
+      "sentence": "The Bengal tiger is an apex carnivore that plays a vital role in regulating forest ecosystems.",
+      "sentence_meaning": "রয়্যাল বেঙ্গল টাইগার হলো শীর্ষস্থানীয় মাংসাশী প্রাণী যা বনের বাস্তুতন্ত্র নিয়ন্ত্রণে গুরুত্বপূর্ণ ভূমিকা পালন করে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

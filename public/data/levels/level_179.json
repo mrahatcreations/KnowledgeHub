@@ -1,0 +1,133 @@
+{
+  "level_id": 179,
+  "title": "Level 179: Phrasal Verb",
+  "unit": "Image 33 (image (33).jpg)",
+  "category": "Phrasal Verb",
+  "items": [
+    {
+      "id": 891,
+      "word": "Draw over",
+      "ipa": "/drɔː ˈoʊvər/",
+      "pos": "phrase",
+      "meaning": "নিজের পক্ষে টেনে আনা, স্বপক্ষে দলভুক্ত করা",
+      "synonyms": [
+        "win over",
+        "persuade",
+        "convert",
+        "attract"
+      ],
+      "antonyms": [
+        "alienate",
+        "drive away",
+        "repel",
+        "estrange"
+      ],
+      "raw_synonyms": "win over, persuade, convert, attract",
+      "raw_antonyms": "alienate, drive away, repel, estrange",
+      "sentence": "Through persuasive diplomacy and charisma, the party leader drew over undecided voters to his camp.",
+      "sentence_meaning": "কার্যকর কূটনীতি এবং ব্যক্তিত্বের মাধ্যমে দলীয় নেতা সিদ্ধান্তহীন ভোটারদের নিজের পক্ষে টেনে এনেছিলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 33 (image (33).jpg)"
+    },
+    {
+      "id": 892,
+      "word": "Draw up",
+      "ipa": "/drɔː ʌp/",
+      "pos": "phrase",
+      "meaning": "দলিল বা চুক্তি খসড়া করা, নিয়মমাফিক সাজানো",
+      "synonyms": [
+        "draft",
+        "formulate",
+        "compose",
+        "prepare"
+      ],
+      "antonyms": [
+        "destroy",
+        "cancel",
+        "annul",
+        "discard"
+      ],
+      "raw_synonyms": "draft, formulate, compose, prepare",
+      "raw_antonyms": "destroy, cancel, annul, discard",
+      "sentence": "Corporate attorneys were instructed to draw up a legally binding contract before final signature exchange.",
+      "sentence_meaning": "চূড়ান্ত স্বাক্ষর বিনিময়ের আগে একটি আইনত বাধ্যতামূলক চুক্তি খসড়া করতে কর্পোরেট আইনজীবীদের নির্দেশ দেওয়া হয়েছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 33 (image (33).jpg)"
+    },
+    {
+      "id": 893,
+      "word": "Draw to",
+      "ipa": "/drɔː tuː/",
+      "pos": "phrase",
+      "meaning": "আকৃষ্ট হওয়া, অনুরাগী বা আকৃষ্ট বোধ করা",
+      "synonyms": [
+        "attracted to",
+        "drawn toward",
+        "fascinated by",
+        "charmed by"
+      ],
+      "antonyms": [
+        "repelled by",
+        "averse to",
+        "indifferent to",
+        "disgusted by"
+      ],
+      "raw_synonyms": "attracted to, drawn toward, fascinated by, charmed by",
+      "raw_antonyms": "repelled by, averse to, indifferent to, disgusted by",
+      "sentence": "The young scholar was naturally drawn to the profound philosophy of classical Greek metaphysics.",
+      "sentence_meaning": "তরুণ পণ্ডিতটি স্বভাবতই প্রাচীন গ্রিক দর্শনের গভীর তত্ত্বের প্রতি আকৃষ্ট হয়েছিলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 33 (image (33).jpg)"
+    },
+    {
+      "id": 894,
+      "word": "Do away with",
+      "ipa": "/duː əˈweɪ wɪð/",
+      "pos": "phrase",
+      "meaning": "বিলোপ করা, বাতিল বা অবসান ঘটানো",
+      "synonyms": [
+        "abolish",
+        "eliminate",
+        "eradicate",
+        "discard"
+      ],
+      "antonyms": [
+        "establish",
+        "retain",
+        "preserve",
+        "institute"
+      ],
+      "raw_synonyms": "abolish, eliminate, eradicate, discard",
+      "raw_antonyms": "establish, retain, preserve, institute",
+      "sentence": "Modern democratic societies must do away with archaic discriminatory practices in employment.",
+      "sentence_meaning": "আধুনিক গণতান্ত্রিক সমাজগুলোকে কর্মসংস্থানে বিদ্যমান প্রাচীন বৈষম্যমূলক প্রথা বিলোপ করতে হবে।",
+      "category": "Phrasal Verb",
+      "unit": "Image 33 (image (33).jpg)"
+    },
+    {
+      "id": 895,
+      "word": "Do for",
+      "ipa": "/duː fɔːr/",
+      "pos": "phrase",
+      "meaning": "উপযুক্ত হওয়া, কাজে লাগা, প্রয়োজন মেটানো",
+      "synonyms": [
+        "serve as",
+        "suffice for",
+        "suit",
+        "fit"
+      ],
+      "antonyms": [
+        "disqualify",
+        "be useless for",
+        "mismatch",
+        "fail to serve"
+      ],
+      "raw_synonyms": "serve as, suffice for, suit, fit",
+      "raw_antonyms": "disqualify, be useless for, mismatch, fail to serve",
+      "sentence": "In the absence of a proper tablecloth, this clean white linen fabric will do for tonight's dinner.",
+      "sentence_meaning": "একটি উপযুক্ত টেবিলক্লথের অভাবে আজকের রাতের খাবারের জন্য এই পরিষ্কার সাদা লিনেন কাপড়টিই কাজে লাগবে।",
+      "category": "Phrasal Verb",
+      "unit": "Image 33 (image (33).jpg)"
+    }
+  ]
+}

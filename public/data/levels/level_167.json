@@ -1,0 +1,133 @@
+{
+  "level_id": 167,
+  "title": "Level 167: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 831,
+      "word": "Diffidence",
+      "ipa": "/ˈdɪfɪdəns/",
+      "pos": "n",
+      "meaning": "সংকোচ, দ্বিধা, আত্মবিশ্বাসের অভাব",
+      "synonyms": [
+        "timidity",
+        "shyness",
+        "hesitancy",
+        "modesty"
+      ],
+      "antonyms": [
+        "confidence",
+        "boldness",
+        "audacity",
+        "assertiveness"
+      ],
+      "raw_synonyms": "timidity, shyness, hesitancy, modesty",
+      "raw_antonyms": "confidence, boldness, audacity, assertiveness",
+      "sentence": "Her natural diffidence caused her to hesitate before expressing her revolutionary ideas during board meetings.",
+      "sentence_meaning": "তার সহজাত সংকোচবোধের কারণে বোর্ডের সভায় বিপ্লবী ধারণাগুলো প্রকাশ করার আগে তিনি দ্বিধা বোধ করতেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 832,
+      "word": "Diffuse",
+      "ipa": "/dɪˈfjuːs/",
+      "pos": "adj",
+      "meaning": "বিস্তৃত, ছড়ানো, বাক্যবহুল",
+      "synonyms": [
+        "scattered",
+        "dispersed",
+        "wordy",
+        "widespread"
+      ],
+      "antonyms": [
+        "concentrated",
+        "succinct",
+        "compact",
+        "dense"
+      ],
+      "raw_synonyms": "scattered, dispersed, wordy, widespread",
+      "raw_antonyms": "concentrated, succinct, compact, dense",
+      "sentence": "The professor's diffuse lecture covered so many disparate topics that students found it difficult to take clear notes.",
+      "sentence_meaning": "অধ্যাপকের বাক্যবহুল ও বিস্তৃত বক্তৃতাটি এত ভিন্ন ভিন্ন বিষয় অন্তর্ভুক্ত করেছিল যে শিক্ষার্থীদের পক্ষে স্পষ্ট নোট নেওয়া কঠিন হয়ে পড়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 833,
+      "word": "Digression",
+      "ipa": "/daɪˈɡreʃn/",
+      "pos": "n",
+      "meaning": "প্রসঙ্গান্তর, অবান্তর কথা",
+      "synonyms": [
+        "deviation",
+        "detour",
+        "divergence",
+        "aside"
+      ],
+      "antonyms": [
+        "directness",
+        "focus",
+        "coherence",
+        "relevance"
+      ],
+      "raw_synonyms": "deviation, detour, divergence, aside",
+      "raw_antonyms": "directness, focus, coherence, relevance",
+      "sentence": "After a lengthy humorous digression about his college days, the speaker returned to the core subject of the seminar.",
+      "sentence_meaning": "নিজের কলেজ জীবন নিয়ে দীর্ঘ ও কৌতুকপূর্ণ প্রসঙ্গাভিমুখে যাওয়ার পর, বক্তা সেমিনারের মূল বিষয়ে ফিরে আসেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 834,
+      "word": "Dirge",
+      "ipa": "/dɜːrdʒ/",
+      "pos": "n",
+      "meaning": "শোকসংগীত, বিলাপগীতি",
+      "synonyms": [
+        "elegy",
+        "lament",
+        "requiem",
+        "threnody"
+      ],
+      "antonyms": [
+        "paean",
+        "hymn of joy",
+        "eulogy",
+        "celebration"
+      ],
+      "raw_synonyms": "elegy, lament, requiem, threnody",
+      "raw_antonyms": "paean, hymn of joy, eulogy, celebration",
+      "sentence": "The mournful dirge played by the piper echoed solemnly across the cemetery during the state funeral.",
+      "sentence_meaning": "রাষ্ট্রীয় অন্ত্যেষ্টিক্রিয়ার সময় পাইপারের বাজানো বিষাদময় শোকসংগীত কবরস্থানে গম্ভীরভাবে প্রতিধ্বনিত হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 835,
+      "word": "Discerning",
+      "ipa": "/dɪˈsɜːrnɪŋ/",
+      "pos": "adj",
+      "meaning": "অন্তর্দৃষ্টিসম্পন্ন, বিচারক্ষম, সূক্ষ্মদর্শী",
+      "synonyms": [
+        "astute",
+        "insightful",
+        "perceptive",
+        "discriminating"
+      ],
+      "antonyms": [
+        "undiscriminating",
+        "naive",
+        "uncritical",
+        "imperceptive"
+      ],
+      "raw_synonyms": "astute, insightful, perceptive, discriminating",
+      "raw_antonyms": "undiscriminating, naive, uncritical, imperceptive",
+      "sentence": "Discerning art collectors can effortlessly distinguish an authentic masterpiece from a clever modern imitation.",
+      "sentence_meaning": "সূক্ষ্মদর্শী শিল্প সংগ্রাহকরা সহজেই একটি খাঁটি শিল্পকর্মকে আধুনিক চতুর অনুকরণ থেকে আলাদা করতে পারেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

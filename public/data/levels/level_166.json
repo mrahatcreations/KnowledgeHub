@@ -1,0 +1,133 @@
+{
+  "level_id": 166,
+  "title": "Level 166: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 826,
+      "word": "Deprecate",
+      "ipa": "/ˈdeprəkeɪt/",
+      "pos": "v",
+      "meaning": "অননুমোদন করা, তীব্র নিন্দা করা, নাকচ করা",
+      "synonyms": [
+        "disapprove",
+        "censure",
+        "deplore",
+        "disparage"
+      ],
+      "antonyms": [
+        "approve",
+        "commend",
+        "praise",
+        "endorse"
+      ],
+      "raw_synonyms": "disapprove, censure, deplore, disparage",
+      "raw_antonyms": "approve, commend, praise, endorse",
+      "sentence": "Traditional scholars deprecate the reckless alteration of historical literary texts without academic justification.",
+      "sentence_meaning": "ঐতিহ্যবাহী পণ্ডিতরা একাডেমিক যুক্তি ছাড়া ঐতিহাসিক সাহিত্যকর্মের বেপরোয়া পরিবর্তনের তীব্র নিন্দা জানান।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 827,
+      "word": "Desultory",
+      "ipa": "/ˈdesəltɔːri/",
+      "pos": "adj",
+      "meaning": "খাপছাড়া, অসংলগ্ন, এলোমেলো",
+      "synonyms": [
+        "aimless",
+        "disconnected",
+        "haphazard",
+        "random"
+      ],
+      "antonyms": [
+        "methodical",
+        "systematic",
+        "organized",
+        "focused"
+      ],
+      "raw_synonyms": "aimless, disconnected, haphazard, random",
+      "raw_antonyms": "methodical, systematic, organized, focused",
+      "sentence": "His desultory reading habits failed to provide him with an in-depth understanding of constitutional law.",
+      "sentence_meaning": "তার এলোমেলো পড়ার অভ্যাস তাকে সাংবিধানিক আইন সম্পর্কে গভীর জ্ঞান অর্জনে সহায়তা করতে পারেনি।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 828,
+      "word": "Deterrent",
+      "ipa": "/dɪˈtɜːrənt/",
+      "pos": "n",
+      "meaning": "প্রতিবন্ধক, নিবারক ব্যবস্থা",
+      "synonyms": [
+        "obstacle",
+        "impediment",
+        "disincentive",
+        "hindrance"
+      ],
+      "antonyms": [
+        "incentive",
+        "encouragement",
+        "catalyst",
+        "stimulant"
+      ],
+      "raw_synonyms": "obstacle, impediment, disincentive, hindrance",
+      "raw_antonyms": "incentive, encouragement, catalyst, stimulant",
+      "sentence": "Stringent border surveillance serves as an effective deterrent against cross-border smuggling operations.",
+      "sentence_meaning": "কঠোর সীমান্ত নজরদারি আন্তঃসীমান্ত চোরাচালান কার্যক্রমের বিরুদ্ধে একটি কার্যকর নিবারক হিসেবে কাজ করে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 829,
+      "word": "Dichotomy",
+      "ipa": "/daɪˈkɑːtəmi/",
+      "pos": "n",
+      "meaning": "দ্বিধাবিভক্তি, দ্বিমুখী বিভাজন",
+      "synonyms": [
+        "division",
+        "split",
+        "contrast",
+        "dualism"
+      ],
+      "antonyms": [
+        "unity",
+        "harmony",
+        "likeness",
+        "conjunction"
+      ],
+      "raw_synonyms": "division, split, contrast, dualism",
+      "raw_antonyms": "unity, harmony, likeness, conjunction",
+      "sentence": "The sociological essay explored the sharp dichotomy between urban industrial wealth and rural poverty.",
+      "sentence_meaning": "সমাজতাত্ত্বিক প্রবন্ধটিতে নগরভিত্তিক শিল্প সমৃদ্ধি এবং গ্রামীণ দারিদ্র্যের মধ্যকার তীব্র দ্বিমুখী বিভাজন অনুসন্ধান করা হয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 830,
+      "word": "Didactic",
+      "ipa": "/daɪˈdæktɪk/",
+      "pos": "adj",
+      "meaning": "উপদেশমূলক, শিক্ষামূলক",
+      "synonyms": [
+        "instructive",
+        "moralizing",
+        "pedagogical",
+        "educational"
+      ],
+      "antonyms": [
+        "uninformative",
+        "misleading",
+        "noninstructive",
+        "hedonistic"
+      ],
+      "raw_synonyms": "instructive, moralizing, pedagogical, educational",
+      "raw_antonyms": "uninformative, misleading, noninstructive, hedonistic",
+      "sentence": "Fables and parables are primarily didactic stories designed to teach essential ethical values to children.",
+      "sentence_meaning": "রূপকথা ও নীতিগল্পগুলো মূলত শিশুদের অপরিহার্য নৈতিক মূল্যবোধ শেখানোর উদ্দেশ্যে রচিত শিক্ষামূলক কাহিনী।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

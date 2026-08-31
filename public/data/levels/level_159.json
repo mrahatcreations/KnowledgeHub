@@ -1,0 +1,133 @@
+{
+  "level_id": 159,
+  "title": "Level 159: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 791,
+      "word": "Coherent",
+      "ipa": "/koʊˈhɪrənt/",
+      "pos": "adj",
+      "meaning": "সুসংগত, সংলগ্ন, সুবিন্যস্ত",
+      "synonyms": [
+        "logical",
+        "articulate",
+        "consistent",
+        "lucid"
+      ],
+      "antonyms": [
+        "incoherent",
+        "disconnected",
+        "muddled",
+        "rambling"
+      ],
+      "raw_synonyms": "logical, articulate, consistent, lucid",
+      "raw_antonyms": "incoherent, disconnected, muddled, rambling",
+      "sentence": "The candidate delivered a coherent vision for judicial reform that won the approval of legal scholars.",
+      "sentence_meaning": "প্রার্থী বিচার বিভাগীয় সংস্কারের জন্য একটি সুসংগত দৃষ্টিভঙ্গি উপস্থাপন করেছিলেন যা আইন বিশেষজ্ঞদের অনুমোদন লাভ করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 792,
+      "word": "Collaborate",
+      "ipa": "/kəˈlæbəreɪt/",
+      "pos": "v",
+      "meaning": "সহযোগিতা করা, যৌথভাবে কাজ করা",
+      "synonyms": [
+        "cooperate",
+        "partner",
+        "concur",
+        "team up"
+      ],
+      "antonyms": [
+        "oppose",
+        "resist",
+        "compete",
+        "work independently"
+      ],
+      "raw_synonyms": "cooperate, partner, concur, team up",
+      "raw_antonyms": "oppose, resist, compete, work independently",
+      "sentence": "International scientists decided to collaborate on an ambitious research project to eradicate infectious diseases.",
+      "sentence_meaning": "সংক্রামক রোগ নির্মূল করতে আন্তর্জাতিক বিজ্ঞানীরা একটি উচ্চাভিলাষী গবেষণা প্রকল্পে যৌথভাবে কাজ করার সিদ্ধান্ত নিয়েছেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 793,
+      "word": "Commemorate",
+      "ipa": "/kəˈmeməreɪt/",
+      "pos": "v",
+      "meaning": "স্মৃতিরক্ষা করা, উদযাপন করা",
+      "synonyms": [
+        "memorialize",
+        "honor",
+        "celebrate",
+        "remember"
+      ],
+      "antonyms": [
+        "forget",
+        "overlook",
+        "neglect",
+        "ignore"
+      ],
+      "raw_synonyms": "memorialize, honor, celebrate, remember",
+      "raw_antonyms": "forget, overlook, neglect, ignore",
+      "sentence": "A national monument was erected in the capital to commemorate the brave martyrs of the liberation war.",
+      "sentence_meaning": "মুক্তিযুদ্ধের বীর শহীদদের স্মৃতিরক্ষার্থে রাজধানীতে একটি জাতীয় স্মৃতিস্তম্ভ নির্মাণ করা হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 794,
+      "word": "Commission",
+      "ipa": "/kəˈmɪʃn/",
+      "pos": "n",
+      "meaning": "কমিশন, কর্তৃত্বভার, দায়িত্ব অর্পণ",
+      "synonyms": [
+        "committee",
+        "board",
+        "delegation",
+        "mandate"
+      ],
+      "antonyms": [
+        "discharge",
+        "dismissal",
+        "revocation",
+        "recall"
+      ],
+      "raw_synonyms": "committee, board, delegation, mandate",
+      "raw_antonyms": "discharge, dismissal, revocation, recall",
+      "sentence": "The prime minister formed a high-level commission to investigate breaches in national cybersecurity.",
+      "sentence_meaning": "প্রধানমন্ত্রী জাতীয় সাইবার সুরক্ষার ঘাটতিগুলো তদন্তের জন্য একটি উচ্চপর্যায়ের কমিশন গঠন করেছেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 795,
+      "word": "Composed of",
+      "ipa": "/kəmˈpoʊzd ʌv/",
+      "pos": "phrase",
+      "meaning": "সমন্বয়ে গঠিত",
+      "synonyms": [
+        "constituted of",
+        "made up of",
+        "formed of",
+        "comprising"
+      ],
+      "antonyms": [
+        "lacking",
+        "devoid of",
+        "dispersed",
+        "empty of"
+      ],
+      "raw_synonyms": "constituted of, made up of, formed of, comprising",
+      "raw_antonyms": "lacking, devoid of, dispersed, empty of",
+      "sentence": "The jury is composed of twelve impartial citizens selected from diverse professional backgrounds.",
+      "sentence_meaning": "বিভিন্ন পেশাগত পটভূমি থেকে নির্বাচিত বারোজন নিরপেক্ষ নাগরিকের সমন্বয়ে জুরি বোর্ড গঠিত।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

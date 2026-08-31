@@ -1,0 +1,133 @@
+{
+  "level_id": 170,
+  "title": "Level 170: Idiom",
+  "unit": "Idioms and Phrases",
+  "category": "Idiom",
+  "items": [
+    {
+      "id": 846,
+      "word": "Come to terms",
+      "ipa": "/kʌm tuː tɜːrmz/",
+      "pos": "phrase",
+      "meaning": "সমঝোতায় পৌঁছানো, আপস করা",
+      "synonyms": [
+        "reach agreement",
+        "compromise",
+        "reconcile",
+        "settle"
+      ],
+      "antonyms": [
+        "disagree",
+        "clash",
+        "quarrel",
+        "feud"
+      ],
+      "raw_synonyms": "reach agreement, compromise, reconcile, settle",
+      "raw_antonyms": "disagree, clash, quarrel, feud",
+      "sentence": "After marathon negotiation sessions, labor union leaders and factory management finally came to terms.",
+      "sentence_meaning": "ম্যারাথন আলোচনা অধিবেশনের পর শ্রমিক ইউনিয়নের নেতৃবৃন্দ এবং কারখানা কর্তৃপক্ষ অবশেষে একটি সমঝোতায় পৌঁছাল।",
+      "category": "Idiom",
+      "unit": "Idioms and Phrases"
+    },
+    {
+      "id": 847,
+      "word": "Cry over spilt milk",
+      "ipa": "/kraɪ ˈoʊvər spɪlt mɪlk/",
+      "pos": "phrase",
+      "meaning": "অতীতের ভুলের জন্য বৃথা অনুশোচনা করা",
+      "synonyms": [
+        "regret uselessly",
+        "lament in vain",
+        "grieve needlessly",
+        "fret over past"
+      ],
+      "antonyms": [
+        "look forward",
+        "move on",
+        "take action",
+        "persevere"
+      ],
+      "raw_synonyms": "regret uselessly, lament in vain, grieve needlessly, fret over past",
+      "raw_antonyms": "look forward, move on, take action, persevere",
+      "sentence": "While losing the funding was unfortunate, there is no point in crying over spilt milk; we must plan the next phase.",
+      "sentence_meaning": "তহবিল হারানো দুর্ভাগ্যজনক হলেও অতীতের জন্য বৃথা অনুশোচনা করার কোনো মানে নেই; আমাদের পরবর্তী পর্বের পরিকল্পনা করতে হবে।",
+      "category": "Idiom",
+      "unit": "Idioms and Phrases"
+    },
+    {
+      "id": 848,
+      "word": "Call someone names",
+      "ipa": "/kɔːl ˈsʌmwʌn neɪmz/",
+      "pos": "phrase",
+      "meaning": "গালাগালি করা, অপমানজনক নামে ডাকা",
+      "synonyms": [
+        "insult",
+        "abuse",
+        "taunt",
+        "belittle"
+      ],
+      "antonyms": [
+        "praise",
+        "flatter",
+        "compliment",
+        "honor"
+      ],
+      "raw_synonyms": "insult, abuse, taunt, belittle",
+      "raw_antonyms": "praise, flatter, compliment, honor",
+      "sentence": "The referee penalized the aggressive player for calling his opponent offensive names on the pitch.",
+      "sentence_meaning": "মাঠে প্রতিপক্ষকে আপত্তিকর নামে গালিগালাজ করার জন্য রেফারি আক্রমণাত্মক খেলোয়াড়টিকে শাস্তি দিয়েছিলেন।",
+      "category": "Idiom",
+      "unit": "Idioms and Phrases"
+    },
+    {
+      "id": 849,
+      "word": "Call to mind",
+      "ipa": "/kɔːl tuː maɪnd/",
+      "pos": "phrase",
+      "meaning": "স্মরণ করা, মনে করা",
+      "synonyms": [
+        "remember",
+        "recall",
+        "recollect",
+        "evoke"
+      ],
+      "antonyms": [
+        "forget",
+        "overlook",
+        "ignore",
+        "blank on"
+      ],
+      "raw_synonyms": "remember, recall, recollect, evoke",
+      "raw_antonyms": "forget, overlook, ignore, blank on",
+      "sentence": "The evocative aroma of fresh jasmine immediately called to mind fond memories of her grandmother's garden.",
+      "sentence_meaning": "তাজা বেলি ফুলের মনমাতানো সুবাস তাৎক্ষণিকভাবে তার দাদির বাগানের মধুর স্মৃতি মনে করিয়ে দিয়েছিল।",
+      "category": "Idiom",
+      "unit": "Idioms and Phrases"
+    },
+    {
+      "id": 850,
+      "word": "Call a spade a spade",
+      "ipa": "/kɔːl ə speɪd ə speɪd/",
+      "pos": "phrase",
+      "meaning": "অপ্রীতিকর সত্য খোলাখুলি ও অকপটে বলা",
+      "synonyms": [
+        "speak frankly",
+        "speak bluntly",
+        "be candid",
+        "tell the truth"
+      ],
+      "antonyms": [
+        "beat around the bush",
+        "mince words",
+        "prevaricate",
+        "sugarcoat"
+      ],
+      "raw_synonyms": "speak frankly, speak bluntly, be candid, tell the truth",
+      "raw_antonyms": "beat around the bush, mince words, prevaricate, sugarcoat",
+      "sentence": "Respected for his uncompromising honesty, the auditor always calls a spade a spade without fearing corporate backlash.",
+      "sentence_meaning": "আপসহীন সততার জন্য সম্মানিত অডিটর করপোরেট প্রতিক্রিয়ার ভয় না করে সর্বদা অকপটে স্পষ্ট সত্য কথা বলেন।",
+      "category": "Idiom",
+      "unit": "Idioms and Phrases"
+    }
+  ]
+}
