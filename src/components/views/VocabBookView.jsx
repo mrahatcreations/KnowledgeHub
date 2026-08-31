@@ -497,6 +497,11 @@ export default function VocabBookView({
                       );
                     })}”
                   </p>
+                  {item.sentence_meaning && (
+                    <p className="text-xs text-neutral-400 font-sans leading-normal pt-1 border-t border-neutral-800/80">
+                      {item.sentence_meaning}
+                    </p>
+                  )}
                 </div>
               )}
             </article>

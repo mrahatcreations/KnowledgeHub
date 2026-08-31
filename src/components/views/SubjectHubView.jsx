@@ -232,14 +232,28 @@ export default function SubjectHubView({
             </div>
           </div>
 
-          {/* Tactile Big Play Button */}
-          <button
-            onClick={() => handlePlayPractice('english')}
-            className="w-full game-btn-3d bg-emerald-500 hover:bg-emerald-400 border-2 border-emerald-300 text-white font-black text-sm uppercase tracking-wider py-3.5 px-4 rounded-none shadow-[0_5px_0_#047857] flex items-center justify-center space-x-2 cursor-pointer active:translate-y-1 active:shadow-none transition-all"
-          >
-            <Play className="w-4 h-4 fill-white" />
-            <span>CONTINUE LEVEL {currentLvlNum}</span>
-          </button>
+          {/* Tactile Play & Saga Map Action Buttons */}
+          <div className="flex flex-col sm:flex-row gap-2.5 w-full">
+            <button
+              onClick={() => handlePlayPractice('english')}
+              className="flex-1 game-btn-3d bg-emerald-500 hover:bg-emerald-400 border-2 border-emerald-300 text-white font-black text-sm uppercase tracking-wider py-3.5 px-4 rounded-none shadow-[0_5px_0_#047857] flex items-center justify-center space-x-2 cursor-pointer active:translate-y-1 active:shadow-none transition-all"
+            >
+              <Play className="w-4 h-4 fill-white" />
+              <span>CONTINUE LEVEL {currentLvlNum}</span>
+            </button>
+
+            <button
+              onClick={() => {
+                sound.playClick();
+                if (onSelectSubject) onSelectSubject('english');
+              }}
+              className="px-4 py-3 bg-slate-900 hover:bg-slate-800 border-2 border-slate-700 hover:border-blue-400 text-blue-300 font-bold text-xs uppercase tracking-wider rounded-none transition flex items-center justify-center space-x-1.5 cursor-pointer"
+              title="Explore all 201 levels on the Saga Map"
+            >
+              <span>SAGA MAP</span>
+              <ChevronRight className="w-3.5 h-3.5" />
+            </button>
+          </div>
         </div>
 
         {/* UPCOMING QUEST PACKS */}
