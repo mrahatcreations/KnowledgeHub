@@ -5,21 +5,21 @@ export function getNextVersion(currentVersion) {
   const parts = currentVersion.split('.').map(Number);
   
   if (parts.length === 3) {
-    if (parts[2] < 10) {
-      // e.g. 1.1.2 -> 1.1.3 ... up to 1.1.10
+    if (parts[2] < 9) {
+      // e.g. 1.1.2 -> 1.1.3 ... up to 1.1.9
       parts[2] += 1;
       return parts.join('.');
     } else {
-      // Max 10 reached for x.x.x, transition to x.x.x.x (e.g. 1.1.10 -> 1.1.10.1)
+      // Max 9 reached for x.x.x, transition to x.x.x.x (e.g. 1.1.9 -> 1.1.9.1)
       return `${parts[0]}.${parts[1]}.${parts[2]}.1`;
     }
   } else if (parts.length === 4) {
-    if (parts[3] < 10) {
-      // e.g. 1.1.10.1 -> 1.1.10.2 ... up to 1.1.10.10
+    if (parts[3] < 9) {
+      // e.g. 1.1.9.1 -> 1.1.9.2 ... up to 1.1.9.9
       parts[3] += 1;
       return parts.join('.');
     } else {
-      // Max 10 reached for 4th component, rollover to next minor version
+      // Max 9 reached for 4th component, rollover to next minor version (e.g. 1.1.9.9 -> 1.2.0)
       return `${parts[0]}.${parts[1] + 1}.0`;
     }
   } else {
