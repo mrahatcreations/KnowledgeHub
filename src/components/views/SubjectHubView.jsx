@@ -52,6 +52,16 @@ export default function SubjectHubView({
     return Object.values(levelStars || {}).filter(stars => (stars >= 5 || stars >= 10)).length;
   }, [levelStars]);
 
+  // Compute Total Cumulative Stars Earned across all levels
+  const totalStarsEarned = useMemo(() => {
+    const total = Object.values(levelStars || {}).reduce((acc, stars) => {
+      const num = Number(stars) || 0;
+      const normalized = num > 5 ? Number((num * 0.5).toFixed(1)) : num;
+      return acc + normalized;
+    }, 0);
+    return Number(total.toFixed(1));
+  }, [levelStars]);
+
   const totalLevels = levels?.length || 201;
   const currentLvlNum = Math.min(totalLevels, Math.max(1, unlockedLevel || 1));
   const progressPercent = Math.min(100, Math.round(((currentLvlNum - 1) / totalLevels) * 100));

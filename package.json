@@ -1,7 +1,7 @@
 {
   "name": "knowledge-hub",
   "private": true,
-  "version": "1.1.1",
+  "version": "1.1.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -24,6 +24,7 @@
   "devDependencies": {
     "@tailwindcss/vite": "^4.0.9",
     "@vitejs/plugin-react": "^4.3.4",
+    "playwright": "^1.62.1",
     "tailwindcss": "^4.0.9",
     "vite": "^6.2.0"
   }

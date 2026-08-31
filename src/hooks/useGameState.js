@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { buildLevelStages, STAGE_TYPES } from '../engine/GameEngine.js';
 import { sound } from '../audio/SoundSynthesizer.js';
 import confetti from 'canvas-confetti';
-import defaultLevelsData from '../../public/data/levels.json' with { type: 'json' };
+import { defaultLevelsData } from '../data/defaultLevels.js';
 
 export const TOTAL_STAGES_PER_LEVEL = 10;
 export const STARS_PER_STAGE = 0.5;
