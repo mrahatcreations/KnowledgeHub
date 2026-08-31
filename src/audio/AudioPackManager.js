@@ -2,9 +2,10 @@ import { BinaryAudioPackEngine } from './BinaryAudioPackEngine.js';
 
 // AudioPackManager.js - Manages Offline Audio Pack download, local cache storage, and CDN streaming
 const CACHE_NAME = 'vocabmaster-audio-pack-v1';
-const GITHUB_CDN_BASE = 'https://raw.githubusercontent.com/mrahatcreations/VocabMaster/main/public/audio';
-const GITHUB_RELEASE_PACK_URL = 'https://github.com/mrahatcreations/VocabMaster/releases/download/v1.0.9/voice_pack_v1.khpack';
-const GITHUB_PACK_URL = 'https://raw.githubusercontent.com/mrahatcreations/VocabMaster/main/public/data/voice_pack_v1.khpack';
+const GITHUB_CDN_BASE = 'https://raw.githubusercontent.com/mrahatcreations/KnowledgeHub/main/public/audio';
+const GITHUB_RELEASE_PACK_URL = 'https://github.com/mrahatcreations/KnowledgeHub/releases/download/v1.1.0/voice_pack_v1.khpack';
+const GITHUB_RELEASE_PACK_URL_FALLBACK = 'https://github.com/mrahatcreations/KnowledgeHub/releases/download/v1.0.9/voice_pack_v1.khpack';
+const GITHUB_PACK_URL = 'https://raw.githubusercontent.com/mrahatcreations/KnowledgeHub/main/public/data/voice_pack_v1.khpack';
 const LOCAL_PACK_URL = '/data/voice_pack_v1.khpack';
 const LOCAL_BASE = '/audio';
 const STORAGE_KEY_PACK_STATUS = 'vocabmaster_audio_pack_status';
@@ -192,6 +193,11 @@ class AudioPackManager {
 
       console.log('📦 [AudioPackManager] Fetching from single URL:', targetUrl);
       let response = await fetch(targetUrl, { signal }).catch(() => null);
+      if (!response || !response.ok) {
+        console.warn('⚠️ Release v1.1.0 CDN failed, trying Release v1.0.9 fallback...');
+        targetUrl = GITHUB_RELEASE_PACK_URL_FALLBACK;
+        response = await fetch(targetUrl, { signal }).catch(() => null);
+      }
       if (!response || !response.ok) {
         console.warn('⚠️ Release CDN failed, trying GitHub Raw CDN...');
         targetUrl = GITHUB_PACK_URL;
