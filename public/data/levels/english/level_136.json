@@ -1,0 +1,133 @@
+{
+  "level_id": 136,
+  "title": "Level 136: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 676,
+      "word": "Deprecate",
+      "ipa": "/ˈdeprəkeɪt/",
+      "pos": "v",
+      "meaning": "নিন্দা করা, অসম্মতি প্রকাশ করা, অবমূল্যায়ন করা",
+      "synonyms": [
+        "disapprove",
+        "condemn",
+        "belittle",
+        "disparage"
+      ],
+      "antonyms": [
+        "commend",
+        "endorse",
+        "approve",
+        "praise"
+      ],
+      "raw_synonyms": "disapprove, condemn, belittle, disparage",
+      "raw_antonyms": "commend, endorse, approve, praise",
+      "sentence": "Environmental scientists strongly deprecate the continued reliance on fossil fuels without sustainable alternatives.",
+      "sentence_meaning": "পরিবেশ বিজ্ঞানীরা টেকসই বিকল্প ছাড়া জীবাশ্ম জ্বালানির ওপর ক্রমাগত নির্ভরতার তীব্র নিন্দা প্রকাশ করেছেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 677,
+      "word": "Conceal",
+      "ipa": "/kənˈsiːl/",
+      "pos": "v",
+      "meaning": "গোপন করা, লুকিয়ে রাখা, ঢেকে রাখা",
+      "synonyms": [
+        "hide",
+        "disguise",
+        "mask",
+        "cover"
+      ],
+      "antonyms": [
+        "reveal",
+        "disclose",
+        "expose",
+        "uncover"
+      ],
+      "raw_synonyms": "hide, disguise, mask, cover",
+      "raw_antonyms": "reveal, disclose, expose, uncover",
+      "sentence": "The suspect attempted to conceal crucial financial records to evade scrutiny by tax authorities.",
+      "sentence_meaning": "কর কর্তৃপক্ষের তদন্ত এড়াতে সন্দেহভাজন ব্যক্তি গুরুত্বপূর্ণ আর্থিক নথি গোপন করার চেষ্টা করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 678,
+      "word": "Convict",
+      "ipa": "/kənˈvɪkt/",
+      "pos": "v",
+      "meaning": "দোষী সাব্যস্ত করা, দণ্ড প্রদান করা",
+      "synonyms": [
+        "sentence",
+        "condemn",
+        "find guilty",
+        "incarcerate"
+      ],
+      "antonyms": [
+        "acquit",
+        "exonerate",
+        "absolve",
+        "pardon"
+      ],
+      "raw_synonyms": "sentence, condemn, find guilty, incarcerate",
+      "raw_antonyms": "acquit, exonerate, absolve, pardon",
+      "sentence": "The high court convicted the former executive of corporate fraud following a comprehensive year-long investigation.",
+      "sentence_meaning": "এক বছরব্যাপী পূর্ণাঙ্গ তদন্তের পর হাইকোর্ট সাবেক নির্বাহীকে করপোরেট জালিয়াতির জন্য দোষী সাব্যস্ত করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 679,
+      "word": "Calamity",
+      "ipa": "/kəˈlæməti/",
+      "pos": "n",
+      "meaning": "চরম বিপর্যয়, দুর্যোগ, দুর্দশা",
+      "synonyms": [
+        "disaster",
+        "catastrophe",
+        "tragedy",
+        "misfortune"
+      ],
+      "antonyms": [
+        "blessing",
+        "boon",
+        "prosperity",
+        "success"
+      ],
+      "raw_synonyms": "disaster, catastrophe, tragedy, misfortune",
+      "raw_antonyms": "blessing, boon, prosperity, success",
+      "sentence": "The devastating earthquake was a national calamity that left thousands of families homeless and displaced.",
+      "sentence_meaning": "বিধ্বংসী ভূমিকম্পটি একটি জাতীয় বিপর্যয় ছিল যা হাজার হাজার পরিবারকে গৃহহীন ও বাস্তুচ্যুত করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 680,
+      "word": "Clandestine",
+      "ipa": "/klænˈdestɪn/",
+      "pos": "adj",
+      "meaning": "গোপন, গোপনে পরিচালিত, গুপ্ত",
+      "synonyms": [
+        "secret",
+        "covert",
+        "surreptitious",
+        "stealthy"
+      ],
+      "antonyms": [
+        "open",
+        "public",
+        "overt",
+        "transparent"
+      ],
+      "raw_synonyms": "secret, covert, surreptitious, stealthy",
+      "raw_antonyms": "open, public, overt, transparent",
+      "sentence": "Intelligence agencies uncovered a clandestine network orchestrating cyber attacks against government databases.",
+      "sentence_meaning": "গোয়েন্দা সংস্থাগুলো সরকারি ডাটাবেজের বিরুদ্ধে সাইবার আক্রমণ পরিচালনাকারী একটি গোপন নেটওয়ার্ক উন্মোচন করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

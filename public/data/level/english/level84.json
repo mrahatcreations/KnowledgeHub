@@ -1,0 +1,132 @@
+{
+  "level_id": 84,
+  "title": "Level 84: Vocabulary",
+  "unit": "Vocabulary Table",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 416,
+      "word": "Customary",
+      "ipa": "/ˈkʌstəmeri/",
+      "pos": "adj",
+      "meaning": "প্রথাগত, চিরাচরিত, প্রথাসিদ্ধ",
+      "synonyms": [
+        "traditional",
+        "conventional",
+        "habitual",
+        "accustomed"
+      ],
+      "antonyms": [
+        "unusual",
+        "unconventional",
+        "abnormal",
+        "irregular"
+      ],
+      "raw_synonyms": "traditional, conventional, habitual, accustomed",
+      "raw_antonyms": "unusual, unconventional, abnormal, irregular",
+      "sentence": "It is customary in many Asian cultures to take off one's shoes before entering a home.",
+      "sentence_meaning": "অনেক এশীয় সংস্কৃতিতে ঘরে প্রবেশের আগে জুতো খুলে ফেলা প্রথাগত রীতি।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 417,
+      "word": "Gratitude",
+      "ipa": "/ˈɡrætɪtuːd/",
+      "pos": "n",
+      "meaning": "কৃতজ্ঞতা, ধন্যবাদ জ্ঞাপন",
+      "synonyms": [
+        "thankfulness",
+        "appreciation",
+        "gratefulness",
+        "acknowledgment"
+      ],
+      "antonyms": [
+        "ingratitude",
+        "ungratefulness",
+        "unthankfulness",
+        "resentment"
+      ],
+      "raw_synonyms": "thankfulness, appreciation, gratefulness, acknowledgment",
+      "raw_antonyms": "ingratitude, ungratefulness, unthankfulness, resentment",
+      "sentence": "She expressed sincere gratitude to the dedicated volunteers who worked tirelessly during the crisis.",
+      "sentence_meaning": "সংকটকালে অক্লান্ত পরিশ্রম করা নিবেদিতপ্রাণ স্বেচ্ছাসেবকদের প্রতি তিনি আন্তরিক কৃতজ্ঞতা প্রকাশ করেছেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 418,
+      "word": "Upbringing",
+      "ipa": "/ˈʌpbrɪŋɪŋ/",
+      "pos": "n",
+      "meaning": "প্রতিপালন, লালন-পালন, শিক্ষাদীক্ষা",
+      "synonyms": [
+        "nurture",
+        "rearing",
+        "breeding",
+        "childhood development"
+      ],
+      "antonyms": [
+        "neglect",
+        "abandonment",
+        "deprivation"
+      ],
+      "raw_synonyms": "nurture, rearing, breeding, childhood development",
+      "raw_antonyms": "neglect, abandonment, deprivation",
+      "sentence": "His strict yet compassionate upbringing shaped his strong moral values and discipline.",
+      "sentence_meaning": "তাঁর কঠোর কিন্তু মমতাময় লালন-পালন তাঁর দৃঢ় নৈতিক মূল্যবোধ ও শৃঙ্খলাবোধ গড়ে তুলেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 419,
+      "word": "Scatter",
+      "ipa": "/ˈskætər/",
+      "pos": "v",
+      "meaning": "ছড়িয়ে দেওয়া, ছিটিয়ে ফেলা, ছত্রভঙ্গ করা",
+      "synonyms": [
+        "disperse",
+        "dissipate",
+        "sprinkle",
+        "distribute"
+      ],
+      "antonyms": [
+        "gather",
+        "collect",
+        "assemble",
+        "accumulate"
+      ],
+      "raw_synonyms": "disperse, dissipate, sprinkle, distribute",
+      "raw_antonyms": "gather, collect, assemble, accumulate",
+      "sentence": "The strong gusts of autumn wind caused the dried leaves to scatter across the entire lawn.",
+      "sentence_meaning": "শরতের তীব্র দমকা বাতাস পুরো লনে শুকনো পাতাগুলো ছড়িয়ে দিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 420,
+      "word": "Eternal",
+      "ipa": "/ɪˈtɜːrnl/",
+      "pos": "adj",
+      "meaning": "চিরস্থায়ী, অনন্ত, শাশ্বত",
+      "synonyms": [
+        "perpetual",
+        "everlasting",
+        "immortal",
+        "endless"
+      ],
+      "antonyms": [
+        "temporary",
+        "ephemeral",
+        "transient",
+        "fleeting"
+      ],
+      "raw_synonyms": "perpetual, everlasting, immortal, endless",
+      "raw_antonyms": "temporary, ephemeral, transient, fleeting",
+      "sentence": "Philosophers and poets have long debated whether true love represents an eternal bond.",
+      "sentence_meaning": "দার্শনিক ও কবিরা দীর্ঘকাল ধরে বিতর্ক করেছেন যে প্রকৃত ভালোবাসা একটি শাশ্বত ও অনন্ত বন্ধন কিনা।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    }
+  ]
+}

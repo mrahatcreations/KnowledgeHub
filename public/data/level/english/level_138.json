@@ -1,0 +1,133 @@
+{
+  "level_id": 138,
+  "title": "Level 138: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 686,
+      "word": "Cosmopolitan",
+      "ipa": "/ˌkɑːzməˈpɑːlɪtən/",
+      "pos": "adj",
+      "meaning": "বিশ্বজনীন, বহুসংস্কৃতিসম্পন্ন, উদারমনা",
+      "synonyms": [
+        "global",
+        "universal",
+        "multicultural",
+        "broad-minded"
+      ],
+      "antonyms": [
+        "provincial",
+        "insular",
+        "parochial",
+        "narrow-minded"
+      ],
+      "raw_synonyms": "global, universal, multicultural, broad-minded",
+      "raw_antonyms": "provincial, insular, parochial, narrow-minded",
+      "sentence": "London is a truly cosmopolitan metropolis renowned for its rich cultural diversity and international cuisine.",
+      "sentence_meaning": "লন্ডন একটি প্রকৃত বিশ্বজনীন মহানগরী যা তার সমৃদ্ধ সাংস্কৃতিক বৈচিত্র্য এবং আন্তর্জাতিক খাবারের জন্য বিখ্যাত।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 687,
+      "word": "Deliberate",
+      "ipa": "/dɪˈlɪbərət/",
+      "pos": "adj",
+      "meaning": "ইচ্ছাকৃত, সুচিন্তিত, উদ্দেশ্যমূলক",
+      "synonyms": [
+        "intentional",
+        "calculated",
+        "premeditated",
+        "conscious"
+      ],
+      "antonyms": [
+        "accidental",
+        "unintentional",
+        "inadvertent",
+        "impulsive"
+      ],
+      "raw_synonyms": "intentional, calculated, premeditated, conscious",
+      "raw_antonyms": "accidental, unintentional, inadvertent, impulsive",
+      "sentence": "The company made a deliberate decision to withdraw from the unprofitable overseas market.",
+      "sentence_meaning": "কোম্পানিটি অলাভজনক বিদেশি বাজার থেকে সরে আসার জন্য একটি সুচিন্তিত ও ইচ্ছাকৃত সিদ্ধান্ত নিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 688,
+      "word": "Dejected",
+      "ipa": "/dɪˈdʒektɪd/",
+      "pos": "adj",
+      "meaning": "হতাশ, বিষণ্ণ, বিমর্ষ",
+      "synonyms": [
+        "depressed",
+        "crestfallen",
+        "despondent",
+        "disheartened"
+      ],
+      "antonyms": [
+        "cheerful",
+        "elated",
+        "exuberant",
+        "joyful"
+      ],
+      "raw_synonyms": "depressed, crestfallen, despondent, disheartened",
+      "raw_antonyms": "cheerful, elated, exuberant, joyful",
+      "sentence": "The team looked visibly dejected after losing the hard-fought semifinal match in extra time.",
+      "sentence_meaning": "অতিরিক্ত সময়ের তীব্র প্রতিদ্বন্দ্বিতাপূর্ণ সেমিফাইনাল ম্যাচে হেরে যাওয়ার পর দলটি দৃশ্যত হতাশ ও বিমর্ষ দেখাচ্ছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 689,
+      "word": "Discrepancy",
+      "ipa": "/dɪˈskrepənsi/",
+      "pos": "n",
+      "meaning": "অমিল, অসঙ্গতি, গরমিল",
+      "synonyms": [
+        "inconsistency",
+        "disparity",
+        "divergence",
+        "variance"
+      ],
+      "antonyms": [
+        "consistency",
+        "agreement",
+        "harmony",
+        "congruence"
+      ],
+      "raw_synonyms": "inconsistency, disparity, divergence, variance",
+      "raw_antonyms": "consistency, agreement, harmony, congruence",
+      "sentence": "Auditors uncovered a substantial discrepancy between the reported revenue and actual bank deposits.",
+      "sentence_meaning": "নিরীক্ষকরা ঘোষিত রাজস্ব এবং প্রকৃত ব্যাংক জমার মধ্যে একটি বড় ধরনের গরমিল ও অসঙ্গতি উদঘাটন করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 690,
+      "word": "Divulge",
+      "ipa": "/daɪˈvʌldʒ/",
+      "pos": "v",
+      "meaning": "ফাঁস করা, প্রকাশ করা, গোপন তথ্য জানানো",
+      "synonyms": [
+        "reveal",
+        "disclose",
+        "impart",
+        "unveil"
+      ],
+      "antonyms": [
+        "conceal",
+        "suppress",
+        "hide",
+        "withhold"
+      ],
+      "raw_synonyms": "reveal, disclose, impart, unveil",
+      "raw_antonyms": "conceal, suppress, hide, withhold",
+      "sentence": "Under strict non-disclosure agreements, employees are forbidden to divulge proprietary source code to competitors.",
+      "sentence_meaning": "কঠোর গোপনীয়তা চুক্তির অধীনে কর্মচারীদের প্রতিযোগীদের কাছে স্বত্বাধিকারী সোর্স কোড প্রকাশ বা ফাঁস করা নিষিদ্ধ।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "level_id": 111,
+  "title": "Level 111: Phrasal Verb",
+  "unit": "Image 19 (image (19).jpg) - Phrasal Verbs",
+  "category": "Phrasal Verb",
+  "items": [
+    {
+      "id": 551,
+      "word": "Come off",
+      "ipa": "/kʌm ɒf/",
+      "pos": "phrase",
+      "meaning": "সম্পন্ন হওয়া, সফলভাবে ঘটা",
+      "synonyms": [
+        "take place",
+        "succeed",
+        "occur",
+        "transpire"
+      ],
+      "antonyms": [
+        "fail",
+        "fall through",
+        "collapse",
+        "misfire"
+      ],
+      "raw_synonyms": "take place, succeed, occur, transpire",
+      "raw_antonyms": "fail, fall through, collapse, misfire",
+      "sentence": "The annual sports competition came off successfully despite the morning rain.",
+      "sentence_meaning": "সকালের বৃষ্টি সত্ত্বেও বার্ষিক ক্রীড়া প্রতিযোগিতা সফলভাবে সম্পন্ন হয়েছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 552,
+      "word": "Come out",
+      "ipa": "/kʌm aʊt/",
+      "pos": "phrase",
+      "meaning": "প্রকাশিত হওয়া, জনসমক্ষে আসা",
+      "synonyms": [
+        "be published",
+        "emerge",
+        "be revealed",
+        "appear"
+      ],
+      "antonyms": [
+        "remain hidden",
+        "disappear",
+        "vanish",
+        "be concealed"
+      ],
+      "raw_synonyms": "be published, emerge, be revealed, appear",
+      "raw_antonyms": "remain hidden, disappear, vanish, be concealed",
+      "sentence": "The board exam results will come out on the official website next Monday.",
+      "sentence_meaning": "বোর্ড পরীক্ষার ফলাফল আগামী সোমবার অফিসিয়াল ওয়েবসাইটে প্রকাশিত হবে।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 553,
+      "word": "Come up with",
+      "ipa": "/kʌm ʌp wɪð/",
+      "pos": "phrase",
+      "meaning": "বুদ্ধি বা পরিকল্পনা উদ্ভাবন করা, সমাধান বের করা",
+      "synonyms": [
+        "devise",
+        "produce",
+        "invent",
+        "conceive"
+      ],
+      "antonyms": [
+        "ignore",
+        "disregard",
+        "forget",
+        "abandon"
+      ],
+      "raw_synonyms": "devise, produce, invent, conceive",
+      "raw_antonyms": "ignore, disregard, forget, abandon",
+      "sentence": "The brilliant engineer came up with an innovative solution to reduce energy consumption.",
+      "sentence_meaning": "মেধাবী প্রকৌশলী শক্তি খরচ কমানোর জন্য একটি উদ্ভাবনী সমাধান বের করেছিলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 554,
+      "word": "Count on",
+      "ipa": "/kaʊnt ɒn/",
+      "pos": "phrase",
+      "meaning": "ভরসা করা, কারো ওপর নির্ভর করা",
+      "synonyms": [
+        "rely on",
+        "depend on",
+        "bank on",
+        "trust"
+      ],
+      "antonyms": [
+        "distrust",
+        "doubt",
+        "disbelieve",
+        "suspect"
+      ],
+      "raw_synonyms": "rely on, depend on, bank on, trust",
+      "raw_antonyms": "distrust, doubt, disbelieve, suspect",
+      "sentence": "You can always count on your true friends during difficult times.",
+      "sentence_meaning": "কঠিন সময়ে আপনি সর্বদা আপনার প্রকৃত বন্ধুদের উপর ভরসা করতে পারেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 555,
+      "word": "Come down with",
+      "ipa": "/kʌm daʊn wɪð/",
+      "pos": "phrase",
+      "meaning": "রোগে আক্রান্ত হওয়া, অসুস্থ হয়ে পড়া",
+      "synonyms": [
+        "contract",
+        "catch",
+        "fall ill with",
+        "develop"
+      ],
+      "antonyms": [
+        "recover from",
+        "overcome",
+        "resist",
+        "heal"
+      ],
+      "raw_synonyms": "contract, catch, fall ill with, develop",
+      "raw_antonyms": "recover from, overcome, resist, heal",
+      "sentence": "Several students in our class came down with a viral fever this week.",
+      "sentence_meaning": "আমাদের ক্লাসের বেশ কয়েকজন শিক্ষার্থী এই সপ্তাহে ভাইরাল জ্বরে আক্রান্ত হয়েছে।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    }
+  ]
+}

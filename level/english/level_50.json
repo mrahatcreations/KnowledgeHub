@@ -1,0 +1,132 @@
+{
+  "level_id": 50,
+  "title": "Level 50: Word Transformation",
+  "unit": "Image 8 (image (8).jpg) - Transformation of Word",
+  "category": "Word Transformation",
+  "items": [
+    {
+      "id": 246,
+      "word": "Beauty",
+      "ipa": "/ˈbjuːti/",
+      "pos": "n",
+      "meaning": "সৌন্দর্য, রূপ",
+      "synonyms": [
+        "attractiveness",
+        "elegance",
+        "loveliness",
+        "grace"
+      ],
+      "antonyms": [
+        "ugliness",
+        "grotesqueness",
+        "unattractiveness",
+        "repulsiveness"
+      ],
+      "raw_synonyms": "attractiveness, elegance, loveliness, grace",
+      "raw_antonyms": "ugliness, grotesqueness, unattractiveness, repulsiveness",
+      "sentence": "Poets throughout history have composed verses celebrating the ethereal beauty of pristine nature.",
+      "sentence_meaning": "ইতিহাসজুড়ে কবিরা অমলিন প্রকৃতির অপার্থিব সৌন্দর্য উদযাপন করে কবিতা রচনা করেছেন।",
+      "category": "Word Transformation",
+      "unit": "Image 8 (image (8).jpg) - Transformation of Word"
+    },
+    {
+      "id": 247,
+      "word": "Belief",
+      "ipa": "/bɪˈliːf/",
+      "pos": "n",
+      "meaning": "বিশ্বাস, আস্থা",
+      "synonyms": [
+        "conviction",
+        "faith",
+        "credence",
+        "trust"
+      ],
+      "antonyms": [
+        "disbelief",
+        "skepticism",
+        "doubt",
+        "distrust"
+      ],
+      "raw_synonyms": "conviction, faith, credence, trust",
+      "raw_antonyms": "disbelief, skepticism, doubt, distrust",
+      "sentence": "It is her steadfast belief that education is the most potent weapon against global poverty.",
+      "sentence_meaning": "এটি তাঁর দৃঢ় বিশ্বাস যে শিক্ষা হলো বৈশ্বিক দারিদ্র্যের বিরুদ্ধে সবচেয়ে শক্তিশালী হাতিয়ার।",
+      "category": "Word Transformation",
+      "unit": "Image 8 (image (8).jpg) - Transformation of Word"
+    },
+    {
+      "id": 248,
+      "word": "Bitterness",
+      "ipa": "/ˈbɪtərnəs/",
+      "pos": "n",
+      "meaning": "তিক্ততা, বৈরিতা",
+      "synonyms": [
+        "acrimony",
+        "hostility",
+        "resentment",
+        "sourness"
+      ],
+      "antonyms": [
+        "sweetness",
+        "cordiality",
+        "warmth",
+        "friendliness"
+      ],
+      "raw_synonyms": "acrimony, hostility, resentment, sourness",
+      "raw_antonyms": "sweetness, cordiality, warmth, friendliness",
+      "sentence": "Years of unresolved family conflict left deep traces of bitterness between the estranged siblings.",
+      "sentence_meaning": "বছরের পর বছর ধরে অমীমাংসিত পারিবারিক দ্বন্দ্ব বিচ্ছিন্ন ভাইবোনদের মধ্যে তিক্ততার গভীর চিহ্ন রেখে গেছে।",
+      "category": "Word Transformation",
+      "unit": "Image 8 (image (8).jpg) - Transformation of Word"
+    },
+    {
+      "id": 249,
+      "word": "Commentary",
+      "ipa": "/ˈkɑːmənteri/",
+      "pos": "n",
+      "meaning": "ধারাবিবরণী, ব্যাখ্যা বা মন্তব্য",
+      "synonyms": [
+        "explanation",
+        "critique",
+        "analysis",
+        "interpretation"
+      ],
+      "antonyms": [
+        "silence",
+        "omission",
+        "disregard"
+      ],
+      "raw_synonyms": "explanation, critique, analysis, interpretation",
+      "raw_antonyms": "silence, omission, disregard",
+      "sentence": "The sports journalist provided insightful live commentary throughout the thrilling football final.",
+      "sentence_meaning": "ক্রীড়া সাংবাদিক রোমাঞ্চকর ফুটবল ফাইনাল জুড়ে অন্তর্দৃষ্টিপূর্ণ সরাসরি ধারাবিবরণী প্রদান করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 250,
+      "word": "Aesthetic",
+      "ipa": "/esˈθetɪk/",
+      "pos": "adj",
+      "meaning": "নান্দনিক, সৌন্দর্যচর্চামূলক",
+      "synonyms": [
+        "artistic",
+        "visually pleasing",
+        "refined",
+        "tasteful"
+      ],
+      "antonyms": [
+        "unaesthetic",
+        "tasteless",
+        "crude",
+        "unrefined"
+      ],
+      "raw_synonyms": "artistic, visually pleasing, refined, tasteful",
+      "raw_antonyms": "unaesthetic, tasteless, crude, unrefined",
+      "sentence": "Modern architecture balances practical structural engineering with elegant aesthetic values.",
+      "sentence_meaning": "আধুনিক স্থাপত্য ব্যবহারিক কাঠামোগত প্রকৌশলের সাথে মার্জিত নান্দনিক মূল্যের ভারসাম্য বজায় রাখে।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    }
+  ]
+}

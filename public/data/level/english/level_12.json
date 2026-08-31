@@ -1,0 +1,133 @@
+{
+  "level_id": 12,
+  "title": "Level 12: Vocabulary",
+  "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 56,
+      "word": "Nod",
+      "ipa": "/nɒd/",
+      "pos": "v",
+      "meaning": "মাথা নেড়ে সম্মতি জানানো, মাথা ঝাঁকানো",
+      "synonyms": [
+        "gesture",
+        "acknowledge",
+        "agree",
+        "signal"
+      ],
+      "antonyms": [
+        "disagree",
+        "dissent",
+        "refuse",
+        "object"
+      ],
+      "raw_synonyms": "gesture, acknowledge, agree, signal",
+      "raw_antonyms": "disagree, dissent, refuse, object",
+      "sentence": "The director nodded in agreement as the manager proposed the new project timeline.",
+      "sentence_meaning": "ম্যানেজার নতুন প্রকল্পের সময়সীমা প্রস্তাব করার সাথে সাথে পরিচালক সম্মতির লক্ষণ হিসেবে মাথা নাড়লেন।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    },
+    {
+      "id": 57,
+      "word": "Racking",
+      "ipa": "/ˈrækɪŋ/",
+      "pos": "adj",
+      "meaning": "যন্ত্রনাদায়ক, তীব্র পীড়াদায়ক",
+      "synonyms": [
+        "tormenting",
+        "excruciating",
+        "agonizing",
+        "painful"
+      ],
+      "antonyms": [
+        "soothing",
+        "comforting",
+        "relieving",
+        "calming"
+      ],
+      "raw_synonyms": "tormenting, excruciating, agonizing, painful",
+      "raw_antonyms": "soothing, comforting, relieving, calming",
+      "sentence": "He suffered from a racking headache that made it impossible to concentrate on his work.",
+      "sentence_meaning": "তিনি তীব্র পীড়াদায়ক মাথাব্যথায় ভুগছিলেন যার কারণে কাজে মনোযোগ দেওয়া অসম্ভব হয়ে পড়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    },
+    {
+      "id": 58,
+      "word": "Rip",
+      "ipa": "/rɪp/",
+      "pos": "n",
+      "meaning": "ছেঁড়া অংশ, ফাটল, ছেঁড়া ক্ষত",
+      "synonyms": [
+        "tear",
+        "rent",
+        "split",
+        "gash"
+      ],
+      "antonyms": [
+        "mend",
+        "repair",
+        "patch",
+        "stitch"
+      ],
+      "raw_synonyms": "tear, rent, split, gash",
+      "raw_antonyms": "mend, repair, patch, stitch",
+      "sentence": "There was a noticeable rip in the sleeve of his winter jacket.",
+      "sentence_meaning": "তার শীতকালীন জ্যাকেটের হাতায় একটি সুস্পষ্ট ছেঁড়া অংশ ছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    },
+    {
+      "id": 59,
+      "word": "Crawling",
+      "ipa": "/ˈkrɔːlɪŋ/",
+      "pos": "adj",
+      "meaning": "ধীরগতিতে চলা, হামাগুড়ি দেওয়া",
+      "synonyms": [
+        "creeping",
+        "sluggish",
+        "inching",
+        "slow-moving"
+      ],
+      "antonyms": [
+        "speeding",
+        "rushing",
+        "swift",
+        "rapid"
+      ],
+      "raw_synonyms": "creeping, sluggish, inching, slow-moving",
+      "raw_antonyms": "speeding, rushing, swift, rapid",
+      "sentence": "The morning traffic on the highway was reduced to a crawling pace.",
+      "sentence_meaning": "মহাসড়কে সকালের যানবাহন অত্যন্ত ধীরগতিতে চলতে বাধ্য হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    },
+    {
+      "id": 60,
+      "word": "Burrow",
+      "ipa": "/ˈbʌroʊ/",
+      "pos": "v",
+      "meaning": "গর্ত খুঁড়ে ঢোকা, সুড়ঙ্গ তৈরি করা",
+      "synonyms": [
+        "tunnel",
+        "excavate",
+        "dig",
+        "submerge"
+      ],
+      "antonyms": [
+        "surface",
+        "emerge",
+        "climb",
+        "ascend"
+      ],
+      "raw_synonyms": "tunnel, excavate, dig, submerge",
+      "raw_antonyms": "surface, emerge, climb, ascend",
+      "sentence": "Rabbits burrow deep into the soft earth to create safe underground warrens.",
+      "sentence_meaning": "খরগোশ নিরাপদ ভূগর্ভস্থ বাসস্থান তৈরির জন্য নরম মাটির গভীরে গর্ত খুঁড়ে ঢোকে।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    }
+  ]
+}

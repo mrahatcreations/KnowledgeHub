@@ -1,0 +1,133 @@
+{
+  "level_id": 149,
+  "title": "Level 149: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 741,
+      "word": "Knack",
+      "ipa": "/næk/",
+      "pos": "n",
+      "meaning": "সহজাত দক্ষতা, বিশেষ কৌশল, পারদর্শিতা",
+      "synonyms": [
+        "talent",
+        "aptitude",
+        "skill",
+        "flair"
+      ],
+      "antonyms": [
+        "incompetence",
+        "clumsiness",
+        "ineptitude",
+        "awkwardness"
+      ],
+      "raw_synonyms": "talent, aptitude, skill, flair",
+      "raw_antonyms": "incompetence, clumsiness, ineptitude, awkwardness",
+      "sentence": "She has an extraordinary knack for resolving complicated workplace disputes with tact and diplomacy.",
+      "sentence_meaning": "কৌশল ও কূটনীতির মাধ্যমে কর্মক্ষেত্রের জটিল বিরোধ মেটাতে তাঁর এক অসাধারণ সহজাত দক্ষতা রয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 742,
+      "word": "Latent",
+      "ipa": "/ˈleɪtnt/",
+      "pos": "adj",
+      "meaning": "সুপ্ত, প্রচ্ছন্ন, অপ্রকাশিত",
+      "synonyms": [
+        "dormant",
+        "hidden",
+        "potential",
+        "concealed"
+      ],
+      "antonyms": [
+        "active",
+        "manifest",
+        "apparent",
+        "obvious"
+      ],
+      "raw_synonyms": "dormant, hidden, potential, concealed",
+      "raw_antonyms": "active, manifest, apparent, obvious",
+      "sentence": "Targeted training programs help young athletes discover and maximize their latent potential.",
+      "sentence_meaning": "নির্দিষ্ট প্রশিক্ষণ কর্মসূচি তরুণ অ্যাথলেটদের তাদের সুপ্ত সম্ভাবনা আবিষ্কার ও সর্বাধিক করতে সাহায্য করে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 743,
+      "word": "Laudable",
+      "ipa": "/ˈlɔːdəbl/",
+      "pos": "adj",
+      "meaning": "প্রশংসনীয়, তারিফযোগ্য, প্রশংসাহ",
+      "synonyms": [
+        "praiseworthy",
+        "commendable",
+        "meritorious",
+        "admirable"
+      ],
+      "antonyms": [
+        "blameworthy",
+        "disgraceful",
+        "deplorable",
+        "contemptible"
+      ],
+      "raw_synonyms": "praiseworthy, commendable, meritorious, admirable",
+      "raw_antonyms": "blameworthy, disgraceful, deplorable, contemptible",
+      "sentence": "The volunteer organization made laudable efforts to provide immediate relief to cyclone victims.",
+      "sentence_meaning": "স্বেচ্ছাসেবী সংস্থাটি ঘূর্ণিঝড়ে ক্ষতিগ্রস্তদের তাৎক্ষণিক ত্রাণ পৌঁছে দিতে প্রশংসনীয় প্রচেষ্টা চালিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 744,
+      "word": "Malice",
+      "ipa": "/ˈmælɪs/",
+      "pos": "n",
+      "meaning": "বিদ্বেষ, পরশ্রীকাতরতা, হিংসা, শত্রুভাব",
+      "synonyms": [
+        "spite",
+        "ill will",
+        "malignity",
+        "rancor"
+      ],
+      "antonyms": [
+        "benevolence",
+        "kindness",
+        "goodwill",
+        "compassion"
+      ],
+      "raw_synonyms": "spite, ill will, malignity, rancor",
+      "raw_antonyms": "benevolence, kindness, goodwill, compassion",
+      "sentence": "The allegations were made purely out of political malice to defame the integrity of the candidate.",
+      "sentence_meaning": "প্রার্থীর সুনাম নষ্ট করার জন্য সম্পূর্ণ রাজনৈতিক বিদ্বেষ থেকেই অভিযোগগুলো তোলা হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 745,
+      "word": "Mitigate",
+      "ipa": "/ˈmɪtɪɡeɪt/",
+      "pos": "v",
+      "meaning": "হ্রাস করা, প্রশমিত করা, লাঘব করা",
+      "synonyms": [
+        "alleviate",
+        "lessen",
+        "relieve",
+        "ease"
+      ],
+      "antonyms": [
+        "aggravate",
+        "exacerbate",
+        "intensify",
+        "worsen"
+      ],
+      "raw_synonyms": "alleviate, lessen, relieve, ease",
+      "raw_antonyms": "aggravate, exacerbate, intensify, worsen",
+      "sentence": "Reforestation initiatives are critical to mitigate the severe consequences of global climate change.",
+      "sentence_meaning": "বৈশ্বিক জলবায়ু পরিবর্তনের তীব্র ক্ষতিকর প্রভাব লাঘব করতে পুনর্বনায়ন উদ্যোগ অত্যন্ত গুরুত্বপূর্ণ।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

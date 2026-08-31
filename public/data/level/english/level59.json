@@ -1,0 +1,133 @@
+{
+  "level_id": 59,
+  "title": "Level 59: Vocabulary",
+  "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 291,
+      "word": "Intuitive",
+      "ipa": "/ɪnˈtuːɪtɪv/",
+      "pos": "adj",
+      "meaning": "সহজাত, স্বজ্ঞাত ও সহজবোধ্য",
+      "synonyms": [
+        "instinctive",
+        "spontaneous",
+        "innate",
+        "perceptive"
+      ],
+      "antonyms": [
+        "deliberate",
+        "calculated",
+        "reasoned",
+        "learned"
+      ],
+      "raw_synonyms": "instinctive, spontaneous, innate, perceptive",
+      "raw_antonyms": "deliberate, calculated, reasoned, learned",
+      "sentence": "The smartphone software boasts an intuitive interface that even toddlers can navigate easily.",
+      "sentence_meaning": "স্মার্টফোনের সফটওয়্যারটিতে একটি সহজবোধ্য ইন্টারফেস রয়েছে যা ছোট শিশুরাও সহজে পরিচালনা করতে পারে।",
+      "category": "Vocabulary",
+      "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)"
+    },
+    {
+      "id": 292,
+      "word": "Stature",
+      "ipa": "/ˈstætʃər/",
+      "pos": "n",
+      "meaning": "সামাজিক মর্যাদা, সম্মানজনক অবস্থান",
+      "synonyms": [
+        "prestige",
+        "standing",
+        "reputation",
+        "eminence"
+      ],
+      "antonyms": [
+        "insignificance",
+        "obscurity",
+        "disrepute",
+        "unimportance"
+      ],
+      "raw_synonyms": "prestige, standing, reputation, eminence",
+      "raw_antonyms": "insignificance, obscurity, disrepute, unimportance",
+      "sentence": "As an internationally acclaimed jurist, her moral stature remains beyond dispute.",
+      "sentence_meaning": "একজন আন্তর্জাতিক খ্যাতিসম্পন্ন আইনবিদ হিসেবে তাঁর নৈতিক মর্যাদা প্রশ্নাতীত।",
+      "category": "Vocabulary",
+      "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)"
+    },
+    {
+      "id": 293,
+      "word": "Anonymous",
+      "ipa": "/əˈnɑːnɪməs/",
+      "pos": "adj",
+      "meaning": "নামবিহীন, অজ্ঞাতপরিচয়",
+      "synonyms": [
+        "unnamed",
+        "incognito",
+        "unidentified",
+        "nameless"
+      ],
+      "antonyms": [
+        "identified",
+        "named",
+        "known",
+        "celebrated"
+      ],
+      "raw_synonyms": "unnamed, incognito, unidentified, nameless",
+      "raw_antonyms": "identified, named, known, celebrated",
+      "sentence": "An anonymous philanthropist funded the entire scholarship program for underprivileged students.",
+      "sentence_meaning": "একজন অজ্ঞাতপরিচয় দানবীর সুবিধাবঞ্চিত শিক্ষার্থীদের জন্য পুরো বৃত্তি কর্মসূচিতে অর্থায়ন করেছেন।",
+      "category": "Vocabulary",
+      "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)"
+    },
+    {
+      "id": 294,
+      "word": "Tactile",
+      "ipa": "/ˈtæktaɪl/",
+      "pos": "adj",
+      "meaning": "স্পর্শসম্বন্ধীয়, স্পর্শযোগ্য",
+      "synonyms": [
+        "tangible",
+        "palpable",
+        "touchable",
+        "physical"
+      ],
+      "antonyms": [
+        "intangible",
+        "imperceptible",
+        "incorporeal",
+        "abstract"
+      ],
+      "raw_synonyms": "tangible, palpable, touchable, physical",
+      "raw_antonyms": "intangible, imperceptible, incorporeal, abstract",
+      "sentence": "Braille writing allows visually impaired individuals to read through tactile sensory perception.",
+      "sentence_meaning": "ব্রেইল লিখনপদ্ধতি দৃষ্টিপ্রতিবন্ধী ব্যক্তিদের স্পর্শানুভূতির মাধ্যমে পড়ার সুযোগ করে দেয়।",
+      "category": "Vocabulary",
+      "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)"
+    },
+    {
+      "id": 295,
+      "word": "Generate",
+      "ipa": "/ˈdʒenəreɪt/",
+      "pos": "v",
+      "meaning": "উৎপন্ন করা, তৈরি বা সৃষ্টি করা",
+      "synonyms": [
+        "produce",
+        "create",
+        "yield",
+        "engender"
+      ],
+      "antonyms": [
+        "destroy",
+        "extinguish",
+        "annihilate",
+        "dismantle"
+      ],
+      "raw_synonyms": "produce, create, yield, engender",
+      "raw_antonyms": "destroy, extinguish, annihilate, dismantle",
+      "sentence": "The newly installed solar farm has the capacity to generate clean electricity for the entire town.",
+      "sentence_meaning": "নতুন স্থাপিত সৌর বিদ্যুৎ খামারটির পুরো শহরের জন্য পরিচ্ছন্ন বিদ্যুৎ উৎপাদন করার ক্ষমতা রয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)"
+    }
+  ]
+}

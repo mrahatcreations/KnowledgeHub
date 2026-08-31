@@ -1,0 +1,133 @@
+{
+  "level_id": 19,
+  "title": "Level 19: Vocabulary",
+  "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 91,
+      "word": "Anomalous",
+      "ipa": "/əˈnɒmələs/",
+      "pos": "adj",
+      "meaning": "নিয়মবহির্ভূত, ব্যতিক্রমী, অসংগত",
+      "synonyms": [
+        "abnormal",
+        "exceptional",
+        "irregular",
+        "atypical"
+      ],
+      "antonyms": [
+        "normal",
+        "standard",
+        "regular",
+        "typical"
+      ],
+      "raw_synonyms": "abnormal, exceptional, irregular, atypical",
+      "raw_antonyms": "normal, standard, regular, typical",
+      "sentence": "The laboratory detected anomalous sensor readings that warranted an immediate investigation.",
+      "sentence_meaning": "গবেষণাগারটি সেন্সরে কিছু অস্বাভাবিক তথ্য শনাক্ত করেছে যা তাৎক্ষণিক তদন্তের দাবি রাখে।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    },
+    {
+      "id": 92,
+      "word": "Antipathy",
+      "ipa": "/ænˈtɪpəθi/",
+      "pos": "n",
+      "meaning": "তীব্র বিদ্বেষ, গভীর অপছন্দ, বিরূপ মনোভাব",
+      "synonyms": [
+        "aversion",
+        "hostility",
+        "animosity",
+        "repugnance"
+      ],
+      "antonyms": [
+        "affinity",
+        "affection",
+        "fondness",
+        "sympathy"
+      ],
+      "raw_synonyms": "aversion, hostility, animosity, repugnance",
+      "raw_antonyms": "affinity, affection, fondness, sympathy",
+      "sentence": "A mutual antipathy existed between the two rival political leaders for decades.",
+      "sentence_meaning": "দুই প্রতিদ্বন্দ্বী রাজনৈতিক নেতার মধ্যে কয়েক দশক ধরে পারস্পরিক তীব্র বিদ্বেষ বিরাজ করছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    },
+    {
+      "id": 93,
+      "word": "Apathy",
+      "ipa": "/ˈæpəθi/",
+      "pos": "n",
+      "meaning": "উদাসীনতা, নির্লিপ্ততা, অনীহা",
+      "synonyms": [
+        "indifference",
+        "unconcern",
+        "lethargy",
+        "passivity"
+      ],
+      "antonyms": [
+        "enthusiasm",
+        "passion",
+        "concern",
+        "interest"
+      ],
+      "raw_synonyms": "indifference, unconcern, lethargy, passivity",
+      "raw_antonyms": "enthusiasm, passion, concern, interest",
+      "sentence": "Voter apathy in local elections often results in low turnout and unrepresentative leadership.",
+      "sentence_meaning": "স্থানীয় নির্বাচনে ভোটারদের উদাসীনতার কারণে প্রায়শই কম ভোট পড়ে এবং অযোগ্য নেতৃত্ব তৈরি হয়।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    },
+    {
+      "id": 94,
+      "word": "Appease",
+      "ipa": "/əˈpiːz/",
+      "pos": "v",
+      "meaning": "শান্ত করা, তুষ্ট করা, শান্তিদায়ক আচরণ করা",
+      "synonyms": [
+        "pacify",
+        "mollify",
+        "placate",
+        "soothe"
+      ],
+      "antonyms": [
+        "provoke",
+        "inflame",
+        "irritate",
+        "antagonize"
+      ],
+      "raw_synonyms": "pacify, mollify, placate, soothe",
+      "raw_antonyms": "provoke, inflame, irritate, antagonize",
+      "sentence": "The government made major tax concessions to appease the protesting transport workers.",
+      "sentence_meaning": "আন্দোলনরত পরিবহন শ্রমিকদের শান্ত করতে সরকার কর রেয়াতের বড় ঘোষণা দিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    },
+    {
+      "id": 95,
+      "word": "Approbation",
+      "ipa": "/ˌæprəˈbeɪʃn/",
+      "pos": "n",
+      "meaning": "অনুমোদন, প্রশংসা, সাধুবাদ",
+      "synonyms": [
+        "approval",
+        "commendation",
+        "endorsement",
+        "applause"
+      ],
+      "antonyms": [
+        "disapproval",
+        "censure",
+        "criticism",
+        "reprobation"
+      ],
+      "raw_synonyms": "approval, commendation, endorsement, applause",
+      "raw_antonyms": "disapproval, censure, criticism, reprobation",
+      "sentence": "The scientist's breakthrough discovery received widespread approbation from international peers.",
+      "sentence_meaning": "বিজ্ঞানীর যুগান্তকারী আবিষ্কার আন্তর্জাতিক সহকর্মীদের কাছ থেকে ব্যাপক প্রশংসা ও সাধুবাদ লাভ করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "level_id": 66,
+  "title": "Level 66: Vocabulary",
+  "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 326,
+      "word": "Indigenous",
+      "ipa": "/ɪnˈdɪdʒənəs/",
+      "pos": "adj",
+      "meaning": "দেশীয়, স্থানীয় বা আদিবাসী",
+      "synonyms": [
+        "native",
+        "aboriginal",
+        "endemic",
+        "local"
+      ],
+      "antonyms": [
+        "exotic",
+        "foreign",
+        "alien",
+        "imported"
+      ],
+      "raw_synonyms": "native, aboriginal, endemic, local",
+      "raw_antonyms": "exotic, foreign, alien, imported",
+      "sentence": "The protected national park is home to hundreds of indigenous plant species found nowhere else.",
+      "sentence_meaning": "সুরক্ষিত জাতীয় উদ্যানটি শত শত দেশীয় উদ্ভিদ প্রজাতির আবাসস্থল যা অন্য কোথাও পাওয়া যায় না।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 327,
+      "word": "Interdependence",
+      "ipa": "/ˌɪntərdɪˈpendəns/",
+      "pos": "n",
+      "meaning": "পারস্পরিক নির্ভরতা",
+      "synonyms": [
+        "interconnectedness",
+        "mutual reliance",
+        "reciprocity",
+        "symbiosis"
+      ],
+      "antonyms": [
+        "independence",
+        "autonomy",
+        "self-sufficiency",
+        "isolation"
+      ],
+      "raw_synonyms": "interconnectedness, mutual reliance, reciprocity, symbiosis",
+      "raw_antonyms": "independence, autonomy, self-sufficiency, isolation",
+      "sentence": "Global economic stability relies heavily on the healthy interdependence of trading nations.",
+      "sentence_meaning": "বৈশ্বিক অর্থনৈতিক স্থিতিশীলতা বাণিজ্যিক দেশগুলোর সুস্থ পারস্পরিক নির্ভরতার ওপর বহুলাংশে নির্ভরশীল।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 328,
+      "word": "Sweltering",
+      "ipa": "/ˈsweltərɪŋ/",
+      "pos": "adj",
+      "meaning": "অসহনীয় গরম, গুমোট ও তপ্ত",
+      "synonyms": [
+        "scorching",
+        "blistering",
+        "torrid",
+        "oppressively hot"
+      ],
+      "antonyms": [
+        "freezing",
+        "frigid",
+        "chilly",
+        "cool"
+      ],
+      "raw_synonyms": "scorching, blistering, torrid, oppressively hot",
+      "raw_antonyms": "freezing, frigid, chilly, cool",
+      "sentence": "Laborers worked under the sweltering afternoon sun to complete the construction before monsoon rains.",
+      "sentence_meaning": "বর্ষার বৃষ্টির আগেই নির্মাণকাজ শেষ করতে শ্রমিকরা তপ্ত দুপুরের রোদে কাজ করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 329,
+      "word": "Vicious",
+      "ipa": "/ˈvɪʃəs/",
+      "pos": "adj",
+      "meaning": "হিংস্র, নিষ্ঠুর ও বিপজ্জনক",
+      "synonyms": [
+        "ferocious",
+        "malicious",
+        "brutal",
+        "cruel"
+      ],
+      "antonyms": [
+        "gentle",
+        "kind",
+        "benevolent",
+        "tame"
+      ],
+      "raw_synonyms": "ferocious, malicious, brutal, cruel",
+      "raw_antonyms": "gentle, kind, benevolent, tame",
+      "sentence": "The wild predator launched a vicious attack when provoked by reckless poachers.",
+      "sentence_meaning": "বেপরোয়া শিকারিদের দ্বারা উস্কানি পেয়ে বন্য হিংস্র প্রাণীটি এক তীব্র আক্রমণ চালায়।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 330,
+      "word": "Exalted",
+      "ipa": "/ɪɡˈzɔːltɪd/",
+      "pos": "adj",
+      "meaning": "মহিমান্বিত, উচ্চ মর্যাদাসম্পন্ন বা সম্মানিত",
+      "synonyms": [
+        "lofty",
+        "elevated",
+        "prestigious",
+        "sublime"
+      ],
+      "antonyms": [
+        "debased",
+        "ignominious",
+        "humble",
+        "lowly"
+      ],
+      "raw_synonyms": "lofty, elevated, prestigious, sublime",
+      "raw_antonyms": "debased, ignominious, humble, lowly",
+      "sentence": "Holding such an exalted judicial position requires unimpeachable integrity and ethical impartiality.",
+      "sentence_meaning": "এমন এক উচ্চ মর্যাদাসম্পন্ন বিচারিক পদে আসীন থাকার জন্য নির্ভেজাল সততা ও নৈতিক নিরপেক্ষতা প্রয়োজন।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    }
+  ]
+}

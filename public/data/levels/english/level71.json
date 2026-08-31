@@ -1,0 +1,133 @@
+{
+  "level_id": 71,
+  "title": "Level 71: Vocabulary",
+  "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 351,
+      "word": "Gallant",
+      "ipa": "/ˈɡælənt/",
+      "pos": "adj",
+      "meaning": "বীরত্বপূর্ণ, সাহসী ও ভদ্র",
+      "synonyms": [
+        "brave",
+        "courageous",
+        "valiant",
+        "chivalrous"
+      ],
+      "antonyms": [
+        "cowardly",
+        "fearful",
+        "timid",
+        "ungallant"
+      ],
+      "raw_synonyms": "brave, courageous, valiant, chivalrous",
+      "raw_antonyms": "cowardly, fearful, timid, ungallant",
+      "sentence": "The gallant firefighter rushed into the burning building to rescue the trapped family.",
+      "sentence_meaning": "সাহসী অগ্নিনির্বাপক কর্মী আটকা পড়া পরিবারটিকে উদ্ধার করতে জ্বলন্ত ভবনে ছুটে যান।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 352,
+      "word": "Repose",
+      "ipa": "/rɪˈpoʊz/",
+      "pos": "n",
+      "meaning": "বিশ্রাম, মানসিক প্রশান্তি, স্থিরতা",
+      "synonyms": [
+        "rest",
+        "tranquility",
+        "serenity",
+        "peace"
+      ],
+      "antonyms": [
+        "agitation",
+        "disturbance",
+        "unrest",
+        "turmoil"
+      ],
+      "raw_synonyms": "rest, tranquility, serenity, peace",
+      "raw_antonyms": "agitation, disturbance, unrest, turmoil",
+      "sentence": "After hours of strenuous hiking, the travelers enjoyed a peaceful repose beneath the shade of the old oak tree.",
+      "sentence_meaning": "ক্লান্তিকর দীর্ঘ পথ হাঁটার পর ভ্রমণকারীরা প্রাচীন ওক গাছের ছায়ায় শান্তিময় বিশ্রাম উপভোগ করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 353,
+      "word": "Pernicious",
+      "ipa": "/pərˈnɪʃəs/",
+      "pos": "adj",
+      "meaning": "ক্ষতিকর, মারাত্মক অনিষ্টকর",
+      "synonyms": [
+        "harmful",
+        "destructive",
+        "detrimental",
+        "insidious"
+      ],
+      "antonyms": [
+        "beneficial",
+        "harmless",
+        "wholesome",
+        "advantageous"
+      ],
+      "raw_synonyms": "harmful, destructive, detrimental, insidious",
+      "raw_antonyms": "beneficial, harmless, wholesome, advantageous",
+      "sentence": "Excessive exposure to misinformation can have a pernicious influence on public decision-making.",
+      "sentence_meaning": "ভুল তথ্যের অতিরিক্ত প্রভাব জনমানুষের সিদ্ধান্ত গ্রহণের ওপর অত্যন্ত ক্ষতিকর প্রভাব ফেলতে পারে।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 354,
+      "word": "Inextricable",
+      "ipa": "/ˌɪnɪkˈstrɪkəbl/",
+      "pos": "adj",
+      "meaning": "জটিল, অবিচ্ছেদ্য, যা থেকে নিস্তার পাওয়া যায় না",
+      "synonyms": [
+        "inseparable",
+        "indivisible",
+        "entangled",
+        "unresolvable"
+      ],
+      "antonyms": [
+        "separable",
+        "detachable",
+        "resolvable",
+        "extricable"
+      ],
+      "raw_synonyms": "inseparable, indivisible, entangled, unresolvable",
+      "raw_antonyms": "separable, detachable, resolvable, extricable",
+      "sentence": "Economic progress and environmental preservation share an inextricable bond in modern governance.",
+      "sentence_meaning": "আধুনিক শাসনব্যবস্থায় অর্থনৈতিক অগ্রগতি এবং পরিবেশ সংরক্ষণের মধ্যে একটি অবিচ্ছেদ্য সম্পর্ক রয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 355,
+      "word": "Depletion",
+      "ipa": "/dɪˈpliːʃn/",
+      "pos": "n",
+      "meaning": "ক্ষয়, নিঃশেষীকরণ, ঘাটতি",
+      "synonyms": [
+        "exhaustion",
+        "reduction",
+        "diminution",
+        "consumption"
+      ],
+      "antonyms": [
+        "replenishment",
+        "restoration",
+        "accumulation",
+        "augmentation"
+      ],
+      "raw_synonyms": "exhaustion, reduction, diminution, consumption",
+      "raw_antonyms": "replenishment, restoration, accumulation, augmentation",
+      "sentence": "The rapid depletion of groundwater reserves poses a grave threat to agriculture in arid regions.",
+      "sentence_meaning": "ভূগর্ভস্থ পানির দ্রুত হ্রাস শুষ্ক অঞ্চলের কৃষিকাজের জন্য এক গুরুতর হুমকি সৃষ্টি করেছে।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    }
+  ]
+}

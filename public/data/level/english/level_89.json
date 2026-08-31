@@ -1,0 +1,133 @@
+{
+  "level_id": 89,
+  "title": "Level 89: Vocabulary",
+  "unit": "Memorizing Part",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 441,
+      "word": "Abundant",
+      "ipa": "/əˈbʌndənt/",
+      "pos": "adj",
+      "meaning": "প্রচুর, পর্যাপ্ত, প্রাচুর্যময়",
+      "synonyms": [
+        "plentiful",
+        "copious",
+        "ample",
+        "bountiful"
+      ],
+      "antonyms": [
+        "scarce",
+        "meager",
+        "sparse",
+        "deficient"
+      ],
+      "raw_synonyms": "plentiful, copious, ample, bountiful",
+      "raw_antonyms": "scarce, meager, sparse, deficient",
+      "sentence": "The tropical rainforest is renowned for its abundant wildlife and lush biodiversity.",
+      "sentence_meaning": "গ্রীষ্মমণ্ডলীয় রেইনফরেস্ট তার প্রচুর বন্যপ্রাণী এবং সমৃদ্ধ জীববৈচিত্র্যের জন্য সুপরিচিত।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 442,
+      "word": "Abolish",
+      "ipa": "/əˈbɑːlɪʃ/",
+      "pos": "v",
+      "meaning": "বাতিল করা, রদ করা, চিরতরে বিলোপ করা",
+      "synonyms": [
+        "annul",
+        "repeal",
+        "eradicate",
+        "revoke"
+      ],
+      "antonyms": [
+        "establish",
+        "enact",
+        "institute",
+        "reinstate"
+      ],
+      "raw_synonyms": "annul, repeal, eradicate, revoke",
+      "raw_antonyms": "establish, enact, institute, reinstate",
+      "sentence": "Human rights activists campaigned tirelessly for decades to abolish capital punishment nationwide.",
+      "sentence_meaning": "মানবাধিকার কর্মীরা দেশজুড়ে মৃত্যুদণ্ড বাতিল করার জন্য কয়েক দশক ধরে অক্লান্ত আন্দোলন করেছেন।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 443,
+      "word": "Amiable",
+      "ipa": "/ˈeɪmiəbl/",
+      "pos": "adj",
+      "meaning": "বন্ধুভাবাপন্ন, স্নেহশীল, মিষ্টভাষী",
+      "synonyms": [
+        "friendly",
+        "sociable",
+        "congenial",
+        "warmhearted"
+      ],
+      "antonyms": [
+        "hostile",
+        "unfriendly",
+        "aloof",
+        "spiteful"
+      ],
+      "raw_synonyms": "friendly, sociable, congenial, warmhearted",
+      "raw_antonyms": "hostile, unfriendly, aloof, spiteful",
+      "sentence": "The headmaster was an amiable mentor who listened attentively to every student's concerns.",
+      "sentence_meaning": "প্রধান শিক্ষক একজন বন্ধুভাবাপন্ন ও সদালাপী শিক্ষক ছিলেন যিনি প্রতিটি শিক্ষার্থীর কথা মনোযোগ দিয়ে শুনতেন।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 444,
+      "word": "Boisterous",
+      "ipa": "/ˈbɔɪstərəs/",
+      "pos": "adj",
+      "meaning": "কোলাহলপূর্ণ, দুরন্ত, উচ্ছ্বল",
+      "synonyms": [
+        "rowdy",
+        "clamorous",
+        "unruly",
+        "vociferous"
+      ],
+      "antonyms": [
+        "peaceful",
+        "quiet",
+        "tranquil",
+        "calm"
+      ],
+      "raw_synonyms": "rowdy, clamorous, unruly, vociferous",
+      "raw_antonyms": "peaceful, quiet, tranquil, calm",
+      "sentence": "The boisterous crowd of fans cheered ecstatically when their team scored the winning goal.",
+      "sentence_meaning": "তাদের দল যখন জয়সূচক গোলটি করেছিল তখন উচ্ছ্বল ও কোলাহলপূর্ণ ভক্তরা উল্লাসে ফেটে পড়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 445,
+      "word": "Bondage",
+      "ipa": "/ˈbɑːndɪdʒ/",
+      "pos": "n",
+      "meaning": "দাসত্ব, বন্দিদশা, পরাধীনতা",
+      "synonyms": [
+        "slavery",
+        "servitude",
+        "enslavement",
+        "subjugation"
+      ],
+      "antonyms": [
+        "freedom",
+        "liberty",
+        "emancipation",
+        "independence"
+      ],
+      "raw_synonyms": "slavery, servitude, enslavement, subjugation",
+      "raw_antonyms": "freedom, liberty, emancipation, independence",
+      "sentence": "The revolutionary heroes fought valiantly to liberate their motherland from imperialist bondage.",
+      "sentence_meaning": "বিপ্লবী বীরেরা সাম্রাজ্যবাদী দাসত্ব ও পরাধীনতা থেকে মাতৃভূমিকে মুক্ত করার জন্য বীরত্বের সাথে লড়াই করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    }
+  ]
+}

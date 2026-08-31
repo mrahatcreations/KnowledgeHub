@@ -1,0 +1,133 @@
+{
+  "level_id": 192,
+  "title": "Level 192: Appropriate Preposition",
+  "unit": "Image 35 (image (35).jpg) - Super Preposition Technique-3",
+  "category": "Appropriate Preposition",
+  "items": [
+    {
+      "id": 956,
+      "word": "Opposed to",
+      "ipa": "/əˈpoʊzd tuː/",
+      "pos": "prep",
+      "meaning": "বিরোধী, প্রতিকূল",
+      "synonyms": [
+        "against",
+        "in opposition to",
+        "hostile to",
+        "averse to"
+      ],
+      "antonyms": [
+        "in favor of",
+        "supportive of",
+        "backing",
+        "friendly to"
+      ],
+      "raw_synonyms": "against, in opposition to, hostile to, averse to",
+      "raw_antonyms": "in favor of, supportive of, backing, friendly to",
+      "sentence": "The labor union is firmly opposed to the proposed reduction in employee health benefits.",
+      "sentence_meaning": "শ্রমিক ইউনিয়ন কর্মীদের স্বাস্থ্য সুবিধার প্রস্তাবিত হ্রাসের তীব্র বিরোধী।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 35 (image (35).jpg) - Super Preposition Technique-3"
+    },
+    {
+      "id": 957,
+      "word": "React to",
+      "ipa": "/riˈækt tuː/",
+      "pos": "prep",
+      "meaning": "প্রতিক্রিয়া প্রদর্শন করা",
+      "synonyms": [
+        "respond to",
+        "act in response to",
+        "acknowledge",
+        "answer to"
+      ],
+      "antonyms": [
+        "ignore",
+        "overlook",
+        "disregard",
+        "neglect"
+      ],
+      "raw_synonyms": "respond to, act in response to, acknowledge, answer to",
+      "raw_antonyms": "ignore, overlook, disregard, neglect",
+      "sentence": "Financial markets often react sharply to sudden changes in central bank interest rate policies.",
+      "sentence_meaning": "আর্থিক বাজারগুলো প্রায়শই কেন্দ্রীয় ব্যাংকের সুদের হারের নীতির আকস্মিক পরিবর্তনে তীব্র প্রতিক্রিয়া প্রদর্শন করে।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 35 (image (35).jpg) - Super Preposition Technique-3"
+    },
+    {
+      "id": 958,
+      "word": "Respond to",
+      "ipa": "/rɪˈspɑːnd tuː/",
+      "pos": "prep",
+      "meaning": "সাড়া দেওয়া, উত্তর দেওয়া",
+      "synonyms": [
+        "reply to",
+        "answer",
+        "counter",
+        "feedback to"
+      ],
+      "antonyms": [
+        "ignore",
+        "disregard",
+        "neglect",
+        "overlook"
+      ],
+      "raw_synonyms": "reply to, answer, counter, feedback to",
+      "raw_antonyms": "ignore, disregard, neglect, overlook",
+      "sentence": "Emergency medical teams responded to the distress call within minutes of the accident.",
+      "sentence_meaning": "জরুরি চিকিৎসা দল দুর্ঘটনার কয়েক মিনিটের মধ্যে বিপদ সংকেতে সাড়া দিয়েছিল।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 35 (image (35).jpg) - Super Preposition Technique-3"
+    },
+    {
+      "id": 959,
+      "word": "Similar to",
+      "ipa": "/ˈsɪmələr tuː/",
+      "pos": "prep",
+      "meaning": "সদৃশ, অনুরূপ",
+      "synonyms": [
+        "akin to",
+        "resembling",
+        "comparable to",
+        "parallel to"
+      ],
+      "antonyms": [
+        "different from",
+        "distinct from",
+        "dissimilar to",
+        "opposite to"
+      ],
+      "raw_synonyms": "akin to, resembling, comparable to, parallel to",
+      "raw_antonyms": "different from, distinct from, dissimilar to, opposite to",
+      "sentence": "The architecture of the ancient courthouse is strikingly similar to classical Roman temples.",
+      "sentence_meaning": "প্রাচীন আদালত ভবনটির স্থাপত্যশৈলী ধ্রুপদী রোমান মন্দিরের সাথে আশ্চর্যজনকভাবে সাদৃশ্যপূর্ণ।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 35 (image (35).jpg) - Super Preposition Technique-3"
+    },
+    {
+      "id": 960,
+      "word": "Solution to",
+      "ipa": "/səˈluːʃn tuː/",
+      "pos": "prep",
+      "meaning": "সমাধান",
+      "synonyms": [
+        "answer to",
+        "remedy for",
+        "resolution of",
+        "key to"
+      ],
+      "antonyms": [
+        "cause of problem",
+        "complication",
+        "dilemma",
+        "obstacle"
+      ],
+      "raw_synonyms": "answer to, remedy for, resolution of, key to",
+      "raw_antonyms": "cause of problem, complication, dilemma, obstacle",
+      "sentence": "Diplomatic dialogue and compromise offer the only lasting solution to the border conflict.",
+      "sentence_meaning": "কূটনৈতিক সংলাপ ও সমঝোতাই সীমান্ত সংঘাতের একমাত্র স্থায়ী সমাধান প্রদান করে।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 35 (image (35).jpg) - Super Preposition Technique-3"
+    }
+  ]
+}

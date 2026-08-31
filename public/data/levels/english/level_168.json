@@ -1,0 +1,133 @@
+{
+  "level_id": 168,
+  "title": "Level 168: Vocabulary & Idioms",
+  "unit": "Vocabulary & Idioms",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 836,
+      "word": "Discord",
+      "ipa": "/ˈdɪskɔːrd/",
+      "pos": "n",
+      "meaning": "অনৈক্য, কলহ, মতভেদ",
+      "synonyms": [
+        "conflict",
+        "strife",
+        "disagreement",
+        "friction"
+      ],
+      "antonyms": [
+        "harmony",
+        "concord",
+        "agreement",
+        "peace"
+      ],
+      "raw_synonyms": "conflict, strife, disagreement, friction",
+      "raw_antonyms": "harmony, concord, agreement, peace",
+      "sentence": "Chronic political discord within the cabinet delayed the implementation of crucial economic reforms.",
+      "sentence_meaning": "মন্ত্রিসভার অভ্যন্তরীণ দীর্ঘস্থায়ী রাজনৈতিক কলহ গুরুত্বপূর্ণ অর্থনৈতিক সংস্কার বাস্তবায়নে বিলম্ব ঘটিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 837,
+      "word": "Discordant",
+      "ipa": "/dɪsˈkɔːrdənt/",
+      "pos": "adj",
+      "meaning": "সুরহীন, অসঙ্গতিপূর্ণ, বেমানান",
+      "synonyms": [
+        "inharmonious",
+        "dissonant",
+        "conflicting",
+        "jarring"
+      ],
+      "antonyms": [
+        "harmonious",
+        "melodious",
+        "agreeable",
+        "concordant"
+      ],
+      "raw_synonyms": "inharmonious, dissonant, conflicting, jarring",
+      "raw_antonyms": "harmonious, melodious, agreeable, concordant",
+      "sentence": "The discordant notes of the untuned violin ruined what would have been a beautiful orchestral performance.",
+      "sentence_meaning": "বেসুরো বেহালার অসঙ্গতিপূর্ণ সুর একটি চমৎকার অর্কেস্ট্রা পরিবেশনাকে নষ্ট করে দিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 838,
+      "word": "Cream of the society",
+      "ipa": "/kriːm əv ðə səˈsaɪəti/",
+      "pos": "phrase",
+      "meaning": "সমাজের গণ্যমান্য ব্যক্তিবর্গ, সুধীজন",
+      "synonyms": [
+        "elite",
+        "high society",
+        "aristocracy",
+        "upper crust"
+      ],
+      "antonyms": [
+        "commoners",
+        "masses",
+        "rabble",
+        "proletariat"
+      ],
+      "raw_synonyms": "elite, high society, aristocracy, upper crust",
+      "raw_antonyms": "commoners, masses, rabble, proletariat",
+      "sentence": "The diplomatic charity gala was attended by the cream of the society, including ambassadors and scholars.",
+      "sentence_meaning": "কূটনৈতিক দাতব্য উৎসবে রাষ্ট্রদূত ও পণ্ডিতসহ সমাজের গণ্যমান্য সুধীজন উপস্থিত ছিলেন।",
+      "category": "Idiom",
+      "unit": "Idioms and Phrases"
+    },
+    {
+      "id": 839,
+      "word": "Chicken-hearted",
+      "ipa": "/ˌtʃɪkɪnˈhɑːrtɪd/",
+      "pos": "phrase",
+      "meaning": "কাপুরুষ, অতি ভীরু ব্যক্তি",
+      "synonyms": [
+        "cowardly",
+        "timid",
+        "fainthearted",
+        "pusillanimous"
+      ],
+      "antonyms": [
+        "brave",
+        "courageous",
+        "valiant",
+        "lionhearted"
+      ],
+      "raw_synonyms": "cowardly, timid, fainthearted, pusillanimous",
+      "raw_antonyms": "brave, courageous, valiant, lionhearted",
+      "sentence": "The chicken-hearted soldier abandoned his post and fled at the very first sound of enemy artillery.",
+      "sentence_meaning": "অতি ভীরু সৈনিকটি শত্রুর কামানের প্রথম শব্দেই নিজের অবস্থান ত্যাগ করে পালিয়ে গিয়েছিল।",
+      "category": "Idiom",
+      "unit": "Idioms and Phrases"
+    },
+    {
+      "id": 840,
+      "word": "Call in question",
+      "ipa": "/kɔːl ɪn ˈkwestʃən/",
+      "pos": "phrase",
+      "meaning": "সন্দেহ করা, প্রশ্নবিদ্ধ করা",
+      "synonyms": [
+        "doubt",
+        "dispute",
+        "challenge",
+        "query"
+      ],
+      "antonyms": [
+        "trust",
+        "validate",
+        "confirm",
+        "endorse"
+      ],
+      "raw_synonyms": "doubt, dispute, challenge, query",
+      "raw_antonyms": "trust, validate, confirm, endorse",
+      "sentence": "No one can legitimately call in question the integrity and honesty of the distinguished supreme court judge.",
+      "sentence_meaning": "সুপ্রিম কোর্টের বিশিষ্ট বিচারপতির সততা ও নিষ্ঠাকে কেউই যুক্তিযুক্তভাবে প্রশ্নবিদ্ধ করতে পারে না।",
+      "category": "Idiom",
+      "unit": "Idioms and Phrases"
+    }
+  ]
+}

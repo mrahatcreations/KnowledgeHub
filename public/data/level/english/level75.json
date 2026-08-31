@@ -1,0 +1,133 @@
+{
+  "level_id": 75,
+  "title": "Level 75: Vocabulary",
+  "unit": "Vocabulary Table",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 371,
+      "word": "Potential",
+      "ipa": "/pəˈtenʃl/",
+      "pos": "n",
+      "meaning": "সম্ভাবনা, সুপ্ত প্রতিভা বা ক্ষমতা",
+      "synonyms": [
+        "capacity",
+        "capability",
+        "promise",
+        "possibility"
+      ],
+      "antonyms": [
+        "limitation",
+        "inability",
+        "helplessness",
+        "impotence"
+      ],
+      "raw_synonyms": "capacity, capability, promise, possibility",
+      "raw_antonyms": "limitation, inability, helplessness, impotence",
+      "sentence": "The mentor recognized the exceptional potential in the young prodigy and offered personal guidance.",
+      "sentence_meaning": "পরামর্শদাতা তরুণ প্রতিভাবানের মধ্যে অসাধারণ সম্ভাবনা লক্ষ্য করে ব্যক্তিগত দিকনির্দেশনা প্রদান করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 372,
+      "word": "Unrealistic",
+      "ipa": "/ˌʌnrɪəˈlɪstɪk/",
+      "pos": "adj",
+      "meaning": "অবাস্তব, কল্পনাবিলাসী",
+      "synonyms": [
+        "impractical",
+        "idealistic",
+        "unfeasible",
+        "chimerical"
+      ],
+      "antonyms": [
+        "realistic",
+        "practical",
+        "feasible",
+        "pragmatic"
+      ],
+      "raw_synonyms": "impractical, idealistic, unfeasible, chimerical",
+      "raw_antonyms": "realistic, practical, feasible, pragmatic",
+      "sentence": "Setting an unrealistic deadline for the complex software project placed extreme stress on the development team.",
+      "sentence_meaning": "জটিল সফটওয়্যার প্রকল্পটির জন্য একটি অবাস্তব সময়সীমা নির্ধারণ করায় উন্নয়ন দলের ওপর চরম চাপ তৈরি হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 373,
+      "word": "Encourage",
+      "ipa": "/ɪnˈkɜːrɪdʒ/",
+      "pos": "v",
+      "meaning": "উৎসাহিত করা, অনুপ্রেরণা দেওয়া",
+      "synonyms": [
+        "inspire",
+        "motivate",
+        "hearten",
+        "stimulate"
+      ],
+      "antonyms": [
+        "discourage",
+        "dissuade",
+        "deter",
+        "dishearten"
+      ],
+      "raw_synonyms": "inspire, motivate, hearten, stimulate",
+      "raw_antonyms": "discourage, dissuade, deter, dishearten",
+      "sentence": "Good educators always encourage curious students to ask challenging questions and think independently.",
+      "sentence_meaning": "উত্তম শিক্ষকেরা সবসময় অনুসন্ধিৎসু শিক্ষার্থীদের চ্যালেঞ্জিং প্রশ্ন করতে এবং স্বাধীনভাবে চিন্তা করতে উৎসাহিত করেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 374,
+      "word": "Pleasant",
+      "ipa": "/ˈpleznt/",
+      "pos": "adj",
+      "meaning": "মনোরম, প্রীতিকর, আনন্দদায়ক",
+      "synonyms": [
+        "agreeable",
+        "enjoyable",
+        "delightful",
+        "gratifying"
+      ],
+      "antonyms": [
+        "unpleasant",
+        "disagreeable",
+        "obnoxious",
+        "dreadful"
+      ],
+      "raw_synonyms": "agreeable, enjoyable, delightful, gratifying",
+      "raw_antonyms": "unpleasant, disagreeable, obnoxious, dreadful",
+      "sentence": "We enjoyed a pleasant evening stroll through the botanical garden as the cool breeze blew.",
+      "sentence_meaning": "ঠান্ডা বাতাস বয়ে চলার মাঝে আমরা বোটানিক্যাল গার্ডেনে এক মনোরম সান্ধ্যকালীন পদচারণা উপভোগ করেছিলাম।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 375,
+      "word": "Austere",
+      "ipa": "/ɔːˈstɪr/",
+      "pos": "adj",
+      "meaning": "কঠোর, অনাড়ম্বর, সরল ও সাদাসিধা",
+      "synonyms": [
+        "stern",
+        "severe",
+        "frugal",
+        "ascetic"
+      ],
+      "antonyms": [
+        "luxurious",
+        "extravagant",
+        "lenient",
+        "indulgent"
+      ],
+      "raw_synonyms": "stern, severe, frugal, ascetic",
+      "raw_antonyms": "luxurious, extravagant, lenient, indulgent",
+      "sentence": "The monks chose to live an austere lifestyle dedicated to meditation and spiritual contemplation.",
+      "sentence_meaning": "ভিক্ষুরা ধ্যান ও আধ্যাত্মিক চিন্তায় নিবেদিত একটি অনাড়ম্বর ও কঠোর জীবনযাপন বেছে নিয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    }
+  ]
+}

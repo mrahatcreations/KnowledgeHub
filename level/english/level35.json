@@ -1,0 +1,133 @@
+{
+  "level_id": 35,
+  "title": "Level 35: Appropriate Preposition",
+  "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique",
+  "category": "Appropriate Preposition",
+  "items": [
+    {
+      "id": 171,
+      "word": "Bump into",
+      "ipa": "/bʌmp ˈɪntuː/",
+      "pos": "prep",
+      "meaning": "হঠাৎ দেখা হওয়া বা ধাক্কা খাওয়া",
+      "synonyms": [
+        "meet unexpectedly",
+        "encounter",
+        "run into",
+        "collide with"
+      ],
+      "antonyms": [
+        "avoid",
+        "evade",
+        "miss",
+        "dodge"
+      ],
+      "raw_synonyms": "meet unexpectedly, encounter, run into, collide with",
+      "raw_antonyms": "avoid, evade, miss, dodge",
+      "sentence": "I was delighted to bump into my childhood friend at the crowded international book fair.",
+      "sentence_meaning": "জনবহুল আন্তর্জাতিক বইমেলায় আমার শৈশবের বন্ধুর সাথে অপ্রত্যাশিতভাবে দেখা হয়ে আমি আনন্দিত হয়েছিলাম।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 172,
+      "word": "Alien to",
+      "ipa": "/ˈeɪliən tuː/",
+      "pos": "prep",
+      "meaning": "কারো স্বভাবের বিপরীত বা অপরিচিত",
+      "synonyms": [
+        "foreign to",
+        "strange to",
+        "incompatible with",
+        "unfamiliar to"
+      ],
+      "antonyms": [
+        "native to",
+        "familiar to",
+        "characteristic of",
+        "natural to"
+      ],
+      "raw_synonyms": "foreign to, strange to, incompatible with, unfamiliar to",
+      "raw_antonyms": "native to, familiar to, characteristic of, natural to",
+      "sentence": "Cruelty and deceit were completely alien to the saintly man's noble character.",
+      "sentence_meaning": "নিষ্ঠুরতা এবং প্রতারণা সেই মহৎ ব্যক্তির চরিত্র ও স্বভাবের সম্পূর্ণ বিপরীত ছিল।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 173,
+      "word": "Astonished at",
+      "ipa": "/əˈstɒnɪʃt æt/",
+      "pos": "prep",
+      "meaning": "কোনো কিছু দেখে বা শুনে অত্যন্ত বিস্মিত",
+      "synonyms": [
+        "amazed at",
+        "surprised by",
+        "astounded by",
+        "dumbfounded by"
+      ],
+      "antonyms": [
+        "unimpressed by",
+        "unmoved by",
+        "indifferent to",
+        "apathetic towards"
+      ],
+      "raw_synonyms": "amazed at, surprised by, astounded by, dumbfounded by",
+      "raw_antonyms": "unimpressed by, unmoved by, indifferent to, apathetic towards",
+      "sentence": "The spectators were astonished at the young prodigy's extraordinary musical dexterity.",
+      "sentence_meaning": "তরুণ প্রতিভার অসাধারণ সংগীত নৈপুণ্য দেখে দর্শকরা অত্যন্ত বিস্মিত হয়েছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 174,
+      "word": "Atone for",
+      "ipa": "/əˈtəʊn fɔːr/",
+      "pos": "prep",
+      "meaning": "পাপ বা ভুলের প্রায়শ্চিত্ত করা",
+      "synonyms": [
+        "expiate",
+        "compensate for",
+        "make amends for",
+        "redress"
+      ],
+      "antonyms": [
+        "worsen",
+        "aggravate",
+        "perpetuate",
+        "repeat"
+      ],
+      "raw_synonyms": "expiate, compensate for, make amends for, redress",
+      "raw_antonyms": "worsen, aggravate, perpetuate, repeat",
+      "sentence": "He dedicated his remaining years to community service to atone for his past wrongdoings.",
+      "sentence_meaning": "তিনি তার অতীতের অন্যায়ের প্রায়শ্চিত্ত করতে জীবনের বাকি বছরগুলো সমাজসেবায় উৎসর্গ করেছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 175,
+      "word": "Absorbed in",
+      "ipa": "/əbˈzɔːrbd ɪn/",
+      "pos": "prep",
+      "meaning": "কোনো কাজে সম্পূর্ণ নিমগ্ন বা নিবিষ্ট",
+      "synonyms": [
+        "engrossed in",
+        "immersed in",
+        "captivated by",
+        "preoccupied with"
+      ],
+      "antonyms": [
+        "distracted",
+        "inattentive",
+        "disinterested",
+        "unfocused"
+      ],
+      "raw_synonyms": "engrossed in, immersed in, captivated by, preoccupied with",
+      "raw_antonyms": "distracted, inattentive, disinterested, unfocused",
+      "sentence": "The scientist was deeply absorbed in his laboratory research throughout the night.",
+      "sentence_meaning": "বিজ্ঞানী সারারাত ধরে তার গবেষণাগারের গবেষণায় গভীরভাবে নিমগ্ন ছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    }
+  ]
+}

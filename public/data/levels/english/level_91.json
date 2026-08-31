@@ -1,0 +1,133 @@
+{
+  "level_id": 91,
+  "title": "Level 91: Vocabulary",
+  "unit": "Memorizing Part",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 451,
+      "word": "Banal",
+      "ipa": "/bəˈnɑːl/",
+      "pos": "adj",
+      "meaning": "গতানুগতিক, মামুলি, তুচ্ছ",
+      "synonyms": [
+        "hackneyed",
+        "trite",
+        "commonplace",
+        "vapid"
+      ],
+      "antonyms": [
+        "original",
+        "novel",
+        "extraordinary",
+        "stimulating"
+      ],
+      "raw_synonyms": "hackneyed, trite, commonplace, vapid",
+      "raw_antonyms": "original, novel, extraordinary, stimulating",
+      "sentence": "The film received negative reviews because of its banal dialogue and predictable ending.",
+      "sentence_meaning": "গতানুগতিক সংলাপ এবং অনুমানযোগ্য সমাপ্তির কারণে চলচ্চিত্রটি নেতিবাচক পর্যালোচনা পেয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 452,
+      "word": "Belie",
+      "ipa": "/bɪˈlaɪ/",
+      "pos": "v",
+      "meaning": "ভ্রান্ত ধারণা দেওয়া, মিথ্যা প্রমাণ করা",
+      "synonyms": [
+        "contradict",
+        "disprove",
+        "misrepresent",
+        "conceal"
+      ],
+      "antonyms": [
+        "reveal",
+        "affirm",
+        "prove",
+        "attest"
+      ],
+      "raw_synonyms": "contradict, disprove, misrepresent, conceal",
+      "raw_antonyms": "reveal, affirm, prove, attest",
+      "sentence": "Her calm facial expression belied the intense anxiety she was experiencing.",
+      "sentence_meaning": "তাঁর শান্ত মুখের অভিব্যক্তিটি তিনি যে তীব্র উদ্বেগের মধ্য দিয়ে যাচ্ছিলেন তা গোপন করে এক ভ্রান্ত ধারণা দিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 453,
+      "word": "Beneficent",
+      "ipa": "/bɪˈnefɪsnt/",
+      "pos": "adj",
+      "meaning": "উদার, পরোপকারী, কল্যাণকামী",
+      "synonyms": [
+        "charitable",
+        "benevolent",
+        "philanthropic",
+        "generous"
+      ],
+      "antonyms": [
+        "malicious",
+        "harmful",
+        "malevolent",
+        "stingy"
+      ],
+      "raw_synonyms": "charitable, benevolent, philanthropic, generous",
+      "raw_antonyms": "malicious, harmful, malevolent, stingy",
+      "sentence": "The beneficent organization donated essential medicine and food to the disaster victims.",
+      "sentence_meaning": "উদার সংস্থাটি দুর্যোগকবলিত মানুষদের জন্য প্রয়োজনীয় ওষুধ ও খাদ্য দান করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 454,
+      "word": "Bolster",
+      "ipa": "/ˈboʊlstər/",
+      "pos": "v",
+      "meaning": "সমর্থন দেওয়া, জোরদার করা, সাহস জোগানো",
+      "synonyms": [
+        "strengthen",
+        "reinforce",
+        "boost",
+        "support"
+      ],
+      "antonyms": [
+        "undermine",
+        "weaken",
+        "discourage",
+        "diminish"
+      ],
+      "raw_synonyms": "strengthen, reinforce, boost, support",
+      "raw_antonyms": "undermine, weaken, discourage, diminish",
+      "sentence": "The recent victory helped bolster the team's confidence ahead of the championship tournament.",
+      "sentence_meaning": "সাম্প্রতিক জয়টি চ্যাম্পিয়নশিপ টুর্নামেন্টের আগে দলের আত্মবিশ্বাস বাড়াতে সাহায্য করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 455,
+      "word": "Bombastic",
+      "ipa": "/bɑːmˈbæstɪk/",
+      "pos": "adj",
+      "meaning": "আড়ম্বরপূর্ণ, বাগাড়ম্বরপূর্ণ",
+      "synonyms": [
+        "pompous",
+        "pretentious",
+        "grandiose",
+        "verbose"
+      ],
+      "antonyms": [
+        "unpretentious",
+        "humble",
+        "modest",
+        "restrained"
+      ],
+      "raw_synonyms": "pompous, pretentious, grandiose, verbose",
+      "raw_antonyms": "unpretentious, humble, modest, restrained",
+      "sentence": "His bombastic speech failed to impress the educated audience who valued substance over show.",
+      "sentence_meaning": "তাঁর বাগাড়ম্বরপূর্ণ ভাষণটি সেই শিক্ষিত শ্রোতাদের প্রভাবিত করতে ব্যর্থ হয়েছিল যারা প্রদর্শনের চেয়ে বিষয়বস্তুকে বেশি গুরুত্ব দিতেন।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    }
+  ]
+}

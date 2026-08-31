@@ -1,0 +1,133 @@
+{
+  "level_id": 117,
+  "title": "Level 117: Appropriate Preposition",
+  "unit": "Image 21 (image (21).jpg) - Appropriate Prepositions",
+  "category": "Appropriate Preposition",
+  "items": [
+    {
+      "id": 581,
+      "word": "Accountable to",
+      "ipa": "/əˈkaʊntəbl tuː/",
+      "pos": "prep",
+      "meaning": "কারো কাছে জবাবদিহি করতে বাধ্য বা দায়ী",
+      "synonyms": [
+        "answerable to",
+        "responsible to",
+        "liable to",
+        "subject to"
+      ],
+      "antonyms": [
+        "unaccountable",
+        "exempt from",
+        "immune",
+        "irresponsible"
+      ],
+      "raw_synonyms": "answerable to, responsible to, liable to, subject to",
+      "raw_antonyms": "unaccountable, exempt from, immune, irresponsible",
+      "sentence": "Elected public officials are always accountable to the citizens they represent.",
+      "sentence_meaning": "নির্বাচিত সরকারি কর্মকর্তারা সর্বদা তাদের প্রতিনিধিত্বকারী নাগরিকদের কাছে জবাবদিহি করতে বাধ্য।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 21 (image (21).jpg) - Appropriate Prepositions"
+    },
+    {
+      "id": 582,
+      "word": "Accused of",
+      "ipa": "/əˈkjuːzd ɒv/",
+      "pos": "prep",
+      "meaning": "কোনো অপরাধ বা অন্যায়ে অভিযুক্ত",
+      "synonyms": [
+        "charged with",
+        "indicted for",
+        "blamed for",
+        "implicated in"
+      ],
+      "antonyms": [
+        "acquitted of",
+        "cleared of",
+        "exonerated from",
+        "absolved of"
+      ],
+      "raw_synonyms": "charged with, indicted for, blamed for, implicated in",
+      "raw_antonyms": "acquitted of, cleared of, exonerated from, absolved of",
+      "sentence": "The former accountant was formally accused of embezzlement by the board of directors.",
+      "sentence_meaning": "পরিচালনা পর্ষদ কর্তৃক প্রাক্তন হিসাবরক্ষকের বিরুদ্ধে অর্থ আত্মসাতের আনুষ্ঠানিক অভিযোগ আনা হয়েছিল।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 21 (image (21).jpg) - Appropriate Prepositions"
+    },
+    {
+      "id": 583,
+      "word": "Accomplished in",
+      "ipa": "/əˈkʌmplɪʃt ɪn/",
+      "pos": "prep",
+      "meaning": "কোনো শিল্প বা বিদ্যায় দক্ষ বা নিপুণ",
+      "synonyms": [
+        "skilled in",
+        "proficient in",
+        "expert in",
+        "adept in"
+      ],
+      "antonyms": [
+        "inept in",
+        "unskilled in",
+        "clumsy in",
+        "amateurish in"
+      ],
+      "raw_synonyms": "skilled in, proficient in, expert in, adept in",
+      "raw_antonyms": "inept in, unskilled in, clumsy in, amateurish in",
+      "sentence": "She is an accomplished pianist in classical music as well as a gifted painter.",
+      "sentence_meaning": "তিনি শাস্ত্রীয় সঙ্গীতে একজন নিপুণ পিয়ানোবাদক এবং একই সাথে একজন প্রতিভাবান চিত্রশিল্পী।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 21 (image (21).jpg) - Appropriate Prepositions"
+    },
+    {
+      "id": 584,
+      "word": "Accustomed to",
+      "ipa": "/əˈkʌstəmd tuː/",
+      "pos": "prep",
+      "meaning": "কোনো পরিবেশ বা অভ্যাসে অভ্যস্ত",
+      "synonyms": [
+        "used to",
+        "habituated to",
+        "familiar with",
+        "acclimatized to"
+      ],
+      "antonyms": [
+        "unaccustomed to",
+        "unfamiliar with",
+        "unacquainted with",
+        "unused to"
+      ],
+      "raw_synonyms": "used to, habituated to, familiar with, acclimatized to",
+      "raw_antonyms": "unaccustomed to, unfamiliar with, unacquainted with, unused to",
+      "sentence": "Living in the Arctic region, the indigenous people are accustomed to harsh sub-zero temperatures.",
+      "sentence_meaning": "সুমেরু অঞ্চলে বসবাস করায় আদিবাসীরা শূন্যের নিচের তীব্র তাপমাত্রায় অভ্যস্ত।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 21 (image (21).jpg) - Appropriate Prepositions"
+    },
+    {
+      "id": 585,
+      "word": "Acquainted with",
+      "ipa": "/əˈkweɪntɪd wɪð/",
+      "pos": "prep",
+      "meaning": "কারো সাথে পরিচিত বা কোনো বিষয়ে অভিজ্ঞ ও জ্ঞাত",
+      "synonyms": [
+        "familiar with",
+        "conversant with",
+        "informed about",
+        "conscious of"
+      ],
+      "antonyms": [
+        "unacquainted with",
+        "unfamiliar with",
+        "ignorant of",
+        "stranger to"
+      ],
+      "raw_synonyms": "familiar with, conversant with, informed about, conscious of",
+      "raw_antonyms": "unacquainted with, unfamiliar with, ignorant of, stranger to",
+      "sentence": "New employees should quickly become acquainted with the organization's safety policies.",
+      "sentence_meaning": "নতুন কর্মীদের দ্রুত সংস্থার নিরাপত্তা নীতিমালার সাথে পরিচিত হওয়া উচিত।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 22 (image (22).jpg) - Appropriate Prepositions (Continued)"
+    }
+  ]
+}

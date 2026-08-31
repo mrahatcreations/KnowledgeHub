@@ -1,0 +1,133 @@
+{
+  "level_id": 127,
+  "title": "Level 127: Vocabulary",
+  "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 631,
+      "word": "Heed",
+      "ipa": "/hiːd/",
+      "pos": "v",
+      "meaning": "মনোযোগ দেওয়া, মেনে চলা, গ্রাহ্য করা",
+      "synonyms": [
+        "pay attention",
+        "listen to",
+        "observe",
+        "regard"
+      ],
+      "antonyms": [
+        "ignore",
+        "disregard",
+        "neglect",
+        "overlook"
+      ],
+      "raw_synonyms": "pay attention, listen to, observe, regard",
+      "raw_antonyms": "ignore, disregard, neglect, overlook",
+      "sentence": "Drivers should heed the storm warnings and avoid traveling on mountain roads.",
+      "sentence_meaning": "চালকদের উচিত ঝড়ের সতর্কবাণী মেনে চলা এবং পাহাড়ি রাস্তায় চলাচল এড়িয়ে চলা।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 632,
+      "word": "Overwhelm",
+      "ipa": "/ˌoʊvərˈwelm/",
+      "pos": "v",
+      "meaning": "অভিভূত করা, বিহ্বল করা, পরাভূত করা",
+      "synonyms": [
+        "overpower",
+        "inundate",
+        "engulf",
+        "swamp"
+      ],
+      "antonyms": [
+        "underwhelm",
+        "relieve",
+        "reassure",
+        "comfort"
+      ],
+      "raw_synonyms": "overpower, inundate, engulf, swamp",
+      "raw_antonyms": "underwhelm, relieve, reassure, comfort",
+      "sentence": "The sheer generosity of the community overwhelmed the disaster victims with gratitude.",
+      "sentence_meaning": "সম্প্রদায়ের অকৃত্রিম উদারতা দুর্যোগকবলিত মানুষদের কৃতজ্ঞতায় অভিভূত করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 633,
+      "word": "Plummet",
+      "ipa": "/ˈplʌmɪt/",
+      "pos": "v",
+      "meaning": "দ্রুত নিচে পড়া, হঠাৎ হ্রাস পাওয়া",
+      "synonyms": [
+        "plunge",
+        "nosedive",
+        "drop",
+        "sink"
+      ],
+      "antonyms": [
+        "soar",
+        "rocket",
+        "ascend",
+        "rise"
+      ],
+      "raw_synonyms": "plunge, nosedive, drop, sink",
+      "raw_antonyms": "soar, rocket, ascend, rise",
+      "sentence": "Stock prices plummeted dramatically following the sudden economic crisis.",
+      "sentence_meaning": "হঠাৎ অর্থনৈতিক সংকটের পর শেয়ারের দাম নাটকীয়ভাবে দ্রুত নিচে নেমে গিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 634,
+      "word": "Soar",
+      "ipa": "/sɔːr/",
+      "pos": "v",
+      "meaning": "উঁচুতে ওড়া, দ্রুত বৃদ্ধি পাওয়া",
+      "synonyms": [
+        "ascend",
+        "climb",
+        "escalate",
+        "skyrocket"
+      ],
+      "antonyms": [
+        "plummet",
+        "drop",
+        "fall",
+        "descend"
+      ],
+      "raw_synonyms": "ascend, climb, escalate, skyrocket",
+      "raw_antonyms": "plummet, drop, fall, descend",
+      "sentence": "The golden eagle spread its magnificent wings to soar high above the peaks.",
+      "sentence_meaning": "সোনালী ঈগল তার চমৎকার ডানা মেলে পর্বতচূড়ার অনেক উঁচুতে উড়ে চলল।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 635,
+      "word": "Devastate",
+      "ipa": "/ˈdevəsteɪt/",
+      "pos": "v",
+      "meaning": "বিধ্বস্ত করা, ধ্বংসস্তূপে পরিণত করা",
+      "synonyms": [
+        "ravage",
+        "destroy",
+        "ruin",
+        "demolish"
+      ],
+      "antonyms": [
+        "restore",
+        "rebuild",
+        "construct",
+        "improve"
+      ],
+      "raw_synonyms": "ravage, destroy, ruin, demolish",
+      "raw_antonyms": "restore, rebuild, construct, improve",
+      "sentence": "The catastrophic cyclone devastated several coastal villages within hours.",
+      "sentence_meaning": "প্রলয়ঙ্করী ঘূর্ণিঝড়টি কয়েক ঘণ্টার মধ্যে বেশ কয়েকটি উপকূলীয় গ্রাম বিধ্বস্ত করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    }
+  ]
+}

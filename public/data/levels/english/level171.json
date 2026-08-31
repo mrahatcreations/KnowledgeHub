@@ -1,0 +1,133 @@
+{
+  "level_id": 171,
+  "title": "Level 171: Idiom",
+  "unit": "Image 31 (image (31).jpg)",
+  "category": "Idiom",
+  "items": [
+    {
+      "id": 851,
+      "word": "Come to light",
+      "ipa": "/kʌm tuː laɪt/",
+      "pos": "phrase",
+      "meaning": "প্রকাশ পাওয়া, জানাজানি হওয়া",
+      "synonyms": [
+        "be revealed",
+        "be disclosed",
+        "emerge",
+        "surface"
+      ],
+      "antonyms": [
+        "remain hidden",
+        "stay secret",
+        "be concealed",
+        "stay obscure"
+      ],
+      "raw_synonyms": "be revealed, be disclosed, emerge, surface",
+      "raw_antonyms": "remain hidden, stay secret, be concealed, stay obscure",
+      "sentence": "Startling evidence of widespread financial fraud came to light during the federal investigation.",
+      "sentence_meaning": "ফেডারেল তদন্তের সময় ব্যাপক আর্থিক জালিয়াতির চাঞ্চল্যকর প্রমাণ প্রকাশ পেয়েছিল।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    },
+    {
+      "id": 852,
+      "word": "Come to nothing",
+      "ipa": "/kʌm tuː ˈnʌθɪŋ/",
+      "pos": "phrase",
+      "meaning": "ব্যর্থ হওয়া, পণ্ড হওয়া, ফলপ্রসূ না হওয়া",
+      "synonyms": [
+        "fail",
+        "fall through",
+        "prove futile",
+        "yield no result"
+      ],
+      "antonyms": [
+        "succeed",
+        "bear fruit",
+        "materialize",
+        "prosper"
+      ],
+      "raw_synonyms": "fail, fall through, prove futile, yield no result",
+      "raw_antonyms": "succeed, bear fruit, materialize, prosper",
+      "sentence": "All their ambitious plans to establish a regional research centre came to nothing due to budget cuts.",
+      "sentence_meaning": "বাজেট কাটছাঁটের কারণে আঞ্চলিক গবেষণা কেন্দ্র প্রতিষ্ঠার তাদের সমস্ত উচ্চাভিলাষী পরিকল্পনা পণ্ড হয়ে গিয়েছিল।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    },
+    {
+      "id": 853,
+      "word": "Come to the point",
+      "ipa": "/kʌm tuː ðə pɔɪnt/",
+      "pos": "phrase",
+      "meaning": "মূল কথায় আসা, কাজের কথায় আসা",
+      "synonyms": [
+        "cut to the chase",
+        "get to the crux",
+        "speak directly",
+        "focus"
+      ],
+      "antonyms": [
+        "beat about the bush",
+        "digress",
+        "ramble",
+        "wander"
+      ],
+      "raw_synonyms": "cut to the chase, get to the crux, speak directly, focus",
+      "raw_antonyms": "beat about the bush, digress, ramble, wander",
+      "sentence": "Please stop beating about the bush and come to the point so that we can conclude this meeting promptly.",
+      "sentence_meaning": "দয়া করে ভূমিকা না করে মূল কথায় আসুন যাতে আমরা দ্রুত এই সভা শেষ করতে পারি।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    },
+    {
+      "id": 854,
+      "word": "Come true",
+      "ipa": "/kʌm truː/",
+      "pos": "phrase",
+      "meaning": "বাস্তবায়িত হওয়া, সত্য প্রমাণিত হওয়া",
+      "synonyms": [
+        "materialize",
+        "be fulfilled",
+        "realize",
+        "actualize"
+      ],
+      "antonyms": [
+        "fail",
+        "prove false",
+        "fall apart",
+        "dissipate"
+      ],
+      "raw_synonyms": "materialize, be fulfilled, realize, actualize",
+      "raw_antonyms": "fail, prove false, fall apart, dissipate",
+      "sentence": "Her lifelong aspiration of becoming an internationally recognized cardiac surgeon finally came true.",
+      "sentence_meaning": "একজন আন্তর্জাতিকভাবে স্বীকৃত কার্ডিয়াক সার্জন হওয়ার তার আজীবনের স্বপ্ন অবশেষে বাস্তবায়িত হলো।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    },
+    {
+      "id": 855,
+      "word": "Crocodile tears",
+      "ipa": "/ˈkrɑːkədaɪl tɪrz/",
+      "pos": "phrase",
+      "meaning": "মায়াকান্না, কপট বা কৃত্রিম শোক প্রকাশ",
+      "synonyms": [
+        "insincere grief",
+        "fake sorrow",
+        "hypocritical tears",
+        "feigned sadness"
+      ],
+      "antonyms": [
+        "genuine sorrow",
+        "sincere grief",
+        "heartfelt sadness",
+        "true empathy"
+      ],
+      "raw_synonyms": "insincere grief, fake sorrow, hypocritical tears, feigned sadness",
+      "raw_antonyms": "genuine sorrow, sincere grief, heartfelt sadness, true empathy",
+      "sentence": "The deceitful heir shed crocodile tears at the funeral while secretly rejoicing over the vast inheritance.",
+      "sentence_meaning": "প্রতারক উত্তরাধিকারীটি শেষকৃত্যে মায়াকান্না কেঁদেছিল, অথচ গোপনে বিশাল সম্পত্তির প্রাপ্তিতে আনন্দিত ছিল।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    }
+  ]
+}

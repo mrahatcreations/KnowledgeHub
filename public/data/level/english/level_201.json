@@ -1,0 +1,133 @@
+{
+  "level_id": 201,
+  "title": "Level 201: Appropriate Preposition",
+  "unit": "Super Preposition Technique: For",
+  "category": "Appropriate Preposition",
+  "items": [
+    {
+      "id": 1001,
+      "word": "Demand for",
+      "ipa": "/dɪˈmænd fɔːr/",
+      "pos": "prep",
+      "meaning": "চাহিদা, দাবি",
+      "synonyms": [
+        "need for",
+        "requirement for",
+        "request for",
+        "call for"
+      ],
+      "antonyms": [
+        "lack of interest",
+        "surplus of",
+        "glut of",
+        "indifference to"
+      ],
+      "raw_synonyms": "need for, requirement for, request for, call for",
+      "raw_antonyms": "lack of interest, surplus of, glut of, indifference to",
+      "sentence": "With the rapid growth of digital platforms, there is an escalating global demand for skilled software engineers.",
+      "sentence_meaning": "ডিজিটাল প্ল্যাটফর্মের দ্রুত বৃদ্ধির সাথে সাথে দক্ষ সফটওয়্যার ইঞ্জিনিয়ারদের জন্য বিশ্বব্যাপী ব্যাপক চাহিদা তৈরি হচ্ছে।",
+      "category": "Appropriate Preposition",
+      "unit": "Super Preposition Technique: For"
+    },
+    {
+      "id": 1002,
+      "word": "Desire for",
+      "ipa": "/dɪˈzaɪər fɔːr/",
+      "pos": "prep",
+      "meaning": "তীব্র আকাঙ্ক্ষা, ইচ্ছা",
+      "synonyms": [
+        "longing for",
+        "craving for",
+        "wish for",
+        "hunger for"
+      ],
+      "antonyms": [
+        "aversion to",
+        "distaste for",
+        "dislike for",
+        "indifference to"
+      ],
+      "raw_synonyms": "longing for, craving for, wish for, hunger for",
+      "raw_antonyms": "aversion to, distaste for, dislike for, indifference to",
+      "sentence": "His burning desire for scientific discovery motivated him to work long hours in the laboratory.",
+      "sentence_meaning": "বৈজ্ঞানিক আবিষ্কারের প্রতি তাঁর তীব্র আকাঙ্ক্ষা তাঁকে গবেষণাগারে দীর্ঘ সময় কাজ করতে অনুপ্রাণিত করেছিল।",
+      "category": "Appropriate Preposition",
+      "unit": "Super Preposition Technique: For"
+    },
+    {
+      "id": 1003,
+      "word": "Eligible for",
+      "ipa": "/ˈelɪdʒəbl fɔːr/",
+      "pos": "prep",
+      "meaning": "যোগ্য, উপযুক্ত",
+      "synonyms": [
+        "qualified for",
+        "entitled to",
+        "suitable for",
+        "fit for"
+      ],
+      "antonyms": [
+        "ineligible for",
+        "unqualified for",
+        "unfit for",
+        "inappropriate for"
+      ],
+      "raw_synonyms": "qualified for, entitled to, suitable for, fit for",
+      "raw_antonyms": "ineligible for, unqualified for, unfit for, inappropriate for",
+      "sentence": "Only applicants with exceptional academic credentials are eligible for the national merit scholarship.",
+      "sentence_meaning": "কেবলমাত্র ব্যতিক্রমী শিক্ষাগত যোগ্যতাসম্পন্ন আবেদনকারীরাই জাতীয় মেধা বৃত্তির জন্য যোগ্য বলে বিবেচিত।",
+      "category": "Appropriate Preposition",
+      "unit": "Super Preposition Technique: For"
+    },
+    {
+      "id": 1004,
+      "word": "Famous for",
+      "ipa": "/ˈfeɪməs fɔːr/",
+      "pos": "prep",
+      "meaning": "খ্যাত, বিখ্যাত, সুবিখ্যাত",
+      "synonyms": [
+        "renowned for",
+        "celebrated for",
+        "noted for",
+        "acclaimed for"
+      ],
+      "antonyms": [
+        "unknown for",
+        "infamous for",
+        "obscure for",
+        "ignored for"
+      ],
+      "raw_synonyms": "renowned for, celebrated for, noted for, acclaimed for",
+      "raw_antonyms": "unknown for, infamous for, obscure for, ignored for",
+      "sentence": "The historical city of Rome is world-famous for its ancient monuments and magnificent architecture.",
+      "sentence_meaning": "ঐতিহাসিক রোম নগরী তার প্রাচীন স্মৃতিস্তম্ভ এবং চমৎকার স্থাপত্যের জন্য বিশ্বখ্যাত।",
+      "category": "Appropriate Preposition",
+      "unit": "Super Preposition Technique: For"
+    },
+    {
+      "id": 1005,
+      "word": "Hope for",
+      "ipa": "/hoʊp fɔːr/",
+      "pos": "prep",
+      "meaning": "আশা করা, প্রত্যাশা করা",
+      "synonyms": [
+        "expect",
+        "anticipate",
+        "look forward to",
+        "aspire to"
+      ],
+      "antonyms": [
+        "despair of",
+        "dread",
+        "fear",
+        "doubt"
+      ],
+      "raw_synonyms": "expect, anticipate, look forward to, aspire to",
+      "raw_antonyms": "despair of, dread, fear, doubt",
+      "sentence": "Despite turbulent economic conditions, small business owners continue to hope for a robust market recovery.",
+      "sentence_meaning": "টালমাটাল অর্থনৈতিক পরিস্থিতি সত্ত্বেও ক্ষুদ্র ব্যবসায়ীরা বাজারে জোরালো পুনরুদ্ধারের আশা অব্যাহত রেখেছেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Super Preposition Technique: For"
+    }
+  ]
+}

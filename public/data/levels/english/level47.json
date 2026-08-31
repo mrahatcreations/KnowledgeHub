@@ -1,0 +1,133 @@
+{
+  "level_id": 47,
+  "title": "Level 47: Word Transformation",
+  "unit": "Image 8 (image (8).jpg) - Transformation of Word",
+  "category": "Word Transformation",
+  "items": [
+    {
+      "id": 231,
+      "word": "Ability",
+      "ipa": "/əˈbɪləti/",
+      "pos": "n",
+      "meaning": "সামর্থ্য, সক্ষমতা",
+      "synonyms": [
+        "capability",
+        "capacity",
+        "competence",
+        "aptitude"
+      ],
+      "antonyms": [
+        "inability",
+        "incapacity",
+        "incompetence",
+        "weakness"
+      ],
+      "raw_synonyms": "capability, capacity, competence, aptitude",
+      "raw_antonyms": "inability, incapacity, incompetence, weakness",
+      "sentence": "Her exceptional analytical ability enabled her to solve the complex mathematical puzzle quickly.",
+      "sentence_meaning": "তাঁর ব্যতিক্রমী বিশ্লেষণাত্মক ক্ষমতা তাঁকে জটিল গাণিতিক ধাঁধাটি দ্রুত সমাধান করতে সক্ষম করেছিল।",
+      "category": "Word Transformation",
+      "unit": "Image 8 (image (8).jpg) - Transformation of Word"
+    },
+    {
+      "id": 232,
+      "word": "Acceptance",
+      "ipa": "/əkˈseptəns/",
+      "pos": "n",
+      "meaning": "গ্রহণযোগ্যতা, সম্মতি",
+      "synonyms": [
+        "approval",
+        "agreement",
+        "reception",
+        "admission"
+      ],
+      "antonyms": [
+        "rejection",
+        "denial",
+        "refusal",
+        "dismissal"
+      ],
+      "raw_synonyms": "approval, agreement, reception, admission",
+      "raw_antonyms": "rejection, denial, refusal, dismissal",
+      "sentence": "The innovative scientific hypothesis gained widespread acceptance among nuclear physicists.",
+      "sentence_meaning": "উদ্ভাবনী বৈজ্ঞানিক হাইপোথিসিসটি পারমাণবিক পদার্থবিজ্ঞানীদের মধ্যে ব্যাপক গ্রহণযোগ্যতা লাভ করেছিল।",
+      "category": "Word Transformation",
+      "unit": "Image 8 (image (8).jpg) - Transformation of Word"
+    },
+    {
+      "id": 233,
+      "word": "Acquisition",
+      "ipa": "/ˌækwɪˈzɪʃn/",
+      "pos": "n",
+      "meaning": "অর্জন, লাভ বা অধিগ্রহণ",
+      "synonyms": [
+        "procurement",
+        "attainment",
+        "gain",
+        "possession"
+      ],
+      "antonyms": [
+        "loss",
+        "forfeiture",
+        "deprivation",
+        "divestment"
+      ],
+      "raw_synonyms": "procurement, attainment, gain, possession",
+      "raw_antonyms": "loss, forfeiture, deprivation, divestment",
+      "sentence": "Language acquisition occurs most naturally during the early formative years of childhood.",
+      "sentence_meaning": "শৈশবের প্রাথমিক গঠনমূলক বছরগুলোতে ভাষা অর্জন সবচেয়ে প্রাকৃতিকভাবে ঘটে।",
+      "category": "Word Transformation",
+      "unit": "Image 8 (image (8).jpg) - Transformation of Word"
+    },
+    {
+      "id": 234,
+      "word": "Act",
+      "ipa": "/ækt/",
+      "pos": "n",
+      "meaning": "আইন, বিধান বা কর্মকাণ্ড",
+      "synonyms": [
+        "statute",
+        "law",
+        "decree",
+        "deed"
+      ],
+      "antonyms": [
+        "repeal",
+        "inactivity",
+        "omission",
+        "lawlessness"
+      ],
+      "raw_synonyms": "statute, law, decree, deed",
+      "raw_antonyms": "repeal, inactivity, omission, lawlessness",
+      "sentence": "Parliament passed an emergency act to provide financial relief to flood victims.",
+      "sentence_meaning": "বন্যাদুর্গতদের আর্থিক সহায়তা প্রদানের জন্য সংসদ একটি জরুরি আইন পাস করেছে।",
+      "category": "Word Transformation",
+      "unit": "Image 8 (image (8).jpg) - Transformation of Word"
+    },
+    {
+      "id": 235,
+      "word": "Admiration",
+      "ipa": "/ˌædməˈreɪʃn/",
+      "pos": "n",
+      "meaning": "প্রশংসা, শ্রদ্ধা",
+      "synonyms": [
+        "esteem",
+        "respect",
+        "appreciation",
+        "veneration"
+      ],
+      "antonyms": [
+        "contempt",
+        "disdain",
+        "scorn",
+        "disregard"
+      ],
+      "raw_synonyms": "esteem, respect, appreciation, veneration",
+      "raw_antonyms": "contempt, disdain, scorn, disregard",
+      "sentence": "The courageous doctor earned the admiration and gratitude of the entire nation.",
+      "sentence_meaning": "সাহসী চিকিৎসক সমগ্র জাতির প্রশংসা ও কৃতজ্ঞতা অর্জন করেছিলেন।",
+      "category": "Word Transformation",
+      "unit": "Image 8 (image (8).jpg) - Transformation of Word"
+    }
+  ]
+}

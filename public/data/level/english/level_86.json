@@ -1,0 +1,132 @@
+{
+  "level_id": 86,
+  "title": "Level 86: Vocabulary",
+  "unit": "Vocabulary Table",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 426,
+      "word": "Core",
+      "ipa": "/kɔːr/",
+      "pos": "n",
+      "meaning": "মূল অংশ, কেন্দ্রবিন্দু, সারবস্তু",
+      "synonyms": [
+        "essence",
+        "nucleus",
+        "heart",
+        "crux"
+      ],
+      "antonyms": [
+        "periphery",
+        "exterior",
+        "surface",
+        "margin"
+      ],
+      "raw_synonyms": "essence, nucleus, heart, crux",
+      "raw_antonyms": "periphery, exterior, surface, margin",
+      "sentence": "Critical thinking and problem-solving lie at the very core of modern education.",
+      "sentence_meaning": "সমালোচনামূলক চিন্তাভাবনা ও সমস্যা সমাধান আধুনিক শিক্ষার মূল কেন্দ্রবিন্দুতে অবস্থিত।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 427,
+      "word": "Caution",
+      "ipa": "/ˈkɔːʃn/",
+      "pos": "n",
+      "meaning": "সতর্কতা, সাবধানতা",
+      "synonyms": [
+        "prudence",
+        "vigilance",
+        "wariness",
+        "circumspection"
+      ],
+      "antonyms": [
+        "recklessness",
+        "rashness",
+        "carelessness",
+        "negligence"
+      ],
+      "raw_synonyms": "prudence, vigilance, wariness, circumspection",
+      "raw_antonyms": "recklessness, rashness, carelessness, negligence",
+      "sentence": "The safety inspector advised extreme caution when handling hazardous chemical substances.",
+      "sentence_meaning": "নিরাপত্তা পরিদর্শক ঝুঁকিপূর্ণ রাসায়নিক পদার্থ নাড়াচাড়া করার সময় চরম সতর্কতার পরামর্শ দিয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 428,
+      "word": "Stimuli",
+      "ipa": "/ˈstɪmjəlaɪ/",
+      "pos": "n",
+      "meaning": "উদ্দীপকসমূহ, প্রেরণা",
+      "synonyms": [
+        "triggers",
+        "impulses",
+        "incentives",
+        "cues"
+      ],
+      "antonyms": [
+        "deterrents",
+        "discouragements",
+        "inhibitors"
+      ],
+      "raw_synonyms": "triggers, impulses, incentives, cues",
+      "raw_antonyms": "deterrents, discouragements, inhibitors",
+      "sentence": "The human nervous system processes millions of environmental sensory stimuli every second.",
+      "sentence_meaning": "মানব স্নায়ুতন্ত্র প্রতি সেকেন্ডে লক্ষ লক্ষ পরিবেশগত সংবেদনশীল উদ্দীপক প্রক্রিয়াকরণ করে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 429,
+      "word": "Laud",
+      "ipa": "/lɔːd/",
+      "pos": "v",
+      "meaning": "প্রশংসা করা, গুণগান করা",
+      "synonyms": [
+        "praise",
+        "extol",
+        "applaud",
+        "commend"
+      ],
+      "antonyms": [
+        "criticize",
+        "condemn",
+        "censure",
+        "denounce"
+      ],
+      "raw_synonyms": "praise, extol, applaud, commend",
+      "raw_antonyms": "criticize, condemn, censure, denounce",
+      "sentence": "Global environmentalists laud the scientist for her breakthrough in renewable energy.",
+      "sentence_meaning": "নবায়নযোগ্য শক্তিতে যুগান্তকারী আবিষ্কারের জন্য বিশ্বব্যাপী পরিবেশবিদরা এই বিজ্ঞানীর ভূয়সী প্রশংসা করেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 430,
+      "word": "Affront",
+      "ipa": "/əˈfrʌnt/",
+      "pos": "v",
+      "meaning": "অপমান করা, অসম্মান করা",
+      "synonyms": [
+        "insult",
+        "offend",
+        "slight",
+        "disrespect"
+      ],
+      "antonyms": [
+        "respect",
+        "honor",
+        "compliment",
+        "praise"
+      ],
+      "raw_synonyms": "insult, offend, slight, disrespect",
+      "raw_antonyms": "respect, honor, compliment, praise",
+      "sentence": "His rude and derogatory remarks were clearly intended to affront the visiting delegates.",
+      "sentence_meaning": "তাঁর অভদ্র ও অবমাননাকর মন্তব্যগুলো স্পষ্টতই আগত প্রতিনিধিদের অপমান করার উদ্দেশ্যে করা হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    }
+  ]
+}

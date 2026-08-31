@@ -1,0 +1,133 @@
+{
+  "level_id": 27,
+  "title": "Level 27: Vocabulary",
+  "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 131,
+      "word": "Ascent",
+      "ipa": "/əˈsent/",
+      "pos": "n",
+      "meaning": "উত্থান, আরোহণ, চড়াই",
+      "synonyms": [
+        "climb",
+        "rise",
+        "elevation",
+        "scaling"
+      ],
+      "antonyms": [
+        "descent",
+        "fall",
+        "drop",
+        "decline"
+      ],
+      "raw_synonyms": "climb, rise, elevation, scaling",
+      "raw_antonyms": "descent, fall, drop, decline",
+      "sentence": "The mountaineers commenced their perilous ascent towards the summit at daybreak.",
+      "sentence_meaning": "পর্বতারোহীরা ভোরবেলায় চূড়ার উদ্দেশ্যে তাদের ঝুঁকিপূর্ণ আরোহণ শুরু করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 132,
+      "word": "Assail",
+      "ipa": "/əˈseɪl/",
+      "pos": "v",
+      "meaning": "আক্রমণ করা, জোরালো আঘাত হানা",
+      "synonyms": [
+        "attack",
+        "assault",
+        "beset",
+        "strike"
+      ],
+      "antonyms": [
+        "defend",
+        "protect",
+        "shield",
+        "befriend"
+      ],
+      "raw_synonyms": "attack, assault, beset, strike",
+      "raw_antonyms": "defend, protect, shield, befriend",
+      "sentence": "The opposition leader did not hesitate to assail the controversial government policy in Parliament.",
+      "sentence_meaning": "বিরোধীদলীয় নেতা সংসদে সরকারের বিতর্কিত নীতির তীব্র সমালোচনা বা আক্রমণ করতে দ্বিধা করেননি।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 133,
+      "word": "Aspiration",
+      "ipa": "/ˌæspəˈreɪʃn/",
+      "pos": "n",
+      "meaning": "উচ্চাকাঙ্ক্ষা, প্রবল ইচ্ছা, অভিলাষ",
+      "synonyms": [
+        "ambition",
+        "yearning",
+        "objective",
+        "desire"
+      ],
+      "antonyms": [
+        "apathy",
+        "indifference",
+        "lethargy",
+        "unambitiousness"
+      ],
+      "raw_synonyms": "ambition, yearning, objective, desire",
+      "raw_antonyms": "apathy, indifference, lethargy, unambitiousness",
+      "sentence": "Her lifelong aspiration was to establish a free hospital for underprivileged rural communities.",
+      "sentence_meaning": "তার আজীবনের উচ্চাকাঙ্ক্ষা ছিল সুবিধাবঞ্চিত গ্রামীণ সম্প্রদায়ের জন্য একটি বিনামূল্যে হাসপাতাল প্রতিষ্ঠা করা।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 134,
+      "word": "Assert",
+      "ipa": "/əˈsɜːrt/",
+      "pos": "v",
+      "meaning": "দৃঢ়ভাবে দাবি করা বা বলা, জাহির করা",
+      "synonyms": [
+        "declare",
+        "affirm",
+        "contend",
+        "maintain"
+      ],
+      "antonyms": [
+        "deny",
+        "refute",
+        "renounce",
+        "disavow"
+      ],
+      "raw_synonyms": "declare, affirm, contend, maintain",
+      "raw_antonyms": "deny, refute, renounce, disavow",
+      "sentence": "The defense attorney stood up to assert his client's constitutional rights during trial.",
+      "sentence_meaning": "বিচার চলাকালীন বিবাদী পক্ষের আইনজীবী তার মক্কেলের সাংবিধানিক অধিকার দৃঢ়ভাবে দাবি করতে উঠে দাঁড়ান।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 135,
+      "word": "Atrocity",
+      "ipa": "/əˈtrɒsəti/",
+      "pos": "n",
+      "meaning": "নৃশংসতা, বর্বর আচরণ, চরম নিষ্ঠুরতা",
+      "synonyms": [
+        "brutality",
+        "barbarity",
+        "outrage",
+        "cruelty"
+      ],
+      "antonyms": [
+        "benevolence",
+        "humanity",
+        "kindness",
+        "clemency"
+      ],
+      "raw_synonyms": "brutality, barbarity, outrage, cruelty",
+      "raw_antonyms": "benevolence, humanity, kindness, clemency",
+      "sentence": "The international tribunal was established to prosecute perpetrators of war atrocities.",
+      "sentence_meaning": "যুদ্ধের নৃশংসতার জন্য অপরাধীদের বিচারের আওতায় আনতে আন্তর্জাতিক ট্রাইব্যুনাল প্রতিষ্ঠা করা হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    }
+  ]
+}

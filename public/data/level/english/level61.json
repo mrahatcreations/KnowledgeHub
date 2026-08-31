@@ -1,0 +1,131 @@
+{
+  "level_id": 61,
+  "title": "Level 61: Vocabulary",
+  "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 301,
+      "word": "Township",
+      "ipa": "/ˈtaʊnʃɪp/",
+      "pos": "n",
+      "meaning": "জনপদ, ছোট শহর বা এলাকা",
+      "synonyms": [
+        "settlement",
+        "municipality",
+        "locality",
+        "town"
+      ],
+      "antonyms": [
+        "wilderness",
+        "metropolis",
+        "wasteland"
+      ],
+      "raw_synonyms": "settlement, municipality, locality, town",
+      "raw_antonyms": "wilderness, metropolis, wasteland",
+      "sentence": "The industrial township expanded rapidly following the establishment of several export factories.",
+      "sentence_meaning": "বেশ কয়েকটি রপ্তানি কারখানা প্রতিষ্ঠার পর শিল্পভিত্তিক জনপদটি দ্রুত প্রসারিত হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)"
+    },
+    {
+      "id": 302,
+      "word": "Prosperous",
+      "ipa": "/ˈprɑːspərəs/",
+      "pos": "adj",
+      "meaning": "সমৃদ্ধ, উন্নতিশীল, বিত্তশালী",
+      "synonyms": [
+        "flourishing",
+        "thriving",
+        "affluent",
+        "opulent"
+      ],
+      "antonyms": [
+        "impoverished",
+        "destitute",
+        "needy",
+        "poor"
+      ],
+      "raw_synonyms": "flourishing, thriving, affluent, opulent",
+      "raw_antonyms": "impoverished, destitute, needy, poor",
+      "sentence": "Fertile agricultural plains and trade routes turned the kingdom into a prosperous civilization.",
+      "sentence_meaning": "উর্বর কৃষিজমি এবং বাণিজ্য পথ রাজ্যটিকে এক সমৃদ্ধ সভ্যতায় পরিণত করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)"
+    },
+    {
+      "id": 303,
+      "word": "Splendor",
+      "ipa": "/ˈsplendər/",
+      "pos": "n",
+      "meaning": "মহিমা, জাঁকজমক, চমৎকারিত্ব",
+      "synonyms": [
+        "magnificence",
+        "grandeur",
+        "opulence",
+        "brilliance"
+      ],
+      "antonyms": [
+        "modesty",
+        "simplicity",
+        "drabness",
+        "dullness"
+      ],
+      "raw_synonyms": "magnificence, grandeur, opulence, brilliance",
+      "raw_antonyms": "modesty, simplicity, drabness, dullness",
+      "sentence": "Visitors were left spellbound by the architectural splendor of the ancient palace.",
+      "sentence_meaning": "দর্শনার্থীরা প্রাচীন প্রাসাদের স্থাপত্যিক জাঁকজমক দেখে মন্ত্রমুগ্ধ হয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)"
+    },
+    {
+      "id": 304,
+      "word": "Amaze",
+      "ipa": "/əˈmeɪz/",
+      "pos": "v",
+      "meaning": "বিস্মিত করা, তাজ্জব করা",
+      "synonyms": [
+        "astonish",
+        "astound",
+        "surprise",
+        "stagger"
+      ],
+      "antonyms": [
+        "bore",
+        "disillusion",
+        "underwhelm",
+        "leave unimpressed"
+      ],
+      "raw_synonyms": "astonish, astound, surprise, stagger",
+      "raw_antonyms": "bore, disillusion, underwhelm, leave unimpressed",
+      "sentence": "The magician's unbelievable sleight of hand never failed to amaze crowds of all ages.",
+      "sentence_meaning": "জাদুকরের অবিশ্বাস্য হাতের কারসাজি সব বয়সের দর্শককে বিস্মিত করতে কখনও ব্যর্থ হয়নি।",
+      "category": "Vocabulary",
+      "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)"
+    },
+    {
+      "id": 305,
+      "word": "Weaver",
+      "ipa": "/ˈwiːvər/",
+      "pos": "n",
+      "meaning": "তাঁতি, বস্ত্র বয়নশিল্পী",
+      "synonyms": [
+        "textile worker",
+        "artisan",
+        "craftsperson",
+        "clothmaker"
+      ],
+      "antonyms": [
+        "cloth destroyer",
+        "consumer",
+        "buyer"
+      ],
+      "raw_synonyms": "textile worker, artisan, craftsperson, clothmaker",
+      "raw_antonyms": "cloth destroyer, consumer, buyer",
+      "sentence": "The traditional Jamdani weaver spent three painstaking months crafting the intricate floral saree.",
+      "sentence_meaning": "ঐতিহ্যবাহী জামদানি তাঁতি সূক্ষ্ম নকশাদার শাড়িটি তৈরি করতে তিন মাস কঠোর পরিশ্রম করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)"
+    }
+  ]
+}

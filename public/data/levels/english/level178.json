@@ -1,0 +1,133 @@
+{
+  "level_id": 178,
+  "title": "Level 178: Phrasal Verb",
+  "unit": "Image 33 (image (33).jpg)",
+  "category": "Phrasal Verb",
+  "items": [
+    {
+      "id": 886,
+      "word": "Draw back",
+      "ipa": "/drɔː bæk/",
+      "pos": "phrase",
+      "meaning": "প্রতিশ্রুতি থেকে পিছু হটা, অঙ্গীকার প্রত্যাহার করা",
+      "synonyms": [
+        "back out",
+        "retreat",
+        "recoil",
+        "renounce"
+      ],
+      "antonyms": [
+        "commit",
+        "pursue",
+        "stand by",
+        "advance"
+      ],
+      "raw_synonyms": "back out, retreat, recoil, renounce",
+      "raw_antonyms": "commit, pursue, stand by, advance",
+      "sentence": "Having pledged his full financial backing, it was unethical for the partner to draw back at the final hour.",
+      "sentence_meaning": "সম্পূর্ণ আর্থিক সহায়তার প্রতিশ্রুতি দিয়ে শেষ মুহূর্তে অংশীদারের পিছু হটা অনৈতিক ছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 33 (image (33).jpg)"
+    },
+    {
+      "id": 887,
+      "word": "Draw down",
+      "ipa": "/drɔː daʊn/",
+      "pos": "phrase",
+      "meaning": "বিপদ বা নিন্দা ডেকে আনা, হ্রাস পাওয়া",
+      "synonyms": [
+        "incur",
+        "attract",
+        "deplete",
+        "bring upon"
+      ],
+      "antonyms": [
+        "ward off",
+        "avoid",
+        "accumulate",
+        "augment"
+      ],
+      "raw_synonyms": "incur, attract, deplete, bring upon",
+      "raw_antonyms": "ward off, avoid, accumulate, augment",
+      "sentence": "His reckless statements during the live interview drew down severe condemnation from civic organizations.",
+      "sentence_meaning": "সরাসরি সাক্ষাৎকারে তার বেপরোয়া মন্তব্য নাগরিক সংগঠনগুলোর তীব্র নিন্দাকে ডেকে এনেছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 33 (image (33).jpg)"
+    },
+    {
+      "id": 888,
+      "word": "Draw in",
+      "ipa": "/drɔː ɪn/",
+      "pos": "phrase",
+      "meaning": "আকৃষ্ট করা, সম্পৃক্ত বা আকৃষ্ট করে টেনে আনা",
+      "synonyms": [
+        "entice",
+        "attract",
+        "lure",
+        "involve"
+      ],
+      "antonyms": [
+        "repel",
+        "drive away",
+        "deter",
+        "disperse"
+      ],
+      "raw_synonyms": "entice, attract, lure, involve",
+      "raw_antonyms": "repel, drive away, deter, disperse",
+      "sentence": "The grand opening of the shopping festival drew in thousands of eager shoppers from neighboring towns.",
+      "sentence_meaning": "শপিং উৎসবের জমকালো উদ্বোধনে পার্শ্ববর্তী শহরগুলো থেকে হাজার হাজার উৎসাহী ক্রেতা আকৃষ্ট হয়েছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 33 (image (33).jpg)"
+    },
+    {
+      "id": 889,
+      "word": "Draw off",
+      "ipa": "/drɔː ɔːf/",
+      "pos": "phrase",
+      "meaning": "নিষ্কাশন করা, অপসারণ করা, পিছু হটানো",
+      "synonyms": [
+        "withdraw",
+        "drain",
+        "siphon off",
+        "divert"
+      ],
+      "antonyms": [
+        "advance",
+        "pour in",
+        "infiltrate",
+        "flood"
+      ],
+      "raw_synonyms": "withdraw, drain, siphon off, divert",
+      "raw_antonyms": "advance, pour in, infiltrate, flood",
+      "sentence": "The medical team used a syringe to draw off excess fluid surrounding the patient's injured knee joint.",
+      "sentence_meaning": "রোগীর আঘাতপ্রাপ্ত হাঁটুর জয়েন্টের চারপাশের অতিরিক্ত তরল বের করে নিতে চিকিৎসাদল একটি সিরিঞ্জ ব্যবহার করেছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 33 (image (33).jpg)"
+    },
+    {
+      "id": 890,
+      "word": "Draw on",
+      "ipa": "/drɔː ɒn/",
+      "pos": "phrase",
+      "meaning": "জমানো তহবিল বা পূর্ব অভিজ্ঞতা কাজে লাগানো",
+      "synonyms": [
+        "tap",
+        "rely upon",
+        "utilize",
+        "exploit"
+      ],
+      "antonyms": [
+        "replenish",
+        "deposit",
+        "save",
+        "ignore"
+      ],
+      "raw_synonyms": "tap, rely upon, utilize, exploit",
+      "raw_antonyms": "replenish, deposit, save, ignore",
+      "sentence": "The veteran author drew on his extensive wartime experiences to write a bestselling historical masterpiece.",
+      "sentence_meaning": "প্রবীণ লেখক একটি সর্বাধিক বিক্রিত ঐতিহাসিক মাস্টারপিস লিখতে তার ব্যাপক যুদ্ধকালীন অভিজ্ঞতাকে কাজে লাগিয়েছিলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 33 (image (33).jpg)"
+    }
+  ]
+}

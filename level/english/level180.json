@@ -1,0 +1,133 @@
+{
+  "level_id": 180,
+  "title": "Level 180: Phrasal Verb",
+  "unit": "Image 33 (image (33).jpg)",
+  "category": "Phrasal Verb",
+  "items": [
+    {
+      "id": 896,
+      "word": "Do for",
+      "ipa": "/duː fɔːr/",
+      "pos": "phrase",
+      "meaning": "ধ্বংস বা সর্বনাশ করা, নিঃস্ব করা",
+      "synonyms": [
+        "ruin",
+        "destroy",
+        "defeat",
+        "wreck"
+      ],
+      "antonyms": [
+        "save",
+        "rescue",
+        "restore",
+        "build"
+      ],
+      "raw_synonyms": "ruin, destroy, defeat, wreck",
+      "raw_antonyms": "save, rescue, restore, build",
+      "sentence": "That disastrous investment in fraudulent cryptocurrencies completely did for his lifetime savings.",
+      "sentence_meaning": "প্রতারণামূলক ক্রিপ্টোকারেন্সিতে সেই বিপর্যয়মূলক বিনিয়োগ তার আজীবনের সঞ্চয়কে পুরোপুরি ধ্বংস করে দিয়েছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 33 (image (33).jpg)"
+    },
+    {
+      "id": 897,
+      "word": "Do into",
+      "ipa": "/duː ˈɪntuː/",
+      "pos": "phrase",
+      "meaning": "অনুবাদ করা, অন্য ভাষায় রূপান্তর করা",
+      "synonyms": [
+        "translate into",
+        "render into",
+        "convert into",
+        "transcribe"
+      ],
+      "antonyms": [
+        "misinterpret",
+        "distort",
+        "scramble",
+        "keep original"
+      ],
+      "raw_synonyms": "translate into, render into, convert into, transcribe",
+      "raw_antonyms": "misinterpret, distort, scramble, keep original",
+      "sentence": "Scholars spent years doing the ancient Sanskrit manuscripts into modern English prose.",
+      "sentence_meaning": "পণ্ডিতেরা প্রাচীন সংস্কৃত পাণ্ডুলিপিগুলো আধুনিক ইংরেজি গদ্যে অনুবাদ করতে কয়েক বছর ব্যয় করেছিলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 33 (image (33).jpg)"
+    },
+    {
+      "id": 898,
+      "word": "Do up",
+      "ipa": "/duː ʌp/",
+      "pos": "phrase",
+      "meaning": "মেরামত করা, সাজানো, নবায়ন করা",
+      "synonyms": [
+        "renovate",
+        "decorate",
+        "refurbish",
+        "fasten"
+      ],
+      "antonyms": [
+        "tear down",
+        "neglect",
+        "demolish",
+        "destroy"
+      ],
+      "raw_synonyms": "renovate, decorate, refurbish, fasten",
+      "raw_antonyms": "tear down, neglect, demolish, destroy",
+      "sentence": "They spent the summer vacation doing up their ancestral cottage by the lake.",
+      "sentence_meaning": "তারা গ্রীষ্মের ছুটি হ্রদের তীরে অবস্থিত তাদের পৈতৃক কুটির মেরামত ও সাজানোর কাজে ব্যয় করেছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 33 (image (33).jpg)"
+    },
+    {
+      "id": 899,
+      "word": "Do about",
+      "ipa": "/duː əˈbaʊt/",
+      "pos": "phrase",
+      "meaning": "ব্যবস্থা গ্রহণ করা, প্রতিকারের পদক্ষেপ নেওয়া",
+      "synonyms": [
+        "take action regarding",
+        "address",
+        "remedy",
+        "deal with"
+      ],
+      "antonyms": [
+        "ignore",
+        "overlook",
+        "disregard",
+        "neglect"
+      ],
+      "raw_synonyms": "take action regarding, address, remedy, deal with",
+      "raw_antonyms": "ignore, overlook, disregard, neglect",
+      "sentence": "City authorities must urgently decide what to do about the rising levels of airborne toxic pollutants.",
+      "sentence_meaning": "বাতাসে বিষাক্ত দূষণকারী পদার্থের মাত্রা বৃদ্ধির বিষয়ে কী ব্যবস্থা গ্রহণ করা উচিত তা নগর কর্তৃপক্ষকে জরুরিভাবে সিদ্ধান্ত নিতে হবে।",
+      "category": "Phrasal Verb",
+      "unit": "Image 33 (image (33).jpg)"
+    },
+    {
+      "id": 900,
+      "word": "Die down",
+      "ipa": "/daɪ daʊn/",
+      "pos": "phrase",
+      "meaning": "ধীরে ধীরে প্রশমিত হওয়া বা তীব্রতা কমে যাওয়া",
+      "synonyms": [
+        "subside",
+        "wane",
+        "diminish",
+        "fade"
+      ],
+      "antonyms": [
+        "intensify",
+        "escalate",
+        "increase",
+        "flare up"
+      ],
+      "raw_synonyms": "subside, wane, diminish, fade",
+      "raw_antonyms": "intensify, escalate, increase, flare up",
+      "sentence": "We waited patiently for the ferocious thunderstorm to die down before venturing out into the open.",
+      "sentence_meaning": "বাইরে উন্মুক্ত স্থানে বের হওয়ার আগে আমরা ধৈর্য ধরে প্রচণ্ড কালবৈশাখী ঝড় প্রশমিত হওয়ার জন্য অপেক্ষা করেছিলাম।",
+      "category": "Phrasal Verb",
+      "unit": "Image 33 (image (33).jpg)"
+    }
+  ]
+}

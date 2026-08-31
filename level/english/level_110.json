@@ -1,0 +1,133 @@
+{
+  "level_id": 110,
+  "title": "Level 110: Phrasal Verb",
+  "unit": "Image 19 (image (19).jpg) - Phrasal Verbs",
+  "category": "Phrasal Verb",
+  "items": [
+    {
+      "id": 546,
+      "word": "Come across",
+      "ipa": "/kʌm əˈkrɒs/",
+      "pos": "phrase",
+      "meaning": "হঠাৎ দেখা পাওয়া, দৈবাৎ খুঁজে পাওয়া, স্পষ্ট প্রতীয়মান হওয়া",
+      "synonyms": [
+        "encounter",
+        "meet by chance",
+        "discover",
+        "run into"
+      ],
+      "antonyms": [
+        "miss",
+        "overlook",
+        "pass by",
+        "avoid"
+      ],
+      "raw_synonyms": "encounter, meet by chance, discover, run into",
+      "raw_antonyms": "miss, overlook, pass by, avoid",
+      "sentence": "While cleaning the old attic, I came across a collection of antique coins.",
+      "sentence_meaning": "পুরনো চিলেকোঠা পরিষ্কার করার সময় আমি অপ্রত্যাশিতভাবে প্রাচীন মুদ্রার একটি সংগ্রহ খুঁজে পাই।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 547,
+      "word": "Come at",
+      "ipa": "/kʌm æt/",
+      "pos": "phrase",
+      "meaning": "আক্রমণ করা, নাগাল পাওয়া, কোনো বিষয়ের কাছে পৌঁছানো",
+      "synonyms": [
+        "attack",
+        "charge at",
+        "reach",
+        "approach"
+      ],
+      "antonyms": [
+        "retreat from",
+        "flee",
+        "withdraw",
+        "back away"
+      ],
+      "raw_synonyms": "attack, charge at, reach, approach",
+      "raw_antonyms": "retreat from, flee, withdraw, back away",
+      "sentence": "The snarling guard dog came at the intruder with ferocious speed.",
+      "sentence_meaning": "ঘেউ ঘেউ করা পাহারাদার কুকুরটি হিংস্র গতিতে অনধিকার প্রবেশকারীর ওপর চড়াও হয়েছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 548,
+      "word": "Come by",
+      "ipa": "/kʌm baɪ/",
+      "pos": "phrase",
+      "meaning": "পাওয়া, অর্জন করা, সংগ্রহ করা",
+      "synonyms": [
+        "obtain",
+        "acquire",
+        "get",
+        "procure"
+      ],
+      "antonyms": [
+        "lose",
+        "forfeit",
+        "misplace",
+        "surrender"
+      ],
+      "raw_synonyms": "obtain, acquire, get, procure",
+      "raw_antonyms": "lose, forfeit, misplace, surrender",
+      "sentence": "Authentic first-edition books are exceptionally rare and hard to come by nowadays.",
+      "sentence_meaning": "খাঁটি প্রথম সংস্করণের বই আজকাল অত্যন্ত দুর্লভ এবং পাওয়া খুবই কঠিন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 549,
+      "word": "Come down",
+      "ipa": "/kʌm daʊn/",
+      "pos": "phrase",
+      "meaning": "কমে যাওয়া, নিচে নামা, হ্রাস পাওয়া",
+      "synonyms": [
+        "decrease",
+        "decline",
+        "fall",
+        "drop"
+      ],
+      "antonyms": [
+        "increase",
+        "rise",
+        "soar",
+        "escalate"
+      ],
+      "raw_synonyms": "decrease, decline, fall, drop",
+      "raw_antonyms": "increase, rise, soar, escalate",
+      "sentence": "After the government reduced import tariffs, market prices of essential spices finally came down.",
+      "sentence_meaning": "সরকার আমদানি শুল্ক কমানোর পর অবশেষে নিত্যপ্রয়োজনীয় মসলার বাজারদর কমে এলো।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 550,
+      "word": "Come of",
+      "ipa": "/kʌm ɒv/",
+      "pos": "phrase",
+      "meaning": "বংশে জন্মগ্রহণ করা, ফলে উদ্ভূত হওয়া বা পরিণতি হিসেবে ঘটা",
+      "synonyms": [
+        "originate from",
+        "result from",
+        "be born of",
+        "stem from"
+      ],
+      "antonyms": [
+        "terminate",
+        "dissipate",
+        "cause",
+        "precede"
+      ],
+      "raw_synonyms": "originate from, result from, be born of, stem from",
+      "raw_antonyms": "terminate, dissipate, cause, precede",
+      "sentence": "He comes of an illustrious family that has served in public leadership for generations.",
+      "sentence_meaning": "তিনি একটি বিশিষ্ট পরিবারের সন্তান যা বহু প্রজন্ম ধরে জননেতৃত্বে সেবা দিয়েছে।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    }
+  ]
+}

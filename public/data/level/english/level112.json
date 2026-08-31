@@ -1,0 +1,133 @@
+{
+  "level_id": 112,
+  "title": "Level 112: Phrasal Verb",
+  "unit": "Image 19 (image (19).jpg) - Phrasal Verbs",
+  "category": "Phrasal Verb",
+  "items": [
+    {
+      "id": 556,
+      "word": "Come round",
+      "ipa": "/kʌm raʊnd/",
+      "pos": "phrase",
+      "meaning": "সুস্থ হওয়া, আরোগ্য লাভ করা, জ্ঞান ফিরে পাওয়া",
+      "synonyms": [
+        "recover",
+        "recuperate",
+        "regain consciousness",
+        "convalesce"
+      ],
+      "antonyms": [
+        "deteriorate",
+        "worsen",
+        "faint",
+        "decline"
+      ],
+      "raw_synonyms": "recover, recuperate, regain consciousness, convalesce",
+      "raw_antonyms": "deteriorate, worsen, faint, decline",
+      "sentence": "After receiving intensive medical care, the critical patient began to come round.",
+      "sentence_meaning": "নিবিড় চিকিৎসা সেবা পাওয়ার পর সংকটাপন্ন রোগীটি সুস্থ হয়ে উঠতে শুরু করেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 557,
+      "word": "Come up to",
+      "ipa": "/kʌm ʌp tuː/",
+      "pos": "phrase",
+      "meaning": "প্রত্যাশা বা মান পূরণ করা, সমান হওয়া",
+      "synonyms": [
+        "match",
+        "equal",
+        "reach",
+        "live up to"
+      ],
+      "antonyms": [
+        "fall short of",
+        "fail",
+        "disappoint",
+        "lag behind"
+      ],
+      "raw_synonyms": "match, equal, reach, live up to",
+      "raw_antonyms": "fall short of, fail, disappoint, lag behind",
+      "sentence": "The new smartphone model failed to come up to the high expectations of tech enthusiasts.",
+      "sentence_meaning": "নতুন স্মার্টফোন মডেলটি প্রযুক্তিপ্রেমীদের উচ্চ প্রত্যাশা পূরণ করতে ব্যর্থ হয়েছে।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 558,
+      "word": "Come along",
+      "ipa": "/kʌm əˈlɒŋ/",
+      "pos": "phrase",
+      "meaning": "দ্রুত এগিয়ে আসা, তাড়া করা, উন্নতি করা",
+      "synonyms": [
+        "hurry up",
+        "progress",
+        "advance",
+        "develop"
+      ],
+      "antonyms": [
+        "lag behind",
+        "delay",
+        "stagnate",
+        "regress"
+      ],
+      "raw_synonyms": "hurry up, progress, advance, develop",
+      "raw_antonyms": "lag behind, delay, stagnate, regress",
+      "sentence": "Come along, or we will miss the departure of the morning train!",
+      "sentence_meaning": "তাড়াতাড়ি করো, নয়তো আমরা সকালের ট্রেনটি মিস করব!",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 559,
+      "word": "Come after",
+      "ipa": "/kʌm ˈɑːftər/",
+      "pos": "phrase",
+      "meaning": "পেছনে ধাওয়া করা, অনুসরণ করা",
+      "synonyms": [
+        "pursue",
+        "follow",
+        "chase",
+        "hunt"
+      ],
+      "antonyms": [
+        "precede",
+        "lead",
+        "flee",
+        "retreat"
+      ],
+      "raw_synonyms": "pursue, follow, chase, hunt",
+      "raw_antonyms": "precede, lead, flee, retreat",
+      "sentence": "The brave police officers came after the fleeing bank robbers through the crowded streets.",
+      "sentence_meaning": "সাহসী পুলিশ কর্মকর্তারা জনাকীর্ণ রাস্তায় পলাতক ব্যাংক ডাকাতদের পেছনে ধাওয়া করেছিলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 560,
+      "word": "Cry down",
+      "ipa": "/kraɪ daʊn/",
+      "pos": "phrase",
+      "meaning": "কাউকে বা কিছুকে খাটো করা, নিন্দা করা",
+      "synonyms": [
+        "belittle",
+        "disparage",
+        "decry",
+        "deprecate"
+      ],
+      "antonyms": [
+        "praise",
+        "extol",
+        "laud",
+        "commend"
+      ],
+      "raw_synonyms": "belittle, disparage, decry, deprecate",
+      "raw_antonyms": "praise, extol, laud, commend",
+      "sentence": "A wise leader should never cry down the genuine efforts of team members.",
+      "sentence_meaning": "একজন বিজ্ঞ নেতার কখনই দলের সদস্যদের আন্তরিক প্রচেষ্টাকে খাটো করা উচিত নয়।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    }
+  ]
+}

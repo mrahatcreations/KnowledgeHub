@@ -1,0 +1,133 @@
+{
+  "level_id": 157,
+  "title": "Level 157: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 781,
+      "word": "Cacophony",
+      "ipa": "/kəˈkɑːfəni/",
+      "pos": "n",
+      "meaning": "কর্কশ শব্দের মিশ্রণ, তীব্র কোলাহল",
+      "synonyms": [
+        "dissonance",
+        "discord",
+        "din",
+        "clamor"
+      ],
+      "antonyms": [
+        "harmony",
+        "euphony",
+        "symphony",
+        "accord"
+      ],
+      "raw_synonyms": "dissonance, discord, din, clamor",
+      "raw_antonyms": "harmony, euphony, symphony, accord",
+      "sentence": "A jarring cacophony of blaring horns and drilling machinery echoed through the busy city center.",
+      "sentence_meaning": "হর্নের তীব্র শব্দ এবং ড্রিলিং যন্ত্রপাতির কর্কশ কোলাহল ব্যস্ত শহরের কেন্দ্রে প্রতিধ্বনিত হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 782,
+      "word": "Ceremonious",
+      "ipa": "/ˌserɪˈmoʊniəs/",
+      "pos": "adj",
+      "meaning": "আনুষ্ঠানিক, কেতাদুরস্ত, আচারনিষ্ঠ",
+      "synonyms": [
+        "formal",
+        "punctilious",
+        "stately",
+        "ritualistic"
+      ],
+      "antonyms": [
+        "informal",
+        "casual",
+        "unceremonious",
+        "natural"
+      ],
+      "raw_synonyms": "formal, punctilious, stately, ritualistic",
+      "raw_antonyms": "informal, casual, unceremonious, natural",
+      "sentence": "The diplomatic delegation was welcomed with a ceremonious state reception at the grand palace.",
+      "sentence_meaning": "কূটনৈতিক প্রতিনিধিদলকে রাজপ্রাসাদে এক আড়ম্বরপূর্ণ আনুষ্ঠানিক রাষ্ট্রীয় সংবর্ধনার মাধ্যমে স্বাগত জানানো হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 783,
+      "word": "Charitable",
+      "ipa": "/ˈtʃærətəbl/",
+      "pos": "adj",
+      "meaning": "দানশীল, উদার, দয়াবান",
+      "synonyms": [
+        "generous",
+        "benevolent",
+        "philanthropic",
+        "kind"
+      ],
+      "antonyms": [
+        "stingy",
+        "selfish",
+        "miserly",
+        "malevolent"
+      ],
+      "raw_synonyms": "generous, benevolent, philanthropic, kind",
+      "raw_antonyms": "stingy, selfish, miserly, malevolent",
+      "sentence": "The wealthy industrialist dedicated a large portion of his fortunes to charitable healthcare trusts.",
+      "sentence_meaning": "ধনী শিল্পপতি তাঁর সম্পদের একটি বড় অংশ জনহিতকর স্বাস্থ্যসেবা ট্রাস্টে উৎসর্গ করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 784,
+      "word": "Chasm",
+      "ipa": "/ˈkæzəm/",
+      "pos": "n",
+      "meaning": "গভীর গিরিখাত, বিশাল ব্যবধান",
+      "synonyms": [
+        "abyss",
+        "gorge",
+        "gulf",
+        "rift"
+      ],
+      "antonyms": [
+        "junction",
+        "union",
+        "connection",
+        "bridge"
+      ],
+      "raw_synonyms": "abyss, gorge, gulf, rift",
+      "raw_antonyms": "junction, union, connection, bridge",
+      "sentence": "A massive economic chasm continues to widen between the ultra-wealthy elite and impoverished citizens.",
+      "sentence_meaning": "অতি ধনী অভিজাত শ্রেণী এবং দরিদ্র নাগরিকদের মধ্যে বিশাল অর্থনৈতিক ব্যবধান ক্রমেই বাড়ছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 785,
+      "word": "Chilling",
+      "ipa": "/ˈtʃɪlɪŋ/",
+      "pos": "adj",
+      "meaning": "ভয়ংকর, শিহরণ জাগানো, শীতল",
+      "synonyms": [
+        "frightening",
+        "spine-tingling",
+        "terrifying",
+        "ominous"
+      ],
+      "antonyms": [
+        "comforting",
+        "heartwarming",
+        "reassuring",
+        "warming"
+      ],
+      "raw_synonyms": "frightening, spine-tingling, terrifying, ominous",
+      "raw_antonyms": "comforting, heartwarming, reassuring, warming",
+      "sentence": "The documentary presented a chilling account of human rights violations inside wartime detention camps.",
+      "sentence_meaning": "তথ্যচিত্রটিতে যুদ্ধকালীন বন্দিশিবিরগুলোতে মানবাধিকার লঙ্ঘনের একটি শিহরণ জাগানো ও ভয়াবহ চিত্র তুলে ধরা হয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "level_id": 42,
+  "title": "Level 42: Appropriate Preposition",
+  "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1",
+  "category": "Appropriate Preposition",
+  "items": [
+    {
+      "id": 206,
+      "word": "Agree with",
+      "ipa": "/əˈɡriː wɪð/",
+      "pos": "prep",
+      "meaning": "একমত হওয়া / উপযোগী হওয়া",
+      "synonyms": [
+        "concur with",
+        "align with",
+        "side with",
+        "harmonize with"
+      ],
+      "antonyms": [
+        "disagree with",
+        "dissent from",
+        "oppose",
+        "contradict"
+      ],
+      "raw_synonyms": "concur with, align with, side with, harmonize with",
+      "raw_antonyms": "disagree with, dissent from, oppose, contradict",
+      "sentence": "I completely agree with your proposal to implement renewable energy across all branch offices.",
+      "sentence_meaning": "সব শাখা কার্যালয়ে নবায়নযোগ্য শক্তি বাস্তবায়নের আপনার প্রস্তাবের সাথে আমি সম্পূর্ণ একমত।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1"
+    },
+    {
+      "id": 207,
+      "word": "Angry with",
+      "ipa": "/ˈæŋɡri wɪð/",
+      "pos": "prep",
+      "meaning": "কারো প্রতি ক্রুদ্ধ হওয়া বা রাগ করা",
+      "synonyms": [
+        "enraged with",
+        "furious with",
+        "irritated with",
+        "infuriated with"
+      ],
+      "antonyms": [
+        "pleased with",
+        "delighted with",
+        "calm with"
+      ],
+      "raw_synonyms": "enraged with, furious with, irritated with, infuriated with",
+      "raw_antonyms": "pleased with, delighted with, calm with",
+      "sentence": "The manager was angry with the supplier for repeatedly failing to meet agreed shipment deadlines.",
+      "sentence_meaning": "নির্ধারিত শিপমেন্ট সময়সীমা পূরণে বারবার ব্যর্থ হওয়ায় সরবরাহকারীর ওপর ব্যবস্থাপক ক্রুদ্ধ ছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1"
+    },
+    {
+      "id": 208,
+      "word": "Annoyed with",
+      "ipa": "/əˈnɔɪd wɪð/",
+      "pos": "prep",
+      "meaning": "কারো ওপর অসন্তুষ্ট বা বিরক্ত",
+      "synonyms": [
+        "irritated with",
+        "vexed with",
+        "displeased with",
+        "bothered by"
+      ],
+      "antonyms": [
+        "pleased with",
+        "content with",
+        "delighted with"
+      ],
+      "raw_synonyms": "irritated with, vexed with, displeased with, bothered by",
+      "raw_antonyms": "pleased with, content with, delighted with",
+      "sentence": "She was visibly annoyed with her brother for borrowing her laptop without prior permission.",
+      "sentence_meaning": "পূর্বানুমতি ছাড়া ল্যাপটপ নেওয়ার কারণে তিনি তাঁর ভাইয়ের ওপর দৃশ্যত বিরক্ত ছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1"
+    },
+    {
+      "id": 209,
+      "word": "Argue with",
+      "ipa": "/ˈɑːrɡjuː wɪð/",
+      "pos": "prep",
+      "meaning": "কারো সাথে বিতর্ক বা ঝগড়া করা",
+      "synonyms": [
+        "dispute with",
+        "debate with",
+        "altercate with",
+        "quarrel with"
+      ],
+      "antonyms": [
+        "agree with",
+        "compromise with",
+        "concur with"
+      ],
+      "raw_synonyms": "dispute with, debate with, altercate with, quarrel with",
+      "raw_antonyms": "agree with, compromise with, concur with",
+      "sentence": "Rather than argue with opposing counsel, the lawyer calmly presented concrete documentary evidence.",
+      "sentence_meaning": "বিপক্ষ আইনজীবীর সাথে তর্ক করার পরিবর্তে, আইনজীবী শান্তভাবে অকাট্য প্রামাণ্য দলিল উপস্থাপন করলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1"
+    },
+    {
+      "id": 210,
+      "word": "Associated with",
+      "ipa": "/əˈsoʊsiˌeɪtɪd wɪð/",
+      "pos": "prep",
+      "meaning": "সম্পর্কিত বা জড়িত",
+      "synonyms": [
+        "connected with",
+        "linked to",
+        "affiliated with",
+        "allied with"
+      ],
+      "antonyms": [
+        "unrelated to",
+        "disconnected from",
+        "isolated from",
+        "detached from"
+      ],
+      "raw_synonyms": "connected with, linked to, affiliated with, allied with",
+      "raw_antonyms": "unrelated to, disconnected from, isolated from, detached from",
+      "sentence": "Severe air pollution is directly associated with rising incidences of respiratory disorders.",
+      "sentence_meaning": "তীব্র বায়ু দূষণ সরাসরি শ্বাসযন্ত্রের রোগের বৃদ্ধির সাথে সম্পর্কিত।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1"
+    }
+  ]
+}

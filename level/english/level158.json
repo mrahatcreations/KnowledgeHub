@@ -1,0 +1,133 @@
+{
+  "level_id": 158,
+  "title": "Level 158: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 786,
+      "word": "Chronic",
+      "ipa": "/ˈkrɑːnɪk/",
+      "pos": "adj",
+      "meaning": "দীর্ঘস্থায়ী, চিরস্থায়ী",
+      "synonyms": [
+        "persistent",
+        "long-standing",
+        "incurable",
+        "recurrent"
+      ],
+      "antonyms": [
+        "acute",
+        "temporary",
+        "transient",
+        "sporadic"
+      ],
+      "raw_synonyms": "persistent, long-standing, incurable, recurrent",
+      "raw_antonyms": "acute, temporary, transient, sporadic",
+      "sentence": "Millions of workers globally suffer from chronic back pain caused by poor ergonomic office posture.",
+      "sentence_meaning": "বিশ্বব্যাপী লক্ষ লক্ষ কর্মী অফিসে অনুপযুক্ত ভঙ্গিতে বসার কারণে দীর্ঘস্থায়ী পিঠের ব্যথায় ভোগেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 787,
+      "word": "Circa",
+      "ipa": "/ˈsɜːrkə/",
+      "pos": "prep",
+      "meaning": "আনুমানিক, প্রায়",
+      "synonyms": [
+        "approximately",
+        "around",
+        "about",
+        "roughly"
+      ],
+      "antonyms": [
+        "exactly",
+        "precisely",
+        "definitely",
+        "specifically"
+      ],
+      "raw_synonyms": "approximately, around, about, roughly",
+      "raw_antonyms": "exactly, precisely, definitely, specifically",
+      "sentence": "The ancient bronze artifact was unearthed in Mesopotamia and dates from circa 2500 BCE.",
+      "sentence_meaning": "মেসোপটেমিয়ায় খনন করে প্রাচীন ব্রোঞ্জ নিদর্শনটি পাওয়া গিয়েছিল এবং এটি আনুমানিক খ্রিস্টপূর্ব ২৫০০ অব্দের।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 788,
+      "word": "Clinging",
+      "ipa": "/ˈklɪŋɪŋ/",
+      "pos": "adj",
+      "meaning": "লেপ্টে থাকা, আঁকড়ে থাকা, পরনির্ভরশীল",
+      "synonyms": [
+        "adherent",
+        "grasping",
+        "adhesive",
+        "needy"
+      ],
+      "antonyms": [
+        "independent",
+        "detached",
+        "autonomous",
+        "free"
+      ],
+      "raw_synonyms": "adherent, grasping, adhesive, needy",
+      "raw_antonyms": "independent, detached, autonomous, free",
+      "sentence": "Wet sand remained clinging stubbornly to their shoes after a long stroll along the sea coast.",
+      "sentence_meaning": "সমুদ্র উপকূলে দীর্ঘক্ষণ হাঁটার পর তাদের জুতোয় ভেজা বালি নাছোড়বান্দা হয়ে লেগে ছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 789,
+      "word": "Clinch",
+      "ipa": "/klɪntʃ/",
+      "pos": "v",
+      "meaning": "নিশ্চিত করা, চূড়ান্ত করা",
+      "synonyms": [
+        "secure",
+        "settle",
+        "seal",
+        "finalize"
+      ],
+      "antonyms": [
+        "unsettle",
+        "forfeit",
+        "lose",
+        "relinquish"
+      ],
+      "raw_synonyms": "secure, settle, seal, finalize",
+      "raw_antonyms": "unsettle, forfeit, lose, relinquish",
+      "sentence": "The company's innovative proposal helped them clinch a multi-million-dollar government procurement contract.",
+      "sentence_meaning": "কোম্পানির উদ্ভাবনী প্রস্তাবনাটি তাদের বহু মিলিয়ন ডলারের সরকারি ক্রয়ের চুক্তি চূড়ান্ত করতে সাহায্য করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 790,
+      "word": "Clumsy",
+      "ipa": "/ˈklʌmzi/",
+      "pos": "adj",
+      "meaning": "আনাড়ি, অদক্ষ, বেমানান",
+      "synonyms": [
+        "awkward",
+        "graceless",
+        "inept",
+        "bumbling"
+      ],
+      "antonyms": [
+        "graceful",
+        "adroit",
+        "deft",
+        "dexterous"
+      ],
+      "raw_synonyms": "awkward, graceless, inept, bumbling",
+      "raw_antonyms": "graceful, adroit, deft, dexterous",
+      "sentence": "His clumsy handling of the delicate crystal vase resulted in it shattering across the marble floor.",
+      "sentence_meaning": "সূক্ষ্ম কাঁচের ফুলদানিটি তাঁর আনাড়ি হাতের নাড়াচাড়ায় মার্বেল মেঝের ওপর পড়ে চূর্ণবিচূর্ণ হয়ে গেল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

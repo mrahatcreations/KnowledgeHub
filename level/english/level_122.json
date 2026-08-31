@@ -1,0 +1,131 @@
+{
+  "level_id": 122,
+  "title": "Level 122: Word Transformation",
+  "unit": "Image 23 (image (23).jpg) - Transformation of Word",
+  "category": "Word Transformation",
+  "items": [
+    {
+      "id": 606,
+      "word": "Benefit",
+      "ipa": "/ˈbenɪfɪt/",
+      "pos": "n",
+      "meaning": "সুবিধা, লাভ, কল্যাণ",
+      "synonyms": [
+        "advantage",
+        "gain",
+        "profit",
+        "boon"
+      ],
+      "antonyms": [
+        "detriment",
+        "disadvantage",
+        "drawback",
+        "harm"
+      ],
+      "raw_synonyms": "advantage, gain, profit, boon",
+      "raw_antonyms": "detriment, disadvantage, drawback, harm",
+      "sentence": "Regular physical exercise offers numerous benefits for both mental and physical health.",
+      "sentence_meaning": "নিয়মিত শারীরিক ব্যায়াম মানসিক ও শারীরিক উভয় স্বাস্থ্যের জন্য অসংখ্য উপকারিতা বয়ে আনে।",
+      "category": "Word Transformation",
+      "unit": "Image 23 (image (23).jpg) - Transformation of Word"
+    },
+    {
+      "id": 607,
+      "word": "Ceremony",
+      "ipa": "/ˈserəmoʊni/",
+      "pos": "n",
+      "meaning": "বিশেষ অনুষ্ঠান, আনুষ্ঠানিকতা",
+      "synonyms": [
+        "ritual",
+        "service",
+        "rite",
+        "celebration"
+      ],
+      "antonyms": [
+        "informality",
+        "casualness",
+        "ordinariness"
+      ],
+      "raw_synonyms": "ritual, service, rite, celebration",
+      "raw_antonyms": "informality, casualness, ordinariness",
+      "sentence": "The graduation ceremony honored the outstanding academic achievements of all students.",
+      "sentence_meaning": "সমাবর্তন অনুষ্ঠানে সকল শিক্ষার্থীর অসামান্য শিক্ষাগত কৃতিত্বকে সম্মানিত করা হয়েছিল।",
+      "category": "Word Transformation",
+      "unit": "Image 23 (image (23).jpg) - Transformation of Word"
+    },
+    {
+      "id": 608,
+      "word": "Certainty",
+      "ipa": "/ˈsɜːrtnti/",
+      "pos": "n",
+      "meaning": "নিশ্চয়তা, নিঃসংশয়তা",
+      "synonyms": [
+        "assurance",
+        "confidence",
+        "conviction",
+        "certitude"
+      ],
+      "antonyms": [
+        "uncertainty",
+        "doubt",
+        "hesitation",
+        "ambiguity"
+      ],
+      "raw_synonyms": "assurance, confidence, conviction, certitude",
+      "raw_antonyms": "uncertainty, doubt, hesitation, ambiguity",
+      "sentence": "There is no certainty about the weather conditions for tomorrow's outdoor event.",
+      "sentence_meaning": "আগামীকালের বহিরাঙ্গন অনুষ্ঠানের জন্য আবহাওয়ার পরিস্থিতি সম্পর্কে কোনো নিশ্চয়তা নেই।",
+      "category": "Word Transformation",
+      "unit": "Image 23 (image (23).jpg) - Transformation of Word"
+    },
+    {
+      "id": 609,
+      "word": "Character",
+      "ipa": "/ˈkærəktər/",
+      "pos": "n",
+      "meaning": "চরিত্র, ব্যক্তিত্ব, বৈশিষ্ট্য",
+      "synonyms": [
+        "nature",
+        "personality",
+        "temperament",
+        "integrity"
+      ],
+      "antonyms": [
+        "dishonor",
+        "corruption",
+        "unscrupulousness"
+      ],
+      "raw_synonyms": "nature, personality, temperament, integrity",
+      "raw_antonyms": "dishonor, corruption, unscrupulousness",
+      "sentence": "Adversity does not just build character; it reveals an individual's true strength.",
+      "sentence_meaning": "প্রতিকূলতা কেবল চরিত্র গঠনই করে না; এটি একজন ব্যক্তির প্রকৃত শক্তিও প্রকাশ করে।",
+      "category": "Word Transformation",
+      "unit": "Image 23 (image (23).jpg) - Transformation of Word"
+    },
+    {
+      "id": 610,
+      "word": "Charity",
+      "ipa": "/ˈtʃærəti/",
+      "pos": "n",
+      "meaning": "দানশীলতা, জনকল্যাণ, দাতব্য সংস্থা",
+      "synonyms": [
+        "philanthropy",
+        "generosity",
+        "benevolence",
+        "altruism"
+      ],
+      "antonyms": [
+        "selfishness",
+        "greed",
+        "stinginess",
+        "malevolence"
+      ],
+      "raw_synonyms": "philanthropy, generosity, benevolence, altruism",
+      "raw_antonyms": "selfishness, greed, stinginess, malevolence",
+      "sentence": "The philanthropist donated a significant portion of his wealth to local charities.",
+      "sentence_meaning": "দানবীর ব্যক্তি তাঁর সম্পদের একটি উল্লেখযোগ্য অংশ স্থানীয় দাতব্য প্রতিষ্ঠানে দান করেছিলেন।",
+      "category": "Word Transformation",
+      "unit": "Image 23 (image (23).jpg) - Transformation of Word"
+    }
+  ]
+}

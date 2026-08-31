@@ -1,0 +1,131 @@
+{
+  "level_id": 6,
+  "title": "Level 6: Vocabulary",
+  "unit": "Image 1: Vocabulary (Unit-1)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 26,
+      "word": "Transparent",
+      "ipa": "/trænsˈpærənt/",
+      "pos": "adj",
+      "meaning": "স্বচ্ছ, স্পষ্ট",
+      "synonyms": [
+        "clear",
+        "lucid",
+        "candid",
+        "unambiguous"
+      ],
+      "antonyms": [
+        "opaque",
+        "cloudy",
+        "ambiguous",
+        "deceptive"
+      ],
+      "raw_synonyms": "clear, lucid, candid, unambiguous",
+      "raw_antonyms": "opaque, cloudy, ambiguous, deceptive",
+      "sentence": "Good governance requires transparent decision-making processes in public administration.",
+      "sentence_meaning": "সুশাসনের জন্য জনপ্রশাসনে স্বচ্ছ সিদ্ধান্ত গ্রহণ প্রক্রিয়া প্রয়োজন।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 27,
+      "word": "Stance",
+      "ipa": "/stæns/",
+      "pos": "n",
+      "meaning": "অবস্থান, দৃষ্টিভঙ্গি",
+      "synonyms": [
+        "posture",
+        "perspective",
+        "viewpoint",
+        "attitude"
+      ],
+      "antonyms": [
+        "indecision",
+        "neutrality",
+        "wavering"
+      ],
+      "raw_synonyms": "posture, perspective, viewpoint, attitude",
+      "raw_antonyms": "indecision, neutrality, wavering",
+      "sentence": "The Prime Minister maintained a firm stance against international corruption.",
+      "sentence_meaning": "প্রধানমন্ত্রী আন্তর্জাতিক দুর্নীতির বিরুদ্ধে দৃঢ় অবস্থান বজায় রেখেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 28,
+      "word": "Demonstrate",
+      "ipa": "/ˈdemənstreɪt/",
+      "pos": "v",
+      "meaning": "প্রদর্শন করা, প্রমাণ করা",
+      "synonyms": [
+        "illustrate",
+        "exhibit",
+        "prove",
+        "manifest"
+      ],
+      "antonyms": [
+        "conceal",
+        "disprove",
+        "hide",
+        "obscure"
+      ],
+      "raw_synonyms": "illustrate, exhibit, prove, manifest",
+      "raw_antonyms": "conceal, disprove, hide, obscure",
+      "sentence": "The clinical trial results demonstrate the vaccine's high level of safety and efficacy.",
+      "sentence_meaning": "ক্লিনিকাল ট্রায়ালের ফলাফল ভ্যাকসিনের উচ্চ স্তরের নিরাপত্তা এবং কার্যকারিতা প্রমাণ করে।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 29,
+      "word": "Undetectable",
+      "ipa": "/ˌʌndɪˈtektəbl/",
+      "pos": "adj",
+      "meaning": "শনাক্তকরণের অযোগ্য, অলক্ষ্য",
+      "synonyms": [
+        "imperceptible",
+        "unnoticeable",
+        "invisible",
+        "hidden"
+      ],
+      "antonyms": [
+        "detectable",
+        "noticeable",
+        "perceptible",
+        "obvious"
+      ],
+      "raw_synonyms": "imperceptible, unnoticeable, invisible, hidden",
+      "raw_antonyms": "detectable, noticeable, perceptible, obvious",
+      "sentence": "The stealth aircraft was virtually undetectable by enemy radar systems.",
+      "sentence_meaning": "স্টিলথ বিমানটি শত্রুর রাডার সিস্টেমে প্রায় শনাক্তকরণের অযোগ্য ছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 30,
+      "word": "Infrared",
+      "ipa": "/ˌɪnfrəˈred/",
+      "pos": "adj",
+      "meaning": "অবলোহিত (রশ্মি)",
+      "synonyms": [
+        "calorific",
+        "thermal-imaging",
+        "invisible-spectrum",
+        "radiant"
+      ],
+      "antonyms": [
+        "ultraviolet",
+        "visible-light",
+        "optical"
+      ],
+      "raw_synonyms": "calorific, thermal-imaging, invisible-spectrum, radiant",
+      "raw_antonyms": "ultraviolet, visible-light, optical",
+      "sentence": "Night-vision goggles make use of infrared radiation to detect thermal heat signatures.",
+      "sentence_meaning": "নাইট-ভিশন গগলস তাপীয় সংকেত শনাক্ত করতে অবলোহিত বিকিরণ ব্যবহার করে।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    }
+  ]
+}

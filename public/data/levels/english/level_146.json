@@ -1,0 +1,133 @@
+{
+  "level_id": 146,
+  "title": "Level 146: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 726,
+      "word": "Comply",
+      "ipa": "/kəmˈplaɪ/",
+      "pos": "v",
+      "meaning": "মেনে চলা, পালন করা, সম্মত হওয়া",
+      "synonyms": [
+        "obey",
+        "conform",
+        "adhere",
+        "abide"
+      ],
+      "antonyms": [
+        "disobey",
+        "violate",
+        "defy",
+        "rebel"
+      ],
+      "raw_synonyms": "obey, conform, adhere, abide",
+      "raw_antonyms": "disobey, violate, defy, rebel",
+      "sentence": "All commercial vessels must strictly comply with international maritime safety protocols.",
+      "sentence_meaning": "সকল বাণিজ্যিক নৌযানকে আন্তর্জাতিক সামুদ্রিক নিরাপত্তা প্রোটোকল কঠোরভাবে মেনে চলতে হবে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 727,
+      "word": "Counterfeit",
+      "ipa": "/ˈkaʊntərfɪt/",
+      "pos": "adj",
+      "meaning": "নকল, জাল, কৃত্রিম",
+      "synonyms": [
+        "fake",
+        "forged",
+        "spurious",
+        "bogus"
+      ],
+      "antonyms": [
+        "genuine",
+        "authentic",
+        "real",
+        "legitimate"
+      ],
+      "raw_synonyms": "fake, forged, spurious, bogus",
+      "raw_antonyms": "genuine, authentic, real, legitimate",
+      "sentence": "Federal agents confiscated thousands of counterfeit banknotes during a targeted raid on the syndicate.",
+      "sentence_meaning": "চক্রটির ওপর পরিচালিত এক অভিযানে ফেডারেল এজেন্টরা হাজার হাজার জাল ব্যাংকনোট জব্দ করেছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 728,
+      "word": "Curtail",
+      "ipa": "/kɜːrˈteɪl/",
+      "pos": "v",
+      "meaning": "সংক্ষেপ করা, কমিয়ে দেওয়া, হ্রাস করা",
+      "synonyms": [
+        "reduce",
+        "shorten",
+        "truncate",
+        "diminish"
+      ],
+      "antonyms": [
+        "expand",
+        "extend",
+        "lengthen",
+        "increase"
+      ],
+      "raw_synonyms": "reduce, shorten, truncate, diminish",
+      "raw_antonyms": "expand, extend, lengthen, increase",
+      "sentence": "The municipal government decided to curtail non-essential public spending to manage the budgetary deficit.",
+      "sentence_meaning": "বাজেট ঘাটতি সামাল দিতে পৌর সরকার অপ্রয়োজনীয় সরকারি ব্যয় হ্রাস করার সিদ্ধান্ত নিয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 729,
+      "word": "Deliberate",
+      "ipa": "/dɪˈlɪbərət/",
+      "pos": "adj",
+      "meaning": "ইচ্ছাকৃত, সুপরিকল্পিত, সুচিন্তিত",
+      "synonyms": [
+        "intentional",
+        "calculated",
+        "premeditated",
+        "conscious"
+      ],
+      "antonyms": [
+        "accidental",
+        "inadvertent",
+        "unintentional",
+        "hasty"
+      ],
+      "raw_synonyms": "intentional, calculated, premeditated, conscious",
+      "raw_antonyms": "accidental, inadvertent, unintentional, hasty",
+      "sentence": "The forensic analysis confirmed that the warehouse fire was the result of a deliberate arson attack.",
+      "sentence_meaning": "ফরেনসিক বিশ্লেষণে নিশ্চিত করা হয়েছে যে গুদামের আগুনটি ছিল একটি সুপরিকল্পিত অগ্নিসংযোগ হামলার ফল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 730,
+      "word": "Diligent",
+      "ipa": "/ˈdɪlɪdʒənt/",
+      "pos": "adj",
+      "meaning": "পরিশ্রমী, অধ্যবসায়ী, যত্নবান",
+      "synonyms": [
+        "industrious",
+        "hardworking",
+        "assiduous",
+        "meticulous"
+      ],
+      "antonyms": [
+        "lazy",
+        "indolent",
+        "careless",
+        "negligent"
+      ],
+      "raw_synonyms": "industrious, hardworking, assiduous, meticulous",
+      "raw_antonyms": "lazy, indolent, careless, negligent",
+      "sentence": "Through diligent research and meticulous data collection, the graduate student completed her dissertation ahead of time.",
+      "sentence_meaning": "কঠোর পরিশ্রমী গবেষণা এবং সূক্ষ্ম তথ্য সংগ্রহের মাধ্যমে স্নাতকোত্তর শিক্ষার্থী তার গবেষণাপত্র সময়ের আগেই সম্পন্ন করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

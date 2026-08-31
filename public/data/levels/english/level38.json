@@ -1,0 +1,133 @@
+{
+  "level_id": 38,
+  "title": "Level 38: Appropriate Preposition",
+  "unit": "Image 6: Appropriate Prepositions",
+  "category": "Appropriate Preposition",
+  "items": [
+    {
+      "id": 186,
+      "word": "Arrive in",
+      "ipa": "/əˈraɪv ɪn/",
+      "pos": "prep",
+      "meaning": "বড় শহর বা দেশে পৌঁছানো",
+      "synonyms": [
+        "land in",
+        "enter",
+        "reach",
+        "get to"
+      ],
+      "antonyms": [
+        "depart from",
+        "leave",
+        "exit",
+        "vacate"
+      ],
+      "raw_synonyms": "land in, enter, reach, get to",
+      "raw_antonyms": "depart from, leave, exit, vacate",
+      "sentence": "The foreign dignitaries are scheduled to arrive in London early on Wednesday morning.",
+      "sentence_meaning": "বিদেশি বিশিষ্ট ব্যক্তিবর্গের বুধবার খুব ভোরে লন্ডনে পৌঁছানোর কথা রয়েছে।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 187,
+      "word": "Ashamed of",
+      "ipa": "/əˈʃeɪmd ɒv/",
+      "pos": "prep",
+      "meaning": "নিজের কোনো আচরণের জন্য লজ্জিত",
+      "synonyms": [
+        "embarrassed by",
+        "mortified by",
+        "remorseful about",
+        "humiliated by"
+      ],
+      "antonyms": [
+        "proud of",
+        "confident of",
+        "honored by",
+        "pleased with"
+      ],
+      "raw_synonyms": "embarrassed by, mortified by, remorseful about, humiliated by",
+      "raw_antonyms": "proud of, confident of, honored by, pleased with",
+      "sentence": "He felt deeply ashamed of his rude behavior towards the elderly waiter.",
+      "sentence_meaning": "বয়োজ্যেষ্ঠ পরিবেশকের প্রতি তার রূঢ় আচরণের জন্য তিনি গভীরভাবে লজ্জিত অনুভব করেছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 188,
+      "word": "Agree on",
+      "ipa": "/əˈɡriː ɒn/",
+      "pos": "prep",
+      "meaning": "কোনো নির্দিষ্ট বিষয়ে একমত হওয়া",
+      "synonyms": [
+        "concur on",
+        "settle on",
+        "decide upon",
+        "unite on"
+      ],
+      "antonyms": [
+        "disagree on",
+        "dispute",
+        "clash over",
+        "differ on"
+      ],
+      "raw_synonyms": "concur on, settle on, decide upon, unite on",
+      "raw_antonyms": "disagree on, dispute, clash over, differ on",
+      "sentence": "Both political parties finally managed to agree on the terms of the bipartisan infrastructure bill.",
+      "sentence_meaning": "উভয় রাজনৈতিক দল অবশেষে দ্বিদলীয় অবকাঠামো বিলের শর্তাবলীতে একমত হতে পেরেছিল।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 189,
+      "word": "Agree with",
+      "ipa": "/əˈɡriː wɪð/",
+      "pos": "prep",
+      "meaning": "কোনো ব্যক্তির সাথে একমত হওয়া বা স্বাস্থ্যের অনুকূল হওয়া",
+      "synonyms": [
+        "concur with",
+        "side with",
+        "harmonize with",
+        "suit"
+      ],
+      "antonyms": [
+        "disagree with",
+        "oppose",
+        "differ with",
+        "dispute with"
+      ],
+      "raw_synonyms": "concur with, side with, harmonize with, suit",
+      "raw_antonyms": "disagree with, oppose, differ with, dispute with",
+      "sentence": "I wholeheartedly agree with your assessment regarding the urgency of education reform.",
+      "sentence_meaning": "শিক্ষা সংস্কারের জরুরি প্রয়োজনীয়তা সম্পর্কিত আপনার মূল্যায়নের সাথে আমি আন্তরিকভাবে একমত।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 190,
+      "word": "Agree to",
+      "ipa": "/əˈɡriː tuː/",
+      "pos": "prep",
+      "meaning": "কোনো প্রস্তাব বা শর্তে রাজি হওয়া",
+      "synonyms": [
+        "consent to",
+        "accept",
+        "assent to",
+        "approve of"
+      ],
+      "antonyms": [
+        "refuse",
+        "decline",
+        "reject",
+        "veto"
+      ],
+      "raw_synonyms": "consent to, accept, assent to, approve of",
+      "raw_antonyms": "refuse, decline, reject, veto",
+      "sentence": "The board of directors refused to agree to the terms proposed by the rival corporation.",
+      "sentence_meaning": "পরিচালনা পর্ষদ প্রতিদ্বন্দ্বী কর্পোরেশন কর্তৃক প্রস্তাবিত শর্তাবলীতে রাজি হতে অস্বীকৃতি জানিয়েছিল।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    }
+  ]
+}

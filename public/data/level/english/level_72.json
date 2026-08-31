@@ -1,0 +1,133 @@
+{
+  "level_id": 72,
+  "title": "Level 72: Vocabulary",
+  "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 356,
+      "word": "Hallucination",
+      "ipa": "/həˌluːsɪˈneɪʃn/",
+      "pos": "n",
+      "meaning": "ভ্রমদর্শন, অলীক প্রত্যক্ষণ, মতিবিভ্রম",
+      "synonyms": [
+        "delusion",
+        "illusion",
+        "mirage",
+        "phantasm"
+      ],
+      "antonyms": [
+        "reality",
+        "fact",
+        "actuality",
+        "truth"
+      ],
+      "raw_synonyms": "delusion, illusion, mirage, phantasm",
+      "raw_antonyms": "reality, fact, actuality, truth",
+      "sentence": "Severe sleep deprivation can induce vivid auditory and visual hallucinations in extreme cases.",
+      "sentence_meaning": "চরম ঘুমের ঘাটতি গুরুতর ক্ষেত্রে স্পষ্ট শ্রুতি ও দৃষ্টিজনিত মতিবিভ্রম সৃষ্টি করতে পারে।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 357,
+      "word": "Illuminate",
+      "ipa": "/ɪˈluːmɪneɪt/",
+      "pos": "v",
+      "meaning": "আলোকিত করা, সুস্পষ্ট বা বোধগম্য করা",
+      "synonyms": [
+        "brighten",
+        "clarify",
+        "elucidate",
+        "enlighten"
+      ],
+      "antonyms": [
+        "obscure",
+        "darken",
+        "confuse",
+        "cloud"
+      ],
+      "raw_synonyms": "brighten, clarify, elucidate, enlighten",
+      "raw_antonyms": "obscure, darken, confuse, cloud",
+      "sentence": "The professor used real-world case studies to illuminate complex economic theories for the students.",
+      "sentence_meaning": "অধ্যাপক শিক্ষার্থীদের জন্য জটিল অর্থনৈতিক তত্ত্বগুলোকে সহজবোধ্য করতে বাস্তব জীবনের কেস স্টাডি ব্যবহার করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 358,
+      "word": "Indifferently",
+      "ipa": "/ɪnˈdɪfrəntli/",
+      "pos": "adv",
+      "meaning": "উদাসীনভাবে, নির্লিপ্তভাবে",
+      "synonyms": [
+        "apathetically",
+        "unconcernedly",
+        "casually",
+        "nonchalantly"
+      ],
+      "antonyms": [
+        "passionately",
+        "enthusiastically",
+        "eagerly",
+        "attentively"
+      ],
+      "raw_synonyms": "apathetically, unconcernedly, casually, nonchalantly",
+      "raw_antonyms": "passionately, enthusiastically, eagerly, attentively",
+      "sentence": "He shrugged indifferently when asked about the outcome of the local election.",
+      "sentence_meaning": "স্থানীয় নির্বাচনের ফলাফল সম্পর্কে জানতে চাওয়া হলে তিনি উদাসীনভাবে কাঁধ ঝাঁকালেন।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 359,
+      "word": "Exert",
+      "ipa": "/ɪɡˈzɜːrt/",
+      "pos": "v",
+      "meaning": "প্রয়োগ করা, খাটানো, প্রচেষ্টা চালানো",
+      "synonyms": [
+        "apply",
+        "wield",
+        "exercise",
+        "employ"
+      ],
+      "antonyms": [
+        "withhold",
+        "idle",
+        "conceal",
+        "relax"
+      ],
+      "raw_synonyms": "apply, wield, exercise, employ",
+      "raw_antonyms": "withhold, idle, conceal, relax",
+      "sentence": "The diplomat had to exert all his influence to negotiate a peaceful resolution between the conflicting parties.",
+      "sentence_meaning": "দ্বন্দ্বমূলক পক্ষগুলোর মধ্যে শান্তিপূর্ণ সমাধানের জন্য কূটনীতিককে তাঁর সমস্ত প্রভাব প্রয়োগ করতে হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 360,
+      "word": "Annoy",
+      "ipa": "/əˈnɔɪ/",
+      "pos": "v",
+      "meaning": "বিরক্ত করা, রাগানো",
+      "synonyms": [
+        "irritate",
+        "vex",
+        "bother",
+        "provoke"
+      ],
+      "antonyms": [
+        "please",
+        "soothe",
+        "comfort",
+        "pacify"
+      ],
+      "raw_synonyms": "irritate, vex, bother, provoke",
+      "raw_antonyms": "please, soothe, comfort, pacify",
+      "sentence": "Constant pop-up notifications on mobile devices often annoy users while studying or working.",
+      "sentence_meaning": "পড়াশোনা বা কাজের সময় মোবাইল ডিভাইসে ঘন ঘন পপ-আপ নোটিফিকেশন ব্যবহারকারীদের প্রায়ই বিরক্ত করে।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    }
+  ]
+}

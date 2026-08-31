@@ -1,0 +1,133 @@
+{
+  "level_id": 120,
+  "title": "Level 120: Appropriate Preposition",
+  "unit": "Image 22 (image (22).jpg) - Appropriate Prepositions (Continued)",
+  "category": "Appropriate Preposition",
+  "items": [
+    {
+      "id": 596,
+      "word": "Associated with",
+      "ipa": "/əˈsəʊʃieɪtɪd wɪð/",
+      "pos": "prep",
+      "meaning": "কারো সাথে বা কোনো কিছুর সাথে সংশ্লিষ্ট বা জড়িত",
+      "synonyms": [
+        "connected with",
+        "linked to",
+        "related to",
+        "affiliated with"
+      ],
+      "antonyms": [
+        "separated from",
+        "disconnected from",
+        "unrelated to",
+        "detached from"
+      ],
+      "raw_synonyms": "connected with, linked to, related to, affiliated with",
+      "raw_antonyms": "separated from, disconnected from, unrelated to, detached from",
+      "sentence": "Smoking and a sedentary lifestyle are closely associated with an increased risk of heart disease.",
+      "sentence_meaning": "ধূমপান এবং অলস জীবনযাপন হৃদরোগের ঝুঁকি বৃদ্ধির সাথে ঘনিষ্ঠভাবে সম্পর্কিত।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 22 (image (22).jpg) - Appropriate Prepositions (Continued)"
+    },
+    {
+      "id": 597,
+      "word": "Attend to",
+      "ipa": "/əˈtend tuː/",
+      "pos": "prep",
+      "meaning": "মনোযোগ দেওয়া, যত্ন নেওয়া বা সেবা করা",
+      "synonyms": [
+        "pay attention to",
+        "care for",
+        "serve",
+        "look after"
+      ],
+      "antonyms": [
+        "neglect",
+        "ignore",
+        "disregard",
+        "overlook"
+      ],
+      "raw_synonyms": "pay attention to, care for, serve, look after",
+      "raw_antonyms": "neglect, ignore, disregard, overlook",
+      "sentence": "The dedicated nurse promptly attended to the urgent medical needs of incoming emergency patients.",
+      "sentence_meaning": "নিবেদিতপ্রাণ নার্স অবিলম্বে জরুরি বিভাগে আসা রোগীদের জরুরি চিকিৎসার যত্ন নিয়েছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 22 (image (22).jpg) - Appropriate Prepositions (Continued)"
+    },
+    {
+      "id": 598,
+      "word": "Authority on",
+      "ipa": "/ɔːˈθɒrəti ɒn/",
+      "pos": "prep",
+      "meaning": "কোনো নির্দিষ্ট বিষয়ে প্রামাণ্য বিশেষজ্ঞ বা পণ্ডিত",
+      "synonyms": [
+        "expert on",
+        "specialist in",
+        "master of",
+        "scholar on"
+      ],
+      "antonyms": [
+        "novice in",
+        "amateur in",
+        "layman on",
+        "ignorant of"
+      ],
+      "raw_synonyms": "expert on, specialist in, master of, scholar on",
+      "raw_antonyms": "novice in, amateur in, layman on, ignorant of",
+      "sentence": "Professor Rahman is widely recognized as a foremost authority on South Asian history.",
+      "sentence_meaning": "অধ্যাপক রহমান দক্ষিণ এশিয়ার ইতিহাসের একজন শীর্ষস্থানীয় বিশেষজ্ঞ হিসেবে সর্বজনস্বীকৃত।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 22 (image (22).jpg) - Appropriate Prepositions (Continued)"
+    },
+    {
+      "id": 599,
+      "word": "Authority for",
+      "ipa": "/ɔːˈθɒrəti fɔːr/",
+      "pos": "prep",
+      "meaning": "কোনো কাজ করার আইনি বা দাপ্তরিক অধিকার বা অনুমতি",
+      "synonyms": [
+        "authorization for",
+        "permission for",
+        "power for",
+        "sanction for"
+      ],
+      "antonyms": [
+        "prohibition against",
+        "ban on",
+        "disallowance of",
+        "restriction on"
+      ],
+      "raw_synonyms": "authorization for, permission for, power for, sanction for",
+      "raw_antonyms": "prohibition against, ban on, disallowance of, restriction on",
+      "sentence": "Only the executive director has the official authority for approving major budget disbursements.",
+      "sentence_meaning": "শুধুমাত্র নির্বাহী পরিচালকের কাছেই প্রধান বাজেট বরাদ্দের অনুমোদনের সরকারি অধিকার রয়েছে।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 22 (image (22).jpg) - Appropriate Prepositions (Continued)"
+    },
+    {
+      "id": 600,
+      "word": "Aware of",
+      "ipa": "/əˈweər ɒv/",
+      "pos": "prep",
+      "meaning": "কোনো বিষয় সম্পর্কে সচেতন বা অবগত",
+      "synonyms": [
+        "conscious of",
+        "cognizant of",
+        "mindful of",
+        "informed of"
+      ],
+      "antonyms": [
+        "unaware of",
+        "ignorant of",
+        "oblivious to",
+        "unconscious of"
+      ],
+      "raw_synonyms": "conscious of, cognizant of, mindful of, informed of",
+      "raw_antonyms": "unaware of, ignorant of, oblivious to, unconscious of",
+      "sentence": "Every driver must remain constantly aware of surrounding traffic and road conditions.",
+      "sentence_meaning": "প্রত্যেক চালককে চারপাশের ট্রাফিক এবং রাস্তার অবস্থা সম্পর্কে সর্বদা সচেতন থাকতে হবে।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 22 (image (22).jpg) - Appropriate Prepositions (Continued)"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "level_id": 153,
+  "title": "Level 153: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 761,
+      "word": "Severity",
+      "ipa": "/sɪˈverəti/",
+      "pos": "n",
+      "meaning": "তীব্রতা, কঠোরতা",
+      "synonyms": [
+        "harshness",
+        "rigor",
+        "intensity",
+        "acuteness"
+      ],
+      "antonyms": [
+        "mildness",
+        "lenience",
+        "gentleness",
+        "moderation"
+      ],
+      "raw_synonyms": "harshness, rigor, intensity, acuteness",
+      "raw_antonyms": "mildness, lenience, gentleness, moderation",
+      "sentence": "The severity of the economic sanctions crippled the rogue regime's international trade capability.",
+      "sentence_meaning": "অর্থনৈতিক নিষেধাজ্ঞার তীব্রতা দুর্বৃত্ত শাসকগোষ্ঠীর আন্তর্জাতিক বাণিজ্য সক্ষমতাকে পঙ্গু করে দিয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 762,
+      "word": "Shabby",
+      "ipa": "/ˈʃæbi/",
+      "pos": "adj",
+      "meaning": "জীর্ণশীর্ণ, মলিন, হতশ্রী",
+      "synonyms": [
+        "ragged",
+        "dilapidated",
+        "worn out",
+        "threadbare"
+      ],
+      "antonyms": [
+        "smart",
+        "elegant",
+        "dapper",
+        "pristine"
+      ],
+      "raw_synonyms": "ragged, dilapidated, worn out, threadbare",
+      "raw_antonyms": "smart, elegant, dapper, pristine",
+      "sentence": "The old tenement building looked shabby and abandoned after decades of municipal neglect.",
+      "sentence_meaning": "দশকের পর দশক পৌর অবহেলার কারণে পুরনো আবাসিক ভবনটি জীর্ণশীর্ণ ও পরিত্যক্ত দেখাচ্ছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 763,
+      "word": "Shrewd",
+      "ipa": "/ʃruːd/",
+      "pos": "adj",
+      "meaning": "বিচক্ষণ, চতুর, দূরদর্শী",
+      "synonyms": [
+        "astute",
+        "sharp",
+        "sagacious",
+        "discerning"
+      ],
+      "antonyms": [
+        "naive",
+        "foolish",
+        "gullible",
+        "unwise"
+      ],
+      "raw_synonyms": "astute, sharp, sagacious, discerning",
+      "raw_antonyms": "naive, foolish, gullible, unwise",
+      "sentence": "The shrewd negotiator managed to secure favorable trade terms despite immense counter-pressure.",
+      "sentence_meaning": "বিচক্ষণ আলোচক তীব্র পাল্টা চাপ সত্ত্বেও অনুকূল বাণিজ্য শর্তাবলী নিশ্চিত করতে সক্ষম হয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 764,
+      "word": "Stubborn",
+      "ipa": "/ˈstʌbərn/",
+      "pos": "adj",
+      "meaning": "একগুঁয়ে, অনমনীয়",
+      "synonyms": [
+        "obstinate",
+        "intractable",
+        "tenacious",
+        "rigid"
+      ],
+      "antonyms": [
+        "pliant",
+        "flexible",
+        "compliant",
+        "yielding"
+      ],
+      "raw_synonyms": "obstinate, intractable, tenacious, rigid",
+      "raw_antonyms": "pliant, flexible, compliant, yielding",
+      "sentence": "His stubborn refusal to accept constructive feedback ultimately hindered his professional career growth.",
+      "sentence_meaning": "গঠনমূলক মতামত গ্রহণ করতে তাঁর একগুঁয়ে অস্বীকৃতি শেষ পর্যন্ত তাঁর পেশাগত ক্যারিয়ারের বৃদ্ধিকে বাধাগ্রস্ত করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 765,
+      "word": "Tangible",
+      "ipa": "/ˈtændʒəbl/",
+      "pos": "adj",
+      "meaning": "স্পর্শযোগ্য, বাস্তব, দৃশ্যমান",
+      "synonyms": [
+        "palpable",
+        "concrete",
+        "real",
+        "perceptible"
+      ],
+      "antonyms": [
+        "intangible",
+        "abstract",
+        "elusive",
+        "imperceptible"
+      ],
+      "raw_synonyms": "palpable, concrete, real, perceptible",
+      "raw_antonyms": "intangible, abstract, elusive, imperceptible",
+      "sentence": "The economic reforms produced tangible improvements in standard of living and overall literacy rates.",
+      "sentence_meaning": "অর্থনৈতিক সংস্কারগুলো জীবনযাত্রার মান এবং সামগ্রিক সাক্ষরতার হারে দৃশ্যমান উন্নতি সাধন করেছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "level_id": 115,
+  "title": "Level 115: Phrasal Verb",
+  "unit": "Image 19 (image (19).jpg) - Phrasal Verbs",
+  "category": "Phrasal Verb",
+  "items": [
+    {
+      "id": 571,
+      "word": "Clog up",
+      "ipa": "/klɒɡ ʌp/",
+      "pos": "phrase",
+      "meaning": "আটকে যাওয়া, পথ বা নালী রুদ্ধ করা",
+      "synonyms": [
+        "block",
+        "choke",
+        "obstruct",
+        "congest"
+      ],
+      "antonyms": [
+        "unblock",
+        "clear",
+        "open",
+        "unclog"
+      ],
+      "raw_synonyms": "block, choke, obstruct, congest",
+      "raw_antonyms": "unblock, clear, open, unclog",
+      "sentence": "Accumulated autumn leaves can clog up the drainage pipes during heavy rain.",
+      "sentence_meaning": "ভারী বৃষ্টির সময় জমে থাকা শরতের পাতা ড্রেনেজ পাইপ আটকে দিতে পারে।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 572,
+      "word": "Call at",
+      "ipa": "/kɔːl æt/",
+      "pos": "phrase",
+      "meaning": "স্বল্প সময়ের জন্য কোথাও পরিদর্শন করা বা থামা",
+      "synonyms": [
+        "visit",
+        "stop by",
+        "drop in at",
+        "call on"
+      ],
+      "antonyms": [
+        "avoid",
+        "depart",
+        "leave",
+        "bypass"
+      ],
+      "raw_synonyms": "visit, stop by, drop in at, call on",
+      "raw_antonyms": "avoid, depart, leave, bypass",
+      "sentence": "The passenger vessel will call at several major coastal ports during the cruise.",
+      "sentence_meaning": "যাত্রীবাহী জাহাজটি ক্রুজ চলাকালীন বেশ কয়েকটি প্রধান উপকূলীয় বন্দরে অল্প সময়ের জন্য থামবে।",
+      "category": "Phrasal Verb",
+      "unit": "Image 20 (image (20).jpg) - Phrasal Verbs (Continued)"
+    },
+    {
+      "id": 573,
+      "word": "Carry through",
+      "ipa": "/ˈkæri θruː/",
+      "pos": "phrase",
+      "meaning": "কোনো কাজ সফলভাবে সম্পন্ন করা, বিপদে টিকিয়ে রাখা",
+      "synonyms": [
+        "accomplish",
+        "fulfill",
+        "sustain",
+        "complete"
+      ],
+      "antonyms": [
+        "abandon",
+        "fail",
+        "neglect",
+        "give up"
+      ],
+      "raw_synonyms": "accomplish, fulfill, sustain, complete",
+      "raw_antonyms": "abandon, fail, neglect, give up",
+      "sentence": "Unwavering determination and courage carried the soldiers through the brutal winter campaign.",
+      "sentence_meaning": "দৃঢ় সংকল্প এবং সাহস সৈন্যদের নির্মম শীতকালীন অভিযানের মধ্য দিয়ে সফলভাবে পার করে নিয়ে গিয়েছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 20 (image (20).jpg) - Phrasal Verbs (Continued)"
+    },
+    {
+      "id": 574,
+      "word": "Catch at",
+      "ipa": "/kætʃ æt/",
+      "pos": "phrase",
+      "meaning": "সুযোগ আঁকড়ে ধরা, আকস্মিক গ্রহণ করা",
+      "synonyms": [
+        "grasp at",
+        "seize",
+        "clutch at",
+        "snatch"
+      ],
+      "antonyms": [
+        "reject",
+        "ignore",
+        "relinquish",
+        "let go"
+      ],
+      "raw_synonyms": "grasp at, seize, clutch at, snatch",
+      "raw_antonyms": "reject, ignore, relinquish, let go",
+      "sentence": "Desperate to save his failing business, the merchant caught at every possible investment offer.",
+      "sentence_meaning": "তার ব্যর্থ ব্যবসা বাঁচানোর জন্য মরিয়া হয়ে ব্যবসায়ী সম্ভাব্য প্রতিটি বিনিয়োগের সুযোগ আঁকড়ে ধরেছিলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 20 (image (20).jpg) - Phrasal Verbs (Continued)"
+    },
+    {
+      "id": 575,
+      "word": "Catch up",
+      "ipa": "/kætʃ ʌp/",
+      "pos": "phrase",
+      "meaning": "সমকক্ষ হওয়া, নাগাল ধরা, ঘাটতি পূরণ করা",
+      "synonyms": [
+        "overtake",
+        "draw level with",
+        "reach",
+        "equalize"
+      ],
+      "antonyms": [
+        "fall behind",
+        "lag",
+        "drop back",
+        "lose ground"
+      ],
+      "raw_synonyms": "overtake, draw level with, reach, equalize",
+      "raw_antonyms": "fall behind, lag, drop back, lose ground",
+      "sentence": "Developing nations are investing heavily in technology to catch up with advanced economies.",
+      "sentence_meaning": "উন্নয়নশীল দেশগুলো উন্নত অর্থনীতির সমকক্ষ হতে প্রযুক্তিতে প্রচুর বিনিয়োগ করছে।",
+      "category": "Phrasal Verb",
+      "unit": "Image 20 (image (20).jpg) - Phrasal Verbs (Continued)"
+    }
+  ]
+}

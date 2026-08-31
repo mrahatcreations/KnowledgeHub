@@ -1,0 +1,133 @@
+{
+  "level_id": 188,
+  "title": "Level 188: Appropriate Preposition",
+  "unit": "Image 35 (image (35).jpg) - Super Preposition Technique-3",
+  "category": "Appropriate Preposition",
+  "items": [
+    {
+      "id": 936,
+      "word": "Beneficial to",
+      "ipa": "/ˌbenɪˈfɪʃl tuː/",
+      "pos": "phrase",
+      "meaning": "উপকারী, মঙ্গলজনক, কল্যাণকর",
+      "synonyms": [
+        "advantageous to",
+        "helpful to",
+        "favorable to",
+        "salubrious for"
+      ],
+      "antonyms": [
+        "harmful to",
+        "detrimental to",
+        "damaging to",
+        "deleterious to"
+      ],
+      "raw_synonyms": "advantageous to, helpful to, favorable to, salubrious for",
+      "raw_antonyms": "harmful to, detrimental to, damaging to, deleterious to",
+      "sentence": "Regular physical exercise and a balanced diet are immensely beneficial to cardiovascular health.",
+      "sentence_meaning": "নিয়মিত শারীরিক ব্যায়াম এবং সুষম খাদ্য হৃদযন্ত্রের স্বাস্থ্যের জন্য অত্যন্ত উপকারী।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 35 (image (35).jpg) - Super Preposition Technique-3"
+    },
+    {
+      "id": 937,
+      "word": "Belong to",
+      "ipa": "/bɪˈlɔːŋ tuː/",
+      "pos": "phrase",
+      "meaning": "অন্তর্ভুক্ত বা কারো মালিকানাধীন হওয়া",
+      "synonyms": [
+        "be owned by",
+        "pertain to",
+        "be part of",
+        "relate to"
+      ],
+      "antonyms": [
+        "be separate from",
+        "disconnect from",
+        "be alien to",
+        "differ from"
+      ],
+      "raw_synonyms": "be owned by, pertain to, be part of, relate to",
+      "raw_antonyms": "be separate from, disconnect from, be alien to, differ from",
+      "sentence": "These ancient archaeological artifacts belong to the national museum's permanent heritage collection.",
+      "sentence_meaning": "এই প্রাচীন প্রত্নতাত্ত্বিক নিদর্শনগুলো জাতীয় জাদুঘরের স্থায়ী ঐতিহ্য সংগ্রহের অন্তর্ভুক্ত।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 35 (image (35).jpg) - Super Preposition Technique-3"
+    },
+    {
+      "id": 938,
+      "word": "Compare to",
+      "ipa": "/kəmˈper tuː/",
+      "pos": "phrase",
+      "meaning": "সাদৃশ্যের তুলনা করা",
+      "synonyms": [
+        "liken to",
+        "equate with",
+        "parallel to",
+        "match with"
+      ],
+      "antonyms": [
+        "contrast with",
+        "differentiate from",
+        "separate from",
+        "distinguish from"
+      ],
+      "raw_synonyms": "liken to, equate with, parallel to, match with",
+      "raw_antonyms": "contrast with, differentiate from, separate from, distinguish from",
+      "sentence": "Poets often compare human life to a transient voyage across stormy seas.",
+      "sentence_meaning": "কবিরা প্রায়শই মানব জীবনকে উত্তাল সমুদ্রে এক ক্ষণস্থায়ী নৌযাত্রার সাথে তুলনা করেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 35 (image (35).jpg) - Super Preposition Technique-3"
+    },
+    {
+      "id": 939,
+      "word": "Contrary to",
+      "ipa": "/ˈkɑːntreri tuː/",
+      "pos": "phrase",
+      "meaning": "বিপরীত, পরিপন্থী",
+      "synonyms": [
+        "opposed to",
+        "in conflict with",
+        "inconsistent with",
+        "against"
+      ],
+      "antonyms": [
+        "in accordance with",
+        "consistent with",
+        "harmonious with",
+        "in line with"
+      ],
+      "raw_synonyms": "opposed to, in conflict with, inconsistent with, against",
+      "raw_antonyms": "in accordance with, consistent with, harmonious with, in line with",
+      "sentence": "Contrary to popular belief, bats are not blind and possess sophisticated echolocation capabilities.",
+      "sentence_meaning": "জনপ্রিয় বিশ্বাসের বিপরীতে, বাদুড়রা অন্ধ নয় এবং তাদের উন্নত ইকোলোকেশন ক্ষমতা রয়েছে।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 35 (image (35).jpg) - Super Preposition Technique-3"
+    },
+    {
+      "id": 940,
+      "word": "Contribute to",
+      "ipa": "/kənˈtrɪbjuːt tuː/",
+      "pos": "phrase",
+      "meaning": "অবদান রাখা, কোনো কিছুর কারণ হওয়া",
+      "synonyms": [
+        "promote",
+        "facilitate",
+        "aid in",
+        "lead to"
+      ],
+      "antonyms": [
+        "hinder",
+        "obstruct",
+        "detract from",
+        "impede"
+      ],
+      "raw_synonyms": "promote, facilitate, aid in, lead to",
+      "raw_antonyms": "hinder, obstruct, detract from, impede",
+      "sentence": "Excessive industrial emissions directly contribute to global atmospheric temperature rise.",
+      "sentence_meaning": "অতিরিক্ত শিল্প নির্গমন বৈশ্বিক বায়ুমণ্ডলীয় তাপমাত্রা বৃদ্ধিতে সরাসরি ভূমিকা রাখে।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 35 (image (35).jpg) - Super Preposition Technique-3"
+    }
+  ]
+}

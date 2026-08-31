@@ -1,0 +1,133 @@
+{
+  "level_id": 31,
+  "title": "Level 31: Phrasal Verb",
+  "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique",
+  "category": "Phrasal Verb",
+  "items": [
+    {
+      "id": 151,
+      "word": "Blow out",
+      "ipa": "/bləʊ aʊt/",
+      "pos": "phrase",
+      "meaning": "ফুঁ দিয়ে নিভিয়ে ফেলা",
+      "synonyms": [
+        "extinguish",
+        "quench",
+        "put out",
+        "snuff out"
+      ],
+      "antonyms": [
+        "ignite",
+        "kindle",
+        "light",
+        "inflame"
+      ],
+      "raw_synonyms": "extinguish, quench, put out, snuff out",
+      "raw_antonyms": "ignite, kindle, light, inflame",
+      "sentence": "Please blow out the candles on the birthday cake before cutting it.",
+      "sentence_meaning": "কেক কাটার আগে দয়া করে জন্মদিনের কেকের মোমবাতিগুলো ফুঁ দিয়ে নিভিয়ে দিন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 152,
+      "word": "Blow out",
+      "ipa": "/bləʊ aʊt/",
+      "pos": "phrase",
+      "meaning": "বাতাসের প্রবাহে দূর করা বা দূরীকরণ",
+      "synonyms": [
+        "clear out",
+        "disperse",
+        "purge",
+        "dissipate"
+      ],
+      "antonyms": [
+        "accumulate",
+        "gather",
+        "congest",
+        "collect"
+      ],
+      "raw_synonyms": "clear out, disperse, purge, dissipate",
+      "raw_antonyms": "accumulate, gather, congest, collect",
+      "sentence": "A fresh coastal breeze helped blow out the toxic smog that had settled over the harbor.",
+      "sentence_meaning": "একটি মনোরম উপকূলীয় বাতাস পোতাশ্রয়ের ওপর জমে থাকা বিষাক্ত ধোঁয়াশা দূর করতে সাহায্য করেছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 153,
+      "word": "Blow up",
+      "ipa": "/bləʊ ʌp/",
+      "pos": "phrase",
+      "meaning": "বিস্ফোরণে উড়িয়ে দেওয়া, ধ্বংস করা",
+      "synonyms": [
+        "detonate",
+        "explode",
+        "blast",
+        "demolish"
+      ],
+      "antonyms": [
+        "reconstruct",
+        "repair",
+        "build",
+        "preserve"
+      ],
+      "raw_synonyms": "detonate, explode, blast, demolish",
+      "raw_antonyms": "reconstruct, repair, build, preserve",
+      "sentence": "Military engineers were ordered to blow up the abandoned bridge to halt enemy advance.",
+      "sentence_meaning": "শত্রুর অগ্রগতি থামাতে সামরিক প্রকৌশলীদের পরিত্যক্ত সেতুটি বিস্ফোরণে উড়িয়ে দেওয়ার নির্দেশ দেওয়া হয়েছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 154,
+      "word": "Blow away",
+      "ipa": "/bləʊ əˈweɪ/",
+      "pos": "phrase",
+      "meaning": "বাতাসে উড়িয়ে নিয়ে যাওয়া, গভীরভাবে অভিভূত করা",
+      "synonyms": [
+        "sweep away",
+        "carry away",
+        "astonish",
+        "overwhelm"
+      ],
+      "antonyms": [
+        "anchor",
+        "ground",
+        "steady",
+        "stabilize"
+      ],
+      "raw_synonyms": "sweep away, carry away, astonish, overwhelm",
+      "raw_antonyms": "anchor, ground, steady, stabilize",
+      "sentence": "A sudden gust of wind threatened to blow away the lightweight tents erected on the hill.",
+      "sentence_meaning": "হঠাৎ এক দমকা বাতাস পাহাড়ের ওপর খাটানো হালকা তাঁবুগুলো উড়িয়ে নিয়ে যাওয়ার উপক্রম করেছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 155,
+      "word": "Blow down",
+      "ipa": "/bləʊ daʊn/",
+      "pos": "phrase",
+      "meaning": "বাতাসের তোড়ে ভেঙে ফেলা বা মাটিতে ফেলে দেওয়া",
+      "synonyms": [
+        "topple",
+        "knock down",
+        "demolish",
+        "flatten"
+      ],
+      "antonyms": [
+        "erect",
+        "raise",
+        "stabilize",
+        "stand up"
+      ],
+      "raw_synonyms": "topple, knock down, demolish, flatten",
+      "raw_antonyms": "erect, raise, stabilize, stand up",
+      "sentence": "The powerful cyclone blew down several ancient banyan trees along the main highway.",
+      "sentence_meaning": "শক্তিশালী ঘূর্ণিঝড়টি প্রধান মহাসড়কের পাশের কয়েকটি প্রাচীন বটগাছ ভেঙে মাটিতে ফেলে দিয়েছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    }
+  ]
+}

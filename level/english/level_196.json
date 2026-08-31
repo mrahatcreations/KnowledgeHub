@@ -1,0 +1,133 @@
+{
+  "level_id": 196,
+  "title": "Level 196: Word Transformation",
+  "unit": "Image 36 (image (36).jpg) - Transformation of Word",
+  "category": "Word Transformation",
+  "items": [
+    {
+      "id": 976,
+      "word": "Criticism",
+      "ipa": "/ˈkrɪtɪsɪzəm/",
+      "pos": "n",
+      "meaning": "সমালোচনা, বিচার-বিশ্লেষণ",
+      "synonyms": [
+        "censure",
+        "critique",
+        "review",
+        "condemnation"
+      ],
+      "antonyms": [
+        "praise",
+        "approval",
+        "compliment",
+        "commendation"
+      ],
+      "raw_synonyms": "censure, critique, review, condemnation",
+      "raw_antonyms": "praise, approval, compliment, commendation",
+      "sentence": "Constructive criticism from experienced reviewers helped the novelist refine the plot of her book.",
+      "sentence_meaning": "অভিজ্ঞ পর্যালোচকদের গঠনমূলক সমালোচনা ঔপন্যাসিককে তাঁর বইয়ের কাহিনি পরিমার্জন করতে সাহায্য করেছিল।",
+      "category": "Word Transformation",
+      "unit": "Image 36 (image (36).jpg) - Transformation of Word"
+    },
+    {
+      "id": 977,
+      "word": "Credulity",
+      "ipa": "/krəˈduːləti/",
+      "pos": "n",
+      "meaning": "বিশ্বাসপ্রবণতা, অতিসরলতা",
+      "synonyms": [
+        "gullibility",
+        "naivety",
+        "simplicity",
+        "trustfulness"
+      ],
+      "antonyms": [
+        "skepticism",
+        "incredulity",
+        "suspicion",
+        "disbelief"
+      ],
+      "raw_synonyms": "gullibility, naivety, simplicity, trustfulness",
+      "raw_antonyms": "skepticism, incredulity, suspicion, disbelief",
+      "sentence": "Financial swindlers often exploit the credulity of unsuspecting retirees with fraudulent get-rich schemes.",
+      "sentence_meaning": "আর্থিক প্রতারকরা প্রায়শই দ্রুত ধনী হওয়ার ভুয়া স্কিমের মাধ্যমে নিরীহ অবসরপ্রাপ্ত ব্যক্তিদের অতিবিশ্বাসপ্রবণতার সুযোগ নেয়।",
+      "category": "Word Transformation",
+      "unit": "Image 36 (image (36).jpg) - Transformation of Word"
+    },
+    {
+      "id": 978,
+      "word": "Culture",
+      "ipa": "/ˈkʌltʃər/",
+      "pos": "n",
+      "meaning": "সংস্কৃতি, কৃষ্টি, মার্জিত রুচি",
+      "synonyms": [
+        "heritage",
+        "civilization",
+        "customs",
+        "refinement"
+      ],
+      "antonyms": [
+        "barbarism",
+        "ignorance",
+        "rudeness",
+        "coarseness"
+      ],
+      "raw_synonyms": "heritage, civilization, customs, refinement",
+      "raw_antonyms": "barbarism, ignorance, rudeness, coarseness",
+      "sentence": "The vibrant folk festivals showcase the rich traditional culture and artistic heritage of Bengal.",
+      "sentence_meaning": "প্রাণবন্ত লোকউৎসবগুলো বাংলার সমৃদ্ধ ঐতিহ্যবাহী সংস্কৃতি ও শৈল্পিক ঐতিহ্যকে প্রদর্শন করে।",
+      "category": "Word Transformation",
+      "unit": "Image 36 (image (36).jpg) - Transformation of Word"
+    },
+    {
+      "id": 979,
+      "word": "Curiosity",
+      "ipa": "/ˌkjʊriˈɑːsəti/",
+      "pos": "n",
+      "meaning": "কৌতূহল, জানার আগ্রহ",
+      "synonyms": [
+        "inquisitiveness",
+        "interest",
+        "eagerness",
+        "wonder"
+      ],
+      "antonyms": [
+        "indifference",
+        "apathy",
+        "disinterest",
+        "unconcern"
+      ],
+      "raw_synonyms": "inquisitiveness, interest, eagerness, wonder",
+      "raw_antonyms": "indifference, apathy, disinterest, unconcern",
+      "sentence": "Intellectual curiosity drives scientific researchers to explore uncharted frontiers of cosmology.",
+      "sentence_meaning": "বুদ্ধিবৃত্তিক কৌতূহল বিজ্ঞান গবেষকদের মহাবিশ্ববিজ্ঞানের অজানা দিগন্ত অন্বেষণ করতে চালিত করে।",
+      "category": "Word Transformation",
+      "unit": "Image 36 (image (36).jpg) - Transformation of Word"
+    },
+    {
+      "id": 980,
+      "word": "Danger",
+      "ipa": "/ˈdeɪndʒər/",
+      "pos": "n",
+      "meaning": "বিপদ, ঝুঁকি, আশঙ্কা",
+      "synonyms": [
+        "hazard",
+        "peril",
+        "risk",
+        "threat"
+      ],
+      "antonyms": [
+        "safety",
+        "security",
+        "protection",
+        "shield"
+      ],
+      "raw_synonyms": "hazard, peril, risk, threat",
+      "raw_antonyms": "safety, security, protection, shield",
+      "sentence": "Disregarding traffic safety regulations puts motorists and pedestrians in grave physical danger.",
+      "sentence_meaning": "ট্রাফিক নিরাপত্তা বিধি উপেক্ষা করা মোটরচালক এবং পথচারীদের চরম শারীরিক বিপদের মুখে ফেলে।",
+      "category": "Word Transformation",
+      "unit": "Image 36 (image (36).jpg) - Transformation of Word"
+    }
+  ]
+}

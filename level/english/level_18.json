@@ -1,0 +1,133 @@
+{
+  "level_id": 18,
+  "title": "Level 18: Vocabulary",
+  "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 86,
+      "word": "Ambivalence",
+      "ipa": "/æmˈbɪvələns/",
+      "pos": "n",
+      "meaning": "দোটানা, বিপরীতমুখী মনোভাব, মানসিক দ্বিধাদ্বন্দ্ব",
+      "synonyms": [
+        "uncertainty",
+        "indecision",
+        "hesitation",
+        "vacillation"
+      ],
+      "antonyms": [
+        "certainty",
+        "decisiveness",
+        "resolution",
+        "clarity"
+      ],
+      "raw_synonyms": "uncertainty, indecision, hesitation, vacillation",
+      "raw_antonyms": "certainty, decisiveness, resolution, clarity",
+      "sentence": "His ambivalence regarding the career switch made it hard for him to accept the overseas offer.",
+      "sentence_meaning": "পেশা পরিবর্তনের ব্যাপারে তাঁর মানসিক দোটানা বিদেশের প্রস্তাবটি গ্রহণ করা তাঁর জন্য কঠিন করে তুলেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    },
+    {
+      "id": 87,
+      "word": "Ambivalent",
+      "ipa": "/æmˈbɪvələnt/",
+      "pos": "adj",
+      "meaning": "দ্বিধাগ্রস্ত, পরস্পরবিরোধী অনুভূতিযুক্ত",
+      "synonyms": [
+        "undecided",
+        "conflicted",
+        "equivocal",
+        "hesitant"
+      ],
+      "antonyms": [
+        "decisive",
+        "unwavering",
+        "certain",
+        "resolute"
+      ],
+      "raw_synonyms": "undecided, conflicted, equivocal, hesitant",
+      "raw_antonyms": "decisive, unwavering, certain, resolute",
+      "sentence": "She felt ambivalent about leaving her hometown to pursue higher studies abroad.",
+      "sentence_meaning": "উচ্চশিক্ষার জন্য বিদেশে যেতে নিজের শহর ছেড়ে যাওয়ার ব্যাপারে তিনি দ্বিধাগ্রস্ত বোধ করছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    },
+    {
+      "id": 88,
+      "word": "Ameliorate",
+      "ipa": "/əˈmiːliəreɪt/",
+      "pos": "v",
+      "meaning": "উন্নত করা, পরিস্থিতির উন্নতি ঘটানো, উৎকর্ষ সাধন করা",
+      "synonyms": [
+        "improve",
+        "enhance",
+        "better",
+        "upgrade"
+      ],
+      "antonyms": [
+        "deteriorate",
+        "worsen",
+        "impair",
+        "degrade"
+      ],
+      "raw_synonyms": "improve, enhance, better, upgrade",
+      "raw_antonyms": "deteriorate, worsen, impair, degrade",
+      "sentence": "Public welfare programs were initiated to ameliorate the living conditions of urban slums.",
+      "sentence_meaning": "শহুরে বস্তিবাসীদের জীবনযাত্রার মান উন্নত করার জন্য জনকল্যাণমূলক কর্মসূচি গ্রহণ করা হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    },
+    {
+      "id": 89,
+      "word": "Analogous",
+      "ipa": "/əˈnæləɡəs/",
+      "pos": "adj",
+      "meaning": "সাদৃশ্যপূর্ণ, অনুরূপ, তুলনীয়",
+      "synonyms": [
+        "comparable",
+        "similar",
+        "parallel",
+        "equivalent"
+      ],
+      "antonyms": [
+        "dissimilar",
+        "different",
+        "incomparable",
+        "disparate"
+      ],
+      "raw_synonyms": "comparable, similar, parallel, equivalent",
+      "raw_antonyms": "dissimilar, different, incomparable, disparate",
+      "sentence": "The human brain's neural network is often described as analogous to a complex computer system.",
+      "sentence_meaning": "মানুষের মস্তিষ্কের স্নায়বিক নেটওয়ার্ককে প্রায়শই একটি জটিল কম্পিউটার সিস্টেমের সাথে সাদৃশ্যপূর্ণ হিসেবে বর্ণনা করা হয়।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    },
+    {
+      "id": 90,
+      "word": "Anarchy",
+      "ipa": "/ˈænərki/",
+      "pos": "n",
+      "meaning": "নৈরাজ্য, বিশৃঙ্খলা, অরাজকতা",
+      "synonyms": [
+        "chaos",
+        "lawlessness",
+        "disorder",
+        "turmoil"
+      ],
+      "antonyms": [
+        "order",
+        "discipline",
+        "rule of law",
+        "governance"
+      ],
+      "raw_synonyms": "chaos, lawlessness, disorder, turmoil",
+      "raw_antonyms": "order, discipline, rule of law, governance",
+      "sentence": "Following the sudden collapse of the government, the country descended into civil anarchy.",
+      "sentence_meaning": "সরকারের আকস্মিক পতনের পর দেশটি গৃহস্থ অরাজকতা ও বিশৃঙ্খলার মধ্যে নিমজ্জিত হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    }
+  ]
+}

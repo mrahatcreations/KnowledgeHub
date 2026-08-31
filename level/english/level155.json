@@ -1,0 +1,133 @@
+{
+  "level_id": 155,
+  "title": "Level 155: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 771,
+      "word": "Volatile",
+      "ipa": "/ˈvɑːlətl/",
+      "pos": "adj",
+      "meaning": "পরিবর্তনশীল, অস্থির, উদ্বায়ী",
+      "synonyms": [
+        "unstable",
+        "capricious",
+        "erratic",
+        "evaporative"
+      ],
+      "antonyms": [
+        "stable",
+        "constant",
+        "steady",
+        "invariable"
+      ],
+      "raw_synonyms": "unstable, capricious, erratic, evaporative",
+      "raw_antonyms": "stable, constant, steady, invariable",
+      "sentence": "Stock markets remain extremely volatile during unexpected geopolitical crises and currency fluctuations.",
+      "sentence_meaning": "অপ্রত্যাশিত ভূরাজনৈতিক সংকট ও মুদ্রার ওঠানামার সময় শেয়ারবাজার অত্যন্ত অস্থিতিশীল থাকে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 772,
+      "word": "Cautious",
+      "ipa": "/ˈkɔːʃəs/",
+      "pos": "adj",
+      "meaning": "সতর্ক, সাবধানী, হুঁশিয়ার",
+      "synonyms": [
+        "wary",
+        "circumspect",
+        "guarded",
+        "prudent"
+      ],
+      "antonyms": [
+        "rash",
+        "careless",
+        "heedless",
+        "reckless"
+      ],
+      "raw_synonyms": "wary, circumspect, guarded, prudent",
+      "raw_antonyms": "rash, careless, heedless, reckless",
+      "sentence": "Central bankers adopted a cautious approach to interest rates amid fluctuating inflation figures.",
+      "sentence_meaning": "মুদ্রাস্ফীতির ওঠানামার মধ্যে কেন্দ্রীয় ব্যাংকাররা সুদের হারের ব্যাপারে একটি সতর্ক দৃষ্টিভঙ্গি গ্রহণ করেছেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 773,
+      "word": "Chaos",
+      "ipa": "/ˈkeɪɑːs/",
+      "pos": "n",
+      "meaning": "চরম বিশৃঙ্খলা, অরাজকতা",
+      "synonyms": [
+        "turmoil",
+        "anarchy",
+        "pandemonium",
+        "disorder"
+      ],
+      "antonyms": [
+        "order",
+        "harmony",
+        "organization",
+        "calm"
+      ],
+      "raw_synonyms": "turmoil, anarchy, pandemonium, disorder",
+      "raw_antonyms": "order, harmony, organization, calm",
+      "sentence": "The sudden power grid failure plunged the metropolitan transport system into total chaos during rush hour.",
+      "sentence_meaning": "ব্যস্ত সময়ে বিদ্যুৎ সঞ্চালন লাইনের হঠাৎ বিপর্যয় মহানগরীর পরিবহন ব্যবস্থাকে চরম বিশৃঙ্খলার মধ্যে ফেলে দেয়।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 774,
+      "word": "Castigation",
+      "ipa": "/ˌkæstɪˈɡeɪʃn/",
+      "pos": "n",
+      "meaning": "তীব্র তিরস্কার, শাস্তি",
+      "synonyms": [
+        "chastisement",
+        "rebuke",
+        "reprimand",
+        "censure"
+      ],
+      "antonyms": [
+        "praise",
+        "commendation",
+        "laudation",
+        "approval"
+      ],
+      "raw_synonyms": "chastisement, rebuke, reprimand, censure",
+      "raw_antonyms": "praise, commendation, laudation, approval",
+      "sentence": "The director faced harsh castigation from critics for the offensive themes depicted in the film.",
+      "sentence_meaning": "চলচ্চিত্রে চিত্রিত আপত্তিকর বিষয়বস্তুর জন্য পরিচালক সমালোচকদের কাছ থেকে কঠোর তিরস্কারের মুখোমুখি হয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 775,
+      "word": "Caustic",
+      "ipa": "/ˈkɔːstɪk/",
+      "pos": "adj",
+      "meaning": "ক্ষয়কারী, তীব্র ব্যঙ্গপূর্ণ, তীক্ষ্ণ",
+      "synonyms": [
+        "corrosive",
+        "mordant",
+        "sarcastic",
+        "acerbic"
+      ],
+      "antonyms": [
+        "soothing",
+        "mild",
+        "gentle",
+        "kind"
+      ],
+      "raw_synonyms": "corrosive, mordant, sarcastic, acerbic",
+      "raw_antonyms": "soothing, mild, gentle, kind",
+      "sentence": "The editor's caustic remarks in the editorial column wounded the young writer's delicate self-esteem.",
+      "sentence_meaning": "সম্পাদকীয় কলামে সম্পাদকের ঝাঁঝালো ও ব্যঙ্গাত্মক মন্তব্য তরুণ লেখকের কোমল আত্মমর্যাদাকে আঘাত করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

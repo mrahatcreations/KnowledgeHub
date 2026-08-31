@@ -1,0 +1,133 @@
+{
+  "level_id": 22,
+  "title": "Level 22: Vocabulary",
+  "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 106,
+      "word": "Accumulate",
+      "ipa": "/əˈkjuːmjəleɪt/",
+      "pos": "v",
+      "meaning": "পুঞ্জীভূত করা, জমা করা বা পুঞ্জীভূত হওয়া",
+      "synonyms": [
+        "amass",
+        "gather",
+        "collect",
+        "hoard"
+      ],
+      "antonyms": [
+        "disperse",
+        "scatter",
+        "distribute",
+        "dissipate"
+      ],
+      "raw_synonyms": "amass, gather, collect, hoard",
+      "raw_antonyms": "disperse, scatter, distribute, dissipate",
+      "sentence": "Over the years, the scholar managed to accumulate an extensive personal library.",
+      "sentence_meaning": "বছরের পর বছর ধরে পণ্ডিত ব্যক্তিটি একটি সমৃদ্ধ ব্যক্তিগত পাঠাগার গড়ে তুলতে সক্ষম হন।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 107,
+      "word": "Anonymous",
+      "ipa": "/əˈnɒnɪməs/",
+      "pos": "adj",
+      "meaning": "বেনামী, নামহীন, অজ্ঞাতনামা",
+      "synonyms": [
+        "unnamed",
+        "unidentified",
+        "nameless",
+        "incognito"
+      ],
+      "antonyms": [
+        "identified",
+        "named",
+        "known",
+        "acknowledged"
+      ],
+      "raw_synonyms": "unnamed, unidentified, nameless, incognito",
+      "raw_antonyms": "identified, named, known, acknowledged",
+      "sentence": "The charitable clinic received a generous donation from an anonymous benefactor.",
+      "sentence_meaning": "দাতব্য চিকিৎসালয়টি একজন অজ্ঞাতনামা হিতৈষীর কাছ থেকে উদার অনুদান পেয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 108,
+      "word": "Authentic",
+      "ipa": "/ɔːˈθentɪk/",
+      "pos": "adj",
+      "meaning": "খাঁটি, নির্ভরযোগ্য, প্রামাণ্য",
+      "synonyms": [
+        "genuine",
+        "legitimate",
+        "veritable",
+        "bona fide"
+      ],
+      "antonyms": [
+        "counterfeit",
+        "fake",
+        "spurious",
+        "fraudulent"
+      ],
+      "raw_synonyms": "genuine, legitimate, veritable, bona fide",
+      "raw_antonyms": "counterfeit, fake, spurious, fraudulent",
+      "sentence": "The museum curator verified that the manuscript was an authentic seventeenth-century document.",
+      "sentence_meaning": "জাদুঘরের কিউরেটর নিশ্চিত করেছেন যে পাণ্ডুলিপিটি সপ্তদশ শতাব্দীর একটি খাঁটি দলিল।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 109,
+      "word": "Abridge",
+      "ipa": "/əˈbrɪdʒ/",
+      "pos": "v",
+      "meaning": "সংক্ষেপ করা, সংক্ষিপ্ত করা",
+      "synonyms": [
+        "shorten",
+        "condense",
+        "curtail",
+        "abbreviate"
+      ],
+      "antonyms": [
+        "expand",
+        "lengthen",
+        "elaborate",
+        "amplify"
+      ],
+      "raw_synonyms": "shorten, condense, curtail, abbreviate",
+      "raw_antonyms": "expand, lengthen, elaborate, amplify",
+      "sentence": "The publisher decided to abridge the massive three-volume dictionary for high school students.",
+      "sentence_meaning": "প্রকাশক উচ্চ বিদ্যালয়ের শিক্ষার্থীদের জন্য সুবিশাল তিন খণ্ডের অভিধানটি সংক্ষিপ্ত করার সিদ্ধান্ত নেন।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 110,
+      "word": "Acme",
+      "ipa": "/ˈækmi/",
+      "pos": "n",
+      "meaning": "শীর্ষবিন্দু, চরম উৎকর্ষ, সর্বোচ্চ সীমা",
+      "synonyms": [
+        "peak",
+        "zenith",
+        "pinnacle",
+        "apex"
+      ],
+      "antonyms": [
+        "nadir",
+        "bottom",
+        "base",
+        "depths"
+      ],
+      "raw_synonyms": "peak, zenith, pinnacle, apex",
+      "raw_antonyms": "nadir, bottom, base, depths",
+      "sentence": "Winning the Nobel Prize marked the absolute acme of her distinguished scientific career.",
+      "sentence_meaning": "নোবেল পুরস্কার অর্জন তার বর্ণাঢ্য বৈজ্ঞানিক কর্মজীবনের সর্বোচ্চ চূড়া হিসেবে চিহ্নিত হয়।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    }
+  ]
+}

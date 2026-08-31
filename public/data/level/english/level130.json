@@ -1,0 +1,131 @@
+{
+  "level_id": 130,
+  "title": "Level 130: Vocabulary",
+  "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 646,
+      "word": "Peasant",
+      "ipa": "/ˈpeznt/",
+      "pos": "n",
+      "meaning": "ক্ষুদ্র কৃষক, গ্রাম্য কৃষক",
+      "synonyms": [
+        "farmer",
+        "agriculturalist",
+        "cultivator",
+        "tiller"
+      ],
+      "antonyms": [
+        "landlord",
+        "aristocrat",
+        "nobleman",
+        "urbanite"
+      ],
+      "raw_synonyms": "farmer, agriculturalist, cultivator, tiller",
+      "raw_antonyms": "landlord, aristocrat, nobleman, urbanite",
+      "sentence": "The peasant worked diligently in the paddy fields from dawn until dusk.",
+      "sentence_meaning": "ক্ষুদ্র কৃষকটি ভোর থেকে সন্ধ্যা পর্যন্ত ধানক্ষেতে নিষ্ঠার সাথে কাজ করতেন।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 647,
+      "word": "Defiance",
+      "ipa": "/dɪˈfaɪəns/",
+      "pos": "n",
+      "meaning": "স্পর্ধা, অবাধ্যাচরণ, প্রকাশ্য প্রতিরোধ",
+      "synonyms": [
+        "resistance",
+        "disobedience",
+        "rebellion",
+        "contempt"
+      ],
+      "antonyms": [
+        "compliance",
+        "obedience",
+        "submission",
+        "deference"
+      ],
+      "raw_synonyms": "resistance, disobedience, rebellion, contempt",
+      "raw_antonyms": "compliance, obedience, submission, deference",
+      "sentence": "In an act of fearless defiance, the activists protested against the unjust decree.",
+      "sentence_meaning": "নির্ভীক স্পর্ধার সাথে আন্দোলনকারীরা অন্যায় আদেশের বিরুদ্ধে প্রতিবাদ জানিয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 648,
+      "word": "Harsh",
+      "ipa": "/hɑːrʃ/",
+      "pos": "adj",
+      "meaning": "কঠোর, রূঢ়, তীব্র",
+      "synonyms": [
+        "severe",
+        "austere",
+        "brutal",
+        "unforgiving"
+      ],
+      "antonyms": [
+        "mild",
+        "gentle",
+        "pleasant",
+        "kind"
+      ],
+      "raw_synonyms": "severe, austere, brutal, unforgiving",
+      "raw_antonyms": "mild, gentle, pleasant, kind",
+      "sentence": "Arctic wildlife has adapted unique physical traits to survive the harsh winter climate.",
+      "sentence_meaning": "মেরু অঞ্চলের বন্যপ্রাণীরা কঠোর শীতকালীন জলবায়ুতে বেঁচে থাকার জন্য অনন্য শারীরিক বৈশিষ্ট্য গ্রহণ করেছে।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 649,
+      "word": "Retelling",
+      "ipa": "/ˌriːˈtelɪŋ/",
+      "pos": "n",
+      "meaning": "পুনর্বর্ণনা, নতুন করে বলা কাহিনী",
+      "synonyms": [
+        "recount",
+        "rendition",
+        "adaptation",
+        "narrative"
+      ],
+      "antonyms": [
+        "original work",
+        "silence",
+        "suppression"
+      ],
+      "raw_synonyms": "recount, rendition, adaptation, narrative",
+      "raw_antonyms": "original work, silence, suppression",
+      "sentence": "The modern retelling of the classic epic captivated both young and old audiences.",
+      "sentence_meaning": "চিরায়ত মহাকাব্যের আধুনিক পুনর্বর্ণনা তরুণ এবং প্রবীণ উভয় দর্শককেই মুগ্ধ করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 650,
+      "word": "Astrologer",
+      "ipa": "/əˈstrɑːlədʒər/",
+      "pos": "n",
+      "meaning": "জ্যোতিষী, ভাগ্যগণক",
+      "synonyms": [
+        "fortuneteller",
+        "seer",
+        "soothsayer",
+        "horoscopist"
+      ],
+      "antonyms": [
+        "astronomer",
+        "scientist",
+        "empiricist"
+      ],
+      "raw_synonyms": "fortuneteller, seer, soothsayer, horoscopist",
+      "raw_antonyms": "astronomer, scientist, empiricist",
+      "sentence": "The astrologer studied the planetary alignments before predicting the outcome of the battle.",
+      "sentence_meaning": "যুদ্ধের ফলাফল অনুমান করার আগে জ্যোতিষী গ্রহের অবস্থানগুলো পর্যবেক্ষণ করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    }
+  ]
+}

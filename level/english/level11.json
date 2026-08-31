@@ -1,0 +1,133 @@
+{
+  "level_id": 11,
+  "title": "Level 11: Vocabulary",
+  "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 51,
+      "word": "Bow",
+      "ipa": "/baʊ/",
+      "pos": "v",
+      "meaning": "মাথা নত করা, প্রণাম করা, অভিবাদন জানানো",
+      "synonyms": [
+        "bend",
+        "incline",
+        "stoop",
+        "curtsey"
+      ],
+      "antonyms": [
+        "straighten",
+        "rise",
+        "stand",
+        "erect"
+      ],
+      "raw_synonyms": "bend, incline, stoop, curtsey",
+      "raw_antonyms": "straighten, rise, stand, erect",
+      "sentence": "The performer bowed gracefully to the applauding audience before leaving the stage.",
+      "sentence_meaning": "মঞ্চ ত্যাগ করার আগে শিল্পী করতালিরত দর্শকদের উদ্দেশ্যে সশ্রদ্ধভাবে মাথা নত করলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    },
+    {
+      "id": 52,
+      "word": "Spiritedly",
+      "ipa": "/ˈspɪrɪtɪdli/",
+      "pos": "adv",
+      "meaning": "উৎফুল্লভাবে, প্রাণবন্তভাবে, সতেজে",
+      "synonyms": [
+        "vivaciously",
+        "energetically",
+        "cheerfully",
+        "vigorously"
+      ],
+      "antonyms": [
+        "sluggishly",
+        "listlessly",
+        "apathetically",
+        "dully"
+      ],
+      "raw_synonyms": "vivaciously, energetically, cheerfully, vigorously",
+      "raw_antonyms": "sluggishly, listlessly, apathetically, dully",
+      "sentence": "The debate team argued spiritedly, presenting compelling arguments throughout the contest.",
+      "sentence_meaning": "বিতর্ক দলটি প্রতিযোগিতা জুড়ে জোরালো যুক্তি উপস্থাপন করে প্রাণবন্তভাবে বিতর্ক করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    },
+    {
+      "id": 53,
+      "word": "Embarrassed",
+      "ipa": "/ɪmˈbærəst/",
+      "pos": "adj",
+      "meaning": "বিব্রত, অপ্রস্তুত, লজ্জিত",
+      "synonyms": [
+        "ashamed",
+        "humiliated",
+        "mortified",
+        "awkward"
+      ],
+      "antonyms": [
+        "unabashed",
+        "confident",
+        "proud",
+        "poised"
+      ],
+      "raw_synonyms": "ashamed, humiliated, mortified, awkward",
+      "raw_antonyms": "unabashed, confident, proud, poised",
+      "sentence": "He felt embarrassed when he realized he had forgotten the guest speaker's name.",
+      "sentence_meaning": "প্রধান বক্তার নাম ভুলে গেছেন বুঝতে পেরে তিনি বিব্রত বোধ করলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    },
+    {
+      "id": 54,
+      "word": "Higgledy-piggledy",
+      "ipa": "/ˌhɪɡldiˈpɪɡldi/",
+      "pos": "adj",
+      "meaning": "এলোমেলো, বিশৃঙ্খল, উলটপালট",
+      "synonyms": [
+        "disorderly",
+        "chaotic",
+        "topsy-turvy",
+        "jumbled"
+      ],
+      "antonyms": [
+        "orderly",
+        "organized",
+        "systematic",
+        "neat"
+      ],
+      "raw_synonyms": "disorderly, chaotic, topsy-turvy, jumbled",
+      "raw_antonyms": "orderly, organized, systematic, neat",
+      "sentence": "The books and papers lay higgledy-piggledy across the entire workspace.",
+      "sentence_meaning": "বই ও কাগজপত্র পুরো কর্মক্ষেত্র জুড়ে এলোমেলোভাবে ছড়িয়ে ছিটিয়ে ছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    },
+    {
+      "id": 55,
+      "word": "Scold",
+      "ipa": "/skoʊld/",
+      "pos": "v",
+      "meaning": "বকাঝকা করা, তিরস্কার করা",
+      "synonyms": [
+        "rebuke",
+        "chide",
+        "reprimand",
+        "berate"
+      ],
+      "antonyms": [
+        "praise",
+        "laud",
+        "compliment",
+        "commend"
+      ],
+      "raw_synonyms": "rebuke, chide, reprimand, berate",
+      "raw_antonyms": "praise, laud, compliment, commend",
+      "sentence": "The mother gently scolded her child for playing in the rain with a cold.",
+      "sentence_meaning": "সর্দি লাগা সত্ত্বেও বৃষ্টিতে ভেজার জন্য মা তার সন্তানকে মৃদু বকা দিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    }
+  ]
+}

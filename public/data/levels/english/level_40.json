@@ -1,0 +1,133 @@
+{
+  "level_id": 40,
+  "title": "Level 40: Appropriate Preposition",
+  "unit": "Image 6: Appropriate Prepositions",
+  "category": "Appropriate Preposition",
+  "items": [
+    {
+      "id": 196,
+      "word": "Absorbed in",
+      "ipa": "/əbˈzɔːrbd ɪn/",
+      "pos": "prep",
+      "meaning": "কোনো কাজে সম্পূর্ণ নিমগ্ন বা নিবিষ্ট",
+      "synonyms": [
+        "engrossed",
+        "immersed",
+        "captivated",
+        "preoccupied"
+      ],
+      "antonyms": [
+        "distracted",
+        "inattentive",
+        "disinterested",
+        "unfocused"
+      ],
+      "raw_synonyms": "engrossed, immersed, captivated, preoccupied",
+      "raw_antonyms": "distracted, inattentive, disinterested, unfocused",
+      "sentence": "The scientist was deeply absorbed in his laboratory research throughout the day.",
+      "sentence_meaning": "বিজ্ঞানী সারাদিন ধরে তার পরীক্ষাগারের গবেষণায় গভীরভাবে নিমগ্ন ছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 197,
+      "word": "Abstain from",
+      "ipa": "/æbˈsteɪn frɒm/",
+      "pos": "prep",
+      "meaning": "কোনো কিছু থেকে নিজেকে বিরত রাখা",
+      "synonyms": [
+        "refrain",
+        "avoid",
+        "desist",
+        "forgo"
+      ],
+      "antonyms": [
+        "indulge",
+        "partake",
+        "participate",
+        "consume"
+      ],
+      "raw_synonyms": "refrain, avoid, desist, forgo",
+      "raw_antonyms": "indulge, partake, participate, consume",
+      "sentence": "Doctors advised the cardiac patient to abstain from oily food and smoking.",
+      "sentence_meaning": "চিকিৎসকরা হৃদরোগীটিকে তৈলাক্ত খাবার ও ধূমপান থেকে বিরত থাকার পরামর্শ দিয়েছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 198,
+      "word": "Abhorrent to",
+      "ipa": "/əbˈhɒrənt tuː/",
+      "pos": "prep",
+      "meaning": "কারো কাছে অত্যন্ত ঘৃণ্য বা বিরুদ্ধ",
+      "synonyms": [
+        "repugnant to",
+        "loathsome to",
+        "offensive to",
+        "detestable to"
+      ],
+      "antonyms": [
+        "appealing to",
+        "pleasant to",
+        "agreeable to",
+        "attractive to"
+      ],
+      "raw_synonyms": "repugnant to, loathsome to, offensive to, detestable to",
+      "raw_antonyms": "appealing to, pleasant to, agreeable to, attractive to",
+      "sentence": "Any act of cruelty towards defenseless animals is utterly abhorrent to moral conscience.",
+      "sentence_meaning": "অসহায় প্রাণীদের প্রতি যেকোনো ধরনের নিষ্ঠুর আচরণ নৈতিক বিবেকের কাছে অত্যন্ত ঘৃণ্য।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 199,
+      "word": "Access to",
+      "ipa": "/ˈækses tuː/",
+      "pos": "prep",
+      "meaning": "প্রবেশাধিকার বা ব্যবহারের সুযোগ",
+      "synonyms": [
+        "entry to",
+        "admission to",
+        "availability of",
+        "approach to"
+      ],
+      "antonyms": [
+        "exclusion from",
+        "restriction from",
+        "denial of",
+        "barrier to"
+      ],
+      "raw_synonyms": "entry to, admission to, availability of, approach to",
+      "raw_antonyms": "exclusion from, restriction from, denial of, barrier to",
+      "sentence": "Every citizen deserves universal access to affordable healthcare and quality education.",
+      "sentence_meaning": "প্রত্যেক নাগরিকের সাশ্রয়ী স্বাস্থ্যসেবা এবং মানসম্মত শিক্ষার অবাধ সুযোগ পাওয়ার অধিকার রয়েছে।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 200,
+      "word": "Accommodate to",
+      "ipa": "/əˈkɒmədeɪt tuː/",
+      "pos": "prep",
+      "meaning": "নতুন পরিবেশ বা পরিস্থিতিতে খাপ খাওয়ানো",
+      "synonyms": [
+        "adapt to",
+        "adjust to",
+        "conform to",
+        "acclimatize to"
+      ],
+      "antonyms": [
+        "resist",
+        "reject",
+        "disagree with",
+        "rebel against"
+      ],
+      "raw_synonyms": "adapt to, adjust to, conform to, acclimatize to",
+      "raw_antonyms": "resist, reject, disagree with, rebel against",
+      "sentence": "Immigrants often have to accommodate themselves to unfamiliar cultural customs and climate.",
+      "sentence_meaning": "অভিবাসীদের প্রায়শই অপরিচিত সাংস্কৃতিক রীতিনীতি এবং আবহাওয়ার সাথে নিজেদের খাপ খাইয়ে নিতে হয়।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    }
+  ]
+}

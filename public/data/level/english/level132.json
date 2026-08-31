@@ -1,0 +1,133 @@
+{
+  "level_id": 132,
+  "title": "Level 132: Vocabulary",
+  "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 656,
+      "word": "Royal",
+      "ipa": "/ˈrɔɪəl/",
+      "pos": "adj",
+      "meaning": "রাজকীয়, মহারাজকীয়, মহিমান্বিত",
+      "synonyms": [
+        "regal",
+        "monarchical",
+        "aristocratic",
+        "sovereign"
+      ],
+      "antonyms": [
+        "common",
+        "plebeian",
+        "ordinary",
+        "humble"
+      ],
+      "raw_synonyms": "regal, monarchical, aristocratic, sovereign",
+      "raw_antonyms": "common, plebeian, ordinary, humble",
+      "sentence": "The foreign delegates were received with grand royal hospitality at the palace.",
+      "sentence_meaning": "বিদেশি প্রতিনিধিদের প্রাসাদে জমকালো রাজকীয় আতিথেয়তার সাথে অভ্যর্থনা জানানো হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 657,
+      "word": "Abscond",
+      "ipa": "/æbˈskɑːnd/",
+      "pos": "v",
+      "meaning": "পলায়ন করা, গোপনে গা ঢাকা দেওয়া (বিশেষত অর্থ বা দায়িত্ব ফাঁকি দিয়ে)",
+      "synonyms": [
+        "flee",
+        "decamp",
+        "bolt",
+        "escape"
+      ],
+      "antonyms": [
+        "remain",
+        "stay",
+        "appear",
+        "surrender"
+      ],
+      "raw_synonyms": "flee, decamp, bolt, escape",
+      "raw_antonyms": "remain, stay, appear, surrender",
+      "sentence": "The dishonest accountant attempted to abscond with the company's funds before the audit began.",
+      "sentence_meaning": "অসাধু হিসাবরক্ষক অডিট শুরু হওয়ার আগেই কোম্পানির তহবিল নিয়ে পালিয়ে যাওয়ার চেষ্টা করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Written Part"
+    },
+    {
+      "id": 658,
+      "word": "Divergent",
+      "ipa": "/daɪˈvɜːrdʒənt/",
+      "pos": "adj",
+      "meaning": "ভিন্নমুখী, ভিন্নধর্মী, পরস্পরবিরোধী",
+      "synonyms": [
+        "different",
+        "differing",
+        "disparate",
+        "deviant"
+      ],
+      "antonyms": [
+        "convergent",
+        "similar",
+        "congruent",
+        "uniform"
+      ],
+      "raw_synonyms": "different, differing, disparate, deviant",
+      "raw_antonyms": "convergent, similar, congruent, uniform",
+      "sentence": "The committee members held divergent views on how to allocate the annual research budget.",
+      "sentence_meaning": "বার্ষিক গবেষণার বাজেট কীভাবে বরাদ্দ করা হবে সে বিষয়ে কমিটির সদস্যদের ভিন্নমুখী মতামত ছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Written Part"
+    },
+    {
+      "id": 659,
+      "word": "Admonish",
+      "ipa": "/ədˈmɑːnɪʃ/",
+      "pos": "v",
+      "meaning": "সতর্ক করা, মৃদু তিরস্কার বা উপদেশ দেওয়া",
+      "synonyms": [
+        "reprimand",
+        "reprove",
+        "rebuke",
+        "scold"
+      ],
+      "antonyms": [
+        "praise",
+        "applaud",
+        "commend",
+        "flatter"
+      ],
+      "raw_synonyms": "reprimand, reprove, rebuke, scold",
+      "raw_antonyms": "praise, applaud, commend, flatter",
+      "sentence": "The professor admonished the students for submitting their assignments past the deadline.",
+      "sentence_meaning": "নির্দিষ্ট সময়সীমা পার হওয়ার পর অ্যাসাইনমেন্ট জমা দেওয়ায় অধ্যাপক শিক্ষার্থীদের মৃদু তিরস্কার ও সতর্ক করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Written Part"
+    },
+    {
+      "id": 660,
+      "word": "Belittle",
+      "ipa": "/bɪˈlɪtəl/",
+      "pos": "v",
+      "meaning": "ছোট করা, অবমূল্যায়ন করা, তুচ্ছ জ্ঞান করা",
+      "synonyms": [
+        "disparage",
+        "deprecate",
+        "demean",
+        "denigrate"
+      ],
+      "antonyms": [
+        "praise",
+        "magnify",
+        "extol",
+        "exalt"
+      ],
+      "raw_synonyms": "disparage, deprecate, demean, denigrate",
+      "raw_antonyms": "praise, magnify, extol, exalt",
+      "sentence": "A true leader inspires others rather than trying to belittle their contributions.",
+      "sentence_meaning": "একজন প্রকৃত নেতা অন্যদের অবমূল্যায়ন না করে বরং তাদের অবদানকে অনুপ্রাণিত করেন।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Written Part"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "level_id": 2,
+  "title": "Level 2: Vocabulary",
+  "unit": "Image 1: Vocabulary (Unit-1)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 6,
+      "word": "Instant",
+      "ipa": "/ˈɪnstənt/",
+      "pos": "adj",
+      "meaning": "তাৎক্ষণিক, মুহূর্তের",
+      "synonyms": [
+        "immediate",
+        "prompt",
+        "instantaneous",
+        "rapid"
+      ],
+      "antonyms": [
+        "delayed",
+        "gradual",
+        "tardy",
+        "sluggish"
+      ],
+      "raw_synonyms": "immediate, prompt, instantaneous, rapid",
+      "raw_antonyms": "delayed, gradual, tardy, sluggish",
+      "sentence": "The mobile app provides instant access to thousands of educational resources.",
+      "sentence_meaning": "মোবাইল অ্যাপটি হাজার হাজার শিক্ষামূলক উপাদানে তাৎক্ষণিক প্রবেশের সুযোগ দেয়।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 7,
+      "word": "Tailored",
+      "ipa": "/ˈteɪlərd/",
+      "pos": "adj",
+      "meaning": "বিশেষভাবে তৈরি, উপযোগী",
+      "synonyms": [
+        "customized",
+        "adapted",
+        "personalized",
+        "specialized"
+      ],
+      "antonyms": [
+        "generic",
+        "standardized",
+        "universal",
+        "unsuitable"
+      ],
+      "raw_synonyms": "customized, adapted, personalized, specialized",
+      "raw_antonyms": "generic, standardized, universal, unsuitable",
+      "sentence": "Students benefited greatly from a tailored study plan designed to address their individual weaknesses.",
+      "sentence_meaning": "শিক্ষার্থীরা তাদের ব্যক্তিগত দুর্বলতা দূর করার জন্য তৈরি একটি বিশেষ অধ্যয়ন পরিকল্পনা থেকে দারুণভাবে উপকৃত হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 8,
+      "word": "Assignment",
+      "ipa": "/əˈsaɪnmənt/",
+      "pos": "n",
+      "meaning": "অর্পিত কাজ, নির্ধারিত দায়িত্ব",
+      "synonyms": [
+        "task",
+        "homework",
+        "allocation",
+        "duty"
+      ],
+      "antonyms": [
+        "discharge",
+        "exemption",
+        "refusal"
+      ],
+      "raw_synonyms": "task, homework, allocation, duty",
+      "raw_antonyms": "discharge, exemption, refusal",
+      "sentence": "Each student must submit their research assignment before the end of this semester.",
+      "sentence_meaning": "এই সেমিস্টার শেষ হওয়ার আগেই প্রত্যেক শিক্ষার্থীকে তাদের গবেষণা অ্যাসাইনমেন্ট জমা দিতে হবে।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 9,
+      "word": "Quiz",
+      "ipa": "/kwɪz/",
+      "pos": "n",
+      "meaning": "ছোট পরীক্ষা, কুইজ",
+      "synonyms": [
+        "test",
+        "examination",
+        "assessment",
+        "questionnaire"
+      ],
+      "antonyms": [
+        "recess",
+        "exemption",
+        "inactivity"
+      ],
+      "raw_synonyms": "test, examination, assessment, questionnaire",
+      "raw_antonyms": "recess, exemption, inactivity",
+      "sentence": "The professor conducted a surprise quiz to check how well students understood the chapter.",
+      "sentence_meaning": "শিক্ষার্থীরা অধ্যায়টি কতটা ভালোভাবে বুঝেছে তা যাচাই করতে অধ্যাপক একটি আকস্মিক কুইজ নিয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 10,
+      "word": "Grade",
+      "ipa": "/ɡreɪd/",
+      "pos": "v",
+      "meaning": "মূল্যায়ন করা, নম্বর দেওয়া",
+      "synonyms": [
+        "assess",
+        "evaluate",
+        "rank",
+        "appraise"
+      ],
+      "antonyms": [
+        "ignore",
+        "misjudge",
+        "disregard"
+      ],
+      "raw_synonyms": "assess, evaluate, rank, appraise",
+      "raw_antonyms": "ignore, misjudge, disregard",
+      "sentence": "The teacher spent the entire weekend grading midterm examination scripts.",
+      "sentence_meaning": "শিক্ষক পুরো সপ্তাহান্ত কাটিয়েছিলেন মধ্যবর্তী পরীক্ষার খাতা মূল্যায়নে।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    }
+  ]
+}

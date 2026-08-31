@@ -1,0 +1,132 @@
+{
+  "level_id": 5,
+  "title": "Level 5: Vocabulary",
+  "unit": "Image 1: Vocabulary (Unit-1)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 21,
+      "word": "Explore",
+      "ipa": "/ɪkˈsplɔːr/",
+      "pos": "v",
+      "meaning": "অন্বেষণ করা, অনুসন্ধান করা",
+      "synonyms": [
+        "investigate",
+        "examine",
+        "search",
+        "scrutinize"
+      ],
+      "antonyms": [
+        "ignore",
+        "overlook",
+        "neglect",
+        "disregard"
+      ],
+      "raw_synonyms": "investigate, examine, search, scrutinize",
+      "raw_antonyms": "ignore, overlook, neglect, disregard",
+      "sentence": "Scientists continue to explore the deep ocean in search of undiscovered marine species.",
+      "sentence_meaning": "বিজ্ঞানীরা অনাবিষ্কৃত সামুদ্রিক প্রজাতির সন্ধানে গভীর সমুদ্র অন্বেষণ অব্যাহত রেখেছেন।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 22,
+      "word": "Replace",
+      "ipa": "/rɪˈpleɪs/",
+      "pos": "v",
+      "meaning": "প্রতিস্থাপন করা, বদলে দেওয়া",
+      "synonyms": [
+        "substitute",
+        "supplant",
+        "supersede",
+        "exchange"
+      ],
+      "antonyms": [
+        "retain",
+        "keep",
+        "preserve",
+        "maintain"
+      ],
+      "raw_synonyms": "substitute, supplant, supersede, exchange",
+      "raw_antonyms": "retain, keep, preserve, maintain",
+      "sentence": "Artificial intelligence is poised to replace several routine manual jobs in the future.",
+      "sentence_meaning": "কৃত্রিম বুদ্ধিমত্তা ভবিষ্যতে বেশ কিছু গতানুগতিক কায়িক শ্রমের কাজ প্রতিস্থাপন করতে প্রস্তুত।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 23,
+      "word": "Augment",
+      "ipa": "/ɔːɡˈment/",
+      "pos": "v",
+      "meaning": "বৃদ্ধি করা, বাড়ানো",
+      "synonyms": [
+        "increase",
+        "expand",
+        "enhance",
+        "amplify"
+      ],
+      "antonyms": [
+        "decrease",
+        "diminish",
+        "reduce",
+        "curtail"
+      ],
+      "raw_synonyms": "increase, expand, enhance, amplify",
+      "raw_antonyms": "decrease, diminish, reduce, curtail",
+      "sentence": "He took a part-time job in the evening to augment his monthly income.",
+      "sentence_meaning": "তিনি তার মাসিক আয় বাড়াতে সন্ধ্যায় একটি খণ্ডকালীন চাকরি নিয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 24,
+      "word": "Innovative",
+      "ipa": "/ˈɪnəveɪtɪv/",
+      "pos": "adj",
+      "meaning": "উদ্ভাবনী, নতুনত্বপূর্ণ",
+      "synonyms": [
+        "inventive",
+        "creative",
+        "pioneering",
+        "novel"
+      ],
+      "antonyms": [
+        "conventional",
+        "traditional",
+        "uninventive",
+        "customary"
+      ],
+      "raw_synonyms": "inventive, creative, pioneering, novel",
+      "raw_antonyms": "conventional, traditional, uninventive, customary",
+      "sentence": "The startup won accolades for its innovative approach to renewable energy storage.",
+      "sentence_meaning": "নবায়নযোগ্য শক্তি সঞ্চয়ে উদ্ভাবনী পদ্ধতির জন্য স্টার্টআপটি প্রশংসা কুড়িয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 25,
+      "word": "Implication",
+      "ipa": "/ˌɪmplɪˈkeɪʃn/",
+      "pos": "n",
+      "meaning": "প্রভাব, অন্তর্নিহিত অর্থ বা তাৎপর্য",
+      "synonyms": [
+        "consequence",
+        "ramification",
+        "inference",
+        "significance"
+      ],
+      "antonyms": [
+        "explicitness",
+        "directness",
+        "insignificance"
+      ],
+      "raw_synonyms": "consequence, ramification, inference, significance",
+      "raw_antonyms": "explicitness, directness, insignificance",
+      "sentence": "The economic implications of the new tax reform will be felt nationwide.",
+      "sentence_meaning": "নতুন কর সংস্কারের অর্থনৈতিক প্রভাব দেশব্যাপী অনুভূত হবে।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "level_id": 126,
+  "title": "Level 126: Vocabulary",
+  "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 626,
+      "word": "Labyrinth",
+      "ipa": "/ˈlæbərɪnθ/",
+      "pos": "n",
+      "meaning": "গোলকধাঁধা, জটিল পথজাল",
+      "synonyms": [
+        "maze",
+        "network",
+        "web",
+        "quagmire"
+      ],
+      "antonyms": [
+        "straight path",
+        "direct route",
+        "simplicity"
+      ],
+      "raw_synonyms": "maze, network, web, quagmire",
+      "raw_antonyms": "straight path, direct route, simplicity",
+      "sentence": "The ancient palace was surrounded by a dense labyrinth of underground corridors.",
+      "sentence_meaning": "প্রাচীন প্রাসাদটি ভূগর্ভস্থ করিডোরের একটি জটিল গোলকধাঁধা দ্বারা বেষ্টিত ছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 627,
+      "word": "Gruesome",
+      "ipa": "/ˈɡruːsəm/",
+      "pos": "adj",
+      "meaning": "ভয়ানক, লোমহর্ষক, বীভৎস",
+      "synonyms": [
+        "horrific",
+        "grisly",
+        "ghastly",
+        "dreadful"
+      ],
+      "antonyms": [
+        "pleasant",
+        "delightful",
+        "attractive",
+        "soothing"
+      ],
+      "raw_synonyms": "horrific, grisly, ghastly, dreadful",
+      "raw_antonyms": "pleasant, delightful, attractive, soothing",
+      "sentence": "The detective uncovered gruesome details about the crime that shocked the whole community.",
+      "sentence_meaning": "গোয়েন্দা অপরাধের এমন কিছু লোমহর্ষক তথ্য উদঘাটন করেছিলেন যা পুরো সম্প্রদায়কে স্তম্ভিত করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 628,
+      "word": "Escape",
+      "ipa": "/ɪˈskeɪp/",
+      "pos": "v",
+      "meaning": "পালানো, রেহাই পাওয়া, মুক্তি পাওয়া",
+      "synonyms": [
+        "flee",
+        "evade",
+        "elude",
+        "break out"
+      ],
+      "antonyms": [
+        "remain",
+        "surrender",
+        "endure",
+        "stay"
+      ],
+      "raw_synonyms": "flee, evade, elude, break out",
+      "raw_antonyms": "remain, surrender, endure, stay",
+      "sentence": "The brave prisoners devised a cunning strategy to escape from the heavily guarded fort.",
+      "sentence_meaning": "সাহসী বন্দীরা কড়া পাহারাযুক্ত দুর্গ থেকে পালানোর জন্য একটি চতুর কৌশল তৈরি করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 629,
+      "word": "Moderate",
+      "ipa": "/ˈmɑːdərət/",
+      "pos": "adj",
+      "meaning": "মাঝারি, পরিমিত, সংযত",
+      "synonyms": [
+        "temperate",
+        "reasonable",
+        "modest",
+        "mild"
+      ],
+      "antonyms": [
+        "extreme",
+        "excessive",
+        "radical",
+        "immoderate"
+      ],
+      "raw_synonyms": "temperate, reasonable, modest, mild",
+      "raw_antonyms": "extreme, excessive, radical, immoderate",
+      "sentence": "Maintaining moderate exercise and a balanced diet is key to long-term health.",
+      "sentence_meaning": "পরিমিত ব্যায়াম এবং সুষম খাদ্য বজায় রাখা দীর্ঘমেয়াদী সুস্বাস্থ্যের চাবিকাঠি।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 630,
+      "word": "Moisture",
+      "ipa": "/ˈmɔɪstʃər/",
+      "pos": "n",
+      "meaning": "আর্দ্রতা, জলীয় বাষ্প",
+      "synonyms": [
+        "humidity",
+        "dampness",
+        "wetness",
+        "condensation"
+      ],
+      "antonyms": [
+        "dryness",
+        "aridness",
+        "dehydration",
+        "parchedness"
+      ],
+      "raw_synonyms": "humidity, dampness, wetness, condensation",
+      "raw_antonyms": "dryness, aridness, dehydration, parchedness",
+      "sentence": "The rich soil retained enough moisture for the crops to thrive during the summer.",
+      "sentence_meaning": "গ্রীষ্মকালে ফসল ভালোভাবে বেড়ে ওঠার জন্য উর্বর মাটি পর্যাপ্ত আর্দ্রতা ধরে রেখেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "level_id": 44,
+  "title": "Level 44: Appropriate Preposition",
+  "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1",
+  "category": "Appropriate Preposition",
+  "items": [
+    {
+      "id": 216,
+      "word": "Connection with",
+      "ipa": "/kəˈnekʃn wɪð/",
+      "pos": "prep",
+      "meaning": "কোনো কিছুর সাথে সম্পর্ক বা সংযোগ",
+      "synonyms": [
+        "relation to",
+        "association with",
+        "tie with",
+        "link with"
+      ],
+      "antonyms": [
+        "disconnection from",
+        "detachment from",
+        "isolation from"
+      ],
+      "raw_synonyms": "relation to, association with, tie with, link with",
+      "raw_antonyms": "disconnection from, detachment from, isolation from",
+      "sentence": "Police interrogated the suspect regarding his alleged connection with the international smuggling ring.",
+      "sentence_meaning": "আন্তর্জাতিক চোরাচালান চক্রের সাথে কথিত সংযোগের বিষয়ে পুলিশ সন্দেহভাজন ব্যক্তিকে জিজ্ঞাসাবাদ করে।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1"
+    },
+    {
+      "id": 217,
+      "word": "Content with",
+      "ipa": "/kənˈtent wɪð/",
+      "pos": "prep",
+      "meaning": "কোনো কিছুতেই সন্তুষ্ট বা তৃপ্ত",
+      "synonyms": [
+        "satisfied with",
+        "pleased with",
+        "gratified with",
+        "happy with"
+      ],
+      "antonyms": [
+        "discontented with",
+        "dissatisfied with",
+        "unhappy with"
+      ],
+      "raw_synonyms": "satisfied with, pleased with, gratified with, happy with",
+      "raw_antonyms": "discontented with, dissatisfied with, unhappy with",
+      "sentence": "He led a peaceful life in the countryside, content with modest means and good health.",
+      "sentence_meaning": "তিনি সাধারণ জীবনোপায় ও সুস্বাস্থ্য নিয়ে সন্তুষ্ট থেকে গ্রামে একটি শান্তিময় জীবন যাপন করতেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1"
+    },
+    {
+      "id": 218,
+      "word": "Cope with",
+      "ipa": "/koʊp wɪð/",
+      "pos": "prep",
+      "meaning": "কঠিন পরিস্থিতির মোকাবিলা করা বা সামলে ওঠা",
+      "synonyms": [
+        "manage",
+        "handle",
+        "deal with",
+        "contend with"
+      ],
+      "antonyms": [
+        "surrender to",
+        "succumb to",
+        "fail under",
+        "collapse under"
+      ],
+      "raw_synonyms": "manage, handle, deal with, contend with",
+      "raw_antonyms": "surrender to, succumb to, fail under, collapse under",
+      "sentence": "Counselors helped traumatized disaster victims cope with severe emotional distress.",
+      "sentence_meaning": "কাউন্সেলররা মানসিকভাবে বিপর্যস্ত দুর্যোগের শিকার ব্যক্তিদের তীব্র মানসিক কষ্ট কাটিয়ে উঠতে সাহায্য করেছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1"
+    },
+    {
+      "id": 219,
+      "word": "Deal with",
+      "ipa": "/diːl wɪð/",
+      "pos": "prep",
+      "meaning": "মোকাবিলা করা বা মীমাংসা করা",
+      "synonyms": [
+        "handle",
+        "address",
+        "tackle",
+        "manage"
+      ],
+      "antonyms": [
+        "neglect",
+        "avoid",
+        "shirk",
+        "ignore"
+      ],
+      "raw_synonyms": "handle, address, tackle, manage",
+      "raw_antonyms": "neglect, avoid, shirk, ignore",
+      "sentence": "Experienced managers know how to deal with customer grievances calmly and effectively.",
+      "sentence_meaning": "অভিজ্ঞ পরিচালকরা জানেন কীভাবে গ্রাহকদের অভিযোগ শান্তভাবে এবং কার্যকরভাবে সমাধান করতে হয়।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1"
+    },
+    {
+      "id": 220,
+      "word": "Delighted with",
+      "ipa": "/dɪˈlaɪtɪd wɪð/",
+      "pos": "prep",
+      "meaning": "কোনো কিছুতে অত্যন্ত আনন্দিত",
+      "synonyms": [
+        "thrilled with",
+        "overjoyed at",
+        "ecstatic about",
+        "pleased with"
+      ],
+      "antonyms": [
+        "disappointed with",
+        "dismayed by",
+        "displeased with"
+      ],
+      "raw_synonyms": "thrilled with, overjoyed at, ecstatic about, pleased with",
+      "raw_antonyms": "disappointed with, dismayed by, displeased with",
+      "sentence": "The author was delighted with the overwhelmingly positive critical reviews of her new book.",
+      "sentence_meaning": "লেখক তাঁর নতুন বইয়ের ব্যাপক ইতিবাচক সমালোচনামূলক পর্যালোচনা পেয়ে অত্যন্ত আনন্দিত হয়েছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1"
+    }
+  ]
+}

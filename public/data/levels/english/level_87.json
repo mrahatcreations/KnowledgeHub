@@ -1,0 +1,133 @@
+{
+  "level_id": 87,
+  "title": "Level 87: Vocabulary",
+  "unit": "Memorizing Part",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 431,
+      "word": "Alien",
+      "ipa": "/ˈeɪliən/",
+      "pos": "adj",
+      "meaning": "বিদেশি, বহিরাগত, অপরিচিত",
+      "synonyms": [
+        "foreign",
+        "unfamiliar",
+        "exotic",
+        "strange"
+      ],
+      "antonyms": [
+        "native",
+        "indigenous",
+        "familiar",
+        "local"
+      ],
+      "raw_synonyms": "foreign, unfamiliar, exotic, strange",
+      "raw_antonyms": "native, indigenous, familiar, local",
+      "sentence": "The authoritarian corporate culture was completely alien to what the young engineer was accustomed to.",
+      "sentence_meaning": "স্বৈরাচারী করপোরেট সংস্কৃতি তরুণ প্রকৌশলীর অভ্যস্ত পরিবেশের কাছে সম্পূর্ণ অপরিচিত ও ভিন্ন ছিল।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 432,
+      "word": "Altruism",
+      "ipa": "/ˈæltruɪzəm/",
+      "pos": "n",
+      "meaning": "পরোপকারিতা, নিঃস্বার্থ পরহিতৈষণা",
+      "synonyms": [
+        "selflessness",
+        "benevolence",
+        "philanthropy",
+        "generosity"
+      ],
+      "antonyms": [
+        "selfishness",
+        "egoism",
+        "greed",
+        "self-centeredness"
+      ],
+      "raw_synonyms": "selflessness, benevolence, philanthropy, generosity",
+      "raw_antonyms": "selfishness, egoism, greed, self-centeredness",
+      "sentence": "Motivated by pure altruism, the doctor spent decades providing free medical treatment in rural communities.",
+      "sentence_meaning": "বিশুদ্ধ পরোপকারিতায় উদ্বুদ্ধ হয়ে চিকিৎসক গ্রামীণ জনগোষ্ঠীর মধ্যে বিনামূল্যে চিকিৎসা প্রদান করে কয়েক দশক কাটিয়ে দেন।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 433,
+      "word": "Amicable",
+      "ipa": "/ˈæmɪkəbl/",
+      "pos": "adj",
+      "meaning": "সৌহার্দ্যপূর্ণ, বন্ধুত্বপূর্ণ, শান্তিপূর্ণ",
+      "synonyms": [
+        "friendly",
+        "cordial",
+        "harmonious",
+        "peaceable"
+      ],
+      "antonyms": [
+        "hostile",
+        "antagonistic",
+        "contentious",
+        "unfriendly"
+      ],
+      "raw_synonyms": "friendly, cordial, harmonious, peaceable",
+      "raw_antonyms": "hostile, antagonistic, contentious, unfriendly",
+      "sentence": "Both business partners reached an amicable settlement to divide their company assets without going to court.",
+      "sentence_meaning": "উভয় ব্যবসায়িক অংশীদার আদালতে না গিয়েই তাদের কোম্পানির সম্পদ ভাগাভাগি করার একটি সৌহার্দ্যপূর্ণ চুক্তিতে পৌঁছান।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 434,
+      "word": "Amiable",
+      "ipa": "/ˈeɪmiəbl/",
+      "pos": "adj",
+      "meaning": "অমায়িক, সদালাপী, প্রীতিপূর্ণ",
+      "synonyms": [
+        "good-natured",
+        "affable",
+        "pleasant",
+        "genial"
+      ],
+      "antonyms": [
+        "disagreeable",
+        "surly",
+        "ill-tempered",
+        "unfriendly"
+      ],
+      "raw_synonyms": "good-natured, affable, pleasant, genial",
+      "raw_antonyms": "disagreeable, surly, ill-tempered, unfriendly",
+      "sentence": "Her amiable personality and warm laughter made everyone feel instantly at ease.",
+      "sentence_meaning": "তাঁর অমায়িক ব্যক্তিত্ব এবং উষ্ণ হাসি মুহূর্তেই সবাইকে স্বাচ্ছন্দ্য বোধ করিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 435,
+      "word": "Amnesty",
+      "ipa": "/ˈæmnəsti/",
+      "pos": "n",
+      "meaning": "সাধারণ ক্ষমা, রাজক্ষমা",
+      "synonyms": [
+        "pardon",
+        "clemency",
+        "forgiveness",
+        "absolution"
+      ],
+      "antonyms": [
+        "punishment",
+        "penalty",
+        "retribution",
+        "imprisonment"
+      ],
+      "raw_synonyms": "pardon, clemency, forgiveness, absolution",
+      "raw_antonyms": "punishment, penalty, retribution, imprisonment",
+      "sentence": "The newly formed government declared a general amnesty for all political prisoners after the democratic transition.",
+      "sentence_meaning": "গণতান্ত্রিক পরিবর্তনের পর নবগঠিত সরকার সকল রাজনৈতিক বন্দীর জন্য সাধারণ ক্ষমা ঘোষণা করে।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    }
+  ]
+}

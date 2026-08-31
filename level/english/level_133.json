@@ -1,0 +1,133 @@
+{
+  "level_id": 133,
+  "title": "Level 133: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 661,
+      "word": "Exquisite",
+      "ipa": "/ɪkˈskwɪzɪt/",
+      "pos": "adj",
+      "meaning": "চমৎকার, সূক্ষ্ম ও নিখুঁতভাবে সুন্দর",
+      "synonyms": [
+        "magnificent",
+        "flawless",
+        "delicate",
+        "impeccable"
+      ],
+      "antonyms": [
+        "crude",
+        "flawed",
+        "ugly",
+        "inferior"
+      ],
+      "raw_synonyms": "magnificent, flawless, delicate, impeccable",
+      "raw_antonyms": "crude, flawed, ugly, inferior",
+      "sentence": "The museum displayed an exquisite collection of handcrafted silk tapestries from the seventeenth century.",
+      "sentence_meaning": "জাদুঘরটিতে সপ্তদশ শতাব্দীর হাতে বোনা রেশমি কাপড়ের একটি চমৎকার ও সূক্ষ্ম সংগ্রহ প্রদর্শিত হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 662,
+      "word": "Alacrity",
+      "ipa": "/əˈlækrəti/",
+      "pos": "n",
+      "meaning": "তৎপরতা, সানন্দ ক্ষিপ্রতা, আগ্রহপূর্ণ উদ্যম",
+      "synonyms": [
+        "eagerness",
+        "briskness",
+        "readiness",
+        "willingness"
+      ],
+      "antonyms": [
+        "reluctance",
+        "sluggishness",
+        "apathy",
+        "hesitation"
+      ],
+      "raw_synonyms": "eagerness, briskness, readiness, willingness",
+      "raw_antonyms": "reluctance, sluggishness, apathy, hesitation",
+      "sentence": "She accepted the challenging project with alacrity and completed it well ahead of schedule.",
+      "sentence_meaning": "তিনি সানন্দ তৎপরতার সাথে চ্যালেঞ্জিং প্রকল্পটি গ্রহণ করেছিলেন এবং নির্ধারিত সময়ের অনেক আগেই তা সম্পন্ন করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 663,
+      "word": "Auspicious",
+      "ipa": "/ɔːˈspɪʃəs/",
+      "pos": "adj",
+      "meaning": "শুভ, মঙ্গলজনক, অনুকূল",
+      "synonyms": [
+        "favorable",
+        "propitious",
+        "promising",
+        "fortunate"
+      ],
+      "antonyms": [
+        "inauspicious",
+        "ominous",
+        "unfavorable",
+        "ill-fated"
+      ],
+      "raw_synonyms": "favorable, propitious, promising, fortunate",
+      "raw_antonyms": "inauspicious, ominous, unfavorable, ill-fated",
+      "sentence": "Winning the first match provided an auspicious start to the national team's championship campaign.",
+      "sentence_meaning": "প্রথম ম্যাচ জয় জাতীয় দলের চ্যাম্পিয়নশিপ অভিযানের জন্য একটি অত্যন্ত শুভ সূচনা এনে দিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 664,
+      "word": "Alleviate",
+      "ipa": "/əˈliːvieɪt/",
+      "pos": "v",
+      "meaning": "উপশম করা, লাঘব করা, হ্রাস করা",
+      "synonyms": [
+        "relieve",
+        "ease",
+        "mitigate",
+        "assuage"
+      ],
+      "antonyms": [
+        "aggravate",
+        "worsen",
+        "exacerbate",
+        "intensify"
+      ],
+      "raw_synonyms": "relieve, ease, mitigate, assuage",
+      "raw_antonyms": "aggravate, worsen, exacerbate, intensify",
+      "sentence": "The humanitarian organization dispatched food and medical supplies to alleviate the suffering of refugees.",
+      "sentence_meaning": "মানবাধিকার সংস্থাটি উদ্বাস্তুদের কষ্ট লাঘব করার জন্য খাদ্য ও চিকিৎসা সামগ্রী পাঠিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 665,
+      "word": "Amalgamate",
+      "ipa": "/əˈmælɡəmeɪt/",
+      "pos": "v",
+      "meaning": "একীভূত করা, সংমিশ্রিত করা, সংযুক্ত করা",
+      "synonyms": [
+        "merge",
+        "combine",
+        "unite",
+        "consolidate"
+      ],
+      "antonyms": [
+        "separate",
+        "divide",
+        "fragment",
+        "disintegrate"
+      ],
+      "raw_synonyms": "merge, combine, unite, consolidate",
+      "raw_antonyms": "separate, divide, fragment, disintegrate",
+      "sentence": "The two regional banks agreed to amalgamate into a single nationwide financial institution.",
+      "sentence_meaning": "আঞ্চলিক ব্যাংক দুটি একত্রিত হয়ে একটি একক দেশব্যাপী আর্থিক প্রতিষ্ঠানে পরিণত হতে সম্মত হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

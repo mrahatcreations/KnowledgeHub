@@ -1,0 +1,133 @@
+{
+  "level_id": 85,
+  "title": "Level 85: Vocabulary",
+  "unit": "Vocabulary Table",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 421,
+      "word": "Polite",
+      "ipa": "/pəˈlaɪt/",
+      "pos": "adj",
+      "meaning": "ভদ্র, মার্জিত, শিষ্ট",
+      "synonyms": [
+        "courteous",
+        "respectful",
+        "civil",
+        "well-mannered"
+      ],
+      "antonyms": [
+        "rude",
+        "impolite",
+        "discourteous",
+        "insolent"
+      ],
+      "raw_synonyms": "courteous, respectful, civil, well-mannered",
+      "raw_antonyms": "rude, impolite, discourteous, insolent",
+      "sentence": "The receptionist greeted every visitor with a warm smile and polite manners.",
+      "sentence_meaning": "অভ্যর্থনাকারী উষ্ণ হাসি এবং ভদ্র আচরণের মাধ্যমে প্রতিটি দর্শনার্থীকে অভ্যর্থনা জানান।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 422,
+      "word": "Contraception",
+      "ipa": "/ˌkɑːntrəˈsepʃn/",
+      "pos": "n",
+      "meaning": "গর্ভনিরোধ, জন্মনিয়ন্ত্রণ ব্যবস্থা",
+      "synonyms": [
+        "birth control",
+        "contraceptive measure",
+        "family planning",
+        "prophylaxis"
+      ],
+      "antonyms": [
+        "conception",
+        "procreation",
+        "fertilization",
+        "propagation"
+      ],
+      "raw_synonyms": "birth control, contraceptive measure, family planning, prophylaxis",
+      "raw_antonyms": "conception, procreation, fertilization, propagation",
+      "sentence": "Access to safe contraception is recognized globally as a fundamental healthcare right.",
+      "sentence_meaning": "নিরাপদ গর্ভনিরোধ ব্যবস্থার সুযোগ বিশ্বব্যাপী একটি মৌলিক স্বাস্থ্যসেবা অধিকার হিসেবে স্বীকৃত।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 423,
+      "word": "Fertility",
+      "ipa": "/fərˈtɪləti/",
+      "pos": "n",
+      "meaning": "উর্বরতা, প্রজননক্ষমতা",
+      "synonyms": [
+        "fecundity",
+        "richness",
+        "fruitfulness",
+        "productiveness"
+      ],
+      "antonyms": [
+        "sterility",
+        "infertility",
+        "barrenness",
+        "unproductiveness"
+      ],
+      "raw_synonyms": "fecundity, richness, fruitfulness, productiveness",
+      "raw_antonyms": "sterility, infertility, barrenness, unproductiveness",
+      "sentence": "The river delta provides exceptional soil fertility, sustaining agricultural prosperity for centuries.",
+      "sentence_meaning": "নদীটির বদ্বীপ ব্যতিক্রমী মাটির উর্বরতা প্রদান করে, যা শতাব্দীর পর শতাব্দী ধরে কৃষি সমৃদ্ধি বজায় রেখেছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 424,
+      "word": "Exclusion",
+      "ipa": "/ɪkˈskluːʒn/",
+      "pos": "n",
+      "meaning": "বর্জন, বহিষ্কার, বাদ দেওয়া",
+      "synonyms": [
+        "elimination",
+        "expulsion",
+        "omission",
+        "banishment"
+      ],
+      "antonyms": [
+        "inclusion",
+        "incorporation",
+        "admission",
+        "acceptance"
+      ],
+      "raw_synonyms": "elimination, expulsion, omission, banishment",
+      "raw_antonyms": "inclusion, incorporation, admission, acceptance",
+      "sentence": "The organization fights against social exclusion and advocates for equal opportunity for all.",
+      "sentence_meaning": "সংস্থাটি সামাজিক বর্জনের বিরুদ্ধে লড়াই করে এবং সবার জন্য সমান সুযোগের পক্ষে প্রচার চালায়।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 425,
+      "word": "Complication",
+      "ipa": "/ˌkɑːmplɪˈkeɪʃn/",
+      "pos": "n",
+      "meaning": "জটিলতা, বিঘ্ন",
+      "synonyms": [
+        "difficulty",
+        "obstacle",
+        "impediment",
+        "snag"
+      ],
+      "antonyms": [
+        "simplicity",
+        "ease",
+        "clarity",
+        "solution"
+      ],
+      "raw_synonyms": "difficulty, obstacle, impediment, snag",
+      "raw_antonyms": "simplicity, ease, clarity, solution",
+      "sentence": "The surgeons operated cautiously to avoid any potential post-operative complication.",
+      "sentence_meaning": "অস্ত্রোপচার পরবর্তী যেকোনো সম্ভাব্য জটিলতা এড়াতে সার্জনরা অত্যন্ত সতর্কতার সাথে অস্ত্রোপচার সম্পন্ন করেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    }
+  ]
+}

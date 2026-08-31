@@ -1,0 +1,132 @@
+{
+  "level_id": 51,
+  "title": "Level 51: Vocabulary",
+  "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 251,
+      "word": "Profound",
+      "ipa": "/prəˈfaʊnd/",
+      "pos": "adj",
+      "meaning": "গভীর, সুদূরপ্রসারী ও তাৎপর্যপূর্ণ",
+      "synonyms": [
+        "deep",
+        "insightful",
+        "intense",
+        "far-reaching"
+      ],
+      "antonyms": [
+        "superficial",
+        "shallow",
+        "trivial",
+        "slight"
+      ],
+      "raw_synonyms": "deep, insightful, intense, far-reaching",
+      "raw_antonyms": "superficial, shallow, trivial, slight",
+      "sentence": "The philosophical lecture made a profound impact on the students' intellectual outlook.",
+      "sentence_meaning": "দার্শনিক বক্তৃতাটি শিক্ষার্থীদের বুদ্ধিবৃত্তিক দৃষ্টিভঙ্গির ওপর এক গভীর প্রভাব ফেলেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 252,
+      "word": "Trend",
+      "ipa": "/trend/",
+      "pos": "n",
+      "meaning": "প্রবণতা, ধারা বা গতিপ্রকৃতি",
+      "synonyms": [
+        "tendency",
+        "pattern",
+        "movement",
+        "vogue"
+      ],
+      "antonyms": [
+        "stagnation",
+        "aberration",
+        "irregularity",
+        "anomaly"
+      ],
+      "raw_synonyms": "tendency, pattern, movement, vogue",
+      "raw_antonyms": "stagnation, aberration, irregularity, anomaly",
+      "sentence": "There is a noticeable global trend towards renewable energy and sustainable consumption.",
+      "sentence_meaning": "নবায়নযোগ্য জ্বালানি এবং টেকসই ব্যবহারের দিকে একটি লক্ষণীয় বৈশ্বিক প্রবণতা রয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 253,
+      "word": "Expressionism",
+      "ipa": "/ɪkˈspreʃənɪzəm/",
+      "pos": "n",
+      "meaning": "অভিব্যক্তিবাদ (শিল্পকলা ও সাহিত্যের এক বিশিষ্ট ধারা)",
+      "synonyms": [
+        "modernist movement",
+        "symbolic art",
+        "emotive realism",
+        "subjective style"
+      ],
+      "antonyms": [
+        "naturalism",
+        "photorealism",
+        "strict classicism"
+      ],
+      "raw_synonyms": "modernist movement, symbolic art, emotive realism, subjective style",
+      "raw_antonyms": "naturalism, photorealism, strict classicism",
+      "sentence": "German expressionism in early twentieth-century painting emphasized raw emotional reality over realistic accuracy.",
+      "sentence_meaning": "বিংশ শতাব্দীর শুরুর দিকের চিত্রশিল্পে জার্মান অভিব্যক্তিবাদ বাস্তবসম্মত নিখুঁততার চেয়ে তীব্র আবেগীয় বাস্তবতাকে বেশি গুরুত্ব দিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 254,
+      "word": "Haunting",
+      "ipa": "/ˈhɔːntɪŋ/",
+      "pos": "adj",
+      "meaning": "ভুলতে না পারা, মনে দাগ কাটার মতো মর্মস্পর্শী",
+      "synonyms": [
+        "evocative",
+        "unforgettable",
+        "poignant",
+        "memorable"
+      ],
+      "antonyms": [
+        "forgettable",
+        "uninspiring",
+        "bland",
+        "fleeting"
+      ],
+      "raw_synonyms": "evocative, unforgettable, poignant, memorable",
+      "raw_antonyms": "forgettable, uninspiring, bland, fleeting",
+      "sentence": "The vocalist sang a haunting melody that resonated deeply in the hearts of the listeners.",
+      "sentence_meaning": "কণ্ঠশিল্পী এমন একটি অবিস্মরণীয় সুর গেয়েছিলেন যা শ্রোতাদের হৃদয়ে গভীরভাবে আলোড়ন সৃষ্টি করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 255,
+      "word": "Prominent",
+      "ipa": "/ˈprɑːmɪnənt/",
+      "pos": "adj",
+      "meaning": "বিশিষ্ট, খ্যাতিমান ও চোখে পড়ার মতো",
+      "synonyms": [
+        "distinguished",
+        "conspicuous",
+        "renowned",
+        "notable"
+      ],
+      "antonyms": [
+        "obscure",
+        "inconspicuous",
+        "unknown",
+        "insignificant"
+      ],
+      "raw_synonyms": "distinguished, conspicuous, renowned, notable",
+      "raw_antonyms": "obscure, inconspicuous, unknown, insignificant",
+      "sentence": "Several prominent scientists attended the international symposium on artificial intelligence.",
+      "sentence_meaning": "কৃত্রিম বুদ্ধিমত্তা বিষয়ক আন্তর্জাতিক সম্মেলনে বেশ কয়েকজন বিশিষ্ট বিজ্ঞানী উপস্থিত ছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    }
+  ]
+}

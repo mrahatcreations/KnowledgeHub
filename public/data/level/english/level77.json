@@ -1,0 +1,133 @@
+{
+  "level_id": 77,
+  "title": "Level 77: Vocabulary",
+  "unit": "Vocabulary Table",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 381,
+      "word": "Hardship",
+      "ipa": "/ˈhɑːrdʃɪp/",
+      "pos": "n",
+      "meaning": "কষ্ট, দুর্দশা, প্রতিকূলতা",
+      "synonyms": [
+        "adversity",
+        "privation",
+        "difficulty",
+        "suffering"
+      ],
+      "antonyms": [
+        "comfort",
+        "prosperity",
+        "ease",
+        "luxury"
+      ],
+      "raw_synonyms": "adversity, privation, difficulty, suffering",
+      "raw_antonyms": "comfort, prosperity, ease, luxury",
+      "sentence": "Despite enduring severe economic hardship during their youth, the brothers successfully established a thriving business.",
+      "sentence_meaning": "যৌবনে তীব্র অর্থনৈতিক কষ্টের মুখোমুখি হওয়া সত্ত্বেও ভাইয়েরা সফলভাবে একটি সমৃদ্ধ ব্যবসা গড়ে তুলেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 382,
+      "word": "Mobility",
+      "ipa": "/moʊˈbɪləti/",
+      "pos": "n",
+      "meaning": "চলাচলের ক্ষমতা, গতিশীলতা",
+      "synonyms": [
+        "movement",
+        "flexibility",
+        "portability",
+        "agility"
+      ],
+      "antonyms": [
+        "immobility",
+        "stagnation",
+        "paralysis",
+        "rigidity"
+      ],
+      "raw_synonyms": "movement, flexibility, portability, agility",
+      "raw_antonyms": "immobility, stagnation, paralysis, rigidity",
+      "sentence": "Physical therapy exercises gradually helped the injured athlete regain full mobility in his knee.",
+      "sentence_meaning": "ফিজিওথেরাপির অনুশীলন আহত ক্রীড়াবিদকে ধীরে ধীরে তাঁর হাঁটুতে পূর্ণ গতিশীলতা ফিরে পেতে সহায়তা করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 383,
+      "word": "Obstructed",
+      "ipa": "/əbˈstrʌktɪd/",
+      "pos": "adj",
+      "meaning": "বাধাগ্রস্ত, অবরুদ্ধ",
+      "synonyms": [
+        "blocked",
+        "impeded",
+        "hindered",
+        "hampered"
+      ],
+      "antonyms": [
+        "unobstructed",
+        "clear",
+        "open",
+        "free"
+      ],
+      "raw_synonyms": "blocked, impeded, hindered, hampered",
+      "raw_antonyms": "unobstructed, clear, open, free",
+      "sentence": "Traffic on the highway was severely obstructed by a fallen tree after the violent storm.",
+      "sentence_meaning": "প্রচণ্ড ঝড়ের পর মহাসড়কে একটি গাছ ভেঙে পড়ে যান চলাচল মারাত্মকভাবে বাধাগ্রস্ত হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 384,
+      "word": "Regime",
+      "ipa": "/reɪˈʒiːm/",
+      "pos": "n",
+      "meaning": "শাসনব্যবস্থা, পরিচালনা পদ্ধতি",
+      "synonyms": [
+        "government",
+        "administration",
+        "rule",
+        "system"
+      ],
+      "antonyms": [
+        "anarchy",
+        "chaos",
+        "disorder",
+        "lawlessness"
+      ],
+      "raw_synonyms": "government, administration, rule, system",
+      "raw_antonyms": "anarchy, chaos, disorder, lawlessness",
+      "sentence": "The authoritarian regime imposed strict censorship on independent newspapers and social media.",
+      "sentence_meaning": "স্বৈরাচারী শাসনব্যবস্থা স্বাধীন সংবাদপত্র ও সামাজিক যোগাযোগের মাধ্যমের ওপর কঠোর সেন্সরশিপ আরোপ করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 385,
+      "word": "Competency",
+      "ipa": "/ˈkɑːmpɪtənsi/",
+      "pos": "n",
+      "meaning": "দক্ষতা, যোগ্যতা, পারদর্শিতা",
+      "synonyms": [
+        "proficiency",
+        "capability",
+        "expertise",
+        "competence"
+      ],
+      "antonyms": [
+        "incompetence",
+        "ineptitude",
+        "incapacity",
+        "inability"
+      ],
+      "raw_synonyms": "proficiency, capability, expertise, competence",
+      "raw_antonyms": "incompetence, ineptitude, incapacity, inability",
+      "sentence": "The recruitment assessment evaluates both technical competency and communication skills of job applicants.",
+      "sentence_meaning": "নিয়োগ মূল্যায়নটি চাকরিপ্রার্থীদের প্রযুক্তিগত দক্ষতা এবং যোগাযোগ দক্ষতা উভয়ই যাচাই করে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    }
+  ]
+}

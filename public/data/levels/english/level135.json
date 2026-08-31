@@ -1,0 +1,133 @@
+{
+  "level_id": 135,
+  "title": "Level 135: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 671,
+      "word": "Assail",
+      "ipa": "/əˈseɪl/",
+      "pos": "v",
+      "meaning": "আক্রমণ করা, তীব্র সমালোচনা করা, ব্যতিব্যস্ত করা",
+      "synonyms": [
+        "attack",
+        "assault",
+        "criticize",
+        "berate"
+      ],
+      "antonyms": [
+        "defend",
+        "protect",
+        "praise",
+        "support"
+      ],
+      "raw_synonyms": "attack, assault, criticize, berate",
+      "raw_antonyms": "defend, protect, praise, support",
+      "sentence": "The opposition lawmakers relentlessly assailed the government's fiscal policy during the parliamentary debate.",
+      "sentence_meaning": "সংসদীয় বিতর্কের সময় বিরোধী দলীয় আইনপ্রণেতারা সরকারের রাজস্ব নীতির তীব্র সমালোচনা করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 672,
+      "word": "Brittle",
+      "ipa": "/ˈbrɪtəl/",
+      "pos": "adj",
+      "meaning": "ভঙ্গুর, সহজে ভেঙে যায় এমন",
+      "synonyms": [
+        "fragile",
+        "delicate",
+        "breakable",
+        "frail"
+      ],
+      "antonyms": [
+        "flexible",
+        "resilient",
+        "sturdy",
+        "durable"
+      ],
+      "raw_synonyms": "fragile, delicate, breakable, frail",
+      "raw_antonyms": "flexible, resilient, sturdy, durable",
+      "sentence": "Old parchment becomes dry and brittle over centuries, requiring delicate preservation techniques.",
+      "sentence_meaning": "শতাব্দীর পর শতাব্দী ধরে পুরনো পার্চমেন্ট কাগজ শুষ্ক ও ভঙ্গুর হয়ে পড়ে, যার জন্য সূক্ষ্ম সংরক্ষণ পদ্ধতির প্রয়োজন হয়।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 673,
+      "word": "Barren",
+      "ipa": "/ˈbærən/",
+      "pos": "adj",
+      "meaning": "অনুর্বর, ফলহীন, বন্ধ্যা",
+      "synonyms": [
+        "infertile",
+        "arid",
+        "unproductive",
+        "desolate"
+      ],
+      "antonyms": [
+        "fertile",
+        "productive",
+        "lush",
+        "fruitful"
+      ],
+      "raw_synonyms": "infertile, arid, unproductive, desolate",
+      "raw_antonyms": "fertile, productive, lush, fruitful",
+      "sentence": "The severe drought transformed once-thriving agricultural fields into a barren and dusty wasteland.",
+      "sentence_meaning": "ভয়াবহ খরা একসময়কার সমৃদ্ধ কৃষিজমিকে একটি অনুর্বর ও ধূলিময় প্রান্তরে পরিণত করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 674,
+      "word": "Brutal",
+      "ipa": "/ˈbruːtəl/",
+      "pos": "adj",
+      "meaning": "নির্মম, নিষ্ঠুর, পৈশাচিক",
+      "synonyms": [
+        "cruel",
+        "savage",
+        "ruthless",
+        "harsh"
+      ],
+      "antonyms": [
+        "humane",
+        "gentle",
+        "compassionate",
+        "kind"
+      ],
+      "raw_synonyms": "cruel, savage, ruthless, harsh",
+      "raw_antonyms": "humane, gentle, compassionate, kind",
+      "sentence": "The civilian population suffered immense trauma under the military regime's brutal oppression.",
+      "sentence_meaning": "সামরিক জান্তার নির্মম নিপীড়নের অধীনে বেসামরিক জনগণ সীমাহীন ট্রমার শিকার হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 675,
+      "word": "Beneficent",
+      "ipa": "/bəˈnefɪsənt/",
+      "pos": "adj",
+      "meaning": "উপকারী, দয়ালু, কল্যাণকামী",
+      "synonyms": [
+        "benevolent",
+        "charitable",
+        "generous",
+        "altruistic"
+      ],
+      "antonyms": [
+        "malevolent",
+        "malicious",
+        "cruel",
+        "selfish"
+      ],
+      "raw_synonyms": "benevolent, charitable, generous, altruistic",
+      "raw_antonyms": "malevolent, malicious, cruel, selfish",
+      "sentence": "The beneficent philanthropist established numerous free healthcare clinics for underprivileged communities.",
+      "sentence_meaning": "দয়ালু সমাজহিতৈষী সুবিধাবঞ্চিত সম্প্রদায়ের জন্য অসংখ্য বিনামূল্যে স্বাস্থ্যসেবা ক্লিনিক স্থাপন করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "level_id": 96,
+  "title": "Level 96: Vocabulary",
+  "unit": "Vocabulary Table",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 476,
+      "word": "Contaminate",
+      "ipa": "/kənˈtæmɪneɪt/",
+      "pos": "v",
+      "meaning": "দূষিত করা, কলুষিত করা",
+      "synonyms": [
+        "pollute",
+        "taint",
+        "defile",
+        "corrupt"
+      ],
+      "antonyms": [
+        "purify",
+        "cleanse",
+        "decontaminate",
+        "sanitize"
+      ],
+      "raw_synonyms": "pollute, taint, defile, corrupt",
+      "raw_antonyms": "purify, cleanse, decontaminate, sanitize",
+      "sentence": "Improper disposal of chemical waste can contaminate drinking water supplies for entire communities.",
+      "sentence_meaning": "রাসায়নিক বর্জ্যের অনুচিত নিষ্কাশন সমগ্র জনপদের খাবার পানির সরবরাহকে দূষিত করতে পারে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 477,
+      "word": "Convict",
+      "ipa": "/kənˈvɪkt/",
+      "pos": "v",
+      "meaning": "দোষী সাব্যস্ত করা, অপরাধী বলে রায় দেওয়া",
+      "synonyms": [
+        "sentence",
+        "condemn",
+        "find guilty",
+        "penalize"
+      ],
+      "antonyms": [
+        "acquit",
+        "absolve",
+        "exonerate",
+        "discharge"
+      ],
+      "raw_synonyms": "sentence, condemn, find guilty, penalize",
+      "raw_antonyms": "acquit, absolve, exonerate, discharge",
+      "sentence": "The court found enough forensic evidence to convict the suspect of armed robbery.",
+      "sentence_meaning": "সশস্ত্র ডাকাতির দায়ে সন্দেহভাজনকে দোষী সাব্যস্ত করার জন্য আদালত পর্যাপ্ত ফরেনসিক প্রমাণ পেয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 478,
+      "word": "Counterfeit",
+      "ipa": "/ˈkaʊntərfɪt/",
+      "pos": "adj",
+      "meaning": "জাল, নকল, কৃত্রিম",
+      "synonyms": [
+        "fake",
+        "bogus",
+        "spurious",
+        "forged"
+      ],
+      "antonyms": [
+        "genuine",
+        "authentic",
+        "real",
+        "legitimate"
+      ],
+      "raw_synonyms": "fake, bogus, spurious, forged",
+      "raw_antonyms": "genuine, authentic, real, legitimate",
+      "sentence": "Customs officers seized a massive shipment of counterfeit designer luxury watches.",
+      "sentence_meaning": "শুল্ক কর্মকর্তারা জাল বা নকল বিলাসবহুল ব্র্যান্ডের ঘড়ির একটি বিশাল চালান আটক করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 479,
+      "word": "Cruel",
+      "ipa": "/ˈkruːəl/",
+      "pos": "adj",
+      "meaning": "নিষ্ঠুর, নির্দয়, পাষাণ",
+      "synonyms": [
+        "brutal",
+        "merciless",
+        "ruthless",
+        "callous"
+      ],
+      "antonyms": [
+        "kind",
+        "compassionate",
+        "humane",
+        "merciful"
+      ],
+      "raw_synonyms": "brutal, merciless, ruthless, callous",
+      "raw_antonyms": "kind, compassionate, humane, merciful",
+      "sentence": "It is cruel to treat captive animals with neglect and harsh punishment.",
+      "sentence_meaning": "বন্দী প্রাণীদের অবহেলা ও কঠোর শাস্তির সাথে রাখা অত্যন্ত নিষ্ঠুর।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 480,
+      "word": "Capricious",
+      "ipa": "/kəˈprɪʃəs/",
+      "pos": "adj",
+      "meaning": "খেয়ালি, খামখেয়ালী, ক্ষণে ক্ষণে পরিবর্তনশীল",
+      "synonyms": [
+        "fickle",
+        "whimsical",
+        "unpredictable",
+        "erratic"
+      ],
+      "antonyms": [
+        "consistent",
+        "stable",
+        "steady",
+        "predictable"
+      ],
+      "raw_synonyms": "fickle, whimsical, unpredictable, erratic",
+      "raw_antonyms": "consistent, stable, steady, predictable",
+      "sentence": "Investors grew weary of the capricious market trends that shifted wildly without warning.",
+      "sentence_meaning": "কোনো পূর্ব সতর্কবার্তা ছাড়াই মারাত্মকভাবে ওঠানামা করা খামখেয়ালী বাজারের গতিবিধিতে বিনিয়োগকারীরা ক্লান্ত হয়ে পড়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    }
+  ]
+}

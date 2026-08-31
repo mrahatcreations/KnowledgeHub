@@ -1,0 +1,133 @@
+{
+  "level_id": 163,
+  "title": "Level 163: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 811,
+      "word": "Demented",
+      "ipa": "/dɪˈmentɪd/",
+      "pos": "adj",
+      "meaning": "অপ্রকৃতিস্থ, উন্মাদ, বুদ্ধিভ্রষ্ট",
+      "synonyms": [
+        "insane",
+        "deranged",
+        "mad",
+        "lunatic"
+      ],
+      "antonyms": [
+        "sane",
+        "rational",
+        "lucid",
+        "sensible"
+      ],
+      "raw_synonyms": "insane, deranged, mad, lunatic",
+      "raw_antonyms": "sane, rational, lucid, sensible",
+      "sentence": "His erratic shouting and demented behavior alarmed the other passengers on the transit train.",
+      "sentence_meaning": "তার উদ্ভট চিৎকার ও উন্মাদ আচরণ ট্রেনের অন্যান্য যাত্রীদের আতঙ্কিত করে তুলেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 812,
+      "word": "Disparate",
+      "ipa": "/ˈdɪspərət/",
+      "pos": "adj",
+      "meaning": "অসদৃশ, সম্পূর্ণ ভিন্ন",
+      "synonyms": [
+        "dissimilar",
+        "diverse",
+        "distinct",
+        "incompatible"
+      ],
+      "antonyms": [
+        "similar",
+        "alike",
+        "homogeneous",
+        "identical"
+      ],
+      "raw_synonyms": "dissimilar, diverse, distinct, incompatible",
+      "raw_antonyms": "similar, alike, homogeneous, identical",
+      "sentence": "The coalition government struggled to reconcile the disparate economic ideologies of its member parties.",
+      "sentence_meaning": "জোট সরকার তার শরিক দলগুলোর সম্পূর্ণ ভিন্ন অর্থনৈতিক মতাদর্শের সমন্বয় করতে হিমশিম খেয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 813,
+      "word": "Dynamic",
+      "ipa": "/daɪˈnæmɪk/",
+      "pos": "adj",
+      "meaning": "গতিশীল, কর্মচঞ্চল",
+      "synonyms": [
+        "energetic",
+        "active",
+        "vibrant",
+        "forceful"
+      ],
+      "antonyms": [
+        "static",
+        "passive",
+        "inactive",
+        "lethargic"
+      ],
+      "raw_synonyms": "energetic, active, vibrant, forceful",
+      "raw_antonyms": "static, passive, inactive, lethargic",
+      "sentence": "The software industry requires dynamic professionals capable of rapidly adapting to emerging technologies.",
+      "sentence_meaning": "সফটওয়্যার শিল্পে এমন গতিশীল পেশাদার প্রয়োজন যারা নতুন প্রযুক্তির সাথে দ্রুত মানিয়ে নিতে সক্ষম।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 814,
+      "word": "Deliberate",
+      "ipa": "/dɪˈlɪbəreɪt/",
+      "pos": "v",
+      "meaning": "আলোচনা বা গভীরভাবে চিন্তা করা",
+      "synonyms": [
+        "ponder",
+        "contemplate",
+        "meditate",
+        "weigh"
+      ],
+      "antonyms": [
+        "rush",
+        "overlook",
+        "ignore",
+        "disregard"
+      ],
+      "raw_synonyms": "ponder, contemplate, meditate, weigh",
+      "raw_antonyms": "rush, overlook, ignore, disregard",
+      "sentence": "The jury took three full days to deliberate over the conflicting evidence before reaching a verdict.",
+      "sentence_meaning": "রায় পৌঁছানোর আগে পরস্পরবিরোধী প্রমাণগুলো গভীরভাবে বিবেচনা করতে জুরি সদস্যদের পুরো তিন দিন সময় লেগেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 815,
+      "word": "Deter",
+      "ipa": "/dɪˈtɜːr/",
+      "pos": "v",
+      "meaning": "নিবৃত্ত করা, বাধা দেওয়া, নিরুৎসাহিত করা",
+      "synonyms": [
+        "discourage",
+        "prevent",
+        "hinder",
+        "dissuade"
+      ],
+      "antonyms": [
+        "encourage",
+        "prompt",
+        "incite",
+        "promote"
+      ],
+      "raw_synonyms": "discourage, prevent, hinder, dissuade",
+      "raw_antonyms": "encourage, prompt, incite, promote",
+      "sentence": "Severe legal penalties are designed to deter individuals from engaging in corrupt financial schemes.",
+      "sentence_meaning": "কঠোর আইনগত শাস্তি প্রণয়ন করা হয়েছে যাতে মানুষ দুর্নীতিগ্রস্ত আর্থিক কর্মকাণ্ডে লিপ্ত হওয়া থেকে নিবৃত্ত থাকে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

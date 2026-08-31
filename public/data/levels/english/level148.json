@@ -1,0 +1,133 @@
+{
+  "level_id": 148,
+  "title": "Level 148: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 736,
+      "word": "Inevitable",
+      "ipa": "/ɪnˈevɪtəbl/",
+      "pos": "adj",
+      "meaning": "অনিবার্য, অবশ্যম্ভাবী, অবধারিত",
+      "synonyms": [
+        "unavoidable",
+        "inescapable",
+        "certain",
+        "inexorable"
+      ],
+      "antonyms": [
+        "avoidable",
+        "evitable",
+        "uncertain",
+        "preventable"
+      ],
+      "raw_synonyms": "unavoidable, inescapable, certain, inexorable",
+      "raw_antonyms": "avoidable, evitable, uncertain, preventable",
+      "sentence": "With rapid urban expansion, traffic congestion has become an inevitable challenge for major cities.",
+      "sentence_meaning": "দ্রুত নগরায়নের সাথে সাথে ট্রাফিক যানজট প্রধান শহরগুলোর জন্য এক অনিবার্য চ্যালেঞ্জ হয়ে দাঁড়িয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 737,
+      "word": "Ignite",
+      "ipa": "/ɪɡˈnaɪt/",
+      "pos": "v",
+      "meaning": "প্রজ্বলিত করা, জ্বালানো, উদ্দীপিত করা",
+      "synonyms": [
+        "kindle",
+        "inflame",
+        "trigger",
+        "spark"
+      ],
+      "antonyms": [
+        "extinguish",
+        "quench",
+        "douse",
+        "smother"
+      ],
+      "raw_synonyms": "kindle, inflame, trigger, spark",
+      "raw_antonyms": "extinguish, quench, douse, smother",
+      "sentence": "A stray electrical spark was enough to ignite the flammable fumes leaking from the refinery pipe.",
+      "sentence_meaning": "একটি বিচ্ছিন্ন বৈদ্যুতিক স্ফুলিঙ্গ শোধনাগারের পাইপ থেকে নির্গত দাহ্য গ্যাসে আগুন ধরিয়ে দেওয়ার জন্য যথেষ্ট ছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 738,
+      "word": "Intimidate",
+      "ipa": "/ɪnˈtɪmɪdeɪt/",
+      "pos": "v",
+      "meaning": "ভয় দেখানো, সন্ত্রস্ত করা, ভীতি প্রদর্শন করা",
+      "synonyms": [
+        "frighten",
+        "threaten",
+        "terrify",
+        "daunt"
+      ],
+      "antonyms": [
+        "encourage",
+        "reassure",
+        "comfort",
+        "embolden"
+      ],
+      "raw_synonyms": "frighten, threaten, terrify, daunt",
+      "raw_antonyms": "encourage, reassure, comfort, embolden",
+      "sentence": "The tyrant attempted to intimidate independent journalists by enacting draconian censorship laws.",
+      "sentence_meaning": "স্বৈরশাসক কঠোর সেন্সরশিপ আইন জারি করে স্বাধীন সাংবাদিকদের ভয় দেখানোর চেষ্টা করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 739,
+      "word": "Juvenile",
+      "ipa": "/ˈdʒuːvənaɪl/",
+      "pos": "adj",
+      "meaning": "কিশোর, অপ্রাপ্তবয়স্ক, অপরিণত",
+      "synonyms": [
+        "adolescent",
+        "youthful",
+        "immature",
+        "puerile"
+      ],
+      "antonyms": [
+        "adult",
+        "mature",
+        "elderly",
+        "senile"
+      ],
+      "raw_synonyms": "adolescent, youthful, immature, puerile",
+      "raw_antonyms": "adult, mature, elderly, senile",
+      "sentence": "The social welfare department established specialized rehabilitation programs to curb juvenile delinquency.",
+      "sentence_meaning": "সমাজকল্যাণ বিভাগ কিশোর অপরাধ দমনে বিশেষ পুনর্বাসন কর্মসূচি চালু করেছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 740,
+      "word": "Kindle",
+      "ipa": "/ˈkɪndl/",
+      "pos": "v",
+      "meaning": "প্রজ্বলিত করা, উদ্দীপিত করা, জাগিয়ে তোলা",
+      "synonyms": [
+        "ignite",
+        "stimulate",
+        "rouse",
+        "spark"
+      ],
+      "antonyms": [
+        "extinguish",
+        "suppress",
+        "douse",
+        "dampen"
+      ],
+      "raw_synonyms": "ignite, stimulate, rouse, spark",
+      "raw_antonyms": "extinguish, suppress, douse, dampen",
+      "sentence": "The professor's inspiring lecture kindled a deep passion for astrophysics in her students.",
+      "sentence_meaning": "অধ্যাপকের অনুপ্রেরণামূলক বক্তৃতা তাঁর শিক্ষার্থীদের মধ্যে জ্যোতিঃপদার্থবিজ্ঞানের প্রতি গভীর অনুরাগকে প্রজ্বলিত করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "level_id": 162,
+  "title": "Level 162: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 806,
+      "word": "Cowardly",
+      "ipa": "/ˈkaʊərdli/",
+      "pos": "adj",
+      "meaning": "কাপুরুষোচিত, ভীরু",
+      "synonyms": [
+        "craven",
+        "timid",
+        "pusillanimous",
+        "fainthearted"
+      ],
+      "antonyms": [
+        "brave",
+        "courageous",
+        "valiant",
+        "heroic"
+      ],
+      "raw_synonyms": "craven, timid, pusillanimous, fainthearted",
+      "raw_antonyms": "brave, courageous, valiant, heroic",
+      "sentence": "Attacking defenseless civilians is widely condemned as a cowardly and despicable act of violence.",
+      "sentence_meaning": "নিরীহ বেসামরিক নাগরিকদের ওপর আক্রমণ কাপুরুষোচিত ও ঘৃণ্য সহিংসতা হিসেবে ব্যাপকভাবে নিন্দিত।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 807,
+      "word": "Credible",
+      "ipa": "/ˈkredəbl/",
+      "pos": "adj",
+      "meaning": "বিশ্বাসযোগ্য, নির্ভরযোগ্য",
+      "synonyms": [
+        "believable",
+        "plausible",
+        "trustworthy",
+        "reliable"
+      ],
+      "antonyms": [
+        "incredible",
+        "unbelievable",
+        "dubious",
+        "implausible"
+      ],
+      "raw_synonyms": "believable, plausible, trustworthy, reliable",
+      "raw_antonyms": "incredible, unbelievable, dubious, implausible",
+      "sentence": "The investigative journalist backed her report with credible witness statements and verifiable documents.",
+      "sentence_meaning": "অনুসন্ধানী সাংবাদিক তার প্রতিবেদনটি বিশ্বাসযোগ্য প্রত্যক্ষদর্শীর বক্তব্য এবং যাচাইযোগ্য নথি দিয়ে সমর্থন করেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 808,
+      "word": "Credulous",
+      "ipa": "/ˈkredʒələs/",
+      "pos": "adj",
+      "meaning": "অতিবিশ্বাসপ্রবণ, সহজে ধোঁকা খায় এমন",
+      "synonyms": [
+        "gullible",
+        "naive",
+        "unsuspecting",
+        "impressionable"
+      ],
+      "antonyms": [
+        "skeptical",
+        "cynical",
+        "suspicious",
+        "astute"
+      ],
+      "raw_synonyms": "gullible, naive, unsuspecting, impressionable",
+      "raw_antonyms": "skeptical, cynical, suspicious, astute",
+      "sentence": "The cunning scammer preyed upon credulous senior citizens by promising guaranteed lottery jackpots.",
+      "sentence_meaning": "ধূর্ত প্রতারক নিশ্চিত লটারি জ্যাকপটের লোভ দেখিয়ে সহজসরল ও অতিবিশ্বাসপ্রবণ প্রবীণদের ঠকিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 809,
+      "word": "Curious",
+      "ipa": "/ˈkjʊriəs/",
+      "pos": "adj",
+      "meaning": "কৌতূহলী, উৎসুক, অদ্ভুত",
+      "synonyms": [
+        "inquisitive",
+        "prying",
+        "intrigued",
+        "inquiring"
+      ],
+      "antonyms": [
+        "indifferent",
+        "uninterested",
+        "apathetic",
+        "unconcerned"
+      ],
+      "raw_synonyms": "inquisitive, prying, intrigued, inquiring",
+      "raw_antonyms": "indifferent, uninterested, apathetic, unconcerned",
+      "sentence": "The curious toddler constantly asked questions about why stars shine and where the wind blows.",
+      "sentence_meaning": "কৌতূহলী শিশুটি ক্রমাগত প্রশ্ন করছিল কেন তারাগুলো জ্বলে এবং বাতাস কোথা থেকে আসে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 810,
+      "word": "Disgusting",
+      "ipa": "/dɪsˈɡʌstɪŋ/",
+      "pos": "adj",
+      "meaning": "বিরক্তিকর, জঘন্য, ঘৃণ্য",
+      "synonyms": [
+        "revolting",
+        "repulsive",
+        "loathsome",
+        "abhorrent"
+      ],
+      "antonyms": [
+        "pleasant",
+        "delightful",
+        "attractive",
+        "appealing"
+      ],
+      "raw_synonyms": "revolting, repulsive, loathsome, abhorrent",
+      "raw_antonyms": "pleasant, delightful, attractive, appealing",
+      "sentence": "Piles of uncollected garbage left on the pavement emitted a disgusting stench under the hot sun.",
+      "sentence_meaning": "ফুটপাতে ফেলে রাখা অপরিশোধিত ময়লার স্তূপ তীব্র রোদে অত্যন্ত ঘৃণ্য দুর্গন্ধ ছড়াচ্ছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

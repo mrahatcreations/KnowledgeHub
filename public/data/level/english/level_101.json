@@ -1,0 +1,132 @@
+{
+  "level_id": 101,
+  "title": "Level 101: Idiom",
+  "unit": "Idioms & Phrases Table",
+  "category": "Idiom",
+  "items": [
+    {
+      "id": 501,
+      "word": "Once in a blue moon",
+      "ipa": "/wʌns ɪn ə bluː muːn/",
+      "pos": "phrase",
+      "meaning": "খুব কদাচিৎ, কালেভদ্রে, অত্যন্ত বিরলভাবে",
+      "synonyms": [
+        "rarely",
+        "seldom",
+        "infrequently",
+        "hardly ever"
+      ],
+      "antonyms": [
+        "frequently",
+        "often",
+        "regularly",
+        "repeatedly"
+      ],
+      "raw_synonyms": "rarely, seldom, infrequently, hardly ever",
+      "raw_antonyms": "frequently, often, regularly, repeatedly",
+      "sentence": "Because he lives abroad, we only get to see him once in a blue moon.",
+      "sentence_meaning": "তিনি বিদেশে থাকার কারণে আমরা কালেভদ্রে তাঁর দেখা পাই।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 502,
+      "word": "Blue ribbon",
+      "ipa": "/bluː ˈrɪb.ən/",
+      "pos": "phrase",
+      "meaning": "সর্বোচ্চ বা প্রথম পুরস্কার, শ্রেষ্ঠত্বের প্রতীক",
+      "synonyms": [
+        "first prize",
+        "highest award",
+        "top honor",
+        "champion title"
+      ],
+      "antonyms": [
+        "wooden spoon",
+        "last place",
+        "consolation prize",
+        "failure"
+      ],
+      "raw_synonyms": "first prize, highest award, top honor, champion title",
+      "raw_antonyms": "wooden spoon, last place, consolation prize, failure",
+      "sentence": "Her innovative science project won the coveted blue ribbon at the national fair.",
+      "sentence_meaning": "তাঁর উদ্ভাবনী বিজ্ঞান প্রকল্পটি জাতীয় মেলায় কাঙ্ক্ষিত প্রথম পুরস্কার অর্জন করেছিল।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 503,
+      "word": "Beat about the bush",
+      "ipa": "/biːt əˈbaʊt ðə bʊʃ/",
+      "pos": "phrase",
+      "meaning": "কাজের কথা না বলে ঘুরিয়ে পেঁচিয়ে কথা বলা, অপ্রাসঙ্গিক কথা বলা",
+      "synonyms": [
+        "prevaricate",
+        "equivocate",
+        "hedge",
+        "talk around"
+      ],
+      "antonyms": [
+        "get to the point",
+        "speak directly",
+        "be direct",
+        "be straightforward"
+      ],
+      "raw_synonyms": "prevaricate, equivocate, hedge, talk around",
+      "raw_antonyms": "get to the point, speak directly, be direct, be straightforward",
+      "sentence": "Stop beating about the bush and tell me directly what went wrong with the project.",
+      "sentence_meaning": "ঘুরিয়ে পেঁচিয়ে কথা না বলে সরাসরি বলুন প্রকল্পটিতে কী সমস্যা হয়েছে।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 504,
+      "word": "Bag and baggage",
+      "ipa": "/bæɡ ænd ˈbæɡ.ɪdʒ/",
+      "pos": "phrase",
+      "meaning": "তল্পিতল্পাসহ, সহায়-সম্বলসহ, সম্পূর্ণরূপে",
+      "synonyms": [
+        "with all belongings",
+        "completely",
+        "lock stock and barrel",
+        "entirely"
+      ],
+      "antonyms": [
+        "empty-handed",
+        "partially",
+        "without belongings",
+        "incompletely"
+      ],
+      "raw_synonyms": "with all belongings, completely, lock stock and barrel, entirely",
+      "raw_antonyms": "empty-handed, partially, without belongings, incompletely",
+      "sentence": "The landlord demanded that the noisy tenants leave bag and baggage by tomorrow morning.",
+      "sentence_meaning": "বাড়িওয়ালা দাবি করলেন যে গোলমালকারী ভাড়াটিয়ারা যেন আগামীকাল সকালের মধ্যে তল্পিতল্পাসহ চলে যায়।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 505,
+      "word": "Bill of fare",
+      "ipa": "/bɪl əv feər/",
+      "pos": "phrase",
+      "meaning": "খাদ্যতালিকা, মেনু কার্ড",
+      "synonyms": [
+        "menu",
+        "food list",
+        "carte du jour",
+        "order list"
+      ],
+      "antonyms": [
+        "off-menu item",
+        "unlisted item",
+        "non-menu dish"
+      ],
+      "raw_synonyms": "menu, food list, carte du jour, order list",
+      "raw_antonyms": "off-menu item, unlisted item, non-menu dish",
+      "sentence": "The waiter handed us the bill of fare so we could choose our dinner options.",
+      "sentence_meaning": "ওয়েটার আমাদের খাদ্যতালিকাটি এগিয়ে দিলেন যাতে আমরা রাতের খাবারের পদগুলো বেছে নিতে পারি।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    }
+  ]
+}

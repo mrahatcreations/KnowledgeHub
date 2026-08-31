@@ -1,0 +1,128 @@
+{
+  "level_id": 41,
+  "title": "Level 41: Appropriate Preposition",
+  "unit": "Image 6: Appropriate Prepositions",
+  "category": "Appropriate Preposition",
+  "items": [
+    {
+      "id": 201,
+      "word": "According to",
+      "ipa": "/əˈkɔːrdɪŋ tuː/",
+      "pos": "prep",
+      "meaning": "অনুসারে, মতানুসারে",
+      "synonyms": [
+        "in accordance with",
+        "as stated by",
+        "consistent with",
+        "conforming to"
+      ],
+      "antonyms": [
+        "contrary to",
+        "in violation of",
+        "opposed to"
+      ],
+      "raw_synonyms": "in accordance with, as stated by, consistent with, conforming to",
+      "raw_antonyms": "contrary to, in violation of, opposed to",
+      "sentence": "According to official meteorological reports, heavy rainfall is expected throughout the weekend.",
+      "sentence_meaning": "সরকারি আবহাওয়া প্রতিবেদন অনুযায়ী, সপ্তাহান্তে ভারী বৃষ্টিপাত হওয়ার সম্ভাবনা রয়েছে।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 202,
+      "word": "Adjacent to",
+      "ipa": "/əˈdʒeɪsnt tuː/",
+      "pos": "prep",
+      "meaning": "সংলগ্ন, নিকটবর্তী",
+      "synonyms": [
+        "adjoining",
+        "neighboring",
+        "bordering on",
+        "next to"
+      ],
+      "antonyms": [
+        "distant from",
+        "remote from",
+        "far from"
+      ],
+      "raw_synonyms": "adjoining, neighboring, bordering on, next to",
+      "raw_antonyms": "distant from, remote from, far from",
+      "sentence": "The modern hospital was constructed adjacent to the central botanical garden.",
+      "sentence_meaning": "আধুনিক হাসপাতালটি কেন্দ্রীয় বোটানিক্যাল গার্ডেনের সংলগ্ন স্থানে নির্মাণ করা হয়েছিল।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 203,
+      "word": "Adapted from",
+      "ipa": "/əˈdæptɪd frəm/",
+      "pos": "prep",
+      "meaning": "কোনো উৎস থেকে গৃহীত বা রূপান্তরিত",
+      "synonyms": [
+        "derived from",
+        "borrowed from",
+        "based on",
+        "modeled on"
+      ],
+      "antonyms": [
+        "originated from",
+        "independent of",
+        "unrelated to"
+      ],
+      "raw_synonyms": "derived from, borrowed from, based on, modeled on",
+      "raw_antonyms": "originated from, independent of, unrelated to",
+      "sentence": "The acclaimed theatrical play was adapted from a classic nineteenth-century Bengali novel.",
+      "sentence_meaning": "প্রশংসিত নাট্যনাটকটি ঊনবিংশ শতাব্দীর একটি ধ্রুপদী বাংলা উপন্যাস থেকে রূপান্তর করা হয়েছিল।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 204,
+      "word": "Argue with",
+      "ipa": "/ˈɑːrɡjuː wɪð/",
+      "pos": "prep",
+      "meaning": "কারো সাথে তর্ক বা বিতর্ক করা",
+      "synonyms": [
+        "quarrel with",
+        "dispute with",
+        "debate with",
+        "bicker with"
+      ],
+      "antonyms": [
+        "agree with",
+        "concur with",
+        "harmonize with"
+      ],
+      "raw_synonyms": "quarrel with, dispute with, debate with, bicker with",
+      "raw_antonyms": "agree with, concur with, harmonize with",
+      "sentence": "It is futile to argue with stubborn individuals who refuse to look at logical facts.",
+      "sentence_meaning": "যৌক্তিক তথ্য দেখতে অস্বীকারকারী একগুঁয়ে ব্যক্তিদের সাথে তর্ক করা নিষ্ফল।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 205,
+      "word": "Answer to",
+      "ipa": "/ˈænsər tuː/",
+      "pos": "prep",
+      "meaning": "প্রশ্নের উত্তর দেওয়া / কারো কাছে জবাবদিহি করা",
+      "synonyms": [
+        "reply to",
+        "respond to",
+        "be accountable to",
+        "answerable to"
+      ],
+      "antonyms": [
+        "ignore",
+        "disregard",
+        "evade"
+      ],
+      "raw_synonyms": "reply to, respond to, be accountable to, answerable to",
+      "raw_antonyms": "ignore, disregard, evade",
+      "sentence": "Public servants must answer to the citizenry regarding the utilization of state revenue.",
+      "sentence_meaning": "রাষ্ট্রীয় রাজস্ব ব্যবহারের বিষয়ে সরকারি কর্মচারীদের নাগরিকদের কাছে জবাবদিহি করতে হবে।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    }
+  ]
+}

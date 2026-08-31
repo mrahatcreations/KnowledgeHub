@@ -1,0 +1,133 @@
+{
+  "level_id": 184,
+  "title": "Level 184: Appropriate Preposition",
+  "unit": "Image 34 (image (34).jpg) - Appropriate Preposition",
+  "category": "Appropriate Preposition",
+  "items": [
+    {
+      "id": 916,
+      "word": "Appetite for",
+      "ipa": "/ˈæpɪtaɪt fɔːr/",
+      "pos": "phrase",
+      "meaning": "ক্ষুধা, আসক্তি, প্রবল আগ্রহ",
+      "synonyms": [
+        "craving for",
+        "hunger for",
+        "desire for",
+        "relish for"
+      ],
+      "antonyms": [
+        "aversion to",
+        "dislike for",
+        "distaste for",
+        "disgust with"
+      ],
+      "raw_synonyms": "craving for, hunger for, desire for, relish for",
+      "raw_antonyms": "aversion to, dislike for, distaste for, disgust with",
+      "sentence": "The voracious reader had an insatiable appetite for classical historical literature.",
+      "sentence_meaning": "সেই আগ্রহী পাঠকের শাস্ত্রীয় ঐতিহাসিক সাহিত্যের প্রতি এক অতৃপ্ত ক্ষুধা ও আগ্রহ ছিল।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 34 (image (34).jpg) - Appropriate Preposition"
+    },
+    {
+      "id": 917,
+      "word": "Apprehensive of / about",
+      "ipa": "/ˌæprɪˈhensɪv əv, əˈbaʊt/",
+      "pos": "phrase",
+      "meaning": "শঙ্কিত, ভীত, উদ্বিগ্ন",
+      "synonyms": [
+        "fearful of",
+        "anxious about",
+        "dreadful of",
+        "concerned about"
+      ],
+      "antonyms": [
+        "confident of",
+        "optimistic about",
+        "fearless of",
+        "carefree about"
+      ],
+      "raw_synonyms": "fearful of, anxious about, dreadful of, concerned about",
+      "raw_antonyms": "confident of, optimistic about, fearless of, carefree about",
+      "sentence": "Residents were apprehensive of further flooding as the dark storm clouds gathered on the horizon.",
+      "sentence_meaning": "দিগন্তে কালো মেঘ জমে ওঠায় বাসিন্দারা আরও বন্যার আশঙ্কায় শঙ্কিত ছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 34 (image (34).jpg) - Appropriate Preposition"
+    },
+    {
+      "id": 918,
+      "word": "Apprised of",
+      "ipa": "/əˈpraɪzd əv/",
+      "pos": "phrase",
+      "meaning": "জ্ঞাত, অবহিত, অবগত",
+      "synonyms": [
+        "informed of",
+        "notified of",
+        "conscious of",
+        "briefed on"
+      ],
+      "antonyms": [
+        "uninformed of",
+        "ignorant of",
+        "oblivious to",
+        "unaware of"
+      ],
+      "raw_synonyms": "informed of, notified of, conscious of, briefed on",
+      "raw_antonyms": "uninformed of, ignorant of, oblivious to, unaware of",
+      "sentence": "The cabinet ministers were immediately apprised of the emergency border security situation.",
+      "sentence_meaning": "জরুরি সীমান্ত নিরাপত্তা পরিস্থিতি সম্পর্কে মন্ত্রিপরিষদের মন্ত্রীদের তাৎক্ষণিকভাবে অবহিত করা হয়েছিল।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 34 (image (34).jpg) - Appropriate Preposition"
+    },
+    {
+      "id": 919,
+      "word": "Apt in",
+      "ipa": "/æpt ɪn/",
+      "pos": "phrase",
+      "meaning": "দক্ষ, পারদর্শী",
+      "synonyms": [
+        "skilful in",
+        "adept in",
+        "expert at",
+        "proficient in"
+      ],
+      "antonyms": [
+        "inept in",
+        "clumsy at",
+        "incompetent in",
+        "unskilled at"
+      ],
+      "raw_synonyms": "skilful in, adept in, expert at, proficient in",
+      "raw_antonyms": "inept in, clumsy at, incompetent in, unskilled at",
+      "sentence": "The young researcher was remarkably apt in statistical data analysis and machine learning.",
+      "sentence_meaning": "তরুণ গবেষক পরিসংখ্যানগত তথ্য বিশ্লেষণ এবং মেশিন লার্নিংয়ে অসাধারণ পারদর্শী ছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 34 (image (34).jpg) - Appropriate Preposition"
+    },
+    {
+      "id": 920,
+      "word": "Aptitude for",
+      "ipa": "/ˈæptɪtuːd fɔːr/",
+      "pos": "phrase",
+      "meaning": "স্বাভাবিক দক্ষতা, সহজাত প্রতিভা বা প্রবণতা",
+      "synonyms": [
+        "talent for",
+        "knack for",
+        "flair for",
+        "capacity for"
+      ],
+      "antonyms": [
+        "inaptitude for",
+        "inability in",
+        "incompetence in",
+        "disinclination toward"
+      ],
+      "raw_synonyms": "talent for, knack for, flair for, capacity for",
+      "raw_antonyms": "inaptitude for, inability in, incompetence in, disinclination toward",
+      "sentence": "Even as a child, she demonstrated an extraordinary aptitude for playing complex musical instruments.",
+      "sentence_meaning": "এমনকি শৈশবেও তিনি জটিল বাদ্যযন্ত্র বাজানোর ক্ষেত্রে এক অসাধারণ সহজাত প্রতিভা প্রদর্শন করেছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 34 (image (34).jpg) - Appropriate Preposition"
+    }
+  ]
+}

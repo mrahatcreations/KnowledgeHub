@@ -1,0 +1,133 @@
+{
+  "level_id": 57,
+  "title": "Level 57: Vocabulary",
+  "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 281,
+      "word": "Pioneer",
+      "ipa": "/ˌpaɪəˈnɪr/",
+      "pos": "n",
+      "meaning": "অগ্রদূত, পথপ্রদর্শক",
+      "synonyms": [
+        "trailblazer",
+        "pathfinder",
+        "innovator",
+        "forerunner"
+      ],
+      "antonyms": [
+        "follower",
+        "imitator",
+        "disciple",
+        "traditionalist"
+      ],
+      "raw_synonyms": "trailblazer, pathfinder, innovator, forerunner",
+      "raw_antonyms": "follower, imitator, disciple, traditionalist",
+      "sentence": "Marie Curie was a fearless pioneer in the field of radioactivity and nuclear chemistry.",
+      "sentence_meaning": "মেরি কুরি তেজস্ক্রিয়তা ও পারমাণবিক রসায়ন ক্ষেত্রে একজন নির্ভীক অগ্রদূত ছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 282,
+      "word": "Proclaim",
+      "ipa": "/prəˈkleɪm/",
+      "pos": "v",
+      "meaning": "আনুষ্ঠানিকভাবে ঘোষণা করা, জারি করা",
+      "synonyms": [
+        "declare",
+        "announce",
+        "herald",
+        "broadcast"
+      ],
+      "antonyms": [
+        "conceal",
+        "suppress",
+        "withhold",
+        "deny"
+      ],
+      "raw_synonyms": "declare, announce, herald, broadcast",
+      "raw_antonyms": "conceal, suppress, withhold, deny",
+      "sentence": "The president stepped up to the podium to proclaim a national holiday celebrating unity.",
+      "sentence_meaning": "রাষ্ট্রপতি ঐক্য উদযাপনের জন্য একটি জাতীয় ছুটি ঘোষণা করতে মঞ্চে উঠলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 283,
+      "word": "Aptly",
+      "ipa": "/ˈæptli/",
+      "pos": "adv",
+      "meaning": "যথাযথভাবে, মানানসইভাবে",
+      "synonyms": [
+        "suitably",
+        "appropriately",
+        "fittingly",
+        "befittingly"
+      ],
+      "antonyms": [
+        "inappropriately",
+        "unsuitably",
+        "improperly",
+        "inaptly"
+      ],
+      "raw_synonyms": "suitably, appropriately, fittingly, befittingly",
+      "raw_antonyms": "inappropriately, unsuitably, improperly, inaptly",
+      "sentence": "The resort is aptly named \"Paradise Cove\" because of its crystal-clear waters and golden sands.",
+      "sentence_meaning": "স্বচ্ছ জলরাশি ও সোনালি বালির কারণে রিসোর্টটির নাম যথাযথভাবেই \"প্যারাডাইস কোভ\" রাখা হয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 284,
+      "word": "Progressive",
+      "ipa": "/prəˈɡresɪv/",
+      "pos": "adj",
+      "meaning": "প্রগতিশীল, সংস্কারকামী",
+      "synonyms": [
+        "forward-thinking",
+        "innovative",
+        "modern",
+        "reformist"
+      ],
+      "antonyms": [
+        "reactionary",
+        "conservative",
+        "traditional",
+        "regressive"
+      ],
+      "raw_synonyms": "forward-thinking, innovative, modern, reformist",
+      "raw_antonyms": "reactionary, conservative, traditional, regressive",
+      "sentence": "The institution adopted progressive policies designed to promote inclusivity and equity.",
+      "sentence_meaning": "প্রতিষ্ঠানটি অন্তর্ভুক্তি এবং সমতা বৃদ্ধি করার লক্ষ্যে প্রগতিশীল নীতি গ্রহণ করেছে।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 285,
+      "word": "Fascinate",
+      "ipa": "/ˈfæsɪneɪt/",
+      "pos": "v",
+      "meaning": "মুগ্ধ করা, তীব্রভাবে আকৃষ্ট করা",
+      "synonyms": [
+        "captivate",
+        "enchant",
+        "charm",
+        "allure"
+      ],
+      "antonyms": [
+        "repel",
+        "bore",
+        "disgust",
+        "disenchant"
+      ],
+      "raw_synonyms": "captivate, enchant, charm, allure",
+      "raw_antonyms": "repel, bore, disgust, disenchant",
+      "sentence": "Mysteries of outer space and astronomy never fail to fascinate young curious minds.",
+      "sentence_meaning": "মহাকাশ ও জ্যোতির্বিজ্ঞানের রহস্য সবসময়ই তরুণ কৌতূহলী মনকে মুগ্ধ করতে ব্যর্থ হয় না।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    }
+  ]
+}

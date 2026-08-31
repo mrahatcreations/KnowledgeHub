@@ -1,0 +1,133 @@
+{
+  "level_id": 56,
+  "title": "Level 56: Vocabulary",
+  "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 276,
+      "word": "Prestigious",
+      "ipa": "/preˈstɪdʒəs/",
+      "pos": "adj",
+      "meaning": "সম্মানজনক, মর্যাদাপূর্ণ",
+      "synonyms": [
+        "renowned",
+        "esteemed",
+        "distinguished",
+        "reputable"
+      ],
+      "antonyms": [
+        "disreputable",
+        "obscure",
+        "inglorious",
+        "unprestigious"
+      ],
+      "raw_synonyms": "renowned, esteemed, distinguished, reputable",
+      "raw_antonyms": "disreputable, obscure, inglorious, unprestigious",
+      "sentence": "Graduating from such a prestigious institution opens countless lucrative career pathways.",
+      "sentence_meaning": "এমন একটি মর্যাদাপূর্ণ প্রতিষ্ঠান থেকে স্নাতক সম্পন্ন করা অসংখ্য লাভজনক ক্যারিয়ারের পথ খুলে দেয়।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 277,
+      "word": "Accolade",
+      "ipa": "/ˈækəleɪd/",
+      "pos": "n",
+      "meaning": "সম্মাননা, উচ্ছ্বসিত প্রশংসা",
+      "synonyms": [
+        "tribute",
+        "commendation",
+        "honor",
+        "award"
+      ],
+      "antonyms": [
+        "criticism",
+        "censure",
+        "condemnation",
+        "rebuke"
+      ],
+      "raw_synonyms": "tribute, commendation, honor, award",
+      "raw_antonyms": "criticism, censure, condemnation, rebuke",
+      "sentence": "The filmmaker received the highest cinematic accolade at the Cannes Film Festival.",
+      "sentence_meaning": "চলচ্চিত্র নির্মাতা কান চলচ্চিত্র উৎসবে সর্বোচ্চ চলচ্চিত্র সম্মাননা অর্জন করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 278,
+      "word": "Laudatory",
+      "ipa": "/ˈlɔːdətɔːri/",
+      "pos": "adj",
+      "meaning": "প্রশংসাসূচক, স্তুতিপূর্ণ",
+      "synonyms": [
+        "praiseful",
+        "complimentary",
+        "eulogistic",
+        "acclamatory"
+      ],
+      "antonyms": [
+        "derogatory",
+        "critical",
+        "disparaging",
+        "scathing"
+      ],
+      "raw_synonyms": "praiseful, complimentary, eulogistic, acclamatory",
+      "raw_antonyms": "derogatory, critical, disparaging, scathing",
+      "sentence": "The newspaper published a laudatory editorial commending the emergency rescue workers.",
+      "sentence_meaning": "সংবাদপত্রটি জরুরি উদ্ধারকর্মীদের প্রশংসা করে একটি প্রশংসাসূচক সম্পাদকীয় প্রকাশ করেছে।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 279,
+      "word": "Acclaimed",
+      "ipa": "/əˈkleɪmd/",
+      "pos": "adj",
+      "meaning": "সর্বজনস্বীকৃত ও প্রশংসিত",
+      "synonyms": [
+        "celebrated",
+        "lauded",
+        "hailed",
+        "distinguished"
+      ],
+      "antonyms": [
+        "criticized",
+        "unrecognized",
+        "condemned",
+        "unappreciated"
+      ],
+      "raw_synonyms": "celebrated, lauded, hailed, distinguished",
+      "raw_antonyms": "criticized, unrecognized, condemned, unappreciated",
+      "sentence": "She is an internationally acclaimed author whose books have been translated into thirty languages.",
+      "sentence_meaning": "তিনি একজন আন্তর্জাতিকভাবে প্রশংসিত লেখক যাঁর বই ত্রিশটি ভাষায় অনূদিত হয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 280,
+      "word": "Exaggerated",
+      "ipa": "/ɪɡˈzædʒəreɪtɪd/",
+      "pos": "adj",
+      "meaning": "অতিরঞ্জিত, অতিরিক্ত করে বলা",
+      "synonyms": [
+        "overstated",
+        "hyperbolic",
+        "magnified",
+        "amplified"
+      ],
+      "antonyms": [
+        "understated",
+        "accurate",
+        "unexaggerated",
+        "realistic"
+      ],
+      "raw_synonyms": "overstated, hyperbolic, magnified, amplified",
+      "raw_antonyms": "understated, accurate, unexaggerated, realistic",
+      "sentence": "Rumors about the imminent financial collapse of the bank proved to be wildly exaggerated.",
+      "sentence_meaning": "ব্যাংকের আসন্ন আর্থিক পতনের গুজবটি ব্যাপকভাবে অতিরঞ্জিত প্রমাণিত হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    }
+  ]
+}

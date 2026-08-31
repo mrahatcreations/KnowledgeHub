@@ -1,0 +1,132 @@
+{
+  "level_id": 128,
+  "title": "Level 128: Vocabulary",
+  "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 636,
+      "word": "Mourn",
+      "ipa": "/mɔːrn/",
+      "pos": "v",
+      "meaning": "শোক প্রকাশ করা, বিলাপ করা",
+      "synonyms": [
+        "grieve",
+        "lament",
+        "bemoan",
+        "sorrow"
+      ],
+      "antonyms": [
+        "rejoice",
+        "celebrate",
+        "triumph",
+        "delight"
+      ],
+      "raw_synonyms": "grieve, lament, bemoan, sorrow",
+      "raw_antonyms": "rejoice, celebrate, triumph, delight",
+      "sentence": "The entire nation mourned the passing of its legendary humanitarian leader.",
+      "sentence_meaning": "তার কিংবদন্তি মানবতাবাদী নেতার প্রয়াণে গোটা জাতি শোক প্রকাশ করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 637,
+      "word": "Emerge",
+      "ipa": "/ɪˈmɜːrdʒ/",
+      "pos": "v",
+      "meaning": "আবির্ভূত হওয়া, প্রকাশিত হওয়া",
+      "synonyms": [
+        "appear",
+        "arise",
+        "surface",
+        "materialize"
+      ],
+      "antonyms": [
+        "disappear",
+        "vanish",
+        "fade",
+        "submerge"
+      ],
+      "raw_synonyms": "appear, arise, surface, materialize",
+      "raw_antonyms": "disappear, vanish, fade, submerge",
+      "sentence": "New technological solutions emerged to address the pressing issues of clean energy.",
+      "sentence_meaning": "পরিচ্ছন্ন শক্তির জরুরি সমস্যা সমাধানের জন্য নতুন প্রযুক্তিগত সমাধান আবির্ভূত হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 638,
+      "word": "Pageantry",
+      "ipa": "/ˈpædʒəntri/",
+      "pos": "n",
+      "meaning": "মহিমাময় প্রদর্শনী, জাঁকজমকপূর্ণ শোভাযাত্রা",
+      "synonyms": [
+        "spectacle",
+        "splendor",
+        "ceremony",
+        "pomp"
+      ],
+      "antonyms": [
+        "simplicity",
+        "plainness",
+        "modesty",
+        "austerity"
+      ],
+      "raw_synonyms": "spectacle, splendor, ceremony, pomp",
+      "raw_antonyms": "simplicity, plainness, modesty, austerity",
+      "sentence": "The royal coronation was celebrated with grand pageantry and traditional fanfare.",
+      "sentence_meaning": "রাজ্যাভিষেকটি মহিমাময় জাঁকজমকপূর্ণ প্রদর্শনী এবং ঐতিহ্যবাহী আড়ম্বরের সাথে উদযাপিত হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 639,
+      "word": "Figure",
+      "ipa": "/ˈfɪɡjər/",
+      "pos": "n",
+      "meaning": "ব্যক্তিত্ব, অবয়ব, সংখ্যা বা প্রতিকৃতি",
+      "synonyms": [
+        "personality",
+        "character",
+        "persona",
+        "dignitary"
+      ],
+      "antonyms": [
+        "nobody",
+        "nonentity",
+        "insignificant person"
+      ],
+      "raw_synonyms": "personality, character, persona, dignitary",
+      "raw_antonyms": "nobody, nonentity, insignificant person",
+      "sentence": "He became a leading figure in the global movement for renewable energy.",
+      "sentence_meaning": "তিনি নবায়নযোগ্য শক্তির বৈশ্বিক আন্দোলনে এক শীর্ষস্থানীয় ব্যক্তিত্ব হয়ে উঠেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 640,
+      "word": "Mystery",
+      "ipa": "/ˈmɪstəri/",
+      "pos": "n",
+      "meaning": "রহস্য, হেঁয়ালি",
+      "synonyms": [
+        "enigma",
+        "puzzle",
+        "riddle",
+        "secret"
+      ],
+      "antonyms": [
+        "clarity",
+        "obviousness",
+        "certainty",
+        "transparency"
+      ],
+      "raw_synonyms": "enigma, puzzle, riddle, secret",
+      "raw_antonyms": "clarity, obviousness, certainty, transparency",
+      "sentence": "The sudden disappearance of the ancient civilization remains a deep mystery to archaeologists.",
+      "sentence_meaning": "প্রাচীন সভ্যতার আকস্মিক বিলুপ্তি প্রত্নতাত্ত্বিকদের কাছে এক গভীর রহস্য হয়ে রয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    }
+  ]
+}

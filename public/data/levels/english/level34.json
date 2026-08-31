@@ -1,0 +1,133 @@
+{
+  "level_id": 34,
+  "title": "Level 34: Phrasal Verb",
+  "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique",
+  "category": "Phrasal Verb",
+  "items": [
+    {
+      "id": 166,
+      "word": "Bring through",
+      "ipa": "/brɪŋ θruː/",
+      "pos": "phrase",
+      "meaning": "বিপদ বা রোগ থেকে রক্ষা করা",
+      "synonyms": [
+        "cure",
+        "save",
+        "rescue",
+        "heal"
+      ],
+      "antonyms": [
+        "lose",
+        "succumb",
+        "abandon",
+        "surrender"
+      ],
+      "raw_synonyms": "cure, save, rescue, heal",
+      "raw_antonyms": "lose, succumb, abandon, surrender",
+      "sentence": "The dedicated surgeon's timely intervention helped bring the critically injured patient through.",
+      "sentence_meaning": "নিবেদিতপ্রাণ শল্যচিকিৎসকের সময়োপযোগী হস্তক্ষেপ গুরুতর আহত রোগীকে বিপদমুক্ত করতে সাহায্য করেছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 167,
+      "word": "Bring up",
+      "ipa": "/brɪŋ ʌp/",
+      "pos": "phrase",
+      "meaning": "আলোচনায় উত্থাপন করা বা উপস্থাপন করা",
+      "synonyms": [
+        "mention",
+        "propose",
+        "introduce",
+        "raise"
+      ],
+      "antonyms": [
+        "suppress",
+        "drop",
+        "ignore",
+        "silence"
+      ],
+      "raw_synonyms": "mention, propose, introduce, raise",
+      "raw_antonyms": "suppress, drop, ignore, silence",
+      "sentence": "The employee representative intended to bring up the wage disparity issue at the board meeting.",
+      "sentence_meaning": "কর্মচারী প্রতিনিধি বোর্ড সভায় বেতন বৈষম্যের বিষয়টি আলোচনায় উত্থাপন করতে চেয়েছিলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 168,
+      "word": "Burst into",
+      "ipa": "/bɜːrst ˈɪntuː/",
+      "pos": "phrase",
+      "meaning": "আবেগ বা কান্নায় ভেঙে পড়া",
+      "synonyms": [
+        "break into",
+        "erupt into",
+        "give way to",
+        "dissolve into"
+      ],
+      "antonyms": [
+        "contain oneself",
+        "suppress tears",
+        "calm down",
+        "hold back"
+      ],
+      "raw_synonyms": "break into, erupt into, give way to, dissolve into",
+      "raw_antonyms": "contain oneself, suppress tears, calm down, hold back",
+      "sentence": "Overcome with grief, the mother burst into tears upon hearing the tragic news.",
+      "sentence_meaning": "শোকে বিহ্বল হয়ে মর্মান্তিক সংবাদটি শোনার সাথে সাথে মা কান্নায় ভেঙে পড়লেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 169,
+      "word": "Burst out",
+      "ipa": "/bɜːrst aʊt/",
+      "pos": "phrase",
+      "meaning": "হঠাৎ অট্টহাসিতে বা কথায় ফেটে পড়া",
+      "synonyms": [
+        "erupt in laughter",
+        "exclaim",
+        "shout out",
+        "blurt"
+      ],
+      "antonyms": [
+        "fall silent",
+        "muffle laughter",
+        "keep quiet",
+        "subside"
+      ],
+      "raw_synonyms": "erupt in laughter, exclaim, shout out, blurt",
+      "raw_antonyms": "fall silent, muffle laughter, keep quiet, subside",
+      "sentence": "The entire classroom burst out laughing at the teacher's witty observation.",
+      "sentence_meaning": "শিক্ষকের রসাত্মক মন্তব্যে পুরো শ্রেণিকক্ষ হাসিতে ফেটে পড়ল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 170,
+      "word": "Blurt out",
+      "ipa": "/blɜːrt aʊt/",
+      "pos": "phrase",
+      "meaning": "না ভেবে হঠাৎ প্রকাশ করে ফেলা বা বলে ফেলা",
+      "synonyms": [
+        "blab",
+        "divulge",
+        "reveal",
+        "disclose"
+      ],
+      "antonyms": [
+        "conceal",
+        "suppress",
+        "withhold",
+        "keep secret"
+      ],
+      "raw_synonyms": "blab, divulge, reveal, disclose",
+      "raw_antonyms": "conceal, suppress, withhold, keep secret",
+      "sentence": "In his nervousness, the witness blurted out confidential details that surprised everyone in court.",
+      "sentence_meaning": "উদ্বেগের কারণে সাক্ষী গোপনীয় তথ্য না ভেবেই প্রকাশ করে ফেলেছিল যা আদালতের সকলকে অবাক করেছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "level_id": 30,
+  "title": "Level 30: Phrasal Verb",
+  "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique",
+  "category": "Phrasal Verb",
+  "items": [
+    {
+      "id": 146,
+      "word": "Break out",
+      "ipa": "/breɪk aʊt/",
+      "pos": "phrase",
+      "meaning": "হঠাৎ শুরু হওয়া বা ছড়িয়ে পড়া (যুদ্ধ, মহামারী, আগুন)",
+      "synonyms": [
+        "erupt",
+        "flare up",
+        "commence",
+        "burst forth"
+      ],
+      "antonyms": [
+        "subside",
+        "cease",
+        "halt",
+        "end"
+      ],
+      "raw_synonyms": "erupt, flare up, commence, burst forth",
+      "raw_antonyms": "subside, cease, halt, end",
+      "sentence": "A catastrophic epidemic threatened to break out in the flood-affected coastal areas.",
+      "sentence_meaning": "বন্যা কবলিত উপকূলীয় এলাকায় এক ভয়াবহ মহামারী ছড়িয়ে পড়ার হুমকি দেখা দিয়েছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 147,
+      "word": "Break out",
+      "ipa": "/breɪk aʊt/",
+      "pos": "phrase",
+      "meaning": "কারাগার বা বন্দিদশা থেকে পালানো",
+      "synonyms": [
+        "escape",
+        "flee",
+        "abscond",
+        "get away"
+      ],
+      "antonyms": [
+        "surrender",
+        "remain confined",
+        "stay",
+        "submit"
+      ],
+      "raw_synonyms": "escape, flee, abscond, get away",
+      "raw_antonyms": "surrender, remain confined, stay, submit",
+      "sentence": "Two convicted felons managed to break out of the high-security prison during the storm.",
+      "sentence_meaning": "ঝড়ের সময় দুইজন সাজাপ্রাপ্ত অপরাধী উচ্চ-নিরাপত্তা কারাগার থেকে পালিয়ে যেতে সক্ষম হয়।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 148,
+      "word": "Break up",
+      "ipa": "/breɪk ʌp/",
+      "pos": "phrase",
+      "meaning": "ছুটি হওয়া / বিচ্ছিন্ন হওয়া বা শেষ হওয়া",
+      "synonyms": [
+        "disperse",
+        "disintegrate",
+        "separate",
+        "conclude"
+      ],
+      "antonyms": [
+        "assemble",
+        "convene",
+        "gather",
+        "unite"
+      ],
+      "raw_synonyms": "disperse, disintegrate, separate, conclude",
+      "raw_antonyms": "assemble, convene, gather, unite",
+      "sentence": "The school will break up for the summer holidays at the end of this week.",
+      "sentence_meaning": "এই সপ্তাহের শেষে গ্রীষ্মের ছুটির জন্য স্কুল বন্ধ হবে।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 149,
+      "word": "Break with",
+      "ipa": "/breɪk wɪð/",
+      "pos": "phrase",
+      "meaning": "সম্পর্ক ছিন্ন করা বা প্রচলিত প্রথা ত্যাগ করা",
+      "synonyms": [
+        "sever ties with",
+        "quarrel with",
+        "depart from",
+        "abandon"
+      ],
+      "antonyms": [
+        "reconcile with",
+        "adhere to",
+        "maintain ties with",
+        "conform to"
+      ],
+      "raw_synonyms": "sever ties with, quarrel with, depart from, abandon",
+      "raw_antonyms": "reconcile with, adhere to, maintain ties with, conform to",
+      "sentence": "The modern artist chose to break with traditional artistic conventions and embrace abstract forms.",
+      "sentence_meaning": "আধুনিক শিল্পী ঐতিহ্যবাহী শিল্পরীতি পরিহার করে বিমূর্ত রূপ গ্রহণ করার সিদ্ধান্ত নিয়েছিলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 150,
+      "word": "Blow off",
+      "ipa": "/bləʊ ɒf/",
+      "pos": "phrase",
+      "meaning": "নির্গমন করা / উড়িয়ে দেওয়া বা গুরুত্ব না দেওয়া",
+      "synonyms": [
+        "emit",
+        "discharge",
+        "release",
+        "expel"
+      ],
+      "antonyms": [
+        "absorb",
+        "contain",
+        "retain",
+        "suppress"
+      ],
+      "raw_synonyms": "emit, discharge, release, expel",
+      "raw_antonyms": "absorb, contain, retain, suppress",
+      "sentence": "The factory safety valve opened automatically to blow off dangerous excess steam.",
+      "sentence_meaning": "কারখানার নিরাপত্তা ভালভটি বিপজ্জনক অতিরিক্ত বাষ্প নির্গমন করতে স্বয়ংক্রিয়ভাবে খুলে যায়।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    }
+  ]
+}

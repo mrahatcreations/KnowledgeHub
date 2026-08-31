@@ -1,0 +1,133 @@
+{
+  "level_id": 186,
+  "title": "Level 186: Appropriate Preposition",
+  "unit": "Image 35 (image (35).jpg) - Super Preposition Technique-3",
+  "category": "Appropriate Preposition",
+  "items": [
+    {
+      "id": 926,
+      "word": "Add to",
+      "ipa": "/æd tuː/",
+      "pos": "phrase",
+      "meaning": "বৃদ্ধি করা, যোগ করা",
+      "synonyms": [
+        "increase",
+        "augment",
+        "enhance",
+        "supplement"
+      ],
+      "antonyms": [
+        "subtract from",
+        "diminish",
+        "reduce",
+        "detract from"
+      ],
+      "raw_synonyms": "increase, augment, enhance, supplement",
+      "raw_antonyms": "subtract from, diminish, reduce, detract from",
+      "sentence": "The sudden spike in global fuel prices will only add to the economic burden of ordinary citizens.",
+      "sentence_meaning": "বিশ্ববাজারে জ্বালানি তেলের আকস্মিক মূল্যবৃদ্ধি সাধারণ নাগরিকদের অর্থনৈতিক বোঝাই কেবল বাড়িয়ে দেবে।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 35 (image (35).jpg) - Super Preposition Technique-3"
+    },
+    {
+      "id": 927,
+      "word": "Addicted to",
+      "ipa": "/əˈdɪktɪd tuː/",
+      "pos": "phrase",
+      "meaning": "আসক্ত, নেশাগ্রস্ত",
+      "synonyms": [
+        "dependent on",
+        "hooked on",
+        "prone to",
+        "devoted to"
+      ],
+      "antonyms": [
+        "free from",
+        "detached from",
+        "independent of",
+        "resistant to"
+      ],
+      "raw_synonyms": "dependent on, hooked on, prone to, devoted to",
+      "raw_antonyms": "free from, detached from, independent of, resistant to",
+      "sentence": "Spending excessive hours addicted to smartphone screens impairs children's social development.",
+      "sentence_meaning": "স্মার্টফোনের স্ক্রিনে অতিরিক্ত সময় আসক্ত হয়ে কাটানো শিশুদের সামাজিক বিকাশকে ব্যাহত করে।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 35 (image (35).jpg) - Super Preposition Technique-3"
+    },
+    {
+      "id": 928,
+      "word": "Addition to",
+      "ipa": "/əˈdɪʃn tuː/",
+      "pos": "phrase",
+      "meaning": "সংযোজন, অতিরিক্ত অংশ",
+      "synonyms": [
+        "supplement to",
+        "extension to",
+        "inclusion in",
+        "enhancement to"
+      ],
+      "antonyms": [
+        "subtraction from",
+        "deduction from",
+        "removal from",
+        "depletion of"
+      ],
+      "raw_synonyms": "supplement to, extension to, inclusion in, enhancement to",
+      "raw_antonyms": "subtraction from, deduction from, removal from, depletion of",
+      "sentence": "The state-of-the-art laboratory is a valuable addition to the university's research faculty.",
+      "sentence_meaning": "অত্যাধুনিক গবেষণাগারটি বিশ্ববিদ্যালয়ের গবেষণা অনুষদের জন্য একটি মূল্যবান সংযোজন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 35 (image (35).jpg) - Super Preposition Technique-3"
+    },
+    {
+      "id": 929,
+      "word": "Alternative to",
+      "ipa": "/ɔːlˈtɜːrnətɪv tuː/",
+      "pos": "phrase",
+      "meaning": "বিকল্প পথ বা উপায়",
+      "synonyms": [
+        "substitute for",
+        "option to",
+        "surrogate for",
+        "choice to"
+      ],
+      "antonyms": [
+        "sole choice",
+        "constraint",
+        "obligation",
+        "requirement"
+      ],
+      "raw_synonyms": "substitute for, option to, surrogate for, choice to",
+      "raw_antonyms": "sole choice, constraint, obligation, requirement",
+      "sentence": "Electric mass transit provides an eco-friendly alternative to private gasoline-powered vehicles.",
+      "sentence_meaning": "বৈদ্যুতিক গণপরিবহন ব্যক্তিগত পেট্রলচালিত যানবাহনের একটি পরিবেশবান্ধব বিকল্প প্রদান করে।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 35 (image (35).jpg) - Super Preposition Technique-3"
+    },
+    {
+      "id": 930,
+      "word": "Answer to",
+      "ipa": "/ˈænsər tuː/",
+      "pos": "phrase",
+      "meaning": "উত্তর, সমাধান, জবাবদিহি করা",
+      "synonyms": [
+        "reply to",
+        "response to",
+        "solution to",
+        "explanation for"
+      ],
+      "antonyms": [
+        "question",
+        "inquiry",
+        "problem",
+        "dilemma"
+      ],
+      "raw_synonyms": "reply to, response to, solution to, explanation for",
+      "raw_antonyms": "question, inquiry, problem, dilemma",
+      "sentence": "Hard work and perseverance are often the best answer to life's toughest obstacles.",
+      "sentence_meaning": "কঠোর পরিশ্রম এবং অধ্যবসায় প্রায়শই জীবনের কঠিনতম বাধাগুলোর সেরা সমাধান।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 35 (image (35).jpg) - Super Preposition Technique-3"
+    }
+  ]
+}

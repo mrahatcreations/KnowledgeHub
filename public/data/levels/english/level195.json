@@ -1,0 +1,133 @@
+{
+  "level_id": 195,
+  "title": "Level 195: Word Transformation",
+  "unit": "Image 36 (image (36).jpg) - Transformation of Word",
+  "category": "Word Transformation",
+  "items": [
+    {
+      "id": 971,
+      "word": "Contempt",
+      "ipa": "/kənˈtempt/",
+      "pos": "n",
+      "meaning": "ঘৃণা, অবজ্ঞা, তাচ্ছিল্য",
+      "synonyms": [
+        "scorn",
+        "disdain",
+        "derision",
+        "despisal"
+      ],
+      "antonyms": [
+        "respect",
+        "admiration",
+        "regard",
+        "esteem"
+      ],
+      "raw_synonyms": "scorn, disdain, derision, despisal",
+      "raw_antonyms": "respect, admiration, regard, esteem",
+      "sentence": "The corrupt official was held in utter contempt by citizens who suffered under his maladministration.",
+      "sentence_meaning": "দুর্নীতিগ্রস্ত কর্মকর্তাটি সেইসব নাগরিকদের দ্বারা চরম অবজ্ঞার শিকার হয়েছিলেন যারা তাঁর অপশাসনের কারণে ভুগেছিলেন।",
+      "category": "Word Transformation",
+      "unit": "Image 36 (image (36).jpg) - Transformation of Word"
+    },
+    {
+      "id": 972,
+      "word": "Continuity",
+      "ipa": "/ˌkɑːntəˈnuːəti/",
+      "pos": "n",
+      "meaning": "ধারাবাহিকতা, নিরবচ্ছিন্নতা",
+      "synonyms": [
+        "unbrokenness",
+        "permanence",
+        "persistence",
+        "continuation"
+      ],
+      "antonyms": [
+        "interruption",
+        "discontinuity",
+        "cessation",
+        "break"
+      ],
+      "raw_synonyms": "unbrokenness, permanence, persistence, continuation",
+      "raw_antonyms": "interruption, discontinuity, cessation, break",
+      "sentence": "The newly elected government ensured administrative continuity by retaining experienced policy advisors.",
+      "sentence_meaning": "নবর্নির্বাচিত সরকার অভিজ্ঞ নীতি উপদেষ্টাদের বহাল রেখে প্রশাসনিক ধারাবাহিকতা নিশ্চিত করেছিল।",
+      "category": "Word Transformation",
+      "unit": "Image 36 (image (36).jpg) - Transformation of Word"
+    },
+    {
+      "id": 973,
+      "word": "Conversation",
+      "ipa": "/ˌkɑːnvərˈseɪʃn/",
+      "pos": "n",
+      "meaning": "কথোপকথন, বাক্যালাপ, আলোচনা",
+      "synonyms": [
+        "dialogue",
+        "discussion",
+        "discourse",
+        "talk"
+      ],
+      "antonyms": [
+        "silence",
+        "monologue",
+        "quiet",
+        "reticence"
+      ],
+      "raw_synonyms": "dialogue, discussion, discourse, talk",
+      "raw_antonyms": "silence, monologue, quiet, reticence",
+      "sentence": "Engaging in meaningful conversation with domain experts broadened her perspective on artificial intelligence.",
+      "sentence_meaning": "বিষয় বিশেষজ্ঞদের সাথে অর্থপূর্ণ কথোপকথনে লিপ্ত হওয়া কৃত্রিম বুদ্ধিমত্তা সম্পর্কে তার দৃষ্টিভঙ্গিকে প্রসারিত করেছিল।",
+      "category": "Word Transformation",
+      "unit": "Image 36 (image (36).jpg) - Transformation of Word"
+    },
+    {
+      "id": 974,
+      "word": "Corruption",
+      "ipa": "/kəˈrʌpʃn/",
+      "pos": "n",
+      "meaning": "দুর্নীতি, নীতিভ্রষ্টতা, বিকৃতি",
+      "synonyms": [
+        "dishonesty",
+        "bribery",
+        "venality",
+        "degeneracy"
+      ],
+      "antonyms": [
+        "integrity",
+        "honesty",
+        "probity",
+        "uprightness"
+      ],
+      "raw_synonyms": "dishonesty, bribery, venality, degeneracy",
+      "raw_antonyms": "integrity, honesty, probity, uprightness",
+      "sentence": "Eradicating systemic corruption is essential for attracting foreign investments and fostering economic growth.",
+      "sentence_meaning": "বিদেশি বিনিয়োগ আকর্ষণ এবং অর্থনৈতিক প্রবৃদ্ধি বৃদ্ধির জন্য প্রাতিষ্ঠানিক দুর্নীতি নির্মূল করা অপরিহার্য।",
+      "category": "Word Transformation",
+      "unit": "Image 36 (image (36).jpg) - Transformation of Word"
+    },
+    {
+      "id": 975,
+      "word": "Courage",
+      "ipa": "/ˈkɜːrɪdʒ/",
+      "pos": "n",
+      "meaning": "সাহস, বীরত্ব, নির্ভীকতা",
+      "synonyms": [
+        "bravery",
+        "valor",
+        "fortitude",
+        "gallantry"
+      ],
+      "antonyms": [
+        "cowardice",
+        "timidity",
+        "fearfulness",
+        "faint-heartedness"
+      ],
+      "raw_synonyms": "bravery, valor, fortitude, gallantry",
+      "raw_antonyms": "cowardice, timidity, fearfulness, faint-heartedness",
+      "sentence": "The young firefighter demonstrated immense courage when entering the blazing building to rescue trapped residents.",
+      "sentence_meaning": "আটকে পড়া বাসিন্দাদের উদ্ধার করতে জ্বলন্ত ভবনে প্রবেশের সময় তরুণ অগ্নিনির্বাপক কর্মী অসাধারণ সাহস প্রদর্শন করেছিলেন।",
+      "category": "Word Transformation",
+      "unit": "Image 36 (image (36).jpg) - Transformation of Word"
+    }
+  ]
+}

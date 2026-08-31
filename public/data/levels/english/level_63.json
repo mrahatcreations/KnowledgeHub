@@ -1,0 +1,131 @@
+{
+  "level_id": 63,
+  "title": "Level 63: Vocabulary",
+  "unit": "Image 11 (image (11).jpg) - Sentence Making Table",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 311,
+      "word": "Overenthusiastic",
+      "ipa": "/ˌoʊvərɪnˌθuːziˈæstɪk/",
+      "pos": "adj",
+      "meaning": "অতিরিক্ত উৎসাহী, অত্যধিক ব্যগ্র",
+      "synonyms": [
+        "overzealous",
+        "hyperactive",
+        "overexcited",
+        "fanatical"
+      ],
+      "antonyms": [
+        "apathetic",
+        "unenthusiastic",
+        "indifferent",
+        "calm"
+      ],
+      "raw_synonyms": "overzealous, hyperactive, overexcited, fanatical",
+      "raw_antonyms": "apathetic, unenthusiastic, indifferent, calm",
+      "sentence": "The overenthusiastic intern promised unrealistic delivery deadlines that the engineering team could not meet.",
+      "sentence_meaning": "অতিরিক্ত উৎসাহী ইন্টার্ন এমন অবাস্তব সময়সীমার প্রতিশ্রুতি দিয়েছিলেন যা প্রকৌশল দল পূরণ করতে পারেনি।",
+      "category": "Vocabulary",
+      "unit": "Image 11 (image (11).jpg) - Sentence Making Table"
+    },
+    {
+      "id": 312,
+      "word": "Automate",
+      "ipa": "/ˈɔːtəmeɪt/",
+      "pos": "v",
+      "meaning": "যন্ত্রচালিত বা স্বয়ংক্রিয় করা",
+      "synonyms": [
+        "mechanize",
+        "computerize",
+        "digitalize",
+        "streamline"
+      ],
+      "antonyms": [
+        "manualize",
+        "operate manually",
+        "deautomate"
+      ],
+      "raw_synonyms": "mechanize, computerize, digitalize, streamline",
+      "raw_antonyms": "manualize, operate manually, deautomate",
+      "sentence": "Factories automate dangerous heavy manufacturing processes to safeguard human workers from injury.",
+      "sentence_meaning": "শ্রমিকদের আঘাত থেকে রক্ষা করতে কারখানাগুলো বিপজ্জনক ভারী উৎপাদন প্রক্রিয়াগুলো স্বয়ংক্রিয় করে থাকে।",
+      "category": "Vocabulary",
+      "unit": "Image 11 (image (11).jpg) - Sentence Making Table"
+    },
+    {
+      "id": 313,
+      "word": "Redundant",
+      "ipa": "/rɪˈdʌndənt/",
+      "pos": "adj",
+      "meaning": "অপ্রয়োজনীয়, বাড়তি বা বাহুল্যপূর্ণ",
+      "synonyms": [
+        "superfluous",
+        "surplus",
+        "needless",
+        "unnecessary"
+      ],
+      "antonyms": [
+        "essential",
+        "indispensable",
+        "vital",
+        "necessary"
+      ],
+      "raw_synonyms": "superfluous, surplus, needless, unnecessary",
+      "raw_antonyms": "essential, indispensable, vital, necessary",
+      "sentence": "Following the corporate merger, obsolete computing hardware became redundant and was promptly decommissioned.",
+      "sentence_meaning": "প্রাতিষ্ঠানিক একত্রীকরণের পর সেকেলে কম্পিউটার সামগ্রী অপ্রয়োজনীয় হয়ে পড়ে এবং অবিলম্বে বন্ধ করে দেওয়া হয়।",
+      "category": "Vocabulary",
+      "unit": "Image 11 (image (11).jpg) - Sentence Making Table"
+    },
+    {
+      "id": 314,
+      "word": "Peer",
+      "ipa": "/pɪər/",
+      "pos": "n",
+      "meaning": "সমকক্ষ, সমমর্যাদাসম্পন্ন ব্যক্তি বা সহকর্মী",
+      "synonyms": [
+        "contemporary",
+        "equal",
+        "colleague",
+        "counterpart"
+      ],
+      "antonyms": [
+        "superior",
+        "inferior",
+        "subordinate"
+      ],
+      "raw_synonyms": "contemporary, equal, colleague, counterpart",
+      "raw_antonyms": "superior, inferior, subordinate",
+      "sentence": "Her revolutionary medical research paper was thoroughly reviewed and commended by distinguished international peers.",
+      "sentence_meaning": "তাঁর বৈপ্লবিক চিকিৎসা গবেষণাপত্রটি প্রখ্যাত আন্তর্জাতিক সমকক্ষদের দ্বারা পুঙ্খানুপুঙ্খভাবে পর্যালোচনা এবং প্রশংসিত হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 11 (image (11).jpg) - Sentence Making Table"
+    },
+    {
+      "id": 315,
+      "word": "Abrupt",
+      "ipa": "/əˈbrʌpt/",
+      "pos": "adj",
+      "meaning": "আকস্মিক, অপ্রত্যাশিত বা কর্কশ",
+      "synonyms": [
+        "sudden",
+        "unexpected",
+        "curt",
+        "precipitous"
+      ],
+      "antonyms": [
+        "gradual",
+        "gentle",
+        "smooth",
+        "expected"
+      ],
+      "raw_synonyms": "sudden, unexpected, curt, precipitous",
+      "raw_antonyms": "gradual, gentle, smooth, expected",
+      "sentence": "His abrupt departure in the middle of the negotiation signaled serious discord within the committee.",
+      "sentence_meaning": "আলোচনার মাঝখানে তাঁর আকস্মিক প্রস্থান কমিটির মধ্যে গভীর মতভেদের ইঙ্গিত দেয়।",
+      "category": "Vocabulary",
+      "unit": "Image 11 (image (11).jpg) - Sentence Making Table"
+    }
+  ]
+}

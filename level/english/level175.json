@@ -1,0 +1,133 @@
+{
+  "level_id": 175,
+  "title": "Level 175: Idiom",
+  "unit": "Image 31 (image (31).jpg)",
+  "category": "Idiom",
+  "items": [
+    {
+      "id": 871,
+      "word": "Dead letter",
+      "ipa": "/ˌded ˈletər/",
+      "pos": "phrase",
+      "meaning": "অকার্যকর আইন, বাতিল বা প্রয়োগহীন বিধি",
+      "synonyms": [
+        "obsolete law",
+        "ineffective rule",
+        "null regulation",
+        "dormant statute"
+      ],
+      "antonyms": [
+        "enforced law",
+        "active rule",
+        "valid statute",
+        "binding decree"
+      ],
+      "raw_synonyms": "obsolete law, ineffective rule, null regulation, dormant statute",
+      "raw_antonyms": "enforced law, active rule, valid statute, binding decree",
+      "sentence": "Due to decades of non-enforcement, the outdated municipal regulation has become a virtual dead letter.",
+      "sentence_meaning": "কয়েক দশক ধরে কার্যকর না করার কারণে পুরানো পৌর বিধিটি কার্যত একটি অচল আইনে পরিণত হয়েছে।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    },
+    {
+      "id": 872,
+      "word": "Dead wood",
+      "ipa": "/ˌded ˈwʊd/",
+      "pos": "phrase",
+      "meaning": "অকর্মণ্য ব্যক্তি বা অপ্রয়োজনীয় বোঝা",
+      "synonyms": [
+        "useless personnel",
+        "incompetent staff",
+        "excess baggage",
+        "redundant members"
+      ],
+      "antonyms": [
+        "essential assets",
+        "productive staff",
+        "core talent",
+        "valuable contributors"
+      ],
+      "raw_synonyms": "useless personnel, incompetent staff, excess baggage, redundant members",
+      "raw_antonyms": "essential assets, productive staff, core talent, valuable contributors",
+      "sentence": "The newly appointed CEO initiated corporate restructuring to cut out dead wood and optimize workflow.",
+      "sentence_meaning": "নতুন নিযুক্ত প্রধান নির্বাহী কর্মকর্তা অকর্মণ্য কর্মীদের ছাঁটাই করতে এবং কাজের গতি বাড়াতে কর্পোরেট পুনর্গঠন শুরু করেছিলেন।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    },
+    {
+      "id": 873,
+      "word": "Cold comfort",
+      "ipa": "/ˌkoʊld ˈkʌmfərt/",
+      "pos": "phrase",
+      "meaning": "নামমাত্র সান্ত্বনা, অতি সামান্য বা অপর্যাপ্ত সান্ত্বনা",
+      "synonyms": [
+        "slight consolation",
+        "poor comfort",
+        "inadequate solace",
+        "meager relief"
+      ],
+      "antonyms": [
+        "great relief",
+        "immense consolation",
+        "true comfort",
+        "heartfelt solace"
+      ],
+      "raw_synonyms": "slight consolation, poor comfort, inadequate solace, meager relief",
+      "raw_antonyms": "great relief, immense consolation, true comfort, heartfelt solace",
+      "sentence": "Knowing that other businesses were also suffering losses provided cold comfort to the bankrupt store owner.",
+      "sentence_meaning": "অন্যান্য ব্যবসাপ্রতিষ্ঠানও ক্ষতির শিকার হচ্ছে তা জানা দেউলিয়া দোকান মালিকের জন্য ছিল এক নামমাত্র সান্ত্বনা।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    },
+    {
+      "id": 874,
+      "word": "A drug on the market",
+      "ipa": "/ə drʌɡ ɒn ðə ˈmɑːrkɪt/",
+      "pos": "phrase",
+      "meaning": "বাজারে অপ্রয়োজনীয় বা অবিক্রীত জিনিস, চাহিদাহীন উদ্বৃত্ত পণ্য",
+      "synonyms": [
+        "unsalable goods",
+        "glut",
+        "surplus product",
+        "unwanted merchandise"
+      ],
+      "antonyms": [
+        "best-seller",
+        "high-demand item",
+        "popular product",
+        "scarce commodity"
+      ],
+      "raw_synonyms": "unsalable goods, glut, surplus product, unwanted merchandise",
+      "raw_antonyms": "best-seller, high-demand item, popular product, scarce commodity",
+      "sentence": "With the rise of advanced smartphones, standalone digital cameras have become a drug on the market.",
+      "sentence_meaning": "উন্নত স্মার্টফোনের উত্থানের সাথে সাথে একক ডিজিটাল ক্যামেরাগুলো বাজারে এক অপ্রচলিত ও অবিক্রীত পণ্যে পরিণত হয়েছে।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    },
+    {
+      "id": 875,
+      "word": "Done up with",
+      "ipa": "/dʌn ʌp wɪð/",
+      "pos": "phrase",
+      "meaning": "ক্লান্ত বা পরিশ্রান্ত হওয়া, কাহিল হয়ে পড়া",
+      "synonyms": [
+        "exhausted",
+        "worn out",
+        "fatigued",
+        "tired"
+      ],
+      "antonyms": [
+        "refreshed",
+        "reinvigorated",
+        "energized",
+        "revitalized"
+      ],
+      "raw_synonyms": "exhausted, worn out, fatigued, tired",
+      "raw_antonyms": "refreshed, reinvigorated, energized, revitalized",
+      "sentence": "After walking fifteen miles across hilly terrain, the trekkers were completely done up with exhaustion.",
+      "sentence_meaning": "পাহাড়ি এলাকায় পনেরো মাইল হাঁটার পর ট্র্যাকাররা ক্লান্তিতে সম্পূর্ণভাবে কাহিল ও পরিশ্রান্ত হয়ে পড়েছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 32 (image (32).jpg) - Phrasal Verbs/Group Verbs"
+    }
+  ]
+}

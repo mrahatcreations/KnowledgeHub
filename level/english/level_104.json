@@ -1,0 +1,132 @@
+{
+  "level_id": 104,
+  "title": "Level 104: Idiom",
+  "unit": "Idioms & Phrases Table",
+  "category": "Idiom",
+  "items": [
+    {
+      "id": 516,
+      "word": "Birds of a feather",
+      "ipa": "/bɜːrdz əv ə ˈfɛð.ər/",
+      "pos": "phrase",
+      "meaning": "একই স্বভাব বা পছন্দের মানুষ, সমগোত্রীয় ব্যক্তি",
+      "synonyms": [
+        "like-minded people",
+        "kindred spirits",
+        "people of a kind",
+        "fellows"
+      ],
+      "antonyms": [
+        "polar opposites",
+        "incompatible persons",
+        "mismatched pair",
+        "differing types"
+      ],
+      "raw_synonyms": "like-minded people, kindred spirits, people of a kind, fellows",
+      "raw_antonyms": "polar opposites, incompatible persons, mismatched pair, differing types",
+      "sentence": "Those two ambitious scientists are birds of a feather who share the same passion for research.",
+      "sentence_meaning": "ওই দুই উচ্চাকাঙ্ক্ষী বিজ্ঞানী সমগোত্রীয় মানুষ, যাদের গবেষণার প্রতি একই রকম অনুরাগ রয়েছে।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 517,
+      "word": "In black and white",
+      "ipa": "/ɪn blæk ænd waɪt/",
+      "pos": "phrase",
+      "meaning": "লিখিতভাবে, দালিলিক প্রমাণসহ",
+      "synonyms": [
+        "in writing",
+        "in print",
+        "documented",
+        "recorded"
+      ],
+      "antonyms": [
+        "verbal",
+        "oral",
+        "unwritten",
+        "spoken"
+      ],
+      "raw_synonyms": "in writing, in print, documented, recorded",
+      "raw_antonyms": "verbal, oral, unwritten, spoken",
+      "sentence": "I refused to accept the verbal agreement until the company put all the terms in black and white.",
+      "sentence_meaning": "কোম্পানি সব শর্ত লিখিতভাবে না দেওয়া পর্যন্ত আমি মৌখিক চুক্তি গ্রহণ করতে অস্বীকৃতি জানিয়েছিলাম।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 518,
+      "word": "Blue blood",
+      "ipa": "/bluː blʌd/",
+      "pos": "phrase",
+      "meaning": "অভিজাত বংশমর্যাদা, রাজকীয় রক্ত",
+      "synonyms": [
+        "aristocracy",
+        "nobility",
+        "high birth",
+        "patrician lineage"
+      ],
+      "antonyms": [
+        "commoner",
+        "humble birth",
+        "plebeian",
+        "working class"
+      ],
+      "raw_synonyms": "aristocracy, nobility, high birth, patrician lineage",
+      "raw_antonyms": "commoner, humble birth, plebeian, working class",
+      "sentence": "Despite claiming to have royal blue blood, he treated everyone around him with genuine humility.",
+      "sentence_meaning": "অভিজাত রাজকীয় বংশের দাবি করা সত্ত্বেও তিনি তাঁর চারপাশের সবার সঙ্গে আন্তরিক নম্রতার পরিচয় দিতেন।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 519,
+      "word": "Bookworm",
+      "ipa": "/ˈbʊk.wɜːrm/",
+      "pos": "n",
+      "meaning": "বইপোকা, গভীর পাঠক, গ্রন্থপ্রেমী",
+      "synonyms": [
+        "avid reader",
+        "bibliophile",
+        "scholar",
+        "intellectual"
+      ],
+      "antonyms": [
+        "non-reader",
+        "illiterate",
+        "sportsman"
+      ],
+      "raw_synonyms": "avid reader, bibliophile, scholar, intellectual",
+      "raw_antonyms": "non-reader, illiterate, sportsman",
+      "sentence": "Being an ardent bookworm, she spent most of her weekend afternoons exploring the public library.",
+      "sentence_meaning": "একনিষ্ঠ বইপোকা হওয়ায় তিনি সাপ্তাহিক ছুটির বেশিরভাগ বিকেল কাটাতেন গণগ্রন্থাগার ঘুরে ঘুরে।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 520,
+      "word": "Bosom friend",
+      "ipa": "/ˈbʊz.əm frɛnd/",
+      "pos": "phrase",
+      "meaning": "অন্তরঙ্গ বন্ধু, প্রাণের বন্ধু, পরম হিতৈষী",
+      "synonyms": [
+        "intimate friend",
+        "close confidant",
+        "best friend",
+        "soulmate"
+      ],
+      "antonyms": [
+        "arch enemy",
+        "nemesis",
+        "foe",
+        "stranger"
+      ],
+      "raw_synonyms": "intimate friend, close confidant, best friend, soulmate",
+      "raw_antonyms": "arch enemy, nemesis, foe, stranger",
+      "sentence": "She felt comfortable sharing her deepest anxieties only with her trusted bosom friend.",
+      "sentence_meaning": "তিনি কেবল তাঁর বিশ্বস্ত অন্তরঙ্গ বন্ধুর সঙ্গেই নিজের গভীরতম উদ্বেগের কথা বলতে স্বাচ্ছন্দ্যবোধ করতেন।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    }
+  ]
+}

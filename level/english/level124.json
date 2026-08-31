@@ -1,0 +1,133 @@
+{
+  "level_id": 124,
+  "title": "Level 124: Word Transformation",
+  "unit": "Image 23 (image (23).jpg) - Transformation of Word",
+  "category": "Word Transformation",
+  "items": [
+    {
+      "id": 616,
+      "word": "Comparability",
+      "ipa": "/ˌkɑːmpərəˈbɪləti/",
+      "pos": "n",
+      "meaning": "তুলনীয়তা, উপমা",
+      "synonyms": [
+        "equivalence",
+        "similarity",
+        "analogy",
+        "parallelism"
+      ],
+      "antonyms": [
+        "incomparability",
+        "dissimilarity",
+        "disparity",
+        "divergence"
+      ],
+      "raw_synonyms": "equivalence, similarity, analogy, parallelism",
+      "raw_antonyms": "incomparability, dissimilarity, disparity, divergence",
+      "sentence": "Standardized accounting practices ensure comparability between financial statements of different companies.",
+      "sentence_meaning": "মানসম্মত হিসাবরক্ষণ পদ্ধতি বিভিন্ন কোম্পানির আর্থিক প্রতিবেদনের মধ্যে তুলনীয়তা নিশ্চিত করে।",
+      "category": "Word Transformation",
+      "unit": "Image 23 (image (23).jpg) - Transformation of Word"
+    },
+    {
+      "id": 617,
+      "word": "Combination",
+      "ipa": "/ˌkɑːmbɪˈneɪʃn/",
+      "pos": "n",
+      "meaning": "একত্রীকরণ, সমন্বয়, সংমিশ্রণ",
+      "synonyms": [
+        "blend",
+        "mixture",
+        "amalgamation",
+        "fusion"
+      ],
+      "antonyms": [
+        "separation",
+        "division",
+        "detachment",
+        "isolation"
+      ],
+      "raw_synonyms": "blend, mixture, amalgamation, fusion",
+      "raw_antonyms": "separation, division, detachment, isolation",
+      "sentence": "Success is usually a combination of talent, relentless effort, and good timing.",
+      "sentence_meaning": "সাফল্য সাধারণত প্রতিভা, অক্লান্ত প্রচেষ্টা এবং উপযুক্ত সময়ের এক সমন্বয়।",
+      "category": "Word Transformation",
+      "unit": "Image 23 (image (23).jpg) - Transformation of Word"
+    },
+    {
+      "id": 618,
+      "word": "Competition",
+      "ipa": "/ˌkɑːmpəˈtɪʃn/",
+      "pos": "n",
+      "meaning": "প্রতিযোগিতা, প্রতিদ্বন্দ্বিতা",
+      "synonyms": [
+        "contest",
+        "rivalry",
+        "match",
+        "tournament"
+      ],
+      "antonyms": [
+        "cooperation",
+        "collaboration",
+        "partnership",
+        "alliance"
+      ],
+      "raw_synonyms": "contest, rivalry, match, tournament",
+      "raw_antonyms": "cooperation, collaboration, partnership, alliance",
+      "sentence": "Healthy competition among tech firms drives continuous innovation and lower prices.",
+      "sentence_meaning": "প্রযুক্তি সংস্থাগুলোর মধ্যে সুস্থ প্রতিযোগিতা ধারাবাহিক উদ্ভাবন এবং কম মূল্যের পথ তৈরি করে।",
+      "category": "Word Transformation",
+      "unit": "Image 23 (image (23).jpg) - Transformation of Word"
+    },
+    {
+      "id": 619,
+      "word": "Rebellion",
+      "ipa": "/rɪˈbeljən/",
+      "pos": "n",
+      "meaning": "বিদ্রোহ, প্রতিরোধ",
+      "synonyms": [
+        "revolt",
+        "uprising",
+        "insurgency",
+        "mutiny"
+      ],
+      "antonyms": [
+        "obedience",
+        "submission",
+        "compliance",
+        "loyalty"
+      ],
+      "raw_synonyms": "revolt, uprising, insurgency, mutiny",
+      "raw_antonyms": "obedience, submission, compliance, loyalty",
+      "sentence": "The peasants organized an armed rebellion against oppressive taxation laws.",
+      "sentence_meaning": "নিপীড়নমূলক কর আইনের বিরুদ্ধে কৃষকেরা একটি সশস্ত্র বিদ্রোহের আয়োজন করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 620,
+      "word": "Fearsome",
+      "ipa": "/ˈfɪrsəm/",
+      "pos": "adj",
+      "meaning": "ভয়ঙ্কর, ভীতিজনক",
+      "synonyms": [
+        "terrifying",
+        "formidable",
+        "frightening",
+        "dreadful"
+      ],
+      "antonyms": [
+        "soothing",
+        "comforting",
+        "reassuring",
+        "pleasant"
+      ],
+      "raw_synonyms": "terrifying, formidable, frightening, dreadful",
+      "raw_antonyms": "soothing, comforting, reassuring, pleasant",
+      "sentence": "The mythical dragon had a fearsome roar that echoed across the dark valley.",
+      "sentence_meaning": "পৌরাণিক ড্রাগনটির একটি ভয়ঙ্কর গর্জন ছিল যা অন্ধকার উপত্যকাজুড়ে প্রতিধ্বনিত হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    }
+  ]
+}

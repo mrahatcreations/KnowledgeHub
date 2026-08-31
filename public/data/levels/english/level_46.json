@@ -1,0 +1,129 @@
+{
+  "level_id": 46,
+  "title": "Level 46: Appropriate Preposition",
+  "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1",
+  "category": "Appropriate Preposition",
+  "items": [
+    {
+      "id": 226,
+      "word": "Pleased with",
+      "ipa": "/pliːzd wɪð/",
+      "pos": "prep",
+      "meaning": "কোনো কাজ বা আচরণে সন্তুষ্ট",
+      "synonyms": [
+        "gratified with",
+        "delighted with",
+        "satisfied with",
+        "happy with"
+      ],
+      "antonyms": [
+        "displeased with",
+        "annoyed with",
+        "unhappy with"
+      ],
+      "raw_synonyms": "gratified with, delighted with, satisfied with, happy with",
+      "raw_antonyms": "displeased with, annoyed with, unhappy with",
+      "sentence": "The school principal was immensely pleased with the students' stellar academic performance.",
+      "sentence_meaning": "শিক্ষার্থীদের চমৎকার একাডেমিক পারফরম্যান্সে বিদ্যালয়ের অধ্যক্ষ অত্যন্ত সন্তুষ্ট হয়েছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1"
+    },
+    {
+      "id": 227,
+      "word": "Quarrel with",
+      "ipa": "/ˈkwɔːrəl wɪð/",
+      "pos": "prep",
+      "meaning": "কারো সাথে ঝগড়া বা বিবাদ করা",
+      "synonyms": [
+        "argue with",
+        "squabble with",
+        "feud with",
+        "dispute with"
+      ],
+      "antonyms": [
+        "agree with",
+        "harmonize with",
+        "make peace with"
+      ],
+      "raw_synonyms": "argue with, squabble with, feud with, dispute with",
+      "raw_antonyms": "agree with, harmonize with, make peace with",
+      "sentence": "It is unwise to quarrel with neighbors over trivial boundary disputes.",
+      "sentence_meaning": "তুচ্ছ সীমানা বিরোধ নিয়ে প্রতিবেশীদের সাথে ঝগড়া করা বুদ্ধিমানের কাজ নয়।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1"
+    },
+    {
+      "id": 228,
+      "word": "Relationship with",
+      "ipa": "/rɪˈleɪʃnʃɪp wɪð/",
+      "pos": "prep",
+      "meaning": "কারো সাথে সম্পর্ক বা যোগাযোগ",
+      "synonyms": [
+        "bond with",
+        "connection with",
+        "association with",
+        "rapport with"
+      ],
+      "antonyms": [
+        "estrangement from",
+        "alienation from",
+        "hostility towards"
+      ],
+      "raw_synonyms": "bond with, connection with, association with, rapport with",
+      "raw_antonyms": "estrangement from, alienation from, hostility towards",
+      "sentence": "Maintaining an open, trusting relationship with teenagers prevents many adolescent behavioral problems.",
+      "sentence_meaning": "কিশোর-কিশোরীদের সাথে উন্মুক্ত ও বিশ্বাসযোগ্য সম্পর্ক বজায় রাখা বহু কিশোর আচরণগত সমস্যা রোধ করে।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1"
+    },
+    {
+      "id": 229,
+      "word": "Satisfied with",
+      "ipa": "/ˈsætɪsfaɪd wɪð/",
+      "pos": "prep",
+      "meaning": "কোনো প্রাপ্তিতে পরিতৃপ্ত বা সন্তুষ্ট",
+      "synonyms": [
+        "content with",
+        "pleased with",
+        "gratified with",
+        "fulfilled with"
+      ],
+      "antonyms": [
+        "dissatisfied with",
+        "discontented with",
+        "unhappy with"
+      ],
+      "raw_synonyms": "content with, pleased with, gratified with, fulfilled with",
+      "raw_antonyms": "dissatisfied with, discontented with, unhappy with",
+      "sentence": "The committee members were fully satisfied with the detailed financial audit report.",
+      "sentence_meaning": "কমিটির সদস্যরা বিস্তারিত আর্থিক অডিট প্রতিবেদনে সম্পূর্ণ সন্তুষ্ট ছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1"
+    },
+    {
+      "id": 230,
+      "word": "Sympathetic with",
+      "ipa": "/ˌsɪmpəˈθetɪk wɪð/",
+      "pos": "prep",
+      "meaning": "কারো দুঃখ-কষ্টে সহানুভূতিশীল",
+      "synonyms": [
+        "compassionate toward",
+        "empathetic with",
+        "supportive of",
+        "kind to"
+      ],
+      "antonyms": [
+        "unsympathetic to",
+        "callous toward",
+        "indifferent to",
+        "hostile to"
+      ],
+      "raw_synonyms": "compassionate toward, empathetic with, supportive of, kind to",
+      "raw_antonyms": "unsympathetic to, callous toward, indifferent to, hostile to",
+      "sentence": "The community was deeply sympathetic with the families who lost homes in the river erosion.",
+      "sentence_meaning": "নদীভাঙনে গৃহহীন হওয়া পরিবারগুলোর প্রতি এলাকাবাসী গভীরভাবে সহানুভূতিশীল ছিল।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 7 (image (7).jpg) - Super Preposition Technique-1"
+    }
+  ]
+}

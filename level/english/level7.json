@@ -1,0 +1,131 @@
+{
+  "level_id": 7,
+  "title": "Level 7: Vocabulary",
+  "unit": "Image 1: Vocabulary (Unit-1)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 31,
+      "word": "Plagiarism",
+      "ipa": "/ˈpleɪdʒərɪzəm/",
+      "pos": "n",
+      "meaning": "লেখাচুরি, কুম্ভীলকবৃত্তি",
+      "synonyms": [
+        "theft",
+        "piracy",
+        "infringement",
+        "copying"
+      ],
+      "antonyms": [
+        "originality",
+        "authenticity",
+        "innovation",
+        "creation"
+      ],
+      "raw_synonyms": "theft, piracy, infringement, copying",
+      "raw_antonyms": "originality, authenticity, innovation, creation",
+      "sentence": "The university strictly penalizes academic plagiarism to protect intellectual integrity.",
+      "sentence_meaning": "বুদ্ধিবৃত্তিক সততা রক্ষার জন্য বিশ্ববিদ্যালয় প্রাতিষ্ঠানিক লেখাচুরির ক্ষেত্রে কঠোর শাস্তি প্রদান করে।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 32,
+      "word": "Citation",
+      "ipa": "/saɪˈteɪʃn/",
+      "pos": "n",
+      "meaning": "উদ্ধৃতি, তথ্যসূত্র উল্লেখ",
+      "synonyms": [
+        "quotation",
+        "reference",
+        "excerpt",
+        "mention"
+      ],
+      "antonyms": [
+        "omission",
+        "concealment",
+        "silence"
+      ],
+      "raw_synonyms": "quotation, reference, excerpt, mention",
+      "raw_antonyms": "omission, concealment, silence",
+      "sentence": "Every research paper must include proper citations for all referenced sources.",
+      "sentence_meaning": "প্রতিটি গবেষণাপত্রে উল্লিখিত সমস্ত উৎসের জন্য যথাযথ তথ্যসূত্র উদ্ধৃতি অন্তর্ভুক্ত থাকতে হবে।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 33,
+      "word": "Draft",
+      "ipa": "/dræft/",
+      "pos": "n",
+      "meaning": "খসড়া",
+      "synonyms": [
+        "outline",
+        "sketch",
+        "blueprint",
+        "rough copy"
+      ],
+      "antonyms": [
+        "final version",
+        "masterpiece",
+        "completion"
+      ],
+      "raw_synonyms": "outline, sketch, blueprint, rough copy",
+      "raw_antonyms": "final version, masterpiece, completion",
+      "sentence": "She revised the first draft of her novel several times before sending it to the publisher.",
+      "sentence_meaning": "তিনি প্রকাশকের কাছে পাঠানোর আগে তার উপন্যাসের প্রথম খসড়াটি বেশ কয়েকবার সংশোধন করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 34,
+      "word": "Conciseness",
+      "ipa": "/kənˈsaɪsnəs/",
+      "pos": "n",
+      "meaning": "সংক্ষিপ্ততা, স্বল্পবাক্যতা",
+      "synonyms": [
+        "brevity",
+        "succinctness",
+        "terseness",
+        "compactness"
+      ],
+      "antonyms": [
+        "wordiness",
+        "verbosity",
+        "prolixity",
+        "diffuseness"
+      ],
+      "raw_synonyms": "brevity, succinctness, terseness, compactness",
+      "raw_antonyms": "wordiness, verbosity, prolixity, diffuseness",
+      "sentence": "The editor praised the summary for its clarity, coherence, and conciseness.",
+      "sentence_meaning": "সম্পাদক সারাংশটির স্পষ্টতা, সংগতি এবং সংক্ষিপ্ততার জন্য প্রশংসা করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 35,
+      "word": "Excerpt",
+      "ipa": "/ˈeksɜːrpt/",
+      "pos": "n",
+      "meaning": "উদ্ধৃতাংশ, সংক্ষিপ্ত অংশ",
+      "synonyms": [
+        "extract",
+        "passage",
+        "selection",
+        "fragment"
+      ],
+      "antonyms": [
+        "whole",
+        "entirety",
+        "full text",
+        "aggregate"
+      ],
+      "raw_synonyms": "extract, passage, selection, fragment",
+      "raw_antonyms": "whole, entirety, full text, aggregate",
+      "sentence": "The literature exam featured a short excerpt from Shakespeare's Hamlet.",
+      "sentence_meaning": "সাহিত্য পরীক্ষায় শেক্সপিয়রের হ্যামলেট থেকে একটি ছোট উদ্ধৃতাংশ অন্তর্ভুক্ত করা হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    }
+  ]
+}

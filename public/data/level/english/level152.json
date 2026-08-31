@@ -1,0 +1,133 @@
+{
+  "level_id": 152,
+  "title": "Level 152: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 756,
+      "word": "Reluctant",
+      "ipa": "/rɪˈlʌktənt/",
+      "pos": "adj",
+      "meaning": "অনিচ্ছুক, দ্বিধাগ্রস্ত",
+      "synonyms": [
+        "unwilling",
+        "hesitant",
+        "loath",
+        "averse"
+      ],
+      "antonyms": [
+        "eager",
+        "willing",
+        "enthusiastic",
+        "ready"
+      ],
+      "raw_synonyms": "unwilling, hesitant, loath, averse",
+      "raw_antonyms": "eager, willing, enthusiastic, ready",
+      "sentence": "The witness was reluctant to testify in court due to fears of criminal retaliation.",
+      "sentence_meaning": "অপরাধীদের প্রতিশোধের ভয়ে সাক্ষী আদালতে সাক্ষ্য দিতে অনিচ্ছুক ছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 757,
+      "word": "Substantial",
+      "ipa": "/səbˈstænʃl/",
+      "pos": "adj",
+      "meaning": "যথেষ্ট, বাস্তব, উল্লেখযোগ্য",
+      "synonyms": [
+        "significant",
+        "considerable",
+        "sizable",
+        "material"
+      ],
+      "antonyms": [
+        "insignificant",
+        "negligible",
+        "trivial",
+        "slight"
+      ],
+      "raw_synonyms": "significant, considerable, sizable, material",
+      "raw_antonyms": "insignificant, negligible, trivial, slight",
+      "sentence": "The government allocated a substantial portion of its national budget to education and healthcare reforms.",
+      "sentence_meaning": "শিক্ষা ও স্বাস্থ্যসেবা সংস্কারের জন্য সরকার তার জাতীয় বাজেটের একটি উল্লেখযোগ্য অংশ বরাদ্দ করেছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 758,
+      "word": "Scandal",
+      "ipa": "/ˈskændl/",
+      "pos": "n",
+      "meaning": "কেলেঙ্কারি, কলঙ্ক, মানহানি",
+      "synonyms": [
+        "disgrace",
+        "outrage",
+        "disrepute",
+        "infamy"
+      ],
+      "antonyms": [
+        "honor",
+        "credit",
+        "acclaim",
+        "praise"
+      ],
+      "raw_synonyms": "disgrace, outrage, disrepute, infamy",
+      "raw_antonyms": "honor, credit, acclaim, praise",
+      "sentence": "The corporate financial scandal led to the immediate resignation of the entire board of directors.",
+      "sentence_meaning": "করপোরেট আর্থিক কেলেঙ্কারির কারণে পরিচালনা পর্ষদের সকল সদস্য অবিলম্বে পদত্যাগ করতে বাধ্য হন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 759,
+      "word": "Scarcity",
+      "ipa": "/ˈskersəti/",
+      "pos": "n",
+      "meaning": "দুষ্প্রাপ্যতা, অভাব, স্বল্পতা",
+      "synonyms": [
+        "shortage",
+        "dearth",
+        "paucity",
+        "deficiency"
+      ],
+      "antonyms": [
+        "abundance",
+        "plenty",
+        "surplus",
+        "wealth"
+      ],
+      "raw_synonyms": "shortage, dearth, paucity, deficiency",
+      "raw_antonyms": "abundance, plenty, surplus, wealth",
+      "sentence": "The prolonged drought created an acute scarcity of potable drinking water across rural districts.",
+      "sentence_meaning": "দীর্ঘস্থায়ী খরার কারণে গ্রামীণ জেলাগুলোতে পানযোগ্য পানির তীব্র সংকট দেখা দিয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 760,
+      "word": "Sterile",
+      "ipa": "/ˈsterəl/",
+      "pos": "adj",
+      "meaning": "অনুর্বর, নিষ্ফলা, জীবাণুমুক্ত",
+      "synonyms": [
+        "aseptic",
+        "antiseptic",
+        "infertile",
+        "barren"
+      ],
+      "antonyms": [
+        "fertile",
+        "productive",
+        "contaminated",
+        "septic"
+      ],
+      "raw_synonyms": "aseptic, antiseptic, infertile, barren",
+      "raw_antonyms": "fertile, productive, contaminated, septic",
+      "sentence": "Surgeons must operate in a thoroughly sterile environment to prevent postoperative bacterial infections.",
+      "sentence_meaning": "অস্ত্রোপচার পরবর্তী ব্যাকটেরিয়াজনিত সংক্রমণ প্রতিরোধ করতে সার্জনদের অবশ্যই সম্পূর্ণ জীবাণুমুক্ত পরিবেশে কাজ করতে হয়।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

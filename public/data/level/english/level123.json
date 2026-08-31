@@ -1,0 +1,132 @@
+{
+  "level_id": 123,
+  "title": "Level 123: Word Transformation",
+  "unit": "Image 23 (image (23).jpg) - Transformation of Word",
+  "category": "Word Transformation",
+  "items": [
+    {
+      "id": 611,
+      "word": "Circle",
+      "ipa": "/ˈsɜːrkl/",
+      "pos": "n",
+      "meaning": "বৃত্ত, চক্র, মণ্ডলী",
+      "synonyms": [
+        "ring",
+        "loop",
+        "orbit",
+        "sphere"
+      ],
+      "antonyms": [
+        "linear shape",
+        "straight line",
+        "direct path"
+      ],
+      "raw_synonyms": "ring, loop, orbit, sphere",
+      "raw_antonyms": "linear shape, straight line, direct path",
+      "sentence": "The children held hands and danced happily around a large circle.",
+      "sentence_meaning": "শিশুরা একে অপরের হাত ধরে একটি বড় বৃত্তের চারপাশে সানন্দে নাচছিল।",
+      "category": "Word Transformation",
+      "unit": "Image 23 (image (23).jpg) - Transformation of Word"
+    },
+    {
+      "id": 612,
+      "word": "Clarity",
+      "ipa": "/ˈklærəti/",
+      "pos": "n",
+      "meaning": "স্পষ্টতা, স্বচ্ছতা",
+      "synonyms": [
+        "clearness",
+        "lucidity",
+        "transparency",
+        "coherence"
+      ],
+      "antonyms": [
+        "obscurity",
+        "vagueness",
+        "ambiguity",
+        "opacity"
+      ],
+      "raw_synonyms": "clearness, lucidity, transparency, coherence",
+      "raw_antonyms": "obscurity, vagueness, ambiguity, opacity",
+      "sentence": "The manager explained the project objectives with great clarity and precision.",
+      "sentence_meaning": "ম্যানেজার অত্যন্ত স্পষ্টতা ও নিখুঁততার সাথে প্রকল্পের উদ্দেশ্যগুলো ব্যাখ্যা করেছিলেন।",
+      "category": "Word Transformation",
+      "unit": "Image 23 (image (23).jpg) - Transformation of Word"
+    },
+    {
+      "id": 613,
+      "word": "Climax",
+      "ipa": "/ˈklaɪmæks/",
+      "pos": "n",
+      "meaning": "চরম পরিণতি, শীর্ষবিন্দু, ক্লাইম্যাক্স",
+      "synonyms": [
+        "peak",
+        "culmination",
+        "zenith",
+        "pinnacle"
+      ],
+      "antonyms": [
+        "anticlimax",
+        "nadir",
+        "base",
+        "beginning"
+      ],
+      "raw_synonyms": "peak, culmination, zenith, pinnacle",
+      "raw_antonyms": "anticlimax, nadir, base, beginning",
+      "sentence": "The thrilling novel reached its dramatic climax in the very last chapter.",
+      "sentence_meaning": "রোমাঞ্চকর উপন্যাসটি তার শেষ অধ্যায়ে এক নাটকীয় শীর্ষবিন্দুতে পৌঁছেছিল।",
+      "category": "Word Transformation",
+      "unit": "Image 23 (image (23).jpg) - Transformation of Word"
+    },
+    {
+      "id": 614,
+      "word": "Comfort",
+      "ipa": "/ˈkʌmfərt/",
+      "pos": "n",
+      "meaning": "আরাম, স্বস্তি, সান্ত্বনা",
+      "synonyms": [
+        "solace",
+        "consolation",
+        "ease",
+        "relief"
+      ],
+      "antonyms": [
+        "discomfort",
+        "distress",
+        "agony",
+        "unease"
+      ],
+      "raw_synonyms": "solace, consolation, ease, relief",
+      "raw_antonyms": "discomfort, distress, agony, unease",
+      "sentence": "She found deep comfort in reading inspiring literature during difficult times.",
+      "sentence_meaning": "কঠিন সময়ে অনুপ্রেরণাদায়ী সাহিত্য পড়ে তিনি গভীর স্বস্তি খুঁজে পেয়েছিলেন।",
+      "category": "Word Transformation",
+      "unit": "Image 23 (image (23).jpg) - Transformation of Word"
+    },
+    {
+      "id": 615,
+      "word": "Companion",
+      "ipa": "/kəmˈpænjən/",
+      "pos": "n",
+      "meaning": "সঙ্গী, সহচর",
+      "synonyms": [
+        "partner",
+        "comrade",
+        "associate",
+        "friend"
+      ],
+      "antonyms": [
+        "adversary",
+        "enemy",
+        "stranger",
+        "foe"
+      ],
+      "raw_synonyms": "partner, comrade, associate, friend",
+      "raw_antonyms": "adversary, enemy, stranger, foe",
+      "sentence": "A loyal dog proves to be a faithful companion throughout a person's life.",
+      "sentence_meaning": "একটি বিশ্বস্ত কুকুর মানুষের সারা জীবনের এক অনুগত সঙ্গী হিসেবে প্রমাণিত হয়।",
+      "category": "Word Transformation",
+      "unit": "Image 23 (image (23).jpg) - Transformation of Word"
+    }
+  ]
+}

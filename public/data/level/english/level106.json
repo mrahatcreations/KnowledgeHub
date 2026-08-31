@@ -1,0 +1,133 @@
+{
+  "level_id": 106,
+  "title": "Level 106: Idiom",
+  "unit": "Idioms & Phrases Table",
+  "category": "Idiom",
+  "items": [
+    {
+      "id": 526,
+      "word": "By dint of",
+      "ipa": "/baɪ dɪnt əv/",
+      "pos": "phrase",
+      "meaning": "সাহায্যে, শক্তিতে, বদৌলতে",
+      "synonyms": [
+        "by means of",
+        "by virtue of",
+        "through",
+        "on account of"
+      ],
+      "antonyms": [
+        "in spite of",
+        "without the aid of",
+        "regardless of",
+        "despite"
+      ],
+      "raw_synonyms": "by means of, by virtue of, through, on account of",
+      "raw_antonyms": "in spite of, without the aid of, regardless of, despite",
+      "sentence": "He rose from a modest background to become an eminent scholar by dint of sheer perseverance.",
+      "sentence_meaning": "একান্ত অধ্যবসায়ের বদৌলতে তিনি এক সাধারণ পরিবার থেকে উঠে এসে বিশিষ্ট পণ্ডিত হয়েছিলেন।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 527,
+      "word": "By hook or by crook",
+      "ipa": "/baɪ hʊk ɔːr baɪ krʊk/",
+      "pos": "phrase",
+      "meaning": "যে কোনো উপায়ে, সৎ বা অসৎ যে কোনো পথে",
+      "synonyms": [
+        "by any means",
+        "at all costs",
+        "somehow or other",
+        "by fair means or foul"
+      ],
+      "antonyms": [
+        "honestly",
+        "by ethical means",
+        "scrupulously",
+        "fairly"
+      ],
+      "raw_synonyms": "by any means, at all costs, somehow or other, by fair means or foul",
+      "raw_antonyms": "honestly, by ethical means, scrupulously, fairly",
+      "sentence": "The corrupt businessman was determined to win the lucrative government contract by hook or by crook.",
+      "sentence_meaning": "দুর্নীতিগ্রস্ত ব্যবসায়ী যেকোনো উপায়ে লাভজনক সরকারি চুক্তিটি পেতে বদ্ধপরিকর ছিল।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 528,
+      "word": "By fits and starts",
+      "ipa": "/baɪ fɪts ænd stɑːrts/",
+      "pos": "phrase",
+      "meaning": "অনিয়মিতভাবে, থেমে থেমে, খেয়ালখুশিমতো",
+      "synonyms": [
+        "irregularly",
+        "spasmodically",
+        "erratically",
+        "intermittently"
+      ],
+      "antonyms": [
+        "continuously",
+        "consistently",
+        "steadily",
+        "systematically"
+      ],
+      "raw_synonyms": "irregularly, spasmodically, erratically, intermittently",
+      "raw_antonyms": "continuously, consistently, steadily, systematically",
+      "sentence": "Because he worked on his manuscript only by fits and starts, it took him five years to complete the novel.",
+      "sentence_meaning": "থেমে থেমে ও অনিয়মিতভাবে কাজ করার কারণে উপন্যাসটি শেষ করতে তাঁর পাঁচ বছর লেগেছিল।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 529,
+      "word": "By leaps and bounds",
+      "ipa": "/baɪ liːps ænd baʊndz/",
+      "pos": "phrase",
+      "meaning": "দ্রুতগতিতে, অভাবনীয় গতিতে, লাফিয়ে লাফিয়ে",
+      "synonyms": [
+        "rapidly",
+        "swiftly",
+        "exponentially",
+        "apace"
+      ],
+      "antonyms": [
+        "slowly",
+        "gradually",
+        "sluggishly",
+        "inch by inch"
+      ],
+      "raw_synonyms": "rapidly, swiftly, exponentially, apace",
+      "raw_antonyms": "slowly, gradually, sluggishly, inch by inch",
+      "sentence": "Technological innovation in renewable energy is expanding by leaps and bounds worldwide.",
+      "sentence_meaning": "বিশ্বব্যাপী নবায়নযোগ্য জ্বালানির প্রযুক্তিগত উদ্ভাবন অভাবনীয় গতিতে প্রসারিত হচ্ছে।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 530,
+      "word": "By heart",
+      "ipa": "/baɪ hɑːrt/",
+      "pos": "phrase",
+      "meaning": "মুখস্থ, স্মৃতি থেকে নিখুঁতভাবে",
+      "synonyms": [
+        "from memory",
+        "word for word",
+        "verbatim",
+        "by rote"
+      ],
+      "antonyms": [
+        "from notes",
+        "imprecisely",
+        "with reference",
+        "forgetfully"
+      ],
+      "raw_synonyms": "from memory, word for word, verbatim, by rote",
+      "raw_antonyms": "from notes, imprecisely, with reference, forgetfully",
+      "sentence": "The young student recited the entire dramatic poem by heart without making a single error.",
+      "sentence_meaning": "তরুণ শিক্ষার্থীটি একটি ভুল না করেই পুরো নাটকীয় কবিতাটি মুখস্থ আবৃত্তি করেছিল।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    }
+  ]
+}

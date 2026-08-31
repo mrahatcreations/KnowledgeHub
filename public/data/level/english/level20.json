@@ -1,0 +1,133 @@
+{
+  "level_id": 20,
+  "title": "Level 20: Vocabulary",
+  "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 96,
+      "word": "Arduous",
+      "ipa": "/ˈɑːrdʒuəs/",
+      "pos": "adj",
+      "meaning": "শ্রমসাধ্য, দুঃসাধ্য, কষ্টকর",
+      "synonyms": [
+        "strenuous",
+        "laborious",
+        "taxing",
+        "challenging"
+      ],
+      "antonyms": [
+        "effortless",
+        "easy",
+        "facile",
+        "simple"
+      ],
+      "raw_synonyms": "strenuous, laborious, taxing, challenging",
+      "raw_antonyms": "effortless, easy, facile, simple",
+      "sentence": "Climbing Mount Everest requires months of preparation for an arduous physical journey.",
+      "sentence_meaning": "মাউন্ট এভারেস্টে আরোহণের জন্য একটি শ্রমসাধ্য ও কষ্টকর শারীরিক যাত্রার কয়েক মাসের প্রস্তুতি প্রয়োজন।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    },
+    {
+      "id": 97,
+      "word": "Arrogance",
+      "ipa": "/ˈærəɡəns/",
+      "pos": "n",
+      "meaning": "অহংকার, দাম্ভিকতা, উদ্ধত আচরণ",
+      "synonyms": [
+        "haughtiness",
+        "hubris",
+        "insolence",
+        "conceit"
+      ],
+      "antonyms": [
+        "humility",
+        "modesty",
+        "meekness",
+        "humbleness"
+      ],
+      "raw_synonyms": "haughtiness, hubris, insolence, conceit",
+      "raw_antonyms": "humility, modesty, meekness, humbleness",
+      "sentence": "His overbearing arrogance alienated many of his most talented team members.",
+      "sentence_meaning": "তাঁর চরম অহংকার তাঁর দলের বহু প্রতিভাবান সদস্যকে দূরে ঠেলে দিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    },
+    {
+      "id": 98,
+      "word": "Artless",
+      "ipa": "/ˈɑːrtləs/",
+      "pos": "adj",
+      "meaning": "ছলহীন, সরল ও অকপট, অকৃত্রিম",
+      "synonyms": [
+        "guileless",
+        "ingenuous",
+        "candid",
+        "naive"
+      ],
+      "antonyms": [
+        "cunning",
+        "deceitful",
+        "artful",
+        "scheming"
+      ],
+      "raw_synonyms": "guileless, ingenuous, candid, naive",
+      "raw_antonyms": "cunning, deceitful, artful, scheming",
+      "sentence": "The child replied with an artless sincerity that touched everyone in the room.",
+      "sentence_meaning": "শিশুটির অকপট ও অকৃত্রিম আন্তরিকতার উত্তর ঘরের প্রত্যেকের মন ছুঁয়ে গেল।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    },
+    {
+      "id": 99,
+      "word": "Astute",
+      "ipa": "/əˈstjuːt/",
+      "pos": "adj",
+      "meaning": "চতুর, বিচক্ষণ, তীক্ষ্ণ বুদ্ধিসম্পন্ন",
+      "synonyms": [
+        "shrewd",
+        "perceptive",
+        "insightful",
+        "canny"
+      ],
+      "antonyms": [
+        "naive",
+        "foolish",
+        "obtuse",
+        "witless"
+      ],
+      "raw_synonyms": "shrewd, perceptive, insightful, canny",
+      "raw_antonyms": "naive, foolish, obtuse, witless",
+      "sentence": "An astute financial investor recognizes lucrative market trends well before the general public.",
+      "sentence_meaning": "একজন বিচক্ষণ আর্থিক বিনিয়োগকারী সাধারণ মানুষের অনেক আগেই লাভজনক বাজারের গতিধারা বুঝতে পারেন।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    },
+    {
+      "id": 100,
+      "word": "Audacious",
+      "ipa": "/ɔːˈdeɪʃəs/",
+      "pos": "adj",
+      "meaning": "দুঃসাহসী, নির্ভীক, অতি সাহসী",
+      "synonyms": [
+        "bold",
+        "daring",
+        "intrepid",
+        "fearless"
+      ],
+      "antonyms": [
+        "timid",
+        "cautious",
+        "cowardly",
+        "hesitant"
+      ],
+      "raw_synonyms": "bold, daring, intrepid, fearless",
+      "raw_antonyms": "timid, cautious, cowardly, hesitant",
+      "sentence": "The young general formulated an audacious battle strategy that caught the enemy off guard.",
+      "sentence_meaning": "তরুণ সেনাপতি একটি দুঃসাহসী যুদ্ধকৌশল প্রণয়ন করেছিলেন যা শত্রুপক্ষকে অপ্রস্তুত অবস্থায় ফেলে দিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    }
+  ]
+}

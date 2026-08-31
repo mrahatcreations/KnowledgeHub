@@ -1,0 +1,133 @@
+{
+  "level_id": 23,
+  "title": "Level 23: Vocabulary",
+  "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 111,
+      "word": "Adamant",
+      "ipa": "/ˈædəmənt/",
+      "pos": "adj",
+      "meaning": "অনমনীয়, অনড়, দৃঢ়প্রতিজ্ঞ",
+      "synonyms": [
+        "unyielding",
+        "inflexible",
+        "resolute",
+        "stubborn"
+      ],
+      "antonyms": [
+        "flexible",
+        "compliant",
+        "yielding",
+        "pliant"
+      ],
+      "raw_synonyms": "unyielding, inflexible, resolute, stubborn",
+      "raw_antonyms": "flexible, compliant, yielding, pliant",
+      "sentence": "The committee remained adamant in its decision despite widespread public protests.",
+      "sentence_meaning": "ব্যাপক গণপ্রতিবাদ সত্ত্বেও কমিটি তাদের সিদ্ধান্তে অনড় ছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 112,
+      "word": "Adroit",
+      "ipa": "/əˈdrɔɪt/",
+      "pos": "adj",
+      "meaning": "দক্ষ, কুশলী, চতুর",
+      "synonyms": [
+        "skillful",
+        "dexterous",
+        "adept",
+        "nimble"
+      ],
+      "antonyms": [
+        "clumsy",
+        "awkward",
+        "inept",
+        "maladroit"
+      ],
+      "raw_synonyms": "skillful, dexterous, adept, nimble",
+      "raw_antonyms": "clumsy, awkward, inept, maladroit",
+      "sentence": "Through adroit political negotiations, the diplomat prevented an international armed conflict.",
+      "sentence_meaning": "কুশলী political আলোচনার মাধ্যমে কূটনীতিবিদ একটি আন্তর্জাতিক সশস্ত্র সংঘাত প্রতিরোধ করেন।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 113,
+      "word": "Amity",
+      "ipa": "/ˈæməti/",
+      "pos": "n",
+      "meaning": "বন্ধুত্বপূর্ণ সম্পর্ক, সৌহার্দ্য, সদ্ভাব",
+      "synonyms": [
+        "friendship",
+        "cordiality",
+        "harmony",
+        "goodwill"
+      ],
+      "antonyms": [
+        "enmity",
+        "hostility",
+        "animosity",
+        "antagonism"
+      ],
+      "raw_synonyms": "friendship, cordiality, harmony, goodwill",
+      "raw_antonyms": "enmity, hostility, animosity, antagonism",
+      "sentence": "The two neighboring countries signed a historic treaty to preserve long-term cross-border amity.",
+      "sentence_meaning": "প্রতিবেশী দুটি দেশ দীর্ঘমেয়াদী সীমান্ত সৌহার্দ্য বজায় রাখার জন্য একটি ঐতিহাসিক চুক্তি স্বাক্ষর করেছে।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 114,
+      "word": "Abandon",
+      "ipa": "/əˈbændən/",
+      "pos": "v",
+      "meaning": "পরিত্যাগ করা, ছেড়ে দেওয়া, বর্জন করা",
+      "synonyms": [
+        "desert",
+        "forsake",
+        "relinquish",
+        "vacate"
+      ],
+      "antonyms": [
+        "retain",
+        "maintain",
+        "preserve",
+        "keep"
+      ],
+      "raw_synonyms": "desert, forsake, relinquish, vacate",
+      "raw_antonyms": "retain, maintain, preserve, keep",
+      "sentence": "The sailors were forced to abandon the sinking ship during the violent storm.",
+      "sentence_meaning": "ভয়াবহ ঝড়ের সময় নাবিকরা ডুবন্ত জাহাজটি পরিত্যাগ করতে বাধ্য হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 115,
+      "word": "Abhor",
+      "ipa": "/əbˈhɔːr/",
+      "pos": "v",
+      "meaning": "তীব্র ঘৃণা করা, অত্যন্ত অপছন্দ করা",
+      "synonyms": [
+        "detest",
+        "loathe",
+        "despise",
+        "abominate"
+      ],
+      "antonyms": [
+        "adore",
+        "cherish",
+        "love",
+        "admire"
+      ],
+      "raw_synonyms": "detest, loathe, despise, abominate",
+      "raw_antonyms": "adore, cherish, love, admire",
+      "sentence": "Civilized societies abhor all forms of discrimination, violence, and injustice.",
+      "sentence_meaning": "সভ্য সমাজ সব ধরনের বৈষম্য, সহিংসতা এবং অবিচারকে তীব্রভাবে ঘৃণা করে।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    }
+  ]
+}

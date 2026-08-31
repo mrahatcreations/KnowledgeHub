@@ -1,0 +1,133 @@
+{
+  "level_id": 174,
+  "title": "Level 174: Idiom",
+  "unit": "Image 31 (image (31).jpg)",
+  "category": "Idiom",
+  "items": [
+    {
+      "id": 866,
+      "word": "Dog's age",
+      "ipa": "/dɔːɡz eɪdʒ/",
+      "pos": "phrase",
+      "meaning": "অনেক দীর্ঘ সময়, যুগ যুগ",
+      "synonyms": [
+        "a long time",
+        "ages",
+        "eternity",
+        "decades"
+      ],
+      "antonyms": [
+        "a brief moment",
+        "a short while",
+        "an instant",
+        "a split second"
+      ],
+      "raw_synonyms": "a long time, ages, eternity, decades",
+      "raw_antonyms": "a brief moment, a short while, an instant, a split second",
+      "sentence": "I have not crossed paths with my childhood classmates in a dog's age since moving overseas.",
+      "sentence_meaning": "বিদেশে চলে আসার পর থেকে দীর্ঘ বহু কাল যাবৎ আমি আমার শৈশবের সহপাঠীদের সাথে দেখা করিনি।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    },
+    {
+      "id": 867,
+      "word": "Dry facts",
+      "ipa": "/draɪ fækts/",
+      "pos": "phrase",
+      "meaning": "নীরস তথ্য, নিরেট বাস্তবতা",
+      "synonyms": [
+        "plain data",
+        "raw facts",
+        "unadorned truth",
+        "cold statistics"
+      ],
+      "antonyms": [
+        "embellished stories",
+        "fiction",
+        "rumors",
+        "colorful tales"
+      ],
+      "raw_synonyms": "plain data, raw facts, unadorned truth, cold statistics",
+      "raw_antonyms": "embellished stories, fiction, rumors, colorful tales",
+      "sentence": "Rather than relying on emotional rhetoric, the defense lawyer presented dry facts to persuade the jury.",
+      "sentence_meaning": "আবেগঘন বক্তব্যের উপর নির্ভর না করে, বিবাদী পক্ষের আইনজীবী জুরিকে বোঝাতে নিরেট তথ্য উপস্থাপন করেছিলেন।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    },
+    {
+      "id": 868,
+      "word": "Dead against",
+      "ipa": "/ded əˈɡeɪnst/",
+      "pos": "phrase",
+      "meaning": "চরম বা ঘোর বিরোধী, অনড়ভাবে প্রতিকূল",
+      "synonyms": [
+        "strongly opposed to",
+        "bitterly against",
+        "hostile to",
+        "unfavorable to"
+      ],
+      "antonyms": [
+        "in favor of",
+        "supportive of",
+        "in agreement with",
+        "advocating"
+      ],
+      "raw_synonyms": "strongly opposed to, bitterly against, hostile to, unfavorable to",
+      "raw_antonyms": "in favor of, supportive of, in agreement with, advocating",
+      "sentence": "Environmental groups are dead against the construction of a thermal power plant near the pristine national park.",
+      "sentence_meaning": "পরিবেশবাদী দলগুলো আদিম জাতীয় উদ্যানের কাছে তাপবিদ্যুৎ কেন্দ্র নির্মাণের ঘোর বিরোধী।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    },
+    {
+      "id": 869,
+      "word": "Die in harness",
+      "ipa": "/daɪ ɪn ˈhɑːrnɪs/",
+      "pos": "phrase",
+      "meaning": "কর্মরত বা চাকুরিরত অবস্থায় মৃত্যুবরণ করা",
+      "synonyms": [
+        "die on duty",
+        "die before retirement",
+        "perish in service",
+        "pass away while active"
+      ],
+      "antonyms": [
+        "retire",
+        "live in leisure",
+        "step down",
+        "survive into pension"
+      ],
+      "raw_synonyms": "die on duty, die before retirement, perish in service, pass away while active",
+      "raw_antonyms": "retire, live in leisure, step down, survive into pension",
+      "sentence": "The dedicated judge wished to die in harness rather than spend his golden years away from the courtroom.",
+      "sentence_meaning": "নিবেদিতপ্রাণ বিচারপতি আদালত প্রাঙ্গণ থেকে দূরে অবসর জীবন কাটানোর চেয়ে কর্মরত অবস্থায় মৃত্যুবরণ করতে চেয়েছিলেন।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    },
+    {
+      "id": 870,
+      "word": "Dark horse",
+      "ipa": "/ˌdɑːrk ˈhɔːrs/",
+      "pos": "phrase",
+      "meaning": "অপ্রত্যাশিত বিজয়ী, যার জয়ের সম্ভাবনা পূর্বানুমান করা যায়নি",
+      "synonyms": [
+        "unforeseen winner",
+        "unknown quantity",
+        "surprise contender",
+        "underdog victor"
+      ],
+      "antonyms": [
+        "clear favorite",
+        "expected winner",
+        "frontrunner",
+        "top seed"
+      ],
+      "raw_synonyms": "unforeseen winner, unknown quantity, surprise contender, underdog victor",
+      "raw_antonyms": "clear favorite, expected winner, frontrunner, top seed",
+      "sentence": "Starting as an underdog, the young gymnast proved to be the dark horse of the international tournament.",
+      "sentence_meaning": "শুরুতে অবহেলিত থাকলেও তরুণ জিমন্যাস্টটি আন্তর্জাতিক টুর্নামেন্টে অপ্রত্যাশিত বিজয়ী বা চমক হিসেবে আত্মপ্রকাশ করেছিল।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    }
+  ]
+}

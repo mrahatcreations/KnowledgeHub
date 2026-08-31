@@ -1,0 +1,133 @@
+{
+  "level_id": 3,
+  "title": "Level 3: Vocabulary",
+  "unit": "Image 1: Vocabulary (Unit-1)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 11,
+      "word": "Adaptive",
+      "ipa": "/əˈdæptɪv/",
+      "pos": "adj",
+      "meaning": "অভিযোজ্য, পরিবর্তনক্ষম",
+      "synonyms": [
+        "adaptable",
+        "flexible",
+        "adjustable",
+        "versatile"
+      ],
+      "antonyms": [
+        "inflexible",
+        "rigid",
+        "unyielding",
+        "fixed"
+      ],
+      "raw_synonyms": "adaptable, flexible, adjustable, versatile",
+      "raw_antonyms": "inflexible, rigid, unyielding, fixed",
+      "sentence": "An adaptive learning algorithm adjusts the difficulty level based on user performance.",
+      "sentence_meaning": "একটি অভিযোজ্য লার্নিং অ্যালগরিদম ব্যবহারকারীর পারফরম্যান্সের ওপর ভিত্তি করে কঠিনতার মাত্রা সামঞ্জস্য করে।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 12,
+      "word": "Constructive",
+      "ipa": "/kənˈstrʌktɪv/",
+      "pos": "adj",
+      "meaning": "গঠনমূলক, সহায়ক",
+      "synonyms": [
+        "helpful",
+        "productive",
+        "beneficial",
+        "positive"
+      ],
+      "antonyms": [
+        "destructive",
+        "harmful",
+        "negative",
+        "detrimental"
+      ],
+      "raw_synonyms": "helpful, productive, beneficial, positive",
+      "raw_antonyms": "destructive, harmful, negative, detrimental",
+      "sentence": "Her constructive suggestions significantly improved the team's presentation strategy.",
+      "sentence_meaning": "তার গঠনমূলক পরামর্শ দলের উপস্থাপনা কৌশলে উল্লেখযোগ্য উন্নতি এনেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 13,
+      "word": "Unique",
+      "ipa": "/juˈniːk/",
+      "pos": "adj",
+      "meaning": "অনন্য, অদ্বিতীয়",
+      "synonyms": [
+        "distinctive",
+        "unmatched",
+        "singular",
+        "exceptional"
+      ],
+      "antonyms": [
+        "common",
+        "ordinary",
+        "typical",
+        "conventional"
+      ],
+      "raw_synonyms": "distinctive, unmatched, singular, exceptional",
+      "raw_antonyms": "common, ordinary, typical, conventional",
+      "sentence": "Every individual possesses a unique set of skills and perspectives.",
+      "sentence_meaning": "প্রত্যেক ব্যক্তির নিজস্ব দক্ষতা এবং দৃষ্টিভঙ্গির এক অনন্য সমন্বয় থাকে।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 14,
+      "word": "Redundant",
+      "ipa": "/rɪˈdʌndənt/",
+      "pos": "adj",
+      "meaning": "অপ্রয়োজনীয়, বাড়তি",
+      "synonyms": [
+        "unnecessary",
+        "superfluous",
+        "surplus",
+        "needless"
+      ],
+      "antonyms": [
+        "essential",
+        "necessary",
+        "indispensable",
+        "vital"
+      ],
+      "raw_synonyms": "unnecessary, superfluous, surplus, needless",
+      "raw_antonyms": "essential, necessary, indispensable, vital",
+      "sentence": "Editing out redundant words made the essay concise and compelling.",
+      "sentence_meaning": "অপ্রয়োজনীয় শব্দগুলো বাদ দেওয়ায় প্রবন্ধটি সংক্ষিপ্ত এবং জোরালো হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 15,
+      "word": "Implement",
+      "ipa": "/ˈɪmplɪment/",
+      "pos": "v",
+      "meaning": "বাস্তবায়ন করা, কার্যকর করা",
+      "synonyms": [
+        "execute",
+        "enforce",
+        "apply",
+        "enact"
+      ],
+      "antonyms": [
+        "cancel",
+        "neglect",
+        "hinder",
+        "repeal"
+      ],
+      "raw_synonyms": "execute, enforce, apply, enact",
+      "raw_antonyms": "cancel, neglect, hinder, repeal",
+      "sentence": "The government plans to implement strict environmental regulations starting next year.",
+      "sentence_meaning": "সরকার আগামী বছর থেকে কঠোর পরিবেশগত বিধিবিধান বাস্তবায়ন করার পরিকল্পনা করছে।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    }
+  ]
+}

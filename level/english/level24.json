@@ -1,0 +1,133 @@
+{
+  "level_id": 24,
+  "title": "Level 24: Vocabulary",
+  "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 116,
+      "word": "Abolish",
+      "ipa": "/əˈbɒlɪʃ/",
+      "pos": "v",
+      "meaning": "বিলুপ্ত করা, রদ করা, বাতিল করা",
+      "synonyms": [
+        "eradicate",
+        "eliminate",
+        "annul",
+        "repeal"
+      ],
+      "antonyms": [
+        "establish",
+        "institute",
+        "enact",
+        "create"
+      ],
+      "raw_synonyms": "eradicate, eliminate, annul, repeal",
+      "raw_antonyms": "establish, institute, enact, create",
+      "sentence": "Reformers campaigned tirelessly to abolish archaic laws that restricted civil liberties.",
+      "sentence_meaning": "সংস্কারকরা নাগরিক অধিকার খর্বকারী প্রাচীন আইনগুলি বাতিল করার জন্য অক্লান্ত প্রচারণা চালান।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 117,
+      "word": "Abortive",
+      "ipa": "/əˈbɔːrtɪv/",
+      "pos": "adj",
+      "meaning": "ব্যর্থ, ফলহীন, নিষ্ফল",
+      "synonyms": [
+        "unsuccessful",
+        "futile",
+        "fruitless",
+        "vain"
+      ],
+      "antonyms": [
+        "successful",
+        "fruitful",
+        "productive",
+        "effective"
+      ],
+      "raw_synonyms": "unsuccessful, futile, fruitless, vain",
+      "raw_antonyms": "successful, fruitful, productive, effective",
+      "sentence": "The military launched an abortive coup attempt that was swiftly foiled by government forces.",
+      "sentence_meaning": "সামরিক বাহিনী একটি ব্যর্থ অভ্যুত্থানের চেষ্টা করেছিল যা সরকারি বাহিনী দ্রুত ব্যর্থ করে দেয়।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 118,
+      "word": "Abridge",
+      "ipa": "/əˈbrɪdʒ/",
+      "pos": "v",
+      "meaning": "সংক্ষেপ করা, খর্ব করা বা কাটছাঁট করা",
+      "synonyms": [
+        "condense",
+        "truncate",
+        "curtail",
+        "abbreviate"
+      ],
+      "antonyms": [
+        "expand",
+        "extend",
+        "lengthen",
+        "prolong"
+      ],
+      "raw_synonyms": "condense, truncate, curtail, abbreviate",
+      "raw_antonyms": "expand, extend, lengthen, prolong",
+      "sentence": "Freedom of speech is a fundamental right that the state should never unlawfully abridge.",
+      "sentence_meaning": "বাকস্বাধীনতা একটি মৌলিক অধিকার যা রাষ্ট্রের কখনো বেআইনিভাবে খর্ব করা উচিত নয়।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 119,
+      "word": "Abrupt",
+      "ipa": "/əˈbrʌpt/",
+      "pos": "adj",
+      "meaning": "হঠাৎ, আকস্মিক, অপ্রত্যাশিত",
+      "synonyms": [
+        "sudden",
+        "unexpected",
+        "precipitous",
+        "blunt"
+      ],
+      "antonyms": [
+        "gradual",
+        "smooth",
+        "gentle",
+        "expected"
+      ],
+      "raw_synonyms": "sudden, unexpected, precipitous, blunt",
+      "raw_antonyms": "gradual, smooth, gentle, expected",
+      "sentence": "The conference was brought to an abrupt halt when the fire alarm began sounding.",
+      "sentence_meaning": "ফায়ার অ্যালার্ম বাজতে শুরু করলে সম্মেলনটি হঠাৎ স্থগিত হয়ে যায়।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 120,
+      "word": "Abstract",
+      "ipa": "/ˈæbstrækt/",
+      "pos": "adj",
+      "meaning": "বিমূর্ত, ভাবমূলক, তত্ত্বীয়",
+      "synonyms": [
+        "conceptual",
+        "theoretical",
+        "intangible",
+        "hypothetical"
+      ],
+      "antonyms": [
+        "concrete",
+        "tangible",
+        "physical",
+        "material"
+      ],
+      "raw_synonyms": "conceptual, theoretical, intangible, hypothetical",
+      "raw_antonyms": "concrete, tangible, physical, material",
+      "sentence": "Philosophy often deals with abstract concepts such as justice, virtue, and truth.",
+      "sentence_meaning": "দর্শন প্রায়শই ন্যায়বিচার, গুণ এবং সত্যের মতো বিমূর্ত ধারণা নিয়ে আলোচনা করে।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "level_id": 36,
+  "title": "Level 36: Appropriate Preposition",
+  "unit": "Image 6: Appropriate Prepositions",
+  "category": "Appropriate Preposition",
+  "items": [
+    {
+      "id": 176,
+      "word": "Accede to",
+      "ipa": "/əkˈsiːd tuː/",
+      "pos": "prep",
+      "meaning": "অনুরোধ বা প্রস্তাবে সম্মতি দেওয়া",
+      "synonyms": [
+        "agree to",
+        "consent to",
+        "comply with",
+        "yield to"
+      ],
+      "antonyms": [
+        "refuse",
+        "decline",
+        "reject",
+        "oppose"
+      ],
+      "raw_synonyms": "agree to, consent to, comply with, yield to",
+      "raw_antonyms": "refuse, decline, reject, oppose",
+      "sentence": "The management finally decided to accede to the union's reasonable demands for overtime pay.",
+      "sentence_meaning": "কর্তৃপক্ষ অবশেষে ওভারটাইম ভাতার জন্য শ্রমিক ইউনিয়নের যৌক্তিক দাবিতে সম্মতি দেওয়ার সিদ্ধান্ত নিয়েছে।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 177,
+      "word": "Accused of",
+      "ipa": "/əˈkjuːzd ɒv/",
+      "pos": "prep",
+      "meaning": "কোনো অপরাধে অভিযুক্ত",
+      "synonyms": [
+        "charged with",
+        "indicted for",
+        "blamed for",
+        "alleged of"
+      ],
+      "antonyms": [
+        "cleared of",
+        "absolved of",
+        "acquitted of",
+        "exonerated from"
+      ],
+      "raw_synonyms": "charged with, indicted for, blamed for, alleged of",
+      "raw_antonyms": "cleared of, absolved of, acquitted of, exonerated from",
+      "sentence": "The former executive was accused of embezzling company assets for personal gain.",
+      "sentence_meaning": "সাবেক নির্বাহী কর্মকর্তার বিরুদ্ধে ব্যক্তিগত লাভের জন্য কোম্পানির সম্পদ আত্মসাতের অভিযোগ আনা হয়েছিল।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 178,
+      "word": "Accustomed to",
+      "ipa": "/əˈkʌstəmd tuː/",
+      "pos": "prep",
+      "meaning": "কোনো কিছুতে অভ্যস্ত",
+      "synonyms": [
+        "used to",
+        "habituated to",
+        "familiar with",
+        "acclimated to"
+      ],
+      "antonyms": [
+        "unaccustomed to",
+        "unused to",
+        "unfamiliar with",
+        "unacquainted with"
+      ],
+      "raw_synonyms": "used to, habituated to, familiar with, acclimated to",
+      "raw_antonyms": "unaccustomed to, unused to, unfamiliar with, unacquainted with",
+      "sentence": "Coming from a tropical country, he was not accustomed to harsh Scandinavian winter temperatures.",
+      "sentence_meaning": "একটি গ্রীষ্মমণ্ডলীয় দেশ থেকে আসায় তিনি তীব্র স্ক্যান্ডিনেভিয়ান শীতকালীন তাপমাত্রায় অভ্যস্ত ছিলেন না।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 179,
+      "word": "Afraid of",
+      "ipa": "/əˈfreɪd ɒv/",
+      "pos": "prep",
+      "meaning": "কোনো কিছুতে ভীত বা শঙ্কিত",
+      "synonyms": [
+        "scared of",
+        "fearful of",
+        "terrified of",
+        "frightened of"
+      ],
+      "antonyms": [
+        "unafraid of",
+        "fearless of",
+        "bold about",
+        "confident of"
+      ],
+      "raw_synonyms": "scared of, fearful of, terrified of, frightened of",
+      "raw_antonyms": "unafraid of, fearless of, bold about, confident of",
+      "sentence": "The little boy was afraid of the dark and refused to sleep without a nightlight.",
+      "sentence_meaning": "ছোট ছেলেটি অন্ধকারকে ভয় পেত এবং মৃদু আলো ছাড়া ঘুমাতে অস্বীকৃতি জানিয়েছিল।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 180,
+      "word": "Aim at",
+      "ipa": "/eɪm æt/",
+      "pos": "prep",
+      "meaning": "কোনো লক্ষ্য স্থির করে তাক করা বা নিশানা করা",
+      "synonyms": [
+        "target",
+        "focus on",
+        "direct at",
+        "aspire to"
+      ],
+      "antonyms": [
+        "miss",
+        "stray from",
+        "deviate from",
+        "disregard"
+      ],
+      "raw_synonyms": "target, focus on, direct at, aspire to",
+      "raw_antonyms": "miss, stray from, deviate from, disregard",
+      "sentence": "The marksman took careful aim at the distant bullseye before pressing the trigger.",
+      "sentence_meaning": "নিশানাবাজ ট্রিগার চাপার আগে দূরের লক্ষ্যের কেন্দ্রবিন্দুতে সতর্কতার সাথে তাক করলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    }
+  ]
+}

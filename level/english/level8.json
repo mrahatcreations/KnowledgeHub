@@ -1,0 +1,129 @@
+{
+  "level_id": 8,
+  "title": "Level 8: Vocabulary",
+  "unit": "Image 1: Vocabulary (Unit-1)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 36,
+      "word": "Memoir",
+      "ipa": "/ˈmemwɑːr/",
+      "pos": "n",
+      "meaning": "স্মৃতিকথা, আত্মজীবনীমূলক বিবরণ",
+      "synonyms": [
+        "autobiography",
+        "reminiscence",
+        "chronicle",
+        "biography"
+      ],
+      "antonyms": [
+        "fiction",
+        "fantasy",
+        "novel"
+      ],
+      "raw_synonyms": "autobiography, reminiscence, chronicle, biography",
+      "raw_antonyms": "fiction, fantasy, novel",
+      "sentence": "In his bestselling memoir, the former diplomat recounted his secret peace negotiations.",
+      "sentence_meaning": "তার সর্বাধিক বিক্রিত স্মৃতিকথায় সাবেক কূটনীতিক তার গোপন শান্তি আলোচনার বিবরণ দিয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 37,
+      "word": "Twigs",
+      "ipa": "/twɪɡz/",
+      "pos": "n",
+      "meaning": "ছোট ডালপালা, পল্লব",
+      "synonyms": [
+        "branches",
+        "sprigs",
+        "offshoots",
+        "sticks"
+      ],
+      "antonyms": [
+        "trunks",
+        "roots",
+        "stems"
+      ],
+      "raw_synonyms": "branches, sprigs, offshoots, sticks",
+      "raw_antonyms": "trunks, roots, stems",
+      "sentence": "The bird carefully gathered dry twigs and feathers to build its nest.",
+      "sentence_meaning": "পাখিটি বাসা বানানোর জন্য সাবধানে শুকনো ডালপালা এবং পালক সংগ্রহ করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 38,
+      "word": "Askew",
+      "ipa": "/əˈskjuː/",
+      "pos": "adv",
+      "meaning": "বাঁকাভাবে, তির্যকভাবে",
+      "synonyms": [
+        "crookedly",
+        "awry",
+        "lopsidedly",
+        "unevenly"
+      ],
+      "antonyms": [
+        "straight",
+        "evenly",
+        "symmetrically",
+        "aligned"
+      ],
+      "raw_synonyms": "crookedly, awry, lopsidedly, unevenly",
+      "raw_antonyms": "straight, evenly, symmetrically, aligned",
+      "sentence": "The sudden earthquake left all the picture frames hanging askew on the wall.",
+      "sentence_meaning": "আকস্মিক ভূমিকম্পের ফলে দেয়ালের সব ছবির ফ্রেম বাঁকা হয়ে ঝুলে রইল।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 39,
+      "word": "Peer",
+      "ipa": "/pɪər/",
+      "pos": "v",
+      "meaning": "উঁকি দেওয়া, সতর্ক দৃষ্টিতে তাকানো",
+      "synonyms": [
+        "gaze",
+        "peep",
+        "scrutinize",
+        "squint"
+      ],
+      "antonyms": [
+        "ignore",
+        "glance away",
+        "overlook"
+      ],
+      "raw_synonyms": "gaze, peep, scrutinize, squint",
+      "raw_antonyms": "ignore, glance away, overlook",
+      "sentence": "She stepped closer to the misted window to peer into the dark garden.",
+      "sentence_meaning": "কুয়াশাচ্ছন্ন জানালার কাছে এগিয়ে গিয়ে তিনি অন্ধকার বাগানের দিকে উঁকি দিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 40,
+      "word": "Shrubbery",
+      "ipa": "/ˈʃrʌbəri/",
+      "pos": "n",
+      "meaning": "ঝোপঝাড়, গুল্ম উদ্যান",
+      "synonyms": [
+        "bushes",
+        "undergrowth",
+        "thicket",
+        "hedges"
+      ],
+      "antonyms": [
+        "meadow",
+        "clearing",
+        "grassland"
+      ],
+      "raw_synonyms": "bushes, undergrowth, thicket, hedges",
+      "raw_antonyms": "meadow, clearing, grassland",
+      "sentence": "The gardener neatly pruned the shrubbery bordering the palace pathway.",
+      "sentence_meaning": "মালি প্রাসাদের পথের ধারে অবস্থিত ঝোপঝাড় পরিপাটি করে ছেঁটে ফেলেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    }
+  ]
+}

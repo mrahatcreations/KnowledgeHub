@@ -1,0 +1,132 @@
+{
+  "level_id": 141,
+  "title": "Level 141: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 701,
+      "word": "Consist in",
+      "ipa": "/kənˈsɪst ɪn/",
+      "pos": "phrase",
+      "meaning": "নিহিত থাকা, মূল ভিত্তি হওয়া",
+      "synonyms": [
+        "lie in",
+        "reside in",
+        "exist in",
+        "inhere in"
+      ],
+      "antonyms": [
+        "differ from",
+        "exclude",
+        "deviate from"
+      ],
+      "raw_synonyms": "lie in, reside in, exist in, inhere in",
+      "raw_antonyms": "differ from, exclude, deviate from",
+      "sentence": "True happiness consists in enjoying the present without anxious dependence on the future.",
+      "sentence_meaning": "ভবিষ্যতের ওপর উদ্বিগ্ন নির্ভরতা ছাড়া বর্তমানকে উপভোগ করার মধ্যেই প্রকৃত সুখ নিহিত থাকে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 702,
+      "word": "Intrepid",
+      "ipa": "/ɪnˈtrepɪd/",
+      "pos": "adj",
+      "meaning": "নির্ভীক, অকুতোভয়, সাহসী",
+      "synonyms": [
+        "fearless",
+        "dauntless",
+        "courageous",
+        "valiant"
+      ],
+      "antonyms": [
+        "cowardly",
+        "timid",
+        "fearful",
+        "apprehensive"
+      ],
+      "raw_synonyms": "fearless, dauntless, courageous, valiant",
+      "raw_antonyms": "cowardly, timid, fearful, apprehensive",
+      "sentence": "The intrepid explorers ventured into the uncharted arctic wilderness despite freezing blizzards.",
+      "sentence_meaning": "হিমশীতল তুষারঝড় সত্ত্বেও নির্ভীক অভিযাত্রীরা অজানা সুমেরু প্রান্তরে অভিযান পরিচালনা করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 703,
+      "word": "Indolent",
+      "ipa": "/ˈɪndələnt/",
+      "pos": "adj",
+      "meaning": "অলস, কর্মবিমুখ, শ্রমবিমুখ",
+      "synonyms": [
+        "lazy",
+        "slothful",
+        "idle",
+        "inactive"
+      ],
+      "antonyms": [
+        "diligent",
+        "industrious",
+        "energetic",
+        "active"
+      ],
+      "raw_synonyms": "lazy, slothful, idle, inactive",
+      "raw_antonyms": "diligent, industrious, energetic, active",
+      "sentence": "An indolent lifestyle with little physical exercise drastically increases the likelihood of chronic illnesses.",
+      "sentence_meaning": "শারীরিক ব্যায়ামহীন এক অলস জীবনযাপন দীর্ঘস্থায়ী অসুস্থতার ঝুঁকি ব্যাপকভাবে বাড়িয়ে দেয়।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 704,
+      "word": "Introspective",
+      "ipa": "/ˌɪntrəˈspektɪv/",
+      "pos": "adj",
+      "meaning": "আত্মবিশ্লেষণমূলক, অন্তর্মুখী চিন্তাশীল",
+      "synonyms": [
+        "reflective",
+        "contemplative",
+        "pensive",
+        "meditative"
+      ],
+      "antonyms": [
+        "extroverted",
+        "outgoing",
+        "unreflective",
+        "superficial"
+      ],
+      "raw_synonyms": "reflective, contemplative, pensive, meditative",
+      "raw_antonyms": "extroverted, outgoing, unreflective, superficial",
+      "sentence": "The author's introspective novel delves deeply into themes of identity, memory, and personal grief.",
+      "sentence_meaning": "লেখকের আত্মবিশ্লেষণমূলক উপন্যাসটি পরিচয়, স্মৃতি এবং ব্যক্তিগত শোকের গভীর বিষয়গুলোকে উন্মোচিত করে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 705,
+      "word": "In lieu of",
+      "ipa": "/ɪn ˈluː əv/",
+      "pos": "phrase",
+      "meaning": "পরিবর্তে, বদলে",
+      "synonyms": [
+        "instead of",
+        "in place of",
+        "as a substitute for",
+        "rather than"
+      ],
+      "antonyms": [
+        "in addition to",
+        "along with",
+        "together with",
+        "besides"
+      ],
+      "raw_synonyms": "instead of, in place of, as a substitute for, rather than",
+      "raw_antonyms": "in addition to, along with, together with, besides",
+      "sentence": "The company offered additional stock options in lieu of an annual cash bonus to executive managers.",
+      "sentence_meaning": "কোম্পানিটি নির্বাহী কর্মকর্তাদের বার্ষিক নগদ বোনাসের পরিবর্তে অতিরিক্ত স্টক অপশন দেওয়ার প্রস্তাব করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "level_id": 102,
+  "title": "Level 102: Idiom",
+  "unit": "Idioms & Phrases Table",
+  "category": "Idiom",
+  "items": [
+    {
+      "id": 506,
+      "word": "Blank cheque",
+      "ipa": "/blæŋk tʃɛk/",
+      "pos": "phrase",
+      "meaning": "ইচ্ছেমতো পদক্ষেপ নেওয়ার অবাধ ক্ষমতা বা পূর্ণ স্বাধীনতা",
+      "synonyms": [
+        "carte blanche",
+        "free hand",
+        "unlimited freedom",
+        "open authority"
+      ],
+      "antonyms": [
+        "strict limitation",
+        "restriction",
+        "constraint",
+        "tight control"
+      ],
+      "raw_synonyms": "carte blanche, free hand, unlimited freedom, open authority",
+      "raw_antonyms": "strict limitation, restriction, constraint, tight control",
+      "sentence": "The board gave the new CEO a blank cheque to restructure the struggling department.",
+      "sentence_meaning": "পরিচালনা পর্ষদ নতুন প্রধান নির্বাহীকে সমস্যাগ্রস্ত বিভাগটি পুনর্গঠনের জন্য পূর্ণ স্বাধীনতা প্রদান করেছিল।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 507,
+      "word": "Back in harness",
+      "ipa": "/bæk ɪn ˈhɑːr.nəs/",
+      "pos": "phrase",
+      "meaning": "ছুটি বা অসুস্থতার পর পুনরায় কর্মক্ষেত্রে ফেরা",
+      "synonyms": [
+        "back at work",
+        "resuming duty",
+        "reemployed",
+        "active again"
+      ],
+      "antonyms": [
+        "on leave",
+        "retired",
+        "vacationing",
+        "off-duty"
+      ],
+      "raw_synonyms": "back at work, resuming duty, reemployed, active again",
+      "raw_antonyms": "on leave, retired, vacationing, off-duty",
+      "sentence": "After recovering from surgery for three weeks, she was delighted to be back in harness.",
+      "sentence_meaning": "তিন সপ্তাহ অস্ত্রোপচার থেকে সেরে ওঠার পর তিনি পুনরায় কাজে ফিরতে পেরে আনন্দিত ছিলেন।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 508,
+      "word": "Bon voyage",
+      "ipa": "/ˌbɒn vwaɪˈɑːʒ/",
+      "pos": "phrase",
+      "meaning": "শুভ যাত্রা, যাত্রার শুভকামনা জ্ঞাপন",
+      "synonyms": [
+        "safe journey",
+        "farewell",
+        "godspeed",
+        "happy travels"
+      ],
+      "antonyms": [
+        "welcome back",
+        "welcome home",
+        "arrival greeting"
+      ],
+      "raw_synonyms": "safe journey, farewell, godspeed, happy travels",
+      "raw_antonyms": "welcome back, welcome home, arrival greeting",
+      "sentence": "Friends and family gathered at the airport to wish him bon voyage before his flight to London.",
+      "sentence_meaning": "লন্ডনগামী বিমানের আগে তাঁকে শুভ যাত্রা জানাতে বন্ধু ও স্বজনরা বিমানবন্দরে জড়ো হয়েছিলেন।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 509,
+      "word": "Blue-chip",
+      "ipa": "/ˈbluː.tʃɪp/",
+      "pos": "adj",
+      "meaning": "অত্যন্ত নির্ভরযোগ্য, লাভজনক এবং সুপ্রতিষ্ঠিত",
+      "synonyms": [
+        "top-tier",
+        "high-grade",
+        "reliable",
+        "prestigious"
+      ],
+      "antonyms": [
+        "risky",
+        "unreliable",
+        "speculative",
+        "penny-stock"
+      ],
+      "raw_synonyms": "top-tier, high-grade, reliable, prestigious",
+      "raw_antonyms": "risky, unreliable, speculative, penny-stock",
+      "sentence": "Conservative investors prefer putting their savings into shares of blue-chip corporations.",
+      "sentence_meaning": "রক্ষণশীল বিনিয়োগকারীরা তাঁদের সঞ্চয় সুপ্রতিষ্ঠিত ও নির্ভরযোগ্য প্রতিষ্ঠানের শেয়ারে বিনিয়োগ করতে পছন্দ করেন।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 510,
+      "word": "Beggar description",
+      "ipa": "/ˈbɛɡ.ər dɪˈskrɪp.ʃən/",
+      "pos": "phrase",
+      "meaning": "বর্ণনাতীত হওয়া, ভাষায় প্রকাশ করা অসম্ভব হওয়া",
+      "synonyms": [
+        "defy description",
+        "be indescribable",
+        "elude explanation",
+        "baffle description"
+      ],
+      "antonyms": [
+        "be easily describable",
+        "be predictable",
+        "be mundane",
+        "be ordinary"
+      ],
+      "raw_synonyms": "defy description, be indescribable, elude explanation, baffle description",
+      "raw_antonyms": "be easily describable, be predictable, be mundane, be ordinary",
+      "sentence": "The breathtaking beauty of the sunrise over the Himalayan peaks beggared description.",
+      "sentence_meaning": "হিমালয় পর্বতমালার শৃঙ্গে সূর্যোদয়ের শ্বাসরুদ্ধকর সৌন্দর্য ছিল ভাষায় বর্ণনাতীত।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "level_id": 121,
+  "title": "Level 121: Word Transformation",
+  "unit": "Image 23 (image (23).jpg) - Transformation of Word",
+  "category": "Word Transformation",
+  "items": [
+    {
+      "id": 601,
+      "word": "Blessing",
+      "ipa": "/ˈblesɪŋ/",
+      "pos": "n",
+      "meaning": "আশীর্বাদ, পরম অনুগ্রহ",
+      "synonyms": [
+        "benediction",
+        "boon",
+        "grace",
+        "favor"
+      ],
+      "antonyms": [
+        "curse",
+        "bane",
+        "malediction",
+        "affliction"
+      ],
+      "raw_synonyms": "benediction, boon, grace, favor",
+      "raw_antonyms": "curse, bane, malediction, affliction",
+      "sentence": "Good health and a supportive family are truly the greatest blessings in life.",
+      "sentence_meaning": "উত্তম স্বাস্থ্য এবং একটি সহায়ক পরিবার প্রকৃতপক্ষে জীবনের সর্বশ্রেষ্ঠ আশীর্বাদ।",
+      "category": "Word Transformation",
+      "unit": "Image 23 (image (23).jpg) - Transformation of Word"
+    },
+    {
+      "id": 602,
+      "word": "Blood",
+      "ipa": "/blʌd/",
+      "pos": "n",
+      "meaning": "রক্ত, শোণিত",
+      "synonyms": [
+        "vital fluid",
+        "bloodstream",
+        "lifeblood",
+        "plasma"
+      ],
+      "antonyms": [
+        "lifelessness",
+        "inanimate substance"
+      ],
+      "raw_synonyms": "vital fluid, bloodstream, lifeblood, plasma",
+      "raw_antonyms": "lifelessness, inanimate substance",
+      "sentence": "Donating blood at the local hospital can save the lives of emergency patients.",
+      "sentence_meaning": "স্থানীয় হাসপাতালে রক্ত দান করা জরুরি রোগীদের জীবন বাঁচাতে পারে।",
+      "category": "Word Transformation",
+      "unit": "Image 23 (image (23).jpg) - Transformation of Word"
+    },
+    {
+      "id": 603,
+      "word": "Book",
+      "ipa": "/bʊk/",
+      "pos": "n",
+      "meaning": "বই, গ্রন্থ, পুস্তক",
+      "synonyms": [
+        "volume",
+        "tome",
+        "publication",
+        "manuscript"
+      ],
+      "antonyms": [
+        "unwritten lore",
+        "blank scroll"
+      ],
+      "raw_synonyms": "volume, tome, publication, manuscript",
+      "raw_antonyms": "unwritten lore, blank scroll",
+      "sentence": "The professor published a comprehensive book on environmental conservation.",
+      "sentence_meaning": "অধ্যাপক পরিবেশ সংরক্ষণের ওপর একটি বিস্তারিত বই প্রকাশ করেছেন।",
+      "category": "Word Transformation",
+      "unit": "Image 23 (image (23).jpg) - Transformation of Word"
+    },
+    {
+      "id": 604,
+      "word": "Brevity",
+      "ipa": "/ˈbrevəti/",
+      "pos": "n",
+      "meaning": "সংক্ষিপ্ততা, স্বল্পতা",
+      "synonyms": [
+        "conciseness",
+        "succinctness",
+        "briefness",
+        "shortness"
+      ],
+      "antonyms": [
+        "verbosity",
+        "prolixity",
+        "long-windedness",
+        "lengthiness"
+      ],
+      "raw_synonyms": "conciseness, succinctness, briefness, shortness",
+      "raw_antonyms": "verbosity, prolixity, long-windedness, lengthiness",
+      "sentence": "Brevity is the soul of wit, making speeches much more impactful and engaging.",
+      "sentence_meaning": "সংক্ষিপ্ততাই বুদ্ধিমত্তার মূল কথা, যা বক্তব্যকে আরও কার্যকর ও আকর্ষক করে তোলে।",
+      "category": "Word Transformation",
+      "unit": "Image 23 (image (23).jpg) - Transformation of Word"
+    },
+    {
+      "id": 605,
+      "word": "Breach",
+      "ipa": "/briːtʃ/",
+      "pos": "n",
+      "meaning": "লঙ্ঘন, ভঙ্গ, ফাটল",
+      "synonyms": [
+        "violation",
+        "infringement",
+        "rupture",
+        "break"
+      ],
+      "antonyms": [
+        "observance",
+        "compliance",
+        "adherence",
+        "conformity"
+      ],
+      "raw_synonyms": "violation, infringement, rupture, break",
+      "raw_antonyms": "observance, compliance, adherence, conformity",
+      "sentence": "Failing to protect client data was considered a severe breach of confidentiality.",
+      "sentence_meaning": "গ্রাহকের তথ্য সুরক্ষা করতে ব্যর্থ হওয়া গোপনীয়তার একটি গুরুতর লঙ্ঘন বলে গণ্য হয়েছিল।",
+      "category": "Word Transformation",
+      "unit": "Image 23 (image (23).jpg) - Transformation of Word"
+    }
+  ]
+}

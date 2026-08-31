@@ -1,0 +1,133 @@
+{
+  "level_id": 172,
+  "title": "Level 172: Idiom",
+  "unit": "Image 31 (image (31).jpg)",
+  "category": "Idiom",
+  "items": [
+    {
+      "id": 856,
+      "word": "Crying need",
+      "ipa": "/ˈkraɪɪŋ niːd/",
+      "pos": "phrase",
+      "meaning": "জরুরি প্রয়োজন, অত্যাবশ্যকীয় দাবি",
+      "synonyms": [
+        "urgent necessity",
+        "pressing requirement",
+        "vital need",
+        "dire demand"
+      ],
+      "antonyms": [
+        "luxury",
+        "superfluous matter",
+        "unnecessary item",
+        "dispensable want"
+      ],
+      "raw_synonyms": "urgent necessity, pressing requirement, vital need, dire demand",
+      "raw_antonyms": "luxury, superfluous matter, unnecessary item, dispensable want",
+      "sentence": "Reforming the public healthcare infrastructure is the crying need of the hour for developing nations.",
+      "sentence_meaning": "উন্নয়নশীল দেশগুলোর জন্য এই মুহূর্তে জনস্বাস্থ্য অবকাঠামো সংস্কার করা একটি অত্যন্ত জরুরি প্রয়োজন।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    },
+    {
+      "id": 857,
+      "word": "Cut a sorry figure",
+      "ipa": "/kʌt ə ˈsɑːri ˈfɪɡjər/",
+      "pos": "phrase",
+      "meaning": "লজ্জাজনক বা হতাশাজনক প্রভাব ফেলা, খারাপ প্রদর্শন করা",
+      "synonyms": [
+        "make a poor impression",
+        "disappoint",
+        "embarrass oneself",
+        "fumble"
+      ],
+      "antonyms": [
+        "make a strong impression",
+        "cut a fine figure",
+        "excel",
+        "distinguish oneself"
+      ],
+      "raw_synonyms": "make a poor impression, disappoint, embarrass oneself, fumble",
+      "raw_antonyms": "make a strong impression, cut a fine figure, excel, distinguish oneself",
+      "sentence": "The unprepared candidate cut a sorry figure during the viva voce exam when asked basic questions.",
+      "sentence_meaning": "মৌখিক পরীক্ষায় মৌলিক প্রশ্ন জিজ্ঞাসা করা হলে অপ্রস্তুত প্রার্থীটি বেশ হতাশাজনক ও অপ্রস্তুত পারফরম্যান্স প্রদর্শন করেছিল।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    },
+    {
+      "id": 858,
+      "word": "Cut one's teeth",
+      "ipa": "/kʌt wʌnz tiːθ/",
+      "pos": "phrase",
+      "meaning": "প্রাথমিক অভিজ্ঞতা অর্জন করা, হাতেখড়ি হওয়া",
+      "synonyms": [
+        "gain experience",
+        "learn the ropes",
+        "start one's career",
+        "acquire skills"
+      ],
+      "antonyms": [
+        "retire",
+        "conclude career",
+        "step down",
+        "withdraw"
+      ],
+      "raw_synonyms": "gain experience, learn the ropes, start one's career, acquire skills",
+      "raw_antonyms": "retire, conclude career, step down, withdraw",
+      "sentence": "The renowned investigative journalist cut his teeth covering local municipal crime stories.",
+      "sentence_meaning": "খ্যাতনামা অনুসন্ধানী সাংবাদিকটি স্থানীয় পৌরসভার অপরাধসংক্রান্ত খবর কভার করার মাধ্যমে তার প্রাথমিক অভিজ্ঞতা অর্জন করেছিলেন।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    },
+    {
+      "id": 859,
+      "word": "Cut to the quick",
+      "ipa": "/kʌt tuː ðə kwɪk/",
+      "pos": "phrase",
+      "meaning": "মর্মাহত হওয়া, মনে গভীর আঘাত পাওয়া",
+      "synonyms": [
+        "deeply hurt",
+        "deeply wound",
+        "offend",
+        "pain"
+      ],
+      "antonyms": [
+        "comfort",
+        "console",
+        "soothe",
+        "reassure"
+      ],
+      "raw_synonyms": "deeply hurt, deeply wound, offend, pain",
+      "raw_antonyms": "comfort, console, soothe, reassure",
+      "sentence": "She was cut to the quick by her supervisor's harsh and unfounded accusations of professional incompetence.",
+      "sentence_meaning": "পেশাগত অদক্ষতার বিষয়ে তার সুপারভাইজারের কঠোর এবং ভিত্তিহীন অভিযোগে তিনি মর্মাহত হয়েছিলেন।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    },
+    {
+      "id": 860,
+      "word": "Cut to the chase",
+      "ipa": "/kʌt tuː ðə tʃeɪs/",
+      "pos": "phrase",
+      "meaning": "অযথা কথা না বাড়িয়ে সরাসরি আসল কথায় আসা",
+      "synonyms": [
+        "get to the point",
+        "skip formalities",
+        "focus on essentials",
+        "come to the crux"
+      ],
+      "antonyms": [
+        "beat around the bush",
+        "procrastinate",
+        "ramble",
+        "delay"
+      ],
+      "raw_synonyms": "get to the point, skip formalities, focus on essentials, come to the crux",
+      "raw_antonyms": "beat around the bush, procrastinate, ramble, delay",
+      "sentence": "With limited time remaining on our agenda, let us cut to the chase and discuss the budgetary allocations.",
+      "sentence_meaning": "আমাদের এজেন্ডায় সীমিত সময় থাকায়, চলুন ভূমিকা পরিহার করে সরাসরি বাজেট বরাদ্দের বিষয়ে আলোচনা করি।",
+      "category": "Idiom",
+      "unit": "Image 31 (image (31).jpg)"
+    }
+  ]
+}

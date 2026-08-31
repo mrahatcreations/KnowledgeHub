@@ -1,0 +1,133 @@
+{
+  "level_id": 99,
+  "title": "Level 99: Vocabulary",
+  "unit": "Vocabulary Table",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 491,
+      "word": "Convoluted",
+      "ipa": "/ˈkɑːnvəluːtɪd/",
+      "pos": "adj",
+      "meaning": "জটিল, প্যাঁচানো, দুর্বোধ্য",
+      "synonyms": [
+        "intricate",
+        "complex",
+        "complicated",
+        "tangled"
+      ],
+      "antonyms": [
+        "simple",
+        "straightforward",
+        "clear",
+        "direct"
+      ],
+      "raw_synonyms": "intricate, complex, complicated, tangled",
+      "raw_antonyms": "simple, straightforward, clear, direct",
+      "sentence": "The novel featured a convoluted plot with too many unexpected and confusing subplots.",
+      "sentence_meaning": "উপন্যাসটিতে প্রচুর অপ্রত্যাশিত এবং বিভ্রান্তিকর উপকাহিনি সংবলিত একটি জটিল ও প্যাঁচালো প্লট ছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 492,
+      "word": "Craven",
+      "ipa": "/ˈkreɪvn/",
+      "pos": "adj",
+      "meaning": "কাপুরুষোচিত, চরম ভীরু",
+      "synonyms": [
+        "cowardly",
+        "fearful",
+        "timorous",
+        "pusillanimous"
+      ],
+      "antonyms": [
+        "brave",
+        "courageous",
+        "valiant",
+        "daring"
+      ],
+      "raw_synonyms": "cowardly, fearful, timorous, pusillanimous",
+      "raw_antonyms": "brave, courageous, valiant, daring",
+      "sentence": "Deserting your comrades during a crisis is considered a shameful and craven act.",
+      "sentence_meaning": "সংকটের সময় সহযোদ্ধাদের পরিত্যাগ করা একটি লজ্জাজনক এবং কাপুরুষোচিত কাজ হিসেবে বিবেচিত হয়।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 493,
+      "word": "Candid",
+      "ipa": "/ˈkændɪd/",
+      "pos": "adj",
+      "meaning": "অকপট, স্পষ্টবাদী, সরল",
+      "synonyms": [
+        "frank",
+        "honest",
+        "outspoken",
+        "forthright"
+      ],
+      "antonyms": [
+        "deceitful",
+        "guarded",
+        "insincere",
+        "evasive"
+      ],
+      "raw_synonyms": "frank, honest, outspoken, forthright",
+      "raw_antonyms": "deceitful, guarded, insincere, evasive",
+      "sentence": "The politician won public trust by giving candid answers to tough press questions.",
+      "sentence_meaning": "কঠিন প্রেস প্রশ্নের অকপট উত্তর দিয়ে রাজনীতিবিদ জনগণের আস্থা অর্জন করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 494,
+      "word": "Bite the bullet",
+      "ipa": "/baɪt ðə ˈbʊlɪt/",
+      "pos": "phrase",
+      "meaning": "কঠিন পরিস্থিতি সাহসের সাথে মেনে নেওয়া বা মোকাবিলা করা",
+      "synonyms": [
+        "face the music",
+        "brace oneself",
+        "endure",
+        "accept adversity"
+      ],
+      "antonyms": [
+        "give up",
+        "surrender",
+        "evade",
+        "retreat"
+      ],
+      "raw_synonyms": "face the music, brace oneself, endure, accept adversity",
+      "raw_antonyms": "give up, surrender, evade, retreat",
+      "sentence": "I hate going to the dentist, but with this toothache, I will just have to bite the bullet.",
+      "sentence_meaning": "আমি ডেন্টিস্টের কাছে যাওয়া অপছন্দ করি, কিন্তু এই দাঁতের ব্যথার কারণে আমাকে সাহসের সাথে পরিস্থিতি মেনে নিতেই হবে।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 495,
+      "word": "Beauty sleep",
+      "ipa": "/ˈbjuːti sliːp/",
+      "pos": "phrase",
+      "meaning": "পর্যাপ্ত ঘুম, স্বাস্থ্য ও সৌন্দর্যের জন্য প্রয়োজনীয় বিশ্রাম",
+      "synonyms": [
+        "restful sleep",
+        "sound sleep",
+        "deep slumber",
+        "restorative sleep"
+      ],
+      "antonyms": [
+        "sleep deprivation",
+        "insomnia",
+        "sleeplessness",
+        "wakefulness"
+      ],
+      "raw_synonyms": "restful sleep, sound sleep, deep slumber, restorative sleep",
+      "raw_antonyms": "sleep deprivation, insomnia, sleeplessness, wakefulness",
+      "sentence": "Make sure you get plenty of beauty sleep before your job interview tomorrow morning.",
+      "sentence_meaning": "নিশ্চিত করুন যে আগামীকাল সকালে আপনার চাকরির ইন্টারভিউয়ের আগে আপনি পর্যাপ্ত ঘুম ও বিশ্রাম নিচ্ছেন।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    }
+  ]
+}

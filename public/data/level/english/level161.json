@@ -1,0 +1,133 @@
+{
+  "level_id": 161,
+  "title": "Level 161: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 801,
+      "word": "Considerable",
+      "ipa": "/kənˈsɪdərəbl/",
+      "pos": "adj",
+      "meaning": "প্রচুর, উল্লেখযোগ্য, অনেকখানি",
+      "synonyms": [
+        "substantial",
+        "significant",
+        "sizable",
+        "appreciable"
+      ],
+      "antonyms": [
+        "insignificant",
+        "trivial",
+        "slight",
+        "negligible"
+      ],
+      "raw_synonyms": "substantial, significant, sizable, appreciable",
+      "raw_antonyms": "insignificant, trivial, slight, negligible",
+      "sentence": "The industrial enterprise invested a considerable sum of capital into upgrading its renewable energy infrastructure.",
+      "sentence_meaning": "শিল্প প্রতিষ্ঠানটি তাদের নবায়নযোগ্য জ্বালানি অবকাঠামো উন্নয়নে বিপুল পরিমাণ অর্থ বিনিয়োগ করেছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 802,
+      "word": "Constructive",
+      "ipa": "/kənˈstrʌktɪv/",
+      "pos": "adj",
+      "meaning": "গঠনমূলক, ফলপ্রসূ, সহায়ক",
+      "synonyms": [
+        "productive",
+        "helpful",
+        "beneficial",
+        "positive"
+      ],
+      "antonyms": [
+        "destructive",
+        "negative",
+        "detrimental",
+        "damaging"
+      ],
+      "raw_synonyms": "productive, helpful, beneficial, positive",
+      "raw_antonyms": "destructive, negative, detrimental, damaging",
+      "sentence": "The supervisor provided constructive criticism to help the junior developer improve her programming efficiency.",
+      "sentence_meaning": "জুনিয়র ডেভেলপারের প্রোগ্রামিং দক্ষতা বৃদ্ধির লক্ষ্যে সুপারভাইজার গঠনমূলক সমালোচনা প্রদান করেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 803,
+      "word": "Continue",
+      "ipa": "/kənˈtɪnjuː/",
+      "pos": "v",
+      "meaning": "চালিয়ে যাওয়া, অব্যাহত রাখা",
+      "synonyms": [
+        "persist",
+        "proceed",
+        "sustain",
+        "endure"
+      ],
+      "antonyms": [
+        "discontinue",
+        "cease",
+        "halt",
+        "stop"
+      ],
+      "raw_synonyms": "persist, proceed, sustain, endure",
+      "raw_antonyms": "discontinue, cease, halt, stop",
+      "sentence": "Despite torrential rain and adverse winds, the rescue team decided to continue search operations.",
+      "sentence_meaning": "প্রবল বৃষ্টিপাত ও প্রতিকূল বাতাস সত্ত্বেও উদ্ধারকারী দল তল্লাশি অভিযান অব্যাহত রাখার সিদ্ধান্ত নেয়।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 804,
+      "word": "Conviction",
+      "ipa": "/kənˈvɪkʃn/",
+      "pos": "n",
+      "meaning": "দৃঢ় বিশ্বাস, প্রত্যয়",
+      "synonyms": [
+        "belief",
+        "certainty",
+        "faith",
+        "assurance"
+      ],
+      "antonyms": [
+        "doubt",
+        "uncertainty",
+        "disbelief",
+        "skepticism"
+      ],
+      "raw_synonyms": "belief, certainty, faith, assurance",
+      "raw_antonyms": "doubt, uncertainty, disbelief, skepticism",
+      "sentence": "She spoke with profound conviction about the urgent necessity of upholding basic human rights.",
+      "sentence_meaning": "তিনি মৌলিক মানবাধিকার সমুন্নত রাখার জরুরি প্রয়োজনীয়তা সম্পর্কে গভীর বিশ্বাসের সাথে কথা বলেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 805,
+      "word": "Cosmopolitan",
+      "ipa": "/ˌkɑːzməˈpɑːlɪtən/",
+      "pos": "adj",
+      "meaning": "বিশ্বজনীন, সর্বজনীন, বহুসংস্কৃতির",
+      "synonyms": [
+        "global",
+        "universal",
+        "worldly",
+        "international"
+      ],
+      "antonyms": [
+        "insular",
+        "parochial",
+        "provincial",
+        "localized"
+      ],
+      "raw_synonyms": "global, universal, worldly, international",
+      "raw_antonyms": "insular, parochial, provincial, localized",
+      "sentence": "With residents from over a hundred nationalities, the port city boasts a dynamic cosmopolitan culture.",
+      "sentence_meaning": "শতাধিক দেশের মানুষের উপস্থিতিতে বন্দর নগরীটি এক প্রাণবন্ত বিশ্বজনীন সংস্কৃতি ধারণ করে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

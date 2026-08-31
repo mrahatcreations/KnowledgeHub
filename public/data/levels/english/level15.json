@@ -1,0 +1,133 @@
+{
+  "level_id": 15,
+  "title": "Level 15: Vocabulary",
+  "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 71,
+      "word": "Aberrant",
+      "ipa": "/æˈberənt/",
+      "pos": "adj",
+      "meaning": "বিপথগামী, অস্বাভাবিক, নীতিভ্রষ্ট",
+      "synonyms": [
+        "abnormal",
+        "deviant",
+        "divergent",
+        "anomalous"
+      ],
+      "antonyms": [
+        "normal",
+        "typical",
+        "standard",
+        "conventional"
+      ],
+      "raw_synonyms": "abnormal, deviant, divergent, anomalous",
+      "raw_antonyms": "normal, typical, standard, conventional",
+      "sentence": "The psychologist noted the patient's aberrant behavior during moments of intense stress.",
+      "sentence_meaning": "মনোবিজ্ঞানী তীব্র মানসিক চাপের মুহূর্তে রোগীর অস্বাভাবিক আচরণ লক্ষ্য করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    },
+    {
+      "id": 72,
+      "word": "Abeyance",
+      "ipa": "/əˈbeɪəns/",
+      "pos": "n",
+      "meaning": "স্থগিতাবস্থা, সাময়িক বিরতি, মুলতবি",
+      "synonyms": [
+        "suspension",
+        "latency",
+        "quiescence",
+        "postponement"
+      ],
+      "antonyms": [
+        "resumption",
+        "continuation",
+        "operation",
+        "action"
+      ],
+      "raw_synonyms": "suspension, latency, quiescence, postponement",
+      "raw_antonyms": "resumption, continuation, operation, action",
+      "sentence": "The corporate merger was held in abeyance pending regulatory approval from the antitrust commission.",
+      "sentence_meaning": "অ্যান্টিট্রাস্ট কমিশনের নিয়ন্ত্রক অনুমোদনের অপেক্ষায় করপোরেট একীভূতকরণ স্থগিতাবস্থায় রাখা হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    },
+    {
+      "id": 73,
+      "word": "Abscond",
+      "ipa": "/əbˈskɒnd/",
+      "pos": "v",
+      "meaning": "আত্মগোপন করা, পালিয়ে যাওয়া, পলায়ন করা",
+      "synonyms": [
+        "flee",
+        "escape",
+        "decamp",
+        "bolt"
+      ],
+      "antonyms": [
+        "remain",
+        "appear",
+        "surrender",
+        "abide"
+      ],
+      "raw_synonyms": "flee, escape, decamp, bolt",
+      "raw_antonyms": "remain, appear, surrender, abide",
+      "sentence": "The corrupt treasurer attempted to abscond with the company funds before the audit began.",
+      "sentence_meaning": "নিরীক্ষা শুরু হওয়ার আগেই দুর্নীতিগ্রস্ত কোষাধ্যক্ষ কোম্পানির অর্থ নিয়ে পালিয়ে যাওয়ার চেষ্টা করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    },
+    {
+      "id": 74,
+      "word": "Abstemious",
+      "ipa": "/æbˈstiːmiəs/",
+      "pos": "adj",
+      "meaning": "সংযমী, মিতাহারী, পানাহারে সংযত",
+      "synonyms": [
+        "temperate",
+        "moderate",
+        "austere",
+        "abstinent"
+      ],
+      "antonyms": [
+        "gluttonous",
+        "indulgent",
+        "hedonistic",
+        "greedy"
+      ],
+      "raw_synonyms": "temperate, moderate, austere, abstinent",
+      "raw_antonyms": "gluttonous, indulgent, hedonistic, greedy",
+      "sentence": "Monks maintain an abstemious lifestyle, avoiding excessive worldly pleasures.",
+      "sentence_meaning": "সন্ন্যাসীরা অতিরিক্ত পার্থিব ভোগবিলাস এড়িয়ে সংযমী জীবনযাপন বজায় রাখেন।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    },
+    {
+      "id": 75,
+      "word": "Admonish",
+      "ipa": "/ədˈmɒnɪʃ/",
+      "pos": "v",
+      "meaning": "সতর্ক করা, মৃদু তিরস্কার করা, সাবধান করা",
+      "synonyms": [
+        "reprove",
+        "caution",
+        "rebuke",
+        "chide"
+      ],
+      "antonyms": [
+        "praise",
+        "commend",
+        "compliment",
+        "applaud"
+      ],
+      "raw_synonyms": "reprove, caution, rebuke, chide",
+      "raw_antonyms": "praise, commend, compliment, applaud",
+      "sentence": "The librarian had to admonish the noisy students to maintain quiet in the reading room.",
+      "sentence_meaning": "পাঠকক্ষে নীরবতা বজায় রাখার জন্য লাইব্রেরিয়ানকে কোলাহলকারী শিক্ষার্থীদের মৃদু সতর্ক করতে হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    }
+  ]
+}

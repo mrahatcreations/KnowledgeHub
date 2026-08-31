@@ -1,0 +1,133 @@
+{
+  "level_id": 109,
+  "title": "Level 109: Phrasal Verb",
+  "unit": "Image 19 (image (19).jpg) - Phrasal Verbs",
+  "category": "Phrasal Verb",
+  "items": [
+    {
+      "id": 541,
+      "word": "Carry over",
+      "ipa": "/ˈkæri ˈoʊvər/",
+      "pos": "phrase",
+      "meaning": "পরবর্তী পাতায় বা পরবর্তী পর্যায়ে স্থানান্তরিত করা বা টেনে নেওয়া",
+      "synonyms": [
+        "transfer",
+        "postpone",
+        "defer",
+        "extend"
+      ],
+      "antonyms": [
+        "settle",
+        "finalize",
+        "conclude",
+        "terminate"
+      ],
+      "raw_synonyms": "transfer, postpone, defer, extend",
+      "raw_antonyms": "settle, finalize, conclude, terminate",
+      "sentence": "The unused funds from this quarter will be carried over to next year's project budget.",
+      "sentence_meaning": "চলতি প্রান্তিকের অব্যবহৃত তহবিল পরবর্তী বছরের প্রকল্প বাজেটে স্থানান্তরিত করা হবে।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 542,
+      "word": "Cast aside",
+      "ipa": "/kɑːst əˈsaɪd/",
+      "pos": "phrase",
+      "meaning": "ছুঁড়ে ফেলা, বর্জন করা, প্রত্যাখ্যান করা",
+      "synonyms": [
+        "discard",
+        "abandon",
+        "reject",
+        "jettison"
+      ],
+      "antonyms": [
+        "embrace",
+        "adopt",
+        "retain",
+        "cherish"
+      ],
+      "raw_synonyms": "discard, abandon, reject, jettison",
+      "raw_antonyms": "embrace, adopt, retain, cherish",
+      "sentence": "She decided to cast aside all doubts and pursue her lifelong dream of becoming a writer.",
+      "sentence_meaning": "তিনি সমস্ত দ্বিধাদ্বন্দ্ব ছুঁড়ে ফেলে লেখক হওয়ার আজীবন লালিত স্বপ্ন পূরণের সিদ্ধান্ত নিয়েছিলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 543,
+      "word": "Cast out",
+      "ipa": "/kɑːst aʊt/",
+      "pos": "phrase",
+      "meaning": "বিতাড়িত করা, বহিষ্কার করা, সমাজচ্যুত করা",
+      "synonyms": [
+        "banish",
+        "expel",
+        "exile",
+        "oust"
+      ],
+      "antonyms": [
+        "welcome",
+        "admit",
+        "shelter",
+        "accept"
+      ],
+      "raw_synonyms": "banish, expel, exile, oust",
+      "raw_antonyms": "welcome, admit, shelter, accept",
+      "sentence": "In ancient times, anyone breaking sacred tribal rules was cast out of the community.",
+      "sentence_meaning": "প্রাচীনকালে পবিত্র গোত্রীয় নিয়ম ভঙ্গকারী যেকোনো ব্যক্তিকে সমাজ থেকে বিতাড়িত করা হতো।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 544,
+      "word": "Catch on",
+      "ipa": "/kætʃ ɒn/",
+      "pos": "phrase",
+      "meaning": "জনপ্রিয় হওয়া, অর্থ বুঝতে পারা, প্রচলিত হওয়া",
+      "synonyms": [
+        "become popular",
+        "trend",
+        "understand",
+        "gain traction"
+      ],
+      "antonyms": [
+        "fade out",
+        "lose popularity",
+        "decline",
+        "misunderstand"
+      ],
+      "raw_synonyms": "become popular, trend, understand, gain traction",
+      "raw_antonyms": "fade out, lose popularity, decline, misunderstand",
+      "sentence": "The new eco-friendly fashion trend quickly caught on among young consumers.",
+      "sentence_meaning": "নতুন পরিবেশবান্ধব ফ্যাশন ধারাটি তরুণ ভোক্তাদের মধ্যে দ্রুত জনপ্রিয় হয়ে ওঠে।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 545,
+      "word": "Come about",
+      "ipa": "/kʌm əˈbaʊt/",
+      "pos": "phrase",
+      "meaning": "ঘটা, সংঘটিত হওয়া, বাস্তবায়িত হওয়া",
+      "synonyms": [
+        "happen",
+        "occur",
+        "transpire",
+        "take place"
+      ],
+      "antonyms": [
+        "stop",
+        "cease",
+        "be prevented",
+        "fail to occur"
+      ],
+      "raw_synonyms": "happen, occur, transpire, take place",
+      "raw_antonyms": "stop, cease, be prevented, fail to occur",
+      "sentence": "Historians are still debating how such an unprecedented economic crisis came about.",
+      "sentence_meaning": "ঐতিহাসিকরা এখনো বিতর্ক করছেন যে কীভাবে এমন নজিরবিহীন অর্থনৈতিক সংকটটি ঘটেছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    }
+  ]
+}

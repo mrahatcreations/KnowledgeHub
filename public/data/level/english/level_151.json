@@ -1,0 +1,133 @@
+{
+  "level_id": 151,
+  "title": "Level 151: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 751,
+      "word": "Pragmatic",
+      "ipa": "/præɡˈmætɪk/",
+      "pos": "adj",
+      "meaning": "বাস্তববাদী, প্রায়োগিক",
+      "synonyms": [
+        "practical",
+        "realistic",
+        "utilitarian",
+        "hardheaded"
+      ],
+      "antonyms": [
+        "idealistic",
+        "impractical",
+        "visionary",
+        "romantic"
+      ],
+      "raw_synonyms": "practical, realistic, utilitarian, hardheaded",
+      "raw_antonyms": "idealistic, impractical, visionary, romantic",
+      "sentence": "Policy makers must formulate pragmatic economic plans that address the immediate needs of citizens.",
+      "sentence_meaning": "নীতিপ্রণেতাদের অবশ্যই বাস্তববাদী অর্থনৈতিক পরিকল্পনা প্রণয়ন করতে হবে যা নাগরিকদের তাৎক্ষণিক চাহিদা পূরণ করে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 752,
+      "word": "Paramount",
+      "ipa": "/ˈpærəmaʊnt/",
+      "pos": "adj",
+      "meaning": "সর্বপ্রধান, সর্বোচ্চ গুরুত্বপূর্ণ",
+      "synonyms": [
+        "supreme",
+        "foremost",
+        "chief",
+        "preeminent"
+      ],
+      "antonyms": [
+        "secondary",
+        "trivial",
+        "minor",
+        "insignificant"
+      ],
+      "raw_synonyms": "supreme, foremost, chief, preeminent",
+      "raw_antonyms": "secondary, trivial, minor, insignificant",
+      "sentence": "Ensuring public safety during major sporting tournaments is of paramount importance to organizers.",
+      "sentence_meaning": "প্রধান ক্রীড়া প্রতিযোগিতার সময় জনসাধারণের নিরাপত্তা নিশ্চিত করা আয়োজকদের জন্য সর্বাধিক গুরুত্বপূর্ণ।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 753,
+      "word": "Robust",
+      "ipa": "/roʊˈbʌst/",
+      "pos": "adj",
+      "meaning": "বলিষ্ঠ, শক্তিশালী, টেকসই",
+      "synonyms": [
+        "strong",
+        "sturdy",
+        "resilient",
+        "vigorous"
+      ],
+      "antonyms": [
+        "fragile",
+        "weak",
+        "feeble",
+        "frail"
+      ],
+      "raw_synonyms": "strong, sturdy, resilient, vigorous",
+      "raw_antonyms": "fragile, weak, feeble, frail",
+      "sentence": "The central bank implemented robust financial safeguards to prevent systemic banking collapse.",
+      "sentence_meaning": "ব্যাংকিং ব্যবস্থার সামগ্রিক ধস রোধ করতে কেন্দ্রীয় ব্যাংক সুদৃঢ় আর্থিক সুরক্ষাব্যবস্থা বাস্তবায়ন করেছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 754,
+      "word": "Rhetoric",
+      "ipa": "/ˈretərɪk/",
+      "pos": "n",
+      "meaning": "বাগ্মিতা, অলঙ্কারপূর্ণ বক্তব্য, কথনশৈলী",
+      "synonyms": [
+        "oratory",
+        "eloquence",
+        "bombast",
+        "diction"
+      ],
+      "antonyms": [
+        "inarticulateness",
+        "conciseness",
+        "candor",
+        "plainness"
+      ],
+      "raw_synonyms": "oratory, eloquence, bombast, diction",
+      "raw_antonyms": "inarticulateness, conciseness, candor, plainness",
+      "sentence": "The politician's fiery rhetoric failed to persuade voters who demanded tangible policy solutions.",
+      "sentence_meaning": "রাজনীতিবিদের জ্বালাময়ী বাগ্মিতা ভোটারদের প্ররোচিত করতে ব্যর্থ হয়েছিল, যারা বাস্তব নীতিগত সমাধান দাবি করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 755,
+      "word": "Resilient",
+      "ipa": "/rɪˈzɪliənt/",
+      "pos": "adj",
+      "meaning": "স্থিতিস্থাপক, দুর্যোগ সহনশীল",
+      "synonyms": [
+        "adaptable",
+        "tough",
+        "flexible",
+        "buoyant"
+      ],
+      "antonyms": [
+        "fragile",
+        "vulnerable",
+        "rigid",
+        "weak"
+      ],
+      "raw_synonyms": "adaptable, tough, flexible, buoyant",
+      "raw_antonyms": "fragile, vulnerable, rigid, weak",
+      "sentence": "Coastal communities proved remarkably resilient as they swiftly rebuilt infrastructure after the cyclone.",
+      "sentence_meaning": "ঘূর্ণিঝড়ের পর অবকাঠামো দ্রুত পুনর্নির্মাণ করে উপকূলীয় জনপদগুলো তাদের অসাধারণ দুর্যোগ সহনশীলতার পরিচয় দিয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

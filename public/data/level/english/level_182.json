@@ -1,0 +1,132 @@
+{
+  "level_id": 182,
+  "title": "Level 182: Appropriate Preposition",
+  "unit": "Image 34 (image (34).jpg) - Appropriate Preposition",
+  "category": "Appropriate Preposition",
+  "items": [
+    {
+      "id": 906,
+      "word": "Aloof from",
+      "ipa": "/əˈluːf frəm/",
+      "pos": "phrase",
+      "meaning": "দূরে বা বিচ্ছিন্ন থাকা, নির্লিপ্ত",
+      "synonyms": [
+        "detached from",
+        "distant from",
+        "withdrawn from",
+        "apart from"
+      ],
+      "antonyms": [
+        "involved in",
+        "engaged with",
+        "close to",
+        "participating in"
+      ],
+      "raw_synonyms": "detached from, distant from, withdrawn from, apart from",
+      "raw_antonyms": "involved in, engaged with, close to, participating in",
+      "sentence": "The diplomat wisely chose to keep aloof from partisan domestic political quarrels.",
+      "sentence_meaning": "কূটনীতিক বিচক্ষণতার সাথে অভ্যন্তরীণ দলীয় রাজনৈতিক বিরোধ থেকে নিজেকে দূরে রাখার সিদ্ধান্ত নিয়েছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 34 (image (34).jpg) - Appropriate Preposition"
+    },
+    {
+      "id": 907,
+      "word": "Alternate with",
+      "ipa": "/ˈɔːltərneɪt wɪð/",
+      "pos": "phrase",
+      "meaning": "পর্যায়ক্রমে আবর্তিত হওয়া, একের পর এক আসা",
+      "synonyms": [
+        "interchange with",
+        "rotate with",
+        "oscillate with",
+        "fluctuate with"
+      ],
+      "antonyms": [
+        "persist continuously",
+        "remain constant",
+        "continue steadily"
+      ],
+      "raw_synonyms": "interchange with, rotate with, oscillate with, fluctuate with",
+      "raw_antonyms": "persist continuously, remain constant, continue steadily",
+      "sentence": "In temperate mountain climates, sunny spells alternate with sudden heavy downpours.",
+      "sentence_meaning": "নাতিশীতোষ্ণ পার্বত্য জলবায়ুতে রৌদ্রোজ্জ্বল আবহাওয়া আকস্মিক ভারী বর্ষণের সাথে পর্যায়ক্রমে আবর্তিত হয়।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 34 (image (34).jpg) - Appropriate Preposition"
+    },
+    {
+      "id": 908,
+      "word": "Alternative to",
+      "ipa": "/ɔːlˈtɜːrnətɪv tuː/",
+      "pos": "phrase",
+      "meaning": "বিকল্প পথ বা উপায়",
+      "synonyms": [
+        "substitute for",
+        "replacement for",
+        "option to",
+        "choice to"
+      ],
+      "antonyms": [
+        "sole choice",
+        "only option",
+        "constraint",
+        "necessity"
+      ],
+      "raw_synonyms": "substitute for, replacement for, option to, choice to",
+      "raw_antonyms": "sole choice, only option, constraint, necessity",
+      "sentence": "Solar energy provides a clean and sustainable alternative to polluting fossil fuels.",
+      "sentence_meaning": "সৌরশক্তি দূষণকারী জীবাশ্ম জ্বালানির একটি পরিচ্ছন্ন ও টেকসই বিকল্প প্রদান করে।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 34 (image (34).jpg) - Appropriate Preposition"
+    },
+    {
+      "id": 909,
+      "word": "Amazed at",
+      "ipa": "/əˈmeɪzd æt/",
+      "pos": "phrase",
+      "meaning": "বিস্মিত, তাজ্জব, অবাক",
+      "synonyms": [
+        "astonished by",
+        "astounded at",
+        "surprised by",
+        "awestruck at"
+      ],
+      "antonyms": [
+        "unimpressed by",
+        "indifferent to",
+        "expectant of",
+        "unsurprised by"
+      ],
+      "raw_synonyms": "astonished by, astounded at, surprised by, awestruck at",
+      "raw_antonyms": "unimpressed by, indifferent to, expectant of, unsurprised by",
+      "sentence": "International tourists were amazed at the breathtaking architectural brilliance of the ancient temple.",
+      "sentence_meaning": "আন্তর্জাতিক পর্যটকরা প্রাচীন মন্দিরের শ্বাসরুদ্ধকর স্থাপত্য শৈলী ও উজ্জ্বলতায় বিস্মিত হয়েছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 34 (image (34).jpg) - Appropriate Preposition"
+    },
+    {
+      "id": 910,
+      "word": "Ambition for",
+      "ipa": "/æmˈbɪʃn fɔːr/",
+      "pos": "phrase",
+      "meaning": "উচ্চাকাঙ্ক্ষা, তীব্র বাসনা",
+      "synonyms": [
+        "aspiration for",
+        "desire for",
+        "longing for",
+        "passion for"
+      ],
+      "antonyms": [
+        "apathy toward",
+        "indifference to",
+        "lack of interest",
+        "contentment with"
+      ],
+      "raw_synonyms": "aspiration for, desire for, longing for, passion for",
+      "raw_antonyms": "apathy toward, indifference to, lack of interest, contentment with",
+      "sentence": "From an early age, she harbored a fierce ambition for academic and scientific excellence.",
+      "sentence_meaning": "ছোটবেলা থেকেই তিনি অ্যাকাডেমিক এবং বৈজ্ঞানিক উৎকর্ষের জন্য একটি তীব্র উচ্চাকাঙ্ক্ষা পোষণ করেছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 34 (image (34).jpg) - Appropriate Preposition"
+    }
+  ]
+}

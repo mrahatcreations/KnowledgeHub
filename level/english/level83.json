@@ -1,0 +1,133 @@
+{
+  "level_id": 83,
+  "title": "Level 83: Vocabulary",
+  "unit": "Vocabulary Table",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 411,
+      "word": "Vanity",
+      "ipa": "/ˈvænəti/",
+      "pos": "n",
+      "meaning": "অহংকার, দম্ভ, বৃথা অহমিকা",
+      "synonyms": [
+        "conceit",
+        "arrogance",
+        "pride",
+        "narcissism"
+      ],
+      "antonyms": [
+        "humility",
+        "modesty",
+        "humbleness",
+        "meekness"
+      ],
+      "raw_synonyms": "conceit, arrogance, pride, narcissism",
+      "raw_antonyms": "humility, modesty, humbleness, meekness",
+      "sentence": "His excessive vanity prevented him from admitting his grave strategic mistake.",
+      "sentence_meaning": "তাঁর অতিরিক্ত অহংকার ও দম্ভ তাঁকে নিজের মারাত্মক কৌশলগত ভুল স্বীকার করতে বাধা দিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 412,
+      "word": "Reveal",
+      "ipa": "/rɪˈviːl/",
+      "pos": "v",
+      "meaning": "প্রকাশ করা, ফাঁস করা, উন্মোচন করা",
+      "synonyms": [
+        "disclose",
+        "unveil",
+        "divulge",
+        "expose"
+      ],
+      "antonyms": [
+        "conceal",
+        "hide",
+        "suppress",
+        "cover"
+      ],
+      "raw_synonyms": "disclose, unveil, divulge, expose",
+      "raw_antonyms": "conceal, hide, suppress, cover",
+      "sentence": "The whistleblower decided to reveal confidential documents detailing corporate corruption.",
+      "sentence_meaning": "তথ্য ফাঁসকারী ব্যক্তি করপোরেট দুর্নীতির বিস্তারিত তথ্য সংবলিত গোপন নথি প্রকাশ করার সিদ্ধান্ত নেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 413,
+      "word": "Despair",
+      "ipa": "/dɪˈsper/",
+      "pos": "n",
+      "meaning": "হতাশা, নিরাশা",
+      "synonyms": [
+        "hopelessness",
+        "despondency",
+        "gloom",
+        "misery"
+      ],
+      "antonyms": [
+        "hope",
+        "optimism",
+        "cheerfulness",
+        "confidence"
+      ],
+      "raw_synonyms": "hopelessness, despondency, gloom, misery",
+      "raw_antonyms": "hope, optimism, cheerfulness, confidence",
+      "sentence": "Overwhelmed by deep despair after the catastrophe, the community sought strength through solidarity.",
+      "sentence_meaning": "দুর্যোগের পর চরম হতাশায় নিমজ্জিত হয়ে সম্প্রদায়টি ঐক্যের মাধ্যমে শক্তি সঞ্চয় করার চেষ্টা করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 414,
+      "word": "Symphony",
+      "ipa": "/ˈsɪmfəni/",
+      "pos": "n",
+      "meaning": "ঐকতান, সুসংগতি, সিম্ফনি",
+      "synonyms": [
+        "harmony",
+        "orchestration",
+        "concord",
+        "blend"
+      ],
+      "antonyms": [
+        "discord",
+        "cacophony",
+        "harshness",
+        "dissonance"
+      ],
+      "raw_synonyms": "harmony, orchestration, concord, blend",
+      "raw_antonyms": "discord, cacophony, harshness, dissonance",
+      "sentence": "The composer blended diverse musical instruments into a breathtaking orchestral symphony.",
+      "sentence_meaning": "সুরকার বিভিন্ন বাদ্যযন্ত্রের সংমিশ্রণে একটি চমৎকার অর্কেস্ট্রা ঐকতান বা সিম্ফনি তৈরি করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 415,
+      "word": "Aggression",
+      "ipa": "/əˈɡreʃn/",
+      "pos": "n",
+      "meaning": "আগ্রাসন, আক্রমণাত্মক আচরণ",
+      "synonyms": [
+        "hostility",
+        "belligerence",
+        "antagonism",
+        "combativeness"
+      ],
+      "antonyms": [
+        "friendliness",
+        "peacefulness",
+        "diplomacy",
+        "gentleness"
+      ],
+      "raw_synonyms": "hostility, belligerence, antagonism, combativeness",
+      "raw_antonyms": "friendliness, peacefulness, diplomacy, gentleness",
+      "sentence": "The United Nations swiftly condemned the unprovoked military aggression against the sovereign state.",
+      "sentence_meaning": "জাতিসংঘ সার্বভৌম রাষ্ট্রের বিরুদ্ধে উসকানিহীন সামরিক আগ্রাসনের তীব্র নিন্দা জানিয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    }
+  ]
+}

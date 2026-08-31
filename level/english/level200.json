@@ -1,0 +1,133 @@
+{
+  "level_id": 200,
+  "title": "Level 200: Appropriate Preposition",
+  "unit": "Super Vocabulary Technique: Bon (Good)",
+  "category": "Appropriate Preposition",
+  "items": [
+    {
+      "id": 996,
+      "word": "Bonify",
+      "ipa": "/ˈbɑːnɪfaɪ/",
+      "pos": "v",
+      "meaning": "ভালোতে রূপান্তর করা, ক্ষতিপূরণ বা উন্নতি সাধন করা",
+      "synonyms": [
+        "improve",
+        "better",
+        "ameliorate",
+        "compensate"
+      ],
+      "antonyms": [
+        "worsen",
+        "deteriorate",
+        "damage",
+        "degrade"
+      ],
+      "raw_synonyms": "improve, better, ameliorate, compensate",
+      "raw_antonyms": "worsen, deteriorate, damage, degrade",
+      "sentence": "The progressive municipality initiated agricultural schemes to bonify barren soils and enhance crop yields.",
+      "sentence_meaning": "প্রগতিশীল পৌরসভা অনুর্বর মাটির মান উন্নত করতে এবং ফসলের ফলন বাড়াতে কৃষি পরিকল্পনা গ্রহণ করেছিল।",
+      "category": "Appropriate Preposition",
+      "unit": "Super Vocabulary Technique: Bon (Good)"
+    },
+    {
+      "id": 997,
+      "word": "Apologize for",
+      "ipa": "/əˈpɑːlədʒaɪz fɔːr/",
+      "pos": "prep",
+      "meaning": "কোনো কাজের জন্য ক্ষমা প্রার্থনা করা",
+      "synonyms": [
+        "express regret for",
+        "atone for",
+        "beg pardon for",
+        "make amends for"
+      ],
+      "antonyms": [
+        "justify",
+        "defend",
+        "boast of",
+        "assert"
+      ],
+      "raw_synonyms": "express regret for, atone for, beg pardon for, make amends for",
+      "raw_antonyms": "justify, defend, boast of, assert",
+      "sentence": "The CEO held an urgent press conference to apologize for the unexpected server outage affecting users.",
+      "sentence_meaning": "সিইও ব্যবহারকারীদের ক্ষতিগ্রস্ত করা অপ্রত্যাশিত সার্ভার বিভ্রাটের জন্য ক্ষমা প্রার্থনা করতে একটি জরুরি সংবাদ সম্মেলন করেছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Super Vocabulary Technique: Bon (Good)"
+    },
+    {
+      "id": 998,
+      "word": "Apply for",
+      "ipa": "/əˈplaɪ fɔːr/",
+      "pos": "prep",
+      "meaning": "আবেদন করা",
+      "synonyms": [
+        "request",
+        "seek",
+        "solicit",
+        "petition for"
+      ],
+      "antonyms": [
+        "withdraw",
+        "cancel",
+        "forfeit",
+        "resign from"
+      ],
+      "raw_synonyms": "request, seek, solicit, petition for",
+      "raw_antonyms": "withdraw, cancel, forfeit, resign from",
+      "sentence": "Qualified graduate candidates are encouraged to apply for the prestigious international research fellowship.",
+      "sentence_meaning": "যোগ্য স্নাতক প্রার্থীদের মর্যাদাপূর্ণ আন্তর্জাতিক গবেষণা ফেলোশিপের জন্য আবেদন করতে উৎসাহিত করা হচ্ছে।",
+      "category": "Appropriate Preposition",
+      "unit": "Super Vocabulary Technique: Bon (Good)"
+    },
+    {
+      "id": 999,
+      "word": "Ask for",
+      "ipa": "/æsk fɔːr/",
+      "pos": "prep",
+      "meaning": "অনুরোধ করা, চাওয়া",
+      "synonyms": [
+        "request",
+        "demand",
+        "seek",
+        "solicit"
+      ],
+      "antonyms": [
+        "grant",
+        "give",
+        "offer",
+        "provide"
+      ],
+      "raw_synonyms": "request, demand, seek, solicit",
+      "raw_antonyms": "grant, give, offer, provide",
+      "sentence": "In times of difficulty, you should never hesitate to ask for guidance from experienced mentors.",
+      "sentence_meaning": "কঠিন সময়ে অভিজ্ঞ পরামর্শদাতাদের কাছ থেকে দিকনির্দেশনা চাইতে কখনই দ্বিধা করা উচিত নয়।",
+      "category": "Appropriate Preposition",
+      "unit": "Super Vocabulary Technique: Bon (Good)"
+    },
+    {
+      "id": 1000,
+      "word": "Care for",
+      "ipa": "/ker fɔːr/",
+      "pos": "prep",
+      "meaning": "যত্ন নেওয়া, পছন্দ করা",
+      "synonyms": [
+        "look after",
+        "tend to",
+        "cherish",
+        "nurture"
+      ],
+      "antonyms": [
+        "neglect",
+        "ignore",
+        "dislike",
+        "mistreat"
+      ],
+      "raw_synonyms": "look after, tend to, cherish, nurture",
+      "raw_antonyms": "neglect, ignore, dislike, mistreat",
+      "sentence": "Dedicated nurses worked around the clock to care for vulnerable patients in the intensive care unit.",
+      "sentence_meaning": "নিবেদিতপ্রাণ নার্সরা নিবিড় পরিচর্যা কেন্দ্রে সংবেদনশীল ও গুরুতর রোগীদের যত্ন নেওয়ার জন্য দিনরাত কাজ করেছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Super Vocabulary Technique: Bon (Good)"
+    }
+  ]
+}

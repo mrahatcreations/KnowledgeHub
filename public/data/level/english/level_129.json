@@ -1,0 +1,132 @@
+{
+  "level_id": 129,
+  "title": "Level 129: Vocabulary",
+  "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 641,
+      "word": "Myriad",
+      "ipa": "/ˈmɪriəd/",
+      "pos": "adj",
+      "meaning": "অগণিত, বিপুল সংখ্যক",
+      "synonyms": [
+        "countless",
+        "innumerable",
+        "multitudinous",
+        "infinite"
+      ],
+      "antonyms": [
+        "few",
+        "limited",
+        "countable",
+        "scarce"
+      ],
+      "raw_synonyms": "countless, innumerable, multitudinous, infinite",
+      "raw_antonyms": "few, limited, countable, scarce",
+      "sentence": "A clear night sky in the countryside reveals myriad twinkling stars.",
+      "sentence_meaning": "গ্রামাঞ্চলের একটি পরিষ্কার রাতের আকাশ অগণিত জ্বলজ্বলে তারা প্রকাশ করে।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 642,
+      "word": "Interdependence",
+      "ipa": "/ˌɪntərdɪˈpendəns/",
+      "pos": "n",
+      "meaning": "পারস্পরিক নির্ভরশীলতা, পারস্পরিক সম্পর্ক",
+      "synonyms": [
+        "mutual dependence",
+        "interconnection",
+        "interrelation",
+        "reciprocity"
+      ],
+      "antonyms": [
+        "independence",
+        "autonomy",
+        "self-sufficiency",
+        "isolation"
+      ],
+      "raw_synonyms": "mutual dependence, interconnection, interrelation, reciprocity",
+      "raw_antonyms": "independence, autonomy, self-sufficiency, isolation",
+      "sentence": "Global trade highlights the economic interdependence among modern nations.",
+      "sentence_meaning": "বিশ্ব বাণিজ্য আধুনিক দেশগুলোর মধ্যে অর্থনৈতিক পারস্পরিক নির্ভরশীলতাকে তুলে ধরে।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 643,
+      "word": "Mythical",
+      "ipa": "/ˈmɪθɪkl/",
+      "pos": "adj",
+      "meaning": "পৌরাণিক, কাল্পনিক",
+      "synonyms": [
+        "legendary",
+        "fabulous",
+        "fictitious",
+        "imaginary"
+      ],
+      "antonyms": [
+        "real",
+        "factual",
+        "historical",
+        "actual"
+      ],
+      "raw_synonyms": "legendary, fabulous, fictitious, imaginary",
+      "raw_antonyms": "real, factual, historical, actual",
+      "sentence": "The folklore speaks of mythical creatures that guarded hidden mountain treasures.",
+      "sentence_meaning": "লোককাহিনীতে এমন পৌরাণিক প্রাণীদের কথা বলা হয়েছে যারা গোপন পাহাড়ি গুপ্তধন পাহারা দিত।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 644,
+      "word": "Folklore",
+      "ipa": "/ˈfoʊklɔːr/",
+      "pos": "n",
+      "meaning": "লোককাহিনী, লোকসাহিত্য, ঐতিহ্যবাহী সংস্কৃতি",
+      "synonyms": [
+        "mythology",
+        "lore",
+        "traditional tales",
+        "oral heritage"
+      ],
+      "antonyms": [
+        "historical fact",
+        "nonfiction",
+        "recorded truth"
+      ],
+      "raw_synonyms": "mythology, lore, traditional tales, oral heritage",
+      "raw_antonyms": "historical fact, nonfiction, recorded truth",
+      "sentence": "The elderly villagers passed down their rich folklore from generation to generation.",
+      "sentence_meaning": "বয়োজ্যেষ্ঠ গ্রামবাসীরা তাদের সমৃদ্ধ লোককাহিনী প্রজন্ম থেকে প্রজন্মান্তরে পৌঁছে দিয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 645,
+      "word": "Incredible",
+      "ipa": "/ɪnˈkredəbl/",
+      "pos": "adj",
+      "meaning": "অবিশ্বাস্য, অসাধারণ",
+      "synonyms": [
+        "unbelievable",
+        "extraordinary",
+        "astounding",
+        "marvelous"
+      ],
+      "antonyms": [
+        "believable",
+        "plausible",
+        "credible",
+        "ordinary"
+      ],
+      "raw_synonyms": "unbelievable, extraordinary, astounding, marvelous",
+      "raw_antonyms": "believable, plausible, credible, ordinary",
+      "sentence": "The mountaineers accomplished an incredible feat by scaling the treacherous summit in winter.",
+      "sentence_meaning": "পর্বতারোহীরা শীতকালে বিপজ্জনক চূড়ায় আরোহণ করে এক অবিশ্বাস্য কৃতিত্ব অর্জন করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    }
+  ]
+}

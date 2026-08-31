@@ -1,0 +1,133 @@
+{
+  "level_id": 139,
+  "title": "Level 139: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 691,
+      "word": "Illusive",
+      "ipa": "/ɪˈluːsɪv/",
+      "pos": "adj",
+      "meaning": "বিভ্রান্তিকর, অলীক, মায়াবী",
+      "synonyms": [
+        "deceptive",
+        "illusory",
+        "misleading",
+        "chimerical"
+      ],
+      "antonyms": [
+        "real",
+        "genuine",
+        "authentic",
+        "tangible"
+      ],
+      "raw_synonyms": "deceptive, illusory, misleading, chimerical",
+      "raw_antonyms": "real, genuine, authentic, tangible",
+      "sentence": "The promise of overnight wealth proved to be an illusive dream for inexperienced stock traders.",
+      "sentence_meaning": "অনভিজ্ঞ শেয়ার ব্যবসায়ীদের জন্য রাতারাতি ধনী হওয়ার প্রতিশ্রুতি একটি অলীক ও বিভ্রান্তিকর স্বপ্ন প্রমাণিত হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 692,
+      "word": "Inane",
+      "ipa": "/ɪˈneɪn/",
+      "pos": "adj",
+      "meaning": "অর্থহীন, নির্বোধ, অন্তঃসারশূন্য",
+      "synonyms": [
+        "senseless",
+        "foolish",
+        "silly",
+        "vacuous"
+      ],
+      "antonyms": [
+        "meaningful",
+        "profound",
+        "significant",
+        "sensible"
+      ],
+      "raw_synonyms": "senseless, foolish, silly, vacuous",
+      "raw_antonyms": "meaningful, profound, significant, sensible",
+      "sentence": "The panelist dismissed the journalist's inane questions and redirected the debate toward substantive policy matters.",
+      "sentence_meaning": "আলোচক সাংবাদিকের অর্থহীন ও নির্বোধ প্রশ্নগুলো উড়িয়ে দিয়ে বিতর্কটিকে মূল নীতিগত বিষয়ের দিকে ঘুরিয়ে দেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 693,
+      "word": "Instigate",
+      "ipa": "/ˈɪnstɪɡeɪt/",
+      "pos": "v",
+      "meaning": "প্ররোচিত করা, উসকানি দেওয়া, প্ররোচনা সৃষ্টি করা",
+      "synonyms": [
+        "incite",
+        "provoke",
+        "stir up",
+        "prompt"
+      ],
+      "antonyms": [
+        "quell",
+        "deter",
+        "suppress",
+        "discourage"
+      ],
+      "raw_synonyms": "incite, provoke, stir up, prompt",
+      "raw_antonyms": "quell, deter, suppress, discourage",
+      "sentence": "Radical agitators sought to instigate public unrest by spreading provocative rumors on social media.",
+      "sentence_meaning": "উগ্র আন্দোলনকারীরা সামাজিক যোগাযোগ মাধ্যমে উসকানিমূলক গুজব ছড়িয়ে গণ-অসন্তোষ প্ররোচিত করার চেষ্টা করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 694,
+      "word": "Frail",
+      "ipa": "/freɪl/",
+      "pos": "adj",
+      "meaning": "দুর্বল, ভঙ্গুর, ক্ষীণকায়",
+      "synonyms": [
+        "delicate",
+        "weak",
+        "feeble",
+        "fragile"
+      ],
+      "antonyms": [
+        "strong",
+        "robust",
+        "hardy",
+        "sturdy"
+      ],
+      "raw_synonyms": "delicate, weak, feeble, fragile",
+      "raw_antonyms": "strong, robust, hardy, sturdy",
+      "sentence": "Despite her frail physical health, the elderly scholar possessed an exceptionally sharp and vibrant intellect.",
+      "sentence_meaning": "তাঁর ক্ষীণকায় ও দুর্বল শারীরিক স্বাস্থ্য সত্ত্বেও প্রবীণ বিদুষীর অত্যন্ত প্রখর ও প্রাণবন্ত মেধা ছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 695,
+      "word": "Furtive",
+      "ipa": "/ˈfɜːrtɪv/",
+      "pos": "adj",
+      "meaning": "গোপনীয়, চোরাগোপ্তা, সন্তর্পণে কৃত",
+      "synonyms": [
+        "secretive",
+        "surreptitious",
+        "stealthy",
+        "sneaky"
+      ],
+      "antonyms": [
+        "open",
+        "overt",
+        "frank",
+        "candid"
+      ],
+      "raw_synonyms": "secretive, surreptitious, stealthy, sneaky",
+      "raw_antonyms": "open, overt, frank, candid",
+      "sentence": "The nervous suspect cast furtive glances around the room while being questioned by detectives.",
+      "sentence_meaning": "গোয়েন্দাদের দ্বারা জিজ্ঞাসাবাদের সময় নার্ভাস সন্দেহভাজন ব্যক্তি সন্তর্পণে ঘরের চারপাশে চোরাগোপ্তা দৃষ্টি দিচ্ছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

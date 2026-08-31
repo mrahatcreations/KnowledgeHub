@@ -1,0 +1,131 @@
+{
+  "level_id": 48,
+  "title": "Level 48: Word Transformation",
+  "unit": "Image 8 (image (8).jpg) - Transformation of Word",
+  "category": "Word Transformation",
+  "items": [
+    {
+      "id": 236,
+      "word": "Admission",
+      "ipa": "/ədˈmɪʃn/",
+      "pos": "n",
+      "meaning": "ভর্তি, প্রবেশাধিকার বা স্বীকারোক্তি",
+      "synonyms": [
+        "entry",
+        "admittance",
+        "access",
+        "confession"
+      ],
+      "antonyms": [
+        "exclusion",
+        "denial",
+        "prohibition",
+        "refusal"
+      ],
+      "raw_synonyms": "entry, admittance, access, confession",
+      "raw_antonyms": "exclusion, denial, prohibition, refusal",
+      "sentence": "Competition for admission to prestigious engineering institutes remains exceptionally fierce.",
+      "sentence_meaning": "মর্যাদাপূর্ণ ইঞ্জিনিয়ারিং ইনস্টিটিউটগুলোতে ভর্তির প্রতিযোগিতা অত্যন্ত তীব্র থাকে।",
+      "category": "Word Transformation",
+      "unit": "Image 8 (image (8).jpg) - Transformation of Word"
+    },
+    {
+      "id": 237,
+      "word": "Admittance",
+      "ipa": "/ədˈmɪtns/",
+      "pos": "n",
+      "meaning": "প্রবেশাধিকার, প্রবেশ অনুমতি",
+      "synonyms": [
+        "access",
+        "entry",
+        "ingress",
+        "admission"
+      ],
+      "antonyms": [
+        "prohibition",
+        "exclusion",
+        "ban",
+        "refusal"
+      ],
+      "raw_synonyms": "access, entry, ingress, admission",
+      "raw_antonyms": "prohibition, exclusion, ban, refusal",
+      "sentence": "Signs posted outside the hazardous laboratory strictly warned against unauthorized admittance.",
+      "sentence_meaning": "বিপজ্জনক পরীক্ষাগারের বাইরে লাগানো চিহ্নে অননুমোদিত প্রবেশের বিরুদ্ধে কঠোরভাবে সতর্ক করা হয়েছিল।",
+      "category": "Word Transformation",
+      "unit": "Image 8 (image (8).jpg) - Transformation of Word"
+    },
+    {
+      "id": 238,
+      "word": "Advice",
+      "ipa": "/ədˈvaɪs/",
+      "pos": "n",
+      "meaning": "উপদেশ, পরামর্শ",
+      "synonyms": [
+        "guidance",
+        "counsel",
+        "recommendation",
+        "suggestion"
+      ],
+      "antonyms": [
+        "misdirection",
+        "misguidance",
+        "discouragement"
+      ],
+      "raw_synonyms": "guidance, counsel, recommendation, suggestion",
+      "raw_antonyms": "misdirection, misguidance, discouragement",
+      "sentence": "Following the veteran lawyer's sound advice saved the entrepreneur from costly litigation.",
+      "sentence_meaning": "অভিজ্ঞ আইনজীবীর সঠিক পরামর্শ অনুসরণ করে উদ্যোক্তা ব্যয়বহুল মামলা থেকে রক্ষা পেয়েছিলেন।",
+      "category": "Word Transformation",
+      "unit": "Image 8 (image (8).jpg) - Transformation of Word"
+    },
+    {
+      "id": 239,
+      "word": "Analysis",
+      "ipa": "/əˈnæləsɪs/",
+      "pos": "n",
+      "meaning": "বিশ্লেষণ, পুঙ্খানুপুঙ্খ পরীক্ষা",
+      "synonyms": [
+        "examination",
+        "evaluation",
+        "scrutiny",
+        "investigation"
+      ],
+      "antonyms": [
+        "synthesis",
+        "generalization",
+        "overview"
+      ],
+      "raw_synonyms": "examination, evaluation, scrutiny, investigation",
+      "raw_antonyms": "synthesis, generalization, overview",
+      "sentence": "A statistical analysis of the market data revealed surprising consumer buying trends.",
+      "sentence_meaning": "বাজারের তথ্যের পরিসংখ্যানগত বিশ্লেষণ ভোক্তাদের কেনাকাটার আশ্চর্যজনক প্রবণতা প্রকাশ করেছে।",
+      "category": "Word Transformation",
+      "unit": "Image 8 (image (8).jpg) - Transformation of Word"
+    },
+    {
+      "id": 240,
+      "word": "Anger",
+      "ipa": "/ˈæŋɡər/",
+      "pos": "n",
+      "meaning": "রাগ, ক্রোধ",
+      "synonyms": [
+        "fury",
+        "rage",
+        "wrath",
+        "indignation"
+      ],
+      "antonyms": [
+        "calmness",
+        "placidity",
+        "patience",
+        "serenity"
+      ],
+      "raw_synonyms": "fury, rage, wrath, indignation",
+      "raw_antonyms": "calmness, placidity, patience, serenity",
+      "sentence": "He struggled to control his surging anger during the unjust and biased debate.",
+      "sentence_meaning": "অন্যায় এবং পক্ষপাতমূলক বিতর্কের সময় তিনি তাঁর তীব্র ক্ষোভ নিয়ন্ত্রণ করতে সংগ্রাম করেছিলেন।",
+      "category": "Word Transformation",
+      "unit": "Image 8 (image (8).jpg) - Transformation of Word"
+    }
+  ]
+}

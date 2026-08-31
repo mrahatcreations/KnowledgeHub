@@ -1,0 +1,133 @@
+{
+  "level_id": 140,
+  "title": "Level 140: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 696,
+      "word": "Prudence",
+      "ipa": "/ˈpruːdəns/",
+      "pos": "n",
+      "meaning": "দূরদর্শিতা, বিচক্ষণতা, সতর্কতা",
+      "synonyms": [
+        "wisdom",
+        "foresight",
+        "caution",
+        "discretion"
+      ],
+      "antonyms": [
+        "rashness",
+        "recklessness",
+        "imprudence",
+        "folly"
+      ],
+      "raw_synonyms": "wisdom, foresight, caution, discretion",
+      "raw_antonyms": "rashness, recklessness, imprudence, folly",
+      "sentence": "Sound financial prudence dictates maintaining an emergency reserve fund for unforeseen economic hardships.",
+      "sentence_meaning": "সঠিক আর্থিক বিচক্ষণতা অপ্রত্যাশিত অর্থনৈতিক কষ্টের জন্য একটি জরুরি সঞ্চয় তহবিল বজায় রাখার নির্দেশ দেয়।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 697,
+      "word": "Gregarious",
+      "ipa": "/ɡrɪˈɡeriəs/",
+      "pos": "adj",
+      "meaning": "মিশুক, সামাজিক, সঙ্গলিপ্সু",
+      "synonyms": [
+        "sociable",
+        "outgoing",
+        "extroverted",
+        "companionable"
+      ],
+      "antonyms": [
+        "solitary",
+        "introverted",
+        "unsociable",
+        "reserved"
+      ],
+      "raw_synonyms": "sociable, outgoing, extroverted, companionable",
+      "raw_antonyms": "solitary, introverted, unsociable, reserved",
+      "sentence": "Known for his gregarious personality, the ambassador effortlessly built strong diplomatic relationships across delegations.",
+      "sentence_meaning": "তাঁর মিশুক ও সামাজিক ব্যক্তিত্বের জন্য পরিচিত রাষ্ট্রদূত বিভিন্ন প্রতিনিধিদলের সাথে সহজেই শক্তিশালী কূটনৈতিক সম্পর্ক গড়ে তুলেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 698,
+      "word": "Get on",
+      "ipa": "/ɡet ɑːn/",
+      "pos": "phrase",
+      "meaning": "মানিয়ে চলা, উন্নতি করা বা অগ্রসর হওয়া",
+      "synonyms": [
+        "progress",
+        "advance",
+        "prosper",
+        "cope"
+      ],
+      "antonyms": [
+        "fail",
+        "regress",
+        "deteriorate",
+        "struggle"
+      ],
+      "raw_synonyms": "progress, advance, prosper, cope",
+      "raw_antonyms": "fail, regress, deteriorate, struggle",
+      "sentence": "She managed to get on exceptionally well in her new corporate role despite initial challenges.",
+      "sentence_meaning": "প্রাথমিক চ্যালেঞ্জ সত্ত্বেও তিনি তাঁর নতুন করপোরেট ভূমিকায় অত্যন্ত ভালোভাবে অগ্রসর হতে পেরেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 699,
+      "word": "Give in",
+      "ipa": "/ɡɪv ɪn/",
+      "pos": "phrase",
+      "meaning": "নতি স্বীকার করা, আত্মসমর্পণ করা, মেনে নেওয়া",
+      "synonyms": [
+        "surrender",
+        "yield",
+        "concede",
+        "capitulate"
+      ],
+      "antonyms": [
+        "resist",
+        "withstand",
+        "oppose",
+        "persevere"
+      ],
+      "raw_synonyms": "surrender, yield, concede, capitulate",
+      "raw_antonyms": "resist, withstand, oppose, persevere",
+      "sentence": "After weeks of intense public protests, the municipal corporation had to give in to the workers' demands.",
+      "sentence_meaning": "কয়েক সপ্তাহের তীব্র গণবিক্ষোভের পর পৌরসভাকে শ্রমিকদের দাবির কাছে নতি স্বীকার করতে হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 700,
+      "word": "Go through",
+      "ipa": "/ɡoʊ θruː/",
+      "pos": "phrase",
+      "meaning": "কঠিন পরিস্থিতির মধ্য দিয়ে যাওয়া, ভোগ করা, পুঙ্খানুপুঙ্খ পরীক্ষা করা",
+      "synonyms": [
+        "undergo",
+        "experience",
+        "endure",
+        "examine"
+      ],
+      "antonyms": [
+        "avoid",
+        "bypass",
+        "neglect",
+        "evade"
+      ],
+      "raw_synonyms": "undergo, experience, endure, examine",
+      "raw_antonyms": "avoid, bypass, neglect, evade",
+      "sentence": "The developing nation had to go through severe economic structural reforms before achieving fiscal stability.",
+      "sentence_meaning": "উন্নয়নশীল দেশটির রাজস্ব স্থিতিশীলতা অর্জনের আগে কঠোর অর্থনৈতিক কাঠামোগত সংস্কারের মধ্য দিয়ে যেতে হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

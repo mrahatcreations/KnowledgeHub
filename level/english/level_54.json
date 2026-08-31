@@ -1,0 +1,132 @@
+{
+  "level_id": 54,
+  "title": "Level 54: Vocabulary",
+  "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 266,
+      "word": "Recognition",
+      "ipa": "/ˌrekəɡˈnɪʃn/",
+      "pos": "n",
+      "meaning": "স্বীকৃতি, সম্মান ও সমাদর",
+      "synonyms": [
+        "acknowledgment",
+        "appreciation",
+        "acclaim",
+        "honor"
+      ],
+      "antonyms": [
+        "disregard",
+        "denial",
+        "anonymity",
+        "rejection"
+      ],
+      "raw_synonyms": "acknowledgment, appreciation, acclaim, honor",
+      "raw_antonyms": "disregard, denial, anonymity, rejection",
+      "sentence": "After decades of dedicated service, the rural teacher finally received national recognition.",
+      "sentence_meaning": "কয়েক দশকের একনিষ্ঠ সেবার পর অবশেষে গ্রামীণ শিক্ষকটি জাতীয় স্বীকৃতি লাভ করেন।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 267,
+      "word": "Retrospective",
+      "ipa": "/ˌretrəˈspektɪv/",
+      "pos": "n",
+      "meaning": "শিল্পকর্মের অতীত সামগ্রিক প্রদর্শনী",
+      "synonyms": [
+        "comprehensive exhibition",
+        "review",
+        "retrospect",
+        "survey"
+      ],
+      "antonyms": [
+        "preview",
+        "prospective",
+        "forecast"
+      ],
+      "raw_synonyms": "comprehensive exhibition, review, retrospect, survey",
+      "raw_antonyms": "preview, prospective, forecast",
+      "sentence": "The national gallery organized a grand retrospective showcasing Zainul Abedin's iconic life works.",
+      "sentence_meaning": "জাতীয় গ্যালারি জয়নুল আবেদিনের জীবনের স্মরণীয় শিল্পকর্মগুলো প্রদর্শন করে একটি বৃহৎ অতীত সামগ্রিক প্রদর্শনীর আয়োজন করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 268,
+      "word": "Solidify",
+      "ipa": "/səˈlɪdɪfaɪ/",
+      "pos": "v",
+      "meaning": "দৃঢ় করা, মজবুত বা সংহত করা",
+      "synonyms": [
+        "strengthen",
+        "consolidate",
+        "reinforce",
+        "harden"
+      ],
+      "antonyms": [
+        "weaken",
+        "dissolve",
+        "soften",
+        "undermine"
+      ],
+      "raw_synonyms": "strengthen, consolidate, reinforce, harden",
+      "raw_antonyms": "weaken, dissolve, soften, undermine",
+      "sentence": "Signing the trade pact will solidify economic cooperation between the two regional partners.",
+      "sentence_meaning": "বাণিজ্য চুক্তি স্বাক্ষর দুই আঞ্চলিক অংশীদারের মধ্যে অর্থনৈতিক সহযোগিতাকে আরও দৃঢ় করবে।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 269,
+      "word": "Underprivileged",
+      "ipa": "/ˌʌndərˈprɪvəlɪdʒd/",
+      "pos": "adj",
+      "meaning": "সুবিধাবঞ্চিত, অধিকারবঞ্চিত",
+      "synonyms": [
+        "disadvantaged",
+        "deprived",
+        "impoverished",
+        "destitute"
+      ],
+      "antonyms": [
+        "privileged",
+        "wealthy",
+        "affluent",
+        "favored"
+      ],
+      "raw_synonyms": "disadvantaged, deprived, impoverished, destitute",
+      "raw_antonyms": "privileged, wealthy, affluent, favored",
+      "sentence": "The charity organization provides free educational materials and nutritious meals to underprivileged children.",
+      "sentence_meaning": "দাতব্য সংস্থাটি সুবিধাবঞ্চিত শিশুদের বিনামূল্যে শিক্ষাসামগ্রী ও পুষ্টিকর খাবার সরবরাহ করে।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 270,
+      "word": "Sheer",
+      "ipa": "/ʃɪr/",
+      "pos": "adj",
+      "meaning": "সম্পূর্ণ, নিখাদ বা কেবল",
+      "synonyms": [
+        "absolute",
+        "pure",
+        "utter",
+        "unmitigated"
+      ],
+      "antonyms": [
+        "partial",
+        "qualified",
+        "limited",
+        "doubtful"
+      ],
+      "raw_synonyms": "absolute, pure, utter, unmitigated",
+      "raw_antonyms": "partial, qualified, limited, doubtful",
+      "sentence": "Through sheer determination and perseverance, she overcame extreme adversity to succeed.",
+      "sentence_meaning": "কেবলমাত্র দৃঢ় সংকল্প ও অধ্যবসায়ের মাধ্যমে তিনি চরম প্রতিকূলতা কাটিয়ে সাফল্য অর্জন করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    }
+  ]
+}

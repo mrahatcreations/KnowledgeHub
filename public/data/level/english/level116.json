@@ -1,0 +1,133 @@
+{
+  "level_id": 116,
+  "title": "Level 116: Appropriate Preposition",
+  "unit": "Image 21 (image (21).jpg) - Appropriate Prepositions",
+  "category": "Appropriate Preposition",
+  "items": [
+    {
+      "id": 576,
+      "word": "Accede to",
+      "ipa": "/əkˈsiːd tuː/",
+      "pos": "prep",
+      "meaning": "প্রস্তাব বা দাবিতে সম্মত বা রাজি হওয়া",
+      "synonyms": [
+        "agree to",
+        "consent to",
+        "comply with",
+        "concur with"
+      ],
+      "antonyms": [
+        "refuse",
+        "reject",
+        "decline",
+        "oppose"
+      ],
+      "raw_synonyms": "agree to, consent to, comply with, concur with",
+      "raw_antonyms": "refuse, reject, decline, oppose",
+      "sentence": "The management finally decided to accede to the workers' reasonable demands for salary increments.",
+      "sentence_meaning": "কর্তৃপক্ষ অবশেষে বেতন বৃদ্ধির বিষয়ে শ্রমিকদের যৌক্তিক দাবিতে সম্মত হওয়ার সিদ্ধান্ত নিয়েছে।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 21 (image (21).jpg) - Appropriate Prepositions"
+    },
+    {
+      "id": 577,
+      "word": "Accompanied by",
+      "ipa": "/əˈkʌmpənid baɪ/",
+      "pos": "prep",
+      "meaning": "কারো সঙ্গী হওয়া, কোনো কিছুর সাথে ঘটা",
+      "synonyms": [
+        "escorted by",
+        "joined by",
+        "attended by",
+        "coupled with"
+      ],
+      "antonyms": [
+        "alone",
+        "unaccompanied",
+        "isolated",
+        "separated from"
+      ],
+      "raw_synonyms": "escorted by, joined by, attended by, coupled with",
+      "raw_antonyms": "alone, unaccompanied, isolated, separated from",
+      "sentence": "The patient suffered from high fever accompanied by severe chills and body ache.",
+      "sentence_meaning": "রোগী তীব্র শীতানুভূতি ও শরীর ব্যথার সাথে প্রচণ্ড জ্বরে ভুগছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 21 (image (21).jpg) - Appropriate Prepositions"
+    },
+    {
+      "id": 578,
+      "word": "Accord to",
+      "ipa": "/əˈkɔːrd tuː/",
+      "pos": "prep",
+      "meaning": "কাউকে সম্মান বা অধিকার প্রদান করা",
+      "synonyms": [
+        "grant to",
+        "bestow upon",
+        "award to",
+        "confer upon"
+      ],
+      "antonyms": [
+        "withhold from",
+        "deny",
+        "deprive of",
+        "refuse"
+      ],
+      "raw_synonyms": "grant to, bestow upon, award to, confer upon",
+      "raw_antonyms": "withhold from, deny, deprive of, refuse",
+      "sentence": "The dignitaries accorded a warm reception to the visiting foreign delegation.",
+      "sentence_meaning": "বিশিষ্ট ব্যক্তিবর্গ সফররত বিদেশি প্রতিনিধিদলকে উষ্ণ সংবর্ধনা প্রদান করেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 21 (image (21).jpg) - Appropriate Prepositions"
+    },
+    {
+      "id": 579,
+      "word": "Accord with",
+      "ipa": "/əˈkɔːrd wɪð/",
+      "pos": "prep",
+      "meaning": "কোনো তথ্যের সাথে মিল থাকা, সংগতিপূর্ণ হওয়া",
+      "synonyms": [
+        "harmonize with",
+        "agree with",
+        "tally with",
+        "correspond to"
+      ],
+      "antonyms": [
+        "conflict with",
+        "contradict",
+        "differ from",
+        "clash with"
+      ],
+      "raw_synonyms": "harmonize with, agree with, tally with, correspond to",
+      "raw_antonyms": "conflict with, contradict, differ from, clash with",
+      "sentence": "The witness's testimony does not accord with the physical evidence found at the crime scene.",
+      "sentence_meaning": "ঘটনাস্থলে পাওয়া বস্তুগত প্রমাণের সাথে সাক্ষীর জবানবন্দির মিল নেই।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 21 (image (21).jpg) - Appropriate Prepositions"
+    },
+    {
+      "id": 580,
+      "word": "Account for",
+      "ipa": "/əˈkaʊnt fɔːr/",
+      "pos": "prep",
+      "meaning": "জবাবদিহি করা, কারণ ব্যাখ্যা করা",
+      "synonyms": [
+        "explain",
+        "justify",
+        "clarify",
+        "answer for"
+      ],
+      "antonyms": [
+        "obscure",
+        "confuse",
+        "misrepresent",
+        "conceal"
+      ],
+      "raw_synonyms": "explain, justify, clarify, answer for",
+      "raw_antonyms": "obscure, confuse, misrepresent, conceal",
+      "sentence": "The treasurer was asked to account for the financial discrepancies in the annual audit report.",
+      "sentence_meaning": "বার্ষিক নিরীক্ষা প্রতিবেদনে আর্থিক অসঙ্গতির কারণ ব্যাখ্যা করার জন্য কোষাধ্যক্ষকে বলা হয়েছিল।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 21 (image (21).jpg) - Appropriate Preposition"
+    }
+  ]
+}

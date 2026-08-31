@@ -1,0 +1,133 @@
+{
+  "level_id": 147,
+  "title": "Level 147: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 731,
+      "word": "Diminish",
+      "ipa": "/dɪˈmɪnɪʃ/",
+      "pos": "v",
+      "meaning": "হ্রাস পাওয়া, কমিয়ে ফেলা, কমে যাওয়া",
+      "synonyms": [
+        "decrease",
+        "lessen",
+        "dwindle",
+        "reduce"
+      ],
+      "antonyms": [
+        "increase",
+        "amplify",
+        "enlarge",
+        "expand"
+      ],
+      "raw_synonyms": "decrease, lessen, dwindle, reduce",
+      "raw_antonyms": "increase, amplify, enlarge, expand",
+      "sentence": "Continuous inflation threatened to diminish the real purchasing power of middle-class households.",
+      "sentence_meaning": "ক্রমাগত মূল্যস্ফীতি মধ্যবিত্ত পরিবারের প্রকৃত ক্রয়ক্ষমতা হ্রাস করার হুমকি তৈরি করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 732,
+      "word": "Dilemma",
+      "ipa": "/dɪˈlemə/",
+      "pos": "n",
+      "meaning": "উভয়সংকট, দ্বিধাদ্বন্দ্ব, ফাঁপরে পড়া অবস্থা",
+      "synonyms": [
+        "predicament",
+        "quandary",
+        "plight",
+        "conundrum"
+      ],
+      "antonyms": [
+        "solution",
+        "resolution",
+        "certainty",
+        "clarity"
+      ],
+      "raw_synonyms": "predicament, quandary, plight, conundrum",
+      "raw_antonyms": "solution, resolution, certainty, clarity",
+      "sentence": "The committee faced an ethical dilemma when allocating scarce medical resources during the emergency.",
+      "sentence_meaning": "জরুরি পরিস্থিতিতে সীমিত চিকিৎসা সরঞ্জাম বরাদ্দের সময় কমিটি এক নৈতিক উভয়সংকটের মুখোমুখি হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 733,
+      "word": "Fragile",
+      "ipa": "/ˈfrædʒl/",
+      "pos": "adj",
+      "meaning": "ভঙ্গুর, নাজুক, ঠুনকো",
+      "synonyms": [
+        "delicate",
+        "brittle",
+        "frail",
+        "vulnerable"
+      ],
+      "antonyms": [
+        "robust",
+        "sturdy",
+        "durable",
+        "strong"
+      ],
+      "raw_synonyms": "delicate, brittle, frail, vulnerable",
+      "raw_antonyms": "robust, sturdy, durable, strong",
+      "sentence": "The fragile ecosystem of the coral reef is acutely threatened by rising oceanic temperatures.",
+      "sentence_meaning": "প্রবাল প্রাচীরের ভঙ্গুর বাস্তুতন্ত্র সমুদ্রের তাপমাত্রা বৃদ্ধির কারণে মারাত্মক হুমকির মুখে পড়েছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 734,
+      "word": "Homogeneous",
+      "ipa": "/ˌhəʊməˈdʒiːniəs/",
+      "pos": "adj",
+      "meaning": "সমজাতীয়, অভিন্ন প্রকৃতির, সমরূপ",
+      "synonyms": [
+        "uniform",
+        "consistent",
+        "identical",
+        "similar"
+      ],
+      "antonyms": [
+        "heterogeneous",
+        "diverse",
+        "varied",
+        "mixed"
+      ],
+      "raw_synonyms": "uniform, consistent, identical, similar",
+      "raw_antonyms": "heterogeneous, diverse, varied, mixed",
+      "sentence": "The sample surveyed a culturally homogeneous community to control for external demographic variables.",
+      "sentence_meaning": "নমুনা জরিপে বহিরাগত জনসংখ্যার পরিবর্তনশীল উপাদান নিয়ন্ত্রণ করতে একটি সাংস্কৃতিকভাবে সমজাতীয় সম্প্রদায়ের উপর জরিপ চালানো হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 735,
+      "word": "Indifferent",
+      "ipa": "/ɪnˈdɪfrənt/",
+      "pos": "adj",
+      "meaning": "উদাসীন, নির্লিপ্ত, নিরপেক্ষ",
+      "synonyms": [
+        "apathetic",
+        "unconcerned",
+        "detached",
+        "callous"
+      ],
+      "antonyms": [
+        "concerned",
+        "passionate",
+        "enthusiastic",
+        "caring"
+      ],
+      "raw_synonyms": "apathetic, unconcerned, detached, callous",
+      "raw_antonyms": "concerned, passionate, enthusiastic, caring",
+      "sentence": "It is dangerous for a democratic citizenry to remain indifferent to rampant institutional corruption.",
+      "sentence_meaning": "ব্যাপক প্রাতিষ্ঠানিক দুর্নীতির প্রতি গণতান্ত্রিক নাগরিকদের উদাসীন থাকা অত্যন্ত বিপজ্জনক।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

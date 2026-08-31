@@ -1,0 +1,133 @@
+{
+  "level_id": 194,
+  "title": "Level 194: Word Transformation",
+  "unit": "Image 36 (image (36).jpg) - Transformation of Word",
+  "category": "Word Transformation",
+  "items": [
+    {
+      "id": 966,
+      "word": "Comprehension",
+      "ipa": "/ˌkɑːmprɪˈhenʃn/",
+      "pos": "n",
+      "meaning": "বোধগম্যতা, উপলব্ধি, অন্তর্ভুক্তি",
+      "synonyms": [
+        "understanding",
+        "grasp",
+        "apprehension",
+        "perception"
+      ],
+      "antonyms": [
+        "incomprehension",
+        "misunderstanding",
+        "ignorance",
+        "confusion"
+      ],
+      "raw_synonyms": "understanding, grasp, apprehension, perception",
+      "raw_antonyms": "incomprehension, misunderstanding, ignorance, confusion",
+      "sentence": "Advanced reading comprehension exercises help develop analytical thinking and critical evaluation skills.",
+      "sentence_meaning": "উন্নত পঠন বোধগম্যতা অনুশীলন বিশ্লেষণাত্মক চিন্তাভাবনা এবং সমালোচনামূলক মূল্যায়ন দক্ষতা বিকাশে সহায়তা করে।",
+      "category": "Word Transformation",
+      "unit": "Image 36 (image (36).jpg) - Transformation of Word"
+    },
+    {
+      "id": 967,
+      "word": "Conception",
+      "ipa": "/kənˈsepʃn/",
+      "pos": "n",
+      "meaning": "ধারণা, কল্পনা, উদ্ভাবন",
+      "synonyms": [
+        "notion",
+        "idea",
+        "concept",
+        "formulation"
+      ],
+      "antonyms": [
+        "misconception",
+        "ignorance",
+        "confusion",
+        "reality"
+      ],
+      "raw_synonyms": "notion, idea, concept, formulation",
+      "raw_antonyms": "misconception, ignorance, confusion, reality",
+      "sentence": "The architect's innovative conception of eco-friendly skyscrapers won international design accolades.",
+      "sentence_meaning": "পরিবেশবান্ধব আকাশচুম্বী ভবনের উদ্ভাবনী ধারণার জন্য স্থপতি আন্তর্জাতিক নকশা পুরস্কার লাভ করেন।",
+      "category": "Word Transformation",
+      "unit": "Image 36 (image (36).jpg) - Transformation of Word"
+    },
+    {
+      "id": 968,
+      "word": "Conclusion",
+      "ipa": "/kənˈkluːʒn/",
+      "pos": "n",
+      "meaning": "উপসংহার, সমাপ্তি, সিদ্ধান্ত",
+      "synonyms": [
+        "ending",
+        "deduction",
+        "inference",
+        "termination"
+      ],
+      "antonyms": [
+        "beginning",
+        "commencement",
+        "introduction",
+        "start"
+      ],
+      "raw_synonyms": "ending, deduction, inference, termination",
+      "raw_antonyms": "beginning, commencement, introduction, start",
+      "sentence": "In the final conclusion of his dissertation, the scholar summarized his findings on ancient civilizations.",
+      "sentence_meaning": "তাঁর গবেষণাপত্রের চূড়ান্ত উপসংহারে পণ্ডিত প্রাচীন সভ্যতার ওপর তাঁর গবেষণালব্ধ ফলাফল সংক্ষেপে তুলে ধরেন।",
+      "category": "Word Transformation",
+      "unit": "Image 36 (image (36).jpg) - Transformation of Word"
+    },
+    {
+      "id": 969,
+      "word": "Congratulation",
+      "ipa": "/kənˌɡrætʃuˈleɪʃn/",
+      "pos": "n",
+      "meaning": "অভিনন্দন, শুভকামনা",
+      "synonyms": [
+        "compliment",
+        "felicitation",
+        "praise",
+        "commendation"
+      ],
+      "antonyms": [
+        "condolence",
+        "criticism",
+        "disapproval",
+        "reproach"
+      ],
+      "raw_synonyms": "compliment, felicitation, praise, commendation",
+      "raw_antonyms": "condolence, criticism, disapproval, reproach",
+      "sentence": "The dean sent a formal letter of congratulation to the student for winning the national debate cup.",
+      "sentence_meaning": "জাতীয় বিতর্ক প্রতিযোগিতায় জয়লাভের জন্য ডিন শিক্ষার্থীকে একটি আনুষ্ঠানিক অভিনন্দন পত্র পাঠান।",
+      "category": "Word Transformation",
+      "unit": "Image 36 (image (36).jpg) - Transformation of Word"
+    },
+    {
+      "id": 970,
+      "word": "Consistency",
+      "ipa": "/kənˈsɪstənsi/",
+      "pos": "n",
+      "meaning": "সামঞ্জস্যতা, ধারাবাহিকতা",
+      "synonyms": [
+        "uniformity",
+        "stability",
+        "regularity",
+        "constancy"
+      ],
+      "antonyms": [
+        "inconsistency",
+        "fluctuation",
+        "irregularity",
+        "instability"
+      ],
+      "raw_synonyms": "uniformity, stability, regularity, constancy",
+      "raw_antonyms": "inconsistency, fluctuation, irregularity, instability",
+      "sentence": "Maintaining consistency in daily preparation is the true key to clearing competitive recruitment exams.",
+      "sentence_meaning": "প্রতিদিনের প্রস্তুতিতে ধারাবাহিকতা বজায় রাখাই প্রতিযোগিতামূলক নিয়োগ পরীক্ষায় উত্তীর্ণ হওয়ার আসল চাবিকাঠি।",
+      "category": "Word Transformation",
+      "unit": "Image 36 (image (36).jpg) - Transformation of Word"
+    }
+  ]
+}

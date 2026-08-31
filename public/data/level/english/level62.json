@@ -1,0 +1,133 @@
+{
+  "level_id": 62,
+  "title": "Level 62: Vocabulary",
+  "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 306,
+      "word": "Exist",
+      "ipa": "/ɪɡˈzɪst/",
+      "pos": "v",
+      "meaning": "অস্তিত্বে থাকা, টিকে থাকা, বিদ্যমান থাকা",
+      "synonyms": [
+        "survive",
+        "endure",
+        "persist",
+        "prevail"
+      ],
+      "antonyms": [
+        "perish",
+        "vanish",
+        "disappear",
+        "expire"
+      ],
+      "raw_synonyms": "survive, endure, persist, prevail",
+      "raw_antonyms": "perish, vanish, disappear, expire",
+      "sentence": "Several rare flora and fauna species exist only in the deep tropical rainforests.",
+      "sentence_meaning": "বেশ কিছু দুর্লভ উদ্ভিদ ও প্রাণী প্রজাতি কেবল গভীর ক্রান্তীয় বৃষ্টিবনেই টিকে থাকে।",
+      "category": "Vocabulary",
+      "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)"
+    },
+    {
+      "id": 307,
+      "word": "Scripture",
+      "ipa": "/ˈskrɪptʃər/",
+      "pos": "n",
+      "meaning": "ধর্মগ্রন্থ, পবিত্র শাস্ত্র",
+      "synonyms": [
+        "sacred text",
+        "holy writ",
+        "bible",
+        "canon"
+      ],
+      "antonyms": [
+        "secular writing",
+        "profanity",
+        "fiction",
+        "heresy"
+      ],
+      "raw_synonyms": "sacred text, holy writ, bible, canon",
+      "raw_antonyms": "secular writing, profanity, fiction, heresy",
+      "sentence": "The venerable priest chanted inspiring verses from ancient scripture during the morning prayer.",
+      "sentence_meaning": "শ্রদ্ধেয় পুরোহিত সকালের প্রার্থনার সময় প্রাচীন ধর্মগ্রন্থ থেকে অনুপ্রেরণাদায়ী শ্লোক পাঠ করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 11 (image (11).jpg) - Sentence Making Table"
+    },
+    {
+      "id": 308,
+      "word": "Veritable",
+      "ipa": "/ˈverɪtəbl/",
+      "pos": "adj",
+      "meaning": "প্রকৃত, খাঁটি, বাস্তব",
+      "synonyms": [
+        "authentic",
+        "genuine",
+        "undoubted",
+        "unquestionable"
+      ],
+      "antonyms": [
+        "fake",
+        "spurious",
+        "imaginary",
+        "doubtful"
+      ],
+      "raw_synonyms": "authentic, genuine, undoubted, unquestionable",
+      "raw_antonyms": "fake, spurious, imaginary, doubtful",
+      "sentence": "The lush botanical garden turned into a veritable paradise after the refreshing spring rains.",
+      "sentence_meaning": "সতেজ বসন্তের বৃষ্টির পর শ্যামল উদ্ভিদ উদ্যানটি একটি প্রকৃত স্বর্গে পরিণত হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 11 (image (11).jpg) - Sentence Making Table"
+    },
+    {
+      "id": 309,
+      "word": "Wistful Melancholy",
+      "ipa": "/ˈwɪstfl ˈmelənkəli/",
+      "pos": "phrase",
+      "meaning": "বেদনামিশ্রিত বিষণ্ণতা, স্মৃতিকাতর আকুলতা",
+      "synonyms": [
+        "nostalgic sadness",
+        "pensive sorrow",
+        "yearning grief",
+        "poignant longing"
+      ],
+      "antonyms": [
+        "cheerful joy",
+        "exuberance",
+        "carefree mirth",
+        "jubilation"
+      ],
+      "raw_synonyms": "nostalgic sadness, pensive sorrow, yearning grief, poignant longing",
+      "raw_antonyms": "cheerful joy, exuberance, carefree mirth, jubilation",
+      "sentence": "Listening to the sentimental childhood tune filled her heart with a deep, wistful melancholy.",
+      "sentence_meaning": "শৈশবের আবেগঘন সুর শুনে তাঁর হৃদয় এক গভীর, স্মৃতিকাতর বিষণ্ণতায় ভরে উঠেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 11 (image (11).jpg) - Sentence Making Table"
+    },
+    {
+      "id": 310,
+      "word": "Hypocritical",
+      "ipa": "/ˌhɪpəˈkrɪtɪkl/",
+      "pos": "adj",
+      "meaning": "ভণ্ডামিপূর্ণ, কপট, দ্বিমুখী",
+      "synonyms": [
+        "insincere",
+        "deceitful",
+        "two-faced",
+        "sanctimonious"
+      ],
+      "antonyms": [
+        "sincere",
+        "genuine",
+        "honest",
+        "forthright"
+      ],
+      "raw_synonyms": "insincere, deceitful, two-faced, sanctimonious",
+      "raw_antonyms": "sincere, genuine, honest, forthright",
+      "sentence": "It is hypocritical to publicly condemn bribery while secretly accepting under-the-table commissions.",
+      "sentence_meaning": "গোপনে ঘুষ গ্রহণ করে প্রকাশ্যে দুর্নীতির নিন্দা জানানো চরম ভণ্ডামি।",
+      "category": "Vocabulary",
+      "unit": "Image 11 (image (11).jpg) - Sentence Making Table"
+    }
+  ]
+}

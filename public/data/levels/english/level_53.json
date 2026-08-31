@@ -1,0 +1,133 @@
+{
+  "level_id": 53,
+  "title": "Level 53: Vocabulary",
+  "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 261,
+      "word": "Distinguished",
+      "ipa": "/dɪˈstɪŋɡwɪʃt/",
+      "pos": "adj",
+      "meaning": "সম্মানিত, বিশিষ্ট ও প্রখ্যাত",
+      "synonyms": [
+        "eminent",
+        "renowned",
+        "esteemed",
+        "illustrious"
+      ],
+      "antonyms": [
+        "unremarkable",
+        "ordinary",
+        "ignominious",
+        "obscure"
+      ],
+      "raw_synonyms": "eminent, renowned, esteemed, illustrious",
+      "raw_antonyms": "unremarkable, ordinary, ignominious, obscure",
+      "sentence": "A distinguished panel of jurists was appointed to review the nation's constitutional amendments.",
+      "sentence_meaning": "দেশের সাংবিধানিক সংশোধনী পর্যালোচনার জন্য বিশিষ্ট আইনবিদদের একটি প্যানেল নিযুক্ত করা হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 262,
+      "word": "Bohemian",
+      "ipa": "/boʊˈhiːmiən/",
+      "pos": "adj",
+      "meaning": "প্রথামুক্ত, বাঁধনহারা বা যাযাবর স্বভাবের",
+      "synonyms": [
+        "unconventional",
+        "nonconformist",
+        "artistic",
+        "free-spirited"
+      ],
+      "antonyms": [
+        "conventional",
+        "traditional",
+        "orthodox",
+        "conformist"
+      ],
+      "raw_synonyms": "unconventional, nonconformist, artistic, free-spirited",
+      "raw_antonyms": "conventional, traditional, orthodox, conformist",
+      "sentence": "The poet embraced a bohemian lifestyle, traveling across Europe with minimal possessions.",
+      "sentence_meaning": "কবি একটি বাঁধনহারা প্রথামুক্ত জীবনধারা বেছে নিয়েছিলেন এবং সামান্য জিনিসপত্র নিয়ে ইউরোপজুড়ে ভ্রমণ করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 263,
+      "word": "Extensively",
+      "ipa": "/ɪkˈstensɪvli/",
+      "pos": "adv",
+      "meaning": "ব্যাপকভাবে, বিশদ পরিসরে",
+      "synonyms": [
+        "broadly",
+        "comprehensively",
+        "widely",
+        "thoroughly"
+      ],
+      "antonyms": [
+        "narrowly",
+        "scantly",
+        "minimally",
+        "partially"
+      ],
+      "raw_synonyms": "broadly, comprehensively, widely, thoroughly",
+      "raw_antonyms": "narrowly, scantly, minimally, partially",
+      "sentence": "The researcher traveled extensively throughout Southeast Asia to collect rare botanical specimens.",
+      "sentence_meaning": "বিরল উদ্ভিদের নমুনা সংগ্রহের জন্য গবেষক দক্ষিণ-পূর্ব এশিয়াজুড়ে ব্যাপকভাবে ভ্রমণ করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 264,
+      "word": "Vision",
+      "ipa": "/ˈvɪʒn/",
+      "pos": "n",
+      "meaning": "দূরদৃষ্টি, দূরদর্শী কল্পনা বা পরিকল্পনা",
+      "synonyms": [
+        "foresight",
+        "perception",
+        "discernment",
+        "outlook"
+      ],
+      "antonyms": [
+        "shortsightedness",
+        "blindness",
+        "myopia",
+        "improvidence"
+      ],
+      "raw_synonyms": "foresight, perception, discernment, outlook",
+      "raw_antonyms": "shortsightedness, blindness, myopia, improvidence",
+      "sentence": "The founder had a transformative vision for making renewable solar energy affordable worldwide.",
+      "sentence_meaning": "বিশ্বজুড়ে নবায়নযোগ্য সৌরশক্তিকে সাশ্রয়ী করে তোলার ব্যাপারে প্রতিষ্ঠাতার একটি যুগান্তকারী দূরদৃষ্টি ছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 265,
+      "word": "Widespread",
+      "ipa": "/ˈwaɪdspred/",
+      "pos": "adj",
+      "meaning": "ব্যাপক, বহুদূর বিস্তৃত",
+      "synonyms": [
+        "prevalent",
+        "extensive",
+        "ubiquitous",
+        "rampant"
+      ],
+      "antonyms": [
+        "limited",
+        "localized",
+        "rare",
+        "restricted"
+      ],
+      "raw_synonyms": "prevalent, extensive, ubiquitous, rampant",
+      "raw_antonyms": "limited, localized, rare, restricted",
+      "sentence": "The sudden policy announcement sparked widespread debate among economists and politicians.",
+      "sentence_meaning": "হঠাৎ নীতি ঘোষণার ফলে অর্থনীতিবিদ এবং রাজনীতিবিদদের মধ্যে ব্যাপক বিতর্ক শুরু হয়।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    }
+  ]
+}

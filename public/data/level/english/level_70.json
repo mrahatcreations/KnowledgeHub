@@ -1,0 +1,132 @@
+{
+  "level_id": 70,
+  "title": "Level 70: Vocabulary",
+  "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 346,
+      "word": "Shatter",
+      "ipa": "/ˈʃætər/",
+      "pos": "v",
+      "meaning": "চুরমার করা, চূর্ণবিচূর্ণ হওয়া বা করা",
+      "synonyms": [
+        "smash",
+        "fracture",
+        "splinter",
+        "demolish"
+      ],
+      "antonyms": [
+        "repair",
+        "mend",
+        "restore",
+        "reconstruct"
+      ],
+      "raw_synonyms": "smash, fracture, splinter, demolish",
+      "raw_antonyms": "repair, mend, restore, reconstruct",
+      "sentence": "The heavy ceramic vase slipped from his hands and shattered into tiny shards on the tile floor.",
+      "sentence_meaning": "ভারী সিরামিকের ফুলদানিটি তাঁর হাত থেকে পিছলে পড়ে টাইলসের মেঝেতে চূর্ণবিচূর্ণ হয়ে গেল।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 347,
+      "word": "Impatiently",
+      "ipa": "/ɪmˈpeɪʃntli/",
+      "pos": "adv",
+      "meaning": "অধৈর্যভাবে, ব্যাকুল হয়ে",
+      "synonyms": [
+        "anxiously",
+        "restlessly",
+        "fretfully",
+        "eagerly"
+      ],
+      "antonyms": [
+        "patiently",
+        "calmly",
+        "serenely",
+        "stoically"
+      ],
+      "raw_synonyms": "anxiously, restlessly, fretfully, eagerly",
+      "raw_antonyms": "patiently, calmly, serenely, stoically",
+      "sentence": "Commuters waited impatiently on the crowded platform during the unexpected morning train delay.",
+      "sentence_meaning": "সকালের ট্রেনের অপ্রত্যাশিত বিলম্বের সময় যাত্রীরা ভিড়ভাট্টা প্ল্যাটফর্মে অধৈর্যভাবে অপেক্ষা করছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 348,
+      "word": "Deprivation",
+      "ipa": "/ˌdeprɪˈveɪʃn/",
+      "pos": "n",
+      "meaning": "বঞ্চনা, তীব্র অভাব বা অপ্রতুলতা",
+      "synonyms": [
+        "privation",
+        "destitution",
+        "hardship",
+        "deficiency"
+      ],
+      "antonyms": [
+        "abundance",
+        "prosperity",
+        "opulence",
+        "plenty"
+      ],
+      "raw_synonyms": "privation, destitution, hardship, deficiency",
+      "raw_antonyms": "abundance, prosperity, opulence, plenty",
+      "sentence": "Prolonged sleep deprivation impairs cognitive function, memory retention, and emotional balance.",
+      "sentence_meaning": "দীর্ঘস্থায়ী ঘুমের অভাব মস্তিষ্কের কার্যকারিতা, স্মৃতিশক্তি এবং মানসিক ভারসাম্যের ক্ষতিসাধন করে।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 349,
+      "word": "Outspoken",
+      "ipa": "/aʊtˈspoʊkən/",
+      "pos": "adj",
+      "meaning": "স্পষ্টভাষী, অকপট",
+      "synonyms": [
+        "forthright",
+        "candid",
+        "frank",
+        "unreserved"
+      ],
+      "antonyms": [
+        "reticent",
+        "reserved",
+        "guarded",
+        "secretive"
+      ],
+      "raw_synonyms": "forthright, candid, frank, unreserved",
+      "raw_antonyms": "reticent, reserved, guarded, secretive",
+      "sentence": "The outspoken human rights activist bravely condemned government corruption despite severe threats.",
+      "sentence_meaning": "স্পষ্টভাষী মানবাধিকার কর্মী কঠোর হুমকি সত্ত্বেও সাহসিকতার সাথে সরকারি দুর্নীতির নিন্দা জানিয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 350,
+      "word": "Reverend",
+      "ipa": "/ˈrevərənd/",
+      "pos": "n",
+      "meaning": "ধর্মযাজক, শ্রদ্ধেয় যাজক",
+      "synonyms": [
+        "clergyman",
+        "minister",
+        "pastor",
+        "priest"
+      ],
+      "antonyms": [
+        "layman",
+        "layperson",
+        "secularist"
+      ],
+      "raw_synonyms": "clergyman, minister, pastor, priest",
+      "raw_antonyms": "layman, layperson, secularist",
+      "sentence": "The reverend delivered an inspiring sermon on compassion, forgiveness, and community service.",
+      "sentence_meaning": "ধর্মযাজক সহানুভূতি, ক্ষমা এবং সমাজসেবার ওপর এক অনুপ্রেরণাদায়ী উপদেশ বক্তব্য প্রদান করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    }
+  ]
+}

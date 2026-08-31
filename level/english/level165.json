@@ -1,0 +1,133 @@
+{
+  "level_id": 165,
+  "title": "Level 165: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 821,
+      "word": "Deride",
+      "ipa": "/dɪˈraɪd/",
+      "pos": "v",
+      "meaning": "উপহাস করা, বিদ্রূপ করা",
+      "synonyms": [
+        "mock",
+        "ridicule",
+        "scoff at",
+        "taunt"
+      ],
+      "antonyms": [
+        "praise",
+        "commend",
+        "compliment",
+        "respect"
+      ],
+      "raw_synonyms": "mock, ridicule, scoff at, taunt",
+      "raw_antonyms": "praise, commend, compliment, respect",
+      "sentence": "Critics were quick to deride the untested technological prototype before it demonstrated flawless efficiency.",
+      "sentence_meaning": "প্রযুক্তিগত প্রোটোটাইপটি নিখুঁত কার্যকারিতা প্রদর্শনের আগেই সমালোচকরা সেটিকে উপহাস করতে ব্যস্ত হয়ে পড়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 822,
+      "word": "Desiccate",
+      "ipa": "/ˈdesɪkeɪt/",
+      "pos": "v",
+      "meaning": "আর্দ্রতাহীন বা শুষ্ক করা, শুকিয়ে ফেলা",
+      "synonyms": [
+        "dehydrate",
+        "dry out",
+        "parch",
+        "wither"
+      ],
+      "antonyms": [
+        "hydrate",
+        "moisten",
+        "soak",
+        "wet"
+      ],
+      "raw_synonyms": "dehydrate, dry out, parch, wither",
+      "raw_antonyms": "hydrate, moisten, soak, wet",
+      "sentence": "The scorching desert sun will rapidly desiccate exposed organic matter within a matter of hours.",
+      "sentence_meaning": "মরুভূমির প্রখর রোদ উন্মুক্ত জৈব পদার্থকে কয়েক ঘণ্টার মধ্যেই দ্রুত শুকিয়ে ফেলে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 823,
+      "word": "Dearth",
+      "ipa": "/dɜːrθ/",
+      "pos": "n",
+      "meaning": "অভাব, অপ্রতুলতা, ঘাটতি",
+      "synonyms": [
+        "scarcity",
+        "shortage",
+        "lack",
+        "paucity"
+      ],
+      "antonyms": [
+        "abundance",
+        "plenty",
+        "surplus",
+        "wealth"
+      ],
+      "raw_synonyms": "scarcity, shortage, lack, paucity",
+      "raw_antonyms": "abundance, plenty, surplus, wealth",
+      "sentence": "The acute dearth of qualified medical practitioners severely impacted healthcare services in remote rural clinics.",
+      "sentence_meaning": "যোগ্য চিকিৎসকের তীব্র ঘাটতি প্রত্যন্ত গ্রামীণ ক্লিনিকগুলোতে স্বাস্থ্যসেবাকে মারাত্মকভাবে ব্যাহত করেছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 824,
+      "word": "Decry",
+      "ipa": "/dɪˈkraɪ/",
+      "pos": "v",
+      "meaning": "তীব্র নিন্দা করা, অবমূল্যায়ন করা",
+      "synonyms": [
+        "denounce",
+        "condemn",
+        "criticize",
+        "disparage"
+      ],
+      "antonyms": [
+        "praise",
+        "extol",
+        "commend",
+        "applaud"
+      ],
+      "raw_synonyms": "denounce, condemn, criticize, disparage",
+      "raw_antonyms": "praise, extol, commend, applaud",
+      "sentence": "Civic rights activists organized rallies to decry the illegal demolition of historic heritage buildings.",
+      "sentence_meaning": "নাগরিক অধিকার কর্মীরা ঐতিহাসিক ঐতিহ্যবাহী ভবনগুলোর অবৈধ ধ্বংসের বিরুদ্ধে তীব্র নিন্দা জানিয়ে সমাবেশ করে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 825,
+      "word": "Dejected",
+      "ipa": "/dɪˈdʒektɪd/",
+      "pos": "adj",
+      "meaning": "মনমরা, বিষণ্ণ, বিমর্ষ",
+      "synonyms": [
+        "despondent",
+        "depressed",
+        "downcast",
+        "glum"
+      ],
+      "antonyms": [
+        "cheerful",
+        "joyful",
+        "buoyant",
+        "exuberant"
+      ],
+      "raw_synonyms": "despondent, depressed, downcast, glum",
+      "raw_antonyms": "cheerful, joyful, buoyant, exuberant",
+      "sentence": "After receiving news of the scholarship rejection, the aspiring student looked deeply dejected for days.",
+      "sentence_meaning": "বৃত্তির আবেদন প্রত্যাখ্যাত হওয়ার খবর পেয়ে উচ্চাভিলাষী শিক্ষার্থীটি বেশ কয়েক দিন ধরে ভীষণ বিমর্ষ ছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

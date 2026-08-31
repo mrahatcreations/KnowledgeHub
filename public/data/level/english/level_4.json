@@ -1,0 +1,133 @@
+{
+  "level_id": 4,
+  "title": "Level 4: Vocabulary",
+  "unit": "Image 1: Vocabulary (Unit-1)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 16,
+      "word": "Interaction",
+      "ipa": "/ˌɪntərˈækʃn/",
+      "pos": "n",
+      "meaning": "মিথস্ক্রিয়া, পারস্পরিক যোগাযোগ",
+      "synonyms": [
+        "communication",
+        "engagement",
+        "intercourse",
+        "dialogue"
+      ],
+      "antonyms": [
+        "isolation",
+        "detachment",
+        "separation",
+        "estrangement"
+      ],
+      "raw_synonyms": "communication, engagement, intercourse, dialogue",
+      "raw_antonyms": "isolation, detachment, separation, estrangement",
+      "sentence": "Regular interaction between teachers and students fosters a stimulating learning environment.",
+      "sentence_meaning": "শিক্ষক ও শিক্ষার্থীদের মধ্যে নিয়মিত মিথস্ক্রিয়া একটি প্রাণবন্ত শিক্ষার পরিবেশ গড়ে তোলে।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 17,
+      "word": "Sensitive",
+      "ipa": "/ˈsensətɪv/",
+      "pos": "adj",
+      "meaning": "সংবেদনশীল, অনুভূতিপ্রবণ",
+      "synonyms": [
+        "responsive",
+        "delicate",
+        "perceptive",
+        "sympathetic"
+      ],
+      "antonyms": [
+        "insensitive",
+        "callous",
+        "unfeeling",
+        "apathetic"
+      ],
+      "raw_synonyms": "responsive, delicate, perceptive, sympathetic",
+      "raw_antonyms": "insensitive, callous, unfeeling, apathetic",
+      "sentence": "The diplomat handled the sensitive political situation with immense tact and diplomacy.",
+      "sentence_meaning": "কূটনীতিক অত্যন্ত বিচক্ষণতা ও দক্ষতার সাথে সংবেদনশীল রাজনৈতিক পরিস্থিতি মোকাবিলা করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 18,
+      "word": "Crucial",
+      "ipa": "/ˈkruːʃl/",
+      "pos": "adj",
+      "meaning": "অত্যন্ত গুরুত্বপূর্ণ, সংকটপূর্ণ",
+      "synonyms": [
+        "vital",
+        "critical",
+        "essential",
+        "pivotal"
+      ],
+      "antonyms": [
+        "trivial",
+        "unimportant",
+        "minor",
+        "insignificant"
+      ],
+      "raw_synonyms": "vital, critical, essential, pivotal",
+      "raw_antonyms": "trivial, unimportant, minor, insignificant",
+      "sentence": "Time management plays a crucial role in achieving academic success.",
+      "sentence_meaning": "শিক্ষাজীবনে সাফল্য অর্জনের ক্ষেত্রে সময় ব্যবস্থাপনা একটি অত্যন্ত গুরুত্বপূর্ণ ভূমিকা পালন করে।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 19,
+      "word": "Ethically",
+      "ipa": "/ˈeθɪkli/",
+      "pos": "adv",
+      "meaning": "নৈতিকভাবে",
+      "synonyms": [
+        "morally",
+        "fairly",
+        "justly",
+        "honourably"
+      ],
+      "antonyms": [
+        "unethically",
+        "immorally",
+        "unjustly",
+        "dishonestly"
+      ],
+      "raw_synonyms": "morally, fairly, justly, honourably",
+      "raw_antonyms": "unethically, immorally, unjustly, dishonestly",
+      "sentence": "Business organizations are expected to operate ethically and uphold social responsibility.",
+      "sentence_meaning": "ব্যবসায়িক প্রতিষ্ঠানগুলো নৈতিকভাবে পরিচালিত হবে এবং সামাজিক দায়বদ্ধতা রক্ষা করবে বলে প্রত্যাশা করা হয়।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 20,
+      "word": "Accessible",
+      "ipa": "/əkˈsesəbl/",
+      "pos": "adj",
+      "meaning": "সহজলভ্য, প্রবেশযোগ্য",
+      "synonyms": [
+        "reachable",
+        "approachable",
+        "attainable",
+        "available"
+      ],
+      "antonyms": [
+        "inaccessible",
+        "unreachable",
+        "restricted",
+        "remote"
+      ],
+      "raw_synonyms": "reachable, approachable, attainable, available",
+      "raw_antonyms": "inaccessible, unreachable, restricted, remote",
+      "sentence": "The newly renovated library is now fully accessible to disabled students.",
+      "sentence_meaning": "নতুনভাবে সংস্কার করা গ্রন্থাগারটি এখন প্রতিবন্ধী শিক্ষার্থীদের জন্য সম্পূর্ণ প্রবেশযোগ্য।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    }
+  ]
+}

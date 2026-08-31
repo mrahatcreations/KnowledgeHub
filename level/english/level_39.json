@@ -1,0 +1,133 @@
+{
+  "level_id": 39,
+  "title": "Level 39: Appropriate Preposition",
+  "unit": "Image 6: Appropriate Prepositions",
+  "category": "Appropriate Preposition",
+  "items": [
+    {
+      "id": 191,
+      "word": "Abide by",
+      "ipa": "/əˈbaɪd baɪ/",
+      "pos": "prep",
+      "meaning": "আইন বা নিয়ম মেনে চলা",
+      "synonyms": [
+        "comply with",
+        "adhere to",
+        "obey",
+        "follow"
+      ],
+      "antonyms": [
+        "violate",
+        "flout",
+        "disobey",
+        "breach"
+      ],
+      "raw_synonyms": "comply with, adhere to, obey, follow",
+      "raw_antonyms": "violate, flout, disobey, breach",
+      "sentence": "Every law-abiding citizen is expected to abide by the statutory traffic regulations.",
+      "sentence_meaning": "প্রত্যেক আইন মেনে চলা নাগরিকের কাছ থেকে সংবিধিবদ্ধ ট্রাফিক নিয়ম মেনে চলার প্রত্যাশা করা হয়।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 192,
+      "word": "Abide with",
+      "ipa": "/əˈbaɪd wɪð/",
+      "pos": "prep",
+      "meaning": "কারো সাথে কোনো স্থানে বসবাস করা বা অবস্থান করা",
+      "synonyms": [
+        "dwell with",
+        "reside with",
+        "live with",
+        "stay with"
+      ],
+      "antonyms": [
+        "leave",
+        "part from",
+        "separate from",
+        "abandon"
+      ],
+      "raw_synonyms": "dwell with, reside with, live with, stay with",
+      "raw_antonyms": "leave, part from, separate from, abandon",
+      "sentence": "During his student years, Tanvir used to abide with his uncle at a quiet suburban home.",
+      "sentence_meaning": "ছাত্রজীবনে তানভীর একটি নিরিবিলি উপশহরের বাড়িতে তার চাচার সাথে বসবাস করতেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 193,
+      "word": "Abound in",
+      "ipa": "/əˈbaʊnd ɪn/",
+      "pos": "prep",
+      "meaning": "প্রচুর পরিমাণে সমৃদ্ধ বা পূর্ণ থাকা",
+      "synonyms": [
+        "teem with",
+        "overflow with",
+        "be plentiful in",
+        "brim with"
+      ],
+      "antonyms": [
+        "lack in",
+        "be devoid of",
+        "be scarce in",
+        "need"
+      ],
+      "raw_synonyms": "teem with, overflow with, be plentiful in, brim with",
+      "raw_antonyms": "lack in, be devoid of, be scarce in, need",
+      "sentence": "The Sundarbans mangrove forest abounds in diverse wildlife and rare tropical vegetation.",
+      "sentence_meaning": "সুন্দরবন ম্যানগ্রোভ বন বৈচিত্র্যময় বন্যপ্রাণী এবং বিরল গ্রীষ্মমণ্ডলীয় উদ্ভিদে পরিপূর্ণ।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 194,
+      "word": "Absent from",
+      "ipa": "/ˈæbsənt frɒm/",
+      "pos": "prep",
+      "meaning": "কোনো স্থান বা দায়িত্ব থেকে অনুপস্থিত থাকা",
+      "synonyms": [
+        "missing from",
+        "away from",
+        "truant from",
+        "distant from"
+      ],
+      "antonyms": [
+        "present at",
+        "attending",
+        "involved in",
+        "participating in"
+      ],
+      "raw_synonyms": "missing from, away from, truant from, distant from",
+      "raw_antonyms": "present at, attending, involved in, participating in",
+      "sentence": "Several key delegates were absent from the international climate summit due to flight delays.",
+      "sentence_meaning": "ফ্লাইট দেরির কারণে বেশ কয়েকজন প্রধান প্রতিনিধি আন্তর্জাতিক জলবায়ু শীর্ষ সম্মেলনে অনুপস্থিত ছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 195,
+      "word": "Absolve from",
+      "ipa": "/əbˈzɒlv frɒm/",
+      "pos": "prep",
+      "meaning": "দোষ বা পাপ থেকে রেহাই দেওয়া বা মুক্তি দেওয়া",
+      "synonyms": [
+        "exonerate",
+        "acquit",
+        "pardon",
+        "forgive"
+      ],
+      "antonyms": [
+        "blame",
+        "convict",
+        "condemn",
+        "accuse"
+      ],
+      "raw_synonyms": "exonerate, acquit, pardon, forgive",
+      "raw_antonyms": "blame, convict, condemn, accuse",
+      "sentence": "The court absolved the innocent man from all criminal blame after evidence surfaced.",
+      "sentence_meaning": "নতুন প্রমাণ সামনে আসার পর আদালত নির্দোষ লোকটিকে সকল ফৌজদারি অভিযোগ ও দোষ থেকে অব্যাহতি দিয়েছিল।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    }
+  ]
+}

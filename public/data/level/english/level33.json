@@ -1,0 +1,133 @@
+{
+  "level_id": 33,
+  "title": "Level 33: Phrasal Verb",
+  "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique",
+  "category": "Phrasal Verb",
+  "items": [
+    {
+      "id": 161,
+      "word": "Bear off",
+      "ipa": "/beər ɒf/",
+      "pos": "phrase",
+      "meaning": "জয়লাভ করা বা ছিনিয়ে নেওয়া",
+      "synonyms": [
+        "win",
+        "carry away",
+        "acquire",
+        "snatch"
+      ],
+      "antonyms": [
+        "yield",
+        "lose",
+        "forfeit",
+        "surrender"
+      ],
+      "raw_synonyms": "win, carry away, acquire, snatch",
+      "raw_antonyms": "yield, lose, forfeit, surrender",
+      "sentence": "The champion athlete managed to bear off top honors in all three sprinting categories.",
+      "sentence_meaning": "চ্যাম্পিয়ন ক্রীড়াবিদ তিনটি দৌড় বিভাগেই শীর্ষ সম্মান ছিনিয়ে নিতে সক্ষম হয়েছিলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 162,
+      "word": "Bear down",
+      "ipa": "/beər daʊn/",
+      "pos": "phrase",
+      "meaning": "দমন করা বা পরাস্ত করা",
+      "synonyms": [
+        "suppress",
+        "crush",
+        "overcome",
+        "quell"
+      ],
+      "antonyms": [
+        "yield to",
+        "succumb",
+        "surrender to",
+        "encourage"
+      ],
+      "raw_synonyms": "suppress, crush, overcome, quell",
+      "raw_antonyms": "yield to, succumb, surrender to, encourage",
+      "sentence": "The disciplined riot police moved in swiftly to bear down any armed insurgent resistance.",
+      "sentence_meaning": "শৃঙ্খলাবদ্ধ দাঙ্গা পুলিশ কোনো সশস্ত্র বিদ্রোহী প্রতিরোধকে দমন করতে দ্রুত অগ্রসর হয়েছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 163,
+      "word": "Bring up",
+      "ipa": "/brɪŋ ʌp/",
+      "pos": "phrase",
+      "meaning": "লালন-পালন করা, প্রতিপালন করা",
+      "synonyms": [
+        "rear",
+        "nurture",
+        "raise",
+        "foster"
+      ],
+      "antonyms": [
+        "neglect",
+        "abandon",
+        "ignore",
+        "desert"
+      ],
+      "raw_synonyms": "rear, nurture, raise, foster",
+      "raw_antonyms": "neglect, abandon, ignore, desert",
+      "sentence": "Her grandparents sacrificed a great deal to bring up the orphaned child with utmost care.",
+      "sentence_meaning": "তার দাদা-দাদী অনাথ শিশুটিকে পরম যত্নে লালন-পালন করতে অনেক ত্যাগ স্বীকার করেছিলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 164,
+      "word": "Bring out",
+      "ipa": "/brɪŋ aʊt/",
+      "pos": "phrase",
+      "meaning": "প্রকাশ করা বা বই মুদ্রণ করা",
+      "synonyms": [
+        "publish",
+        "release",
+        "produce",
+        "issue"
+      ],
+      "antonyms": [
+        "suppress",
+        "withhold",
+        "conceal",
+        "censor"
+      ],
+      "raw_synonyms": "publish, release, produce, issue",
+      "raw_antonyms": "suppress, withhold, conceal, censor",
+      "sentence": "The university press plans to bring out a new critical edition of the ancient Bengali epic.",
+      "sentence_meaning": "বিশ্ববিদ্যালয় প্রকাশনা সংস্থা প্রাচীন বাংলা মহাকাব্যের একটি নতুন সমালোচনামূলক সংস্করণ প্রকাশ করার পরিকল্পনা করেছে।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 165,
+      "word": "Bring forth",
+      "ipa": "/brɪŋ fɔːrθ/",
+      "pos": "phrase",
+      "meaning": "উৎপাদন করা বা জন্ম দেওয়া",
+      "synonyms": [
+        "produce",
+        "generate",
+        "yield",
+        "beget"
+      ],
+      "antonyms": [
+        "destroy",
+        "suppress",
+        "annihilate",
+        "stifle"
+      ],
+      "raw_synonyms": "produce, generate, yield, beget",
+      "raw_antonyms": "destroy, suppress, annihilate, stifle",
+      "sentence": "Fertile agricultural soil and adequate monsoon rains bring forth abundant grain harvests.",
+      "sentence_meaning": "উর্বর কৃষিজমি এবং পর্যাপ্ত মৌসুমি বৃষ্টি প্রচুর শস্য ফসল উৎপন্ন করে।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    }
+  ]
+}

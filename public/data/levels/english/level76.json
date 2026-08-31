@@ -1,0 +1,133 @@
+{
+  "level_id": 76,
+  "title": "Level 76: Vocabulary",
+  "unit": "Vocabulary Table",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 376,
+      "word": "Betrayed",
+      "ipa": "/bɪˈtreɪd/",
+      "pos": "adj",
+      "meaning": "প্রতারিত, বিশ্বাসঘাতকতার শিকার",
+      "synonyms": [
+        "deceived",
+        "misled",
+        "double-crossed",
+        "cheated"
+      ],
+      "antonyms": [
+        "supported",
+        "protected",
+        "defended",
+        "honored"
+      ],
+      "raw_synonyms": "deceived, misled, double-crossed, cheated",
+      "raw_antonyms": "supported, protected, defended, honored",
+      "sentence": "She felt deeply betrayed when her closest confidant leaked confidential business information to a rival.",
+      "sentence_meaning": "যখন তাঁর সবচেয়ে বিশ্বস্ত সহযোগী একজন প্রতিদ্বন্দ্বীর কাছে গোপনীয় ব্যবসায়িক তথ্য ফাঁস করে দেয়, তখন তিনি নিজেকে গভীরভাবে প্রতারিত অনুভব করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 377,
+      "word": "Undernourished",
+      "ipa": "/ˌʌndərˈnɜːrɪʃt/",
+      "pos": "adj",
+      "meaning": "অপুষ্ট, পুষ্টিহীনতায় আক্রান্ত",
+      "synonyms": [
+        "malnourished",
+        "underfed",
+        "emaciated",
+        "starved"
+      ],
+      "antonyms": [
+        "well-nourished",
+        "healthy",
+        "overfed",
+        "robust"
+      ],
+      "raw_synonyms": "malnourished, underfed, emaciated, starved",
+      "raw_antonyms": "well-nourished, healthy, overfed, robust",
+      "sentence": "Humanitarian organizations distributed high-protein food packets to assist undernourished children in the refugee camp.",
+      "sentence_meaning": "মানবিক সংস্থাগুলো শরণার্থী শিবিরের অপুষ্ট শিশুদের সহায়তার জন্য উচ্চ-প্রোটিনযুক্ত খাদ্য প্যাকেট বিতরণ করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 378,
+      "word": "Evident",
+      "ipa": "/ˈevɪdənt/",
+      "pos": "adj",
+      "meaning": "স্পষ্ট, প্রত্যক্ষ, প্রতীয়মান",
+      "synonyms": [
+        "obvious",
+        "apparent",
+        "manifest",
+        "plain"
+      ],
+      "antonyms": [
+        "hidden",
+        "obscure",
+        "unclear",
+        "doubtful"
+      ],
+      "raw_synonyms": "obvious, apparent, manifest, plain",
+      "raw_antonyms": "hidden, obscure, unclear, doubtful",
+      "sentence": "Her dedication and tireless effort were evident from the immaculate quality of the final report.",
+      "sentence_meaning": "চূড়ান্ত প্রতিবেদনের নিখুঁত মান দেখেই তাঁর নিষ্ঠা ও অক্লান্ত পরিশ্রম সুস্পষ্টভাবে প্রমাণিত হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 379,
+      "word": "Conscience",
+      "ipa": "/ˈkɑːnʃəns/",
+      "pos": "n",
+      "meaning": "বিবেক, ন্যায়-অন্যায় বোধ",
+      "synonyms": [
+        "scruples",
+        "morals",
+        "integrity",
+        "inner voice"
+      ],
+      "antonyms": [
+        "immorality",
+        "unscrupulousness",
+        "callousness",
+        "shamelessness"
+      ],
+      "raw_synonyms": "scruples, morals, integrity, inner voice",
+      "raw_antonyms": "immorality, unscrupulousness, callousness, shamelessness",
+      "sentence": "His uneasy conscience prevented him from keeping the extra change returned by the cashier.",
+      "sentence_meaning": "তাঁর জাগ্রত বিবেক ক্যাশিয়ারের ফেরত দেওয়া অতিরিক্ত টাকা নিজের কাছে রাখতে বাধা দিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 380,
+      "word": "Wander",
+      "ipa": "/ˈwɑːndər/",
+      "pos": "v",
+      "meaning": "ঘুরে বেড়ানো, উদ্দেশ্যহীনভাবে বিচরণ করা",
+      "synonyms": [
+        "roam",
+        "ramble",
+        "stroll",
+        "meander"
+      ],
+      "antonyms": [
+        "stay",
+        "settle",
+        "remain",
+        "halt"
+      ],
+      "raw_synonyms": "roam, ramble, stroll, meander",
+      "raw_antonyms": "stay, settle, remain, halt",
+      "sentence": "During the vacation, we loved to wander aimlessly along the cobblestone alleys of the historic district.",
+      "sentence_meaning": "ছুটির দিনে আমরা ঐতিহাসিক এলাকার পাথুরে গলিপথে উদ্দেশ্যহীনভাবে ঘুরে বেড়াতে পছন্দ করতাম।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "level_id": 58,
+  "title": "Level 58: Vocabulary",
+  "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 286,
+      "word": "Artefact",
+      "ipa": "/ˈɑːrtɪfækt/",
+      "pos": "n",
+      "meaning": "ঐতিহাসিক হস্তশিল্প বা প্রত্নবস্তু",
+      "synonyms": [
+        "relic",
+        "antique",
+        "handicraft",
+        "curio"
+      ],
+      "antonyms": [
+        "natural specimen",
+        "modern creation"
+      ],
+      "raw_synonyms": "relic, antique, handicraft, curio",
+      "raw_antonyms": "natural specimen, modern creation",
+      "sentence": "Archaeologists discovered an ancient terracotta artefact dating back to the third century BCE.",
+      "sentence_meaning": "প্রত্নতাত্ত্বিকরা খ্রিস্টপূর্ব তৃতীয় শতকের একটি প্রাচীন পোড়ামাটির প্রত্নবস্তু আবিষ্কার করেছেন।",
+      "category": "Vocabulary",
+      "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)"
+    },
+    {
+      "id": 287,
+      "word": "Motif",
+      "ipa": "/moʊˈtiːf/",
+      "pos": "n",
+      "meaning": "শিল্পকর্মের মূল নকশা বা মূল ভাব",
+      "synonyms": [
+        "theme",
+        "pattern",
+        "concept",
+        "design element"
+      ],
+      "antonyms": [
+        "deviation",
+        "aberration",
+        "discordance"
+      ],
+      "raw_synonyms": "theme, pattern, concept, design element",
+      "raw_antonyms": "deviation, aberration, discordance",
+      "sentence": "A recurring floral motif was embroidered skillfully along the borders of the silk sari.",
+      "sentence_meaning": "রেশমি শাড়ির পাড়ে একটি পুনরাবৃত্তিমূলক ফুলের নকশা দক্ষতার সাথে সূচিকর্ম করা হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)"
+    },
+    {
+      "id": 288,
+      "word": "Depict",
+      "ipa": "/dɪˈpɪkt/",
+      "pos": "v",
+      "meaning": "চিত্রিত করা, ফুটিয়ে তোলা বা বর্ণনা করা",
+      "synonyms": [
+        "portray",
+        "illustrate",
+        "render",
+        "represent"
+      ],
+      "antonyms": [
+        "falsify",
+        "distort",
+        "obscure",
+        "misrepresent"
+      ],
+      "raw_synonyms": "portray, illustrate, render, represent",
+      "raw_antonyms": "falsify, distort, obscure, misrepresent",
+      "sentence": "The oil painting depicts rural farmers harvesting golden paddy during autumn.",
+      "sentence_meaning": "তেলচিত্রটিতে শরতের সময় গ্রামীণ কৃষকদের সোনালি ধান কাটার দৃশ্য চিত্রিত করা হয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)"
+    },
+    {
+      "id": 289,
+      "word": "Inaugurate",
+      "ipa": "/ɪˈnɔːɡjəreɪt/",
+      "pos": "v",
+      "meaning": "উদ্বোধন করা, আনুষ্ঠানিকভাবে শুরু করা",
+      "synonyms": [
+        "launch",
+        "commence",
+        "instigate",
+        "initiate"
+      ],
+      "antonyms": [
+        "terminate",
+        "close",
+        "conclude",
+        "abolish"
+      ],
+      "raw_synonyms": "launch, commence, instigate, initiate",
+      "raw_antonyms": "terminate, close, conclude, abolish",
+      "sentence": "The Prime Minister arrived on schedule to inaugurate the newly built four-lane bridge.",
+      "sentence_meaning": "নতুন নির্মিত চার লেনের সেতুটি উদ্বোধন করতে প্রধানমন্ত্রী নির্ধারিত সময়ে উপস্থিত হয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)"
+    },
+    {
+      "id": 290,
+      "word": "Remains",
+      "ipa": "/rɪˈmeɪnz/",
+      "pos": "n",
+      "meaning": "ধ্বংসাবশেষ, অবশিষ্টাংশ",
+      "synonyms": [
+        "ruins",
+        "relics",
+        "remnants",
+        "vestiges"
+      ],
+      "antonyms": [
+        "whole",
+        "entirety",
+        "structure",
+        "aggregate"
+      ],
+      "raw_synonyms": "ruins, relics, remnants, vestiges",
+      "raw_antonyms": "whole, entirety, structure, aggregate",
+      "sentence": "Visitors flocked to examine the excavated archaeological remains of the ancient city.",
+      "sentence_meaning": "প্রাচীন শহরের খননকৃত প্রত্নতাত্ত্বিক ধ্বংসাবশেষ দেখতে দর্শনার্থীরা ভিড় জমিয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 10 (image (10).jpg) - Vocabulary (Unit:2 continued)"
+    }
+  ]
+}

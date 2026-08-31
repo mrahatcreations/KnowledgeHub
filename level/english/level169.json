@@ -1,0 +1,133 @@
+{
+  "level_id": 169,
+  "title": "Level 169: Idiom",
+  "unit": "Idioms and Phrases",
+  "category": "Idiom",
+  "items": [
+    {
+      "id": 841,
+      "word": "Carry the day",
+      "ipa": "/ˈkæri ðə deɪ/",
+      "pos": "phrase",
+      "meaning": "জয়লাভ করা, বিজয়ী হওয়া",
+      "synonyms": [
+        "win",
+        "triumph",
+        "prevail",
+        "succeed"
+      ],
+      "antonyms": [
+        "lose",
+        "fail",
+        "be defeated",
+        "succumb"
+      ],
+      "raw_synonyms": "win, triumph, prevail, succeed",
+      "raw_antonyms": "lose, fail, be defeated, succumb",
+      "sentence": "After a fiercely contested parliamentary election, the progressive reformist coalition carried the day.",
+      "sentence_meaning": "তীব্র প্রতিদ্বন্দ্বিতাপূর্ণ সংসদীয় নির্বাচনের পর প্রগতিশীল সংস্কারবাদী জোট জয়লাভ করেছিল।",
+      "category": "Idiom",
+      "unit": "Idioms and Phrases"
+    },
+    {
+      "id": 842,
+      "word": "Close-fisted",
+      "ipa": "/ˌkloʊsˈfɪstɪd/",
+      "pos": "phrase",
+      "meaning": "কৃপণ, ব্যয়কুণ্ঠ",
+      "synonyms": [
+        "stingy",
+        "miserly",
+        "niggardly",
+        "parsimonious"
+      ],
+      "antonyms": [
+        "generous",
+        "lavish",
+        "bountiful",
+        "magnanimous"
+      ],
+      "raw_synonyms": "stingy, miserly, niggardly, parsimonious",
+      "raw_antonyms": "generous, lavish, bountiful, magnanimous",
+      "sentence": "Despite amassing immense wealth through real estate, the close-fisted landlord refused to fix the leaking roof.",
+      "sentence_meaning": "রিয়েল এস্টেটের মাধ্যমে বিপুল সম্পদের মালিক হওয়া সত্ত্বেও কৃপণ বাড়িওয়ালা ছাদের ছিদ্র মেরামত করতে অস্বীকার করেছিলেন।",
+      "category": "Idiom",
+      "unit": "Idioms and Phrases"
+    },
+    {
+      "id": 843,
+      "word": "Cat's paw",
+      "ipa": "/ˈkæts pɔː/",
+      "pos": "phrase",
+      "meaning": "অন্যের হাতের পুতুল, পরচালিত ব্যক্তি",
+      "synonyms": [
+        "puppet",
+        "pawn",
+        "tool",
+        "dupe"
+      ],
+      "antonyms": [
+        "mastermind",
+        "leader",
+        "controller",
+        "independent agent"
+      ],
+      "raw_synonyms": "puppet, pawn, tool, dupe",
+      "raw_antonyms": "mastermind, leader, controller, independent agent",
+      "sentence": "The naive official realized too late that corrupt syndicates were using him as a cat's paw to siphon off public funds.",
+      "sentence_meaning": "সহজ-সরল কর্মকর্তাটি অনেক দেরিতে বুঝতে পেরেছিলেন যে দুর্নীতিবাজ চক্র সরকারি তহবিল আত্মসাতের জন্য তাকে হাতের পুতুল হিসেবে ব্যবহার করছিল।",
+      "category": "Idiom",
+      "unit": "Idioms and Phrases"
+    },
+    {
+      "id": 844,
+      "word": "Cut a figure",
+      "ipa": "/kʌt ə ˈfɪɡjər/",
+      "pos": "phrase",
+      "meaning": "নির্দিষ্ট রূপ বা প্রভাব প্রকাশ করা, নজর কাড়া",
+      "synonyms": [
+        "make an impression",
+        "appear",
+        "present oneself",
+        "stand out"
+      ],
+      "antonyms": [
+        "blend in",
+        "go unnoticed",
+        "disappear",
+        "fade away"
+      ],
+      "raw_synonyms": "make an impression, appear, present oneself, stand out",
+      "raw_antonyms": "blend in, go unnoticed, disappear, fade away",
+      "sentence": "Dressed in a tailored tuxedo, he cut a handsome and distinguished figure at the university convocation ceremony.",
+      "sentence_meaning": "একটি মানানসই টাক্সিডো পরে তিনি বিশ্ববিদ্যালয়ের সমাবর্তন অনুষ্ঠানে সুদর্শন ও বিশিষ্ট ব্যক্তিত্বরূপে নজর কেড়েছিলেন।",
+      "category": "Idiom",
+      "unit": "Idioms and Phrases"
+    },
+    {
+      "id": 845,
+      "word": "Carry coals to Newcastle",
+      "ipa": "/ˈkæri koʊlz tuː ˈnuːkæsl/",
+      "pos": "phrase",
+      "meaning": "তেলে মাথায় তেল দেওয়া, অনর্থক প্রাচুর্যের জায়গায় কিছু পাঠানো",
+      "synonyms": [
+        "waste effort",
+        "do redundant work",
+        "supply excess",
+        "gild the lily"
+      ],
+      "antonyms": [
+        "meet a necessity",
+        "supply a demand",
+        "provide scarcity",
+        "fill a void"
+      ],
+      "raw_synonyms": "waste effort, do redundant work, supply excess, gild the lily",
+      "raw_antonyms": "meet a necessity, supply a demand, provide scarcity, fill a void",
+      "sentence": "Exporting petroleum to the Middle East is essentially carrying coals to Newcastle.",
+      "sentence_meaning": "মধ্যপ্রাচ্যে পেট্রোলিয়াম রপ্তানি করা মূলত তেলে মাথায় তেল দেওয়ার মতোই অনর্থক কাজ।",
+      "category": "Idiom",
+      "unit": "Idioms and Phrases"
+    }
+  ]
+}

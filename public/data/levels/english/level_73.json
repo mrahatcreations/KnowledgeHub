@@ -1,0 +1,133 @@
+{
+  "level_id": 73,
+  "title": "Level 73: Vocabulary",
+  "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 361,
+      "word": "Empowerment",
+      "ipa": "/ɪmˈpaʊərmənt/",
+      "pos": "n",
+      "meaning": "ক্ষমতায়ন, সক্ষমতা প্রদান",
+      "synonyms": [
+        "authorization",
+        "enablement",
+        "strengthening",
+        "autonomy"
+      ],
+      "antonyms": [
+        "disempowerment",
+        "subjugation",
+        "restriction",
+        "weakening"
+      ],
+      "raw_synonyms": "authorization, enablement, strengthening, autonomy",
+      "raw_antonyms": "disempowerment, subjugation, restriction, weakening",
+      "sentence": "Providing access to higher education and vocational skills fosters the economic empowerment of marginalized communities.",
+      "sentence_meaning": "উচ্চশিক্ষা এবং বৃত্তিমূলক দক্ষতার সুযোগ প্রান্তিক জনগোষ্ঠীর অর্থনৈতিক ক্ষমতায়নকে জোরদার করে।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 362,
+      "word": "Advocate",
+      "ipa": "/ˈædvəkeɪt/",
+      "pos": "v",
+      "meaning": "সমর্থন করা, পক্ষে মত প্রকাশ করা",
+      "synonyms": [
+        "support",
+        "champion",
+        "promote",
+        "endorse"
+      ],
+      "antonyms": [
+        "oppose",
+        "condemn",
+        "discourage",
+        "resist"
+      ],
+      "raw_synonyms": "support, champion, promote, endorse",
+      "raw_antonyms": "oppose, condemn, discourage, resist",
+      "sentence": "Environmental activists continue to advocate for stricter regulations on industrial carbon emissions.",
+      "sentence_meaning": "পরিবেশবাদীরা শিল্পকারখানার কার্বন নির্গমনের ওপর কঠোর বিধিমালার পক্ষে প্রতিনিয়ত সমর্থন জানিয়ে যাচ্ছেন।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 363,
+      "word": "Unquiet",
+      "ipa": "/ʌnˈkwaɪət/",
+      "pos": "adj",
+      "meaning": "অশান্ত, অস্থির, চঞ্চল",
+      "synonyms": [
+        "restless",
+        "turbulent",
+        "agitated",
+        "uneasy"
+      ],
+      "antonyms": [
+        "peaceful",
+        "tranquil",
+        "serene",
+        "calm"
+      ],
+      "raw_synonyms": "restless, turbulent, agitated, uneasy",
+      "raw_antonyms": "peaceful, tranquil, serene, calm",
+      "sentence": "An unquiet conscience kept him awake all night as he reflected on his hasty actions.",
+      "sentence_meaning": "নিজের তাড়াহুড়ো করে নেওয়া কাজের কথা ভেবে অশান্ত বিবেক তাকে সারারাত জাগিয়ে রেখেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 364,
+      "word": "Critic",
+      "ipa": "/ˈkrɪtɪk/",
+      "pos": "n",
+      "meaning": "সমালোচক, গুণাগুণ বিচারক",
+      "synonyms": [
+        "reviewer",
+        "commentator",
+        "evaluator",
+        "analyst"
+      ],
+      "antonyms": [
+        "supporter",
+        "admirer",
+        "champion",
+        "proponent"
+      ],
+      "raw_synonyms": "reviewer, commentator, evaluator, analyst",
+      "raw_antonyms": "supporter, admirer, champion, proponent",
+      "sentence": "The renowned film critic praised the director for crafting an emotionally compelling storyline.",
+      "sentence_meaning": "খ্যাত চিত্র সমালোচক একটি আবেগঘন ও আকর্ষণীয় কাহিনী রচনার জন্য পরিচালকের প্রশংসা করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 365,
+      "word": "Abandoned",
+      "ipa": "/əˈbændənd/",
+      "pos": "adj",
+      "meaning": "পরিত্যক্ত, বর্জিত",
+      "synonyms": [
+        "deserted",
+        "forsaken",
+        "derelict",
+        "vacated"
+      ],
+      "antonyms": [
+        "occupied",
+        "inhabited",
+        "maintained",
+        "cherished"
+      ],
+      "raw_synonyms": "deserted, forsaken, derelict, vacated",
+      "raw_antonyms": "occupied, inhabited, maintained, cherished",
+      "sentence": "The explorers discovered an abandoned ancient temple deep inside the tropical rainforest.",
+      "sentence_meaning": "অভিযাত্রীরা গ্রীষ্মমণ্ডলীয় রেইনফরেস্টের গভীরে একটি পরিত্যক্ত প্রাচীন মন্দিরের সন্ধান পেয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    }
+  ]
+}

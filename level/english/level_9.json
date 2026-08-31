@@ -1,0 +1,133 @@
+{
+  "level_id": 9,
+  "title": "Level 9: Vocabulary",
+  "unit": "Image 1: Vocabulary (Unit-1)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 41,
+      "word": "Glimpse",
+      "ipa": "/ɡlɪmps/",
+      "pos": "n",
+      "meaning": "ক্ষণিকের দৃষ্টি, একঝলক দেখা",
+      "synonyms": [
+        "glance",
+        "peek",
+        "sight",
+        "flash"
+      ],
+      "antonyms": [
+        "stare",
+        "gaze",
+        "scrutiny",
+        "observation"
+      ],
+      "raw_synonyms": "glance, peek, sight, flash",
+      "raw_antonyms": "stare, gaze, scrutiny, observation",
+      "sentence": "Fans waited for hours outside the hotel just to catch a brief glimpse of the pop star.",
+      "sentence_meaning": "ভক্তরা পপ তারকাকে একঝলক দেখার জন্য হোটেলের বাইরে ঘণ্টার পর ঘণ্টা অপেক্ষা করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 42,
+      "word": "Sparkle",
+      "ipa": "/ˈspɑːrkl/",
+      "pos": "v",
+      "meaning": "জ্বলজ্বল করা, ঝিকমিক করা",
+      "synonyms": [
+        "glitter",
+        "twinkle",
+        "shimmer",
+        "radiate"
+      ],
+      "antonyms": [
+        "dull",
+        "fade",
+        "darken",
+        "dim"
+      ],
+      "raw_synonyms": "glitter, twinkle, shimmer, radiate",
+      "raw_antonyms": "dull, fade, darken, dim",
+      "sentence": "The crystal chandelier began to sparkle brightly as the evening lights were turned on.",
+      "sentence_meaning": "সন্ধ্যার আলো জ্বলে উঠতেই স্ফটিকের ঝাড়বাতিটি উজ্জ্বলভাবে জ্বলজ্বল করতে লাগল।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 43,
+      "word": "Whoop",
+      "ipa": "/wuːp/",
+      "pos": "n",
+      "meaning": "উল্লাসধ্বনি, আনন্দের চিৎকার",
+      "synonyms": [
+        "shout",
+        "cheer",
+        "yell",
+        "holler"
+      ],
+      "antonyms": [
+        "whisper",
+        "murmur",
+        "silence",
+        "hush"
+      ],
+      "raw_synonyms": "shout, cheer, yell, holler",
+      "raw_antonyms": "whisper, murmur, silence, hush",
+      "sentence": "A loud whoop of joy echoed through the stadium when the winning goal was scored.",
+      "sentence_meaning": "বিজয়ী গোলটি হওয়ার সাথে সাথে স্টেডিয়াম জুড়ে আনন্দের তীব্র উল্লাসধ্বনি প্রতিধ্বনিত হলো।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 44,
+      "word": "Awfully",
+      "ipa": "/ˈɔːfli/",
+      "pos": "adv",
+      "meaning": "অত্যন্ত, ভীষণভাবে",
+      "synonyms": [
+        "terribly",
+        "extremely",
+        "exceedingly",
+        "immensely"
+      ],
+      "antonyms": [
+        "slightly",
+        "mildly",
+        "somewhat",
+        "barely"
+      ],
+      "raw_synonyms": "terribly, extremely, exceedingly, immensely",
+      "raw_antonyms": "slightly, mildly, somewhat, barely",
+      "sentence": "I was awfully sorry to hear about the unfortunate loss in your family.",
+      "sentence_meaning": "আপনার পরিবারের দুর্ভাগ্যজনক ক্ষতির কথা শুনে আমি অত্যন্ত দুঃখিত হয়েছিলাম।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    },
+    {
+      "id": 45,
+      "word": "Spacious",
+      "ipa": "/ˈspeɪʃəs/",
+      "pos": "adj",
+      "meaning": "প্রশস্ত, সুবিশাল",
+      "synonyms": [
+        "roomy",
+        "capacious",
+        "commodious",
+        "expansive"
+      ],
+      "antonyms": [
+        "cramped",
+        "narrow",
+        "confined",
+        "restricted"
+      ],
+      "raw_synonyms": "roomy, capacious, commodious, expansive",
+      "raw_antonyms": "cramped, narrow, confined, restricted",
+      "sentence": "The new apartment features a spacious living room with large panoramic windows.",
+      "sentence_meaning": "নতুন অ্যাপার্টমেন্টটিতে বড় প্যানোরামিক জানালাসহ একটি প্রশস্ত বসার ঘর রয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Image 1: Vocabulary (Unit-1)"
+    }
+  ]
+}

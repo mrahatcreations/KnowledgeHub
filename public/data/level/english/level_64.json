@@ -1,0 +1,131 @@
+{
+  "level_id": 64,
+  "title": "Level 64: Vocabulary",
+  "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 316,
+      "word": "Disposition",
+      "ipa": "/ˌdɪspəˈzɪʃn/",
+      "pos": "n",
+      "meaning": "স্বভাব, মেজাজ বা মানসিক প্রবণতা",
+      "synonyms": [
+        "temperament",
+        "nature",
+        "demeanor",
+        "personality"
+      ],
+      "antonyms": [
+        "unwillingness",
+        "reluctance",
+        "antipathy"
+      ],
+      "raw_synonyms": "temperament, nature, demeanor, personality",
+      "raw_antonyms": "unwillingness, reluctance, antipathy",
+      "sentence": "With her naturally cheerful and optimistic disposition, she easily lifted the entire team's morale.",
+      "sentence_meaning": "তাঁর স্বভাবসুলভ প্রফুল্ল ও আশাবাদী মেজাজ দিয়ে তিনি সহজেই পুরো দলের মনোবল চাঙ্গা করে তুলেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 317,
+      "word": "Acquaintance",
+      "ipa": "/əˈkweɪntəns/",
+      "pos": "n",
+      "meaning": "পরিচিত ব্যক্তি, পরিচয় বা জানাশোনা",
+      "synonyms": [
+        "contact",
+        "associate",
+        "familiar",
+        "colleague"
+      ],
+      "antonyms": [
+        "stranger",
+        "intimate friend",
+        "adversary"
+      ],
+      "raw_synonyms": "contact, associate, familiar, colleague",
+      "raw_antonyms": "stranger, intimate friend, adversary",
+      "sentence": "He is merely a casual acquaintance whom I met at a regional trade conference last year.",
+      "sentence_meaning": "তিনি কেবল একজন সাধারণ পরিচিত ব্যক্তি যার সাথে গত বছর একটি আঞ্চলিক বাণিজ্য সম্মেলনে আমার দেখা হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 318,
+      "word": "Intuitive",
+      "ipa": "/ɪnˈtuːɪtɪv/",
+      "pos": "adj",
+      "meaning": "স্বজ্ঞাত, অন্তর্দৃষ্টিসম্পন্ন বা স্বতঃস্ফূর্ত",
+      "synonyms": [
+        "instinctive",
+        "perceptive",
+        "discerning",
+        "innate"
+      ],
+      "antonyms": [
+        "reasoned",
+        "calculated",
+        "deliberate",
+        "counterintuitive"
+      ],
+      "raw_synonyms": "instinctive, perceptive, discerning, innate",
+      "raw_antonyms": "reasoned, calculated, deliberate, counterintuitive",
+      "sentence": "The experienced detective relied on his intuitive judgment when interrogating the elusive suspect.",
+      "sentence_meaning": "অভিজ্ঞ গোয়েন্দা চতুর সন্দেহভাজন ব্যক্তিকে জিজ্ঞাসাবাদ করার সময় তাঁর স্বজ্ঞাত বিচারবুদ্ধির ওপর নির্ভর করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 319,
+      "word": "Terrorize",
+      "ipa": "/ˈterəraɪz/",
+      "pos": "v",
+      "meaning": "আতঙ্কগ্রস্ত করা, ত্রাস সৃষ্টি করা",
+      "synonyms": [
+        "intimidate",
+        "menace",
+        "threaten",
+        "frighten"
+      ],
+      "antonyms": [
+        "reassure",
+        "protect",
+        "comfort",
+        "console"
+      ],
+      "raw_synonyms": "intimidate, menace, threaten, frighten",
+      "raw_antonyms": "reassure, protect, comfort, console",
+      "sentence": "Criminal gangs attempted to terrorize local merchants into paying unlawful protection taxes.",
+      "sentence_meaning": "অপরাধী চক্রগুলো অবৈধ চাঁদা আদায়ের জন্য স্থানীয় ব্যবসায়ীদের আতঙ্কগ্রস্ত করার চেষ্টা করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 320,
+      "word": "Gruesome",
+      "ipa": "/ˈɡruːsəm/",
+      "pos": "adj",
+      "meaning": "ভয়াবহ, বীভৎস ও নারকীয়",
+      "synonyms": [
+        "grisly",
+        "horrific",
+        "ghastly",
+        "macabre"
+      ],
+      "antonyms": [
+        "pleasant",
+        "delightful",
+        "charming",
+        "attractive"
+      ],
+      "raw_synonyms": "grisly, horrific, ghastly, macabre",
+      "raw_antonyms": "pleasant, delightful, charming, attractive",
+      "sentence": "Detectives uncovered gruesome evidence at the abandoned warehouse that shocked the entire city.",
+      "sentence_meaning": "গোয়েন্দারা পরিত্যক্ত গুদামটিতে বীভৎস প্রমাণ উন্মোচন করেছিলেন যা পুরো শহরকে নাড়া দিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    }
+  ]
+}

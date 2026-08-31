@@ -1,0 +1,133 @@
+{
+  "level_id": 154,
+  "title": "Level 154: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 766,
+      "word": "Treachery",
+      "ipa": "/ˈtretʃəri/",
+      "pos": "n",
+      "meaning": "বিশ্বাসঘাতকতা, বেইমানি",
+      "synonyms": [
+        "betrayal",
+        "perfidy",
+        "treason",
+        "disloyalty"
+      ],
+      "antonyms": [
+        "loyalty",
+        "fidelity",
+        "devotion",
+        "allegiance"
+      ],
+      "raw_synonyms": "betrayal, perfidy, treason, disloyalty",
+      "raw_antonyms": "loyalty, fidelity, devotion, allegiance",
+      "sentence": "The commander's act of treachery allowed enemy troops to infiltrate the sovereign fortress without resistance.",
+      "sentence_meaning": "কমান্ডারের বিশ্বাসঘাতকতামূলক আচরণের ফলে শত্রু সেনারা কোনো বাধা ছাড়াই সার্বভৌম দুর্গে অনুপ্রবেশ করতে পেরেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 767,
+      "word": "Unanimous",
+      "ipa": "/juˈnænɪməs/",
+      "pos": "adj",
+      "meaning": "সর্বসম্মত, ঐকমত্যভিত্তিক",
+      "synonyms": [
+        "undivided",
+        "harmonious",
+        "accordant",
+        "consensual"
+      ],
+      "antonyms": [
+        "divided",
+        "disagreeing",
+        "split",
+        "discordant"
+      ],
+      "raw_synonyms": "undivided, harmonious, accordant, consensual",
+      "raw_antonyms": "divided, disagreeing, split, discordant",
+      "sentence": "The parliamentary committee reached a unanimous agreement on amending the constitutional clause.",
+      "sentence_meaning": "সংসদীয় কমিটি সাংবিধানিক ধারা সংশোধনের বিষয়ে সর্বসম্মত সিদ্ধান্তে পৌঁছেছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 768,
+      "word": "Vigor",
+      "ipa": "/ˈvɪɡər/",
+      "pos": "n",
+      "meaning": "জীবনীশক্তি, তেজ, কর্মক্ষমতা",
+      "synonyms": [
+        "vitality",
+        "energy",
+        "strength",
+        "dynamism"
+      ],
+      "antonyms": [
+        "lethargy",
+        "weakness",
+        "debility",
+        "enervation"
+      ],
+      "raw_synonyms": "vitality, energy, strength, dynamism",
+      "raw_antonyms": "lethargy, weakness, debility, enervation",
+      "sentence": "The seasoned marathon runner pursued the final stretch of the race with astonishing vigor and endurance.",
+      "sentence_meaning": "অভিজ্ঞ ম্যারাথন দৌড়বিদ দৌড়ের শেষ অংশটি আশ্চর্যজনক উদ্যম ও সহনশীলতার সাথে সম্পন্ন করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 769,
+      "word": "Venerate",
+      "ipa": "/ˈvenəreɪt/",
+      "pos": "v",
+      "meaning": "পরম শ্রদ্ধা করা, পূজা করা",
+      "synonyms": [
+        "revere",
+        "respect",
+        "honor",
+        "worship"
+      ],
+      "antonyms": [
+        "despise",
+        "scorn",
+        "disdain",
+        "disrespect"
+      ],
+      "raw_synonyms": "revere, respect, honor, worship",
+      "raw_antonyms": "despise, scorn, disdain, disrespect",
+      "sentence": "Scholars across the world continue to venerate the philosopher for his pioneering ethical treatises.",
+      "sentence_meaning": "তাঁর যুগান্তকারী নীতিশাস্ত্র সংক্রান্ত রচনার জন্য বিশ্বজুড়ে পণ্ডিতরা এখনও দার্শনিককে গভীর শ্রদ্ধা করেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 770,
+      "word": "Viable",
+      "ipa": "/ˈvaɪəbl/",
+      "pos": "adj",
+      "meaning": "কার্যকরযোগ্য, টেকসই, জীবনক্ষম",
+      "synonyms": [
+        "feasible",
+        "workable",
+        "practical",
+        "sustainable"
+      ],
+      "antonyms": [
+        "unfeasible",
+        "impractical",
+        "nonviable",
+        "impossible"
+      ],
+      "raw_synonyms": "feasible, workable, practical, sustainable",
+      "raw_antonyms": "unfeasible, impractical, nonviable, impossible",
+      "sentence": "Utilizing renewable solar energy is an economically viable strategy for sustainable urban development.",
+      "sentence_meaning": "নবায়নযোগ্য সৌরশক্তির ব্যবহার টেকসই নগর উন্নয়নের জন্য একটি অর্থনৈতিকভাবে বাস্তবায়নযোগ্য কৌশল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

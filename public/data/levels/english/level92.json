@@ -1,0 +1,133 @@
+{
+  "level_id": 92,
+  "title": "Level 92: Vocabulary",
+  "unit": "Memorizing Part",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 456,
+      "word": "Booming",
+      "ipa": "/ˈbuːmɪŋ/",
+      "pos": "adj",
+      "meaning": "সমৃদ্ধিশালী, দ্রুত বর্ধনশীল",
+      "synonyms": [
+        "flourishing",
+        "thriving",
+        "prospering",
+        "expanding"
+      ],
+      "antonyms": [
+        "declining",
+        "shrinking",
+        "slumping",
+        "weakening"
+      ],
+      "raw_synonyms": "flourishing, thriving, prospering, expanding",
+      "raw_antonyms": "declining, shrinking, slumping, weakening",
+      "sentence": "The booming e-commerce market created unprecedented business opportunities for entrepreneurs.",
+      "sentence_meaning": "দ্রুত বর্ধনশীল ই-কমার্স বাজার উদ্যোক্তাদের জন্য অভূতপূর্ব ব্যবসায়িক সুযোগ তৈরি করেছে।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 457,
+      "word": "Baffle",
+      "ipa": "/ˈbæfl/",
+      "pos": "v",
+      "meaning": "বিভ্রান্ত করা, হতবুদ্ধি করা",
+      "synonyms": [
+        "puzzle",
+        "perplex",
+        "bewilder",
+        "confuse"
+      ],
+      "antonyms": [
+        "clarify",
+        "explain",
+        "enlighten",
+        "facilitate"
+      ],
+      "raw_synonyms": "puzzle, perplex, bewilder, confuse",
+      "raw_antonyms": "clarify, explain, enlighten, facilitate",
+      "sentence": "The complex mathematical equation seemed to baffle even the most experienced researchers.",
+      "sentence_meaning": "জটিল গাণিতিক সমীকরণটি এমনকি সবচেয়ে অভিজ্ঞ গবেষকদেরও বিভ্রান্ত ও হতবুদ্ধি করে তুলেছিল।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 458,
+      "word": "Bandit",
+      "ipa": "/ˈbændɪt/",
+      "pos": "n",
+      "meaning": "ডাকাত, দস্যু",
+      "synonyms": [
+        "robber",
+        "outlaw",
+        "brigand",
+        "highwayman"
+      ],
+      "antonyms": [
+        "lawman",
+        "guardian",
+        "protector",
+        "police"
+      ],
+      "raw_synonyms": "robber, outlaw, brigand, highwayman",
+      "raw_antonyms": "lawman, guardian, protector, police",
+      "sentence": "The armed bandit ambushed the merchant caravan travelling through the desolate valley.",
+      "sentence_meaning": "সশস্ত্র ডাকাতটি নির্জন উপত্যকা দিয়ে যাওয়া বণিক কাফেলাটিকে অতর্কিত আক্রমণ করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 459,
+      "word": "Beatific",
+      "ipa": "/ˌbiːəˈtɪfɪk/",
+      "pos": "adj",
+      "meaning": "পরমানন্দময়, পরম সুখদায়ক",
+      "synonyms": [
+        "blissful",
+        "radiant",
+        "joyful",
+        "serene"
+      ],
+      "antonyms": [
+        "miserable",
+        "gloomy",
+        "sorrowful",
+        "dreadful"
+      ],
+      "raw_synonyms": "blissful, radiant, joyful, serene",
+      "raw_antonyms": "miserable, gloomy, sorrowful, dreadful",
+      "sentence": "The saint had a beatific smile that immediately comforted everyone who met him.",
+      "sentence_meaning": "সাধুর মুখে এমন এক পরমানন্দময় হাসি ছিল যা তাঁর সাথে দেখা করা সকলকে সঙ্গে সঙ্গে আশ্বস্ত ও শান্তি প্রদান করত।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 460,
+      "word": "Beauty",
+      "ipa": "/ˈbjuːti/",
+      "pos": "n",
+      "meaning": "সৌন্দর্য, লাবণ্য",
+      "synonyms": [
+        "loveliness",
+        "elegance",
+        "attractiveness",
+        "charm"
+      ],
+      "antonyms": [
+        "ugliness",
+        "hideousness",
+        "unattractiveness",
+        "repulsiveness"
+      ],
+      "raw_synonyms": "loveliness, elegance, attractiveness, charm",
+      "raw_antonyms": "ugliness, hideousness, unattractiveness, repulsiveness",
+      "sentence": "The serene beauty of the snow-covered Himalayan peaks left the travelers in awe.",
+      "sentence_meaning": "বরফে ঢাকা হিমালয়ের শৃঙ্গগুলোর শান্ত সৌন্দর্য পর্যটকদের মুগ্ধ ও বিস্মিত করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "level_id": 144,
+  "title": "Level 144: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 716,
+      "word": "Procrastinate",
+      "ipa": "/prəˈkræstɪneɪt/",
+      "pos": "v",
+      "meaning": "বিলম্ব করা, গড়িমসি করা, কাজ ফেলে রাখা",
+      "synonyms": [
+        "delay",
+        "postpone",
+        "defer",
+        "stall"
+      ],
+      "antonyms": [
+        "expedite",
+        "accelerate",
+        "advance",
+        "hasten"
+      ],
+      "raw_synonyms": "delay, postpone, defer, stall",
+      "raw_antonyms": "expedite, accelerate, advance, hasten",
+      "sentence": "Students who chronically procrastinate often face immense anxiety when final exam deadlines approach.",
+      "sentence_meaning": "যেসব শিক্ষার্থী নিয়মিত কাজে গড়িমসি করে, চূড়ান্ত পরীক্ষার সময়সীমা ঘনিয়ে এলে তারা প্রায়শই তীব্র উদ্বেগের সম্মুখীন হয়।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 717,
+      "word": "Pick up",
+      "ipa": "/pɪk ʌp/",
+      "pos": "phrase",
+      "meaning": "আয়ত্ত করা, শিখে নেওয়া, তুলে নেওয়া",
+      "synonyms": [
+        "learn",
+        "acquire",
+        "grasp",
+        "lift"
+      ],
+      "antonyms": [
+        "forget",
+        "drop",
+        "abandon",
+        "lose"
+      ],
+      "raw_synonyms": "learn, acquire, grasp, lift",
+      "raw_antonyms": "forget, drop, abandon, lose",
+      "sentence": "Living abroad in Madrid helped him quickly pick up conversational Spanish within a few months.",
+      "sentence_meaning": "মাদ্রিদে প্রবাস জীবন তাকে কয়েক মাসের মধ্যে দ্রুত কথ্য স্প্যানিশ ভাষা আয়ত্ত করতে সাহায্য করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 718,
+      "word": "Indifferent to",
+      "ipa": "/ɪnˈdɪfrənt tuː/",
+      "pos": "phrase",
+      "meaning": "উদাসীন, ভ্রূক্ষেপহীন, নির্লিপ্ত",
+      "synonyms": [
+        "apathetic to",
+        "unconcerned with",
+        "insensitive to",
+        "callous to"
+      ],
+      "antonyms": [
+        "attentive to",
+        "sensitive to",
+        "caring about",
+        "responsive to"
+      ],
+      "raw_synonyms": "apathetic to, unconcerned with, insensitive to, callous to",
+      "raw_antonyms": "attentive to, sensitive to, caring about, responsive to",
+      "sentence": "The autocratic administrator remained callously indifferent to the valid grievances of the employees.",
+      "sentence_meaning": "স্বৈরাচারী প্রশাসক কর্মচারীদের ন্যায্য অভিযোগের প্রতি নির্মমভাবে উদাসীন ছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 719,
+      "word": "Adverse",
+      "ipa": "/ædˈvɜːrs/",
+      "pos": "adj",
+      "meaning": "প্রতিকূল, ক্ষতিকর, বিরোধী",
+      "synonyms": [
+        "unfavorable",
+        "hostile",
+        "detrimental",
+        "inauspicious"
+      ],
+      "antonyms": [
+        "favorable",
+        "beneficial",
+        "propitious",
+        "advantageous"
+      ],
+      "raw_synonyms": "unfavorable, hostile, detrimental, inauspicious",
+      "raw_antonyms": "favorable, beneficial, propitious, advantageous",
+      "sentence": "Farmers faced severe crop losses due to the adverse weather conditions caused by prolonged unseasonal rains.",
+      "sentence_meaning": "দীর্ঘস্থায়ী অসময়ের বৃষ্টির কারণে সৃষ্ট প্রতিকূল আবহাওয়ার দরুন কৃষকরা মারাত্মক ফসলের ক্ষতির সম্মুখীন হয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 720,
+      "word": "Amity",
+      "ipa": "/ˈæməti/",
+      "pos": "n",
+      "meaning": "বন্ধুত্ব, সৌহার্দ্য, সম্প্রীতি",
+      "synonyms": [
+        "friendship",
+        "harmony",
+        "goodwill",
+        "cordiality"
+      ],
+      "antonyms": [
+        "hostility",
+        "enmity",
+        "animosity",
+        "discord"
+      ],
+      "raw_synonyms": "friendship, harmony, goodwill, cordiality",
+      "raw_antonyms": "hostility, enmity, animosity, discord",
+      "sentence": "The bilateral peace treaty was established to foster cross-border trade and enduring amity between the two nations.",
+      "sentence_meaning": "দুই দেশের মধ্যে আন্তঃসীমান্ত বাণিজ্য এবং দীর্ঘস্থায়ী সম্প্রীতি বৃদ্ধির লক্ষ্যে দ্বিপাক্ষিক শান্তি চুক্তি প্রতিষ্ঠিত হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

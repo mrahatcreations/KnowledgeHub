@@ -1,0 +1,133 @@
+{
+  "level_id": 160,
+  "title": "Level 160: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 796,
+      "word": "Compliant",
+      "ipa": "/kəmˈplaɪənt/",
+      "pos": "adj",
+      "meaning": "বাধ্য, অনুগত, নীতি মেনে চলা",
+      "synonyms": [
+        "obedient",
+        "yielding",
+        "submissive",
+        "tractable"
+      ],
+      "antonyms": [
+        "defiant",
+        "recalcitrant",
+        "rebellious",
+        "obstinate"
+      ],
+      "raw_synonyms": "obedient, yielding, submissive, tractable",
+      "raw_antonyms": "defiant, recalcitrant, rebellious, obstinate",
+      "sentence": "The corporation proved fully compliant with newly introduced environmental safety regulations.",
+      "sentence_meaning": "করপোরেশনটি নতুন প্রবর্তিত পরিবেশগত সুরক্ষা বিধিমালা পুরোপুরি মেনে চলার প্রমাণ দিয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 797,
+      "word": "Concentrate",
+      "ipa": "/ˈkɑːnsntreɪt/",
+      "pos": "v",
+      "meaning": "মনোযোগ দেওয়া, পুঞ্জীভূত করা",
+      "synonyms": [
+        "focus",
+        "consolidate",
+        "center",
+        "intensify"
+      ],
+      "antonyms": [
+        "distract",
+        "disperse",
+        "scatter",
+        "dissipate"
+      ],
+      "raw_synonyms": "focus, consolidate, center, intensify",
+      "raw_antonyms": "distract, disperse, scatter, dissipate",
+      "sentence": "Students must concentrate intently on core concepts during university admission test preparation.",
+      "sentence_meaning": "বিশ্ববিদ্যালয় ভর্তি পরীক্ষার প্রস্তুতির সময় শিক্ষার্থীদের অবশ্যই মূল ধারণাগুলোতে গভীরভাবে মনোযোগ দিতে হবে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 798,
+      "word": "Concord",
+      "ipa": "/ˈkɑːŋkɔːrd/",
+      "pos": "n",
+      "meaning": "সংগতি, ঐক্য, সম্প্রীতি",
+      "synonyms": [
+        "harmony",
+        "agreement",
+        "accord",
+        "unanimity"
+      ],
+      "antonyms": [
+        "discord",
+        "conflict",
+        "strife",
+        "disagreement"
+      ],
+      "raw_synonyms": "harmony, agreement, accord, unanimity",
+      "raw_antonyms": "discord, conflict, strife, disagreement",
+      "sentence": "The diplomatic peace pact restored concord and mutual cooperation between the neighboring territories.",
+      "sentence_meaning": "কূটনৈতিক শান্তিচুক্তি প্রতিবেশী ভূখণ্ডগুলোর মধ্যে সম্প্রীতি ও পারস্পরিক সহযোগিতা ফিরিয়ে এনেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 799,
+      "word": "Congenial",
+      "ipa": "/kənˈdʒiːniəl/",
+      "pos": "adj",
+      "meaning": "অনুকূল, প্রীতিকর, সমভাবাপন্ন",
+      "synonyms": [
+        "agreeable",
+        "pleasant",
+        "compatible",
+        "convivial"
+      ],
+      "antonyms": [
+        "uncongenial",
+        "disagreeable",
+        "hostile",
+        "incompatible"
+      ],
+      "raw_synonyms": "agreeable, pleasant, compatible, convivial",
+      "raw_antonyms": "uncongenial, disagreeable, hostile, incompatible",
+      "sentence": "The serene mountain resort provided a congenial working environment for the novelist to write peacefully.",
+      "sentence_meaning": "শান্ত পাহাড়ী রিসোর্টটি ঔপন্যাসিককে শান্তিতে লেখার জন্য একটি মনোরম ও অনুকূল কর্মপরিবেশ প্রদান করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 800,
+      "word": "Connotative",
+      "ipa": "/ˈkɑːnəteɪtɪv/",
+      "pos": "adj",
+      "meaning": "অনুষঙ্গীয়, ভাবব্যঞ্জক",
+      "synonyms": [
+        "suggestive",
+        "implied",
+        "figurative",
+        "allusive"
+      ],
+      "antonyms": [
+        "denotative",
+        "literal",
+        "explicit",
+        "direct"
+      ],
+      "raw_synonyms": "suggestive, implied, figurative, allusive",
+      "raw_antonyms": "denotative, literal, explicit, direct",
+      "sentence": "Poetry relies heavily on connotative language to evoke deep emotions beyond the literal meaning of words.",
+      "sentence_meaning": "শব্দের আক্ষরিক অর্থের বাইরে গভীর অনুভূতি জাগিয়ে তুলতে কবিতা মূলত ভাবব্যঞ্জক ভাষার ওপর নির্ভর করে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "level_id": 13,
+  "title": "Level 13: Vocabulary",
+  "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 61,
+      "word": "Yawn",
+      "ipa": "/jɔːn/",
+      "pos": "v",
+      "meaning": "হাই তোলা, ক্লান্তিতে মুখ খোলা",
+      "synonyms": [
+        "gape",
+        "droop",
+        "drowse",
+        "slumber"
+      ],
+      "antonyms": [
+        "awaken",
+        "energize",
+        "reinvigorate",
+        "arouse"
+      ],
+      "raw_synonyms": "gape, droop, drowse, slumber",
+      "raw_antonyms": "awaken, energize, reinvigorate, arouse",
+      "sentence": "Students began to yawn repeatedly during the lengthy, uninspiring lecture.",
+      "sentence_meaning": "দীর্ঘ ও নিরানন্দ বক্তৃতার সময় শিক্ষার্থীরা বারবার হাই তুলতে শুরু করল।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    },
+    {
+      "id": 62,
+      "word": "Expel",
+      "ipa": "/ɪkˈspel/",
+      "pos": "v",
+      "meaning": "বহিষ্কার করা, বিতাড়িত করা",
+      "synonyms": [
+        "banish",
+        "eject",
+        "oust",
+        "dismiss"
+      ],
+      "antonyms": [
+        "admit",
+        "welcome",
+        "accept",
+        "reinstate"
+      ],
+      "raw_synonyms": "banish, eject, oust, dismiss",
+      "raw_antonyms": "admit, welcome, accept, reinstate",
+      "sentence": "The disciplinary committee decided to expel the student for severe academic misconduct.",
+      "sentence_meaning": "গুরুতর প্রাতিষ্ঠানিক অসদাচরণের দায়ে শৃঙ্খলা কমিটি ওই শিক্ষার্থীকে বহিষ্কারের সিদ্ধান্ত নেয়।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    },
+    {
+      "id": 63,
+      "word": "Wit",
+      "ipa": "/wɪt/",
+      "pos": "n",
+      "meaning": "রসবোধ, তীক্ষ্ণ বুদ্ধি, উপস্থিত বুদ্ধি",
+      "synonyms": [
+        "humour",
+        "intelligence",
+        "sharpness",
+        "shrewdness"
+      ],
+      "antonyms": [
+        "dullness",
+        "stupidity",
+        "foolishness",
+        "naivety"
+      ],
+      "raw_synonyms": "humour, intelligence, sharpness, shrewdness",
+      "raw_antonyms": "dullness, stupidity, foolishness, naivety",
+      "sentence": "Her quick wit and delightful humor made her the center of attraction at social events.",
+      "sentence_meaning": "তাঁর তাৎক্ষণিক রসবোধ এবং আনন্দদায়ক কৌতুক সামাজিক অনুষ্ঠানগুলোতে তাঁকে আকর্ষণের কেন্দ্রে পরিণত করত।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    },
+    {
+      "id": 64,
+      "word": "Disposition",
+      "ipa": "/ˌdɪspəˈzɪʃn/",
+      "pos": "n",
+      "meaning": "স্বভাব, চারিত্রিক বৈশিষ্ট্য, মেজাজ",
+      "synonyms": [
+        "temperament",
+        "nature",
+        "character",
+        "inclination"
+      ],
+      "antonyms": [
+        "disinclination",
+        "unwillingness",
+        "antipathy",
+        "reluctance"
+      ],
+      "raw_synonyms": "temperament, nature, character, inclination",
+      "raw_antonyms": "disinclination, unwillingness, antipathy, reluctance",
+      "sentence": "His gentle disposition and empathy won the trust and affection of all his colleagues.",
+      "sentence_meaning": "তাঁর শান্ত স্বভাব এবং সহানুভূতিশীল মনোভাব সকল সহকর্মীর আস্থা ও ভালোবাসা অর্জন করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    },
+    {
+      "id": 65,
+      "word": "Absent-minded",
+      "ipa": "/ˌæbsəntˈmaɪndɪd/",
+      "pos": "adj",
+      "meaning": "অন্যমনস্ক, আনমনা, ভুলোমনা",
+      "synonyms": [
+        "distracted",
+        "forgetful",
+        "preoccupied",
+        "inattentive"
+      ],
+      "antonyms": [
+        "attentive",
+        "mindful",
+        "alert",
+        "observant"
+      ],
+      "raw_synonyms": "distracted, forgetful, preoccupied, inattentive",
+      "raw_antonyms": "attentive, mindful, alert, observant",
+      "sentence": "The absent-minded professor frequently misplaced his reading glasses and briefcase.",
+      "sentence_meaning": "অন্যমনস্ক অধ্যাপক প্রায়ই তাঁর পড়ার চশমা এবং ব্রিফকেস হারিয়ে ফেলতেন।",
+      "category": "Vocabulary",
+      "unit": "Image 2: Memorizing Part - Vocabulary (Page 27)"
+    }
+  ]
+}

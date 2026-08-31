@@ -1,0 +1,133 @@
+{
+  "level_id": 82,
+  "title": "Level 82: Vocabulary",
+  "unit": "Vocabulary Table",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 406,
+      "word": "Contraception",
+      "ipa": "/ˌkɑːntrəˈsepʃn/",
+      "pos": "n",
+      "meaning": "গর্ভনিরোধ, জন্মনিয়ন্ত্রণ",
+      "synonyms": [
+        "birth control",
+        "family planning",
+        "preventive measure",
+        "prophylaxis"
+      ],
+      "antonyms": [
+        "procreation",
+        "conception",
+        "fertilization",
+        "propagation"
+      ],
+      "raw_synonyms": "birth control, family planning, preventive measure, prophylaxis",
+      "raw_antonyms": "procreation, conception, fertilization, propagation",
+      "sentence": "Modern methods of contraception allow couples to plan the timing and size of their family effectively.",
+      "sentence_meaning": "গর্ভনিরোধের আধুনিক পদ্ধতিগুলো দম্পতিদের কার্যকরভাবে পরিবারের সময় ও আকার পরিকল্পনা করার সুযোগ দেয়।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 407,
+      "word": "Reproductive",
+      "ipa": "/ˌriːprəˈdʌktɪv/",
+      "pos": "adj",
+      "meaning": "প্রজনন সংক্রান্ত, পুনরুৎপাদনশীল",
+      "synonyms": [
+        "procreative",
+        "generative",
+        "breeding",
+        "propagative"
+      ],
+      "antonyms": [
+        "sterile",
+        "infertile",
+        "unproductive",
+        "barren"
+      ],
+      "raw_synonyms": "procreative, generative, breeding, propagative",
+      "raw_antonyms": "sterile, infertile, unproductive, barren",
+      "sentence": "The government launched comprehensive healthcare campaigns focusing on maternal and reproductive health.",
+      "sentence_meaning": "সরকার মাতৃত্বকালীন ও প্রজনন স্বাস্থ্যকে গুরুত্ব দিয়ে ব্যাপক স্বাস্থ্যসেবা কর্মসূচি শুরু করেছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 408,
+      "word": "Vivid",
+      "ipa": "/ˈvɪvɪd/",
+      "pos": "adj",
+      "meaning": "উজ্জ্বল, স্পষ্ট, প্রাণবন্ত",
+      "synonyms": [
+        "graphic",
+        "vibrant",
+        "lucid",
+        "striking"
+      ],
+      "antonyms": [
+        "dull",
+        "vague",
+        "faint",
+        "obscure"
+      ],
+      "raw_synonyms": "graphic, vibrant, lucid, striking",
+      "raw_antonyms": "dull, vague, faint, obscure",
+      "sentence": "The traveler recounted a vivid description of the majestic snow-capped peaks of the Himalayas.",
+      "sentence_meaning": "ভ্রমণকারী হিমালয়ের রাজকীয় বরফাচ্ছাদিত শৃঙ্গগুলোর একটি উজ্জ্বল ও স্পষ্ট বর্ণনা দিয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 409,
+      "word": "Emerge",
+      "ipa": "/ɪˈmɜːrdʒ/",
+      "pos": "v",
+      "meaning": "উঠে আসা, আবির্ভূত হওয়া, আত্মপ্রকাশ করা",
+      "synonyms": [
+        "appear",
+        "arise",
+        "surface",
+        "materialize"
+      ],
+      "antonyms": [
+        "disappear",
+        "vanish",
+        "fade",
+        "submerge"
+      ],
+      "raw_synonyms": "appear, arise, surface, materialize",
+      "raw_antonyms": "disappear, vanish, fade, submerge",
+      "sentence": "New economic leaders began to emerge rapidly following the digital technology revolution.",
+      "sentence_meaning": "ডিজিটাল প্রযুক্তি বিপ্লবের পর দ্রুত নতুন অর্থনৈতিক নেতৃবৃন্দের আত্মপ্রকাশ ঘটতে শুরু করে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 410,
+      "word": "Interpretation",
+      "ipa": "/ɪnˌtɜːrprəˈteɪʃn/",
+      "pos": "n",
+      "meaning": "ব্যাখ্যা, অর্থবোধকতা, রূপায়ণ",
+      "synonyms": [
+        "explanation",
+        "analysis",
+        "clarification",
+        "understanding"
+      ],
+      "antonyms": [
+        "misinterpretation",
+        "misunderstanding",
+        "confusion",
+        "misconception"
+      ],
+      "raw_synonyms": "explanation, analysis, clarification, understanding",
+      "raw_antonyms": "misinterpretation, misunderstanding, confusion, misconception",
+      "sentence": "Different historians often offer contrasting interpretations of the same momentous treaty.",
+      "sentence_meaning": "ভিন্ন ভিন্ন ইতিহাসবিদ প্রায়শই একই ঐতিহাসিক চুক্তির বিপরীতমুখী ব্যাখ্যা উপস্থাপন করেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    }
+  ]
+}

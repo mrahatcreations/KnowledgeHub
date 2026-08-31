@@ -1,0 +1,133 @@
+{
+  "level_id": 108,
+  "title": "Level 108: Phrasal Verb",
+  "unit": "Image 19 (image (19).jpg) - Phrasal Verbs",
+  "category": "Phrasal Verb",
+  "items": [
+    {
+      "id": 536,
+      "word": "Call up",
+      "ipa": "/kɔːl ʌp/",
+      "pos": "phrase",
+      "meaning": "স্মরণ করা, টেলিফোনে যোগাযোগ করা, সামরিক বাহিনীতে তলব করা",
+      "synonyms": [
+        "recollect",
+        "telephone",
+        "summon",
+        "mobilize"
+      ],
+      "antonyms": [
+        "forget",
+        "disregard",
+        "dismiss",
+        "demobilize"
+      ],
+      "raw_synonyms": "recollect, telephone, summon, mobilize",
+      "raw_antonyms": "forget, disregard, dismiss, demobilize",
+      "sentence": "Looking at the old family photographs helped him call up sweet memories of his youth.",
+      "sentence_meaning": "পুরনো পারিবারিক ছবিগুলো দেখে তাঁর যৌবনের মধুর স্মৃতিগুলো মনে পড়ে গেল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 537,
+      "word": "Carry away",
+      "ipa": "/ˈkæri əˈweɪ/",
+      "pos": "phrase",
+      "meaning": "ভাসিয়ে নিয়ে যাওয়া, অতিরিক্ত আবেগে আপ্লুত করা",
+      "synonyms": [
+        "sweep away",
+        "wash away",
+        "enrapture",
+        "overwhelm"
+      ],
+      "antonyms": [
+        "anchor",
+        "restrain",
+        "hold back",
+        "stabilize"
+      ],
+      "raw_synonyms": "sweep away, wash away, enrapture, overwhelm",
+      "raw_antonyms": "anchor, restrain, hold back, stabilize",
+      "sentence": "The torrential monsoon flood quickly carried away several temporary wooden bridges.",
+      "sentence_meaning": "প্রবল মৌসুমি বন্যায় বেশ কয়েকটি অস্থায়ী কাঠের সেতু দ্রুত ভেসে গেল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 538,
+      "word": "Carry off",
+      "ipa": "/ˈkæri ɒf/",
+      "pos": "phrase",
+      "meaning": "জয়লাভ করা, ছিনিয়ে নেওয়া, সফলভাবে সম্পাদন করা",
+      "synonyms": [
+        "win",
+        "capture",
+        "triumph in",
+        "accomplish"
+      ],
+      "antonyms": [
+        "lose",
+        "surrender",
+        "fail",
+        "forfeit"
+      ],
+      "raw_synonyms": "win, capture, triumph in, accomplish",
+      "raw_antonyms": "lose, surrender, fail, forfeit",
+      "sentence": "Through months of rigorous training, the athlete managed to carry off the gold medal in the marathon.",
+      "sentence_meaning": "কয়েক মাসের কঠোর প্রশিক্ষণের মাধ্যমে ক্রীড়াবিদটি ম্যারাথনে স্বর্ণপদক জিতে নিতে সক্ষম হয়েছিলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 539,
+      "word": "Carry on",
+      "ipa": "/ˈkæri ɒn/",
+      "pos": "phrase",
+      "meaning": "চালিয়ে যাওয়া, অব্যাহত রাখা, নিরবচ্ছিন্নভাবে চালিয়ে যাওয়া",
+      "synonyms": [
+        "continue",
+        "proceed",
+        "persevere",
+        "keep up"
+      ],
+      "antonyms": [
+        "discontinue",
+        "halt",
+        "stop",
+        "give up"
+      ],
+      "raw_synonyms": "continue, proceed, persevere, keep up",
+      "raw_antonyms": "discontinue, halt, stop, give up",
+      "sentence": "Despite facing severe financial hardships, he managed to carry on his higher education.",
+      "sentence_meaning": "তীব্র আর্থিক অনটনের সম্মুখীন হওয়া সত্ত্বেও তিনি তাঁর উচ্চশিক্ষা চালিয়ে যেতে পেরেছিলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 540,
+      "word": "Carry out",
+      "ipa": "/ˈkæri aʊt/",
+      "pos": "phrase",
+      "meaning": "বাস্তবায়ন করা, পালন করা, সম্পাদন করা",
+      "synonyms": [
+        "execute",
+        "implement",
+        "perform",
+        "fulfill"
+      ],
+      "antonyms": [
+        "neglect",
+        "ignore",
+        "violate",
+        "abandon"
+      ],
+      "raw_synonyms": "execute, implement, perform, fulfill",
+      "raw_antonyms": "neglect, ignore, violate, abandon",
+      "sentence": "The military officers were instructed to carry out the mission with utmost precision.",
+      "sentence_meaning": "সামরিক কর্মকর্তাদের সর্বোচ্চ সতর্কতার সাথে অভিযান বাস্তবায়নের নির্দেশ দেওয়া হয়েছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    }
+  ]
+}

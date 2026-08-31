@@ -1,0 +1,133 @@
+{
+  "level_id": 29,
+  "title": "Level 29: Phrasal Verb",
+  "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique",
+  "category": "Phrasal Verb",
+  "items": [
+    {
+      "id": 141,
+      "word": "Act up",
+      "ipa": "/ækt ʌp/",
+      "pos": "phrase",
+      "meaning": "অবাধ্য আচরণ করা / যন্ত্রপাতির ক্ষেত্রে ত্রুটি দেখা দেওয়া",
+      "synonyms": [
+        "misbehave",
+        "malfunction",
+        "trouble",
+        "play up"
+      ],
+      "antonyms": [
+        "behave",
+        "function properly",
+        "cooperate",
+        "obey"
+      ],
+      "raw_synonyms": "misbehave, malfunction, trouble, play up",
+      "raw_antonyms": "behave, function properly, cooperate, obey",
+      "sentence": "The old car engine started to act up just as we were driving through the mountain pass.",
+      "sentence_meaning": "আমরা পাহাড়ি পথ দিয়ে যাওয়ার সময়ই পুরোনো গাড়ির ইঞ্জিনটি ত্রুটিপূর্ণ আচরণ করতে শুরু করে।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 142,
+      "word": "Break away",
+      "ipa": "/breɪk əˈweɪ/",
+      "pos": "phrase",
+      "meaning": "মুক্ত হয়ে পালিয়ে যাওয়া বা বিচ্ছিন্ন হওয়া",
+      "synonyms": [
+        "escape",
+        "secede",
+        "flee",
+        "separate"
+      ],
+      "antonyms": [
+        "join",
+        "unite",
+        "conform",
+        "remain"
+      ],
+      "raw_synonyms": "escape, secede, flee, separate",
+      "raw_antonyms": "join, unite, conform, remain",
+      "sentence": "Several reformist members decided to break away from the traditional party to form a new coalition.",
+      "sentence_meaning": "কয়েকজন সংস্কারপন্থী সদস্য একটি নতুন জোট গঠনের জন্য ঐতিহ্যবাহী দল থেকে বিচ্ছিন্ন হওয়ার সিদ্ধান্ত নেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 143,
+      "word": "Break down",
+      "ipa": "/breɪk daʊn/",
+      "pos": "phrase",
+      "meaning": "বিকল হওয়া / মানসিক বা শারীরিকভাবে ভেঙে পড়া",
+      "synonyms": [
+        "collapse",
+        "fail",
+        "malfunction",
+        "succumb"
+      ],
+      "antonyms": [
+        "function",
+        "succeed",
+        "persevere",
+        "endure"
+      ],
+      "raw_synonyms": "collapse, fail, malfunction, succumb",
+      "raw_antonyms": "function, succeed, persevere, endure",
+      "sentence": "Peace negotiations between the two warring nations unfortunately broke down after two days.",
+      "sentence_meaning": "দুই যুদ্ধরত দেশের মধ্যকার শান্তি আলোচনা দুর্ভাগ্যজনকভাবে দুই দিন পর ভেঙে পড়েছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 144,
+      "word": "Break into",
+      "ipa": "/breɪk ˈɪntuː/",
+      "pos": "phrase",
+      "meaning": "জোরপূর্বক বা অনধিকার প্রবেশ করা",
+      "synonyms": [
+        "intrude",
+        "invade",
+        "infiltrate",
+        "trespass"
+      ],
+      "antonyms": [
+        "vacate",
+        "exit",
+        "retreat",
+        "withdraw"
+      ],
+      "raw_synonyms": "intrude, invade, infiltrate, trespass",
+      "raw_antonyms": "vacate, exit, retreat, withdraw",
+      "sentence": "Thieves attempted to break into the jewelry shop under the cover of dense midnight fog.",
+      "sentence_meaning": "চোরেরা মধ্যরাতের ঘন কুয়াশার সুযোগ নিয়ে গহনার দোকানে জোরপূর্বক প্রবেশের চেষ্টা করেছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 145,
+      "word": "Break off",
+      "ipa": "/breɪk ɒf/",
+      "pos": "phrase",
+      "meaning": "হঠাৎ থেমে যাওয়া / সম্পর্ক ছিন্ন করা",
+      "synonyms": [
+        "terminate",
+        "discontinue",
+        "halt",
+        "snap"
+      ],
+      "antonyms": [
+        "continue",
+        "resume",
+        "maintain",
+        "prolong"
+      ],
+      "raw_synonyms": "terminate, discontinue, halt, snap",
+      "raw_antonyms": "continue, resume, maintain, prolong",
+      "sentence": "The diplomat chose to break off talks when the conditions became unreasonably one-sided.",
+      "sentence_meaning": "শর্তগুলো অযৌক্তিকভাবে একতরফা হয়ে উঠলে কূটনীতিক আলোচনা ছিন্ন করার সিদ্ধান্ত নেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    }
+  ]
+}

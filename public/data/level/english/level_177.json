@@ -1,0 +1,133 @@
+{
+  "level_id": 177,
+  "title": "Level 177: Phrasal Verb",
+  "unit": "Image 32 (image (32).jpg) - Phrasal Verbs/Group Verbs",
+  "category": "Phrasal Verb",
+  "items": [
+    {
+      "id": 881,
+      "word": "Draw in",
+      "ipa": "/drɔː ɪn/",
+      "pos": "phrase",
+      "meaning": "সংকুচিত করা, খরচ কমানো, প্রলুব্ধ করা",
+      "synonyms": [
+        "curtail",
+        "shorten",
+        "reduce",
+        "attract"
+      ],
+      "antonyms": [
+        "expand",
+        "lengthen",
+        "increase",
+        "extend"
+      ],
+      "raw_synonyms": "curtail, shorten, reduce, attract",
+      "raw_antonyms": "expand, lengthen, increase, extend",
+      "sentence": "Faced with declining quarterly revenues, the management was forced to draw in operational expenditures.",
+      "sentence_meaning": "ত্রৈমাসিক রাজস্ব হ্রাসের মুখে কর্তৃপক্ষ তাদের পরিচালন ব্যয় সংকুচিত বা হ্রাস করতে বাধ্য হয়েছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 32 (image (32).jpg) - Phrasal Verbs/Group Verbs"
+    },
+    {
+      "id": 882,
+      "word": "Draw on",
+      "ipa": "/drɔː ɒn/",
+      "pos": "phrase",
+      "meaning": "ঘনিয়ে আসা, সমাগত হওয়া",
+      "synonyms": [
+        "approach",
+        "near",
+        "close in",
+        "arrive"
+      ],
+      "antonyms": [
+        "recede",
+        "depart",
+        "retreat",
+        "withdraw"
+      ],
+      "raw_synonyms": "approach, near, close in, arrive",
+      "raw_antonyms": "recede, depart, retreat, withdraw",
+      "sentence": "As winter drew on, mountain villages stocked up on firewood and non-perishable food supplies.",
+      "sentence_meaning": "শীত ঘনিয়ে আসার সাথে সাথে পাহাড়ি গ্রামগুলো জ্বালানি কাঠ এবং অপচনশীল খাদ্য সরবরাহ মজুত করেছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 32 (image (32).jpg) - Phrasal Verbs/Group Verbs"
+    },
+    {
+      "id": 883,
+      "word": "Draw out",
+      "ipa": "/drɔː aʊt/",
+      "pos": "phrase",
+      "meaning": "টেনে বের করা, মনের কথা প্রকাশে উৎসাহিত করা",
+      "synonyms": [
+        "extract",
+        "elicit",
+        "pull out",
+        "evoke"
+      ],
+      "antonyms": [
+        "suppress",
+        "conceal",
+        "push in",
+        "silence"
+      ],
+      "raw_synonyms": "extract, elicit, pull out, evoke",
+      "raw_antonyms": "suppress, conceal, push in, silence",
+      "sentence": "The skilled psychologist gently asked questions to draw out the traumatized child's suppressed emotions.",
+      "sentence_meaning": "অভিজ্ঞ মনোবিজ্ঞানী কোমলভাবে প্রশ্ন করে ট্রমাগ্রস্ত শিশুটির মনের অবদমিত আবেগ টেনে বের করেছিলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 33 (image (33).jpg)"
+    },
+    {
+      "id": 884,
+      "word": "Draw out",
+      "ipa": "/drɔː aʊt/",
+      "pos": "phrase",
+      "meaning": "দীর্ঘায়িত করা, প্রলম্বিত করা",
+      "synonyms": [
+        "prolong",
+        "extend",
+        "stretch",
+        "lengthen"
+      ],
+      "antonyms": [
+        "shorten",
+        "abbreviate",
+        "curtail",
+        "condense"
+      ],
+      "raw_synonyms": "prolong, extend, stretch, lengthen",
+      "raw_antonyms": "shorten, abbreviate, curtail, condense",
+      "sentence": "The defense attorney attempted to draw out the cross-examination to buy time for the key witness to arrive.",
+      "sentence_meaning": "প্রধান সাক্ষীর আসার জন্য সময় নিতে বিবাদী পক্ষের আইনজীবী জেরা প্রলম্বিত করার চেষ্টা করেছিলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 33 (image (33).jpg)"
+    },
+    {
+      "id": 885,
+      "word": "Draw aside",
+      "ipa": "/drɔː əˈsaɪd/",
+      "pos": "phrase",
+      "meaning": "একপাশে ডেকে নেওয়া, আলাদা করে সরিয়ে নেওয়া",
+      "synonyms": [
+        "pull aside",
+        "step aside",
+        "separate",
+        "isolate"
+      ],
+      "antonyms": [
+        "join",
+        "merge",
+        "integrate",
+        "advance into"
+      ],
+      "raw_synonyms": "pull aside, step aside, separate, isolate",
+      "raw_antonyms": "join, merge, integrate, advance into",
+      "sentence": "The mentor drew the young apprentice aside to impart confidential advice regarding the upcoming election.",
+      "sentence_meaning": "আসন্ন নির্বাচন সম্পর্কে গোপন পরামর্শ দেওয়ার জন্য মেন্টর তরুণ শিক্ষানবিশটিকে একপাশে ডেকে নিয়েছিলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 33 (image (33).jpg)"
+    }
+  ]
+}

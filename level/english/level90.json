@@ -1,0 +1,133 @@
+{
+  "level_id": 90,
+  "title": "Level 90: Vocabulary",
+  "unit": "Memorizing Part",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 446,
+      "word": "Brittle",
+      "ipa": "/ˈbrɪtl/",
+      "pos": "adj",
+      "meaning": "ভঙ্গুর, সহজে ভেঙে যায় এমন",
+      "synonyms": [
+        "fragile",
+        "breakable",
+        "delicate",
+        "frail"
+      ],
+      "antonyms": [
+        "sturdy",
+        "flexible",
+        "durable",
+        "resilient"
+      ],
+      "raw_synonyms": "fragile, breakable, delicate, frail",
+      "raw_antonyms": "sturdy, flexible, durable, resilient",
+      "sentence": "Dry bones become increasingly brittle and prone to fractures as people grow older.",
+      "sentence_meaning": "বয়স বাড়ার সাথে সাথে মানুষের হাড় ক্রমেই ভঙ্গুর এবং সহজে ভেঙে যাওয়ার ঝুঁকিপূর্ণ হয়ে ওঠে।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 447,
+      "word": "Barren",
+      "ipa": "/ˈbærən/",
+      "pos": "adj",
+      "meaning": "অনুর্বর, নিষ্ফলা, শস্যহীন",
+      "synonyms": [
+        "infertile",
+        "unproductive",
+        "arid",
+        "sterile"
+      ],
+      "antonyms": [
+        "fertile",
+        "fruitful",
+        "productive",
+        "lush"
+      ],
+      "raw_synonyms": "infertile, unproductive, arid, sterile",
+      "raw_antonyms": "fertile, fruitful, productive, lush",
+      "sentence": "No crops could sprout in the barren desert soil due to the extreme lack of moisture.",
+      "sentence_meaning": "চরম আর্দ্রতার অভাবে অনুর্বর মরুভূমির মাটিতে কোনো ফসল জন্মাতে পারেনি।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 448,
+      "word": "Boast",
+      "ipa": "/boʊst/",
+      "pos": "v",
+      "meaning": "দম্ভভরে কথা বলা, গর্ব করা, বড়াই করা",
+      "synonyms": [
+        "brag",
+        "crow",
+        "vaunt",
+        "show off"
+      ],
+      "antonyms": [
+        "deprecate",
+        "belittle",
+        "be humble",
+        "understate"
+      ],
+      "raw_synonyms": "brag, crow, vaunt, show off",
+      "raw_antonyms": "deprecate, belittle, be humble, understate",
+      "sentence": "He does not like to boast about his immense wealth or professional achievements.",
+      "sentence_meaning": "তিনি তাঁর বিপুল সম্পদ বা পেশাগত অর্জন নিয়ে বড়াই বা গর্ব করতে পছন্দ করেন না।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 449,
+      "word": "Brisk",
+      "ipa": "/brɪsk/",
+      "pos": "adj",
+      "meaning": "চটপটে, দ্রুত, প্রাণবন্ত",
+      "synonyms": [
+        "energetic",
+        "quick",
+        "nimble",
+        "lively"
+      ],
+      "antonyms": [
+        "sluggish",
+        "slow",
+        "lethargic",
+        "inactive"
+      ],
+      "raw_synonyms": "energetic, quick, nimble, lively",
+      "raw_antonyms": "sluggish, slow, lethargic, inactive",
+      "sentence": "A brisk thirty-minute morning walk is highly recommended by cardiologists for cardiovascular health.",
+      "sentence_meaning": "হৃদযন্ত্রের সুস্থতার জন্য হৃদরোগ বিশেষজ্ঞদের দ্বারা সকালে ত্রিশ মিনিটের দ্রুত ও চটপটে হাঁটার জোরালো পরামর্শ দেওয়া হয়।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 450,
+      "word": "Brutal",
+      "ipa": "/ˈbruːtl/",
+      "pos": "adj",
+      "meaning": "নিষ্ঠুর, পাশবিক, নৃশংস",
+      "synonyms": [
+        "cruel",
+        "savage",
+        "vicious",
+        "ruthless"
+      ],
+      "antonyms": [
+        "kind",
+        "gentle",
+        "compassionate",
+        "humane"
+      ],
+      "raw_synonyms": "cruel, savage, vicious, ruthless",
+      "raw_antonyms": "kind, gentle, compassionate, humane",
+      "sentence": "The brutal regime suppressed any form of public dissent with ruthless military force.",
+      "sentence_meaning": "নিষ্ঠুর ও স্বৈরাচারী শাসনব্যবস্থা নির্মম সামরিক শক্তি প্রয়োগ করে যেকোনো ধরনের জনবিক্ষোভ দমন করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    }
+  ]
+}

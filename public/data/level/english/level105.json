@@ -1,0 +1,133 @@
+{
+  "level_id": 105,
+  "title": "Level 105: Idiom",
+  "unit": "Idioms & Phrases Table",
+  "category": "Idiom",
+  "items": [
+    {
+      "id": 521,
+      "word": "Breathe one's last",
+      "ipa": "/briːð wʌnz læst/",
+      "pos": "phrase",
+      "meaning": "শেষ নিঃশ্বাস ত্যাগ করা, মৃত্যুবরণ করা",
+      "synonyms": [
+        "pass away",
+        "expire",
+        "perish",
+        "depart this life"
+      ],
+      "antonyms": [
+        "be born",
+        "survive",
+        "come to life",
+        "revive"
+      ],
+      "raw_synonyms": "pass away, expire, perish, depart this life",
+      "raw_antonyms": "be born, survive, come to life, revive",
+      "sentence": "Surrounded by his loving children and grandchildren, the grandfather peacefully breathed his last.",
+      "sentence_meaning": "স্নেহময় সন্তান ও নাতি-নাতনিদের উপস্থিতিতে পিতামহ শান্তিতে শেষ নিঃশ্বাস ত্যাগ করলেন।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 522,
+      "word": "Bring to light",
+      "ipa": "/brɪŋ tuː laɪt/",
+      "pos": "phrase",
+      "meaning": "উন্মোচিত করা, সবার সামনে প্রকাশ করা",
+      "synonyms": [
+        "reveal",
+        "uncover",
+        "disclose",
+        "expose"
+      ],
+      "antonyms": [
+        "conceal",
+        "hide",
+        "suppress",
+        "cover up"
+      ],
+      "raw_synonyms": "reveal, uncover, disclose, expose",
+      "raw_antonyms": "conceal, hide, suppress, cover up",
+      "sentence": "The investigative reporter's documentary brought the financial corruption to light.",
+      "sentence_meaning": "অনুসন্ধানী প্রতিবেদকের তথ্যচিত্রটি আর্থিক দুর্নীতির ঘটনাটি প্রকাশ্যে নিয়ে এসেছিল।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 523,
+      "word": "Bring to mind",
+      "ipa": "/brɪŋ tuː maɪnd/",
+      "pos": "phrase",
+      "meaning": "স্মরণ করিয়ে দেওয়া, স্মৃতি জাগিয়ে তোলা",
+      "synonyms": [
+        "recall",
+        "remind",
+        "evoke",
+        "recollect"
+      ],
+      "antonyms": [
+        "forget",
+        "oblivion",
+        "disregard",
+        "overlook"
+      ],
+      "raw_synonyms": "recall, remind, evoke, recollect",
+      "raw_antonyms": "forget, oblivion, disregard, overlook",
+      "sentence": "The gentle melody brought to mind fond memories of childhood summers at my grandparents' village.",
+      "sentence_meaning": "কোমল সুরটি দাদা-দাদির গ্রামে কাটানো শৈশবের গ্রীষ্মকালীন স্মৃতি মনে করিয়ে দিল।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 524,
+      "word": "Burning question",
+      "ipa": "/ˈbɜːr.nɪŋ ˈkwɛs.tʃən/",
+      "pos": "phrase",
+      "meaning": "বহুল আলোচিত জরুরি বিষয়, অত্যন্ত গুরুত্বপূর্ণ প্রশ্ন",
+      "synonyms": [
+        "pressing issue",
+        "urgent matter",
+        "crucial question",
+        "vital topic"
+      ],
+      "antonyms": [
+        "trivial matter",
+        "settled issue",
+        "insignificant question",
+        "minor topic"
+      ],
+      "raw_synonyms": "pressing issue, urgent matter, crucial question, vital topic",
+      "raw_antonyms": "trivial matter, settled issue, insignificant question, minor topic",
+      "sentence": "How to mitigate the effects of global climate change is the burning question of our era.",
+      "sentence_meaning": "বৈশ্বিক জলবায়ু পরিবর্তনের প্রভাব কীভাবে প্রশমিত করা যায় তা আমাদের যুগের এক অত্যন্ত গুরুত্বপূর্ণ প্রশ্ন।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 525,
+      "word": "Build castles in the air",
+      "ipa": "/bɪld ˈkæs.əlz ɪn ði er/",
+      "pos": "phrase",
+      "meaning": "আকাশকুসুম কল্পনা করা, অবাস্তব স্বপ্ন বোনা",
+      "synonyms": [
+        "daydream",
+        "fantasize",
+        "cherish illusions",
+        "pipe-dream"
+      ],
+      "antonyms": [
+        "face reality",
+        "stay grounded",
+        "be realistic",
+        "act practically"
+      ],
+      "raw_synonyms": "daydream, fantasize, cherish illusions, pipe-dream",
+      "raw_antonyms": "face reality, stay grounded, be realistic, act practically",
+      "sentence": "Instead of building castles in the air, you should focus on practical steps to achieve your career goals.",
+      "sentence_meaning": "আকাশকুসুম কল্পনা না করে ক্যারিয়ারের লক্ষ্য অর্জনে বাস্তবসম্মত পদক্ষেপের ওপর আপনার মনোযোগ দেওয়া উচিত।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    }
+  ]
+}

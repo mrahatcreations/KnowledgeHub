@@ -1,0 +1,131 @@
+{
+  "level_id": 55,
+  "title": "Level 55: Vocabulary",
+  "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 271,
+      "word": "Enduring",
+      "ipa": "/ɪnˈdʊrɪŋ/",
+      "pos": "adj",
+      "meaning": "চিরস্থায়ী, দীর্ঘস্থায়ী ও টেকসই",
+      "synonyms": [
+        "lasting",
+        "perpetual",
+        "abiding",
+        "durable"
+      ],
+      "antonyms": [
+        "transient",
+        "fleeting",
+        "ephemeral",
+        "temporary"
+      ],
+      "raw_synonyms": "lasting, perpetual, abiding, durable",
+      "raw_antonyms": "transient, fleeting, ephemeral, temporary",
+      "sentence": "Rabindranath Tagore's timeless literary compositions have achieved an enduring place in global literature.",
+      "sentence_meaning": "রবীন্দ্রনাথ ঠাকুরের কালজয়ী সাহিত্যকর্ম বিশ্বসাহিত্যে এক চিরস্থায়ী স্থান অধিকার করেছে।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 272,
+      "word": "Afford",
+      "ipa": "/əˈfɔːrd/",
+      "pos": "v",
+      "meaning": "প্রদান করা, সুযোগ দেওয়া বা সামর্থ্য থাকা",
+      "synonyms": [
+        "provide",
+        "supply",
+        "furnish",
+        "yield"
+      ],
+      "antonyms": [
+        "deny",
+        "refuse",
+        "withhold",
+        "deprive"
+      ],
+      "raw_synonyms": "provide, supply, furnish, yield",
+      "raw_antonyms": "deny, refuse, withhold, deprive",
+      "sentence": "The scholarship will afford talented rural students the opportunity to study at world-class universities.",
+      "sentence_meaning": "বৃত্তিটি মেধাবী গ্রামীণ শিক্ষার্থীদের বিশ্বমানের বিশ্ববিদ্যালয়ে পড়ার সুযোগ প্রদান করবে।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 273,
+      "word": "Muscular",
+      "ipa": "/ˈmʌskjələr/",
+      "pos": "adj",
+      "meaning": "পেশিবহুল, সুঠাম ও বলিষ্ঠ",
+      "synonyms": [
+        "brawny",
+        "stout",
+        "athletic",
+        "sinewy"
+      ],
+      "antonyms": [
+        "frail",
+        "skinny",
+        "puny",
+        "feeble"
+      ],
+      "raw_synonyms": "brawny, stout, athletic, sinewy",
+      "raw_antonyms": "frail, skinny, puny, feeble",
+      "sentence": "The sculpture depicted a muscular warrior ready to defend his homeland against invaders.",
+      "sentence_meaning": "ভাস্কর্যটিতে এক পেশিবহুল যোদ্ধাকে আক্রমণকারীদের বিরুদ্ধে মাতৃভূমি রক্ষা করার জন্য প্রস্তুত দেখাচ্ছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 274,
+      "word": "Stature",
+      "ipa": "/ˈstætʃər/",
+      "pos": "n",
+      "meaning": "দৈহিক উচ্চতা, শারীরিক গঠন",
+      "synonyms": [
+        "height",
+        "tallness",
+        "physique",
+        "build"
+      ],
+      "antonyms": [
+        "shortness",
+        "lowness",
+        "diminutiveness"
+      ],
+      "raw_synonyms": "height, tallness, physique, build",
+      "raw_antonyms": "shortness, lowness, diminutiveness",
+      "sentence": "The basketball player's towering stature gave him a commanding advantage under the basket.",
+      "sentence_meaning": "বাস্কেটবল খেলোয়াড়টির সুবিশাল শারীরিক উচ্চতা তাকে বাস্কেটের নিচে অসাধারণ সুবিধা দিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    },
+    {
+      "id": 275,
+      "word": "Legacy",
+      "ipa": "/ˈleɡəsi/",
+      "pos": "n",
+      "meaning": "উত্তরাধিকার, ঐতিহাসিক কীর্তি",
+      "synonyms": [
+        "heritage",
+        "inheritance",
+        "bequest",
+        "patrimony"
+      ],
+      "antonyms": [
+        "dispossession",
+        "divestment",
+        "renunciation"
+      ],
+      "raw_synonyms": "heritage, inheritance, bequest, patrimony",
+      "raw_antonyms": "dispossession, divestment, renunciation",
+      "sentence": "Nelson Mandela left a legacy of resilience, reconciliation, and profound moral courage.",
+      "sentence_meaning": "নেলসন ম্যান্ডেলা সহনশীলতা, পুনর্মিলন এবং গভীর নৈতিক সাহসের এক অনন্য উত্তরাধিকার রেখে গেছেন।",
+      "category": "Vocabulary",
+      "unit": "Image 9 (image (9).jpg) - Vocabulary (Unit:2)"
+    }
+  ]
+}

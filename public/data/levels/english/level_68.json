@@ -1,0 +1,132 @@
+{
+  "level_id": 68,
+  "title": "Level 68: Vocabulary",
+  "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 336,
+      "word": "Multigenerational",
+      "ipa": "/ˌmʌltiˌdʒenəˈreɪʃənl/",
+      "pos": "adj",
+      "meaning": "বহু প্রজন্মের, যৌথ পারিবারিক",
+      "synonyms": [
+        "intergenerational",
+        "cross-generational",
+        "extended-family",
+        "all-age"
+      ],
+      "antonyms": [
+        "single-generation",
+        "monogenerational",
+        "nuclear"
+      ],
+      "raw_synonyms": "intergenerational, cross-generational, extended-family, all-age",
+      "raw_antonyms": "single-generation, monogenerational, nuclear",
+      "sentence": "Living in a multigenerational household allows grandparents to share valuable wisdom with young children.",
+      "sentence_meaning": "একটি বহু প্রজন্মের যৌথ পরিবারে বসবাস দাদা-দাদিকে ছোট শিশুদের সাথে মূল্যবান জ্ঞান ভাগ করে নেওয়ার সুযোগ দেয়।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 337,
+      "word": "Tumultuous",
+      "ipa": "/tuːˈmʌltʃuəs/",
+      "pos": "adj",
+      "meaning": "অশান্ত, উত্তাল, বিশৃঙ্খলাময়",
+      "synonyms": [
+        "turbulent",
+        "tempestuous",
+        "riotous",
+        "chaotic"
+      ],
+      "antonyms": [
+        "peaceful",
+        "tranquil",
+        "serene",
+        "calm"
+      ],
+      "raw_synonyms": "turbulent, tempestuous, riotous, chaotic",
+      "raw_antonyms": "peaceful, tranquil, serene, calm",
+      "sentence": "The nation navigated a tumultuous period of political unrest and economic instability before finding peace.",
+      "sentence_meaning": "শান্তি ফিরে আসার আগে জাতি রাজনৈতিক অস্থিরতা এবং অর্থনৈতিক অস্থিতিশীলতার এক উত্তাল সময় অতিক্রম করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 338,
+      "word": "Asylum",
+      "ipa": "/əˈsaɪləm/",
+      "pos": "n",
+      "meaning": "রাজনৈতিক আশ্রয়, নিরাপদ আশ্রয়স্থল",
+      "synonyms": [
+        "sanctuary",
+        "refuge",
+        "haven",
+        "protection"
+      ],
+      "antonyms": [
+        "expulsion",
+        "persecution",
+        "deportation",
+        "hazard"
+      ],
+      "raw_synonyms": "sanctuary, refuge, haven, protection",
+      "raw_antonyms": "expulsion, persecution, deportation, hazard",
+      "sentence": "Thousands of displaced refugees crossed the border seeking political asylum and safety from conflict.",
+      "sentence_meaning": "হাজার হাজার বাস্তুচ্যুত শরণার্থী সংঘাত থেকে নিরাপত্তা এবং রাজনৈতিক আশ্রয়ের সন্ধানে সীমান্ত অতিক্রম করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 339,
+      "word": "Dissolution",
+      "ipa": "/ˌdɪsəˈluːʃn/",
+      "pos": "n",
+      "meaning": "বিলুপ্তি, অবসান বা ভাঙন",
+      "synonyms": [
+        "disintegration",
+        "termination",
+        "disbandment",
+        "cessation"
+      ],
+      "antonyms": [
+        "establishment",
+        "formation",
+        "unification",
+        "creation"
+      ],
+      "raw_synonyms": "disintegration, termination, disbandment, cessation",
+      "raw_antonyms": "establishment, formation, unification, creation",
+      "sentence": "The sudden dissolution of the parliamentary assembly paved the way for emergency national elections.",
+      "sentence_meaning": "সংসদীয় পরিষদের আকস্মিক বিলুপ্তি জরুরি জাতীয় নির্বাচনের পথ প্রশস্ত করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    },
+    {
+      "id": 340,
+      "word": "Manifest",
+      "ipa": "/ˈmænɪfest/",
+      "pos": "v",
+      "meaning": "প্রকাশ করা, প্রদর্শন করা বা সুস্পষ্ট হয়ে ওঠা",
+      "synonyms": [
+        "demonstrate",
+        "display",
+        "reveal",
+        "exhibit"
+      ],
+      "antonyms": [
+        "conceal",
+        "hide",
+        "mask",
+        "suppress"
+      ],
+      "raw_synonyms": "demonstrate, display, reveal, exhibit",
+      "raw_antonyms": "conceal, hide, mask, suppress",
+      "sentence": "Chronic psychological stress can often manifest physically as intense headaches and fatigue.",
+      "sentence_meaning": "দীর্ঘস্থায়ী মানসিক চাপ প্রায়শই তীব্র মাথাব্যথা এবং ক্লান্তির মতো শারীরিক লক্ষণে প্রকাশ পেতে পারে।",
+      "category": "Vocabulary",
+      "unit": "Image 12 (image (12).jpg) - Sentence Making Table (Continued)"
+    }
+  ]
+}

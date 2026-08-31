@@ -1,0 +1,133 @@
+{
+  "level_id": 21,
+  "title": "Level 21: Vocabulary",
+  "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 101,
+      "word": "Austere",
+      "ipa": "/ɔːˈstɪər/",
+      "pos": "adj",
+      "meaning": "কঠোর, অনাড়ম্বর, সংযমী",
+      "synonyms": [
+        "severe",
+        "stern",
+        "ascetic",
+        "unadorned"
+      ],
+      "antonyms": [
+        "luxurious",
+        "indulgent",
+        "ornate",
+        "extravagant"
+      ],
+      "raw_synonyms": "severe, stern, ascetic, unadorned",
+      "raw_antonyms": "luxurious, indulgent, ornate, extravagant",
+      "sentence": "The monastery was built in an austere architectural style devoid of luxurious decoration.",
+      "sentence_meaning": "মঠটি কোনো বিলাসবহুল সাজসজ্জা ছাড়াই একটি অনাড়ম্বর স্থাপত্য শৈলীতে নির্মিত হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    },
+    {
+      "id": 102,
+      "word": "Autonomous",
+      "ipa": "/ɔːˈtɒnəməs/",
+      "pos": "adj",
+      "meaning": "স্বায়ত্তশাসিত, স্বাধীন",
+      "synonyms": [
+        "independent",
+        "self-governing",
+        "sovereign",
+        "free"
+      ],
+      "antonyms": [
+        "dependent",
+        "subordinate",
+        "controlled",
+        "subject"
+      ],
+      "raw_synonyms": "independent, self-governing, sovereign, free",
+      "raw_antonyms": "dependent, subordinate, controlled, subject",
+      "sentence": "The central bank functions as an autonomous institution to ensure monetary stability.",
+      "sentence_meaning": "আর্থিক স্থিতিশীলতা নিশ্চিত করতে কেন্দ্রীয় ব্যাংক একটি স্বায়ত্তশাসিত প্রতিষ্ঠান হিসেবে কাজ করে।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 103,
+      "word": "Aver",
+      "ipa": "/əˈvɜːr/",
+      "pos": "v",
+      "meaning": "দৃঢ়ভাবে ঘোষণা করা বা সত্য বলে দাবি করা",
+      "synonyms": [
+        "assert",
+        "affirm",
+        "declare",
+        "maintain"
+      ],
+      "antonyms": [
+        "deny",
+        "disavow",
+        "refute",
+        "retract"
+      ],
+      "raw_synonyms": "assert, affirm, declare, maintain",
+      "raw_antonyms": "deny, disavow, refute, retract",
+      "sentence": "The witness continued to aver under oath that he had seen the suspect near the crime scene.",
+      "sentence_meaning": "সাক্ষী শপথ নিয়ে দৃঢ়ভাবে বলতে থাকেন যে তিনি অপরাধস্থলের কাছে সন্দেহভাজনকে দেখেছেন।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 104,
+      "word": "Assessment",
+      "ipa": "/əˈsesmənt/",
+      "pos": "n",
+      "meaning": "মূল্যায়ন, নিরূপণ, নিরীক্ষণ",
+      "synonyms": [
+        "evaluation",
+        "appraisal",
+        "estimation",
+        "judgment"
+      ],
+      "antonyms": [
+        "misjudgment",
+        "guesswork",
+        "disregard",
+        "neglect"
+      ],
+      "raw_synonyms": "evaluation, appraisal, estimation, judgment",
+      "raw_antonyms": "misjudgment, guesswork, disregard, neglect",
+      "sentence": "A thorough environmental impact assessment was conducted prior to constructing the dam.",
+      "sentence_meaning": "বাঁধ নির্মাণের পূর্বে একটি পুঙ্খানুপুঙ্খ পরিবেশগত প্রভাব মূল্যায়ন পরিচালনা করা হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    },
+    {
+      "id": 105,
+      "word": "Abundant",
+      "ipa": "/əˈbʌndənt/",
+      "pos": "adj",
+      "meaning": "প্রচুর, পর্যাপ্ত, প্রাচুর্যময়",
+      "synonyms": [
+        "plentiful",
+        "copious",
+        "ample",
+        "profuse"
+      ],
+      "antonyms": [
+        "scarce",
+        "meager",
+        "sparse",
+        "insufficient"
+      ],
+      "raw_synonyms": "plentiful, copious, ample, profuse",
+      "raw_antonyms": "scarce, meager, sparse, insufficient",
+      "sentence": "The fertile river valley provided an abundant supply of fresh water and agricultural produce.",
+      "sentence_meaning": "উর্বর নদী উপত্যকাটি মিষ্টি পানি এবং কৃষিপণ্যের প্রচুর সরবরাহ প্রদান করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 4: Memorizing Part - Vocabulary & Root Word Technique (Page 29)"
+    }
+  ]
+}

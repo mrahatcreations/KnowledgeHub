@@ -1,0 +1,133 @@
+{
+  "level_id": 17,
+  "title": "Level 17: Vocabulary",
+  "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 81,
+      "word": "Adverse",
+      "ipa": "/ˈædvɜːrs/",
+      "pos": "adj",
+      "meaning": "প্রতিকূল, ক্ষতিকর, বিপরীতমুখী",
+      "synonyms": [
+        "unfavorable",
+        "hostile",
+        "detrimental",
+        "antagonistic"
+      ],
+      "antonyms": [
+        "favorable",
+        "beneficial",
+        "advantageous",
+        "propitious"
+      ],
+      "raw_synonyms": "unfavorable, hostile, detrimental, antagonistic",
+      "raw_antonyms": "favorable, beneficial, advantageous, propitious",
+      "sentence": "Severe drought caused adverse effects on crop yields across the entire northern district.",
+      "sentence_meaning": "তীব্র খরা পুরো উত্তরাঞ্চল জুড়ে ফসলের ফলনের ওপর প্রতিকূল প্রভাব ফেলেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    },
+    {
+      "id": 82,
+      "word": "Alleviate",
+      "ipa": "/əˈliːvieɪt/",
+      "pos": "v",
+      "meaning": "উপশম করা, লাঘব করা, হ্রাস করা",
+      "synonyms": [
+        "relieve",
+        "mitigate",
+        "ease",
+        "soothe"
+      ],
+      "antonyms": [
+        "aggravate",
+        "worsen",
+        "exacerbate",
+        "intensify"
+      ],
+      "raw_synonyms": "relieve, mitigate, ease, soothe",
+      "raw_antonyms": "aggravate, worsen, exacerbate, intensify",
+      "sentence": "The doctor administered an analgesic injection to alleviate the patient's acute pain.",
+      "sentence_meaning": "রোগীর তীব্র যন্ত্রণা লাঘব করার জন্য চিকিৎসক একটি বেদনানাশক ইনজেকশন প্রয়োগ করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    },
+    {
+      "id": 83,
+      "word": "Altruism",
+      "ipa": "/ˈæltruɪzəm/",
+      "pos": "n",
+      "meaning": "পরোপকারিতা, নিঃস্বার্থ সেবা, পরার্থপরতা",
+      "synonyms": [
+        "benevolence",
+        "generosity",
+        "philanthropy",
+        "unselfishness"
+      ],
+      "antonyms": [
+        "selfishness",
+        "egotism",
+        "greed",
+        "self-interest"
+      ],
+      "raw_synonyms": "benevolence, generosity, philanthropy, unselfishness",
+      "raw_antonyms": "selfishness, egotism, greed, self-interest",
+      "sentence": "Her life was defined by remarkable altruism as she spent decades helping famine victims.",
+      "sentence_meaning": "তাঁর জীবন অসাধারণ পরোপকারিতা দ্বারা চিহ্নিত ছিল, কারণ তিনি দুর্ভিক্ষপীড়িতদের সেবায় কয়েক দশক ব্যয় করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    },
+    {
+      "id": 84,
+      "word": "Amalgamate",
+      "ipa": "/əˈmælɡəmeɪt/",
+      "pos": "v",
+      "meaning": "একত্রিত করা, মিশ্রিত করা, সমন্বিত করা",
+      "synonyms": [
+        "merge",
+        "combine",
+        "unite",
+        "fuse"
+      ],
+      "antonyms": [
+        "separate",
+        "divide",
+        "disintegrate",
+        "isolate"
+      ],
+      "raw_synonyms": "merge, combine, unite, fuse",
+      "raw_antonyms": "separate, divide, disintegrate, isolate",
+      "sentence": "The two major commercial banks decided to amalgamate into a single national institution.",
+      "sentence_meaning": "দুটি প্রধান বাণিজ্যিক ব্যাংক একত্রিত হয়ে একটি একক জাতীয় প্রতিষ্ঠানে পরিণত হওয়ার সিদ্ধান্ত নিয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    },
+    {
+      "id": 85,
+      "word": "Ambiguous",
+      "ipa": "/æmˈbɪɡjuəs/",
+      "pos": "adj",
+      "meaning": "দ্ব্যর্থবোধক, অস্পষ্ট, অনিশ্চিতার্থ",
+      "synonyms": [
+        "vague",
+        "equivocal",
+        "obscure",
+        "unclear"
+      ],
+      "antonyms": [
+        "lucid",
+        "unambiguous",
+        "clear",
+        "explicit"
+      ],
+      "raw_synonyms": "vague, equivocal, obscure, unclear",
+      "raw_antonyms": "lucid, unambiguous, clear, explicit",
+      "sentence": "The contract contained ambiguous phrasing that later led to protracted legal disputes.",
+      "sentence_meaning": "চুক্তিতে দ্ব্যর্থবোধক শব্দবিন্যাস ছিল যা পরবর্তীতে দীর্ঘস্থায়ী আইনি বিরোধের জন্ম দিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    }
+  ]
+}

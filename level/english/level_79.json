@@ -1,0 +1,133 @@
+{
+  "level_id": 79,
+  "title": "Level 79: Vocabulary",
+  "unit": "Vocabulary Table",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 391,
+      "word": "Promote",
+      "ipa": "/prəˈmoʊt/",
+      "pos": "v",
+      "meaning": "পদোন্নতি দেওয়া, প্রচার করা, উৎসাহিত করা",
+      "synonyms": [
+        "advance",
+        "encourage",
+        "foster",
+        "elevate"
+      ],
+      "antonyms": [
+        "demote",
+        "hinder",
+        "discourage",
+        "relegate"
+      ],
+      "raw_synonyms": "advance, encourage, foster, elevate",
+      "raw_antonyms": "demote, hinder, discourage, relegate",
+      "sentence": "The public health agency launched a campaign to promote healthy dietary habits among school children.",
+      "sentence_meaning": "জনস্বাস্থ্য সংস্থা স্কুলপড়ুয়া শিশুদের মধ্যে স্বাস্থ্যকর খাদ্যাভ্যাস প্রচার ও উৎসাহিত করার জন্য একটি প্রচারাভিযান শুরু করেছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 392,
+      "word": "Emerge",
+      "ipa": "/ɪˈmɜːrdʒ/",
+      "pos": "v",
+      "meaning": "আবির্ভূত হওয়া, প্রকাশ পাওয়া, উদ্ভূত হওয়া",
+      "synonyms": [
+        "appear",
+        "surface",
+        "materialize",
+        "arise"
+      ],
+      "antonyms": [
+        "disappear",
+        "vanish",
+        "fade",
+        "submerge"
+      ],
+      "raw_synonyms": "appear, surface, materialize, arise",
+      "raw_antonyms": "disappear, vanish, fade, submerge",
+      "sentence": "New opportunities for green energy will emerge as renewable technology becomes more cost-effective.",
+      "sentence_meaning": "নবায়নযোগ্য প্রযুক্তি আরও সাশ্রয়ী হয়ে ওঠার সাথে সাথে সবুজ শক্তির নতুন সুযোগ আবির্ভূত হবে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 393,
+      "word": "Ecstasy",
+      "ipa": "/ˈekstəsi/",
+      "pos": "n",
+      "meaning": "পরমানন্দ, অপার আনন্দ, ভাবাবেশ",
+      "synonyms": [
+        "bliss",
+        "rapture",
+        "euphoria",
+        "elation"
+      ],
+      "antonyms": [
+        "misery",
+        "despair",
+        "sorrow",
+        "agony"
+      ],
+      "raw_synonyms": "bliss, rapture, euphoria, elation",
+      "raw_antonyms": "misery, despair, sorrow, agony",
+      "sentence": "The young athletes celebrated in sheer ecstasy after clinching the championship trophy in the final seconds.",
+      "sentence_meaning": "শেষ সেকেন্ডে চ্যাম্পিয়নশিপ ট্রফি জয়ের পর তরুণ ক্রীড়াবিদরা অপার পরমানন্দে মেতে উঠেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 394,
+      "word": "Alarming",
+      "ipa": "/əˈlɑːrmɪŋ/",
+      "pos": "adj",
+      "meaning": "উদ্বেগজনক, শঙ্কাজনক, ভীতিপ্রদ",
+      "synonyms": [
+        "worrying",
+        "frightening",
+        "disturbing",
+        "disquieting"
+      ],
+      "antonyms": [
+        "comforting",
+        "reassuring",
+        "calming",
+        "soothing"
+      ],
+      "raw_synonyms": "worrying, frightening, disturbing, disquieting",
+      "raw_antonyms": "comforting, reassuring, calming, soothing",
+      "sentence": "The alarming rise in deforestation rates has prompted conservationists to demand urgent government action.",
+      "sentence_meaning": "বন উজাড়ের উদ্বেগজনক বৃদ্ধি পরিবেশ সংরক্ষণবাদীদের সরকারের কাছ থেকে জরুরি পদক্ষেপ দাবি করতে বাধ্য করেছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 395,
+      "word": "Morbidity",
+      "ipa": "/mɔːrˈbɪdəti/",
+      "pos": "n",
+      "meaning": "রোগাক্রান্ত অবস্থা, অসুস্থতার হার, রোগশীলতা",
+      "synonyms": [
+        "illness",
+        "sickness",
+        "diseased state",
+        "unhealthiness"
+      ],
+      "antonyms": [
+        "healthiness",
+        "wholesomeness",
+        "vitality",
+        "robustness"
+      ],
+      "raw_synonyms": "illness, sickness, diseased state, unhealthiness",
+      "raw_antonyms": "healthiness, wholesomeness, vitality, robustness",
+      "sentence": "Improving sanitation infrastructure significantly reduced infant morbidity across rural districts.",
+      "sentence_meaning": "পয়ঃনিষ্কাশন ব্যবস্থার উন্নয়ন গ্রামীণ জেলাগুলোতে শিশু অসুস্থতার হার উল্লেখযোগ্যভাবে কমিয়েছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    }
+  ]
+}

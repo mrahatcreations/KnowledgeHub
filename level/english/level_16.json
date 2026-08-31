@@ -1,0 +1,133 @@
+{
+  "level_id": 16,
+  "title": "Level 16: Vocabulary",
+  "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 76,
+      "word": "Adore",
+      "ipa": "/əˈdɔːr/",
+      "pos": "v",
+      "meaning": "গভীরভাবে ভালোবাসা, শ্রদ্ধা করা, পূজা করা",
+      "synonyms": [
+        "worship",
+        "cherish",
+        "venerate",
+        "idolize"
+      ],
+      "antonyms": [
+        "despise",
+        "loathe",
+        "detest",
+        "abhor"
+      ],
+      "raw_synonyms": "worship, cherish, venerate, idolize",
+      "raw_antonyms": "despise, loathe, detest, abhor",
+      "sentence": "The citizens adore the philanthropic doctor who dedicated his life to treating the poor.",
+      "sentence_meaning": "নাগরিকরা সেই পরোপকারী চিকিৎসককে গভীরভাবে ভালোবাসেন ও শ্রদ্ধা করেন যিনি দরিদ্রদের চিকিৎসায় নিজের জীবন উৎসর্গ করেছেন।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    },
+    {
+      "id": 77,
+      "word": "Adulterate",
+      "ipa": "/əˈdʌltəreɪt/",
+      "pos": "v",
+      "meaning": "ভেজাল মেশানো, দূষিত করা, মান নষ্ট করা",
+      "synonyms": [
+        "contaminate",
+        "pollute",
+        "debase",
+        "corrupt"
+      ],
+      "antonyms": [
+        "purify",
+        "cleanse",
+        "refine",
+        "sanitize"
+      ],
+      "raw_synonyms": "contaminate, pollute, debase, corrupt",
+      "raw_antonyms": "purify, cleanse, refine, sanitize",
+      "sentence": "Unscrupulous merchants often adulterate cooking oil with cheap chemical additives.",
+      "sentence_meaning": "অসাধু ব্যবসায়ীরা প্রায়শই রান্নার তেলে সস্তা রাসায়নিক উপাদান মিশিয়ে ভেজাল তৈরি করে।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    },
+    {
+      "id": 78,
+      "word": "Aesthetic",
+      "ipa": "/esˈθetɪk/",
+      "pos": "adj",
+      "meaning": "নান্দনিক, সৌন্দর্যবোধসম্পন্ন, শিল্পসম্মত",
+      "synonyms": [
+        "artistic",
+        "tasteful",
+        "pleasing",
+        "exquisite"
+      ],
+      "antonyms": [
+        "unsightly",
+        "grotesque",
+        "tasteless",
+        "unattractive"
+      ],
+      "raw_synonyms": "artistic, tasteful, pleasing, exquisite",
+      "raw_antonyms": "unsightly, grotesque, tasteless, unattractive",
+      "sentence": "The minimalist interior design of the museum offers immense aesthetic appeal to visitors.",
+      "sentence_meaning": "জাদুঘরের পরিমিত অভ্যন্তরীণ সজ্জা দর্শনার্থীদের অসাধারণ নান্দনিক তৃপ্তি প্রদান করে।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    },
+    {
+      "id": 79,
+      "word": "Aggregate",
+      "ipa": "/ˈæɡrɪɡeɪt/",
+      "pos": "v",
+      "meaning": "একত্রিত করা, পুঞ্জীভূত করা, সমষ্টিভুক্ত করা",
+      "synonyms": [
+        "accumulate",
+        "gather",
+        "combine",
+        "amass"
+      ],
+      "antonyms": [
+        "disperse",
+        "scatter",
+        "divide",
+        "separate"
+      ],
+      "raw_synonyms": "accumulate, gather, combine, amass",
+      "raw_antonyms": "disperse, scatter, divide, separate",
+      "sentence": "The digital platform aggregates news headlines from hundreds of independent sources.",
+      "sentence_meaning": "ডিজিটাল প্ল্যাটফর্মটি শত শত স্বাধীন উৎস থেকে সংবাদের শিরোনাম একত্রিত করে।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    },
+    {
+      "id": 80,
+      "word": "Alacrity",
+      "ipa": "/əˈlækrəti/",
+      "pos": "n",
+      "meaning": "তৎপরতা, সানন্দ ক্ষিপ্রতা, ব্যগ্রতা",
+      "synonyms": [
+        "eagerness",
+        "promptness",
+        "zeal",
+        "readiness"
+      ],
+      "antonyms": [
+        "reluctance",
+        "sluggishness",
+        "hesitation",
+        "apathy"
+      ],
+      "raw_synonyms": "eagerness, promptness, zeal, readiness",
+      "raw_antonyms": "reluctance, sluggishness, hesitation, apathy",
+      "sentence": "She accepted the prestigious scholarship offer with evident alacrity and gratitude.",
+      "sentence_meaning": "তিনি স্পষ্ট আগ্রহ, সানন্দ তৎপরতা এবং কৃতজ্ঞতার সাথে মর্যাদাপূর্ণ বৃত্তির প্রস্তাব গ্রহণ করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 3: Memorizing Part - Vocabulary (Page 28)"
+    }
+  ]
+}

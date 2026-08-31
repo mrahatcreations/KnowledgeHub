@@ -1,0 +1,133 @@
+{
+  "level_id": 32,
+  "title": "Level 32: Phrasal Verb",
+  "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique",
+  "category": "Phrasal Verb",
+  "items": [
+    {
+      "id": 156,
+      "word": "Blow over",
+      "ipa": "/bləʊ ˈəʊvər/",
+      "pos": "phrase",
+      "meaning": "থেমে যাওয়া বা সংকট কেটে যাওয়া",
+      "synonyms": [
+        "subside",
+        "pass off",
+        "settle down",
+        "fade away"
+      ],
+      "antonyms": [
+        "escalate",
+        "worsen",
+        "intensify",
+        "persist"
+      ],
+      "raw_synonyms": "subside, pass off, settle down, fade away",
+      "raw_antonyms": "escalate, worsen, intensify, persist",
+      "sentence": "We decided to stay calm and wait until the heated political controversy blew over.",
+      "sentence_meaning": "উত্তপ্ত রাজনৈতিক বিতর্কটি কেটে না যাওয়া পর্যন্ত আমরা শান্ত থাকার এবং অপেক্ষা করার সিদ্ধান্ত নিয়েছিলাম।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 157,
+      "word": "Bear away",
+      "ipa": "/beər əˈweɪ/",
+      "pos": "phrase",
+      "meaning": "পুরস্কার বা জয় ছিনিয়ে নেওয়া",
+      "synonyms": [
+        "win",
+        "carry off",
+        "secure",
+        "triumph in"
+      ],
+      "antonyms": [
+        "lose",
+        "forfeit",
+        "surrender",
+        "give up"
+      ],
+      "raw_synonyms": "win, carry off, secure, triumph in",
+      "raw_antonyms": "lose, forfeit, surrender, give up",
+      "sentence": "The brilliant debater managed to bear away first prize in the national championship.",
+      "sentence_meaning": "মেধাবী বিতার্কিক জাতীয় প্রতিযোগিতায় প্রথম পুরস্কার ছিনিয়ে নিতে সক্ষম হয়েছিলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 158,
+      "word": "Bear on",
+      "ipa": "/beər ɒn/",
+      "pos": "phrase",
+      "meaning": "প্রাসঙ্গিক হওয়া বা সম্পর্ক থাকা",
+      "synonyms": [
+        "relate to",
+        "pertain to",
+        "concern",
+        "apply to"
+      ],
+      "antonyms": [
+        "disconnect from",
+        "diverge from",
+        "deviate from",
+        "differ from"
+      ],
+      "raw_synonyms": "relate to, pertain to, concern, apply to",
+      "raw_antonyms": "disconnect from, diverge from, deviate from, differ from",
+      "sentence": "These historical documents directly bear on the border demarcation treaty signed in 1947.",
+      "sentence_meaning": "এই ঐতিহাসিক দলিলগুলো ১৯৪৭ সালে স্বাক্ষরিত সীমান্ত নির্ধারণ চুক্তির সাথে সরাসরি সম্পর্কিত।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 159,
+      "word": "Bear out",
+      "ipa": "/beər aʊt/",
+      "pos": "phrase",
+      "meaning": "সমর্থন করা বা সত্যতা প্রমাণ করা",
+      "synonyms": [
+        "confirm",
+        "corroborate",
+        "substantiate",
+        "verify"
+      ],
+      "antonyms": [
+        "contradict",
+        "disprove",
+        "refute",
+        "undermine"
+      ],
+      "raw_synonyms": "confirm, corroborate, substantiate, verify",
+      "raw_antonyms": "contradict, disprove, refute, undermine",
+      "sentence": "The forensic laboratory test results fully bear out the eyewitness's account of the incident.",
+      "sentence_meaning": "ফরেনসিক ল্যাবরেটরি পরীক্ষার ফলাফল ঘটনার প্রত্যক্ষদর্শীর বিবরণের সত্যতা সম্পূর্ণরূপে প্রমাণ করে।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    },
+    {
+      "id": 160,
+      "word": "Bear with",
+      "ipa": "/beər wɪð/",
+      "pos": "phrase",
+      "meaning": "ধৈর্য ধরে সহ্য করা",
+      "synonyms": [
+        "tolerate",
+        "endure",
+        "put up with",
+        "suffer"
+      ],
+      "antonyms": [
+        "reject",
+        "resent",
+        "rebel against",
+        "refuse"
+      ],
+      "raw_synonyms": "tolerate, endure, put up with, suffer",
+      "raw_antonyms": "reject, resent, rebel against, refuse",
+      "sentence": "Please bear with us for a few more minutes while our technical team resolves the network issue.",
+      "sentence_meaning": "আমাদের প্রযুক্তিগত দল নেটওয়ার্ক সমস্যা সমাধান করার সময় দয়া করে আমাদের সাথে আরো কয়েক মিনিট ধৈর্য ধরুন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 5: Phrasal Verbs & Super Group Verb Technique"
+    }
+  ]
+}

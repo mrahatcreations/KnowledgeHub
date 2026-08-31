@@ -1,0 +1,133 @@
+{
+  "level_id": 176,
+  "title": "Level 176: Phrasal Verb",
+  "unit": "Image 32 (image (32).jpg) - Phrasal Verbs/Group Verbs",
+  "category": "Phrasal Verb",
+  "items": [
+    {
+      "id": 876,
+      "word": "Do without",
+      "ipa": "/duː wɪˈðaʊt/",
+      "pos": "phrase",
+      "meaning": "কোনো কিছু ছাড়া চলা বা চালানো, বর্জন করে কাজ সারা",
+      "synonyms": [
+        "manage without",
+        "dispense with",
+        "forgo",
+        "abstain from"
+      ],
+      "antonyms": [
+        "require",
+        "depend on",
+        "need",
+        "demand"
+      ],
+      "raw_synonyms": "manage without, dispense with, forgo, abstain from",
+      "raw_antonyms": "require, depend on, need, demand",
+      "sentence": "In times of severe financial austerity, the organization had to do without luxury office perks.",
+      "sentence_meaning": "তীব্র অর্থনৈতিক কৃচ্ছ্রতার সময়ে প্রতিষ্ঠানটিকে বিলাসবহুল অফিস সুবিধা ছাড়াই কাজ চালাতে হয়েছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 32 (image (32).jpg) - Phrasal Verbs/Group Verbs"
+    },
+    {
+      "id": 877,
+      "word": "Deal in",
+      "ipa": "/diːl ɪn/",
+      "pos": "phrase",
+      "meaning": "ব্যবসা বা কারবার করা, কেনাবেচা করা",
+      "synonyms": [
+        "trade in",
+        "sell",
+        "market",
+        "specialize in"
+      ],
+      "antonyms": [
+        "boycott",
+        "avoid",
+        "neglect",
+        "refrain from"
+      ],
+      "raw_synonyms": "trade in, sell, market, specialize in",
+      "raw_antonyms": "boycott, avoid, neglect, refrain from",
+      "sentence": "His family has been dealing in antique Persian carpets and handmade textiles for three generations.",
+      "sentence_meaning": "তার পরিবার তিন প্রজন্ম ধরে প্রাচীন পারস্যের গালিচা এবং হাতে বোনা বস্ত্রের ব্যবসা করে আসছে।",
+      "category": "Phrasal Verb",
+      "unit": "Image 32 (image (32).jpg) - Phrasal Verbs/Group Verbs"
+    },
+    {
+      "id": 878,
+      "word": "Deal with",
+      "ipa": "/diːl wɪð/",
+      "pos": "phrase",
+      "meaning": "মোকাবেলা করা, সমাধান করা, আলোচনা বা আচরণ করা",
+      "synonyms": [
+        "handle",
+        "address",
+        "manage",
+        "tackle"
+      ],
+      "antonyms": [
+        "ignore",
+        "avoid",
+        "evade",
+        "neglect"
+      ],
+      "raw_synonyms": "handle, address, manage, tackle",
+      "raw_antonyms": "ignore, avoid, evade, neglect",
+      "sentence": "A seasoned diplomat possesses the composure required to deal with high-stakes international crises.",
+      "sentence_meaning": "একজন অভিজ্ঞ কূটনীতিকের অত্যন্ত জটিল আন্তর্জাতিক সংকট মোকাবেলা করার মতো প্রয়োজনীয় ধৈর্য থাকে।",
+      "category": "Phrasal Verb",
+      "unit": "Image 32 (image (32).jpg) - Phrasal Verbs/Group Verbs"
+    },
+    {
+      "id": 879,
+      "word": "Draw away",
+      "ipa": "/drɔː əˈweɪ/",
+      "pos": "phrase",
+      "meaning": "দূরত্ব বাড়িয়ে দূরে সরে যাওয়া",
+      "synonyms": [
+        "pull away",
+        "move apart",
+        "distance oneself",
+        "withdraw"
+      ],
+      "antonyms": [
+        "approach",
+        "draw near",
+        "advance",
+        "close in"
+      ],
+      "raw_synonyms": "pull away, move apart, distance oneself, withdraw",
+      "raw_antonyms": "approach, draw near, advance, close in",
+      "sentence": "The luxury yacht began to draw away slowly from the crowded harbor as the voyage commenced.",
+      "sentence_meaning": "যাত্রা শুরুর সাথে সাথে বিলাসবহুল প্রমোদতরিটি ধীরে ধীরে জনাকীর্ণ বন্দর থেকে দূরে সরে যেতে লাগল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 32 (image (32).jpg) - Phrasal Verbs/Group Verbs"
+    },
+    {
+      "id": 880,
+      "word": "Draw back",
+      "ipa": "/drɔː bæk/",
+      "pos": "phrase",
+      "meaning": "পিছু হটা, ভয় বা আশঙ্কায় পিছিয়ে যাওয়া",
+      "synonyms": [
+        "retreat",
+        "recoil",
+        "withdraw",
+        "shrink back"
+      ],
+      "antonyms": [
+        "advance",
+        "proceed",
+        "forge ahead",
+        "step forward"
+      ],
+      "raw_synonyms": "retreat, recoil, withdraw, shrink back",
+      "raw_antonyms": "advance, proceed, forge ahead, step forward",
+      "sentence": "Sensing immense danger from the collapsing roof, the firefighters drew back to establish a safer perimeter.",
+      "sentence_meaning": "ছাদ ধসে পড়ার তীব্র বিপদের আভাস পেয়ে অগ্নিনির্বাপক কর্মীরা একটি নিরাপদ বলয় তৈরি করতে পিছু হটেছিল।",
+      "category": "Phrasal Verb",
+      "unit": "Image 32 (image (32).jpg) - Phrasal Verbs/Group Verbs"
+    }
+  ]
+}

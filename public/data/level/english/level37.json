@@ -1,0 +1,133 @@
+{
+  "level_id": 37,
+  "title": "Level 37: Appropriate Preposition",
+  "unit": "Image 6: Appropriate Prepositions",
+  "category": "Appropriate Preposition",
+  "items": [
+    {
+      "id": 181,
+      "word": "Angry with",
+      "ipa": "/ˈæŋɡri wɪð/",
+      "pos": "prep",
+      "meaning": "কোনো ব্যক্তির ওপর ক্রুদ্ধ বা রাগ হওয়া",
+      "synonyms": [
+        "furious with",
+        "enraged at",
+        "annoyed with",
+        "irritated with"
+      ],
+      "antonyms": [
+        "pleased with",
+        "calm with",
+        "delighted with",
+        "satisfied with"
+      ],
+      "raw_synonyms": "furious with, enraged at, annoyed with, irritated with",
+      "raw_antonyms": "pleased with, calm with, delighted with, satisfied with",
+      "sentence": "The professor was angry with the irresponsible student for submitting copied work.",
+      "sentence_meaning": "নকল করা অ্যাসাইনমেন্ট জমা দেওয়ার কারণে অধ্যাপক দায়িত্বহীন ছাত্রটির ওপর ক্রুদ্ধ হয়েছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 182,
+      "word": "Angry at",
+      "ipa": "/ˈæŋɡri æt/",
+      "pos": "prep",
+      "meaning": "কোনো ঘটনা বা আচরণের ওপর ক্রুদ্ধ হওয়া",
+      "synonyms": [
+        "indignant at",
+        "outraged at",
+        "annoyed by",
+        "infuriated by"
+      ],
+      "antonyms": [
+        "content with",
+        "pleased at",
+        "satisfied with",
+        "delighted by"
+      ],
+      "raw_synonyms": "indignant at, outraged at, annoyed by, infuriated by",
+      "raw_antonyms": "content with, pleased at, satisfied with, delighted by",
+      "sentence": "Commuters were furious and angry at the sudden, unexplained cancellation of train services.",
+      "sentence_meaning": "ট্রেন চলাচল হঠাৎ কোনো কারণ দর্শানো ছাড়া বাতিল হওয়ায় যাত্রীরা ক্ষুব্ধ ও ক্রুদ্ধ হয়েছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 183,
+      "word": "Anxious about",
+      "ipa": "/ˈæŋkʃəs əˈbaʊt/",
+      "pos": "prep",
+      "meaning": "কোনো বিষয় নিয়ে উদ্বিগ্ন বা চিন্তিত",
+      "synonyms": [
+        "worried about",
+        "concerned about",
+        "apprehensive about",
+        "nervous about"
+      ],
+      "antonyms": [
+        "unconcerned about",
+        "confident about",
+        "relaxed about",
+        "carefree about"
+      ],
+      "raw_synonyms": "worried about, concerned about, apprehensive about, nervous about",
+      "raw_antonyms": "unconcerned about, confident about, relaxed about, carefree about",
+      "sentence": "Parents are understandably anxious about their children's safety during stormy weather.",
+      "sentence_meaning": "ঝড়ো আবহাওয়ার সময় সন্তানদের নিরাপত্তা নিয়ে পিতা-মাতার উদ্বিগ্ন হওয়াটাই স্বাভাবিক।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 184,
+      "word": "Anxious for",
+      "ipa": "/ˈæŋkʃəs fɔːr/",
+      "pos": "prep",
+      "meaning": "কোনো কিছু অর্জনের জন্য ব্যাকুল বা ব্যগ্র",
+      "synonyms": [
+        "eager for",
+        "keen for",
+        "yearning for",
+        "desirous of"
+      ],
+      "antonyms": [
+        "indifferent to",
+        "uninterested in",
+        "apathetic about",
+        "unconcerned with"
+      ],
+      "raw_synonyms": "eager for, keen for, yearning for, desirous of",
+      "raw_antonyms": "indifferent to, uninterested in, apathetic about, unconcerned with",
+      "sentence": "Graduating seniors were anxious for favorable career placement results after interviews.",
+      "sentence_meaning": "স্নাতক উত্তীর্ণ শিক্ষার্থীরা ভাইভার পর তাদের অনুকূল কর্মসংস্থানের ফলাফলের জন্য ব্যাকুল ছিল।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    },
+    {
+      "id": 185,
+      "word": "Arrive at",
+      "ipa": "/əˈraɪv æt/",
+      "pos": "prep",
+      "meaning": "ছোট স্থানে পৌঁছানো বা কোনো সিদ্ধান্তে উপনীত হওয়া",
+      "synonyms": [
+        "reach",
+        "attain",
+        "come to",
+        "get to"
+      ],
+      "antonyms": [
+        "depart from",
+        "leave",
+        "vacate",
+        "withdraw from"
+      ],
+      "raw_synonyms": "reach, attain, come to, get to",
+      "raw_antonyms": "depart from, leave, vacate, withdraw from",
+      "sentence": "After lengthy discussions, the arbitration committee managed to arrive at a consensus.",
+      "sentence_meaning": "দীর্ঘ আলোচনার পর সালিশি কমিটি একটি সর্বসম্মত সিদ্ধান্তে পৌঁছাতে পেরেছিল।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 6: Appropriate Prepositions"
+    }
+  ]
+}

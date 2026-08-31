@@ -1,0 +1,133 @@
+{
+  "level_id": 134,
+  "title": "Level 134: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 666,
+      "word": "Repugnance",
+      "ipa": "/rɪˈpʌɡnəns/",
+      "pos": "n",
+      "meaning": "তীব্র ঘৃণা, বিতৃষ্ণা, বিরক্তি",
+      "synonyms": [
+        "revulsion",
+        "disgust",
+        "abhorrence",
+        "aversion"
+      ],
+      "antonyms": [
+        "attraction",
+        "affection",
+        "fondness",
+        "liking"
+      ],
+      "raw_synonyms": "revulsion, disgust, abhorrence, aversion",
+      "raw_antonyms": "attraction, affection, fondness, liking",
+      "sentence": "She felt deep repugnance toward any form of cruelty or injustice.",
+      "sentence_meaning": "যেকোনো ধরনের নিষ্ঠুরতা বা অন্যায়ের প্রতি তিনি গভীর ঘৃণা ও বিতৃষ্ণা অনুভব করতেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 667,
+      "word": "Nonchalance",
+      "ipa": "/ˌnɑːnʃəˈlɑːns/",
+      "pos": "n",
+      "meaning": "উদাসীনতা, নির্লিপ্ততা, শান্ত ভাবলেশহীনতা",
+      "synonyms": [
+        "indifference",
+        "unconcern",
+        "calmness",
+        "detachment"
+      ],
+      "antonyms": [
+        "anxiety",
+        "concern",
+        "enthusiasm",
+        "agitation"
+      ],
+      "raw_synonyms": "indifference, unconcern, calmness, detachment",
+      "raw_antonyms": "anxiety, concern, enthusiasm, agitation",
+      "sentence": "Despite facing tough interrogation, the diplomat maintained an air of calm nonchalance.",
+      "sentence_meaning": "কঠোর জিজ্ঞাসাবাদের মুখোমুখি হওয়া সত্ত্বেও কূটনীতিক শান্ত উদাসীনতা ও নির্লিপ্ততা বজায় রেখেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 668,
+      "word": "Audacious",
+      "ipa": "/ɔːˈdeɪʃəs/",
+      "pos": "adj",
+      "meaning": "দুঃসাহসী, নির্ভীক, অতিমাত্রায় স্পর্ধাপূর্ণ",
+      "synonyms": [
+        "daring",
+        "intrepid",
+        "bold",
+        "brazen"
+      ],
+      "antonyms": [
+        "timid",
+        "cautious",
+        "meek",
+        "fearful"
+      ],
+      "raw_synonyms": "daring, intrepid, bold, brazen",
+      "raw_antonyms": "timid, cautious, meek, fearful",
+      "sentence": "The young entrepreneur launched an audacious business venture during the economic downturn.",
+      "sentence_meaning": "তরুণ উদ্যোক্তা অর্থনৈতিক মন্দার মধ্যেই একটি দুঃসাহসী ব্যবসায়িক উদ্যোগ শুরু করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 669,
+      "word": "Repudiate",
+      "ipa": "/rɪˈpjuːdieɪt/",
+      "pos": "v",
+      "meaning": "প্রত্যাখ্যান করা, অস্বীকার করা, অস্বীকার করে ত্যাগ করা",
+      "synonyms": [
+        "reject",
+        "disown",
+        "renounce",
+        "refute"
+      ],
+      "antonyms": [
+        "embrace",
+        "accept",
+        "acknowledge",
+        "endorse"
+      ],
+      "raw_synonyms": "reject, disown, renounce, refute",
+      "raw_antonyms": "embrace, accept, acknowledge, endorse",
+      "sentence": "The government issued a statement to officially repudiate the false allegations made by the foreign ministry.",
+      "sentence_meaning": "বিদেশ মন্ত্রণালয়ের করা মিথ্যা অভিযোগ আনুষ্ঠানিকভাবে প্রত্যাখ্যান করতে সরকার একটি বিবৃতি জারি করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 670,
+      "word": "Adroit",
+      "ipa": "/əˈdrɔɪt/",
+      "pos": "adj",
+      "meaning": "দক্ষ, চতুর, পারদর্শী, কৌশলী",
+      "synonyms": [
+        "skillful",
+        "dexterous",
+        "clever",
+        "adept"
+      ],
+      "antonyms": [
+        "clumsy",
+        "awkward",
+        "maladroit",
+        "inept"
+      ],
+      "raw_synonyms": "skillful, dexterous, clever, adept",
+      "raw_antonyms": "clumsy, awkward, maladroit, inept",
+      "sentence": "Thanks to his adroit negotiation skills, the dispute was resolved amicably without legal action.",
+      "sentence_meaning": "তাঁর দক্ষ ও কৌশলী আলোচনার দক্ষতার কারণে কোনো আইনি পদক্ষেপ ছাড়াই বিরোধটি সৌহার্দ্যপূর্ণভাবে নিষ্পত্তি হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

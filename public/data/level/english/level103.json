@@ -1,0 +1,133 @@
+{
+  "level_id": 103,
+  "title": "Level 103: Idiom",
+  "unit": "Idioms & Phrases Table",
+  "category": "Idiom",
+  "items": [
+    {
+      "id": 511,
+      "word": "Bottom line",
+      "ipa": "/ˈbɒt.əm laɪn/",
+      "pos": "phrase",
+      "meaning": "মূল কথা, সারমর্ম, চূড়ান্ত ফলাফল বা লাভ-ক্ষতি",
+      "synonyms": [
+        "crux",
+        "core issue",
+        "essential point",
+        "net result"
+      ],
+      "antonyms": [
+        "triviality",
+        "minor detail",
+        "side issue",
+        "preamble"
+      ],
+      "raw_synonyms": "crux, core issue, essential point, net result",
+      "raw_antonyms": "triviality, minor detail, side issue, preamble",
+      "sentence": "The bottom line is that the company must cut unnecessary costs to survive this fiscal year.",
+      "sentence_meaning": "মূল কথা হলো চলতি অর্থবছর টিকে থাকার জন্য কোম্পানিকে অপ্রয়োজনীয় খরচ কমাতে হবে।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 512,
+      "word": "Brainchild",
+      "ipa": "/ˈbreɪn.tʃaɪld/",
+      "pos": "n",
+      "meaning": "কারো নিজস্ব সৃষ্টি, মৌলিক উদ্ভাবন বা উদ্ভাবনী পরিকল্পনা",
+      "synonyms": [
+        "invention",
+        "creation",
+        "innovation",
+        "concept"
+      ],
+      "antonyms": [
+        "imitation",
+        "copy",
+        "replica",
+        "plagiarism"
+      ],
+      "raw_synonyms": "invention, creation, innovation, concept",
+      "raw_antonyms": "imitation, copy, replica, plagiarism",
+      "sentence": "The revolutionary mobile app was the brainchild of two young university software engineers.",
+      "sentence_meaning": "বিপ্লবী মোবাইল অ্যাপ্লিকেশনটি ছিল বিশ্ববিদ্যালয়ের দুজন তরুণ সফটওয়্যার প্রকৌশলীর মৌলিক সৃষ্টি।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 513,
+      "word": "Beat black and blue",
+      "ipa": "/biːt blæk ænd bluː/",
+      "pos": "phrase",
+      "meaning": "বেদম প্রহার করা, ক্ষতবিক্ষত ও নীলবর্ণ করা",
+      "synonyms": [
+        "batter",
+        "thrash",
+        "pummel",
+        "assault severely"
+      ],
+      "antonyms": [
+        "protect",
+        "caress",
+        "comfort",
+        "shelter"
+      ],
+      "raw_synonyms": "batter, thrash, pummel, assault severely",
+      "raw_antonyms": "protect, caress, comfort, shelter",
+      "sentence": "The angry mob caught the fleeing robber and beat him black and blue before the police arrived.",
+      "sentence_meaning": "পুলিশ পৌঁছানোর আগেই উত্তেজিত জনতা পলায়নরত ডাকাতটিকে ধরে বেদম প্রহার করেছিল।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 514,
+      "word": "Below the belt",
+      "ipa": "/bɪˈloʊ ðə bɛlt/",
+      "pos": "phrase",
+      "meaning": "অন্যায়, নিষ্ঠুর ও শিষ্টাচারবহির্ভূত আচরণ বা আঘাত",
+      "synonyms": [
+        "unfair",
+        "unjust",
+        "unsporting",
+        "underhanded"
+      ],
+      "antonyms": [
+        "fair",
+        "just",
+        "equitable",
+        "aboveboard"
+      ],
+      "raw_synonyms": "unfair, unjust, unsporting, underhanded",
+      "raw_antonyms": "fair, just, equitable, aboveboard",
+      "sentence": "Mocking his opponent's private family troubles during the formal debate was clearly below the belt.",
+      "sentence_meaning": "আনুষ্ঠানিক বিতর্কের সময় প্রতিপক্ষের ব্যক্তিগত পারিবারিক সমস্যা নিয়ে উপহাস করা স্পষ্টতই অন্যায় ও শিষ্টাচারবহির্ভূত ছিল।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    },
+    {
+      "id": 515,
+      "word": "Below the poverty line",
+      "ipa": "/bɪˈloʊ ðə ˈpɒv.ə.ti laɪn/",
+      "pos": "phrase",
+      "meaning": "দারিদ্র্যসীমার নিচে, চরম দারিদ্র্যপীড়িত",
+      "synonyms": [
+        "impoverished",
+        "destitute",
+        "indigent",
+        "penniless"
+      ],
+      "antonyms": [
+        "affluent",
+        "wealthy",
+        "prosperous",
+        "well-off"
+      ],
+      "raw_synonyms": "impoverished, destitute, indigent, penniless",
+      "raw_antonyms": "affluent, wealthy, prosperous, well-off",
+      "sentence": "Targeted government relief programs aim to assist millions of families currently living below the poverty line.",
+      "sentence_meaning": "লক্ষ্যভিত্তিক সরকারি ত্রাণ কর্মসূচিগুলোর উদ্দেশ্য হলো দারিদ্র্যসীমার নিচে বসবাসকারী লাখ লাখ পরিবারকে সহায়তা করা।",
+      "category": "Idiom",
+      "unit": "Idioms & Phrases Table"
+    }
+  ]
+}

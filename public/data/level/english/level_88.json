@@ -1,0 +1,132 @@
+{
+  "level_id": 88,
+  "title": "Level 88: Vocabulary",
+  "unit": "Memorizing Part",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 436,
+      "word": "Analogous",
+      "ipa": "/əˈnæləɡəs/",
+      "pos": "adj",
+      "meaning": "অনুরূপ, সদৃশ, তুলনীয়",
+      "synonyms": [
+        "comparable",
+        "similar",
+        "parallel",
+        "equivalent"
+      ],
+      "antonyms": [
+        "different",
+        "dissimilar",
+        "divergent",
+        "opposite"
+      ],
+      "raw_synonyms": "comparable, similar, parallel, equivalent",
+      "raw_antonyms": "different, dissimilar, divergent, opposite",
+      "sentence": "The functioning of a computer's central processor is analogous to that of the human brain.",
+      "sentence_meaning": "একটি কম্পিউটারের কেন্দ্রীয় প্রসেসরের কার্যপদ্ধতি মানুষের মস্তিষ্কের কার্যপদ্ধতির অনুরূপ।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 437,
+      "word": "Anecdote",
+      "ipa": "/ˈænɪkdoʊt/",
+      "pos": "n",
+      "meaning": "রসরঙ্গপূর্ণ ছোট গল্প, বাস্তব অভিজ্ঞতাভিত্তিক সংক্ষিপ্ত বিবরণ",
+      "synonyms": [
+        "tale",
+        "narrative",
+        "story",
+        "yarn"
+      ],
+      "antonyms": [
+        "fact",
+        "statistic",
+        "empirical data"
+      ],
+      "raw_synonyms": "tale, narrative, story, yarn",
+      "raw_antonyms": "fact, statistic, empirical data",
+      "sentence": "The guest speaker enlivened the lecture by sharing an amusing personal anecdote.",
+      "sentence_meaning": "আমন্ত্রিত বক্তা একটি মজাদার ব্যক্তিগত বাস্তব অভিজ্ঞতার গল্প শেয়ার করে বক্তৃতাটি প্রাণবন্ত করে তুলেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 438,
+      "word": "Animosity",
+      "ipa": "/ˌænɪˈmɑːsəti/",
+      "pos": "n",
+      "meaning": "শত্রুতা, চরম বিদ্বেষ",
+      "synonyms": [
+        "hostility",
+        "enmity",
+        "antagonism",
+        "rancor"
+      ],
+      "antonyms": [
+        "goodwill",
+        "friendship",
+        "amity",
+        "affection"
+      ],
+      "raw_synonyms": "hostility, enmity, antagonism, rancor",
+      "raw_antonyms": "goodwill, friendship, amity, affection",
+      "sentence": "Despite years of bitter animosity, the two rival factions eventually agreed to sign a peace pact.",
+      "sentence_meaning": "বছরের পর বছর তিক্ত শত্রুতা থাকা সত্ত্বেও, দুটি প্রতিদ্বন্দ্বী দল অবশেষে একটি শান্তি চুক্তি স্বাক্ষর করতে সম্মত হয়।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 439,
+      "word": "Annihilate",
+      "ipa": "/əˈnaɪəleɪt/",
+      "pos": "v",
+      "meaning": "সম্পূর্ণরূপে ধ্বংস করা, নিশ্চিহ্ন করা",
+      "synonyms": [
+        "destroy",
+        "obliterate",
+        "demolish",
+        "eradicate"
+      ],
+      "antonyms": [
+        "create",
+        "build",
+        "preserve",
+        "construct"
+      ],
+      "raw_synonyms": "destroy, obliterate, demolish, eradicate",
+      "raw_antonyms": "create, build, preserve, construct",
+      "sentence": "The devastating atomic blast had the catastrophic power to annihilate entire cities in seconds.",
+      "sentence_meaning": "বিধ্বংসী পারমাণবিক বিস্ফোরণের কয়েক সেকেন্ডের মধ্যে সমগ্র শহরকে নিশ্চিহ্ন করে দেওয়ার মতো ভয়াবহ ক্ষমতা ছিল।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    },
+    {
+      "id": 440,
+      "word": "Autocratic",
+      "ipa": "/ˌɔːtəˈkrætɪk/",
+      "pos": "adj",
+      "meaning": "স্বৈরাচারী, একনায়কতান্ত্রিক",
+      "synonyms": [
+        "dictatorial",
+        "authoritarian",
+        "tyrannical",
+        "despotic"
+      ],
+      "antonyms": [
+        "democratic",
+        "liberal",
+        "republican",
+        "egalitarian"
+      ],
+      "raw_synonyms": "dictatorial, authoritarian, tyrannical, despotic",
+      "raw_antonyms": "democratic, liberal, republican, egalitarian",
+      "sentence": "The citizens protested courageously against the ruler's autocratic decisions and suppression of civil liberties.",
+      "sentence_meaning": "নাগরিকরা শাসকের স্বৈরাচারী সিদ্ধান্ত এবং নাগরিক স্বাধীনতা দমনের বিরুদ্ধে সাহসের সাথে প্রতিবাদ জানিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Memorizing Part"
+    }
+  ]
+}

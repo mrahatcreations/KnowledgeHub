@@ -192,7 +192,7 @@ export function useGameState(options = {}) {
       }
     } catch (e) {}
 
-    const GITHUB_LEVELS_URL = 'https://raw.githubusercontent.com/mrahatcreations/VocabMaster/main/public/data/levels.json';
+    const GITHUB_LEVELS_URL = 'https://raw.githubusercontent.com/mrahatcreations/KnowledgeHub/main/public/data/levels.json';
 
     try {
       // 2. Fetch latest data from GitHub Cloud CDN

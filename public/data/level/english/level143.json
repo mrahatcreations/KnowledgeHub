@@ -1,0 +1,133 @@
+{
+  "level_id": 143,
+  "title": "Level 143: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 711,
+      "word": "Quiescent",
+      "ipa": "/kwiˈesnt/",
+      "pos": "adj",
+      "meaning": "স্থির, নিষ্ক্রিয়, শান্ত, সুপ্ত",
+      "synonyms": [
+        "dormant",
+        "inactive",
+        "latent",
+        "passive"
+      ],
+      "antonyms": [
+        "active",
+        "turbulent",
+        "restless",
+        "dynamic"
+      ],
+      "raw_synonyms": "dormant, inactive, latent, passive",
+      "raw_antonyms": "active, turbulent, restless, dynamic",
+      "sentence": "The volcano had remained quiescent for over two centuries before suddenly erupting with tremendous force.",
+      "sentence_meaning": "আগ্নেয়গিরিটি প্রচণ্ড শক্তিতে হঠাৎ বিস্ফোরিত হওয়ার আগে দুই শতাব্দীরও বেশি সময় ধরে নিষ্ক্রিয় ছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 712,
+      "word": "Momentous",
+      "ipa": "/moʊˈmentəs/",
+      "pos": "adj",
+      "meaning": "অত্যন্ত গুরুত্বপূর্ণ, তাৎপর্যপূর্ণ, যুগান্তকারী",
+      "synonyms": [
+        "historic",
+        "significant",
+        "consequential",
+        "crucial"
+      ],
+      "antonyms": [
+        "trivial",
+        "insignificant",
+        "minor",
+        "negligible"
+      ],
+      "raw_synonyms": "historic, significant, consequential, crucial",
+      "raw_antonyms": "trivial, insignificant, minor, negligible",
+      "sentence": "The signing of the historic peace accord was a momentous milestone in international diplomacy.",
+      "sentence_meaning": "ঐতিহাসিক শান্তি চুক্তি স্বাক্ষর আন্তর্জাতিক কূটনীতিতে একটি অত্যন্ত তাৎপর্যপূর্ণ মাইলফলক ছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 713,
+      "word": "Nebulous",
+      "ipa": "/ˈnebjələs/",
+      "pos": "adj",
+      "meaning": "অস্পষ্ট, কুয়াশাচ্ছন্ন, অনির্দিষ্ট",
+      "synonyms": [
+        "vague",
+        "hazy",
+        "ambiguous",
+        "indistinct"
+      ],
+      "antonyms": [
+        "clear",
+        "precise",
+        "distinct",
+        "well-defined"
+      ],
+      "raw_synonyms": "vague, hazy, ambiguous, indistinct",
+      "raw_antonyms": "clear, precise, distinct, well-defined",
+      "sentence": "The startup had ambitious aspirations, but its long-term business model remained vague and nebulous.",
+      "sentence_meaning": "স্টার্টআপটির উচ্চাকাঙ্ক্ষী লক্ষ্য ছিল, কিন্তু তাদের দীর্ঘমেয়াদী ব্যবসায়িক মডেলটি অস্পষ্ট এবং অনির্দিষ্ট রয়ে গিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 714,
+      "word": "Obsolete",
+      "ipa": "/ˌɑːbsəˈliːt/",
+      "pos": "adj",
+      "meaning": "অপ্রচলিত, সেকেলে, বিলুপ্তপ্রায়",
+      "synonyms": [
+        "outdated",
+        "archaic",
+        "antiquated",
+        "superseded"
+      ],
+      "antonyms": [
+        "modern",
+        "current",
+        "contemporary",
+        "novel"
+      ],
+      "raw_synonyms": "outdated, archaic, antiquated, superseded",
+      "raw_antonyms": "modern, current, contemporary, novel",
+      "sentence": "Floppy disks and cassette tapes have become completely obsolete in today's digital era.",
+      "sentence_meaning": "আজকের ডিজিটাল যুগে ফ্লপি ডিস্ক এবং ক্যাসেট টেপ সম্পূর্ণ অপ্রচলিত হয়ে পড়েছে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 715,
+      "word": "Pragmatic",
+      "ipa": "/præɡˈmætɪk/",
+      "pos": "adj",
+      "meaning": "বাস্তববাদী, বাস্তবধর্মী, প্রয়োগিক",
+      "synonyms": [
+        "practical",
+        "realistic",
+        "utilitarian",
+        "sensible"
+      ],
+      "antonyms": [
+        "idealistic",
+        "impractical",
+        "theoretical",
+        "visionary"
+      ],
+      "raw_synonyms": "practical, realistic, utilitarian, sensible",
+      "raw_antonyms": "idealistic, impractical, theoretical, visionary",
+      "sentence": "The diplomat adopted a pragmatic negotiation stance to forge consensus among conflicting nations.",
+      "sentence_meaning": "দ্বন্দ্বপূর্ণ দেশগুলোর মধ্যে ঐকমত্য গড়ে তোলার জন্য কূটনীতিক একটি বাস্তববাদী আলোচনার দৃষ্টিভঙ্গি গ্রহণ করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

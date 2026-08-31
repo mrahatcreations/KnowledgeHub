@@ -1,0 +1,133 @@
+{
+  "level_id": 185,
+  "title": "Level 185: Appropriate Preposition",
+  "unit": "Image 34 (image (34).jpg) - Appropriate Preposition",
+  "category": "Appropriate Preposition",
+  "items": [
+    {
+      "id": 921,
+      "word": "Averse to",
+      "ipa": "/əˈvɜːrs tuː/",
+      "pos": "phrase",
+      "meaning": "বিমুখ, অনিচ্ছুক, প্রতিকূল",
+      "synonyms": [
+        "opposed to",
+        "reluctant to",
+        "disinclined to",
+        "hostile to"
+      ],
+      "antonyms": [
+        "inclined to",
+        "favorable to",
+        "keen on",
+        "fond of"
+      ],
+      "raw_synonyms": "opposed to, reluctant to, disinclined to, hostile to",
+      "raw_antonyms": "inclined to, favorable to, keen on, fond of",
+      "sentence": "Conservative investors are generally averse to risking their capital in speculative crypto assets.",
+      "sentence_meaning": "রক্ষণশীল বিনিয়োগকারীরা সাধারণত অনুমানভিত্তিক ক্রিপ্টো সম্পদে তাদের মূলধন ঝুঁকিতে ফেলতে অনিচ্ছুক থাকেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 34 (image (34).jpg) - Appropriate Preposition"
+    },
+    {
+      "id": 922,
+      "word": "Awaken to / from",
+      "ipa": "/əˈweɪkən tuː, frəm/",
+      "pos": "phrase",
+      "meaning": "জাগ্রত হওয়া, সচেতন হওয়া (to) / কোনো অবস্থা থেকে জেগে ওঠা (from)",
+      "synonyms": [
+        "rouse to",
+        "realize",
+        "become aware of",
+        "alert to"
+      ],
+      "antonyms": [
+        "sleep through",
+        "ignore",
+        "neglect",
+        "remain blind to"
+      ],
+      "raw_synonyms": "rouse to, realize, become aware of, alert to",
+      "raw_antonyms": "sleep through, ignore, neglect, remain blind to",
+      "sentence": "The international community must awaken to the dire global consequences of rapid deforestation.",
+      "sentence_meaning": "দ্রুত বন উজাড়ের ভয়াবহ বৈশ্বিক পরিণতি সম্পর্কে আন্তর্জাতিক সম্প্রদায়কে অবশ্যই সচেতন হতে হবে।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 34 (image (34).jpg) - Appropriate Preposition"
+    },
+    {
+      "id": 923,
+      "word": "Access to",
+      "ipa": "/ˈækses tuː/",
+      "pos": "phrase",
+      "meaning": "প্রবেশের অধিকার, নাগাল পাওয়া",
+      "synonyms": [
+        "admission to",
+        "entry to",
+        "pathway to",
+        "approach to"
+      ],
+      "antonyms": [
+        "bar from",
+        "denial of",
+        "exclusion from",
+        "obstruction to"
+      ],
+      "raw_synonyms": "admission to, entry to, pathway to, approach to",
+      "raw_antonyms": "bar from, denial of, exclusion from, obstruction to",
+      "sentence": "Rural citizens deserve equal access to modern healthcare and quality primary education.",
+      "sentence_meaning": "গ্রামীণ নাগরিকরা আধুনিক স্বাস্থ্যসেবা এবং মানসম্মত প্রাথমিক শিক্ষার সমান সুযোগ পাওয়ার অধিকার রাখেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 35 (image (35).jpg) - Super Preposition Technique-3"
+    },
+    {
+      "id": 924,
+      "word": "Accustomed to",
+      "ipa": "/əˈkʌstəmd tuː/",
+      "pos": "phrase",
+      "meaning": "অভ্যস্ত",
+      "synonyms": [
+        "used to",
+        "habituated to",
+        "familiar with",
+        "adapted to"
+      ],
+      "antonyms": [
+        "unaccustomed to",
+        "unfamiliar with",
+        "unused to",
+        "inexperienced in"
+      ],
+      "raw_synonyms": "used to, habituated to, familiar with, adapted to",
+      "raw_antonyms": "unaccustomed to, unfamiliar with, unused to, inexperienced in",
+      "sentence": "Being a seasoned mountaineer, he was well accustomed to freezing sub-zero temperatures.",
+      "sentence_meaning": "একজন অভিজ্ঞ পর্বতারোহী হিসেবে তিনি হিমাঙ্কের নিচের বরফশীতল তাপমাত্রায় বেশ অভ্যস্ত ছিলেন।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 35 (image (35).jpg) - Super Preposition Technique-3"
+    },
+    {
+      "id": 925,
+      "word": "Adapt to",
+      "ipa": "/əˈdæpt tuː/",
+      "pos": "phrase",
+      "meaning": "খাপ খাইয়ে নেওয়া, মানিয়ে চলা",
+      "synonyms": [
+        "adjust to",
+        "acclimate to",
+        "conform to",
+        "accommodate to"
+      ],
+      "antonyms": [
+        "resist",
+        "clash with",
+        "reject",
+        "refuse"
+      ],
+      "raw_synonyms": "adjust to, acclimate to, conform to, accommodate to",
+      "raw_antonyms": "resist, clash with, reject, refuse",
+      "sentence": "Species must adapt to changing climatic environments in order to survive extinction.",
+      "sentence_meaning": "বিলুপ্তি থেকে বাঁচতে প্রজাতিগুলোকে অবশ্যই পরিবর্তনশীল জলবায়ু পরিবেশের সাথে খাপ খাইয়ে নিতে হবে।",
+      "category": "Appropriate Preposition",
+      "unit": "Image 35 (image (35).jpg) - Super Preposition Technique-3"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "level_id": 199,
+  "title": "Level 199: Vocabulary",
+  "unit": "Super Vocabulary Technique: Ben (Good)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 991,
+      "word": "Benediction",
+      "ipa": "/ˌbenɪˈdɪkʃn/",
+      "pos": "n",
+      "meaning": "আশীর্বাদ, আশীর্বাণী, মঙ্গলকামনা",
+      "synonyms": [
+        "blessing",
+        "boon",
+        "invocation",
+        "benison"
+      ],
+      "antonyms": [
+        "curse",
+        "malediction",
+        "execration",
+        "anathema"
+      ],
+      "raw_synonyms": "blessing, boon, invocation, benison",
+      "raw_antonyms": "curse, malediction, execration, anathema",
+      "sentence": "The venerable priest raised his hands to bestow a solemn benediction upon the newly wedded couple.",
+      "sentence_meaning": "শ্রদ্ধেয় পুরোহিত নবদম্পতির ওপর পবিত্র আশীর্বাদ বর্ষণ করতে হাত তুলেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Super Vocabulary Technique: Ben (Good)"
+    },
+    {
+      "id": 992,
+      "word": "Bonus",
+      "ipa": "/ˈboʊnəs/",
+      "pos": "n",
+      "meaning": "বোনাস, অতিরিক্ত পারিতোষিক",
+      "synonyms": [
+        "reward",
+        "premium",
+        "dividend",
+        "incentive"
+      ],
+      "antonyms": [
+        "penalty",
+        "fine",
+        "deduction",
+        "forfeit"
+      ],
+      "raw_synonyms": "reward, premium, dividend, incentive",
+      "raw_antonyms": "penalty, fine, deduction, forfeit",
+      "sentence": "High-performing sales executives received an attractive year-end cash bonus for exceeding annual targets.",
+      "sentence_meaning": "বার্ষিক লক্ষ্যমাত্রা অতিক্রম করার জন্য উচ্চ-কার্যক্ষমতাসম্পন্ন বিক্রয় নির্বাহীরা বছরের শেষে একটি আকর্ষণীয় নগদ বোনাস পেয়েছেন।",
+      "category": "Vocabulary",
+      "unit": "Super Vocabulary Technique: Ben (Good)"
+    },
+    {
+      "id": 993,
+      "word": "Bonny",
+      "ipa": "/ˈbɑːni/",
+      "pos": "adj",
+      "meaning": "সুন্দর, লাবণ্যময়, সুশ্রী",
+      "synonyms": [
+        "pretty",
+        "comely",
+        "attractive",
+        "charming"
+      ],
+      "antonyms": [
+        "ugly",
+        "plain",
+        "unattractive",
+        "repulsive"
+      ],
+      "raw_synonyms": "pretty, comely, attractive, charming",
+      "raw_antonyms": "ugly, plain, unattractive, repulsive",
+      "sentence": "Scottish folk songs often celebrate the bonny landscape and scenic beauty of the northern highlands.",
+      "sentence_meaning": "স্কটিশ লোকগান প্রায়শই উত্তর পার্বত্য অঞ্চলের সুন্দর প্রাকৃতিক দৃশ্য এবং নয়নাভিরাম সৌন্দর্যের গুণগান করে।",
+      "category": "Vocabulary",
+      "unit": "Super Vocabulary Technique: Ben (Good)"
+    },
+    {
+      "id": 994,
+      "word": "Bonafide",
+      "ipa": "/ˌboʊnə ˈfaɪdi/",
+      "pos": "adj",
+      "meaning": "খাঁটি, অকপট, আসল, প্রকৃত",
+      "synonyms": [
+        "genuine",
+        "authentic",
+        "legitimate",
+        "real"
+      ],
+      "antonyms": [
+        "fake",
+        "counterfeit",
+        "fraudulent",
+        "bogus"
+      ],
+      "raw_synonyms": "genuine, authentic, legitimate, real",
+      "raw_antonyms": "fake, counterfeit, fraudulent, bogus",
+      "sentence": "Applicants must present bonafide academic certificates before they can register for the competitive exam.",
+      "sentence_meaning": "প্রতিযোগিতামূলক পরীক্ষার জন্য নিবন্ধন করার আগে আবেদনকারীদের অবশ্যই আসল শিক্ষাগত সনদপত্র জমা দিতে হবে।",
+      "category": "Vocabulary",
+      "unit": "Super Vocabulary Technique: Ben (Good)"
+    },
+    {
+      "id": 995,
+      "word": "Bounty",
+      "ipa": "/ˈbaʊnti/",
+      "pos": "n",
+      "meaning": "প্রাচুর্য, বদান্যতা, পুরস্কার",
+      "synonyms": [
+        "generosity",
+        "abundance",
+        "reward",
+        "premium"
+      ],
+      "antonyms": [
+        "scarcity",
+        "dearth",
+        "meagerness",
+        "penalty"
+      ],
+      "raw_synonyms": "generosity, abundance, reward, premium",
+      "raw_antonyms": "scarcity, dearth, meagerness, penalty",
+      "sentence": "The local autumn farmers market was filled with nature's rich bounty of fresh fruits and vegetables.",
+      "sentence_meaning": "স্থানীয় শরতের কৃষকদের বাজারটি তাজা ফলমূল ও শাকসবজির প্রাকৃতিক প্রাচুর্যে ভরপুর ছিল।",
+      "category": "Vocabulary",
+      "unit": "Super Vocabulary Technique: Ben (Good)"
+    }
+  ]
+}

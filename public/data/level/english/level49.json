@@ -1,0 +1,133 @@
+{
+  "level_id": 49,
+  "title": "Level 49: Word Transformation",
+  "unit": "Image 8 (image (8).jpg) - Transformation of Word",
+  "category": "Word Transformation",
+  "items": [
+    {
+      "id": 241,
+      "word": "Appreciation",
+      "ipa": "/əˌpriːʃiˈeɪʃn/",
+      "pos": "n",
+      "meaning": "মূল্যায়ন, কৃতজ্ঞতা প্রকাশ",
+      "synonyms": [
+        "gratitude",
+        "recognition",
+        "acknowledgment",
+        "admiration"
+      ],
+      "antonyms": [
+        "depreciation",
+        "disparagement",
+        "ingratitude",
+        "criticism"
+      ],
+      "raw_synonyms": "gratitude, recognition, acknowledgment, admiration",
+      "raw_antonyms": "depreciation, disparagement, ingratitude, criticism",
+      "sentence": "The community presented an award in sincere appreciation of her philanthropic work.",
+      "sentence_meaning": "তাঁর মানবহিতৈষী কাজের আন্তরিক প্রশংসাস্বরূপ সমাজ তাঁকে একটি পুরস্কার প্রদান করেছে।",
+      "category": "Word Transformation",
+      "unit": "Image 8 (image (8).jpg) - Transformation of Word"
+    },
+    {
+      "id": 242,
+      "word": "Attention",
+      "ipa": "/əˈtenʃn/",
+      "pos": "n",
+      "meaning": "মনোযোগ, একাগ্রতা",
+      "synonyms": [
+        "focus",
+        "concentration",
+        "alertness",
+        "mindfulness"
+      ],
+      "antonyms": [
+        "inattention",
+        "distraction",
+        "neglect",
+        "carelessness"
+      ],
+      "raw_synonyms": "focus, concentration, alertness, mindfulness",
+      "raw_antonyms": "inattention, distraction, neglect, carelessness",
+      "sentence": "The speaker commanded the undivided attention of the entire audience with her speech.",
+      "sentence_meaning": "বক্তা তাঁর বক্তৃতার মাধ্যমে সমগ্র শ্রোতাদের অবিভক্ত মনোযোগ আকর্ষণ করেছিলেন।",
+      "category": "Word Transformation",
+      "unit": "Image 8 (image (8).jpg) - Transformation of Word"
+    },
+    {
+      "id": 243,
+      "word": "Availability",
+      "ipa": "/əˌveɪləˈbɪləti/",
+      "pos": "n",
+      "meaning": "প্রাপ্যতা, সহজলভ্যতা",
+      "synonyms": [
+        "accessibility",
+        "readiness",
+        "obtainability",
+        "presence"
+      ],
+      "antonyms": [
+        "scarcity",
+        "unavailability",
+        "absence",
+        "shortage"
+      ],
+      "raw_synonyms": "accessibility, readiness, obtainability, presence",
+      "raw_antonyms": "scarcity, unavailability, absence, shortage",
+      "sentence": "The widespread availability of clean drinking water has reduced waterborne diseases drastically.",
+      "sentence_meaning": "বিশুদ্ধ পানীয় জলের সহজলভ্যতা পানিবাহিত রোগকে ব্যাপকভাবে হ্রাস করেছে।",
+      "category": "Word Transformation",
+      "unit": "Image 8 (image (8).jpg) - Transformation of Word"
+    },
+    {
+      "id": 244,
+      "word": "Awe",
+      "ipa": "/ɔː/",
+      "pos": "n",
+      "meaning": "শ্রদ্ধামিশ্রিত ভয়, সম্ভ্রম বা বিস্ময়",
+      "synonyms": [
+        "wonder",
+        "reverence",
+        "amazement",
+        "veneration"
+      ],
+      "antonyms": [
+        "contempt",
+        "scorn",
+        "disregard",
+        "indifference"
+      ],
+      "raw_synonyms": "wonder, reverence, amazement, veneration",
+      "raw_antonyms": "contempt, scorn, disregard, indifference",
+      "sentence": "Tourists stood in silent awe as the majestic northern lights illuminated the night sky.",
+      "sentence_meaning": "মনোরম মেরুজ্যোতি রাতের আকাশকে আলোকিত করার সাথে সাথে পর্যটকরা নীরব বিস্ময়ে দাঁড়িয়ে রইলেন।",
+      "category": "Word Transformation",
+      "unit": "Image 8 (image (8).jpg) - Transformation of Word"
+    },
+    {
+      "id": 245,
+      "word": "Base",
+      "ipa": "/beɪs/",
+      "pos": "n",
+      "meaning": "ভিত্তি, বুনিয়াদ",
+      "synonyms": [
+        "foundation",
+        "basis",
+        "bedrock",
+        "underpinning"
+      ],
+      "antonyms": [
+        "top",
+        "apex",
+        "pinnacle",
+        "summit"
+      ],
+      "raw_synonyms": "foundation, basis, bedrock, underpinning",
+      "raw_antonyms": "top, apex, pinnacle, summit",
+      "sentence": "A strong moral education forms the indispensable base of a civilized, progressive society.",
+      "sentence_meaning": "একটি শক্তিশালী নৈতিক শিক্ষা একটি সভ্য ও প্রগতিশীল সমাজের অপরিহার্য ভিত্তি গঠন করে।",
+      "category": "Word Transformation",
+      "unit": "Image 8 (image (8).jpg) - Transformation of Word"
+    }
+  ]
+}

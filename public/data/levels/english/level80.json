@@ -1,0 +1,133 @@
+{
+  "level_id": 80,
+  "title": "Level 80: Vocabulary",
+  "unit": "Vocabulary Table",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 396,
+      "word": "Prefer",
+      "ipa": "/prɪˈfɜːr/",
+      "pos": "v",
+      "meaning": "অধিক পছন্দ করা, প্রাধান্য দেওয়া",
+      "synonyms": [
+        "favor",
+        "choose",
+        "select",
+        "opt for"
+      ],
+      "antonyms": [
+        "reject",
+        "disfavor",
+        "dislike",
+        "decline"
+      ],
+      "raw_synonyms": "favor, choose, select, opt for",
+      "raw_antonyms": "reject, disfavor, dislike, decline",
+      "sentence": "Many modern professionals prefer remote work options because it offers better work-life balance.",
+      "sentence_meaning": "অনেক আধুনিক পেশাজীবী দূরবর্তী কাজের সুযোগ বেশি পছন্দ করেন কারণ এটি কাজ ও জীবনের উন্নত ভারসাম্য নিশ্চিত করে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 397,
+      "word": "Antagonism",
+      "ipa": "/ænˈtæɡənɪzəm/",
+      "pos": "n",
+      "meaning": "শত্রুতা, বৈরিতা, সংঘাতপূর্ণ মনোভাব",
+      "synonyms": [
+        "hostility",
+        "enmity",
+        "animosity",
+        "opposition"
+      ],
+      "antonyms": [
+        "friendliness",
+        "amity",
+        "harmony",
+        "sympathy"
+      ],
+      "raw_synonyms": "hostility, enmity, animosity, opposition",
+      "raw_antonyms": "friendliness, amity, harmony, sympathy",
+      "sentence": "The deep-seated political antagonism between the rival parties hindered legislative progress for months.",
+      "sentence_meaning": "প্রতিদ্বন্দ্বী দলগুলোর মধ্যকার গভীর রাজনৈতিক শত্রুতা কয়েক মাস ধরে আইন প্রণয়নের অগ্রগতিতে বাধা সৃষ্টি করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 398,
+      "word": "Hostility",
+      "ipa": "/hɑːˈstɪləti/",
+      "pos": "n",
+      "meaning": "শত্রুভাবাপন্নতা, বৈরিতা, আক্রমণাত্মক মনোভাব",
+      "synonyms": [
+        "enmity",
+        "aggression",
+        "ill will",
+        "rancor"
+      ],
+      "antonyms": [
+        "cordiality",
+        "goodwill",
+        "friendliness",
+        "peacefulness"
+      ],
+      "raw_synonyms": "enmity, aggression, ill will, rancor",
+      "raw_antonyms": "cordiality, goodwill, friendliness, peacefulness",
+      "sentence": "Despite initial hostility from the community, the new development project eventually gained broad acceptance.",
+      "sentence_meaning": "স্থানীয় জনগোষ্ঠীর প্রাথমিক বৈরিতা সত্ত্বেও নতুন উন্নয়ন প্রকল্পটি অবশেষে ব্যাপক গ্রহণযোগ্যতা অর্জন করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 399,
+      "word": "Disrupt",
+      "ipa": "/dɪsˈrʌpt/",
+      "pos": "v",
+      "meaning": "বিঘ্ন ঘটানো, ব্যাহত করা, বিশৃঙ্খলা সৃষ্টি করা",
+      "synonyms": [
+        "interrupt",
+        "disturb",
+        "disorganize",
+        "derail"
+      ],
+      "antonyms": [
+        "organize",
+        "facilitate",
+        "assist",
+        "maintain"
+      ],
+      "raw_synonyms": "interrupt, disturb, disorganize, derail",
+      "raw_antonyms": "organize, facilitate, assist, maintain",
+      "sentence": "Severe blizzards threatened to disrupt flight schedules and railway transit across the northern province.",
+      "sentence_meaning": "প্রবল তুষারঝড় উত্তর প্রদেশের বিমান সময়সূচি এবং রেল চলাচল ব্যাহত করার হুমকি সৃষ্টি করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 400,
+      "word": "Remote",
+      "ipa": "/rɪˈmoʊt/",
+      "pos": "adj",
+      "meaning": "দূরবর্তী, প্রত্যন্ত, সামান্য বা ক্ষীণ",
+      "synonyms": [
+        "distant",
+        "isolated",
+        "secluded",
+        "inaccessible"
+      ],
+      "antonyms": [
+        "close",
+        "adjacent",
+        "accessible",
+        "nearby"
+      ],
+      "raw_synonyms": "distant, isolated, secluded, inaccessible",
+      "raw_antonyms": "close, adjacent, accessible, nearby",
+      "sentence": "Solar-powered satellite transmitters enabled scientists to collect environmental data from remote mountain stations.",
+      "sentence_meaning": "সৌরচালিত স্যাটেলাইট ট্রান্সমিটার বিজ্ঞানীদের প্রত্যন্ত পাহাড়ি স্টেশন থেকে পরিবেশগত তথ্য সংগ্রহ করতে সক্ষম করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    }
+  ]
+}

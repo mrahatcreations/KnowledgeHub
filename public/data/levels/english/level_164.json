@@ -1,0 +1,133 @@
+{
+  "level_id": 164,
+  "title": "Level 164: Vocabulary",
+  "unit": "Vocabulary",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 816,
+      "word": "Diminish",
+      "ipa": "/dɪˈmɪnɪʃ/",
+      "pos": "v",
+      "meaning": "হ্রাস পাওয়া, কমানো, ম্লান হওয়া",
+      "synonyms": [
+        "decrease",
+        "lessen",
+        "subside",
+        "wane"
+      ],
+      "antonyms": [
+        "increase",
+        "expand",
+        "enlarge",
+        "grow"
+      ],
+      "raw_synonyms": "decrease, lessen, subside, wane",
+      "raw_antonyms": "increase, expand, enlarge, grow",
+      "sentence": "Time did not diminish the scholar's boundless enthusiasm for uncovering ancient historical mysteries.",
+      "sentence_meaning": "প্রাচীন ঐতিহাসিক রহস্য উন্মোচনে পণ্ডিতের সীমাহীন উৎসাহকে সময় ম্লান করতে পারেনি।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 817,
+      "word": "Durable",
+      "ipa": "/ˈdʊrəbl/",
+      "pos": "adj",
+      "meaning": "টেকসই, দীর্ঘস্থায়ী",
+      "synonyms": [
+        "sturdy",
+        "long-lasting",
+        "enduring",
+        "tough"
+      ],
+      "antonyms": [
+        "fragile",
+        "perishable",
+        "flimsy",
+        "temporary"
+      ],
+      "raw_synonyms": "sturdy, long-lasting, enduring, tough",
+      "raw_antonyms": "fragile, perishable, flimsy, temporary",
+      "sentence": "Heavy industrial machinery must be constructed from durable materials to withstand intense operational stress.",
+      "sentence_meaning": "কঠোর পরিচালন চাপ সহ্য করার জন্য ভারী শিল্প যন্ত্রপাতি অবশ্যই টেকসই উপাদান দিয়ে তৈরি হতে হবে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 818,
+      "word": "Default",
+      "ipa": "/dɪˈfɔːlt/",
+      "pos": "v",
+      "meaning": "ঋণ পরিশোধে ব্যর্থ হওয়া, খেলাপি হওয়া",
+      "synonyms": [
+        "fail to pay",
+        "default on",
+        "lapse",
+        "renege"
+      ],
+      "antonyms": [
+        "pay off",
+        "settle",
+        "honor",
+        "fulfill"
+      ],
+      "raw_synonyms": "fail to pay, default on, lapse, renege",
+      "raw_antonyms": "pay off, settle, honor, fulfill",
+      "sentence": "Borrowers who default on their commercial bank loans face legal confiscation of collateral assets.",
+      "sentence_meaning": "বাণিজ্যিক ব্যাংক ঋণ পরিশোধে ব্যর্থ ঋণগ্রহীতারা জামানত বাজেয়াপ্তের আইনি ব্যবস্থার মুখোমুখি হন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 819,
+      "word": "Deference",
+      "ipa": "/ˈdefərəns/",
+      "pos": "n",
+      "meaning": "সমীহ, গভীর শ্রদ্ধা, মান্য করা",
+      "synonyms": [
+        "respect",
+        "reverence",
+        "veneration",
+        "esteem"
+      ],
+      "antonyms": [
+        "disrespect",
+        "contempt",
+        "disdain",
+        "defiance"
+      ],
+      "raw_synonyms": "respect, reverence, veneration, esteem",
+      "raw_antonyms": "disrespect, contempt, disdain, defiance",
+      "sentence": "The junior diplomat addressed the senior statesman with profound deference and professional courtesy.",
+      "sentence_meaning": "কনিষ্ঠ কূটনীতিক প্রবীণ রাষ্ট্রনায়ককে গভীর শ্রদ্ধা এবং পেশাদার শিষ্টাচারের সাথে সম্বোধন করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    },
+    {
+      "id": 820,
+      "word": "Delineate",
+      "ipa": "/dɪˈlɪnieɪt/",
+      "pos": "v",
+      "meaning": "বর্ণনা করা, রূপরেখা আঁকা, চিহ্নিত করা",
+      "synonyms": [
+        "describe",
+        "outline",
+        "depict",
+        "portray"
+      ],
+      "antonyms": [
+        "distort",
+        "confuse",
+        "obscure",
+        "misrepresent"
+      ],
+      "raw_synonyms": "describe, outline, depict, portray",
+      "raw_antonyms": "distort, confuse, obscure, misrepresent",
+      "sentence": "The architectural blueprint precisely delineated the spatial layout of each floor in the skyscraper.",
+      "sentence_meaning": "স্থাপত্যের নকশায় গগনচুম্বী ভবনের প্রতিটি তলার স্থানিক বিন্যাস নির্ভুলভাবে তুলে ধরা হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary"
+    }
+  ]
+}

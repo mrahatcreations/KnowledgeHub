@@ -1,0 +1,133 @@
+{
+  "level_id": 125,
+  "title": "Level 125: Vocabulary",
+  "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 621,
+      "word": "Terrorize",
+      "ipa": "/ˈterəraɪz/",
+      "pos": "v",
+      "meaning": "আতঙ্কিত করা, ত্রাস সৃষ্টি করা",
+      "synonyms": [
+        "intimidate",
+        "frighten",
+        "menace",
+        "horrify"
+      ],
+      "antonyms": [
+        "comfort",
+        "reassure",
+        "soothe",
+        "calm"
+      ],
+      "raw_synonyms": "intimidate, frighten, menace, horrify",
+      "raw_antonyms": "comfort, reassure, soothe, calm",
+      "sentence": "The notorious bandit gang continued to terrorize peaceful villages along the border.",
+      "sentence_meaning": "কুখ্যাত ডাকাত দলটি সীমান্তের শান্ত গ্রামগুলোতে ত্রাস সৃষ্টি করতে থাকে।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 622,
+      "word": "Contain",
+      "ipa": "/kənˈteɪn/",
+      "pos": "v",
+      "meaning": "নিয়ন্ত্রণে রাখা, ধারণ করা",
+      "synonyms": [
+        "restrain",
+        "control",
+        "curb",
+        "hold back"
+      ],
+      "antonyms": [
+        "release",
+        "unleash",
+        "spread",
+        "liberate"
+      ],
+      "raw_synonyms": "restrain, control, curb, hold back",
+      "raw_antonyms": "release, unleash, spread, liberate",
+      "sentence": "Firefighters worked tirelessly around the clock to contain the rapidly spreading blaze.",
+      "sentence_meaning": "দমকলকর্মীরা দ্রুত ছড়িয়ে পড়া আগুন নিয়ন্ত্রণে আনতে দিনরাত অক্লান্ত পরিশ্রম করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 623,
+      "word": "Enlist",
+      "ipa": "/ɪnˈlɪst/",
+      "pos": "v",
+      "meaning": "যোগদান করা, সৈন্যদলে বা কাজে যুক্ত করা",
+      "synonyms": [
+        "recruit",
+        "enroll",
+        "draft",
+        "register"
+      ],
+      "antonyms": [
+        "discharge",
+        "dismiss",
+        "release",
+        "disband"
+      ],
+      "raw_synonyms": "recruit, enroll, draft, register",
+      "raw_antonyms": "discharge, dismiss, release, disband",
+      "sentence": "Thousands of passionate volunteers decided to enlist in the environmental preservation campaign.",
+      "sentence_meaning": "হাজার হাজার উৎসাহী স্বেচ্ছাসেবক পরিবেশ সংরক্ষণ অভিযানে যোগদানের সিদ্ধান্ত নিয়েছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 624,
+      "word": "Masterful",
+      "ipa": "/ˈmæstərfʊl/",
+      "pos": "adj",
+      "meaning": "দক্ষ, নিখুঁত, পারদর্শী",
+      "synonyms": [
+        "skillful",
+        "expert",
+        "adept",
+        "consummate"
+      ],
+      "antonyms": [
+        "clumsy",
+        "inept",
+        "unskilled",
+        "incompetent"
+      ],
+      "raw_synonyms": "skillful, expert, adept, consummate",
+      "raw_antonyms": "clumsy, inept, unskilled, incompetent",
+      "sentence": "The pianist gave a masterful performance that earned a standing ovation from the audience.",
+      "sentence_meaning": "পিয়ানোবাদক একটি অত্যন্ত দক্ষ পরিবেশনা উপহার দিয়েছিলেন যা দর্শকদের কাছ থেকে দাঁড়িয়ে অভিবাদন অর্জন করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    },
+    {
+      "id": 625,
+      "word": "Intricate",
+      "ipa": "/ˈɪntrɪkət/",
+      "pos": "adj",
+      "meaning": "জটিল, সূক্ষ্ম, পেঁচালো",
+      "synonyms": [
+        "complex",
+        "elaborate",
+        "complicated",
+        "detailed"
+      ],
+      "antonyms": [
+        "simple",
+        "plain",
+        "straightforward",
+        "uncomplicated"
+      ],
+      "raw_synonyms": "complex, elaborate, complicated, detailed",
+      "raw_antonyms": "simple, plain, straightforward, uncomplicated",
+      "sentence": "The ancient temple was adorned with intricate carvings depicting historical legends.",
+      "sentence_meaning": "প্রাচীন মন্দিরটি ঐতিহাসিক কিংবদন্তি চিত্রিত জটিল ও সূক্ষ্ম খোদাইকর্মে সজ্জিত ছিল।",
+      "category": "Vocabulary",
+      "unit": "Image 24 (image (24).jpg) - Vocabulary (Unit : 3)"
+    }
+  ]
+}

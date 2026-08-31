@@ -1,0 +1,133 @@
+{
+  "level_id": 107,
+  "title": "Level 107: Phrasal Verb",
+  "unit": "Image 19 (image (19).jpg) - Phrasal Verbs",
+  "category": "Phrasal Verb",
+  "items": [
+    {
+      "id": 531,
+      "word": "Call for",
+      "ipa": "/kɔːl fɔːr/",
+      "pos": "phrase",
+      "meaning": "দাবি করা, প্রয়োজন হওয়া, তলব করা",
+      "synonyms": [
+        "demand",
+        "require",
+        "necessitate",
+        "request"
+      ],
+      "antonyms": [
+        "refuse",
+        "reject",
+        "cancel",
+        "disclaim"
+      ],
+      "raw_synonyms": "demand, require, necessitate, request",
+      "raw_antonyms": "refuse, reject, cancel, disclaim",
+      "sentence": "The urgent economic situation calls for immediate and decisive government action.",
+      "sentence_meaning": "জরুরি অর্থনৈতিক পরিস্থিতির কারণে সরকারের অবিলম্বে এবং বলিষ্ঠ পদক্ষেপ গ্রহণ করা প্রয়োজন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 532,
+      "word": "Call in",
+      "ipa": "/kɔːl ɪn/",
+      "pos": "phrase",
+      "meaning": "ডেকে পাঠানো, ডেকে আনা, তলব করা",
+      "synonyms": [
+        "summon",
+        "send for",
+        "bring in",
+        "enlist"
+      ],
+      "antonyms": [
+        "dismiss",
+        "send away",
+        "discharge",
+        "expel"
+      ],
+      "raw_synonyms": "summon, send for, bring in, enlist",
+      "raw_antonyms": "dismiss, send away, discharge, expel",
+      "sentence": "When the patient's condition worsened overnight, the nurse immediately called in an emergency doctor.",
+      "sentence_meaning": "রাতে রোগীর অবস্থার অবনতি হলে নার্স অবিলম্বে একজন জরুরি চিকিৎসককে ডেকে আনেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 533,
+      "word": "Call off",
+      "ipa": "/kɔːl ɒf/",
+      "pos": "phrase",
+      "meaning": "বাতিল করা, প্রত্যাহার করা, স্থগিত করা",
+      "synonyms": [
+        "cancel",
+        "abandon",
+        "abort",
+        "revoke"
+      ],
+      "antonyms": [
+        "proceed with",
+        "continue",
+        "maintain",
+        "resume"
+      ],
+      "raw_synonyms": "cancel, abandon, abort, revoke",
+      "raw_antonyms": "proceed with, continue, maintain, resume",
+      "sentence": "Due to relentless heavy rainfall and flooding, the organizers decided to call off the football match.",
+      "sentence_meaning": "টানা ভারী বৃষ্টি ও বন্যার কারণে আয়োজকরা ফুটবল ম্যাচটি বাতিল করার সিদ্ধান্ত নেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 534,
+      "word": "Call on/upon",
+      "ipa": "/kɔːl ɒn/ /kɔːl əˈpɒn/",
+      "pos": "phrase",
+      "meaning": "কারো সাথে দেখা করা, পরিদর্শন করা, আহ্বান জানানো",
+      "synonyms": [
+        "visit",
+        "pay a visit to",
+        "appeal to",
+        "urge"
+      ],
+      "antonyms": [
+        "avoid",
+        "shun",
+        "ignore",
+        "neglect"
+      ],
+      "raw_synonyms": "visit, pay a visit to, appeal to, urge",
+      "raw_antonyms": "avoid, shun, ignore, neglect",
+      "sentence": "The diplomat decided to call on the foreign minister to discuss bilateral trade agreements.",
+      "sentence_meaning": "দ্বিপাক্ষিক বাণিজ্য চুক্তি নিয়ে আলোচনা করতে কূটনীতিক পররাষ্ট্রমন্ত্রীর সাথে দেখা করার সিদ্ধান্ত নেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    },
+    {
+      "id": 535,
+      "word": "Call out",
+      "ipa": "/kɔːl aʊt/",
+      "pos": "phrase",
+      "meaning": "চিৎকার করে ডাকা, প্রকাশ্যে সমন জারি করা, প্রতিবাদ করা",
+      "synonyms": [
+        "shout",
+        "exclaim",
+        "yell",
+        "cry out"
+      ],
+      "antonyms": [
+        "whisper",
+        "remain silent",
+        "mutter",
+        "hush"
+      ],
+      "raw_synonyms": "shout, exclaim, yell, cry out",
+      "raw_antonyms": "whisper, remain silent, mutter, hush",
+      "sentence": "Hearing a suspicious noise in the dark hallway, she boldly called out to check if anyone was there.",
+      "sentence_meaning": "অন্ধকার বারান্দায় সন্দেহজনক শব্দ শুনে তিনি সাহসের সাথে চিৎকার করে কাউকে দেখতে চাইলেন।",
+      "category": "Phrasal Verb",
+      "unit": "Image 19 (image (19).jpg) - Phrasal Verbs"
+    }
+  ]
+}

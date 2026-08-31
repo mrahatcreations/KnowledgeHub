@@ -1,0 +1,133 @@
+{
+  "level_id": 98,
+  "title": "Level 98: Vocabulary",
+  "unit": "Vocabulary Table",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 486,
+      "word": "Clandestine",
+      "ipa": "/klænˈdestɪn/",
+      "pos": "adj",
+      "meaning": "গোপন, গুপ্ত",
+      "synonyms": [
+        "secret",
+        "covert",
+        "furtive",
+        "surreptitious"
+      ],
+      "antonyms": [
+        "open",
+        "public",
+        "overt",
+        "transparent"
+      ],
+      "raw_synonyms": "secret, covert, furtive, surreptitious",
+      "raw_antonyms": "open, public, overt, transparent",
+      "sentence": "The rebels held clandestine gatherings in underground bunkers to organize their movement.",
+      "sentence_meaning": "বিদ্রোহীরা তাদের আন্দোলন সংগঠিত করার জন্য ভূগর্ভস্থ বাঙ্কারে গোপন সমাবেশের আয়োজন করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 487,
+      "word": "Coerce",
+      "ipa": "/koʊˈɜːrs/",
+      "pos": "v",
+      "meaning": "বাধ্য করা, বলপ্রয়োগ করা",
+      "synonyms": [
+        "compel",
+        "force",
+        "intimidate",
+        "pressurize"
+      ],
+      "antonyms": [
+        "persuade",
+        "cajole",
+        "coax",
+        "allow"
+      ],
+      "raw_synonyms": "compel, force, intimidate, pressurize",
+      "raw_antonyms": "persuade, cajole, coax, allow",
+      "sentence": "No employer should coerce workers into working overtime without adequate compensation.",
+      "sentence_meaning": "কোনো নিয়োগকর্তারই উচিত নয় শ্রমিকদের পর্যাপ্ত ক্ষতিপূরণ ছাড়া অতিরিক্ত সময় কাজ করতে বাধ্য করা।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 488,
+      "word": "Commence",
+      "ipa": "/kəˈmens/",
+      "pos": "v",
+      "meaning": "শুরু করা, আরম্ভ করা",
+      "synonyms": [
+        "begin",
+        "start",
+        "initiate",
+        "inaugurate"
+      ],
+      "antonyms": [
+        "terminate",
+        "conclude",
+        "finish",
+        "cease"
+      ],
+      "raw_synonyms": "begin, start, initiate, inaugurate",
+      "raw_antonyms": "terminate, conclude, finish, cease",
+      "sentence": "The annual international book fair will commence next Monday at the convention center.",
+      "sentence_meaning": "বার্ষিক আন্তর্জাতিক বইমেলা আগামী সোমবার কনভেনশন সেন্টারে শুরু হবে।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 489,
+      "word": "Commend",
+      "ipa": "/kəˈmend/",
+      "pos": "v",
+      "meaning": "প্রশংসা করা, তারিফ করা",
+      "synonyms": [
+        "praise",
+        "applaud",
+        "laud",
+        "extol"
+      ],
+      "antonyms": [
+        "censure",
+        "criticize",
+        "reproach",
+        "condemn"
+      ],
+      "raw_synonyms": "praise, applaud, laud, extol",
+      "raw_antonyms": "censure, criticize, reproach, condemn",
+      "sentence": "The principal commended the young volunteers for their dedicated service during the relief work.",
+      "sentence_meaning": "ত্রাণ কার্যক্রমে নিষ্ঠার সাথে সেবা দেওয়ার জন্য অধ্যক্ষ তরুণ স্বেচ্ছাসেবকদের ভূয়সী প্রশংসা করেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 490,
+      "word": "Converge",
+      "ipa": "/kənˈvɜːrdʒ/",
+      "pos": "v",
+      "meaning": "এক বিন্দুতে মিলিত হওয়া, জড়ো হওয়া",
+      "synonyms": [
+        "assemble",
+        "gather",
+        "intersect",
+        "unite"
+      ],
+      "antonyms": [
+        "diverge",
+        "scatter",
+        "separate",
+        "deviate"
+      ],
+      "raw_synonyms": "assemble, gather, intersect, unite",
+      "raw_antonyms": "diverge, scatter, separate, deviate",
+      "sentence": "Hundreds of researchers will converge in Geneva to attend the international medical summit.",
+      "sentence_meaning": "আন্তর্জাতিক চিকিৎসা সম্মেলনে যোগ দিতে শত শত গবেষক জেনেভায় একত্রিত হবেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    }
+  ]
+}

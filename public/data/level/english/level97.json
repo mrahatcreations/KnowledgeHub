@@ -1,0 +1,133 @@
+{
+  "level_id": 97,
+  "title": "Level 97: Vocabulary",
+  "unit": "Vocabulary Table",
+  "category": "Vocabulary",
+  "items": [
+    {
+      "id": 481,
+      "word": "Chastise",
+      "ipa": "/tʃæˈstaɪz/",
+      "pos": "v",
+      "meaning": "কঠোর তিরস্কার করা, শাস্তি দেওয়া",
+      "synonyms": [
+        "scold",
+        "rebuke",
+        "castigate",
+        "reprimand"
+      ],
+      "antonyms": [
+        "praise",
+        "commend",
+        "laud",
+        "reward"
+      ],
+      "raw_synonyms": "scold, rebuke, castigate, reprimand",
+      "raw_antonyms": "praise, commend, laud, reward",
+      "sentence": "The manager had to chastise the employee for repeatedly arriving late to important team meetings.",
+      "sentence_meaning": "গুরুত্বপূর্ণ দলীয় মিটিংয়ে বারবার দেরি করে আসার কারণে ব্যবস্থাপককে কর্মচারীকে তিরস্কার করতে হয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 482,
+      "word": "Cacophonous",
+      "ipa": "/kæˈkɑːfənəs/",
+      "pos": "adj",
+      "meaning": "শ্রুতিকটু, কর্কশ শব্দযুক্ত, বেসুরো",
+      "synonyms": [
+        "discordant",
+        "harsh",
+        "dissonant",
+        "jarring"
+      ],
+      "antonyms": [
+        "euphonious",
+        "melodious",
+        "harmonious",
+        "tuneful"
+      ],
+      "raw_synonyms": "discordant, harsh, dissonant, jarring",
+      "raw_antonyms": "euphonious, melodious, harmonious, tuneful",
+      "sentence": "The construction site created a cacophonous din that disrupted the nearby quiet neighborhood.",
+      "sentence_meaning": "নির্মাণস্থলটি এমন এক কর্কশ ও শ্রুতিকটু শব্দের সৃষ্টি করেছিল যা কাছের শান্ত এলাকার পরিবেশকে বিঘ্নিত করেছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 483,
+      "word": "Calamity",
+      "ipa": "/kəˈlæməti/",
+      "pos": "n",
+      "meaning": "মহাবিপর্যয়, চরম দুর্যোগ",
+      "synonyms": [
+        "catastrophe",
+        "disaster",
+        "tragedy",
+        "cataclysm"
+      ],
+      "antonyms": [
+        "blessing",
+        "godsend",
+        "boon",
+        "prosperity"
+      ],
+      "raw_synonyms": "catastrophe, disaster, tragedy, cataclysm",
+      "raw_antonyms": "blessing, godsend, boon, prosperity",
+      "sentence": "The sudden flash flood was a terrible calamity that devastated hundreds of farming villages.",
+      "sentence_meaning": "হঠাৎ আসা আকস্মিক বন্যাটি একটি ভয়াবহ মহাবিপর্যয় ছিল যা শত শত কৃষিপ্রধান গ্রামকে ধ্বংস করে দিয়েছিল।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 484,
+      "word": "Callous",
+      "ipa": "/ˈkæləs/",
+      "pos": "adj",
+      "meaning": "সহানুভূতিহীন, নির্দয়, পাষাণ",
+      "synonyms": [
+        "unfeeling",
+        "heartless",
+        "indifferent",
+        "apathetic"
+      ],
+      "antonyms": [
+        "compassionate",
+        "sympathetic",
+        "caring",
+        "sensitive"
+      ],
+      "raw_synonyms": "unfeeling, heartless, indifferent, apathetic",
+      "raw_antonyms": "compassionate, sympathetic, caring, sensitive",
+      "sentence": "The tyrant displayed a callous disregard for the basic human rights of his citizens.",
+      "sentence_meaning": "স্বৈরশাসক তাঁর নাগরিকদের মৌলিক মানবাধিকারের প্রতি সহানুভূতিহীন ও নিষ্ঠুর উদাসীনতা প্রদর্শন করেছিলেন।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    },
+    {
+      "id": 485,
+      "word": "Circumspect",
+      "ipa": "/ˈsɜːrkəmspekt/",
+      "pos": "adj",
+      "meaning": "সতর্ক, সুবিবেচক, সাবধানী",
+      "synonyms": [
+        "cautious",
+        "wary",
+        "prudent",
+        "vigilant"
+      ],
+      "antonyms": [
+        "reckless",
+        "rash",
+        "careless",
+        "imprudent"
+      ],
+      "raw_synonyms": "cautious, wary, prudent, vigilant",
+      "raw_antonyms": "reckless, rash, careless, imprudent",
+      "sentence": "In difficult negotiations, it is wise to remain circumspect and think before speaking.",
+      "sentence_meaning": "কঠিন সমঝোতা আলোচনার সময় সতর্ক থাকা এবং কথা বলার আগে ভেবে নেওয়া বুদ্ধিমানের কাজ।",
+      "category": "Vocabulary",
+      "unit": "Vocabulary Table"
+    }
+  ]
+}
