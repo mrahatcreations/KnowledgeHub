@@ -26,10 +26,11 @@ git tag -a "v%VER%" -m "Knowledge Hub v%VER% Release"
 git push origin "v%VER%"
 
 echo [4/4] Creating GitHub Release and Uploading Assets...
+call gh release create "v%VER%" "KnowledgeHub-v%VER%.apk" --title "Knowledge Hub v%VER%" --notes "### Knowledge Hub v%VER% Release Notes" 2>nul
 if exist "public\data\voice_pack_v1.khpack" (
-    call gh release create "v%VER%" "KnowledgeHub-v%VER%.apk" "public\data\voice_pack_v1.khpack" --title "Knowledge Hub v%VER%" --notes "### Knowledge Hub v%VER% Release Notes" --clobber
+    call gh release upload "v%VER%" "KnowledgeHub-v%VER%.apk" "public\data\voice_pack_v1.khpack" --clobber
 ) else (
-    call gh release create "v%VER%" "KnowledgeHub-v%VER%.apk" --title "Knowledge Hub v%VER%" --notes "### Knowledge Hub v%VER% Release" --clobber
+    call gh release upload "v%VER%" "KnowledgeHub-v%VER%.apk" --clobber
 )
 
 echo.

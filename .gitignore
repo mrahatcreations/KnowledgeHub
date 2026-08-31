@@ -1,15 +1,26 @@
-node_modules/
+﻿node_modules/
 dist/
+dist-ssr/
+*.local
+.vscode/
+.idea/
 .DS_Store
-*.log
-*.tmp
+
+# Android Build Outputs & Large Artifacts
 *.apk
-__pycache__/
-*.pyc
-scratch/
-local.properties
-android/local.properties
+*.aab
+audio_debug.log
+*.tmp
+*.log
 .gradle/
-android/.gradle/
 android/app/build/
+android/.gradle/
 android/build/
+local.properties
+
+# OCR Scans & Raw Dumps
+image (*).jpg
+chunk_*.txt
+
+__pycache__/
+scratch/
