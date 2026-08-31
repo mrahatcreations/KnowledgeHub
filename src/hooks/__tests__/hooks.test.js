@@ -887,4 +887,17 @@ test('Full 10-Stage Sequential Lifecycle & Seamless Stage-to-Stage Transition Si
   });
 });
 
+test('Versioning: 10-cap per segment and x.x.x.x 4-tier extension', async () => {
+  const { getNextVersion } = await import('../../../scripts/bump_version.mjs');
+  
+  assert.equal(getNextVersion('1.1.2'), '1.1.3');
+  assert.equal(getNextVersion('1.1.9'), '1.1.10');
+  assert.equal(getNextVersion('1.1.10'), '1.1.10.1');
+  assert.equal(getNextVersion('1.1.10.1'), '1.1.10.2');
+  assert.equal(getNextVersion('1.1.10.9'), '1.1.10.10');
+  assert.equal(getNextVersion('1.1.10.10'), '1.2.0');
+  assert.equal(getNextVersion('1.2.9'), '1.2.10');
+  assert.equal(getNextVersion('1.2.10'), '1.2.10.1');
+});
+
 
