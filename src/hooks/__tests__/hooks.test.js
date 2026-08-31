@@ -887,17 +887,21 @@ test('Full 10-Stage Sequential Lifecycle & Seamless Stage-to-Stage Transition Si
   });
 });
 
-test('Versioning: 9-cap per segment and x.x.x.x 4-tier extension', async () => {
+test('Versioning: Standard Semantic Versioning (SemVer: MAJOR.MINOR.PATCH)', async () => {
   const { getNextVersion } = await import('../../../scripts/bump_version.mjs');
   
+  // Default Patch Bump
   assert.equal(getNextVersion('1.1.2'), '1.1.3');
-  assert.equal(getNextVersion('1.1.8'), '1.1.9');
-  assert.equal(getNextVersion('1.1.9'), '1.1.9.1');
-  assert.equal(getNextVersion('1.1.9.1'), '1.1.9.2');
-  assert.equal(getNextVersion('1.1.9.8'), '1.1.9.9');
-  assert.equal(getNextVersion('1.1.9.9'), '1.2.0');
-  assert.equal(getNextVersion('1.2.0'), '1.2.1');
-  assert.equal(getNextVersion('1.2.9'), '1.2.9.1');
+  assert.equal(getNextVersion('1.1.9'), '1.1.10');
+  assert.equal(getNextVersion('1.1.10'), '1.1.11');
+  assert.equal(getNextVersion('1.1.99'), '1.1.100');
+
+  // Minor Bump
+  assert.equal(getNextVersion('1.1.2', 'minor'), '1.2.0');
+  assert.equal(getNextVersion('1.9.5', 'minor'), '1.10.0');
+
+  // Major Bump
+  assert.equal(getNextVersion('1.1.2', 'major'), '2.0.0');
 });
 
 

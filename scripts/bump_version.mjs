@@ -1,31 +1,23 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-export function getNextVersion(currentVersion) {
+export function getNextVersion(currentVersion, bumpType = 'patch') {
   const parts = currentVersion.split('.').map(Number);
+  while (parts.length < 3) parts.push(0);
   
-  if (parts.length === 3) {
-    if (parts[2] < 9) {
-      // e.g. 1.1.2 -> 1.1.3 ... up to 1.1.9
-      parts[2] += 1;
-      return parts.join('.');
-    } else {
-      // Max 9 reached for x.x.x, transition to x.x.x.x (e.g. 1.1.9 -> 1.1.9.1)
-      return `${parts[0]}.${parts[1]}.${parts[2]}.1`;
-    }
-  } else if (parts.length === 4) {
-    if (parts[3] < 9) {
-      // e.g. 1.1.9.1 -> 1.1.9.2 ... up to 1.1.9.9
-      parts[3] += 1;
-      return parts.join('.');
-    } else {
-      // Max 9 reached for 4th component, rollover to next minor version (e.g. 1.1.9.9 -> 1.2.0)
-      return `${parts[0]}.${parts[1] + 1}.0`;
-    }
+  if (bumpType === 'major') {
+    parts[0] += 1;
+    parts[1] = 0;
+    parts[2] = 0;
+  } else if (bumpType === 'minor') {
+    parts[1] += 1;
+    parts[2] = 0;
   } else {
-    parts[parts.length - 1] += 1;
-    return parts.join('.');
+    // Standard patch increment (e.g. 1.1.9 -> 1.1.10 -> 1.1.11 ...)
+    parts[2] = (parts[2] || 0) + 1;
   }
+  
+  return parts.slice(0, 3).join('.');
 }
 
 async function bump() {
@@ -33,7 +25,8 @@ async function bump() {
   const pkgRaw = await fs.readFile(pkgPath, 'utf8');
   const pkg = JSON.parse(pkgRaw);
 
-  const newVersion = getNextVersion(pkg.version);
+  const bumpType = process.argv[2] || 'patch';
+  const newVersion = getNextVersion(pkg.version, bumpType);
   pkg.version = newVersion;
 
   await fs.writeFile(pkgPath, JSON.stringify(pkg, null, 2) + '\n', 'utf8');
