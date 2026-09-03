@@ -63,7 +63,7 @@ export default function UpdateModal({
 
   const handleDownload = () => {
     sound.playClick();
-    const url = updateInfo?.downloadUrl || 'https://github.com/mrahatcreations/VocabMaster/releases/latest';
+    const url = updateInfo?.downloadUrl || 'https://github.com/mrahatcreations/KnowledgeHub/releases/latest';
     if (url) {
       window.open(url, '_system');
     }

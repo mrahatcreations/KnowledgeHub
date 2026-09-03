@@ -7,7 +7,7 @@ export const CURRENT_APP_VERSION = '1.1.7';
 export const CURRENT_VERSION_CODE = 17;
 
 // Default remote endpoint (GitHub Raw or custom hosting)
-export const DEFAULT_UPDATE_URL = 'https://raw.githubusercontent.com/mrahatcreations/VocabMaster/main/version.json';
+export const DEFAULT_UPDATE_URL = 'https://raw.githubusercontent.com/mrahatcreations/KnowledgeHub/main/version.json';
 export const FALLBACK_UPDATE_URL = '/version.json';
 
 const STORAGE_KEY_DISMISSED = 'vocabmaster_dismissed_update';
