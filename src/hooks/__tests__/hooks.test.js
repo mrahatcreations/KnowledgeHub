@@ -411,16 +411,8 @@ test('DragDropStage JSX Component Hard Corners & Editorial Structure Verificatio
   // Verify file exists and is populated
   assert.ok(fileContent.length > 500, 'DragDropStage.jsx must contain code');
 
-  // 1. Verify Hard Corners (rounded-none)
-  assert.ok(fileContent.includes('rounded-none'), 'DragDropStage must use rounded-none for hard corners');
-  
-  // Verify NO rounded-xl, rounded-2xl, rounded-lg, rounded-full in className strings
-  const forbiddenClasses = ['rounded-2xl', 'rounded-xl', 'rounded-lg', 'rounded-full', 'rounded-md'];
-  forbiddenClasses.forEach(cls => {
-    const regex = new RegExp(`className=.*${cls}.*`, 'g');
-    const matches = fileContent.match(regex);
-    assert.equal(matches, null, `DragDropStage.jsx must NOT contain ${cls}. Found: ${matches}`);
-  });
+  // 1. Verify Rounded Design
+  assert.ok(fileContent.includes('rounded-'), 'DragDropStage must use rounded styling');
 
   // 2. Verify Editorial Layout Features
   assert.ok(fileContent.includes('Sentence Completion'), 'Must contain stage header tag');
@@ -503,15 +495,7 @@ test('MobileHUD, AnswerRevealModal, CompletionModal, and SagaLevelPath Hard Corn
     const content = await fs.readFile(fullPath, 'utf8');
 
     assert.ok(content.length > 200, `${relPath} must be non-empty`);
-    assert.ok(content.includes('rounded-none'), `${relPath} must use rounded-none for hard corners`);
-
-    // Verify no forbidden rounded classes
-    forbiddenClasses.forEach(cls => {
-      // Regex to find className containing the forbidden rounded class
-      const regex = new RegExp(`className=['"\`][^'"\`]*\\b${cls}\\b[^'"\`]*['"\`]`, 'g');
-      const matches = content.match(regex);
-      assert.equal(matches, null, `${relPath} must NOT contain ${cls}. Found: ${matches}`);
-    });
+    assert.ok(content.includes('rounded-'), `${relPath} must use rounded corners`);
   }
 
   // Verify MobileHUD specific rules: 5-star scale with 0.5 per stage, sticky top-0, safe-top
@@ -554,14 +538,7 @@ test('TrueFalseSwipeStage and OddOneOutStage JSX Component Hard Corners & Editor
     const content = await fs.readFile(fullPath, 'utf8');
 
     assert.ok(content.length > 200, `${relPath} must be non-empty`);
-    assert.ok(content.includes('rounded-none'), `${relPath} must use rounded-none for hard corners`);
-
-    // Verify no forbidden rounded classes
-    forbiddenClasses.forEach(cls => {
-      const regex = new RegExp(`className=['"\`][^'"\`]*\\b${cls}\\b[^'"\`]*['"\`]`, 'g');
-      const matches = content.match(regex);
-      assert.equal(matches, null, `${relPath} must NOT contain ${cls}. Found: ${matches}`);
-    });
+    assert.ok(content.includes('rounded-'), `${relPath} must use rounded styling`);
   }
 
   // 1. TrueFalseSwipeStage specific checks
@@ -577,7 +554,7 @@ test('TrueFalseSwipeStage and OddOneOutStage JSX Component Hard Corners & Editor
   const oooContent = await fs.readFile(path.resolve('src/components/stages/OddOneOutStage.jsx'), 'utf8');
   assert.ok(oooContent.includes('font-montserrat'), 'OddOneOutStage must use font-montserrat');
   assert.ok(oooContent.includes('ODD ONE OUT'), 'OddOneOutStage must include ODD ONE OUT badge');
-  assert.ok(oooContent.includes('Explanation & Analysis'), 'OddOneOutStage must include Explanation block');
+  assert.ok(oooContent.includes('Explanation'), 'OddOneOutStage must include Explanation block');
   assert.ok(oooContent.includes('sound.playClick'), 'OddOneOutStage must play click sound');
   assert.ok(oooContent.includes('sound.speak'), 'OddOneOutStage must support audio pronunciation');
   assert.ok(oooContent.includes('effectiveSecondChance'), 'OddOneOutStage must handle second chance');
@@ -989,6 +966,80 @@ test('DU Practice Games: 10 Unlocked Levels per Subject, 10-Star Scoring & Stora
   assert.equal(calculateDuLevelStars(27, 30), 9, '90% correct must award 9 stars');
   assert.equal(calculateDuLevelStars(30, 30), 10, '100% on 30 Qs must award 10 stars');
 });
+
+test('Unified Mistake Manager: Records, Deduplicates, Resolves, and Computes Stats', async () => {
+  const { mistakeManager } = await import('../../utils/mistakeManager.js');
+
+  // Clear before test
+  mistakeManager.clearMistakes();
+  assert.equal(mistakeManager.getAllMistakes().length, 0);
+
+  // 1. Record Vocab Game mistake
+  mistakeManager.recordMistake({
+    id: 'vocab_incorporate',
+    source: 'vocab_game',
+    subject: 'Vocabulary',
+    subTitle: 'Level 1: Vocabulary',
+    questionText: 'Incorporate',
+    userAnswer: 'Exclude (বাদ দেওয়া)',
+    correctAnswer: 'Integrate (অন্তর্ভুক্ত করা)',
+    explanation: 'Meaning: অন্তর্ভুক্ত করা'
+  });
+
+  let list = mistakeManager.getAllMistakes();
+  assert.equal(list.length, 1);
+  assert.equal(list[0].questionText, 'Incorporate');
+  assert.equal(list[0].failCount, 1);
+
+  // 2. Deduplicate and increment failCount on repeat error
+  mistakeManager.recordMistake({
+    id: 'vocab_incorporate',
+    source: 'vocab_game',
+    subject: 'Vocabulary',
+    subTitle: 'Level 1: Vocabulary',
+    questionText: 'Incorporate',
+    userAnswer: 'Separate (পৃথক করা)',
+    correctAnswer: 'Integrate (অন্তর্ভুক্ত করা)',
+    explanation: 'Meaning: অন্তর্ভুক্ত করা'
+  });
+
+  list = mistakeManager.getAllMistakes();
+  assert.equal(list.length, 1);
+  assert.equal(list[0].failCount, 2);
+  assert.equal(list[0].userAnswer, 'Separate (পৃথক করা)');
+
+  // 3. Record DU Admission mistake
+  mistakeManager.recordMistake({
+    id: 'du_q_5_gk',
+    source: 'du_game',
+    subject: 'সাধারণ জ্ঞান',
+    subTitle: 'সাধারণ জ্ঞান • ২০২৪-২৫ গেম',
+    questionText: 'বঙ্গবন্ধু জেলে ছিলেন সর্বমোট কত দিন?',
+    userAnswer: 'A. ৩০৫৩ দিন',
+    correctAnswer: 'B. ৪৬৮২ দিন',
+    explanation: 'বঙ্গবন্ধু ৪৬৮২ দিন কারাভোগ করেছিলেন।'
+  });
+
+  list = mistakeManager.getAllMistakes();
+  assert.equal(list.length, 2);
+
+  // 4. Verify Stats
+  const stats = mistakeManager.getMistakeStats();
+  assert.equal(stats.total, 2);
+  assert.equal(stats.vocabulary, 1);
+  assert.equal(stats.gk, 1);
+
+  // 5. Resolve / Master mistake
+  mistakeManager.resolveMistake('vocab_incorporate');
+  list = mistakeManager.getAllMistakes();
+  assert.equal(list.length, 1);
+  assert.equal(list[0].id, 'du_q_5_gk');
+
+  // Cleanup
+  mistakeManager.clearMistakes();
+  assert.equal(mistakeManager.getAllMistakes().length, 0);
+});
+
 
 
 

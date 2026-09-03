@@ -3,8 +3,8 @@
  * Checks remote version configuration, compares versions, and handles APK download routing.
  */
 
-export const CURRENT_APP_VERSION = '1.1.7';
-export const CURRENT_VERSION_CODE = 17;
+export const CURRENT_APP_VERSION = '1.1.8';
+export const CURRENT_VERSION_CODE = 18;
 
 // Default remote endpoint (GitHub Raw or custom hosting)
 export const DEFAULT_UPDATE_URL = 'https://raw.githubusercontent.com/mrahatcreations/KnowledgeHub/main/version.json';

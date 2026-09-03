@@ -15,7 +15,8 @@ export default function VocabBookView({
   levelStars = {}, 
   onBackToHub, 
   initialFilter = 'ALL',
-  onOpenAudioSettings
+  onOpenAudioSettings,
+  onOpenMistakes
 }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [isSearchOpen, setIsSearchOpen] = useState(false);
@@ -230,18 +231,25 @@ export default function VocabBookView({
             { id: 'NOUNS', label: 'Nouns' },
             { id: 'PREPOSITIONS', label: 'Prepositions' },
             { id: 'IDIOMS', label: 'Idioms' },
-            { id: 'BOOKMARKS', label: `Saved (${bookmarkedWords.length})` }
+            { id: 'BOOKMARKS', label: `Saved (${bookmarkedWords.length})` },
+            ...(onOpenMistakes ? [{ id: 'MISTAKES', label: 'My Mistakes ⚠️' }] : [])
           ].map((tab) => (
             <button
               key={tab.id}
               onClick={() => {
                 sound.playClick();
-                setSelectedFilter(tab.id);
+                if (tab.id === 'MISTAKES') {
+                  if (onOpenMistakes) onOpenMistakes();
+                } else {
+                  setSelectedFilter(tab.id);
+                }
               }}
               className={`px-3 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer font-montserrat ${
                 selectedFilter === tab.id
                   ? 'bg-[#2563eb] text-white font-bold'
-                  : 'bg-[#1e293b] text-slate-300 hover:text-white'
+                  : tab.id === 'MISTAKES'
+                    ? 'bg-rose-950/80 border border-rose-800 text-rose-300 font-bold hover:bg-rose-900'
+                    : 'bg-[#1e293b] text-slate-300 hover:text-white'
               }`}
             >
               {tab.label}

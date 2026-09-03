@@ -24,6 +24,7 @@ import {
   saveDuLevelStars,
   DU_SUBJECTS
 } from '../../utils/duDataHelper';
+import { mistakeManager } from '../../utils/mistakeManager';
 
 export default function DuGamePlayer({
   level,
@@ -92,6 +93,23 @@ export default function DuGamePlayer({
     } else {
       sound.playWrong();
       setStreak(0);
+
+      try {
+        const chosenText = currentQ.cleanOptions?.[key] || key;
+        const correctText = currentQ.cleanOptions?.[currentQ.correctKey] || currentQ.correctKey;
+        mistakeManager.recordMistake({
+          id: `du_q_${currentQ.id || currentQ.question_no}_${currentQ.subject || subject}`,
+          source: 'du_game',
+          subject: currentQ.subject || subject,
+          subTitle: `${currentQ.subject || subject} • ${level.year} গেম`,
+          questionText: currentQ.questionText || currentQ.question,
+          userAnswer: `${key}. ${chosenText}`,
+          correctAnswer: `${currentQ.correctKey}. ${correctText}`,
+          explanation: currentQ.explanationText || currentQ.explanation || ''
+        });
+      } catch (err) {
+        console.warn('Failed to record DU game mistake:', err);
+      }
     }
 
     setUserAnswers(prev => ({

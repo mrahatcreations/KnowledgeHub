@@ -23,6 +23,7 @@ import {
   filterMcqQuestions, 
   filterWrittenQuestions 
 } from '../../utils/duDataHelper';
+import { mistakeManager } from '../../utils/mistakeManager';
 
 const STORAGE_KEY_DU_BOOKMARKS = 'vocabmaster_du_bookmarks';
 const STORAGE_KEY_DU_MCQ_ANSWERS = 'vocabmaster_du_mcq_answers';
@@ -304,6 +305,23 @@ export default function DuQuestionBankView({
     // Auto expand explanation on answering if wrong, or let user reveal
     if (!isCorrect) {
       setExpandedExplanations(prev => new Set([...prev, question.id]));
+
+      try {
+        const chosenText = question.cleanOptions?.[selectedOptionKey] || selectedOptionKey;
+        const correctText = question.cleanOptions?.[question.correctKey] || question.correctKey;
+        mistakeManager.recordMistake({
+          id: `du_q_${question.id || question.question_no}_${question.subject}`,
+          source: 'du_mcq_bank',
+          subject: question.subject,
+          subTitle: `${question.subject} • ${question.session_year} প্রশ্নব্যাংক`,
+          questionText: question.questionText || question.question,
+          userAnswer: `${selectedOptionKey}. ${chosenText}`,
+          correctAnswer: `${question.correctKey}. ${correctText}`,
+          explanation: question.explanationText || question.explanation || ''
+        });
+      } catch (err) {
+        console.warn('Failed to record MCQ bank mistake:', err);
+      }
     }
   };
 

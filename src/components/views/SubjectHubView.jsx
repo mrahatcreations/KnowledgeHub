@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { 
   Star, 
   Flame, 
@@ -16,7 +16,8 @@ import {
   Sparkle,
   Headphones,
   GraduationCap,
-  DownloadCloud
+  DownloadCloud,
+  AlertCircle
 } from 'lucide-react';
 import { sound } from '../../audio/SoundSynthesizer';
 import { 
@@ -24,6 +25,7 @@ import {
   getDuSavedStars, 
   getDuSubjectTotalStars 
 } from '../../utils/duDataHelper';
+import { mistakeManager } from '../../utils/mistakeManager';
 
 export default function SubjectHubView({
   levels = [],
@@ -49,6 +51,14 @@ export default function SubjectHubView({
     if (onModeChange) onModeChange(mode);
     setInternalMode(mode);
   };
+
+  const [mistakeCount, setMistakeCount] = useState(() => mistakeManager.getAllMistakes().length);
+
+  useEffect(() => {
+    return mistakeManager.onUpdate((detail) => {
+      setMistakeCount(detail.count);
+    });
+  }, []);
 
   const toggleAudio = () => {
     const next = !isAudioMuted;
@@ -405,6 +415,36 @@ export default function SubjectHubView({
                 <ChevronRight className="w-4 h-4 text-white" />
               </div>
             </div>
+
+            {/* MY MISTAKES VAULT QUICK ACCESS CARD */}
+            <div 
+              onClick={() => {
+                sound.playClick();
+                if (onSelectSubject) onSelectSubject('my_mistakes');
+              }}
+              className="w-full bg-[#9f1239] rounded-2xl p-4 flex items-center justify-between transition cursor-pointer active:scale-[0.99] shadow-sm mt-1"
+            >
+              <div className="flex items-center space-x-3.5 min-w-0 pr-2">
+                <div className="w-10 h-10 rounded-xl bg-[#881337] flex items-center justify-center text-white shrink-0">
+                  <AlertCircle className="w-5 h-5" />
+                </div>
+                <div className="min-w-0">
+                  <h4 className="text-sm font-bold text-white truncate">
+                    My Mistakes Vault
+                  </h4>
+                  <span className="text-xs text-rose-100/90 truncate block">
+                    ভুলসমূহ রিভিশন ও সংশোধন
+                  </span>
+                </div>
+              </div>
+
+              <div className="flex items-center space-x-2 shrink-0">
+                <span className="px-3 py-1.5 bg-[#881337] rounded-xl text-white font-mono text-xs font-bold">
+                  {mistakeCount} Mistakes
+                </span>
+                <ChevronRight className="w-4 h-4 text-white" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -524,13 +564,45 @@ export default function SubjectHubView({
             <div className="w-11 h-11 rounded-xl bg-[#5b21b6] flex items-center justify-center text-white transition shrink-0">
               <GraduationCap className="w-6 h-6 stroke-[1.75]" />
             </div>
-            <h2 className="text-base font-bold text-white font-sans tracking-tight truncate">
-              DU Question Bank <span className="text-purple-200 font-normal">| ঢাবি প্রশ্নব্যাংক</span>
-            </h2>
+            <div className="min-w-0">
+              <h2 className="text-base font-bold text-white font-sans tracking-tight truncate">
+                DU Question Bank <span className="text-purple-200 font-normal">| ঢাবি প্রশ্নব্যাংক</span>
+              </h2>
+            </div>
           </div>
 
           <div className="flex items-center space-x-2 shrink-0">
             <span className="text-xs font-mono font-bold bg-[#5b21b6] text-white px-3 py-1 rounded-xl">798 Items</span>
+            <ChevronRight className="w-4 h-4 text-white" />
+          </div>
+        </div>
+
+        {/* SUBJECT 3: MY MISTAKES HISTORY (SOLID CRIMSON + WHITE TEXT) */}
+        <div 
+          onClick={() => {
+            sound.playClick();
+            if (onSelectSubject) onSelectSubject('my_mistakes');
+          }}
+          className="w-full bg-[#9f1239] rounded-2xl p-4.5 transition cursor-pointer flex items-center justify-between active:scale-[0.99] shadow-sm"
+        >
+          <div className="flex items-center space-x-3.5 min-w-0 pr-2">
+            <div className="w-11 h-11 rounded-xl bg-[#881337] flex items-center justify-center text-white transition shrink-0">
+              <AlertCircle className="w-6 h-6 stroke-[1.75]" />
+            </div>
+            <div className="min-w-0">
+              <h2 className="text-base font-bold text-white font-sans tracking-tight truncate">
+                My Mistakes <span className="text-rose-200 font-normal">| আমার ভুলসমূহ</span>
+              </h2>
+              <p className="text-xs text-rose-100/90 font-medium truncate mt-0.5">
+                গেম ও অনুশীলনের সব ভুলের ইতিহাস ও রিভিশন
+              </p>
+            </div>
+          </div>
+
+          <div className="flex items-center space-x-2 shrink-0">
+            <span className="text-xs font-mono font-bold bg-[#881337] text-white px-3 py-1 rounded-xl">
+              {mistakeCount} Items
+            </span>
             <ChevronRight className="w-4 h-4 text-white" />
           </div>
         </div>

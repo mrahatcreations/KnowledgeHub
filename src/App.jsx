@@ -9,6 +9,7 @@ import DuYearListView from './components/views/DuYearListView';
 import DuQuestionBankView from './components/views/DuQuestionBankView';
 import DuLevelMap from './components/views/DuLevelMap';
 import DuGamePlayer from './components/views/DuGamePlayer';
+import MyMistakesView from './components/views/MyMistakesView';
 import { getDuGameLevels } from './utils/duDataHelper';
 
 import FlashcardStage from './components/stages/FlashcardStage';
@@ -134,6 +135,8 @@ export default function App() {
       setDuGameSubject(filter || 'বাংলা');
       setDuActiveLevel(extra?.level);
       setSelectedSubject('du_game_play');
+    } else if (subj === 'my_mistakes') {
+      setSelectedSubject('my_mistakes');
     }
   };
 
@@ -302,6 +305,7 @@ export default function App() {
                     setHubMode('learning');
                   }}
                   onOpenAudioSettings={() => setIsAudioSettingsOpen(true)}
+                  onOpenMistakes={() => handleSelectSubject('my_mistakes')}
                 />
               )}
               {selectedSubject === 'du_home' && (
@@ -363,6 +367,16 @@ export default function App() {
                     } else {
                       setSelectedSubject('du_game_map');
                     }
+                  }}
+                  isAudioMuted={isAudioMuted}
+                  setIsAudioMuted={setIsAudioMuted}
+                />
+              )}
+              {selectedSubject === 'my_mistakes' && (
+                <MyMistakesView
+                  onBack={() => {
+                    setSelectedSubject(null);
+                    setHubMode('learning');
                   }}
                   isAudioMuted={isAudioMuted}
                   setIsAudioMuted={setIsAudioMuted}

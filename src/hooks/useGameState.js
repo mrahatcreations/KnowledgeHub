@@ -3,6 +3,7 @@ import { buildLevelStages, STAGE_TYPES } from '../engine/GameEngine.js';
 import { sound } from '../audio/SoundSynthesizer.js';
 import confetti from 'canvas-confetti';
 import { defaultLevelsData } from '../data/defaultLevels.js';
+import { mistakeManager } from '../utils/mistakeManager.js';
 
 export const TOTAL_STAGES_PER_LEVEL = 10;
 export const STARS_PER_STAGE = 0.5;
@@ -456,6 +457,24 @@ export function useGameState(options = {}) {
         : [...prevMistakes, mistakeEntry];
       mistakesRef.current = updatedMistakes;
       setMistakes(updatedMistakes);
+
+      // Persist to unified mistake history across entire app
+      try {
+        mistakeManager.recordMistake({
+          id: `vocab_${String(mistakeEntry.word).toLowerCase()}`,
+          source: 'vocab_game',
+          subject: 'Vocabulary',
+          subTitle: `Level ${currentLevel}: Vocabulary`,
+          questionText: mistakeEntry.word,
+          userAnswer: mistakeEntry.userAnswer,
+          correctAnswer: mistakeEntry.correctAnswer || mistakeEntry.meaning,
+          explanation: mistakeEntry.meaning 
+            ? `অর্থ: ${mistakeEntry.meaning}${mistakeEntry.sentence ? `\nউদাহরণ: ${mistakeEntry.sentence}` : ''}`
+            : mistakeEntry.explanation
+        });
+      } catch (err) {
+        console.warn('Failed to record mistake in unified manager:', err);
+      }
 
       if (stageAttempts === 0) {
         // First wrong attempt -> Give 2nd chance
