@@ -144,29 +144,21 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
   const hasSecondChanceAlert = isSecondChance || wrongWords.length > 0;
 
   return (
-    <div className="w-full max-w-xl mx-auto flex flex-col space-y-3.5 sm:space-y-4 animate-pop select-none">
-      {/* Editorial Sentence Card */}
+    <div className="w-full max-w-xl mx-auto flex flex-col space-y-3 sm:space-y-3.5 select-none">
+      {/* Editorial Sentence Prompt Container */}
       <div 
-        className={`relative rounded-none bg-slate-900 border-2 transition-all duration-200 p-4 sm:p-5 shadow-sm ${
-          feedbackState === 'correct' 
-            ? 'border-emerald-500' 
-            : feedbackState === 'wrong'
-            ? 'border-rose-500 animate-shake'
-            : hasSecondChanceAlert 
-            ? 'border-amber-500' 
-            : 'border-slate-800'
-        }`}
+        className="relative rounded-2xl bg-[#1e293b] transition-all duration-200 p-4.5 sm:p-5 shadow-sm text-left"
       >
         {/* Card Header */}
-        <div className="flex items-center justify-between gap-2 mb-3 pb-2.5 border-b border-slate-800">
+        <div className="flex items-center justify-between gap-2 mb-3 pb-2.5 border-b border-slate-700/60">
           <div className="flex items-center space-x-2">
-            <span className="px-2.5 py-1 bg-indigo-950/80 border border-indigo-800/60 text-indigo-300 text-[11px] font-bold uppercase tracking-widest rounded-none">
+            <span className="px-2.5 py-0.5 bg-[#0f172a] text-blue-300 text-[10px] sm:text-[11px] font-mono font-bold uppercase tracking-wider rounded-lg">
               Sentence Completion
             </span>
 
             {hasSecondChanceAlert && (
-              <span className="px-2.5 py-1 bg-amber-500 text-slate-950 text-[11px] font-black tracking-wider uppercase rounded-none flex items-center gap-1">
-                <Sparkles className="w-3 h-3 fill-slate-950" />
+              <span className="px-2.5 py-0.5 bg-amber-600 text-white text-[10px] sm:text-[11px] font-bold tracking-wider uppercase rounded-lg flex items-center gap-1">
+                <Sparkles className="w-3 h-3 text-white" />
                 2nd Chance
               </span>
             )}
@@ -175,8 +167,8 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
           <button
             type="button"
             onClick={handleSpeak}
-            className={`px-3 py-1 bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white border border-slate-700 transition cursor-pointer rounded-none flex items-center space-x-1.5 active:bg-slate-700 ${
-              isSpeaking ? 'border-amber-400 text-amber-300' : ''
+            className={`px-3 py-1.5 bg-[#0f172a] hover:bg-[#182033] text-white transition cursor-pointer rounded-lg flex items-center space-x-1.5 active:scale-95 ${
+              isSpeaking ? 'text-amber-300' : ''
             }`}
             title="Listen to full sentence pronunciation"
           >
@@ -186,11 +178,11 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
         </div>
 
         {/* Editorial Quote Sentence Container with Snap-in Slot */}
-        <div className="my-3 px-1 sm:px-2 text-base sm:text-lg font-medium text-slate-100 leading-relaxed text-center sm:text-left break-words">
-          <span className="text-indigo-400 font-serif text-xl sm:text-2xl mr-1 select-none">&ldquo;</span>
+        <div className="my-3 px-1 sm:px-2 text-base sm:text-lg font-medium text-white leading-relaxed text-center sm:text-left break-words">
+          <span className="text-blue-400 font-serif text-xl sm:text-2xl mr-1 select-none">&ldquo;</span>
           {sentenceParts.map((part, index) => (
             <React.Fragment key={index}>
-              <span className="text-slate-100">{part}</span>
+              <span className="text-white">{part}</span>
               {index < sentenceParts.length - 1 && (
                 <span
                   ref={slotRef}
@@ -207,39 +199,39 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
                     }
                   } : undefined}
                   title={placedWord ? 'Click or tap to remove word' : 'Drop or tap a word to place here'}
-                  className={`inline-flex items-center justify-center align-middle mx-1.5 my-1 min-h-[44px] min-w-[125px] sm:min-w-[145px] px-3 py-1 rounded-none border-2 transition-all duration-150 text-sm sm:text-base font-bold relative max-w-full ${
+                  className={`inline-flex items-center justify-center align-middle mx-1.5 my-1 min-h-[44px] min-w-[125px] sm:min-w-[145px] px-3.5 py-1.5 rounded-xl transition-all duration-150 text-sm sm:text-base font-bold relative max-w-full shadow-sm ${
                     placedWord
                       ? feedbackState === 'correct'
-                        ? 'bg-emerald-950/90 border-emerald-400 text-emerald-100 cursor-pointer shadow-[0_2px_0_#065f46]'
+                        ? 'bg-[#059669] text-white cursor-pointer'
                         : feedbackState === 'wrong'
-                        ? 'bg-rose-950/90 border-rose-400 text-rose-100 cursor-pointer shadow-[0_2px_0_#9f1239]'
-                        : 'bg-indigo-950/80 border-indigo-400 text-indigo-100 cursor-pointer shadow-[0_2px_0_#312e81] hover:border-indigo-300'
+                        ? 'bg-[#b91c1c] text-white cursor-pointer animate-shake'
+                        : 'bg-[#2563eb] text-white cursor-pointer'
                       : isDragOver
-                      ? 'border-indigo-400 bg-indigo-950/60 text-indigo-200 shadow-inner'
-                      : 'border-dashed border-slate-700 bg-slate-950/90 text-slate-400 hover:border-slate-500 cursor-pointer'
+                      ? 'bg-[#1d4ed8] text-white'
+                      : 'bg-[#0f172a] text-slate-400 hover:text-slate-200 cursor-pointer'
                   }`}
                 >
                   {placedWord ? (
                     <span className="flex items-center space-x-2 animate-pop max-w-full">
                       <span className="break-words max-w-[140px] sm:max-w-[180px] tracking-wide text-white">{placedWord}</span>
                       {feedbackState === 'correct' && (
-                        <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-white shrink-0" />
                       )}
                       {feedbackState === 'wrong' && (
-                        <XCircle className="w-4 h-4 text-rose-400 shrink-0" />
+                        <XCircle className="w-4 h-4 text-white shrink-0" />
                       )}
                       {feedbackState === 'idle' && (
                         <span 
                           title="Tap to return word to bank" 
-                          className="p-0.5 hover:bg-white/15 rounded-none transition ml-0.5 shrink-0"
+                          className="p-0.5 hover:bg-white/20 rounded-md transition ml-0.5 shrink-0"
                         >
-                          <Undo2 className="w-3.5 h-3.5 text-indigo-300" />
+                          <Undo2 className="w-3.5 h-3.5 text-white" />
                         </span>
                       )}
                     </span>
                   ) : (
                     <span className="flex items-center space-x-1.5 text-xs font-semibold text-slate-400 tracking-wide">
-                      <ArrowDown className="w-3 h-3 text-indigo-400 shrink-0" />
+                      <ArrowDown className="w-3 h-3 text-blue-400 shrink-0" />
                       <span>[ Blank Slot ]</span>
                     </span>
                   )}
@@ -247,12 +239,12 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
               )}
             </React.Fragment>
           ))}
-          <span className="text-indigo-400 font-serif text-xl sm:text-2xl ml-1 select-none">&rdquo;</span>
+          <span className="text-blue-400 font-serif text-xl sm:text-2xl ml-1 select-none">&rdquo;</span>
         </div>
 
         {/* Editorial Definition & Word Meta Footer */}
         {stage?.item?.meaning && (
-          <div className="mt-3 pt-2.5 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400 font-normal">
+          <div className="mt-3 pt-2.5 border-t border-slate-700/60 flex items-center justify-between text-xs text-slate-300 font-normal">
             <div className="flex items-center space-x-1.5 truncate mr-2">
               <BookOpen className="w-3.5 h-3.5 text-amber-400 shrink-0" />
               <span className="truncate">
@@ -261,7 +253,7 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
             </div>
 
             {stage?.item?.pos && (
-              <span className="shrink-0 px-2 py-0.5 bg-slate-800 text-slate-400 text-[10px] font-mono font-bold uppercase tracking-wider rounded-none border border-slate-700">
+              <span className="shrink-0 px-2 py-0.5 bg-[#0f172a] text-blue-300 text-[10px] font-mono font-bold uppercase tracking-wider rounded-md">
                 {stage.item.pos}
               </span>
             )}
@@ -269,14 +261,14 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
         )}
       </div>
 
-      {/* Hard-Edged Word Bank Pool Container */}
-      <div className="p-4 sm:p-5 rounded-none bg-slate-900 border-2 border-slate-800 text-center shadow-sm">
-        <div className="flex items-center justify-center space-x-1.5 text-xs text-slate-400 font-semibold mb-3.5 uppercase tracking-wider">
-          <MousePointerClick className="w-3.5 h-3.5 text-indigo-400 shrink-0" />
-          <span>Tap or drag tokens into sentence slot</span>
+      {/* Word Bank Pool Container */}
+      <div className="p-4.5 sm:p-5 rounded-2xl bg-[#1e293b] text-center shadow-sm">
+        <div className="flex items-center justify-center space-x-1.5 text-xs text-slate-400 font-semibold mb-3 uppercase tracking-wider">
+          <MousePointerClick className="w-3.5 h-3.5 text-blue-400 shrink-0" />
+          <span>Tap tokens into sentence slot</span>
         </div>
 
-        {/* Hard-Edged Word Tokens Grid / Wrap */}
+        {/* Word Tokens Grid */}
         <div className="flex flex-wrap justify-center gap-2.5">
           {(stage?.options || []).map((opt, i) => {
             const isWrong = wrongWords.includes(opt);
@@ -297,17 +289,17 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
                 }}
                 disabled={isWrong || isSubmitting}
                 title={isPlaced ? 'Tap to return to bank' : isWrong ? 'Incorrect option' : 'Tap to place in slot'}
-                className={`py-2.5 px-4 rounded-none font-black text-xs sm:text-sm transition-all flex items-center space-x-2 break-words max-w-full text-center border-2 select-none cursor-pointer tracking-wide ${
+                className={`py-2.5 px-4 rounded-xl font-bold text-xs sm:text-sm transition-all flex items-center space-x-2 break-words max-w-full text-center select-none cursor-pointer tracking-wide shadow-sm active:scale-95 ${
                   isWrong
-                    ? 'border-rose-900/60 bg-rose-950/30 text-rose-400/50 line-through cursor-not-allowed opacity-50'
+                    ? 'bg-[#7f1d1d] text-slate-400 line-through cursor-not-allowed opacity-50'
                     : isPlaced
-                    ? 'border-dashed border-indigo-500/60 bg-indigo-950/30 text-indigo-300 opacity-60 scale-95'
-                    : 'bg-blue-600 hover:bg-blue-500 text-white border-blue-300 shadow-[0_4px_0_#1d4ed8] active:translate-y-1 active:shadow-none'
+                    ? 'bg-[#0f172a] text-slate-400 opacity-60 scale-95'
+                    : 'bg-[#2563eb] hover:bg-[#1d4ed8] text-white'
                 }`}
               >
                 <span className="break-words">{opt}</span>
-                {isWrong && <XCircle className="w-3.5 h-3.5 text-rose-400 shrink-0" />}
-                {isPlaced && <Undo2 className="w-3.5 h-3.5 text-indigo-400 shrink-0" />}
+                {isWrong && <XCircle className="w-3.5 h-3.5 text-white shrink-0" />}
+                {isPlaced && <Undo2 className="w-3.5 h-3.5 text-white shrink-0" />}
               </button>
             );
           })}
@@ -321,7 +313,7 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
             type="button"
             onClick={handleRemovePlacedWord}
             disabled={isSubmitting}
-            className="py-3.5 px-4 rounded-none bg-slate-800 hover:bg-slate-700 border-2 border-slate-600 text-slate-200 font-bold text-xs sm:text-sm flex items-center justify-center space-x-1.5 transition active:scale-95 shrink-0 cursor-pointer shadow-[0_3px_0_#020617]"
+            className="py-3 px-4 rounded-xl bg-[#0f172a] hover:bg-[#182033] text-white font-bold text-xs sm:text-sm flex items-center justify-center space-x-1.5 transition active:scale-95 shrink-0 cursor-pointer shadow-sm"
             title="Clear placed word from slot"
           >
             <RotateCcw className="w-3.5 h-3.5 text-slate-400 shrink-0" />
@@ -333,14 +325,14 @@ export default function DragDropStage({ stage, onSubmitAnswer, isSecondChance })
           type="button"
           onClick={handleCheckAnswer}
           disabled={!placedWord || isSubmitting || feedbackState === 'correct'}
-          className={`flex-1 py-3.5 px-4 rounded-none font-black text-sm uppercase tracking-wider transition-all flex items-center justify-center space-x-2 border-2 cursor-pointer ${
+          className={`flex-1 py-3.5 px-4 rounded-xl font-bold text-sm uppercase tracking-wider transition-all flex items-center justify-center space-x-2 cursor-pointer shadow-sm active:scale-[0.99] ${
             !placedWord || isSubmitting
-              ? 'bg-slate-900 border-slate-800 text-slate-500 cursor-not-allowed opacity-60'
+              ? 'bg-[#1e293b] text-slate-500 cursor-not-allowed opacity-60'
               : feedbackState === 'correct'
-              ? 'bg-emerald-600 border-emerald-300 text-white shadow-[0_5px_0_#065f46]'
+              ? 'bg-[#059669] text-white'
               : feedbackState === 'wrong'
-              ? 'bg-rose-600 border-rose-300 text-white shadow-[0_5px_0_#9f1239]'
-              : 'bg-emerald-600 hover:bg-emerald-500 border-emerald-300 text-white shadow-[0_5px_0_#065f46] active:translate-y-1 active:shadow-none'
+              ? 'bg-[#b91c1c] text-white'
+              : 'bg-[#059669] hover:bg-[#047857] text-white'
           }`}
         >
           <Check className="w-4 h-4 stroke-[3]" />

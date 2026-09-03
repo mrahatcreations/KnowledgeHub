@@ -143,29 +143,23 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
 
   return (
     <div className="w-full max-w-xl mx-auto flex flex-col space-y-3 sm:space-y-3.5 select-none">
-      {/* Progress & Status Header */}
-      <div className="bg-[#0e1626]/95 rounded-none p-3 sm:p-3.5 border border-slate-800 shadow-sm flex flex-col space-y-2">
+      {/* Top Header Card */}
+      <div className="p-4 sm:p-5 rounded-2xl bg-[#1e293b] shadow-sm space-y-2.5">
         <div className="flex items-center justify-between gap-2">
-          <div className="flex items-center space-x-2 min-w-0 flex-1">
-            <div className="w-7 h-7 rounded-none bg-slate-900 border border-slate-800 flex items-center justify-center text-blue-400 shrink-0">
-              <ArrowRightLeft className="w-4 h-4" />
-            </div>
-            <div className="min-w-0 flex-1">
-              <span className="text-xs sm:text-sm font-black text-white uppercase tracking-wider truncate block">
-                {stage?.title || 'Pair Matching'}
-              </span>
-              <div className="text-[11px] text-slate-400 font-medium truncate block">
-                {stage?.instruction || 'Select matching pairs from left and right columns'}
-              </div>
-            </div>
+          <div className="flex items-center space-x-2">
+            <span className="px-2.5 py-0.5 bg-[#0f172a] text-blue-300 text-[10px] sm:text-[11px] font-mono font-bold rounded-lg uppercase tracking-wider">
+              MATCH PAIRS
+            </span>
+            <span className="text-xs sm:text-sm font-bold text-white font-montserrat">
+              {stage.prompt || 'Match terms with meanings'}
+            </span>
           </div>
 
-          {/* Pairs Counter Badge */}
-          <div
-            className={`shrink-0 px-2.5 py-1 rounded-none border font-mono text-xs font-bold whitespace-nowrap transition-all flex items-center space-x-1.5 ${
+          <div 
+            className={`px-2.5 py-1 rounded-lg text-xs font-mono font-bold flex items-center space-x-1.5 shrink-0 ${
               matchedCount === totalPairs
-                ? 'bg-emerald-600 border-emerald-400 text-white shadow-xs'
-                : 'bg-slate-900 border-slate-800 text-blue-300'
+                ? 'bg-[#059669] text-white'
+                : 'bg-[#0f172a] text-slate-300'
             }`}
           >
             <Sparkles
@@ -178,9 +172,9 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
         </div>
 
         {/* Progress Bar */}
-        <div className="w-full bg-slate-950 border border-slate-800 rounded-none h-2 overflow-hidden">
+        <div className="w-full bg-[#0f172a] rounded-full h-1.5 overflow-hidden">
           <div
-            className="h-full rounded-none bg-gradient-to-r from-blue-500 via-teal-400 to-emerald-400 transition-all duration-300"
+            className="h-full rounded-full bg-[#2563eb] transition-all duration-300"
             style={{ width: `${progressPercent}%` }}
           />
         </div>
@@ -188,15 +182,15 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
 
       {/* Mistake Alert Banner */}
       {(hadMistake || isSecondChance) && !isFinished && (
-        <div className="p-2.5 rounded-none bg-amber-600/20 border border-amber-400/50 text-amber-300 text-xs font-mono font-bold flex items-center justify-center space-x-2">
+        <div className="p-2.5 rounded-xl bg-amber-600/20 text-amber-300 text-xs font-mono font-bold flex items-center justify-center space-x-2">
           <AlertCircle className="w-4 h-4 text-amber-400 shrink-0" />
-          <span>Incorrect match. Match the remaining pairs carefully (2nd Chance)</span>
+          <span>Match remaining pairs carefully (2nd Chance)</span>
         </div>
       )}
 
-      {/* Success Banner when all matched */}
+      {/* Success Banner */}
       {isFinished && (
-        <div className="p-2.5 rounded-none bg-emerald-600 border border-emerald-400 text-white text-xs sm:text-sm font-black flex items-center justify-center space-x-2 shadow-md animate-pop">
+        <div className="p-2.5 rounded-xl bg-[#059669] text-white text-xs sm:text-sm font-bold flex items-center justify-center space-x-2 shadow-sm animate-pop">
           <Check className="w-4 h-4 text-white stroke-[3] shrink-0" />
           <span>COMPLETED! ALL PAIRS MATCHED!</span>
         </div>
@@ -206,9 +200,9 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
       <div className="grid grid-cols-2 gap-2 sm:gap-3 pt-0.5">
         {/* Left Column */}
         <div className="flex flex-col space-y-2">
-          <div className="flex items-center justify-between px-1 pb-1 border-b border-slate-800">
+          <div className="flex items-center justify-between px-1 pb-1 border-b border-slate-700/60">
             <span className="text-[11px] font-mono font-bold uppercase tracking-wider text-blue-400 flex items-center space-x-1.5 truncate">
-              <span className="w-2 h-2 rounded-none bg-blue-500 shrink-0 inline-block" />
+              <span className="w-2 h-2 rounded-full bg-blue-500 shrink-0 inline-block" />
               <span className="truncate">{leftHeader}</span>
             </span>
             <span className="text-[10px] text-slate-400 font-bold font-mono shrink-0">
@@ -221,7 +215,6 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
               const isMatched = matchedIds.includes(item.id);
               const isSelected = selectedLeft?.id === item.id;
               const isError = errorLeftId === item.id;
-              const isRecent = recentMatchedId === item.id;
 
               return (
                 <button
@@ -229,18 +222,18 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
                   type="button"
                   onClick={() => handleLeftClick(item)}
                   disabled={isMatched || isFinished}
-                  className={`w-full min-h-[52px] sm:min-h-[56px] p-3 rounded-none font-bold text-left transition-all duration-150 flex items-center justify-between group relative border cursor-pointer ${
+                  className={`w-full min-h-[52px] sm:min-h-[56px] p-3 rounded-xl font-bold text-left transition-all duration-150 flex items-center justify-between group relative cursor-pointer shadow-sm ${
                     isMatched
-                      ? 'bg-emerald-600 border-emerald-400 text-white shadow-[0_3px_0_#065f46] opacity-95'
+                      ? 'bg-[#059669] text-white'
                       : isError
-                      ? 'bg-rose-600 border-2 border-rose-300 text-white animate-shake shadow-[0_3px_0_#9f1239]'
+                      ? 'bg-[#b91c1c] text-white animate-shake'
                       : isSelected
-                      ? 'bg-blue-600 border-2 border-blue-300 text-white shadow-[0_3px_0_#1d4ed8] scale-[1.02]'
-                      : 'bg-slate-900 border-slate-800 hover:border-blue-500 text-white shadow-[0_3px_0_#020617] active:translate-y-1 active:shadow-none'
+                      ? 'bg-[#2563eb] text-white scale-[1.02]'
+                      : 'bg-[#1e293b] hover:bg-[#283548] text-white'
                   }`}
                 >
                   <div className="flex items-center space-x-2 flex-1 min-w-0 mr-1">
-                    <span className="tracking-tight font-black break-words min-w-0 leading-tight text-sm sm:text-base text-white">
+                    <span className="tracking-tight font-bold break-words min-w-0 leading-tight text-sm sm:text-base text-white">
                       {item.text}
                     </span>
                   </div>
@@ -248,11 +241,11 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
                   {/* Status / Audio Actions */}
                   <div className="shrink-0 flex items-center space-x-1">
                     {isMatched ? (
-                      <div className="w-5 h-5 rounded-none bg-emerald-700 border border-emerald-300 flex items-center justify-center text-white">
+                      <div className="w-5 h-5 rounded-lg bg-[#047857] flex items-center justify-center text-white">
                         <Check className="w-3.5 h-3.5 stroke-[3]" />
                       </div>
                     ) : isError ? (
-                      <div className="w-5 h-5 rounded-none bg-rose-700 border border-rose-300 flex items-center justify-center text-white">
+                      <div className="w-5 h-5 rounded-lg bg-[#991b1b] flex items-center justify-center text-white">
                         <X className="w-3.5 h-3.5 stroke-[3]" />
                       </div>
                     ) : (
@@ -265,7 +258,7 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
                             handleSpeakOnly(e, item.text);
                           }
                         }}
-                        className="p-1 rounded-none text-slate-400 hover:text-white hover:bg-slate-800 transition shrink-0 cursor-pointer"
+                        className="p-1 rounded-lg text-slate-400 hover:text-white bg-[#0f172a] transition shrink-0 cursor-pointer"
                         title="Listen pronunciation"
                       >
                         <Volume2 className="w-4 h-4" />
@@ -280,9 +273,9 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
 
         {/* Right Column */}
         <div className="flex flex-col space-y-2">
-          <div className="flex items-center justify-between px-1 pb-1 border-b border-slate-800">
+          <div className="flex items-center justify-between px-1 pb-1 border-b border-slate-700/60">
             <span className="text-[11px] font-mono font-bold uppercase tracking-wider text-teal-400 flex items-center space-x-1.5 truncate">
-              <span className="w-2 h-2 rounded-none bg-teal-500 shrink-0 inline-block" />
+              <span className="w-2 h-2 rounded-full bg-teal-500 shrink-0 inline-block" />
               <span className="truncate">{rightHeader}</span>
             </span>
             <span className="text-[10px] text-slate-400 font-bold font-mono shrink-0">
@@ -295,7 +288,6 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
               const isMatched = matchedIds.includes(item.id);
               const isSelected = selectedRight?.id === item.id;
               const isError = errorRightId === item.id;
-              const isRecent = recentMatchedId === item.id;
 
               return (
                 <button
@@ -303,14 +295,14 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
                   type="button"
                   onClick={() => handleRightClick(item)}
                   disabled={isMatched || isFinished}
-                  className={`w-full min-h-[52px] sm:min-h-[56px] p-3 rounded-none font-bold text-left transition-all duration-150 flex items-center justify-between group relative border cursor-pointer ${
+                  className={`w-full min-h-[52px] sm:min-h-[56px] p-3 rounded-xl font-bold text-left transition-all duration-150 flex items-center justify-between group relative cursor-pointer shadow-sm ${
                     isMatched
-                      ? 'bg-emerald-600 border-emerald-400 text-white shadow-[0_3px_0_#065f46] opacity-95'
+                      ? 'bg-[#059669] text-white'
                       : isError
-                      ? 'bg-rose-600 border-2 border-rose-300 text-white animate-shake shadow-[0_3px_0_#9f1239]'
+                      ? 'bg-[#b91c1c] text-white animate-shake'
                       : isSelected
-                      ? 'bg-teal-600 border-2 border-teal-300 text-white shadow-[0_3px_0_#0f766e] scale-[1.02]'
-                      : 'bg-slate-900 border-slate-800 hover:border-teal-500 text-white shadow-[0_3px_0_#020617] active:translate-y-1 active:shadow-none'
+                      ? 'bg-[#0d9488] text-white scale-[1.02]'
+                      : 'bg-[#1e293b] hover:bg-[#283548] text-white'
                   }`}
                 >
                   <div className="flex-1 min-w-0 mr-1">
@@ -322,15 +314,15 @@ export default function MatchingStage({ stage, onSubmitAnswer, isSecondChance })
                   {/* Status Indicator */}
                   <div className="shrink-0 flex items-center justify-center">
                     {isMatched ? (
-                      <div className="w-5 h-5 rounded-none bg-emerald-700 border border-emerald-300 flex items-center justify-center text-white">
+                      <div className="w-5 h-5 rounded-lg bg-[#047857] flex items-center justify-center text-white">
                         <Check className="w-3.5 h-3.5 stroke-[3]" />
                       </div>
                     ) : isError ? (
-                      <div className="w-5 h-5 rounded-none bg-rose-700 border border-rose-300 flex items-center justify-center text-white">
+                      <div className="w-5 h-5 rounded-lg bg-[#991b1b] flex items-center justify-center text-white">
                         <X className="w-3.5 h-3.5 stroke-[3]" />
                       </div>
                     ) : (
-                      <div className="w-2 h-2 rounded-none bg-slate-600 group-hover:bg-teal-400 transition shrink-0" />
+                      <div className="w-2 h-2 rounded-full bg-slate-600 group-hover:bg-teal-400 transition shrink-0" />
                     )}
                   </div>
                 </button>

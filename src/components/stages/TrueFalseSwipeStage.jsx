@@ -149,7 +149,7 @@ export default function TrueFalseSwipeStage({ stage, onSubmitAnswer, isSecondCha
       <div className="relative w-full min-h-[300px] sm:min-h-[320px] flex items-center justify-center pt-1">
         {/* Background Deck Card 2 */}
         <div 
-          className="absolute w-[92%] h-[94%] rounded-none bg-slate-900/60 border border-slate-800/60 transition-transform duration-300 pointer-events-none"
+          className="absolute w-[92%] h-[94%] rounded-2xl bg-[#0f172a] transition-transform duration-300 pointer-events-none"
           style={{
             transform: `translateY(10px) scale(${0.94 + (isDragging ? 0.02 : 0)})`,
             opacity: 0.5
@@ -158,14 +158,14 @@ export default function TrueFalseSwipeStage({ stage, onSubmitAnswer, isSecondCha
 
         {/* Background Deck Card 1 */}
         <div 
-          className="absolute w-[96%] h-[97%] rounded-none bg-slate-900/80 border border-slate-800 transition-transform duration-300 pointer-events-none"
+          className="absolute w-[96%] h-[97%] rounded-2xl bg-[#0f172a] transition-transform duration-300 pointer-events-none"
           style={{
             transform: `translateY(5px) scale(${0.97 + (isDragging ? 0.02 : 0)})`,
             opacity: 0.8
           }}
         />
 
-        {/* Main Swipeable Action Card (Hard Corners / Luxury Editorial) */}
+        {/* Main Swipeable Action Card */}
         <div
           ref={cardRef}
           onPointerDown={handlePointerDown}
@@ -178,8 +178,8 @@ export default function TrueFalseSwipeStage({ stage, onSubmitAnswer, isSecondCha
             borderColor: cardBorderColor,
             touchAction: 'pan-y'
           }}
-          className={`relative w-full min-h-[290px] sm:min-h-[310px] p-4 sm:p-5 rounded-none bg-slate-900 border flex flex-col justify-between cursor-grab active:cursor-grabbing shadow-[0_4px_20px_rgba(0,0,0,0.5)] ${
-            isSecondChance ? 'border-amber-500/50' : 'border-slate-800'
+          className={`relative w-full min-h-[290px] sm:min-h-[310px] p-4 sm:p-5 rounded-2xl bg-[#1e293b] flex flex-col justify-between cursor-grab active:cursor-grabbing shadow-sm ${
+            isSecondChance ? 'border-2 border-amber-500/50' : 'border-0'
           }`}
         >
           {/* Dynamic Stamp: TRUE (Right Swipe) */}
@@ -188,9 +188,9 @@ export default function TrueFalseSwipeStage({ stage, onSubmitAnswer, isSecondCha
               opacity: trueRatio,
               transform: `scale(${0.9 + trueRatio * 0.15}) rotate(-8deg)`
             }}
-            className="absolute top-4 right-4 z-20 px-3.5 py-1.5 rounded-none border-2 border-emerald-400 bg-emerald-950/95 text-emerald-300 font-mono font-black flex items-center space-x-1.5 pointer-events-none transition-all duration-75 shadow-[0_0_20px_rgba(16,185,129,0.7)] tracking-wider"
+            className="absolute top-4 right-4 z-20 px-3.5 py-1.5 rounded-xl bg-[#059669] text-white font-mono font-black flex items-center space-x-1.5 pointer-events-none transition-all duration-75 shadow-lg tracking-wider"
           >
-            <Check className="w-4 h-4 text-emerald-400 stroke-[3]" />
+            <Check className="w-4 h-4 text-white stroke-[3]" />
             <span className="text-sm font-black tracking-widest">TRUE</span>
           </div>
 
@@ -200,21 +200,21 @@ export default function TrueFalseSwipeStage({ stage, onSubmitAnswer, isSecondCha
               opacity: falseRatio,
               transform: `scale(${0.9 + falseRatio * 0.15}) rotate(8deg)`
             }}
-            className="absolute top-4 left-4 z-20 px-3.5 py-1.5 rounded-none border-2 border-rose-400 bg-rose-950/95 text-rose-300 font-mono font-black flex items-center space-x-1.5 pointer-events-none transition-all duration-75 shadow-[0_0_20px_rgba(244,63,94,0.7)] tracking-wider"
+            className="absolute top-4 left-4 z-20 px-3.5 py-1.5 rounded-xl bg-[#b91c1c] text-white font-mono font-black flex items-center space-x-1.5 pointer-events-none transition-all duration-75 shadow-lg tracking-wider"
           >
-            <X className="w-4 h-4 text-rose-400 stroke-[3]" />
+            <X className="w-4 h-4 text-white stroke-[3]" />
             <span className="text-sm font-black tracking-widest">FALSE</span>
           </div>
 
           {/* Card Top Badges */}
           <div className="flex items-center justify-between z-10">
             <div className="flex items-center space-x-1.5">
-              <span className="px-2.5 py-0.5 bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-[10px] sm:text-[11px] font-mono font-bold rounded-none uppercase tracking-widest">
+              <span className="px-2.5 py-0.5 bg-[#0f172a] text-blue-300 text-[10px] sm:text-[11px] font-mono font-bold rounded-lg uppercase tracking-wider">
                 {stage?.item?.pos ? String(stage.item.pos).toUpperCase() : 'VOCABULARY'}
               </span>
               {isSecondChance && (
-                <span className="px-2 py-0.5 bg-amber-500/10 border border-amber-500/30 text-amber-300 text-[10px] font-mono font-bold rounded-none flex items-center space-x-1 uppercase tracking-wider">
-                  <Sparkles className="w-3 h-3 text-amber-400" />
+                <span className="px-2 py-0.5 bg-amber-600 text-white text-[10px] font-mono font-bold rounded-lg flex items-center space-x-1 uppercase tracking-wider">
+                  <Sparkles className="w-3 h-3 text-white" />
                   <span>2nd Chance</span>
                 </span>
               )}
@@ -223,7 +223,7 @@ export default function TrueFalseSwipeStage({ stage, onSubmitAnswer, isSecondCha
             <button
               onClick={handleSpeak}
               type="button"
-              className="p-1.5 rounded-none bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-300 hover:text-white transition active:scale-95 flex items-center justify-center cursor-pointer"
+              className="p-1.5 rounded-lg bg-[#0f172a] text-slate-300 hover:text-white transition active:scale-95 flex items-center justify-center cursor-pointer"
               title="Listen pronunciation"
             >
               <Volume2 className={`w-3.5 h-3.5 ${isSpeaking ? 'text-amber-400' : ''}`} />
@@ -232,33 +232,33 @@ export default function TrueFalseSwipeStage({ stage, onSubmitAnswer, isSecondCha
 
           {/* Card Center Challenge Content */}
           <div className="text-center py-2 px-1 my-auto z-10">
-            <h2 className="text-2xl sm:text-3xl font-black text-white tracking-tight font-luxury-serif break-words">
+            <h2 className="text-2xl sm:text-3xl font-black text-white tracking-tight font-montserrat break-words">
               {stage?.item?.word}
             </h2>
             {stage?.item?.phonetic && (
-              <p className="text-xs font-mono text-slate-400 mt-0.5">
+              <p className="text-xs font-mono text-slate-300 mt-0.5">
                 /{stage.item.phonetic}/
               </p>
             )}
 
-            <div className="my-2.5 h-[1px] w-10 bg-indigo-500/40 mx-auto" />
+            <div className="my-2.5 h-[1px] w-10 bg-slate-700/60 mx-auto" />
 
             {/* Statement Verification Box */}
-            <div className="bg-slate-950 border border-slate-800 rounded-none p-3.5 sm:p-4 text-center">
+            <div className="bg-[#0f172a] rounded-xl p-3.5 sm:p-4 text-center">
               <p className="text-[10px] font-mono uppercase tracking-widest text-slate-400 font-bold mb-1.5">
                 Statement Verification
               </p>
-              <p className="font-luxury-serif text-lg sm:text-xl font-bold text-amber-300 leading-snug break-words">
+              <p className="font-montserrat text-lg sm:text-xl font-bold text-amber-300 leading-snug break-words">
                 &ldquo;{stage?.displayedMeaning || stage?.statement}&rdquo;
               </p>
-              <p className="text-[11px] text-slate-400 font-medium mt-1.5">
+              <p className="text-[11px] text-slate-300 font-medium mt-1.5">
                 {promptContextLabel}
               </p>
             </div>
           </div>
 
           {/* Card Bottom Hint */}
-          <div className="flex items-center justify-between text-[11px] font-mono font-bold text-slate-400 px-2 pt-2.5 border-t border-slate-800/80 z-10">
+          <div className="flex items-center justify-between text-[11px] font-mono font-bold text-slate-400 px-2 pt-2.5 border-t border-slate-700/60 z-10">
             <div className="flex items-center space-x-1.5 text-rose-400 font-semibold">
               <ArrowLeft className="w-3.5 h-3.5" />
               <span>Left: FALSE</span>
@@ -272,14 +272,14 @@ export default function TrueFalseSwipeStage({ stage, onSubmitAnswer, isSecondCha
         </div>
       </div>
 
-      {/* Action Controls (50/50 Grid - Hard Corners & Tactile 3D Buttons) */}
+      {/* Action Controls */}
       <div className="grid grid-cols-2 gap-3 w-full pt-1">
         {/* FALSE Button */}
         <button
           type="button"
           onClick={() => handleDecision('FALSE')}
           disabled={isAnswered}
-          className="w-full py-4 px-4 rounded-none bg-rose-600 hover:bg-rose-500 text-white font-mono font-black flex items-center justify-center space-x-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed shadow-[0_5px_0_#9f1239] active:translate-y-1 active:shadow-none border-2 border-rose-300 transition tracking-wider uppercase text-sm"
+          className="w-full py-3.5 px-4 rounded-xl bg-[#b91c1c] hover:bg-[#991b1b] text-white font-mono font-bold flex items-center justify-center space-x-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed transition tracking-wider uppercase text-sm shadow-sm active:scale-[0.98]"
         >
           <X className="w-4 h-4 stroke-[3]" />
           <span>FALSE</span>
@@ -290,7 +290,7 @@ export default function TrueFalseSwipeStage({ stage, onSubmitAnswer, isSecondCha
           type="button"
           onClick={() => handleDecision('TRUE')}
           disabled={isAnswered}
-          className="w-full py-4 px-4 rounded-none bg-emerald-600 hover:bg-emerald-500 text-white font-mono font-black flex items-center justify-center space-x-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed shadow-[0_5px_0_#065f46] active:translate-y-1 active:shadow-none border-2 border-emerald-300 transition tracking-wider uppercase text-sm"
+          className="w-full py-3.5 px-4 rounded-xl bg-[#059669] hover:bg-[#047857] text-white font-mono font-bold flex items-center justify-center space-x-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed transition tracking-wider uppercase text-sm shadow-sm active:scale-[0.98]"
         >
           <Check className="w-4 h-4 stroke-[3]" />
           <span>TRUE</span>

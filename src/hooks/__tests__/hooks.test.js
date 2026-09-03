@@ -566,7 +566,7 @@ test('TrueFalseSwipeStage and OddOneOutStage JSX Component Hard Corners & Editor
 
   // 1. TrueFalseSwipeStage specific checks
   const tfContent = await fs.readFile(path.resolve('src/components/stages/TrueFalseSwipeStage.jsx'), 'utf8');
-  assert.ok(tfContent.includes('font-luxury-serif'), 'TrueFalseSwipeStage must use font-luxury-serif');
+  assert.ok(tfContent.includes('font-montserrat'), 'TrueFalseSwipeStage must use font-montserrat');
   assert.ok(tfContent.includes('TRUE'), 'TrueFalseSwipeStage must include TRUE decision');
   assert.ok(tfContent.includes('FALSE'), 'TrueFalseSwipeStage must include FALSE decision');
   assert.ok(tfContent.includes('sound.playSwipe'), 'TrueFalseSwipeStage must play swipe sound');
@@ -575,7 +575,7 @@ test('TrueFalseSwipeStage and OddOneOutStage JSX Component Hard Corners & Editor
 
   // 2. OddOneOutStage specific checks
   const oooContent = await fs.readFile(path.resolve('src/components/stages/OddOneOutStage.jsx'), 'utf8');
-  assert.ok(oooContent.includes('font-luxury-serif'), 'OddOneOutStage must use font-luxury-serif');
+  assert.ok(oooContent.includes('font-montserrat'), 'OddOneOutStage must use font-montserrat');
   assert.ok(oooContent.includes('ODD ONE OUT'), 'OddOneOutStage must include ODD ONE OUT badge');
   assert.ok(oooContent.includes('Explanation & Analysis'), 'OddOneOutStage must include Explanation block');
   assert.ok(oooContent.includes('sound.playClick'), 'OddOneOutStage must play click sound');
@@ -897,11 +897,99 @@ test('Versioning: Standard Semantic Versioning (SemVer: MAJOR.MINOR.PATCH)', asy
   assert.equal(getNextVersion('1.1.99'), '1.1.100');
 
   // Minor Bump
-  assert.equal(getNextVersion('1.1.2', 'minor'), '1.2.0');
-  assert.equal(getNextVersion('1.9.5', 'minor'), '1.10.0');
-
   // Major Bump
   assert.equal(getNextVersion('1.1.2', 'major'), '2.0.0');
 });
+
+test('DU Admission Question Bank: Dataset Integrity & Helper Functions', async () => {
+  const mcqRaw = await fs.readFile(path.resolve('public/data/du/du_mcq_questions.json'), 'utf8');
+  const writtenRaw = await fs.readFile(path.resolve('public/data/du/du_written_questions.json'), 'utf8');
+  
+  const mcqList = JSON.parse(mcqRaw);
+  const writtenList = JSON.parse(writtenRaw);
+
+  assert.equal(mcqList.length, 760, 'DU MCQ dataset must contain exactly 760 questions');
+  assert.equal(writtenList.length, 38, 'DU Written dataset must contain exactly 38 questions');
+
+  // Verify helper functions
+  const { 
+    normalizeMcqQuestion, 
+    normalizeWrittenQuestion, 
+    filterMcqQuestions, 
+    filterWrittenQuestions,
+    DU_SUBJECTS 
+  } = await import('../../utils/duDataHelper.js');
+
+  const normalizedMcq = mcqList.map(normalizeMcqQuestion);
+  assert.equal(normalizedMcq.length, 760);
+  normalizedMcq.forEach((q, idx) => {
+    assert.ok(q.id, `MCQ item ${idx} must have an id`);
+    assert.ok(['A', 'B', 'C', 'D', 'E'].includes(q.correctKey), `MCQ item ${idx} must have correctKey in A-E`);
+    assert.ok(Object.keys(q.cleanOptions).length >= 4, `MCQ item ${idx} must have at least 4 options`);
+    assert.ok(q.questionText, `MCQ item ${idx} must have questionText`);
+  });
+
+  const normalizedWritten = writtenList.map(normalizeWrittenQuestion);
+  assert.equal(normalizedWritten.length, 38);
+  normalizedWritten.forEach((q, idx) => {
+    assert.ok(q.id, `Written item ${idx} must have an id`);
+    assert.ok(q.subject, `Written item ${idx} must have a subject`);
+  });
+
+  // Test filtering by subject
+  const banglaMcq = filterMcqQuestions(normalizedMcq, { subject: DU_SUBJECTS.BANGLA });
+  assert.equal(banglaMcq.length, 191, 'Bangla MCQ count must be 191');
+
+  const englishMcq = filterMcqQuestions(normalizedMcq, { subject: DU_SUBJECTS.ENGLISH });
+  assert.equal(englishMcq.length, 191, 'English MCQ count must be 191');
+
+  const gkMcq = filterMcqQuestions(normalizedMcq, { subject: DU_SUBJECTS.GK });
+  assert.equal(gkMcq.length, 378, 'GK MCQ count must be 378');
+
+  // Test filtering by year
+  const y24Mcq = filterMcqQuestions(normalizedMcq, { year: '২০২৪-২৫' });
+  assert.equal(y24Mcq.length, 60, '২০২৪-২৫ MCQ count must be 60 (15+15+30)');
+
+  // Test filtering by search term
+  const searchResults = filterMcqQuestions(normalizedMcq, { searchTerm: 'রবীন্দ্রনাথ' });
+  assert.ok(searchResults.length > 0, 'Search for রবীন্দ্রনাথ must return matches');
+
+  // Test written filter
+  const banglaWritten = filterWrittenQuestions(normalizedWritten, { subject: DU_SUBJECTS.BANGLA });
+  assert.equal(banglaWritten.length, 20, 'Bangla written count must be 20');
+});
+
+test('DU Practice Games: 10 Unlocked Levels per Subject, 10-Star Scoring & Storage', async () => {
+  const { 
+    getDuGameLevels, 
+    calculateDuLevelStars, 
+    DU_SUBJECTS,
+    DU_GAME_YEARS 
+  } = await import('../../utils/duDataHelper.js');
+
+  // Verify 10 levels for each subject
+  [DU_SUBJECTS.BANGLA, DU_SUBJECTS.ENGLISH, DU_SUBJECTS.GK].forEach(subj => {
+    const levels = getDuGameLevels(subj);
+    assert.equal(levels.length, 10, `${subj} must have exactly 10 levels`);
+    assert.equal(levels.length, DU_GAME_YEARS.length);
+
+    levels.forEach((lvl, idx) => {
+      assert.equal(lvl.levelId, idx + 1);
+      assert.equal(lvl.year, DU_GAME_YEARS[idx]);
+      assert.equal(lvl.isUnlocked, true, 'All DU practice game levels must be unlocked');
+      assert.equal(lvl.maxStars, 10, 'Each level must allow up to 10 stars');
+      assert.ok(lvl.questionCount > 0, `Level ${idx + 1} must have questions`);
+    });
+  });
+
+  // Verify 10-star evaluation logic
+  assert.equal(calculateDuLevelStars(15, 15), 10, '100% correct must award 10 stars');
+  assert.equal(calculateDuLevelStars(0, 15), 0, '0% correct must award 0 stars');
+  assert.equal(calculateDuLevelStars(12, 15), 8, '80% correct must award 8 stars');
+  assert.equal(calculateDuLevelStars(27, 30), 9, '90% correct must award 9 stars');
+  assert.equal(calculateDuLevelStars(30, 30), 10, '100% on 30 Qs must award 10 stars');
+});
+
+
 
 

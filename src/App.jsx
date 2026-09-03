@@ -4,6 +4,12 @@ import MobileHUD from './components/MobileHUD';
 import SagaLevelPath from './components/SagaLevelPath';
 import SubjectHubView from './components/views/SubjectHubView';
 import VocabBookView from './components/views/VocabBookView';
+import DuHomeView from './components/views/DuHomeView';
+import DuYearListView from './components/views/DuYearListView';
+import DuQuestionBankView from './components/views/DuQuestionBankView';
+import DuLevelMap from './components/views/DuLevelMap';
+import DuGamePlayer from './components/views/DuGamePlayer';
+import { getDuGameLevels } from './utils/duDataHelper';
 
 import FlashcardStage from './components/stages/FlashcardStage';
 import MatchingStage from './components/stages/MatchingStage';
@@ -14,6 +20,8 @@ import OddOneOutStage from './components/stages/OddOneOutStage';
 import AnswerRevealModal from './components/modals/AnswerRevealModal';
 import CompletionModal from './components/modals/CompletionModal';
 import AudioPackSettingsModal from './components/modals/AudioPackSettingsModal';
+import UpdateModal from './components/modals/UpdateModal';
+import { updateManager } from './utils/updateManager';
 
 import { STAGE_TYPES } from './engine/GameEngine';
 import { useGameState } from './hooks/useGameState';
@@ -65,17 +73,68 @@ export default function App() {
 
   const [selectedSubject, setSelectedSubject] = useState(null);
   const [vocabFilter, setVocabFilter] = useState('ALL');
+  const [duConfig, setDuConfig] = useState({ subject: 'ALL', mode: 'mcq', year: 'ALL' });
+  const [duGameSubject, setDuGameSubject] = useState('বাংলা');
+  const [duActiveLevel, setDuActiveLevel] = useState(null);
   const [hubMode, setHubMode] = useState('practice');
   const [isAudioSettingsOpen, setIsAudioSettingsOpen] = useState(false);
+  const [isUpdateModalOpen, setIsUpdateModalOpen] = useState(false);
+  const [updateInfo, setUpdateInfo] = useState(null);
+  const [hasUpdateBadge, setHasUpdateBadge] = useState(false);
 
-  const handleSelectSubject = (subj, filter = 'ALL') => {
+  // Background In-App Update Check on Startup (silent check after 2.5s)
+  useEffect(() => {
+    const timer = setTimeout(async () => {
+      try {
+        const info = await updateManager.checkForUpdates({ force: false });
+        if (info?.hasUpdate) {
+          setUpdateInfo(info);
+          setHasUpdateBadge(true);
+          if (!info.isDismissed) {
+            setIsUpdateModalOpen(true);
+          }
+        }
+      } catch (err) {
+        // Silent background fallback
+      }
+    }, 2500);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  const handleSelectSubject = (subj, filter = 'ALL', extra = {}) => {
     if (subj === 'learning') {
       setHubMode('learning');
+      setVocabFilter(filter);
+      setSelectedSubject(subj);
     } else if (subj === 'english') {
       setHubMode('practice');
+      setVocabFilter(filter);
+      setSelectedSubject(subj);
+    } else if (subj === 'du_home') {
+      setSelectedSubject('du_home');
+    } else if (subj === 'du_years') {
+      setDuConfig(prev => ({
+        ...prev,
+        mode: filter || extra?.mode || 'mcq'
+      }));
+      setSelectedSubject('du_years');
+    } else if (subj === 'du_bank') {
+      setDuConfig(prev => ({
+        ...prev,
+        year: filter || 'ALL',
+        mode: extra?.mode || prev.mode || 'mcq',
+        subject: extra?.subject || 'ALL'
+      }));
+      setSelectedSubject('du_bank');
+    } else if (subj === 'du_game_map') {
+      setDuGameSubject(filter || 'বাংলা');
+      setSelectedSubject('du_game_map');
+    } else if (subj === 'du_game_play') {
+      setDuGameSubject(filter || 'বাংলা');
+      setDuActiveLevel(extra?.level);
+      setSelectedSubject('du_game_play');
     }
-    setVocabFilter(filter);
-    setSelectedSubject(subj);
   };
 
   const {
@@ -118,17 +177,48 @@ export default function App() {
     const setupBackListener = async () => {
       try {
         backListener = await CapApp.addListener('backButton', ({ canGoBack }) => {
-          // Priority 1: If in an active level stage (currentLevel != null):
+          // Priority 0: Close open modals first
+          if (isUpdateModalOpen) {
+            setIsUpdateModalOpen(false);
+            return;
+          }
+          if (isAudioSettingsOpen) {
+            setIsAudioSettingsOpen(false);
+            return;
+          }
+
+          // Priority 1: If in an active English saga level stage:
           if (currentLevel) {
             handleBackToMap();
             return;
           }
-          // Priority 2: If inside a subject (selectedSubject != null):
+          // Priority 2: If in active DU Game Player -> back to DU Level Map:
+          if (selectedSubject === 'du_game_play') {
+            setSelectedSubject('du_game_map');
+            return;
+          }
+          // Priority 3: If in DU Level Map -> back to Hub (Practice):
+          if (selectedSubject === 'du_game_map') {
+            setSelectedSubject(null);
+            setHubMode('practice');
+            return;
+          }
+          // Priority 4: If inside DU Question Bank, return to DU Year list:
+          if (selectedSubject === 'du_bank') {
+            setSelectedSubject('du_years');
+            return;
+          }
+          // Priority 5: If inside DU Year list, return to DU Home:
+          if (selectedSubject === 'du_years') {
+            setSelectedSubject('du_home');
+            return;
+          }
+          // Priority 6: If inside DU Home or any subject (selectedSubject != null), return to Hub:
           if (selectedSubject) {
             setSelectedSubject(null);
             return;
           }
-          // Priority 3: At root Subject Hub, exit app
+          // Priority 7: At root Subject Hub, exit app
           CapApp.exitApp();
         });
       } catch (e) {
@@ -162,7 +252,7 @@ export default function App() {
           />
         )}
 
-        <main className={`flex-1 flex flex-col justify-start max-w-md w-full mx-auto ${currentLevel ? 'py-3 px-3 sm:px-4 pb-8' : selectedSubject === 'learning' ? 'pt-0 px-0 pb-8' : 'px-3 pb-8'}`}>
+        <main className={`flex-1 flex flex-col justify-start max-w-md w-full mx-auto ${currentLevel ? 'py-3 px-3 sm:px-4 pb-8' : (selectedSubject === 'learning' || selectedSubject === 'du_bank' || selectedSubject === 'du_years' || selectedSubject === 'du_home' || selectedSubject === 'du_game_map' || selectedSubject === 'du_game_play') ? 'pt-0 px-0 pb-8' : 'px-3 pb-8'}`}>
           {!currentLevel ? (
             <>
               {!selectedSubject && (
@@ -180,6 +270,8 @@ export default function App() {
                   onSelectSubject={handleSelectSubject}
                   onStartLevel={(lvl) => handleStartLevel(lvl || 1, true)}
                   onOpenAudioSettings={() => setIsAudioSettingsOpen(true)}
+                  onOpenUpdateModal={() => setIsUpdateModalOpen(true)}
+                  hasUpdateBadge={hasUpdateBadge}
                 />
               )}
               {selectedSubject === 'english' && (
@@ -210,6 +302,70 @@ export default function App() {
                     setHubMode('learning');
                   }}
                   onOpenAudioSettings={() => setIsAudioSettingsOpen(true)}
+                />
+              )}
+              {selectedSubject === 'du_home' && (
+                <DuHomeView
+                  onSelectCategory={(categoryKey) => handleSelectSubject('du_years', categoryKey)}
+                  onBack={() => {
+                    setSelectedSubject(null);
+                  }}
+                  isAudioMuted={isAudioMuted}
+                  setIsAudioMuted={setIsAudioMuted}
+                />
+              )}
+              {selectedSubject === 'du_years' && (
+                <DuYearListView
+                  mode={duConfig.mode}
+                  onSelectYear={(year, mode) => handleSelectSubject('du_bank', year, { mode })}
+                  onBack={() => {
+                    setSelectedSubject('du_home');
+                  }}
+                  isAudioMuted={isAudioMuted}
+                  setIsAudioMuted={setIsAudioMuted}
+                />
+              )}
+              {selectedSubject === 'du_bank' && (
+                <DuQuestionBankView
+                  initialSubject={duConfig.subject}
+                  initialMode={duConfig.mode}
+                  initialYear={duConfig.year}
+                  onBackToHub={() => {
+                    setSelectedSubject('du_years');
+                  }}
+                  isAudioMuted={isAudioMuted}
+                  setIsAudioMuted={setIsAudioMuted}
+                />
+              )}
+              {selectedSubject === 'du_game_map' && (
+                <DuLevelMap
+                  subject={duGameSubject}
+                  onSelectLevel={(lvl) => handleSelectSubject('du_game_play', duGameSubject, { level: lvl })}
+                  onBack={() => {
+                    setSelectedSubject(null);
+                    setHubMode('practice');
+                  }}
+                  isAudioMuted={isAudioMuted}
+                  setIsAudioMuted={setIsAudioMuted}
+                />
+              )}
+              {selectedSubject === 'du_game_play' && duActiveLevel && (
+                <DuGamePlayer
+                  level={duActiveLevel}
+                  subject={duGameSubject}
+                  onBackToMap={() => setSelectedSubject('du_game_map')}
+                  onNextLevel={() => {
+                    const nextId = duActiveLevel.levelId + 1;
+                    const allLevels = getDuGameLevels(duGameSubject);
+                    const nextLvl = allLevels.find(l => l.levelId === nextId);
+                    if (nextLvl) {
+                      setDuActiveLevel(nextLvl);
+                    } else {
+                      setSelectedSubject('du_game_map');
+                    }
+                  }}
+                  isAudioMuted={isAudioMuted}
+                  setIsAudioMuted={setIsAudioMuted}
                 />
               )}
             </>
@@ -267,6 +423,13 @@ export default function App() {
           onClose={() => setIsAudioSettingsOpen(false)}
         />
 
+        {/* In-App Update Modal */}
+        <UpdateModal
+          isOpen={isUpdateModalOpen}
+          onClose={() => setIsUpdateModalOpen(false)}
+          initialUpdateInfo={updateInfo}
+        />
+
         {/* First-Attempt Perfect Stage Micro-Celebration Overlay */}
         {stageCelebration && (
           <div className="fixed inset-0 pointer-events-none z-50 flex items-center justify-center animate-pop px-4 select-none">
@@ -311,7 +474,9 @@ export default function App() {
             totalStages={completionResult.totalStages || completionResult.totalPossible || 10}
             isTenStar={completionResult.isTenStar}
             isFiveStar={completionResult.isFiveStar}
-            mistakes={mistakes}
+            isMastered={completionResult.isMastered}
+            isPassed={completionResult.isPassed}
+            mistakes={completionResult.mistakes || mistakes}
             onNextLevel={handleNextLevel}
             onRetryLevel={handleRetryLevel}
             onBackToMap={handleBackToMap}

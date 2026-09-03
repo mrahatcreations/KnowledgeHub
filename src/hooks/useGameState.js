@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { buildLevelStages, STAGE_TYPES } from '../engine/GameEngine.js';
 import { sound } from '../audio/SoundSynthesizer.js';
 import confetti from 'canvas-confetti';
@@ -248,16 +248,25 @@ export function useGameState(options = {}) {
     return () => clearTimeout(timer);
   }, []);
 
+  const stageStarsRef = useRef(createInitialStageStars());
+  const mistakesRef = useRef([]);
+
   /**
    * Calculates level completion score, applies 5-Star mastery rule,
    * updates gems and stars, and persists to localStorage.
    */
-  const finishLevel = useCallback(() => {
+  const finishLevel = useCallback((overrideStars = null, overrideMistakes = null) => {
     if (!currentLevel) return;
 
-    const correctStagesCount = (stageStars || []).filter(Boolean).length;
+    const starsToUse = overrideStars || stageStarsRef.current || stageStars;
+    const mistakesToUse = overrideMistakes || mistakesRef.current || mistakes;
+    const correctStagesCount = (starsToUse || []).filter(Boolean).length;
     const totalStarsEarned = Number((correctStagesCount * 0.5).toFixed(1));
     const totalStages = stages.length || TOTAL_STAGES_PER_LEVEL;
+    
+    // Unlock rule: >= 3.5 Stars (70%+) unlocks the next level!
+    // 5.0 Stars awards Perfect Mastery Bonus (+50 Gems)
+    const isPassed = totalStarsEarned >= 3.5;
     const isFiveStar = totalStarsEarned >= MASTERY_REQUIRED_STARS;
 
     let newUnlocked = unlockedLevel;
@@ -271,11 +280,13 @@ export function useGameState(options = {}) {
       soundApi.playVictory();
       newGems += MASTERY_BONUS_GEMS;
       setGems(newGems);
+    } else if (isPassed) {
+      soundApi.playLevelComplete?.() || soundApi.playVictory();
+    }
 
-      if (currentLevel.level_id >= unlockedLevel) {
-        newUnlocked = currentLevel.level_id + 1;
-        setUnlockedLevel(newUnlocked);
-      }
+    if (isPassed && currentLevel.level_id >= unlockedLevel) {
+      newUnlocked = currentLevel.level_id + 1;
+      setUnlockedLevel(newUnlocked);
     }
 
     setLevelStars(updatedLevelStars);
@@ -287,18 +298,19 @@ export function useGameState(options = {}) {
       maxStars: 5,
       totalStages: totalStages,
       correctStagesCount: correctStagesCount,
+      isPassed: isPassed,
       isFiveStar: isFiveStar,
       isMastered: isFiveStar,
-      mistakes: mistakes,
+      mistakes: mistakesToUse,
       earnedGems: isFiveStar ? MASTERY_BONUS_GEMS : 0,
       newUnlockedLevel: newUnlocked
     });
-  }, [currentLevel, stageStars, stages.length, unlockedLevel, gems, levelStars, streak, lives, soundApi, saveProgress, mistakes]);
+  }, [currentLevel, stageStars, mistakes, stages.length, unlockedLevel, gems, levelStars, streak, lives, soundApi, saveProgress]);
 
   /**
    * Advances to the next stage or triggers level completion if all 10 stages are finished.
    */
-  const proceedNextStage = useCallback(() => {
+  const proceedNextStage = useCallback((overrideStars = null) => {
     setRevealModalData(null);
     setStageCelebration(null);
     setStageAttempts(0);
@@ -308,7 +320,7 @@ export function useGameState(options = {}) {
       const totalStages = stages.length || TOTAL_STAGES_PER_LEVEL;
 
       if (nextIdx >= totalStages) {
-        finishLevel();
+        finishLevel(overrideStars);
         return prevIndex;
       }
 
@@ -347,10 +359,13 @@ export function useGameState(options = {}) {
     }
 
     const compiledStages = buildLevelStages(targetLevel, isRetry);
+    const initialStars = createInitialStageStars();
+    stageStarsRef.current = initialStars;
+    mistakesRef.current = [];
     setCurrentLevel(targetLevel);
     setStages(compiledStages);
     setStageIndex(0);
-    setStageStars(createInitialStageStars());
+    setStageStars(initialStars);
     setStageAttempts(0);
     setMistakes([]);
     setCompletionResult(null);
@@ -381,13 +396,13 @@ export function useGameState(options = {}) {
     if (isCorrect) {
       soundApi.playCorrect();
 
+      let nextStars = stageStarsRef.current;
       // Star is awarded ONLY on the 1st attempt without any mistakes (stageAttempts === 0)
       if (stageAttempts === 0) {
-        setStageStars((prevStars) => {
-          const updated = [...prevStars];
-          updated[stageIndex] = true;
-          return updated;
-        });
+        nextStars = [...stageStarsRef.current];
+        nextStars[stageIndex] = true;
+        stageStarsRef.current = nextStars;
+        setStageStars(nextStars);
 
         // Trigger rich micro-celebration animation on 1st attempt!
         setStageCelebration({
@@ -414,7 +429,7 @@ export function useGameState(options = {}) {
       // Automatically proceed to next stage after celebration delay
       setTimeout(() => {
         setStageCelebration(null);
-        proceedNextStage();
+        proceedNextStage(nextStars);
       }, stageAttempts === 0 ? 850 : 650);
     } else {
       // Record mistake in the mistakes accumulator
@@ -432,17 +447,15 @@ export function useGameState(options = {}) {
         stageType: currentStage.type
       };
 
-      setMistakes((prevMistakes) => {
-        const existsIndex = prevMistakes.findIndex(
-          (m) => String(m.word).toLowerCase() === String(mistakeEntry.word).toLowerCase()
-        );
-        if (existsIndex >= 0) {
-          const updated = [...prevMistakes];
-          updated[existsIndex] = mistakeEntry;
-          return updated;
-        }
-        return [...prevMistakes, mistakeEntry];
-      });
+      const prevMistakes = mistakesRef.current;
+      const existsIndex = prevMistakes.findIndex(
+        (m) => String(m.word).toLowerCase() === String(mistakeEntry.word).toLowerCase()
+      );
+      const updatedMistakes = existsIndex >= 0 
+        ? prevMistakes.map((m, idx) => idx === existsIndex ? mistakeEntry : m)
+        : [...prevMistakes, mistakeEntry];
+      mistakesRef.current = updatedMistakes;
+      setMistakes(updatedMistakes);
 
       if (stageAttempts === 0) {
         // First wrong attempt -> Give 2nd chance

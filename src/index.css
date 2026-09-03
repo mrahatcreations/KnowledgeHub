@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+@theme {
+  --font-sans: 'Montserrat', 'iOS Bangla', sans-serif;
+  --font-mono: 'Montserrat', monospace;
+}
+
+@font-face {
+  font-family: 'iOS Bangla';
+  src: url('/fonts/iOS-Bangla-Font.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --sat: env(safe-area-inset-top, 0px);
   --sab: env(safe-area-inset-bottom, 0px);
@@ -9,7 +22,7 @@
 
 @layer base {
   * {
-    font-family: 'Hind Siliguri', 'Noto Sans Bengali', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Montserrat', 'iOS Bangla', sans-serif;
     -webkit-tap-highlight-color: transparent;
     box-sizing: border-box;
   }
@@ -20,6 +33,7 @@
     overflow-x: clip;
     -webkit-text-size-adjust: 100%;
     -webkit-overflow-scrolling: touch;
+    font-family: 'Montserrat', 'iOS Bangla', sans-serif;
   }
 
   body {
@@ -31,6 +45,7 @@
     color: #f8fafc;
     overflow-x: clip;
     -webkit-overflow-scrolling: touch;
+    font-family: 'Montserrat', 'iOS Bangla', sans-serif;
   }
 
   /* Allow text selection in inputs and textareas */
@@ -45,17 +60,25 @@
   }
 }
 
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-bangla {
+  font-family: 'iOS Bangla', sans-serif;
+}
+
 .font-luxury-title {
-  font-family: 'Cinzel', 'Playfair Display', Georgia, serif;
-  letter-spacing: 0.12em;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.08em;
 }
 
 .font-luxury-serif {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .font-luxury-mono {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Montserrat', monospace;
 }
 
 /* 3D Perspective & Flip */

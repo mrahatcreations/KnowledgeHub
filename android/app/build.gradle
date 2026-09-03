@@ -7,8 +7,8 @@ android {
         applicationId "com.rahat.vocabmaster"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 13
-        versionName "1.1.3"
+        versionCode 17
+        versionName "1.1.7"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
             cruncherEnabled = false

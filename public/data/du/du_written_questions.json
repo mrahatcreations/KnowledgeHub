@@ -1,0 +1,1037 @@
+[
+  {
+    "id": 1,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২৪-২৫",
+    "subject": "বাংলা",
+    "question_no": "১",
+    "question_type": "comprehension",
+    "instruction": "অনুচ্ছেদটি পড়ে নিচের প্রশ্নগুলোর উত্তর দাও: (২ × ৫ = ১০)",
+    "marks": "২ × ৫ = ১০",
+    "context_passage": "যখন আমরা রাজকন্যা, রাজবধূরূপে প্রাসাদে থাকি, তখনও প্রভু-গৃহে থাকি। আবার যখন ঐ প্রাসাদতুল্য ত্রিতল অট্টালিকা ভূমিকম্পে চূর্ণ হয়,- সোপান অতিক্রম করিয়া অবতরণ কালে আমাদের মাথা ভাঙ্গে, হাত পা ভাঙ্গে- রক্তাক্ত কলেবরে হতজ্ঞান প্রায় অবস্থায় গোশালায় গিয়া আশ্রয় লই,- তখনও অভিভাবকের বাটীতে থাকি!!\n\nঅথবা গৃহস্থের বৌ-ঝি রূপে প্রকাণ্ড আটচালায় বাস করিলেও প্রভুর আলয়ে থাকি; আর যখন চৈত্র মাসে ঘোর অমানিশীথে প্রভুর বাটীতে দুষ্টলোক কর্তৃক লঙ্কাকাণ্ডের অভিনয় হয়,- সব জিনিসপত্রসহ ঘরগুলি দাউদাউ করিয়া জ্বলিতে থাকে,- আমরা একবসনে প্রাণটি হাতে করিয়া কোনমতে দৌড়াইয়া গিয়া দূরস্থিত একটা তুলাগাছতলে দাঁড়াইয়া কাঁপিতে থাকি,- তখনও অভিভাবকের বাটীতে থাকি!!!",
+    "sub_questions": [
+      {
+        "label": "ক",
+        "question": "'প্রভু-গৃহ' বলতে কী বোঝানো হয়েছে? দুর্যোগ-দুর্ঘটনায়ও নারী প্রভু-গৃহে থাকতে বাধ্য হয় কেন?",
+        "answer": "'প্রভু-গৃহ' বলতে স্বামীর গৃহ/বাড়িকে বোঝানো হয়েছে। পুরুষতান্ত্রিক সমাজে নারীরা নিরাপদ আশ্রয়ের অভাবে ও অর্থনৈতিকভাবে স্বাবলম্বী না হওয়ায় তারা দুর্যোগ-দুর্ঘটনার সময়েও প্রভু-গৃহে থাকতে বাধ্য হয়।"
+      },
+      {
+        "label": "খ",
+        "question": "'লঙ্কাকাণ্ড'র কথা কোন কাহিনিতে পাওয়া যায়? কীভাবে এই লঙ্কাকাণ্ড সংঘটিত হয়?",
+        "answer": "লঙ্কাকাণ্ডের কথা রামায়ণের কাহিনিতে পাওয়া যায়। রাবণ কর্তৃক রামচন্দ্রের অপহৃত স্ত্রী সীতাকে লঙ্কাপুরী থেকে উদ্ধারের জন্য রাম, লক্ষ্মণ ও বানরের যৌথ আক্রমণের মাধ্যমে লঙ্কাপুরীতে প্রলয়কাণ্ড সংঘটিত হয়। আর লঙ্কাপুরীর এই প্রলয়কাণ্ডই 'লঙ্কাকাণ্ড' নামে পরিচিতি পায়। পাঠ্যবইয়ের অন্তর্ভুক্ত \"বিভীষণের প্রতি মেঘনাদ\" কবিতায় 'লঙ্কাকাণ্ডে'র কথা পাওয়া যায়।"
+      },
+      {
+        "label": "গ",
+        "question": "'উপসর্গের অর্থবাচকতা নেই, অর্থদ্যোতকতা আছে'- ব্যাখ্যা কর এবং অনুচ্ছেদ থেকে উপসর্গযোগে গঠিত দুটি শব্দ লেখ।",
+        "answer": "উপসর্গের অর্থবাচকতা নেই অর্থাৎ উপসর্গের নিজস্ব কোনো স্বাধীন অর্থ নেই এবং উপসর্গ অন্য কোনো শব্দের পূর্বে বসে নতুন অর্থবোধক শব্দ তৈরিতে সাহায্য করে বলে উপসর্গের অর্থদ্যোতকতা আছে।\nঅনুচ্ছেদ থেকে উপসর্গযোগে গঠিত শব্দ: **অতিক্রম**, **অবতরণ**, **আশ্রয়**, **অভিভাবক**, **প্রকাণ্ড**, **আলয়**, **অভিনয়**। *(যেকোনো ২টি লিখলেই হবে)*।"
+      },
+      {
+        "label": "ঘ",
+        "question": "শব্দার্থ লেখ: সোপান, কলেবর, অমানিশীথ, বসন।",
+        "answer": "| শব্দ | অর্থ |\n| :--- | :--- |\n| **সোপান** | সিঁড়ি |\n| **কলেবর** | দেহ, শরীর |\n| **অমানিশীথ** | অন্ধকার, অমাবস্যার মধ্যরাত |\n| **বসন** | কাপড়, বস্ত্র |"
+      },
+      {
+        "label": "ঙ",
+        "question": "'গৃহ' শব্দের চারটি প্রতিশব্দ লেখ।",
+        "answer": "'গৃহ' শব্দের চারটি প্রতিশব্দ: **ঘর**, **আলয়**, **নিবাস**, **আবাস**, **আশ্রয়**, **নিলয়**, **নিকেতন**, **বাড়ি**, **বাসস্থান**। *(যেকোনো ৪টি লিখলেই হবে)*।"
+      }
+    ],
+    "answer": null,
+    "source_pages": [
+      "page_007.md",
+      "page_008.md"
+    ]
+  },
+  {
+    "id": 2,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২৪-২৫",
+    "subject": "বাংলা",
+    "question_no": "২",
+    "question_type": "summary",
+    "instruction": "সারমর্ম লেখ: (৫)",
+    "marks": "৫",
+    "context_passage": "আমি একটা ছোট্ট দেশলাইয়ের কাঠি\nএত নগণ্য, হয়তো চোখেও পড়ি না:\nতবু জেনো\nমুখে আমার উসখুস করছে বারুদ-\nবুকে আমার জ্বলে উঠবার দুরন্ত উচ্ছ্বাস:\nআমি একটা দেশলাইয়ের কাঠি।\nআমাদের কী অসীম শক্তি\nতা তো অনুভব করেছ বারংবার;\nতবু কেন বোঝো না,\nআমরা বন্দী থাকব না তোমাদের পকেটে পকেটে,\nআমরা বেরিয়ে পড়ব, আমরা ছড়িয়ে পড়ব\nশহরে, গঞ্জে, গ্রামে- দিগন্ত থেকে দিগন্তে।",
+    "sub_questions": [],
+    "answer": "হৃদয়ের গহীনে বিপ্লব ধারণ করা একজন বিপ্লবী যতই ক্ষুদ্র হোক না কেন তাকে কোনোভাবেই অবমূল্যায়ন করে দমিয়ে রাখা যায় না। তাদের অসীম শক্তিকে যতভাবেই নিয়ন্ত্রণ করার চেষ্টা হোক না কেন তারা স্বীয় আদর্শের শক্তিতে বলীয়ান হয়ে সমাজ ও রাষ্ট্রের প্রতিটি অঙ্গনে প্রভাব বিস্তার করবেই।",
+    "source_pages": [
+      "page_007.md",
+      "page_008.md"
+    ]
+  },
+  {
+    "id": 3,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২৪-২৫",
+    "subject": "বাংলা",
+    "question_no": "৩",
+    "question_type": "translation",
+    "instruction": "বাংলায় অনুবাদ কর: (৫)",
+    "marks": "৫",
+    "context_passage": "Late in the afternoon, people pour into the streets of Dhaka; their mood is jubilant. Some are with their families; some are with friends. They keep on beating drums, chanting slogans and booing the dictator. It's the victory of the students, the victory of the people! After a long time, people are delighted to get rid of the fascist regime.",
+    "sub_questions": [],
+    "answer": "শেষ বিকেলে ঢাকার রাস্তায় মানুষের ঢল নামে; সবার মুখে উচ্ছ্বাসের ছাপ। কেউ এসেছে পরিবারের সঙ্গে, কেউবা বন্ধুদের সঙ্গে। তারা ঢোল বাজাচ্ছে, স্লোগান দিচ্ছে এবং স্বৈরাচারকে ধিক্কার জানিয়ে চলেছে। এই বিজয় ছাত্রদের, এই বিজয় জনগণের! দীর্ঘদিন পরে মানুষ ফ্যাসিবাদী শাসনের কবল থেকে মুক্তি পেয়ে আনন্দে ভাসছে।",
+    "source_pages": [
+      "page_007.md",
+      "page_008.md"
+    ]
+  },
+  {
+    "id": 4,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২৪-২৫",
+    "subject": "General English",
+    "question_no": "4",
+    "question_type": "paragraph",
+    "instruction": "Write a paragraph on 'How education can enlighten one's life'. (10)",
+    "marks": "10",
+    "context_passage": null,
+    "sub_questions": [],
+    "answer": "How education can enlighten one's life\nEducation plays a key role in shaping one's life by opening doors to new opportunities. It helps people gain knowledge and skills that can lead to better jobs and improved living standards. When we learn, we understand the world around us more clearly and can make smarter decisions. Education also boosts confidence, allowing us to face challenges with a positive attitude. It teaches us how to think critically, solve\nproblems, and communicate effectively. By gaining education, we can become more aware of our rights and responsibilities in society. It encourages personal growth and the pursuit of dreams. With education, individuals can break the cycle of poverty and build a better future. It also promotes equality by providing everyone with the chance to succeed. Ultimately, education empowers people, helping them live more fulfilling lives and contribute meaningfully to society.",
+    "source_pages": [
+      "page_007.md",
+      "page_008.md"
+    ]
+  },
+  {
+    "id": 5,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২৪-২৫",
+    "subject": "General English",
+    "question_no": "5",
+    "question_type": "explanation",
+    "instruction": "Explain the proverb- 'Don't judge a book by its cover'. (5)",
+    "marks": "5",
+    "context_passage": null,
+    "sub_questions": [],
+    "answer": "The proverb \"Don't judge a book by its cover\" means you shouldn't make quick decisions based on appearances. Just like a book's cover doesn't tell you everything about its story, people or situations can be misunderstood if you judge them only by what you see. It reminds us that there is often more beneath the surface that we can't immediately see. We should take the time to learn more before forming an opinion. This proverb teaches us to be open-minded and avoid making assumptions.",
+    "source_pages": [
+      "page_007.md",
+      "page_008.md"
+    ]
+  },
+  {
+    "id": 6,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২৪-২৫",
+    "subject": "General English",
+    "question_no": "6",
+    "question_type": "sentence_making",
+    "instruction": "Write five meaningful sentences with the following words/phrases: (1 × 5 = 5)",
+    "marks": "1 × 5 = 5",
+    "context_passage": null,
+    "sub_questions": [
+      {
+        "label": "a",
+        "question": "on the eve of",
+        "answer": "On the eve of the exam, she felt nervous."
+      },
+      {
+        "label": "b",
+        "question": "violation",
+        "answer": "The company faced a violation of safety rules and had to pay a fine."
+      },
+      {
+        "label": "c",
+        "question": "fervently",
+        "answer": "He fervently believed in the power of kindness."
+      },
+      {
+        "label": "d",
+        "question": "consequence",
+        "answer": "Smoking has a serious consequence in the long run."
+      },
+      {
+        "label": "e",
+        "question": "appreciate",
+        "answer": "I appreciate all the hard work you've done to help me."
+      }
+    ],
+    "answer": null,
+    "source_pages": [
+      "page_007.md",
+      "page_008.md"
+    ]
+  },
+  {
+    "id": 7,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২৩-২৪",
+    "subject": "বাংলা",
+    "question_no": "01",
+    "question_type": "comprehension",
+    "instruction": "অনুচ্ছেদটি পড়ে নিচের প্রশ্নগুলোর উত্তর দাও-",
+    "marks": null,
+    "context_passage": "যার ভিত্তি পচে গেছে, তাকে একদম উপড়ে ফেলে নতুন করে ভিত্তি না গাঁথলে তার উপর ইমারত যতবার খাড়া করা যাবে, ততবারই তা পড়ে যাবে। দেশের যারা শত্রু, দেশের যা-কিছু মিথ্যা, ভণ্ডামি, মেকি তা সব দূর করতে প্রয়োজন হবে আগুনের সম্মার্জনা। আমার এমন গুরু নেই, যার খাতিরে সে আগুন-সত্যকে অস্বীকার করে কারুর মিথ্যা বা ভণ্ডামিকে প্রশ্রয় দেবে। আমি সে-দাসত্ব হতে সম্পূর্ণ মুক্ত। আমি কোনো দিনই কারুর বাণীকে বেদবাক্য বলে মেনে নেব না, যদি তার সত্যতা প্রাণে তার সাড়া না দেয়। না বুঝে বোঝার ভান করে পাঁচ জনের শ্রদ্ধা আর প্রশংসা পাওয়ার লোভ আমি কোনো দিনই করব না।",
+    "sub_questions": [
+      {
+        "label": "ক",
+        "question": "উপরের অংশটুকু কার লেখা? কোন রচনার অংশবিশেষ?",
+        "answer": "কাজী নজরুল ইসলাম রচিত 'আমার পথ' রচনার অংশবিশেষ।"
+      },
+      {
+        "label": "খ",
+        "question": "‘আগুনের সম্মার্জনা’ বলতে কী বোঝানো হয়েছে?",
+        "answer": "'আগুনের সম্মার্জনা' বলতে 'আমার পথ' প্রবন্ধে সমাজে অসত্যরূপী আবর্জনা দূর করার জন্য প্রাবন্ধিক সত্যের শক্তি, অন্যায়ের বিরুদ্ধে তাঁর বিদ্রোহী সত্তাকে বুঝিয়েছেন।"
+      },
+      {
+        "label": "গ",
+        "question": "ইমারত পড়ে যাওয়ার কথা বলা হয়েছে কেন?",
+        "answer": "সামাজিক ঐক্য, আত্মনির্ভরতা, আত্মবিশ্বাস বিনষ্ট হওয়াকে প্রাবন্ধিক ইমারত পড়ে যাওয়ার সাথে তুলনা করতে প্রশ্নোক্ত উক্তিটি করেছেন।"
+      },
+      {
+        "label": "ঘ",
+        "question": "লেখক কোন দাসত্বের কথা বলেছেন?",
+        "answer": "লেখক পরাবলম্বন নামক দাসত্বের কথা বলেছেন।"
+      },
+      {
+        "label": "ঙ",
+        "question": "এখানে ভণ্ডামি বলতে কী বোঝানো হয়েছে?",
+        "answer": "ভুল জেনেও তাকে ঠিক বলে চালিয়ে দেওয়ার কপটতা কিংবা জেদ লেখকের দৃষ্টিতে ভণ্ডামি।"
+      }
+    ],
+    "answer": null,
+    "source_pages": [
+      "page_014.md",
+      "page_015.md"
+    ]
+  },
+  {
+    "id": 8,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২৩-২৪",
+    "subject": "বাংলা",
+    "question_no": "02",
+    "question_type": "expansion",
+    "instruction": "“ধ্বনিটিরে প্রতিধ্বনি সদা ব্যঙ্গ করে ধ্বনি-কাছে ঋণী সে যে ধরা পড়ে।” - ভাবটির সম্প্রসারণ কর।",
+    "marks": null,
+    "context_passage": null,
+    "sub_questions": [],
+    "answer": "উপকারীর উপকারকে অস্বীকার করার মধ্যে রয়েছে জঘন্য হীনম্মন্যতা। ধ্বনি থেকে সৃষ্টি হয় প্রতিধ্বনি। তাই ঋণ স্বীকারের প্রশ্নে প্রতিধ্বনিকে ধ্বনির কাছে কৃতজ্ঞতা করা উচিত। কিন্তু প্রতিধ্বনি তা না করে উল্টো ধ্বনিকে সর্বদা ব্যঙ্গ করে। ধ্বনির এ ধরনের কার্যকলাপের মধ্যে তার অকৃতজ্ঞ চিত্তের প্রকাশ ঘটে। আমাদের সমাজ জীবনেও এক ধরনের সংকীর্ণচিত্ত অকৃতজ্ঞ লোক দেখা যায়- যারা কখনোই উপকারীর উপকার স্বীকার করে না। বরং পরিহাসের মাধ্যমে নিজেদের হীনম্মন্যতাকেই প্রকাশ করে। অন্যের সাহায্য সহযোগিতা ও দয়া- দাক্ষিণ্যে যদি কারো জীবন বিকশিত ও সাফল্যময় হয়ে ওঠে- সেক্ষেত্রে উপকারীর সাহায্য-সহযোগিতার স্বীকৃতি প্রদান করা উচিত। কিন্তু উপকার গ্রহণকারী তা না করে উপকারীর প্রতি পরিহাস করে নিজের স্বীয় যোগ্যতার প্রমাণ রাখতে চায়। কিন্তু সত্যকে কখনোই গোপন রাখা যায় না। তার নীচতা সহজেই ধরা পড়ে। ধ্বনি ছাড়া প্রতিধ্বনি অস্তিত্বহীন। হীনম্মন্যতাবশত প্রতিধ্বনি যেমন তা অস্বীকার করে- সমাজেও প্রতিধ্বনির মতো সত্য গোপনকারী অকৃতজ্ঞ অনেক লোক রয়েছে। তাদের বিবেক এমনই ভ্রষ্ট যে, সত্য প্রকাশে তারা কুণ্ঠিত। ঋণ স্বীকারে যে অগৌরবের কিছু নেই- এ সহজ সত্যটি তারা কখনোই স্বীকার করে না। তারা চায় নিজেকে বড় করে উপস্থাপন করতে।\nউপকারীর উপকারে অস্বীকার করা হীনম্মন্যতার লক্ষণ। জীবনে উন্নতি ও সাফল্যের মূলে যাদের দান রয়েছে, তাদের উপকার স্বীকার করা উচিত।",
+    "source_pages": [
+      "page_014.md",
+      "page_015.md"
+    ]
+  },
+  {
+    "id": 9,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২৩-২৪",
+    "subject": "বাংলা",
+    "question_no": "03",
+    "question_type": "summary",
+    "instruction": "সারমর্ম লেখ-",
+    "marks": null,
+    "context_passage": "বসুমতী, কেন তুমি এতই কৃপণা,\nকত খোঁচাঁখুঁচি করি পাই শস্যকণা।\nদিতে যদি হয় দে মা, প্রসন্ন সহাস-\nকেন এ মাথার ঘাম পায়েতে বহাস।\nবিনা চাষে শস্য দিলে কী তাহাতে ক্ষতি?\nশুনি ঈষৎ হাসি কন বসুমতী,\nআমার গৌরব তাহে সামান্যই বাড়ে,\nতোমার গৌরব তাহে নিতান্তই ছাড়ে।",
+    "sub_questions": [],
+    "answer": "আত্মশক্তির উপর নির্ভরশীল হয়ে বেঁচে থাকার মাঝেই জীবনের সার্থকতা। বিনা পরিশ্রমে ফসল উৎপন্ন হলে পৃথিবীর গৌরব বাড়ে কিন্তু তা মানুষের জন্য অমর্যাদাকর। এতে রয়েছে পরনির্ভরশীলতা। পক্ষান্তরে নিজের পরিশ্রমে যা অর্জন করা যায় তা গৌরবময়।",
+    "source_pages": [
+      "page_014.md",
+      "page_015.md"
+    ]
+  },
+  {
+    "id": 10,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২৩-২৪",
+    "subject": "বাংলা",
+    "question_no": "04",
+    "question_type": "translation",
+    "instruction": "বাংলায় অনুবাদ কর:",
+    "marks": null,
+    "context_passage": "Tomorrow as yesterday, the fittest will survive in the struggle for existence, But whereas in the past selfishness was the measure of fitness, in the future survival value will be determined by breadth and depth of love. Modern science is teaching, as it never was taught before, that no one lives for himself alone.",
+    "sub_questions": [],
+    "answer": "অতীতের মতো ভবিষ্যতেও বাঁচা মরার লড়াইয়ে যোগ্যরাই টিকে থাকবে। কিন্তু যেখানে অতীতে স্বার্থই ছিল যোগ্যতার মাপকাঠি, ভবিষ্যতে টিকে থাকায় মূল্য নির্ভর করবে ভালোবাসার গভীরতা ও প্রসারতার উপর। যা আগে কখনো শিখানো হয়নি, আধুনিক বিজ্ঞান এখন তাই শিখাচ্ছে যে কেউই শুধু তার নিজের জন্য বাঁচে না।",
+    "source_pages": [
+      "page_014.md",
+      "page_015.md"
+    ]
+  },
+  {
+    "id": 11,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২৩-২৪",
+    "subject": "General English",
+    "question_no": "01",
+    "question_type": "paragraph",
+    "instruction": "Write a paragraph on the importance of good manners.",
+    "marks": null,
+    "context_passage": null,
+    "sub_questions": [],
+    "answer": "The foundation of a civilised society, good manners are necessary to promote mutual respect, understanding, and harmony. Social encounters are made more pleasurable and productive by the lubricant of good manners. Good manners demonstrate consideration for others, reflecting empathy, kindness, and a sense of propriety. They create an atmosphere of mutual respect and cooperation, facilitating effective communication and collaboration.\nMoreover, good manners transcend cultural and linguistic barriers, serving as a universal language of courtesy and decency. By adhering to good manners, individuals contribute to the creation of a positive social environment, where everyone feels valued and respected. In essence, good manners are essential for creating lasting connections, encouraging empathy, and promoting a more peaceful society. They are not merely an outward show of courtesy.",
+    "source_pages": [
+      "page_014.md",
+      "page_015.md"
+    ]
+  },
+  {
+    "id": 12,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২৩-২৪",
+    "subject": "General English",
+    "question_no": "02",
+    "question_type": "explanation",
+    "instruction": "Explain the proverb-‘Where there is a will, there is a way.’",
+    "marks": null,
+    "context_passage": null,
+    "sub_questions": [],
+    "answer": "The proverb \"where there is a will, there is a way\" underscores the power of determination and perseverance in overcoming obstacles or challenges. It suggests that having a strong desire or will to achieve something is often the most crucial factor in success. Even in the face of daunting circumstances or seemingly insurmountable barriers, individuals who possess the willpower and determination to pursue their goals will inevitably find a way to overcome challenges and achieve their objectives. This mindset encourages resilience, creativity, and resourcefulness, as individuals are motivated to explore alternative paths and solutions in pursuit of their aspirations. Ultimately, the proverb emphasizes the belief that with unwavering resolve, any goal can be attained.",
+    "source_pages": [
+      "page_014.md",
+      "page_015.md"
+    ]
+  },
+  {
+    "id": 13,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২৩-২৪",
+    "subject": "General English",
+    "question_no": "03",
+    "question_type": "sentence_making",
+    "instruction": "Write five meaningful sentences with the following words:",
+    "marks": null,
+    "context_passage": null,
+    "sub_questions": [
+      {
+        "label": "1",
+        "question": "Spontaneous",
+        "answer": "Their spontaneous decision to join the parade added an unexpected element of joy to the festivities."
+      },
+      {
+        "label": "2",
+        "question": "Isolation",
+        "answer": "During the pandemic, many people experienced prolonged periods of isolation to minimize the risk of infection."
+      },
+      {
+        "label": "3",
+        "question": "Resourceful",
+        "answer": "The resourceful entrepreneur found creative ways to cut costs without compromising the quality of the product."
+      },
+      {
+        "label": "4",
+        "question": "Adequate",
+        "answer": "Her skills were deemed adequate for the job, but she aimed to improve and excel beyond expectations."
+      },
+      {
+        "label": "5",
+        "question": "Tolerance",
+        "answer": "The community's tolerance towards diversity allowed people of all cultures and religions to coexist peacefully."
+      }
+    ],
+    "answer": null,
+    "source_pages": [
+      "page_014.md",
+      "page_015.md"
+    ]
+  },
+  {
+    "id": 14,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২২-২৩",
+    "subject": "বাংলা",
+    "question_no": "01",
+    "question_type": "comprehension",
+    "instruction": "নিচের গদ্যাংশটি পড়ে প্রদত্ত (ক-ঙ) উত্তর দাও:",
+    "marks": null,
+    "context_passage": "মানব কল্যাণ অলৌকিক কিছু নয়- এ এক জাগতিক মানবধর্ম। তাই এর সাথে মানব মর্যাদা তথা Human dignity-এর সম্পর্ক অবিচ্ছেদ্য। আজ পৃথিবীর দিকে তাকিয়ে দেখলে কী দেখতে পাই? দেখতে পাই দুঃস্থ অবহেলিত, বাস্তুহারা, স্বদেশ-বিতাড়িত মানুষের সংখ্যা দিন দিনই বেড়ে চলেছে। সে সঙ্গে বৃদ্ধি পেয়েছে রিলিফ, রিহেবিলিটেশন ইত্যাদি শব্দের ব্যাপক প্রয়োগ। রেডক্রস ইত্যাদি সেবাধর্মী সংস্থার বৃদ্ধিই কি প্রমাণ করে না মানব-কল্যাণ কথাটা শ্লথ মানব-অপমানে পরিণত হয়েছে? মানুষের স্বাভাবিক অধিকার আর মর্যাদার স্বীকৃতি আর প্রতিষ্ঠা ছাড়া মানব-কল্যাণ মানব-অপমানে পরিণত না হয়ে পারে না।\n\nকালের বিবর্তনে আমরা এখন আর Tribe বা গোষ্ঠী জীব নই- বৃহত্তর মানবতার অংশ। তাই Go of humanity কে বিচ্ছিন্ন, বিক্ষিপ্ত কিংবা খণ্ডিতভাবে দেখা বা নেওয়া যায় না। তেমনি নেওয়া যায় না তার কল্যাণকর্মকেও খণ্ডিত করে। দেখতে মানুষ অন্য একটা প্রাণী মাত্র, কিন্তু ভেতরে মানুষের মধ্যে রয়েছে এক অসীম ও অনন্ত সম্ভাবনার বীজ। যে সম্ভাবনার স্ফুরণ-স্ফুটনের সুযোগ দেওয়া, ক্ষেত্র রচনা আর তাতে সাহায্য করাই শ্রেষ্ঠতম মানব-কল্যাণ।",
+    "sub_questions": [
+      {
+        "label": "ক",
+        "question": "মানব-কল্যাণের সঙ্গে মানব-মর্যাদার সম্পর্ক কেন অবিচ্ছেদ্য?",
+        "answer": "মানব-কল্যাণ হলো মানুষের সার্বিক মঙ্গলের প্রয়াস। এ কল্যাণের লক্ষ্য হলো সকল অবমাননাকর অবস্থা থেকে মর্যাদাপূর্ণ অবস্থায় মানুষের উত্তরণ ঘটানো। মানুষের স্বাভাবিক অধিকার, মর্যাদার স্বীকৃতি আর প্রতিষ্ঠা ছাড়া মানব-কল্যাণ মানব অপমানে পরিণত হয়, তাই মানব-কল্যাণের সাথে মানব-মর্যাদার সম্পর্ক অবিচ্ছেদ্য।"
+      },
+      {
+        "label": "খ",
+        "question": "গদ্যাংশটিতে ব্যবহৃত 'কী' এবং 'কি' এর অর্থগত ও ব্যাকরণগত পার্থক্য কর।",
+        "answer": "**'কী' এবং 'কি' এর অর্থগত দিক:** গদ্যাংশটিতে ব্যবহৃত 'কী' কৌতূহল জাগ্রত করা বা দৃষ্টি আকর্ষণ অর্থে ব্যবহৃত হয়েছে। অন্যদিকে 'কি' কথার উপর জোর প্রয়োগ নির্দেশ করে অর্থাৎ, মানব মর্যাদার অবমাননাকর কর্মকাণ্ড যে বৃদ্ধি পাচ্ছে সেই কথার উপর জোর দিতেই 'কি' ব্যবহৃত হয়েছে।\n**'কী' এবং 'কি' এর ব্যাকরণগত দিক:** 'কী' প্রশ্ন জিজ্ঞাসায় সর্বদা সর্বনাম পদ আর প্রশ্ন জিজ্ঞাসা ছাড়া অন্যক্ষেত্রে বিশেষণ হিসেবে ব্যবহৃত হয়। অন্যদিকে, 'কি' মূলত অব্যয় পদ।"
+      },
+      {
+        "label": "গ",
+        "question": "'অসীম' ও 'অনন্ত সম্ভাবনা' পদদ্বয়ের প্রাসঙ্গিকতা ও তাৎপর্য সংক্ষেপে লেখ।",
+        "answer": "বিচক্ষণতা ও অপরিসীম ক্ষমতা বিবেচনায় অন্যান্য প্রাণী থেকে মানব সত্তার স্বাতন্ত্র্য নির্ণয়ে 'অসীম' ও 'অনন্ত সম্ভাবনা' পদবন্ধের প্রাসঙ্গিকতা ও তাৎপর্য আছে। মানুষ তার অসীম ও অনন্ত উদ্ভাবনী নৈপুণ্যে প্রকৃতি জগতকে নিয়ন্ত্রণে এনেছে এবং নানা বৈজ্ঞানিক আবিষ্কারের মাধ্যমে সামষ্টিক কল্যাণ বিধান করেছে। একা নিজের জন্য নয় বরং বিশ্বমানবতার কল্যাণ সাধনে মানুষ তার অসীম ও অনন্ত ক্ষমতাকে কাজে লাগাতে পারে, যা অন্য প্রাণী পারে না- এই স্বাতন্ত্র্য বিবেচনায় 'অসীম' ও 'অনন্ত সম্ভাবনা' পদবন্ধের প্রাসঙ্গিকতা ও তাৎপর্য নিরূপিত হয়।"
+      },
+      {
+        "label": "ঘ",
+        "question": "গদ্যাংশটিতে ব্যবহৃত ইংরেজি শব্দের তালিকা তৈরি কর।",
+        "answer": "> 💡 **উত্তর: ইংরেজি শব্দের তালিকা:**\n• Human dignity\n• রিলিফ\n• রিহেবিলিটেশন\n• রেডক্রস\n• Tribe\n• Go of Humanity"
+      },
+      {
+        "label": "ঙ",
+        "question": "গদ্যাংশটিতে প্রকাশিত বক্তব্যের সারাংশ দুটি বাক্যে লেখ।",
+        "answer": "মানব কল্যাণের লক্ষ্য সকল অবমাননাকর অবস্থা থেকে মর্যাদাপূর্ণ অবস্থায় মানুষের উত্তরণ ঘটিয়ে সার্বিক মঙ্গলের প্রয়াস। তাই ক্ষুদ্রস্বার্থকে পরিত্যাগ করে সামষ্টিক স্বার্থ বিবেচনায় মানুষের অনন্ত ও অসীম সম্ভাবনার প্রকাশ ঘটাতে এবং তার উপযুক্ত পরিবেশ তৈরি করতে সহায়তা করাই শ্রেষ্ঠ মানব-কল্যাণ।"
+      }
+    ],
+    "answer": null,
+    "source_pages": [
+      "page_019.md",
+      "page_020.md",
+      "page_021.md"
+    ]
+  },
+  {
+    "id": 15,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২২-২৩",
+    "subject": "বাংলা",
+    "question_no": "02",
+    "question_type": "summary",
+    "instruction": "সারমর্ম লেখ:",
+    "marks": null,
+    "context_passage": "তোমার মাপে হয়নি সবাই\nতুমিও হওনি সবার মাপে\nকেউ বা মরে তোমার চাপে।\nতবু ভেবে দেখতে গেলে\nএমনি কিসের টানাটানি,\nতেমন করে হাত বাড়ালে\nসুখ পাওয়া যায় অনেকখানি।\nআকাশ তবু সুনীল থাকে\nমধুর থাকে ভোরের আলো,\nমরণ এলে হঠাৎ দেখি\nমরার চেয়ে বাঁচাই ভালো।",
+    "sub_questions": [],
+    "answer": "পৃথিবীতে প্রাপ্তি-অপ্রাপ্তির দ্বন্দ্ব নিরন্তর। দ্বন্দ্বমুখর জীবনকে বিদায় জানিয়ে ব্যক্তিস্বার্থ ছেড়ে ফেলে সকলের সাথে সম্প্রীতি বজায় রাখার মাঝেই প্রকৃত সুখ নিহিত। তাই আত্মবিসর্জনের চেয়ে জীবনের মাঝে সুখ খুঁজে নেওয়াই বুদ্ধিমত্তার পরিচয়।",
+    "source_pages": [
+      "page_019.md",
+      "page_020.md",
+      "page_021.md"
+    ]
+  },
+  {
+    "id": 16,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২২-২৩",
+    "subject": "বাংলা",
+    "question_no": "03",
+    "question_type": "grammar_correction",
+    "instruction": "বানান ভুল ও বাক্যের অসঙ্গতি দূর করে বাক্যগুলো আবার লেখ।",
+    "marks": null,
+    "context_passage": null,
+    "sub_questions": [
+      {
+        "label": "ক",
+        "question": "এই সব মানুষগুলো আজ উদ্বাস্তু জীবন কাটিয়েছে।",
+        "answer": "এই সব মানুষ আজ উদ্বাস্তু জীবন কাটিয়েছে। *(অথবা, এই মানুষগুলো আজ উদ্বাস্তু জীবন কাটিয়েছে।)*"
+      },
+      {
+        "label": "খ",
+        "question": "মূর্খ লোকের দূর্গতির সীমা থাকে না।",
+        "answer": "মূর্খ লোকের দুর্গতির সীমা থাকে না।"
+      },
+      {
+        "label": "গ",
+        "question": "তাহার জন্য অপেক্ষা করা মোটেও সমীচীন হবে না।",
+        "answer": "তার জন্য অপেক্ষা করা মোটেই সমীচীন হবে না।"
+      },
+      {
+        "label": "ঘ",
+        "question": "তোমার অসৌজন্যে তিনি ব্যাথিত হয়েছে।",
+        "answer": "তোমার অসৌজন্যে তিনি ব্যথিত হয়েছেন।"
+      },
+      {
+        "label": "ঙ",
+        "question": "তুমি কি ধৈর্য ধারণ করতে পারছ না।",
+        "answer": "তুমি কি ধৈর্যধারণ করতে পারছো না?"
+      }
+    ],
+    "answer": null,
+    "source_pages": [
+      "page_019.md",
+      "page_020.md",
+      "page_021.md"
+    ]
+  },
+  {
+    "id": 17,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২২-২৩",
+    "subject": "General English",
+    "question_no": "4",
+    "question_type": "paragraph",
+    "instruction": "Write a short paragraph on: Tertiary Level Education in Bangladesh",
+    "marks": null,
+    "context_passage": null,
+    "sub_questions": [],
+    "answer": "Tertiary education in Bangladesh refers to all formal post-secondary education, including public and private universities, colleges, technical training institutes, and vocational schools. To illustrate, tertiary education in Bangladesh started with only four universities at the time of independence in 1971 which later on, mounted to fifty-three universities so far to this day. Along with public universities, in the early 1990s private funding institutions, specifically private university, also came forward to foster the growth of education. Since then, education in Bangladesh has experienced spectacular advancement. Besides private universities, colleges under National University are also playing a significant role in upholding the rate of education. The number of colleges providing tertiary level education under national university is 1400, which mainly offer degrees ranging from pass course to master's. To sum up, tertiary level education in Bangladesh is multiple folded including Institutions like public, private and national university.",
+    "source_pages": [
+      "page_019.md",
+      "page_020.md",
+      "page_021.md"
+    ]
+  },
+  {
+    "id": 18,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২২-২৩",
+    "subject": "General English",
+    "question_no": "5",
+    "question_type": "explanation",
+    "instruction": "Explain the following statement in 5 sentence: 'While adolescence is a time of tremendous growth and potential, it is also a time of considerable risks.'",
+    "marks": null,
+    "context_passage": null,
+    "sub_questions": [],
+    "answer": "This given statement demonstrates both the potential and the futility of the adolescence phase. To describe, at this stage of life, an individual has to pass through several experiences ranging from darkness to enlightenment, prosperity to hardship, opportunities to difficulties. In this stage, many adolescents start experiencing a number of positive sides of life; such as, they make new friends, start going out of home, initiate taking risk to bring creativity in life. On the other hand, in this stage, they also get exposed to drugs and that can have long lasting negative effects on future health and well-being. Again, there are many girls who get married early and, consequently, they are pulled out of school, either for marriage or for work. In conclusion, there have been both positive and negative outcomes of the adolescence period.",
+    "source_pages": [
+      "page_019.md",
+      "page_020.md",
+      "page_021.md"
+    ]
+  },
+  {
+    "id": 19,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২২-২৩",
+    "subject": "General English",
+    "question_no": "6",
+    "question_type": "sentence_making",
+    "instruction": "Write meaningful sentences of your own with each of the following words:",
+    "marks": null,
+    "context_passage": null,
+    "sub_questions": [
+      {
+        "label": "1",
+        "question": "Noteworthy",
+        "answer": "Nelson Mandela has made some noteworthy contributions during his short career."
+      },
+      {
+        "label": "2",
+        "question": "Generosity",
+        "answer": "The generosity of Hazi Muhammad Mohsin beggars description."
+      },
+      {
+        "label": "3",
+        "question": "Mandatory",
+        "answer": "Getting access to university, English is mandatory."
+      },
+      {
+        "label": "4",
+        "question": "Performance",
+        "answer": "Further investment is contingent upon the company's profit performance."
+      },
+      {
+        "label": "5",
+        "question": "Endangered",
+        "answer": "Endangered birds have been on a lonely evolutionary path for millions of years."
+      }
+    ],
+    "answer": null,
+    "source_pages": [
+      "page_019.md",
+      "page_020.md",
+      "page_021.md"
+    ]
+  },
+  {
+    "id": 20,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২১-২২",
+    "subject": "বাংলা",
+    "question_no": "1",
+    "question_type": "comprehension",
+    "instruction": "অনুচ্ছেদটি পড় এবং নিচের প্রশ্নগুলোর (ক-ঙ) উত্তর দাও।",
+    "marks": null,
+    "context_passage": "চিরকাল গলার স্বর আমার কাছে বড়ো সত্য। রূপ জিনিসটি বড়ো কম নয়, কিন্তু মানুষের মধ্যে যাহা অন্তরতম এবং অনির্বচনীয়, আমার মনে হয় কণ্ঠস্বর যেন তারই চেহারা। আমি তাড়াতাড়ি গাড়ির জানালা খুলিয়া বাহিরে মুখ বাড়াইয়া দিলাম, কিছুই দেখিলাম না। প্ল্যাটফর্মের অন্ধকারে দাঁড়াইয়া গার্ড তাহার একচক্ষু লণ্ঠন নাড়িয়া দিল, গাড়ি চলিল; আমি জানালার কাছে বসিয়া রহিলাম। আমার চোখের সামনে কোনো মূর্তি ছিল না, কিন্তু হৃদয়ের মধ্যে আমি একটি হৃদয়ের রূপ দেখিতে লাগিলাম। সে যেন এই তারাময়ী রাত্রির মতো, আবৃত করিয়া ধরে কিন্তু তাহাকে ধরিতে পারা যায় না। ওগো সুর, অচেনা কণ্ঠের সুর, এক নিমেষে তুমি যে আমার চিরপরিচিতের আসনটির উপরে আসিয়া বসিয়াছ। কী আশ্চর্য পরিপূর্ণ তুমি- চঞ্চল কালোর ক্ষুদ্র হৃদয়ের উপরে ফুলটির মতো ফুটিয়াছ, অথচ তার ঢেউ লাগিয়া একটি পাপড়িও টলে নাই, অপরিমেয় কোমলতায় এতটুকু দাগ পড়ে নাই।",
+    "sub_questions": [
+      {
+        "label": "ক",
+        "question": "'অন্তরতম' ও 'অনির্বচনীয়' শব্দ দুটির মাধ্যমে কথক কোন বিষয়টিকে নির্দেশ করেছেন?",
+        "answer": "এখানে 'অন্তরতম' ও 'অনির্বচনীয়' শব্দ দ্বারা সুন্দর হৃদয় বা মনকে নির্দেশ করা হয়েছে। মানুষের ভেতরটা কেমন তা যেন তার কণ্ঠের কোমলতায় প্রকাশ পায়। অথচ সেই হৃদয় বা মনকে কখনো ভাষায় প্রকাশ করা যায় না; তা কেবলই অন্তরতম ও অনির্বচনীয়।"
+      },
+      {
+        "label": "খ",
+        "question": "'একচক্ষু লণ্ঠন' বলতে কী বোঝানো হয়েছে?",
+        "answer": "একচক্ষু লণ্ঠন — এখানে একচক্ষু লণ্ঠন দ্বারা রেলগাড়ি ছাড়ার সংকেত বোঝানো হয়েছে। একদিকে খোলা তিনদিক ঢাকা বিশেষ এক ধরনের লণ্ঠনের নাম একচক্ষু লণ্ঠন। এ লণ্ঠন রেলপথের সংকেত দেখানোর কাজে ব্যবহৃত হয়।"
+      },
+      {
+        "label": "গ",
+        "question": "'সে যেন এই তারাময়ী রাত্রির মতো'- উক্তিটির তাৎপর্য কী?",
+        "answer": "অনুপম তার হৃদয়ের রানি কল্যাণীকে স্পষ্টরূপে কল্পনা করতে না পারার আক্ষেপ থেকে কথাটি বলেছে। ট্রেনে অপরিচিতা নারীর কণ্ঠস্বর অনুপমকে এতই মুগ্ধ করে যে, সেই আশ্চর্য মধুর কণ্ঠ তার কল্পনার রানিকে স্মরণ করিয়ে দেয় যাকে কখনোই চর্মচক্ষে দেখা হয় নি। বাস্তবে বা ফটোগ্রাফিতে কখনোই দেখা হয় নি বলে মনের মধ্যে একটা সুন্দর হৃদয়মূর্তি কল্পনা করতে পারলেও নারী মূর্তিকে স্পষ্ট করে মনে আনতে পারে না, ঠিক তারাময়ী রাত্রিতে আলোর অনুজ্জ্বলতার কারণে সবকিছু যেমন অস্পষ্ট থাকে, কল্যাণীর মূর্তিও যেন অনুপমের নিকট তেমনি। আলোচ্য উদ্ধৃতির দ্বারা এই দিকটি তাৎপর্যপূর্ণ করে তোলা হয়েছে।"
+      },
+      {
+        "label": "ঘ",
+        "question": "কথক কাকে 'তুমি' সম্বোধন করেছে?",
+        "answer": "'তুমি' বলতে কথক এখানে অপরিচিতার আড়ালে কল্যাণীর অস্তিত্ব খুঁজেছেন। কল্যাণীকে পাওয়া হয়নি অনুপমের। কিন্তু কল্পনায় তাকে পাওয়ার বাসনা তার মনে। চোখের সামনে তাকে দেখতে না পেয়েও হৃদয় সেই কণ্ঠস্বরের রূপ দেখে সে। অচেনা সেই 'তুমি' তার মনে নারী প্রতিমা হয়ে আসন গেড়েছে।"
+      },
+      {
+        "label": "ঙ",
+        "question": "অনুচ্ছেদটিতে কণ্ঠস্বরকে কীভাবে মহিমান্বিত করা হয়েছে?",
+        "answer": "কণ্ঠস্বর অনুপমের কাছে চিরন্তন এক প্রতীতি। অচেনা সেই কণ্ঠস্বরকে এখানে অধরা কল্যাণীর রূপ হিসেবে বিশেষভাবে মহিমান্বিত করা হয়েছে। অনুপমের আকুতি সেই নারী রূপ প্রেম এই কণ্ঠস্বর। বাস্তব কল্যাণীর সাথে পরিচয় ঘটলেও কণ্ঠের স্বর অনুপমের কাছে চেহারা হিসেবে প্রকাশিত হয়েছে।"
+      }
+    ],
+    "answer": null,
+    "source_pages": [
+      "page_026.md",
+      "page_027.md",
+      "page_028.md"
+    ]
+  },
+  {
+    "id": 21,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২১-২২",
+    "subject": "বাংলা",
+    "question_no": "2",
+    "question_type": "summary",
+    "instruction": "সারমর্ম লেখ:",
+    "marks": null,
+    "context_passage": "যে নদী হারায়ে স্রোত চলিতে না পারে\nসহস্র শৈবালদাম বাঁধে আসি তারে।\nযে জাতি জীবনহারা অচল অসাড়\nপদে পদে বাঁধে তারে জীর্ণ লোকাচার।\nসর্বজন সর্বক্ষণ চলে যেই পথে\nতৃণগুচ্ছ সেথা নাহি জন্মে কোন মতে।\nযে জাতি চলে না কভু তারি পথ পরে\nতন্ত্র-মন্ত্র-সংহিতায় চরণ না সরে।",
+    "sub_questions": [],
+    "answer": "আলস্য, কর্মবিমুখতা, স্থবিরতা ও মানবজীবনে কুসংস্কার, জীর্ণতা ও সংকীর্ণ লোকাচার প্রতিষ্ঠার সহায়ক। তাই পার্থিব উন্নয়নে গতিশীল কর্মমুখী জীবন গড়াই সবার কাম্য হওয়া উচিত। কোনো জাতি যদি তার গতি হারিয়ে ফেলে তবে তা একসময় অচল ও প্রাণশূন্য হতে বাধ্য।",
+    "source_pages": [
+      "page_026.md",
+      "page_027.md",
+      "page_028.md"
+    ]
+  },
+  {
+    "id": 22,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২১-২২",
+    "subject": "বাংলা",
+    "question_no": "3",
+    "question_type": "comprehension",
+    "instruction": "নিচের গদ্যাংশ থেকে নিম্নরেখ-চিহ্নিত বিশেষ্যপদকে বিশেষণে ও বিশেষণপদকে বিশেষ্যে পরিবর্তন কর; এবং বাঁকা হরফে চিহ্নিত অংশগুলোর বিপরীতার্থক রূপ নির্দেশ কর:",
+    "marks": null,
+    "context_passage": "দেশের যারা শত্রু, দেশের যা-কিছু মিথ্যা, ভণ্ডামি, মেকি তা সব দূর করতে প্রয়োজন হবে আগুনের সম্মার্জনা। আমার সে আগুন-সত্যকে অস্বীকার করে কারুর মিথ্যা বা ভণ্ডামিকে প্রশ্রয় দেবে। আমি সে দাসত্ব হতে সম্পূর্ণ মুক্ত।",
+    "sub_questions": [],
+    "answer": "**বিপরীত শব্দ:**\n| প্রদত্ত শব্দ | বিপরীত শব্দ |\n| :--- | :--- |\n| **শত্রু** | মিত্র |\n| **মেকি** | প্রাকৃতিক / সত্য / অকত্রিম |\n| **গুরু** | শিষ্য |\n| **প্রশ্রয়** | দমন |\n| **দাসত্ব** | প্রভুত্ব |\n| **সম্পূর্ণ** | অসম্পূর্ণ |\n**বিশেষ্য থেকে বিশেষণ বা বিশেষণ থেকে বিশেষ্য:**\n| মূল পদ | রূপান্তরিত পদ |\n| :--- | :--- |\n| **ভণ্ডামি (বিশেষ্য)** | ভণ্ড (বিশেষণ) |\n| **প্রয়োজন (বিশেষ্য)** | প্রয়োজনীয় (বিশেষণ) |\n| **অস্বীকার (বিশেষ্য)** | অস্বীকৃত (বিশেষণ) / অস্বীকার্য (বিশেষণ) |\n| **মুক্ত (বিশেষণ)** | মুক্তি (বিশেষ্য) |",
+    "source_pages": [
+      "page_026.md",
+      "page_027.md",
+      "page_028.md"
+    ]
+  },
+  {
+    "id": 23,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২১-২২",
+    "subject": "General English",
+    "question_no": "4",
+    "question_type": "paragraph",
+    "instruction": "Write a paragraph on “The Impact of Climate Change on Bangladesh”.",
+    "marks": null,
+    "context_passage": null,
+    "sub_questions": [],
+    "answer": "“The impact of climate change on Bangladesh”\nLong-term variation in temperatures and weather patterns is known as climate change. The frequent shift of climate in Bangladesh has been showing a number of devastating effects; such as, rising sea level, floods, and intensifying cyclones. Firstly, Raising sea level is a growing threat to people all around Bangladesh. To illustrate, two-thirds of the land of this country is less than fifteen feet above sea level. So, the increase of sea level might cause extinction of huge low land area. Respondingly, the dwellers of that area may have to migrate from their own land. Secondly, climate change is making rainfall more erratic and often far more intense. In terms of Bangladesh, this reality has recently become quite evident. Because of irregular rain and melting the Himalayan glaciers, Bangladesh is now far more vulnerable to devastating floods. Lastly and most importantly, The Bay of Bengal narrows towards its northern shore where it meets the south of coast Bangladesh. This narrowing can both direct cyclones towards Bangladesh's coast and make them more intense. To conclude, to minimize climate change, some immediate policies could be adopted such as planting more trees, reducing the use of CFC gases, using electric vehicles, recycling plastic materials. In a word, people should practice eco-friendly behaviors to protect the nature as well as themselves.",
+    "source_pages": [
+      "page_026.md",
+      "page_027.md",
+      "page_028.md"
+    ]
+  },
+  {
+    "id": 24,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২১-২২",
+    "subject": "General English",
+    "question_no": "5",
+    "question_type": "comprehension",
+    "instruction": "Read the following poem and explain {5 sentences max.} why you agree or disagree with the idea expressed in the text:",
+    "marks": null,
+    "context_passage": "Hold fast to dreams\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\nHold fast to dreams\nFor when dreams go\nLife is a barren field\nFrozen with snow.",
+    "sub_questions": [],
+    "answer": "The following poem, Dream written by Langston Hughes, motivates us to be consistent in pursuing dream.\nIn the first stanza of the poem, with a simile the writer motivates us to dream; because, without dream life becomes as meaningless as a bird without wings. In the second stanza, the writer reinforces the importance of dream by saying that without dream life will become as worthless as land with frozen snow. It is widely agreed that life is a summation of dream. The constructive one can dream, the effective outcome he will eventually get.",
+    "source_pages": [
+      "page_026.md",
+      "page_027.md",
+      "page_028.md"
+    ]
+  },
+  {
+    "id": 25,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২১-২২",
+    "subject": "General English",
+    "question_no": "6",
+    "question_type": "sentence_making",
+    "instruction": "Write a meaningful sentence of your own with each of the following words:",
+    "marks": null,
+    "context_passage": null,
+    "sub_questions": [
+      {
+        "label": "1",
+        "question": "Isolation",
+        "answer": "Because of isolation, we are having a very difficult time during pandemic."
+      },
+      {
+        "label": "2",
+        "question": "Pleasant",
+        "answer": "Kuakata offers very pleasant eyesight for the visitor."
+      },
+      {
+        "label": "3",
+        "question": "Marvel",
+        "answer": "We were pleased at the marvel of the Padma bridge."
+      },
+      {
+        "label": "4",
+        "question": "Vanity",
+        "answer": "The reason of his failure is his vanity."
+      },
+      {
+        "label": "5",
+        "question": "Eliminate",
+        "answer": "We should eliminate poverty rate."
+      }
+    ],
+    "answer": null,
+    "source_pages": [
+      "page_026.md",
+      "page_027.md",
+      "page_028.md"
+    ]
+  },
+  {
+    "id": 26,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২০-২১",
+    "subject": "বাংলা",
+    "question_no": "1",
+    "question_type": "comprehension",
+    "instruction": "কাব্যাংশটি পড় এবং নিচের প্রশ্নগুলোর (ক-ঘ) উত্তর দাও:",
+    "marks": null,
+    "context_passage": "রুষিলা বাসবত্রাস। গম্ভীরে যেমতি\nনিশীথে অম্বরে মন্দ্রে জীমূতেন্দ্র কোপি,\nকহিলা বীরেন্দ্র বলী,— “ধর্মপথগামী,\nহে রাক্ষসরাজানুজ, বিখ্যাত জগতে\nতুমি; — কোন ধর্ম মতে, কহ দাসে, শুনি,\nজ্ঞাতিত্ব, ভ্রাতৃত্ব, জাতি, — এ সকলে দিলা\nজলাঞ্জলি? শাস্ত্রে বলে, গুণবান যদি\nপরজন, গুণহীন স্বজন, তথাপি\nনির্গুণ স্বজন শ্রেয়ঃ, পরঃ পরঃ সদা!\nএ শিক্ষা, হে রক্ষোবর, কোথায় শিখিলে?\nকিন্তু বৃথা গঞ্জি তোমা! হেন সহবাসে,\nহে পিতৃব্য, বর্বরতা কেন না শিখিবে?\nগতি যার নীচ সহ, নীচ সে দুর্মতি।”",
+    "sub_questions": [
+      {
+        "label": "ক",
+        "question": "কাব্যাংশটির ভেতরের সংলাপে ‘জ্ঞাতিত্ব, ভ্রাতৃত্ব, জাতি’ নিয়ে প্রশ্ন উঠেছে কেন?",
+        "answer": "কাব্যাংশটির সংলাপে নিজের জাতি ও বংশের সাথে বিভীষণের বিশ্বাসঘাতকতা ও দেশদ্রোহিতার প্রতি ঘৃণা প্রকাশ পেয়েছে। বিভীষণ জ্ঞাতিত্ব, ভ্রাতৃত্ব ও জাতিসত্তার সংহতির প্রতি গুরুত্ব না দিয়ে নিজ বংশের শত্রুকে পথ দেখিয়ে দেয় আপন ভাইয়ের ছেলেকে পরাজিত করতে। যুদ্ধের নিয়মকে অগ্রাহ্য করে শত্রুকে নিজেদের বাসস্থান দেখিয়ে দেওয়ার এমন নীচ ও বর্বরতার পরিচয় দিলে মেঘনাদ বিভীষণের প্রতি 'জ্ঞাতিত্ব, ভ্রাতৃত্ব ও জাতি' নিয়ে প্রশ্ন তোলে।"
+      },
+      {
+        "label": "খ",
+        "question": "মেঘনাদের সংলাপের মূলভাব অনধিক পাঁচ বাক্যে ব্যক্ত কর।",
+        "answer": "স্বপক্ষ ত্যাগ করে নিজের জাতি ও বংশের সাথে বিশ্বাসঘাতকতা মহৎ ব্যক্তির লক্ষণ নয়। গুণবান পরের চেয়ে গুণহীন স্বজন উত্তম। কোনো ধর্ম ও শাস্ত্র স্বপক্ষ ত্যাগের শিক্ষা দেয় না। বর্বর ও হীন ব্যক্তিই কেবল শাস্ত্রহীন এমন কাজ করতে পারে। আর এ কাজের উৎসাহ সে পায় অসৎ ও নীচ সহচর্য থেকে।"
+      },
+      {
+        "label": "গ",
+        "question": "যে ভঙ্গি ও স্বরে বিভীষণের প্রতি মেঘনাদ ঘৃণা ব্যক্ত করেছেন তা নিজের ভাষায় লেখ।",
+        "answer": "মেঘনাদ ক্ষুব্ধ হয়ে বিভীষণকে জ্ঞাতিত্ব, ভ্রাতৃত্ব ও জাতি নিয়ে প্রশ্ন করেছে। মেঘের মতো গর্জন করে মেঘনাদ বিভীষণের শাস্ত্রজ্ঞানকে প্রশ্নবিদ্ধ করেছে। বিভীষণের হীনতাকে মেঘনাদ তুচ্ছজ্ঞান করেছে। পরিশেষে মেঘনাদ ঘৃণাভরে বিভীষণের হীনতা ও নীচ সহচর্যকে তিরস্কার করেছে।"
+      },
+      {
+        "label": "ঘ",
+        "question": "বাংলাদেশের মুক্তিযুদ্ধের সঙ্গে কাব্যাংশটির সাদৃশ্য রয়েছে— কীভাবে?",
+        "answer": "বাংলাদেশের মহান মুক্তিযুদ্ধে স্বাধীনতাবিরোধী অপশক্তির নিজ জাতির প্রতি বিশ্বাসঘাতকতার সাথে কবিতার বিভীষণের বিশ্বাসঘাতকতার সাদৃশ্য রয়েছে। ১৯৭১ সালে জাতির জনক বঙ্গবন্ধু শেখ মুজিবুর রহমানের আহ্বানে জাতি-ধর্ম নির্বিশেষে সবাই যখন স্বাধীনতা সংগ্রামে একাত্মতা ঘোষণা করে তখন আমাদেরই কিছু লোক স্বপক্ষ ত্যাগ করে বর্বর হানাদার বাহিনীর সহায়ক শক্তি হিসেবে আত্মপ্রকাশ করে। রাজাকার, আলবদর, আল শামস নাম ধারণ করে তারা ধর্মের দোহাই দিয়ে ধর্ম ও শাস্ত্র বিরোধী কার্যকলাপে লিপ্ত হয়। তাদের সেই বিশ্বাসঘাতকতা ও কবিতার বিভীষণের বিশ্বাসঘাতকতা উভয়ই নীচতা ও হীনতার পরিচায়ক।"
+      }
+    ],
+    "answer": null,
+    "source_pages": [
+      "page_035.md",
+      "page_036.md"
+    ]
+  },
+  {
+    "id": 27,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২০-২১",
+    "subject": "বাংলা",
+    "question_no": "2",
+    "question_type": "summary",
+    "instruction": "সারাংশ লেখ:",
+    "marks": null,
+    "context_passage": "দুঃখ যত প্রবলভাবে মানুষের মনে আঘাত করে, সুখ ততটা করে না। সুখকে কোনো কোনো যত নিঃস্পৃহভাবে গ্রহণ করতে পারে, চেষ্টা করলেও দুঃখকে তত সহজে মনের গোপনে লুকিয়ে রাখতে পারে না। এজন্য জীবনে দুঃখের মূল্য বড় বেশি। আগে দুঃখ পেতে হবে, তবেই সমস্ত অনুভূতি সজাগ ও তীক্ষ্ণ হবে। ভুল করে যে দুঃখ পায়, তার ভুল করা সার্থক। আর ভুল করলেও যে নির্বিকার, — আত্ম-বিচার যার নাই— তার কাছে সত্য-মিথ্যা, পাপ-পুণ্য, অর্থশূন্য শব্দ ছাড়া আর কিছুই নয়।",
+    "sub_questions": [],
+    "answer": "ভুল মানুষের জীবনের একটি সাধারণ ঘটনা। ভুল করেই মানুষ পৃথিবীতে এগিয়ে যায়। তবে সুখী হতে না পেরে দুঃখ পেয়ে আশাহত হলে চলবে না। ভুলের মধ্য দিয়ে সংশোধিত হয়ে সত্যের কাছে পৌঁছানোই বুদ্ধিমানের কাজ।",
+    "source_pages": [
+      "page_035.md",
+      "page_036.md"
+    ]
+  },
+  {
+    "id": 28,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২০-২১",
+    "subject": "বাংলা",
+    "question_no": "3",
+    "question_type": "grammar_correction",
+    "instruction": "প্রযোজ্যক্ষেত্রে অপপ্রয়োগ ও বানানগত ত্রুটি সংশোধন কর এবং যথা স্থানে বিরামচিহ্ন বসাও:",
+    "marks": null,
+    "context_passage": "কাদের কেবলমাত্র কাতর রব তোলে যাবো কোথায় শখ করে কী এখানে এসে উঠেছি সদলবলে সাব-ইন্সপেক্টর ফিরে গিয়ে না-হক না বে-হক না-ভালো না-মন্দ গোছের ঘোর-ঘোরাল রিপোর্ট দেয় যার মর্মার্থ উদ্ধারের ভয়েই হয়ত ওপরওয়ালা তা ফাইল চাপা দেয়া শ্রেয় মনে করে। অথবা বুঝতে পারে, এই হুজুগের সময় অন্যায়ভাবে বাড়ি দখলের বিষয়ে সরকারি আইনটা মেনে তেমন পরিষ্কার বোঝা যাচ্ছে না।",
+    "sub_questions": [],
+    "answer": "কাদের কেবল কাতর রব তোলে! যাবো কোথায়? শখ করে কি এখানে এসে উঠেছি? সদলবলে সাব-ইন্সপেক্টর ফিরে গিয়ে না-হক না বে-হক না-ভালো না-মন্দ গোছের ঘোর-ঘোরালো রিপোর্ট দেয় যার মর্মার্থ উদ্ধারের ভয়েই হয়ত ওপরওয়ালা তা ফাইল চাপা দেয়া শ্রেয় মনে করে। অথবা বুঝতে পারে, এই হুজুগের সময় অন্যায়ভাবে বাড়ি দখলের বিষয়ে সরকারি আইনটা মেনে তেমন পরিষ্কার বোঝা যাচ্ছে না।",
+    "source_pages": [
+      "page_035.md",
+      "page_036.md"
+    ]
+  },
+  {
+    "id": 29,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২০-২১",
+    "subject": "General English",
+    "question_no": "4",
+    "question_type": "paragraph",
+    "instruction": "Write a paragraph on “National Tourism and the COVID-19 Outbreak” by recalling the relevant unit from your textbook.",
+    "marks": null,
+    "context_passage": null,
+    "sub_questions": [],
+    "answer": "National Tourism has been affected adversely by COVID-19 outbreak. Corona viruses are a large family of viruses that are common in people and many different species of animals. It was first detected in China. Not only national tourism but also every aspect of life has been affected by Covid-19 shockingly. undoubtedly, national tourism is a big source of national income. So, our country faces a huge financial losses like other countries as all of the tourists spots were closed for a long time due to Covid-19. Moreover, the people associated with tourisms are also leading very mournful life. Like Bangladesh, the corona virus has affected all of the countries and territories around the world and killed numerous people. It seems that tourism is the most affected area by Covid-19 outbreak. Recently the vaccine has been invented by some companies and the patients started to take it. Due to the vaccine, the condition of Covid-19 are improving gradually. So, national tourisms has been opened again. We hope that we will be free from this fatal virus completely and national tourisms will display its attractions fully.",
+    "source_pages": [
+      "page_035.md",
+      "page_036.md"
+    ]
+  },
+  {
+    "id": 30,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২০-২১",
+    "subject": "General English",
+    "question_no": "5",
+    "question_type": "fill_in_the_gaps",
+    "instruction": "Fill in each gap of the following passage with appropriate word(s) from the box given below:",
+    "marks": null,
+    "context_passage": "| being | existence | productively | realize |\n| :--- | :--- | :--- | :--- |\n| **counting** | **persuasively** | **questioned** | **thought of** |\n| **adjusted** | | | |\nEducation can be **(a)** ______ as the transmission of values and knowledge from one generation to another in society. One **(b)** ______ purpose of education is to make people **(c)** ______ what it is to be a human **(d)** ______. It also aims to teach a person to live morally, creatively, and **(e)** ______ in a democratic society.",
+    "sub_questions": [],
+    "answer": "**a)** thought of\n**b)** counting\n**c)** realize\n**d)** being\n**e)** productively",
+    "source_pages": [
+      "page_035.md",
+      "page_036.md"
+    ]
+  },
+  {
+    "id": 31,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০২০-২১",
+    "subject": "General English",
+    "question_no": "6",
+    "question_type": "story_completion",
+    "instruction": "Add five more sentences to complete the following story:",
+    "marks": null,
+    "context_passage": "I’m Shubho. I’m 18 years old. I’m a passionate lover of folk music. I don’t mind while my friends call me melomaniac. I dream to visit different parts of Bangladesh and I want to experience the taste of local folk music of those areas. If I get the opportunity to study at the University of Dhaka, I will take folk music as a part of my co-curricular activity. Therefore I am making up a plan that includes many things...",
+    "sub_questions": [],
+    "answer": "Therefore I am making up a plan that includes many things along with folk music. I know that Bangladesh is very enriched with folk music. But it is a matter of sorrow that most of the people are not familiar with folk music. In fact, some of the folk music are about to extinct. Undoubtedly, the folk music Vhatiali, Baul, Vhawaiya, Jari, sari, Hason Raja and Gombhira are nothing but our identity, history and cultures. So, I want to explore these folk music and make people more connected with these music.",
+    "source_pages": [
+      "page_035.md",
+      "page_036.md"
+    ]
+  },
+  {
+    "id": 32,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০১৯-২০",
+    "subject": "বাংলা",
+    "question_no": "1",
+    "question_type": "comprehension",
+    "instruction": "অনুচ্ছেদটি পড় এবং নিচের প্রশ্নগুলোর (ক-ঘ) উত্তর দাও:",
+    "marks": null,
+    "context_passage": "রাস্তায় একটা রিকশা নাই। তা রিকশার পরোয়াও সে এখন করছে না। রেইনকোটের ভেতরে হাঁটতে হাঁটতে বাসস্ট্যান্ড যেতে তার কোনো অসুবিধা হবে না। রেইনকোটের ওপর বৃষ্টি পড়ছে অবিরাম। কী মজা, তার গায়ে লাগে না একটি ফোঁটা। টুপির বারান্দা বেয়ে পানি গড়িয়ে পড়লে কয়েক ফোঁটা সে চেটে দেখে। ঠিক পানসে স্বাদ নয়, টুপির তেজ কি পানিতেও লাগল নাকি? তাকে কি মিলিটারির মতো দেখাচ্ছে? পাঞ্জাব আর্টিলারি, না বেলুচ রেজিমেন্ট, না কম্যান্ডো ফোর্স, নাকি প্যারা মিলিটারি, নাকি মিলিটারি পুলিশ,- ওদের তো একেক গুষ্টির একেক নাম, একেক সুরত। তার রেইনকোটে তাকে কি নতুন কোনো বাহিনীর লোক বলে মনে হচ্ছে? হোক। সে বেশ হনহন করে হাঁটে। শেষ-হেমন্তের বৃষ্টিতে বেশ শীত-শীত ভাব। কিন্তু রেইনকোটের ভেতরে কী সুন্দর ওম। মিন্টুটা এই রেইনকোট রেখে গিয়ে কী ভালোই যে করেছে।",
+    "sub_questions": [
+      {
+        "label": "ক",
+        "question": "‘টুপির তেজ’ বলতে অনুচ্ছেদে কী বোঝানো হয়েছে?",
+        "answer": "‘টুপির তেজ’ বলতে এখানে নুরুল হুদা টুপির প্রভাবকে বুঝিয়েছে। রেইনকোটটি পরার আগে নুরুল হুদার মধ্যে যে হীনমন্যতাবোধ কাজ করছিল তার আমূল পরিবর্তন ঘটে। রেইনকোটটি পরার পর থেকে তার মনে হতে থাকে যেন পা শির শির করছে। এই মানসিক বোধের জায়গা থেকেই টুপির পানির স্বাদ পানসে মনে হওয়ায় তার উপলব্ধি হয় যে, মুক্তিযোদ্ধার রেইনকোটের টুপির তেজের কারণেই সম্ভবত পানির স্বাদ বদলে গেছে। মূলত, গল্পে রেইনকোটের যে প্রতীকী তাৎপর্য আছে সেদিকটা এখানে ব্যঞ্জনা পেয়েছে।"
+      },
+      {
+        "label": "খ",
+        "question": "অনুচ্ছেদে ব্যবহৃত ‘গুটি’, ‘সুরত’— শব্দ দুটি পাকিস্তানি বাহিনীর প্রতি কথকের বিশেষ দৃষ্টিভঙ্গির পরিচয় বহন করে; কীভাবে?",
+        "answer": "আপাতদৃষ্টিতে নুরুল হুদা একজন নির্বিকার, নিস্পৃহ মানুষ বলে মনে হয়। কিন্তু রেইনকোটটি পরার পর থেকে তার ভিতর এক ধরনের ইতিবাচক পরিবর্তন আমরা লক্ষ্য করি। তেজহীন নির্লিপ্ত নুরুল হুদার মধ্যেও পাকিস্তানিদের প্রতি তার যে এক ধরনের বিতৃষ্ণাবোধ কাজ করছে তা এই শব্দচয়নে স্পষ্ট হয়ে ওঠে। ভিতরে ভিতরে একটা চাপা ক্ষোভ, যন্ত্রণা সেও যে বয়ে বেড়ায়, তা ‘গুষ্টি’, ‘সুরত’ শব্দদ্বয়নে প্রকাশ পেয়ে পড়ে।"
+      },
+      {
+        "label": "গ",
+        "question": "‘মিন্টুটা এই রেইনকোট রেখে গিয়ে কী ভালোই যে করেছে।’ উক্তিটির তাৎপর্য কী?",
+        "answer": "দেশ, মাটি, মানুষের প্রতি প্রত্যেকটা মানুষ প্রগাঢ় আবেগ বয়ে বেড়ায়। পরিবেশ, পারিপার্শ্বিক নানা টানা পোড়েনে তা সব সময় পরিদৃশ্যমান হয় না। নুরুল হুদাও পরিবার, সন্তান, সংসারের টানাপোড়েনে নিতান্ত গোবেচারা হয়ে থাকতে চেয়েছে। কিন্তু সময়ে মা-মাটির প্রতি ভালোবাসাকে সে আর চেপে রাখতে পারেনি। রেইনকোটটা পরার পর থেকে তার মধ্যে আশ্চর্যজনকভাবে শক্তি ও সাহস সঞ্চারিত হয় যা তাকে ভীরুতার খোলস থেকে বাইরে এসে সাহসের সাথে পরিস্থিতি মোকাবেলা করতে নিহিত ভূমিকা পালন করেছে। তাই, সাহস জাগানিয়া এই রেইনকোটটা রেখে যাওয়ার জন্যে মিন্টুর প্রতি সে মনে মনে কৃতজ্ঞ না হয়ে পারে না।"
+      },
+      {
+        "label": "ঘ",
+        "question": "অনুচ্ছেদটিতে ‘রেইনকোট’ কিসের প্রতীক হয়ে উঠেছে— তা সংক্ষেপে লেখ।",
+        "answer": "অনুচ্ছেদটিতে ‘রেইনকোট’ সাহস ও দেশপ্রেমের প্রতীক হয়ে উঠেছে। নুরুল হুদা যে রেইনকোটটা পরেছিল সেটি তার শ্যালক মুক্তিযোদ্ধা মিন্টুর। কিন্তু রেইনকোটটার প্রতীকী তাৎপর্য অসাধারণ। ভীতু প্রকৃতির নুরুল হুদা রেইনকোট গায়ে দিয়ে সম্পূর্ণ পরিবর্তন হয়ে যায়। তার মনে সঞ্চারিত হতে থাকে উষ্ণতা ও সাহস। অনুচ্ছেদের রেইনকোটটির মাধ্যমে নুরুল হুদার সাহস ও দেশপ্রেম ব্যঞ্জনাময় হয়ে উঠেছে।"
+      }
+    ],
+    "answer": null,
+    "source_pages": [
+      "page_042.md",
+      "page_043.md"
+    ]
+  },
+  {
+    "id": 33,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০১৯-২০",
+    "subject": "বাংলা",
+    "question_no": "2",
+    "question_type": "general",
+    "instruction": "সপ্রসঙ্গ উদ্ধৃতি ব্যাখ্যা কর:",
+    "marks": null,
+    "context_passage": null,
+    "sub_questions": [
+      {
+        "label": "ক",
+        "question": "‘মানুষের বৃদ্ধি কেবল দৈহিক নয়, আত্মিকও।’",
+        "answer": "‘জীবন ও বৃক্ষ’ প্রবন্ধে প্রাবন্ধিক মানুষের দৈহিক বৃদ্ধির পাশাপাশি আত্মিক বিকাশের উপর জোর দিয়েছেন। মানুষকে দৈহিক বৃদ্ধির পাশাপাশি আত্মিক বিকাশও ঘটাতে হয়। এই সর্বাঙ্গীন বৃদ্ধি বা বিকাশে মানুষের নিজের ভূমিকা রয়েছে। প্রাবন্ধিক মনে করেন সুখ-দুঃখ, আনন্দ-বেদনার উপলব্ধির ফলে অন্তরের যে পরিপক্বতা তৈরি হয় তাই তো আত্মা। আত্মাকে মধুর ও পুষ্ট করে গড়ে তুলতে হবে মানুষকে নিজে। জীবনের বিচিত্র অভিজ্ঞতা, প্রচুর প্রেম ও গভীর অনুভূতির দ্বারা আত্মার পরিপুষ্টি ও মাধুর্য সম্পাদনের মাধ্যমে মানুষ দৈহিক বৃদ্ধির পাশাপাশি আত্মারও বিকাশ ঘটাতে পারে যা প্রশ্নোক্ত উক্তিটিতে তুলে ধরা হয়েছে।"
+      },
+      {
+        "label": "খ",
+        "question": "‘তোমাতে রয়েছে সকল কেতাব সকল কালের জ্ঞান, / সকল শাস্ত্র খুঁজে পাবে সখা, খুলে দেখ নিজ প্রাণ!’",
+        "answer": "পৃথিবীর সকল যুগের, সকল ধর্মগ্রন্থের শিক্ষার প্রধান উৎস মানুষের হৃদয়। সেখানে খুঁজলে সব শাস্ত্রের জ্ঞান পাওয়া যাবে। সাম্যবাদী কবিতায় কাজী নজরুল ইসলাম অন্তর-ধর্মের উপর বেশি গুরুত্ব দিয়েছেন। যুগে যুগে মানুষ জ্ঞান আহরণ করার জন্য ধর্মগ্রন্থের সাহায্য নেয়। কিন্তু ধর্মের যথোপযুক্ত উপলব্ধি শুধু কেতাব থেকে পাওয়া সম্ভব নয়। এর জন্য প্রয়োজন প্রগাঢ় মানবতাবোধ। হৃদয় দিয়ে উপলব্ধি করলে সব ধর্মের জ্ঞানের অস্তিত্ব অনুভব করা যায়। তাই কবি অন্তর-ধর্ম দিয়ে সকল জ্ঞান অর্জন করার কথা বলেছেন আলোচ্য উদ্ধৃতিতে।"
+      }
+    ],
+    "answer": null,
+    "source_pages": [
+      "page_042.md",
+      "page_043.md"
+    ]
+  },
+  {
+    "id": 34,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০১৯-২০",
+    "subject": "বাংলা",
+    "question_no": "3",
+    "question_type": "translation",
+    "instruction": "বঙ্গানুবাদ কর:",
+    "marks": null,
+    "context_passage": "Kuakata is one of the unique tourist spots in Bangladesh. It allows a visitor to watch both the sunrise and the sunset from the beach and that perhaps makes Kuakata one of the world's most attractive beaches. The long and wide beach at Kuakata has a typical natural setting. It is also a holy land for several religious communities. Each year thousands of devotees come here to attend various festivals.",
+    "sub_questions": [],
+    "answer": "কুয়াকাটা বাংলাদেশের একটি অনন্য পর্যটন কেন্দ্র। এখানে পর্যটকরা সমুদ্র সৈকত থেকে একই সাথে সূর্যোদয় এবং সূর্যাস্ত দেখতে পারে আর সম্ভবত এটাই কুয়াকাটাকে পৃথিবীর সবচেয়ে আকর্ষণীয় সমুদ্র সৈকতে পরিণত করেছে। দীর্ঘ ও প্রশস্ত কুয়াকাটা সমুদ্র সৈকতের রয়েছে প্রতীকী প্রাকৃতিক বিন্যাস। বিভিন্ন ধর্মীয় সম্প্রদায়ের কাছে এটি একটি পবিত্র ভূমিও। প্রতি বছর হাজার হাজার উপাসক এখানে বিভিন্ন উৎসবে অংশগ্রহণ করতে আসে।",
+    "source_pages": [
+      "page_042.md",
+      "page_043.md"
+    ]
+  },
+  {
+    "id": 35,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০১৯-২০",
+    "subject": "বাংলা",
+    "question_no": "4",
+    "question_type": "sentence_making",
+    "instruction": "বাক্য গঠন কর: তপোবন, সমীচীন, অবিনাশী, মূল্যবোধ, বাতায়ন",
+    "marks": null,
+    "context_passage": null,
+    "sub_questions": [
+      {
+        "label": "1",
+        "question": "তপোবন",
+        "answer": "প্রাচীনকালে ঋষিগণ শান্ত তপোবনে বসে শিষ্যদের শিক্ষা প্রদান করতেন।"
+      },
+      {
+        "label": "2",
+        "question": "সমীচীন",
+        "answer": "যেকোনো বিরোধ মেটাতে পারস্পরিক সমঝোতার পথ বেছে নেওয়াই সমীচীন।"
+      },
+      {
+        "label": "3",
+        "question": "অবিনাশী",
+        "answer": "মানুষের নশ্বর দেহ ধ্বংস হলেও তার সৎকীর্তি চিরকাল অবিনাশী থাকে।"
+      },
+      {
+        "label": "4",
+        "question": "মূল্যবোধ",
+        "answer": "সমাজকে সুন্দর ও দুর্নীতিমুক্ত রাখতে তরুণ প্রজন্মের মধ্যে মানবিক মূল্যবোধ জাগ্রত করা প্রয়োজন।"
+      },
+      {
+        "label": "5",
+        "question": "বাতায়ন",
+        "answer": "জ্ঞানচর্চা হলো মনের বাতায়ন, যা আমাদের সংকীর্ণতার ঊর্ধ্বে উঠতে শেখায়।"
+      }
+    ],
+    "answer": null,
+    "source_pages": [
+      "page_042.md",
+      "page_043.md"
+    ]
+  },
+  {
+    "id": 36,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০১৯-২০",
+    "subject": "General English",
+    "question_no": "1",
+    "question_type": "paragraph",
+    "instruction": "Write a paragraph by analyzing the significance of “Bangabandhu Sheikh Mujibur Rahman’s Historic Speech of 7th March 1971”.",
+    "marks": null,
+    "context_passage": null,
+    "sub_questions": [],
+    "answer": "**7th March Speech of Bangabandhu**\nThe 7 March Speech of Bangabandhu was a speech given by Sheikh Mujibur Rahman, the founding father of Bangladesh on 7 March 1971 at the Race Course Maidan (now Suhrawardy Uddyan) in Dhaka to a gathering of over two million people. It was delivered during a period of escalating tensions between East Pakistan and the powerful political and military establishment of West Pakistan. In the speech, Rahman proclaimed: “This time the struggle is for our freedom, this time the struggle is for our independence.” He announced a civil disobedience movement in the province, calling for “every house to turn into a fortress”. The speech inspired the Bengali people to prepare for a war of independence amid widespread reports of armed mobilization by West Pakistan. The Bangladesh Liberation War began 18 days later, when the Pakistan Army launched Operation Searchlight against Bengali civilians, intelligentsia, students, politicians and armed personnel. On 30 October 2017, UNESCO added the speech in the Memory of the World Register as a documentary heritage.",
+    "source_pages": [
+      "page_042.md",
+      "page_043.md"
+    ]
+  },
+  {
+    "id": 37,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০১৯-২০",
+    "subject": "General English",
+    "question_no": "2",
+    "question_type": "fill_in_the_gaps",
+    "instruction": "Fill in each gap of the following passage with appropriate word(s) from the basket given below:",
+    "marks": null,
+    "context_passage": "| pollutes | discharges | waste | free | toxic |\\n| :--- | :--- | :--- | :--- | :--- |\\n| dumped | since | paid back | because of | river |\\n\\nDhaka city (a) ______ the bounty of the river Buriganga by sucking life out of it. According to newspaper report, the Buriganga is dying (b) ______ pollution. Huge quantities of (c) ______ chemicals are (d) ______ into the river every day. The city (e) ______ about 4500 tons of solid waste every day and most of it is directly released into this river.",
+    "sub_questions": [],
+    "answer": "**a)** paid back\\n**b)** because of\\n**c)** toxic\\n**d)** dumped\\n**e)** discharges",
+    "source_pages": [
+      "page_042.md",
+      "page_043.md"
+    ]
+  },
+  {
+    "id": 38,
+    "university": "ঢাকা বিশ্ববিদ্যালয়",
+    "unit": "খ",
+    "session_year": "২০১৯-২০",
+    "subject": "General English",
+    "question_no": "3",
+    "question_type": "sentence_making",
+    "instruction": "Make sentence with each of the following word: Heritage, Empowerment, Hospitality, Fascination, Integrate",
+    "marks": null,
+    "context_passage": null,
+    "sub_questions": [
+      {
+        "label": "1",
+        "question": "Heritage",
+        "answer": "The historic Sixty Dome Mosque is an invaluable part of our national heritage."
+      },
+      {
+        "label": "2",
+        "question": "Empowerment",
+        "answer": "Higher education plays a vital role in the socio-economic empowerment of women."
+      },
+      {
+        "label": "3",
+        "question": "Hospitality",
+        "answer": "The people of Bangladesh are world-renowned for their cordial hospitality towards guests."
+      },
+      {
+        "label": "4",
+        "question": "Fascination",
+        "answer": "He has nurtured an immense fascination for modern science and space technology since his boyhood."
+      },
+      {
+        "label": "5",
+        "question": "Integrate",
+        "answer": "Modern curricula strive to integrate moral values with advanced technological knowledge."
+      }
+    ],
+    "answer": null,
+    "source_pages": [
+      "page_042.md",
+      "page_043.md"
+    ]
+  }
+]

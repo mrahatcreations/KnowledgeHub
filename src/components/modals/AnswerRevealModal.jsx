@@ -21,7 +21,7 @@ export default function AnswerRevealModal({ correctAnswer, explanation, onContin
             <div className="text-[10px] text-indigo-400 font-bold uppercase tracking-widest font-mono mb-1">
               Correct Answer
             </div>
-            <div className="text-base sm:text-lg font-bold text-amber-300 font-serif break-words">
+            <div className="text-base sm:text-lg font-bold text-amber-300 font-montserrat break-words">
               {correctAnswer}
             </div>
           </div>
